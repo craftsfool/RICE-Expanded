@@ -11095,7 +11095,8 @@ north_atlantic.0090 = {
 								template = RICE_gaelic_thrall_template
 								save_scope_as = thrall
 								culture = culture:irish
-								faith = faith:insular_celtic
+								faith = rite:insular_celtic.faith
+								rite = rite:insular_celtic
 							}				
 						}
 						30 = {
@@ -11540,7 +11541,8 @@ north_atlantic.0091 = {
 								gender_female_chance = 100
 								save_scope_as = thrall
 								culture = culture:irish
-								faith = faith:insular_celtic
+								faith = rite:insular_celtic.faith
+								rite = rite:insular_celtic
 							}				
 						}
 						30 = {

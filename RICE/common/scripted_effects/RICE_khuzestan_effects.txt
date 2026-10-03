@@ -63,19 +63,19 @@ RICE_setup_khuzestan_flavor_pack_effect = {
 	# Technically they seem to be more Jewish influenced, but the Mandaeans have a negative view of Judaism, so it wouldn't fit gameplay-wise
 	if = {
 		limit = {
-			faith:mandeaism = {
-				has_doctrine = tenet_christian_syncretism
-				NOT = { has_doctrine = tenet_communal_identity }
+			faith:mandaean_faith = {
+				has_tenet = tenet_christian_syncretism
+				NOT = { has_tenet = tenet_communal_identity }
 			}
 		}
-		faith:mandeaism = {
-			remove_doctrine = tenet_christian_syncretism 
-			add_doctrine = tenet_communal_identity
+		faith:mandaean_faith = {
+			remove_tenet = tenet_christian_syncretism 
+			add_tenet = tenet_communal_identity
 		}
 	}
 
-	faith:mandeaism = {
-		add_doctrine = rice_baptism_purification_doctrine
+	rite:mandeaism = {
+		add_rite_doctrine = rice_baptism_purification_doctrine
 	}
 
 	if = {
@@ -97,39 +97,39 @@ RICE_setup_khuzestan_flavor_pack_effect = {
 
 	if = {
 		limit = {
-			faith:valentinianism = {
-				has_doctrine = tenet_esotericism
-				NOT = { has_doctrine = tenet_christian_syncretism }
+			faith:gnostic_faith = {
+				has_tenet = tenet_esotericism
+				NOT = { has_tenet = tenet_christian_syncretism }
 			}
 		}
-		faith:valentinianism = {
-			remove_doctrine = tenet_esotericism 
-			add_doctrine = tenet_christian_syncretism
+		faith:gnostic_faith = {
+			remove_tenet = tenet_esotericism 
+			add_tenet = tenet_christian_syncretism
 		}
 	}
 
-	faith:valentinianism = {	
-		add_doctrine = rice_baptism_purification_doctrine	
+	rite:valentinianism = {	
+		add_rite_doctrine = rice_baptism_purification_doctrine	
 	}
 
-	faith:manichean = {		
-		add_doctrine = rice_light_purification_doctrine	
+	rite:manichean = {		
+		add_rite_doctrine = rice_light_purification_doctrine	
 	}
 
-	faith:priscillianism = {		
-		add_doctrine = rice_food_purification_doctrine	
+	rite:priscillianism = {		
+		add_rite_doctrine = rice_food_purification_doctrine	
 	}
 
 	faith:paulician = {		
 		add_doctrine = rice_food_purification_doctrine	
 	}
 
-	faith:mingism = {
-		add_doctrine = rice_light_purification_doctrine	
+	rite:mingism = {
+		add_rite_doctrine = rice_light_purification_doctrine	
 	}
 
-	faith:cainitism = {
-		add_doctrine = rice_prayer_love_doctrine	
+	rite:cainitism = {
+		add_rite_doctrine = rice_prayer_love_doctrine	
 	}
 
 	
@@ -216,11 +216,11 @@ RICE_setup_khuzestan_flavor_pack_effect = {
 			is_dharmachakra_loaded = no
 		}	
 		title:c_wasit = {
-			set_county_faith = faith:mandeaism
+			set_county_rite = rite:mandeaism
 			set_county_culture = culture:nabati # Mandaean Aramaic Speakers
 		}	
 		title:c_tib = {
-			set_county_faith = faith:mandeaism
+			set_county_rite = rite:mandeaism
 			set_county_culture = culture:nabati # Mandaean Aramaic Speakers
 		}
 	}

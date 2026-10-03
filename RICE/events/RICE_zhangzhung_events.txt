@@ -45,7 +45,8 @@ zhangzhung.0001 = {
 				location = root.capital_province
 				template = RICE_random_experienced_male_monk_template
 				culture = culture:bodpa
-				faith = faith:lamaism
+				faith = faith:vajrayana_faith
+				rite = rite:lamaism
 				save_scope_as = milarepa
 			}	
 			scope:milarepa = {				
@@ -806,13 +807,13 @@ zhangzhung.0018 = {
 			}
 			triggered_desc = {
 				trigger = {
-					faith = faith:manichean
+					rite = rite:manichean
 				}
 				desc = zhangzhung.0018.desc.manichean
 			}
 			triggered_desc = {
 				trigger = {
-					faith = faith:shaivism
+					rite = rite:shaivism
 				}
 				desc = zhangzhung.0018.desc.shaivism
 			}
@@ -830,7 +831,7 @@ zhangzhung.0018 = {
 			}
 			triggered_desc = {
 				trigger = {
-					faith = faith:maturidi
+					rite = rite:hanafi
 				}
 				desc = zhangzhung.0018.desc.maturidi
 			}
@@ -854,7 +855,7 @@ zhangzhung.0018 = {
 	immediate = {
 		if = {
 			limit = {
-				faith = faith:lamaism
+				rite = rite:lamaism
 			}
 			show_as_tooltip = { RICE_convert_from_bon_lamaism_effect = yes }
 			show_as_tooltip = { RICE_convert_from_bon_general_effect = yes }
@@ -882,14 +883,14 @@ zhangzhung.0018 = {
 		}
 		else_if = {
 			limit = {
-				faith = faith:manichean
+				rite = rite:manichean
 			}
 			show_as_tooltip = { RICE_convert_from_bon_manichean_effect = yes }
 			show_as_tooltip = { RICE_convert_from_bon_general_effect = yes }
 		}
 		else_if = {
 			limit = {
-				faith = faith:shaivism
+				rite = rite:shaivism
 			}
 			show_as_tooltip = { RICE_convert_from_bon_shaivism_effect = yes }
 			show_as_tooltip = { RICE_convert_from_bon_general_effect = yes }
@@ -910,7 +911,7 @@ zhangzhung.0018 = {
 		}
 		else_if = {
 			limit = {
-				faith = faith:maturidi
+				rite = rite:hanafi
 			}
 			show_as_tooltip = { RICE_convert_from_bon_maturidi_effect = yes }
 			show_as_tooltip = { RICE_convert_from_bon_general_effect = yes }
@@ -956,7 +957,8 @@ zhangzhung.0020 = {
 				location = root.capital_province
 				template = terton_template
 				culture = culture:bodpa
-				faith = faith:lamaism
+				faith = faith:vajrayana_faith
+				rite = rite:lamaism
 			}		
 		}
 	}

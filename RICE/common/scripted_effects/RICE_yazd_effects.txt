@@ -218,10 +218,10 @@
 		# Religion
 				
 		title:c_bam = {
-			set_county_faith = faith:azariqa
+			set_county_rite = rite:azariqa
 		}				
 		title:c_jiruft = {
-			set_county_faith = faith:azariqa
+			set_county_rite = rite:azariqa
 		}
 		
 		# Characters

@@ -348,7 +348,7 @@ RICE_setup_sri_lanka_flavor_pack_effect = {
 			every_courtier = {
 				limit = {
 					OR = {
-						faith = faith:ari
+						rite = rite:ari
 						culture = { has_cultural_pillar = heritage_burman }
 					}
 				}
@@ -366,7 +366,7 @@ RICE_setup_sri_lanka_flavor_pack_effect = {
 			every_courtier = {
 				limit = {
 					OR = {
-						faith = faith:ari
+						rite = rite:ari
 						culture = { has_cultural_pillar = heritage_burman }
 					}
 				}
@@ -384,7 +384,7 @@ RICE_setup_sri_lanka_flavor_pack_effect = {
 			every_courtier = {
 				limit = {
 					OR = {
-						faith = faith:ari
+						rite = rite:ari
 						culture = { has_cultural_pillar = heritage_burman }
 					}
 				}
@@ -774,7 +774,7 @@ RICE_setup_sri_lanka_flavor_pack_effect = {
 
 	# There were more Tamil Buddhists historically, but it's not possible to split the Tamils on Sri Lanka
 	title:c_jaffna = {
-		set_county_faith = faith:srikula_shaktism
+		set_county_rite = rite:srikula_shaktism
 		holder = {
 			every_courtier_or_guest = {
 				limit = {
@@ -784,7 +784,7 @@ RICE_setup_sri_lanka_flavor_pack_effect = {
 				}
 				random = {
 					chance = 60
-					set_character_faith = faith:srikula_shaktism
+					set_character_rite = rite:srikula_shaktism
 				}
 			}
 		}

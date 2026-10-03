@@ -1583,7 +1583,7 @@ mayo.0053 = {
 				limit = {
 					religion = religion:christianity_religion
 				}
-				faith = {
+				rite = {
 					save_scope_as = county_faith
 				}
 			}
@@ -1591,12 +1591,12 @@ mayo.0053 = {
 		else = {
 			random_list = {
 				75 = {
-					faith:catholic = {
+					faith:catholic.main_rite = {
 						save_scope_as = county_faith
 					}
 				}
 				25 = {
-					faith:insular_celtic = {
+					rite:insular_celtic = {
 						save_scope_as = county_faith
 					}
 				}
@@ -1635,7 +1635,8 @@ mayo.0053 = {
 			location = root.capital_province
 			template = RICE_random_monk_or_nun_template
 			culture = scope:county_culture
-			faith = scope:county_faith
+			faith = scope:county_faith.faith
+			rite = scope:county_faith
 			save_scope_as = saxon_monk
 		}	
 		hidden_effect = {

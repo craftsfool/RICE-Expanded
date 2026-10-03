@@ -1036,7 +1036,8 @@ bamian.0052 = {
 					template = xuanzang_pilgrim_template
 					save_scope_as = monk
 					culture = culture:bodpa
-					faith = faith:lamaism
+					faith = faith:vajrayana_faith
+					rite = rite:lamaism
 				}				
 			}
 			10 = {
@@ -1083,13 +1084,13 @@ bamian.0052 = {
 				}
 				random_list = {
 					10 = {
-						scope:monk = { set_character_faith = faith:pundarika }
-						scope:monk = { set_character_faith = faith:mantrayana }
-						scope:monk = { set_character_faith = faith:dhyana }
-						scope:monk = { set_character_faith = faith:sukhavati }
-						scope:monk = { set_character_faith = faith:avatamsaka }
-						scope:monk = { set_character_faith = faith:vinaya }
-						scope:monk = { set_character_faith = faith:yogacara }
+						scope:monk = { set_character_rite = rite:pundarika }
+						scope:monk = { set_character_rite = rite:mantrayana }
+						scope:monk = { set_character_rite = rite:dhyana }
+						scope:monk = { set_character_rite = rite:sukhavati }
+						scope:monk = { set_character_rite = rite:avatamsaka }
+						scope:monk = { set_character_rite = rite:vinaya }
+						scope:monk = { set_character_rite = rite:yogacara }
 					}
 				}
 			}

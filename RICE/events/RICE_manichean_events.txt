@@ -435,7 +435,7 @@ manichean.0006 = {
 		}
 		save_scope_as = discoverer
 		play_music_cue = "mx_cue_epic_sacral_moment"
-		faith:manichean = {
+		faith:manichaean_faith = {
 			save_scope_as = manichean_faith
 		}
 		culture:assyrian = {
@@ -806,11 +806,14 @@ manichean.0013 = {
 		scope:county.faith = {
 			save_scope_as = new_faith
 		}
+		scope:county.rite = {
+			save_scope_as = new_rite
+		}
 	}
 	
 	option = { # Ok
 		name = manichean.0013.a
-		set_character_faith_with_conversion = scope:new_faith
+		set_character_rite_with_conversion = scope:new_rite
 		ai_chance = {
 			base = 25
 			modifier = {
@@ -1110,7 +1113,7 @@ manichean.0016 = {
 	
 	option = { # Ok
 		name = manichean.0016.a
-		set_character_faith_with_conversion = scope:new_faith
+		set_character_rite_with_conversion = scope:new_rite
 	}
 
 }

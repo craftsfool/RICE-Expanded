@@ -4,7 +4,7 @@
 		is_playable_character = yes
 		OR = {
 			faith = { has_doctrine = rice_west_iranian_yarsani_doctrine }
-			faith = faith:alevi
+			rite = rite:alevi
 		}
 		trigger_if = {
 			limit = {
@@ -18,7 +18,7 @@
 	can_start = {
 		OR = {
 			faith = { has_doctrine = rice_west_iranian_yarsani_doctrine }
-			faith = faith:alevi
+			rite = rite:alevi
 		}
 	}
 

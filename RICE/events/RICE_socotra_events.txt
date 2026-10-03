@@ -164,7 +164,7 @@ socotra.0001 = {
 						10 = { }
 						10 = { set_character_faith = faith:mahayana_faith }
 						10 = { set_character_faith = faith:mazdayasna }
-						10 = { set_character_faith = faith:manichean }
+						10 = { set_character_rite = rite:manichean }
 						10 = {
 							trigger = {
 								NOT = { has_global_variable = RICE_game_started_on_TFE_start_date }
@@ -175,7 +175,7 @@ socotra.0001 = {
 							trigger = {
 								NOT = { has_global_variable = RICE_game_started_on_TFE_start_date }
 							}
-							set_character_faith = faith:maturidi
+							set_character_rite = rite:hanafi
 						}
 						10 = {
 							trigger = {
@@ -254,13 +254,13 @@ socotra.0001 = {
 					# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 					random_list = {
 						10 = { }
-						25 = { set_character_faith = faith:vaishnavism }
-						25 = { set_character_faith = faith:advaitism }
-						25 = { set_character_faith = faith:shaivism }
-						25 = { set_character_faith = faith:srikula_shaktism }
-						25 = { set_character_faith = faith:kalikula_shaktism }
+						25 = { set_character_rite = rite:vaishnavism }
+						25 = { set_character_rite = rite:advaitism }
+						25 = { set_character_rite = rite:shaivism }
+						25 = { set_character_rite = rite:srikula_shaktism }
+						25 = { set_character_rite = rite:kalikula_shaktism }
 						25 = { set_character_faith = faith:smartism }
-						25 = { set_character_faith = faith:krishnaism }
+						25 = { set_character_rite = rite:krishnaism }
 						10 = { set_character_faith = faith:theravada_faith }
 						10 = { set_character_faith = faith:vajrayana_faith }
 						10 = { set_character_faith = faith:mahayana_faith }
@@ -274,7 +274,7 @@ socotra.0001 = {
 							trigger = {
 								NOT = { has_global_variable = RICE_game_started_on_TFE_start_date }
 							}
-							set_character_faith = faith:maturidi
+							set_character_rite = rite:hanafi
 						}
 						10 = {
 							trigger = {
@@ -302,7 +302,7 @@ socotra.0001 = {
 							# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 							random_list = {
 								10 = { }
-								40 = { set_character_faith = faith:coptic }
+								40 = { set_character_faith = faith:miaphysitism }
 							}
 						}
 					}
@@ -399,7 +399,7 @@ socotra.0001 = {
 								10 = { }
 								10 = { set_character_faith = faith:mahayana_faith }
 								10 = { set_character_faith = faith:mazdayasna }
-								10 = { set_character_faith = faith:manichean }
+								10 = { set_character_rite = rite:manichean }
 								10 = {
 									trigger = {
 										NOT = { has_global_variable = RICE_game_started_on_TFE_start_date }
@@ -410,7 +410,7 @@ socotra.0001 = {
 									trigger = {
 										NOT = { has_global_variable = RICE_game_started_on_TFE_start_date }
 									}
-									set_character_faith = faith:maturidi
+									set_character_rite = rite:hanafi
 								}
 								10 = {
 									trigger = {
@@ -494,19 +494,19 @@ socotra.0001 = {
 							# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 							random_list = {
 								10 = { }
-								25 = { set_character_faith = faith:vaishnavism }
-								25 = { set_character_faith = faith:advaitism }
-								25 = { set_character_faith = faith:shaivism }
-								25 = { set_character_faith = faith:srikula_shaktism }
-								25 = { set_character_faith = faith:kalikula_shaktism }
+								25 = { set_character_rite = rite:vaishnavism }
+								25 = { set_character_rite = rite:advaitism }
+								25 = { set_character_rite = rite:shaivism }
+								25 = { set_character_rite = rite:srikula_shaktism }
+								25 = { set_character_rite = rite:kalikula_shaktism }
 								25 = { set_character_faith = faith:smartism }
-								25 = { set_character_faith = faith:krishnaism }
+								25 = { set_character_rite = rite:krishnaism }
 								10 = { set_character_faith = faith:theravada_faith }
 								10 = { set_character_faith = faith:vajrayana_faith }
 								10 = { set_character_faith = faith:mahayana_faith }
 								10 = { set_character_faith = faith:nestorian }
 								10 = { set_character_faith = faith:sunni }
-								10 = { set_character_faith = faith:maturidi }
+								10 = { set_character_rite = rite:hanafi }
 							}
 						}
 					}				
@@ -529,7 +529,7 @@ socotra.0001 = {
 									# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 									random_list = {
 										10 = { }
-										40 = { set_character_faith = faith:coptic }
+										40 = { set_character_faith = faith:miaphysitism }
 									}
 								}
 							}
@@ -891,7 +891,8 @@ socotra.0010 = {
 					template = socotran_runaway_slave_character_template
 					save_scope_as = scope_RICE_socotran_spawn_runaway_slave
 					culture = culture:ethiopian
-					faith = faith:coptic
+					faith = faith:miaphysitism
+					rite = rite:ethiopian_rite
 				}			
 			}
 			50 = {
@@ -909,7 +910,8 @@ socotra.0010 = {
 					template = socotran_runaway_slave_character_template
 					save_scope_as = scope_RICE_socotran_spawn_runaway_slave
 					culture = culture:nubian
-					faith = faith:coptic
+					faith = faith:miaphysitism
+					rite = rite:nubian_rite
 				}			
 			}
 			10 = {
@@ -1048,7 +1050,8 @@ socotra.0011 = {
 					template = socotran_runaway_slave_female_character_template
 					save_scope_as = scope_RICE_socotran_spawn_runaway_slave_female
 					culture = culture:ethiopian
-					faith = faith:coptic
+					faith = faith:miaphysitism
+					rite = rite:ethiopian_rite
 				}			
 			}
 			50 = {
@@ -1066,7 +1069,8 @@ socotra.0011 = {
 					template = socotran_runaway_slave_female_character_template
 					save_scope_as = scope_RICE_socotran_spawn_runaway_slave_female
 					culture = culture:nubian
-					faith = faith:coptic
+					faith = faith:miaphysitism
+					rite = rite:nubian_rite
 				}			
 			}
 			10 = {
@@ -1431,7 +1435,7 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:egyptian
-					faith = faith:coptic
+					faith = faith:miaphysitism
 				}				
 			}
 			20 = {
@@ -1464,7 +1468,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:ethiopian
-					faith = faith:coptic
+					faith = faith:miaphysitism
+					rite = rite:ethiopian_rite
 				}				
 			}
 			10 = {
@@ -1491,7 +1496,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:persian
-					faith = faith:maturidi
+					faith = faith:sunni
+					rite = rite:hanafi
 					after_creation = {
 						# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 						if = {
@@ -1518,7 +1524,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:sogdian
-					faith = faith:manichean
+					faith = faith:manichaean_faith
+					rite = rite:manichean
 				}				
 			}
 			10 = {
@@ -1536,7 +1543,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:khwarezmian
-					faith = faith:manichean
+					faith = faith:manichaean_faith
+					rite = rite:manichean
 				}				
 			}
 			10 = {
@@ -1590,7 +1598,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:gujarati
-					faith = faith:kalikula_shaktism
+					faith = faith:shakta_faith
+					rite = rite:kalikula_shaktism
 				}				
 			}
 			10 = {
@@ -1608,7 +1617,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:tamil
-					faith = faith:vaishnavism
+					faith = faith:vaishnava_faith
+					rite = rite:vaishnavism
 				}				
 			}
 			10 = {
@@ -1617,7 +1627,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:telugu
-					faith = faith:shaivism
+					faith = faith:shaiva_faith
+					rite = rite:shaivism
 				}				
 			}
 			10 = {
@@ -1626,7 +1637,8 @@ socotra.0013 = {
 					template = indian_ocean_merchant_template
 					save_scope_as = scope_RICE_socotran_merchant_spawn
 					culture = culture:kannada
-					faith = faith:shaivism
+					faith = faith:shaiva_faith
+					rite = rite:shaivism
 				}				
 			}
 			20 = {
@@ -1850,7 +1862,7 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:egyptian
-					faith = faith:coptic
+					faith = faith:miaphysitism
 				}				
 			}
 			20 = {
@@ -1883,7 +1895,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:ethiopian
-					faith = faith:coptic
+					faith = faith:miaphysitism
+					rite = rite:ethiopian_rite
 				}				
 			}
 			10 = {
@@ -1910,7 +1923,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:persian
-					faith = faith:maturidi
+					faith = faith:sunni
+					rite = rite:hanafi
 					after_creation = {
 						# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 						if = {
@@ -1937,7 +1951,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:sogdian
-					faith = faith:manichean
+					faith = faith:manichaean_faith
+					rite = rite:manichean
 				}				
 			}
 			10 = {
@@ -1955,7 +1970,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:khwarezmian
-					faith = faith:manichean
+					faith = faith:manichaean_faith
+					rite = rite:manichean
 				}				
 			}
 			10 = {
@@ -2009,7 +2025,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:gujarati
-					faith = faith:kalikula_shaktism
+					faith = faith:shakta_faith
+					rite = rite:kalikula_shaktism
 				}				
 			}
 			10 = {
@@ -2027,7 +2044,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:tamil
-					faith = faith:vaishnavism
+					faith = faith:vaishnava_faith
+					rite = rite:vaishnavism
 				}				
 			}
 			10 = {
@@ -2036,7 +2054,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:telugu
-					faith = faith:shaivism
+					faith = faith:shaiva_faith
+					rite = rite:shaivism
 				}				
 			}
 			10 = {
@@ -2045,7 +2064,8 @@ socotra.0014 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_sailor_spawn
 					culture = culture:kannada
-					faith = faith:shaivism
+					faith = faith:shaiva_faith
+					rite = rite:shaivism
 				}				
 			}
 			20 = {
@@ -2267,7 +2287,7 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:egyptian
-					faith = faith:coptic
+					faith = faith:miaphysitism
 				}				
 			}
 			20 = {
@@ -2300,7 +2320,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:ethiopian
-					faith = faith:coptic
+					faith = faith:miaphysitism
+					rite = rite:ethiopian_rite
 				}				
 			}
 			10 = {
@@ -2327,7 +2348,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:persian
-					faith = faith:maturidi
+					faith = faith:sunni
+					rite = rite:hanafi
 					after_creation = {
 						# Set religion randomly - Hindu, Buddhist, Nestorian, Muslim, or Socotran ruler's religion (if it's something else)
 						if = {
@@ -2354,7 +2376,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:sogdian
-					faith = faith:manichean
+					faith = faith:manichaean_faith
+					rite = rite:manichean
 				}				
 			}
 			10 = {
@@ -2372,7 +2395,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:khwarezmian
-					faith = faith:manichean
+					faith = faith:manichaean_faith
+					rite = rite:manichean
 				}				
 			}
 			10 = {
@@ -2426,7 +2450,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:gujarati
-					faith = faith:kalikula_shaktism
+					faith = faith:shakta_faith
+					rite = rite:kalikula_shaktism
 				}				
 			}
 			10 = {
@@ -2444,7 +2469,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:tamil
-					faith = faith:vaishnavism
+					faith = faith:vaishnava_faith
+					rite = rite:vaishnavism
 				}				
 			}
 			10 = {
@@ -2453,7 +2479,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:telugu
-					faith = faith:shaivism
+					faith = faith:shaiva_faith
+					rite = rite:shaivism
 				}				
 			}
 			10 = {
@@ -2462,7 +2489,8 @@ socotra.0015 = {
 					template = indian_ocean_sailor_template
 					save_scope_as = scope_RICE_socotran_traveler_spawn
 					culture = culture:kannada
-					faith = faith:shaivism
+					faith = faith:shaiva_faith
+					rite = rite:shaivism
 				}				
 			}
 			20 = {

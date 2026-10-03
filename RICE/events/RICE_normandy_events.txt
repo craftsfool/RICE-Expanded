@@ -8468,7 +8468,7 @@ normandy.0080 = {
 				list = christian_counties
 				save_scope_as = thrall_county
 			}
-			scope:thrall_county.faith = {
+			scope:thrall_county.rite = {
 				save_scope_as = thrall_faith
 			}
 			scope:thrall_county.culture = {
@@ -8483,7 +8483,7 @@ normandy.0080 = {
 					culture:anglo_saxon = {
 						save_scope_as = thrall_culture
 					}
-					faith:catholic = {
+					faith:catholic.main_rite = {
 						save_scope_as = thrall_faith
 					}
 				}
@@ -8492,7 +8492,7 @@ normandy.0080 = {
 					culture:irish = {
 						save_scope_as = thrall_culture
 					}
-					faith:insular_celtic = {
+					rite:insular_celtic = {
 						save_scope_as = thrall_faith
 					}
 				}
@@ -8502,7 +8502,8 @@ normandy.0080 = {
 		create_character = {
 			location = root.location
 			template = RICE_christian_thrall_template
-			faith = scope:thrall_faith
+			faith = scope:thrall_faith.faith
+			rite = scope:thrall_faith
 			culture = scope:thrall_culture
 			save_scope_as = thrall
 		}
@@ -9187,7 +9188,7 @@ normandy.0084 = {
 					list = christian_counties
 					save_scope_as = thrall_county
 				}
-				scope:thrall_county.faith = {
+				scope:thrall_county.rite = {
 					save_scope_as = thrall_faith
 				}
 				scope:thrall_county.culture = {
@@ -9202,7 +9203,7 @@ normandy.0084 = {
 						culture:anglo_saxon = {
 							save_scope_as = thrall_culture
 						}
-						faith:catholic = {
+						faith:catholic.main_rite = {
 							save_scope_as = thrall_faith
 						}
 					}
@@ -9211,7 +9212,7 @@ normandy.0084 = {
 						culture:irish = {
 							save_scope_as = thrall_culture
 						}
-						faith:insular_celtic = {
+						rite:insular_celtic = {
 							save_scope_as = thrall_faith
 						}
 					}
@@ -9253,7 +9254,8 @@ normandy.0084 = {
 			create_character = {
 				location = root.location
 				template = RICE_christian_thrall_template
-				faith = scope:thrall_faith
+				faith = scope:thrall_faith.faith
+				rite = scope:thrall_faith
 				culture = scope:thrall_culture
 				save_scope_as = interpreter
 			}

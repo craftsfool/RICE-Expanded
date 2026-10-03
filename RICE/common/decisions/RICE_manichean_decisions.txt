@@ -722,7 +722,7 @@ RICE_manichean_convert_away_decision = {
 		item = {
 			value = RICE_manichean_convert_to_nangchos
 			is_valid = {
-				NOT = { faith = faith:lamaism }
+				NOT = { rite = rite:lamaism }
 			}
 			current_description = RICE_manichean_convert_to_nangchos_desc
 			localization = RICE_manichean_convert_to_nangchos_name
@@ -792,7 +792,7 @@ RICE_manichean_convert_away_decision = {
 		item = {
 			value = RICE_manichean_convert_to_maturidi
 			is_valid = { 
-				NOT = { faith = faith:maturidi }
+				NOT = { rite = rite:hanafi }
 			}
 			current_description = RICE_manichean_convert_to_maturidi_desc
 			localization = RICE_manichean_convert_to_maturidi_name
@@ -825,38 +825,38 @@ RICE_manichean_convert_away_decision = {
 			limit = { is_ai = yes }
 			random_list = {
 				40 = {
-					faith:lamaism = {
-						save_scope_as = new_faith
+					rite:lamaism = {
+						save_scope_as = new_rite
 					}
 				}
 				40 = {
-					faith:mahayana_faith = {
-						save_scope_as = new_faith
+					faith:mahayana_faith.main_rite = {
+						save_scope_as = new_rite
 					}
 				}
 				40 = {
-					faith:vajrayana_faith = {
-						save_scope_as = new_faith
+					faith:vajrayana_faith.main_rite = {
+						save_scope_as = new_rite
 					}
 				}
 				10 = {
-					faith:zhengyi = {
-						save_scope_as = new_faith
+					faith:zhengyi.main_rite = {
+						save_scope_as = new_rite
 					}
 				}
 				10 = {
-					faith:nestorian = {
-						save_scope_as = new_faith
+					faith:nestorian.main_rite = {
+						save_scope_as = new_rite
 					}
 				}
 				5 = {
-					faith:maturidi = {
-						save_scope_as = new_faith
+					rite:hanafi = {
+						save_scope_as = new_rite
 					}
 				}
 				5 = {
-					faith:khurmazta = {
-						save_scope_as = new_faith
+					faith:khurmazta.main_rite = {
+						save_scope_as = new_rite
 					}
 				}
 			}
@@ -865,51 +865,54 @@ RICE_manichean_convert_away_decision = {
 			limit = {
 				scope:RICE_manichean_convert_to_nangchos = yes
 			}
-			faith:lamaism = {
-				save_scope_as = new_faith
+			rite:lamaism = {
+				save_scope_as = new_rite
 			}
 		}
 		else_if = {
 			limit = {
 				scope:RICE_manichean_convert_to_mahayana = yes
 			}
-			faith:mahayana_faith = {
-				save_scope_as = new_faith
+			faith:mahayana_faith.main_rite = {
+				save_scope_as = new_rite
 			}
 		}
 		else_if = {
 			limit = {
 				scope:RICE_manichean_convert_to_vajrayana = yes
 			}
-			faith:vajrayana_faith = {
-				save_scope_as = new_faith
+			faith:vajrayana_faith.main_rite = {
+				save_scope_as = new_rite
 			}
 		}
 		else_if = {
 			limit = {
 				scope:RICE_manichean_convert_to_nestorian = yes
 			}
-			faith:nestorian = {
-				save_scope_as = new_faith
+			faith:nestorian.main_rite = {
+				save_scope_as = new_rite
 			}
 		}
 		else_if = {
 			limit = {
 				scope:RICE_manichean_convert_to_maturidi = yes
 			}
-			faith:maturidi = {
-				save_scope_as = new_faith
+			rite:hanafi = {
+				save_scope_as = new_rite
 			}
 		}
 		else_if = {
 			limit = {
 				scope:RICE_manichean_convert_to_khurmazta = yes
 			}
-			faith:khurmazta = {
-				save_scope_as = new_faith
+			faith:khurmazta.main_rite = {
+				save_scope_as = new_rite
 			}
 		}
 
+		scope:new_rite.faith = {
+			save_scope_as = new_faith
+		}
 		custom_tooltip = RICE_manichean_convert_away_decision_effect_tooltip_1
 
 		trigger_event = manichean.0016

@@ -12,24 +12,21 @@
 	#
 	############################################################
 
-    faith:insular_celtic = {
+    rite:insular_celtic = {
         # Independent diocese structure, abbeys controlled by dynasties
         if = {
-            limit = { has_doctrine = doctrine_clerical_succession_spiritual_fixed_appointment }
-            remove_doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
-            add_doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+            limit = { rite_has_doctrine = doctrine_clerical_succession_spiritual_fixed_appointment }
+            change_rite_doctrine = doctrine_clerical_succession_temporal_fixed_appointment
         }
         # Martial priests
         if = {
-            limit = { has_doctrine = doctrine_clerical_function_alms_and_pacification }
-            remove_doctrine = doctrine_clerical_function_alms_and_pacification
-            add_doctrine = doctrine_clerical_function_recruitment
+            limit = { rite_has_doctrine = doctrine_clerical_function_alms_and_pacification }
+            change_rite_doctrine = doctrine_clerical_function_recruitment
         }
         # Secular divorce
         if = {
-            limit = { has_doctrine = doctrine_divorce_approval }
-            remove_doctrine = doctrine_divorce_approval
-            add_doctrine = doctrine_divorce_allowed
+            limit = { rite_has_doctrine = doctrine_divorce_approval }
+            change_rite_doctrine = doctrine_divorce_allowed
         }
     }	
 

@@ -496,12 +496,12 @@ RICE_setup_north_atlantic_flavor_pack_effect = {
 					}
 				}
 			}
-			set_character_faith = faith:insular_celtic
+			set_character_rite = rite:insular_celtic
 			every_courtier = {
 				limit = {
 					faith = faith:catholic
 				}
-				set_character_faith = faith:insular_celtic
+				set_character_rite = rite:insular_celtic
 			}
 		}
 	}

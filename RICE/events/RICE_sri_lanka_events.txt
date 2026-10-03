@@ -886,24 +886,24 @@ sri_lanka.0010 = {
 					}
 					save_scope_as = indian_county
 				}
-				scope:indian_county.faith = {
+				scope:indian_county.rite = {
 					save_scope_as = indian_faith
 				}
 			}
 			else = {
 				random_list = {
 					10 = {
-						faith:mahayana_faith = {
+						faith:mahayana_faith.main_rite = {
 							save_scope_as = indian_faith
 						}
 					}
 					10 = {
-						faith:theravada_faith = {
+						faith:theravada_faith.main_rite = {
 							save_scope_as = indian_faith
 						}
 					}
 					10 = {
-						faith:vajrayana_faith = {
+						faith:vajrayana_faith.main_rite = {
 							save_scope_as = indian_faith
 						}
 					}
@@ -1010,7 +1010,7 @@ sri_lanka.0010 = {
 				limit = {
 					NOT = { religion = religion:buddhism_religion }
 				}
-				set_county_faith = scope:indian_faith
+				set_county_rite = scope:indian_faith
 			}
 			# DO NOT REMOVE, THIS IS FOR COMPATIBILITY WITH RICE!!!
 			RICE_sri_lanka_struggle_land_grant_buddhist_effect = yes
@@ -1038,44 +1038,44 @@ sri_lanka.0010 = {
 					}
 					save_scope_as = indian_county
 				}
-				scope:indian_county.faith = {
+				scope:indian_county.rite = {
 					save_scope_as = indian_faith
 				}
 			}
 			else = {
 				random_list = {
 					10 = {
-						faith:vaishnavism = {
+						rite:vaishnavism = {
 							save_scope_as = indian_faith
 						}
 					}
 					10 = {
-						faith:advaitism = {
+						rite:advaitism = {
 							save_scope_as = indian_faith
 						}
 					}
 					10 = {
-						faith:shaivism = {
+						rite:shaivism = {
 							save_scope_as = indian_faith
 						}
 					}
 					10 = {
-						faith:srikula_shaktism = {
+						rite:srikula_shaktism = {
 							save_scope_as = indian_faith
 						}
 					}
 					10 = {
-						faith:kalikula_shaktism = {
+						rite:kalikula_shaktism = {
 							save_scope_as = indian_faith
 						}
 					}
 					10 = {
-						faith:smartism = {
+						faith:smartism.main_rite = {
 							save_scope_as = indian_faith
 						}
 					}
 					10 = {
-						faith:krishnaism = {
+						rite:krishnaism = {
 							save_scope_as = indian_faith
 						}
 					}
@@ -1182,7 +1182,7 @@ sri_lanka.0010 = {
 				limit = {
 					NOT = { religion = religion:hinduism_religion }
 				}
-				set_county_faith = scope:indian_faith
+				set_county_rite = scope:indian_faith
 			}
 			# DO NOT REMOVE, THIS IS FOR COMPATIBILITY WITH RICE!!!
 			RICE_sri_lanka_struggle_land_grant_non_buddhist_effect = yes
@@ -1214,12 +1214,12 @@ sri_lanka.0010 = {
 					}
 					save_scope_as = indian_county
 				}
-				scope:indian_county.faith = {
+				scope:indian_county.rite = {
 					save_scope_as = indian_faith
 				}
 			}
 			else = {
-				faith:jain_faith = {
+				faith:jain_faith.main_rite = {
 					save_scope_as = indian_faith
 				}
 				# random_list = {
@@ -1337,7 +1337,7 @@ sri_lanka.0010 = {
 				limit = {
 					NOT = { religion = religion:jainism_religion }
 				}
-				set_county_faith = scope:indian_faith
+				set_county_rite = scope:indian_faith
 			}
 			# DO NOT REMOVE, THIS IS FOR COMPATIBILITY WITH RICE!!!
 			RICE_sri_lanka_struggle_land_grant_buddhist_effect = yes

@@ -685,7 +685,7 @@ RICE_yazd_enlist_jays_al_sorat = {
 		OR = {
 			any_held_title = {
 				tier = tier_county
-				faith = faith:azariqa
+				rite = rite:azariqa
 				any_county_province = {
 					geographical_region = world_middle_east_persia				
 				}
@@ -754,7 +754,7 @@ RICE_yazd_enlist_jays_al_sorat = {
 				text = RICE_yazd_enlist_county_req
 				any_held_county = {
 					#tier = tier_county
-					faith = faith:azariqa
+					rite = rite:azariqa
 					any_county_province = {
 						geographical_region = world_middle_east_persia				
 					}

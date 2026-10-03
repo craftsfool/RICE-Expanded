@@ -2667,10 +2667,10 @@ harran.0046 = {
 						random_list = {
 							10 = { set_character_faith = faith:mahayana_faith }
 							10 = { set_character_faith = faith:nestorian }
-							10 = { set_character_faith = faith:maturidi }
+							10 = { set_character_rite = rite:hanafi }
 							10 = { set_character_faith = faith:mazdayasna }
 							10 = { set_character_faith = faith:khurramism }
-							10 = { set_character_faith = faith:manichean }
+							10 = { set_character_rite = rite:manichean }
 						}
 					}				
 				}
@@ -2745,19 +2745,19 @@ harran.0046 = {
 						}
 						# Set religion randomly
 						random_list = {
-							25 = { set_character_faith = faith:vaishnavism }
-							25 = { set_character_faith = faith:advaitism }
-							25 = { set_character_faith = faith:shaivism }
-							25 = { set_character_faith = faith:srikula_shaktism }
-							25 = { set_character_faith = faith:kalikula_shaktism }
+							25 = { set_character_rite = rite:vaishnavism }
+							25 = { set_character_rite = rite:advaitism }
+							25 = { set_character_rite = rite:shaivism }
+							25 = { set_character_rite = rite:srikula_shaktism }
+							25 = { set_character_rite = rite:kalikula_shaktism }
 							25 = { set_character_faith = faith:smartism }
-							25 = { set_character_faith = faith:krishnaism }
+							25 = { set_character_rite = rite:krishnaism }
 							10 = { set_character_faith = faith:theravada_faith }
 							10 = { set_character_faith = faith:vajrayana_faith }
 							10 = { set_character_faith = faith:mahayana_faith }
 							10 = { set_character_faith = faith:nestorian }
 							10 = { set_character_faith = faith:sunni }
-							10 = { set_character_faith = faith:maturidi }
+							10 = { set_character_rite = rite:hanafi }
 						}
 					}				
 				}

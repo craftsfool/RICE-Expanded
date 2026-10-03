@@ -187,17 +187,17 @@ RICE_setup_magadha_flavor_pack_effect = {
     faith:vajrayana_faith = {
         add_doctrine = rice_vajrayana_canon_doctrine
     }
-    faith:lamaism = {
-        add_doctrine = rice_vajrayana_canon_doctrine
+    rite:lamaism = {
+        add_rite_doctrine = rice_vajrayana_canon_doctrine
     }
-    faith:ari = {
-        add_doctrine = rice_vajrayana_canon_doctrine # rice_theravada_canon_doctrine
+    rite:ari = {
+        add_rite_doctrine = rice_vajrayana_canon_doctrine # rice_theravada_canon_doctrine
     }
-    faith:mantrayana = {
-        add_doctrine = rice_vajrayana_canon_doctrine
+    rite:mantrayana = {
+        add_rite_doctrine = rice_vajrayana_canon_doctrine
     }
-    faith:acharya = {
-        add_doctrine = rice_vajrayana_canon_doctrine
+    rite:acharya = {
+        add_rite_doctrine = rice_vajrayana_canon_doctrine
     }
     faith:pudgalavada_faith = {
         add_doctrine = rice_pudgalavada_canon_doctrine

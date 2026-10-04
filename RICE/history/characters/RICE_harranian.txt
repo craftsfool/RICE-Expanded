@@ -779,7 +779,7 @@ RICE_nabati_001 = {
 	}
 	860.1.1 = {
 		effect = {
-			make_character_crypto_religionist_effect = { CRYPTO_rite = faith:south_mesopotamian_pagan }
+			make_character_crypto_religionist_effect = { CRYPTO_RELIGION = faith:south_mesopotamian_pagan }
 		} 
 	}
 	866.1.1 = {

@@ -4553,6 +4553,7 @@ RICE_sri_lanka_new_culture_or_faith_involvement_effect = {
 }
 
 # CAUSING CRASHES FOR SOME REASON
+# TODO Try to restore these after analyzing the crashes
 # RICE_sri_lanka_legend_seed_struggle_ending_effect = {
 # 	if = {
 # 		limit = {

@@ -1,7 +1,9 @@
 ﻿l_spanish:
   # Master file for all new religions added by RICE   
 
-# Misc
+# Misc
+manichaean_faith_opinion:0 "$manichaean_faith_adherent$ Opinion"
+miaphysitism_opinion:0 "$miaphysitism_adherent$ Opinion"
 fervor_gain_RICE_repopulated_patmos:0 "Repopuló la Cueva del Apocalipsis en Patmos"
 fervor_gain_RICE_restored_idol_zun:0 "Restauró el Ídolo de Zun en Zamindawar"
 fervor_gain_RICE_restored_idol_zun_aruna:0 "Restauró el Ídolo de Zun en el Monte Aruna"

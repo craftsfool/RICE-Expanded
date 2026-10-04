@@ -44,8 +44,7 @@
 		orthodox
 
 		# Muslim
-		ashari
-		muwalladi
+		sunni
 		ismaili
 		ibadi
 

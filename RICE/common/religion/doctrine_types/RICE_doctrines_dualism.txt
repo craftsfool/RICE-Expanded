@@ -107,7 +107,7 @@ rice_prayer_love_doctrine = {		# Procreation
 		NOR = {
 			doctrine:doctrine_adultery_men_accepted = { is_in_list = selected_doctrines }
 			doctrine:doctrine_adultery_women_accepted = { is_in_list = selected_doctrines }
-			doctrine:tenet_polyamory = { is_in_list = selected_doctrines }
+			tenet:tenet_polyamory = { is_in_list = selected_doctrines }
 		}
 	}	
 

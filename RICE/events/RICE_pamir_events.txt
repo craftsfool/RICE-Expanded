@@ -5016,6 +5016,12 @@ pamir.0118 = {
 		animation = personality_rational
 	}
 
+	immediate = {
+		culture:turco_hephthalite = { save_scope_as = old_culture }
+		culture:khalaj = { save_scope_as = my_new_culture }
+		culture:hephthalite = { save_scope_as = hephthalite }
+	}
+
 	option = {
 		name = pamir.0117.a
 	}

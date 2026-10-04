@@ -2,6 +2,8 @@
  # Master file for all new religions added by RICE
 
  # Misc
+ manichaean_faith_opinion:0 "$manichaean_faith_adherent$ Opinion"
+ miaphysitism_opinion:0 "$miaphysitism_adherent$ Opinion"
  fervor_gain_RICE_repopulated_patmos:0 "Repopulated the Cave of the Apocalypse on Patmos"
  fervor_gain_RICE_restored_idol_zun:0 "Restored the Idol of Zun in Zamindawar"
  fervor_gain_RICE_restored_idol_zun_aruna:0 "Restored the Idol of Zun on Mount Aruna"

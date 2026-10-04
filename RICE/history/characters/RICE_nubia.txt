@@ -589,7 +589,7 @@ RICE_nilotic_fazughli_003 = {
 # Eparch Adam is listed as Domestikos of Faras in 16 August 1200 in another document
 # This suggests to me Sirephi either was dead or no longer was in that position by then
 # This name is also the Nubian spelling of the Arabic name Sharaf; because of this, I'll make him Egyptian for funsies
-# There were nubian_rite and Muslim Egyptians active in Nubia, even as courtiers of the king, so this isn't implausble at all
+# There were Coptic and Muslim Egyptians active in Nubia, even as courtiers of the king, so this isn't implausble at all
 # Though I should note there appears to be Christian Nubians who sometimes had Arabic names, too, during this period
 RICE_nubia_eparch_coworkers_001 = {
 	name = "Sharaf" # Sirephi/Shirephi
@@ -1447,7 +1447,7 @@ RICE_nubia_misc_002 = {
 # }
 
 # Abu al-Makarim
-# nubian_rite monk and important source on the monasteries of Egypt and Nubia during his era
+# Coptic monk and important source on the monasteries of Egypt and Nubia during his era
 RICE_nubia_misc_004 = {
 	name = "Abu_al-Makarim"
 	rite = "nubian_rite"

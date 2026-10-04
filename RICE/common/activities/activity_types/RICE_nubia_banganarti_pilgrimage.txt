@@ -890,6 +890,8 @@
 	#
 	#################
 
+	header_background = "gfx/interface/illustrations/activity_header_backgrounds/activity_RICE_nubia_banganarti_pilgrimage.dds"
+
 	# Travel
 	# RICE_background_red_sea_beach
 	background = {

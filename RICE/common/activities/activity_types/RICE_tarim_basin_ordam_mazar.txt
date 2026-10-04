@@ -506,6 +506,8 @@
 	# 	ambience = "event:/SFX/Events/Backgrounds/town_market_middleeastern_day"
 	# }
 
+	header_background = "gfx/interface/illustrations/activity_header_backgrounds/activity_RICE_tarim_basin_ordam_mazar.dds"
+
 	# Travel
 	background = {
 		trigger = {

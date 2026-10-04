@@ -733,6 +733,8 @@
 	#
 	#################
 
+	header_background = "gfx/interface/illustrations/activity_header_backgrounds/activity_RICE_khuzestan_tomb_of_daniel_pilgrimage.dds"
+
 	# Travel
 	background = {
 		trigger = {

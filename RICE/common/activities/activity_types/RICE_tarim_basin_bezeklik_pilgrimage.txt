@@ -689,6 +689,8 @@
 	#
 	#################
 
+	header_background = "gfx/interface/illustrations/activity_header_backgrounds/activity_RICE_tarim_basin_bezeklik_pilgrimage.dds"
+
 	# Travel
 	background = {
 		trigger = {

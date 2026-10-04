@@ -594,6 +594,8 @@
 	# }
 
 
+	header_background = "gfx/interface/illustrations/activity_header_backgrounds/activity_RICE_manichean_bema_festival.dds"
+
 	#Fallback
 	background = {
 		texture = "gfx/interface/illustrations/event_scenes/temple.dds"

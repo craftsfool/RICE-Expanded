@@ -702,6 +702,8 @@
 	#
 	#################
 
+	header_background = "gfx/interface/illustrations/activity_header_backgrounds/activity_RICE_mayo_croagh_patrick_pilgrimage.dds"
+
 	# Sea
 	background = {
 		trigger = {

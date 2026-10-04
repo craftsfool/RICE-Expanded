@@ -405,6 +405,8 @@
 	# GRAPHICS
 	###################
 
+	header_background = "gfx/interface/illustrations/activity_header_backgrounds/activity_RICE_yazidi_tiwaf.dds"
+
 	# Travel
 	background = { # Bridge
 		trigger = {

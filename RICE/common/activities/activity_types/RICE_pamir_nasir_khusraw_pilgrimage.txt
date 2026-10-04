@@ -693,6 +693,8 @@
 	#
 	#################
 
+	header_background = "gfx/interface/illustrations/activity_header_backgrounds/activity_RICE_pamir_nasir_khusraw_pilgrimage.dds"
+
 	background = {
 		trigger = {
 			NOT = { scope:host.location = scope:activity.activity_location }

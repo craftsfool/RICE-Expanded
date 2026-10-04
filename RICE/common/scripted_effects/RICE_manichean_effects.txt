@@ -24,7 +24,6 @@
 			limit = { rite_has_doctrine = doctrine_clerical_marriage_allowed }
 			change_rite_doctrine = doctrine_clerical_marriage_disallowed
 		}
-		change_rite_doctrine = doctrine_monasticism_encouraged
 	}
 
 	# Uyghur Manichean remnants in the 11th century, since it is attested as surviving into at least the early 11th century

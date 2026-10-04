@@ -1972,8 +1972,6 @@
 	faith:kushitism_pagan = {
 		remove_tenet = tenet_consolamentum
 		add_tenet = tenet_christian_syncretism # Evidence of mixing of Christian and pagan Nubian religious traditions in late antiquity as Nubia gradually Christianized
-		remove_doctrine = doctrine_funeral_mummification
-		add_doctrine = doctrine_funeral_stoic
 	}
 
 	rite:coptic_rite = {

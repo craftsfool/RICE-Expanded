@@ -63,7 +63,7 @@ magadha.0010 = {
 	option = { # Pagoda
 		name = magadha.0010.d
 		trigger = {
-			rite = { rite_has_parameter = RICE_pagodas_unlocked_active }
+			rite = { rite_has_parameter = rice_pagodas_unlocked_active }
 		}
 		add_character_flag = RICE_magadha_building_buddhist_pagoda
 		custom_tooltip = magadha.0010.tooltip.pagoda_1

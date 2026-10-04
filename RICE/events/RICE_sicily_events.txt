@@ -2148,7 +2148,7 @@ sicily.0031 = {
 				var:stronghold_extra_negotiation ?= flag:failure
 			}
 			add_prestige = -100
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				greedy = miniscule_stress_impact_gain
 				vengeful = miniscule_stress_impact_gain
 				wrathful = miniscule_stress_impact_gain
@@ -4273,12 +4273,12 @@ sicily.0090 = {
 		name = sicily.0090.a
 		if = {
 			limit = {
-				faith = {
-					NOT = { trait_is_virtue = chaste }
+				rite = {
+					NOT = { trait_is_virtue_rite = chaste }
 					OR = {
-						has_doctrine = tenet_hedonistic
-						has_doctrine = tenet_carnal_exaltation
-						trait_is_virtue = lustful
+						rite_has_tenet = tenet_hedonistic
+						rite_has_tenet = tenet_carnal_exaltation
+						trait_is_virtue_rite = lustful
 					}
 				}
 			}
@@ -4288,11 +4288,11 @@ sicily.0090 = {
 			limit = {			
 				OR = {
 					AND = {
-						faith = { has_doctrine_parameter = male_dominated_law }
+						rite = { rite_has_parameter = male_dominated_law }
 						is_female = yes
 					}
 					AND = {
-						faith = { has_doctrine_parameter = female_dominated_law }
+						rite = { rite_has_parameter = female_dominated_law }
 						is_male = yes
 					}
 				}
@@ -4349,7 +4349,7 @@ sicily.0091 = {
 	
 	option = { # Relaxing
 		name = sicily.0091.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_loss
 		}
 	}
@@ -4380,7 +4380,7 @@ sicily.0091 = {
 			every_attending_character = {
 				limit = { NOT = { this = scope:host } }
 				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = minor_stress_impact_loss
 				}
 				# random_list = {
@@ -8142,16 +8142,16 @@ sicily.0182 = {
 		trigger = {
 			is_ai = no
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			lifestyle_poet = minor_stress_impact_gain
-			scholar = miniscule_stress_impact_gain
+			erudite = miniscule_stress_impact_gain
 			ambitious = miniscule_stress_impact_gain
 		}
 	}
 
 	option = { # Ok
 		name = sicily.0182.b
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			paranoid = minor_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
 		}
@@ -8460,7 +8460,7 @@ sicily.0184 = {
 						add = 5
 					}
 					modifier = {
-						has_trait = scholar
+						has_trait = erudite
 						add = 5
 					}
 					modifier = {
@@ -8490,7 +8490,7 @@ sicily.0184 = {
 						add = 5
 					}
 					modifier = {
-						has_trait = scholar
+						has_trait = erudite
 						add = 5
 					}
 					modifier = {
@@ -9227,7 +9227,7 @@ sicily.0200 = {
 			}
 			RICE_sicily_signore_arabic_track_minor_gain = yes
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arbitrary = minor_stress_impact_gain
 			lazy = miniscule_stress_impact_gain
 			content = miniscule_stress_impact_gain
@@ -9261,7 +9261,7 @@ sicily.0200 = {
 			}
 			RICE_sicily_signore_arabic_track_minor_gain = yes
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			just = minor_stress_impact_gain
 			diligent = miniscule_stress_impact_gain
 			ambitious = miniscule_stress_impact_gain
@@ -9314,7 +9314,7 @@ sicily.0201 = {
 				is_available_ai_adult = yes
 				OR = {
 					learning >= decent_skill_rating
-					has_trait = scholar
+					has_trait = erudite
 					has_trait = theologian
 					has_trait = education_learning_3
 					has_trait = education_learning_4
@@ -9324,7 +9324,7 @@ sicily.0201 = {
 				is_available_ai_adult = yes
 				OR = {
 					learning >= decent_skill_rating
-					has_trait = scholar
+					has_trait = erudite
 					has_trait = theologian
 					has_trait = education_learning_3
 					has_trait = education_learning_4
@@ -9398,7 +9398,7 @@ sicily.0201 = {
 				is_available_ai_adult = yes
 				OR = {
 					learning >= decent_skill_rating
-					has_trait = scholar
+					has_trait = erudite
 					has_trait = theologian
 					has_trait = education_learning_3
 					has_trait = education_learning_4
@@ -9411,7 +9411,7 @@ sicily.0201 = {
 				is_available_ai_adult = yes
 				OR = {
 					learning >= decent_skill_rating
-					has_trait = scholar
+					has_trait = erudite
 					has_trait = theologian
 					has_trait = education_learning_3
 					has_trait = education_learning_4
@@ -9459,7 +9459,7 @@ sicily.0201 = {
 			}
 		}
 		add_courtier = scope:scholar
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			paranoid = miniscule_stress_impact_gain
 			cynical = miniscule_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
@@ -9483,7 +9483,7 @@ sicily.0201 = {
 				opinion = 10
 			}
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arbitrary = miniscule_stress_impact_gain
 			lazy = miniscule_stress_impact_gain
 		}
@@ -9515,7 +9515,7 @@ sicily.0201 = {
 				opinion = 30
 			}
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arbitrary = miniscule_stress_impact_gain
 			lazy = miniscule_stress_impact_gain
 		}
@@ -9620,7 +9620,7 @@ sicily.0202 = {
 			}
 			RICE_sicily_signore_arabic_track_minor_gain = yes
 		}		
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 		}
 	}
@@ -9646,7 +9646,7 @@ sicily.0202 = {
 			}
 			RICE_sicily_signore_arabic_track_minor_gain = yes
 		}		
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 		}
 	}
@@ -9794,7 +9794,7 @@ sicily.0203 = {
 			}
 			RICE_sicily_signore_arabic_track_medium_gain = yes
 		}		
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			ambitious = minor_stress_impact_gain
 			greedy = miniscule_stress_impact_gain
 			vengeful = miniscule_stress_impact_gain
@@ -9847,7 +9847,7 @@ sicily.0203 = {
 			}
 			RICE_sicily_signore_arabic_track_major_gain = yes
 		}		
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			ambitious = medium_stress_impact_gain
 			greedy = minor_stress_impact_gain
 			vengeful = minor_stress_impact_gain
@@ -9879,7 +9879,7 @@ sicily.0203 = {
 				years = 10
 			}
 		}		
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			content = miniscule_stress_impact_gain
 			lazy = miniscule_stress_impact_gain
 			forgiving = miniscule_stress_impact_gain
@@ -9991,7 +9991,7 @@ sicily.0204 = {
 				modifier = pleased_opinion
 			}	
 		}		
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = miniscule_stress_impact_gain
 			paranoid = miniscule_stress_impact_gain
 			content = miniscule_stress_impact_gain
@@ -10007,7 +10007,7 @@ sicily.0204 = {
 				opinion = -10
 			}	
 		}		
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			ambitious = miniscule_stress_impact_gain
 		}
 	}
@@ -10213,7 +10213,7 @@ sicily.0205 = {
 				target = root
 			}
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
 			callous = miniscule_stress_impact_gain
@@ -10246,7 +10246,7 @@ sicily.0205 = {
 				opinion = 10
 			}
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 		}
 	}
@@ -10314,7 +10314,7 @@ sicily.0206 = {
 
 	option = { # Ok
 		name = sicily.0206.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_loss
 			gluttonous = minor_stress_impact_loss
 			content = miniscule_stress_impact_loss
@@ -10390,7 +10390,7 @@ sicily.0207 = {
 			modifier = RICE_sicily_uncultured_scribes
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			diligent = minor_stress_impact_gain
 			just = minor_stress_impact_gain
 		}
@@ -10427,7 +10427,7 @@ sicily.0207 = {
 			modifier = RICE_sicily_cultured_scribes
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			lazy = miniscule_stress_impact_gain
 			greedy = minor_stress_impact_gain
 			callous = miniscule_stress_impact_gain
@@ -10554,7 +10554,7 @@ sicily.0208 = {
 				years = 10
 			}
 		}	
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			lazy = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_gain
 			callous = miniscule_stress_impact_gain
@@ -10596,7 +10596,7 @@ sicily.0208 = {
 				years = 10
 			}
 		}	
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			lazy = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_gain
 			callous = miniscule_stress_impact_gain
@@ -10638,7 +10638,7 @@ sicily.0208 = {
 				years = 10
 			}
 		}	
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			lazy = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_gain
 			callous = miniscule_stress_impact_gain
@@ -10669,7 +10669,7 @@ sicily.0208 = {
 			}
 			RICE_sicily_signore_arabic_track_major_gain = yes
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			humble = miniscule_stress_impact_gain
 			just = miniscule_stress_impact_gain
 		}
@@ -10805,7 +10805,7 @@ sicily.0209 = {
 			}
 			RICE_sicily_signore_arabic_track_major_gain = yes
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			lazy = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_gain
 			callous = miniscule_stress_impact_gain
@@ -10816,7 +10816,7 @@ sicily.0209 = {
 	option = { # Ok
 		name = sicily.0209.b
 		add_prestige = 100
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			humble = minor_stress_impact_gain
 			just = miniscule_stress_impact_gain
 			compassionate = miniscule_stress_impact_gain
@@ -10893,7 +10893,7 @@ sicily.0210 = {
 	option = { # Ok
 		name = sicily.0210.a
 		add_prestige = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = miniscule_stress_impact_gain
 			paranoid = miniscule_stress_impact_gain
 		}
@@ -10902,7 +10902,7 @@ sicily.0210 = {
 	option = { # Ok
 		name = sicily.0210.b
 		add_piety = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			humble = miniscule_stress_impact_gain
 			craven = miniscule_stress_impact_gain
 		}
@@ -10939,8 +10939,8 @@ sicily.0211 = {
 
 		# Debate doesn't make sense for a faith that would think hedonism is good
 		NOR = {
-			faith = { has_doctrine = tenet_hedonistic }
-			faith = { has_doctrine = tenet_carnal_exaltation }
+			rite = { rite_has_tenet = tenet_hedonistic }
+			rite = { rite_has_tenet = tenet_carnal_exaltation }
 			faith = { trait_is_virtue = lustful }
 		}
 
@@ -10949,8 +10949,8 @@ sicily.0211 = {
 			any_courtier_or_guest = {
 				is_available_ai_adult = yes
 				NOR = {
-					faith = { has_doctrine = tenet_hedonistic }
-					faith = { has_doctrine = tenet_carnal_exaltation }
+					rite = { rite_has_tenet = tenet_hedonistic }
+					rite = { rite_has_tenet = tenet_carnal_exaltation }
 					faith = { trait_is_virtue = lustful }
 				}
 				NOT = { has_trait = zealous }
@@ -10966,8 +10966,8 @@ sicily.0211 = {
 			any_vassal = {
 				is_available_ai_adult = yes
 				NOR = {
-					faith = { has_doctrine = tenet_hedonistic }
-					faith = { has_doctrine = tenet_carnal_exaltation }
+					rite = { rite_has_tenet = tenet_hedonistic }
+					rite = { rite_has_tenet = tenet_carnal_exaltation }
 					faith = { trait_is_virtue = lustful }
 				}
 				NOT = { has_trait = zealous }
@@ -10988,8 +10988,8 @@ sicily.0211 = {
 			any_courtier_or_guest = {
 				is_available_ai_adult = yes
 				NOR = {
-					faith = { has_doctrine = tenet_hedonistic }
-					faith = { has_doctrine = tenet_carnal_exaltation }
+					rite = { rite_has_tenet = tenet_hedonistic }
+					rite = { rite_has_tenet = tenet_carnal_exaltation }
 					faith = { trait_is_virtue = lustful }
 				}
 				NOT = { has_trait = forgiving }
@@ -11006,8 +11006,8 @@ sicily.0211 = {
 			any_vassal = {
 				is_available_ai_adult = yes
 				NOR = {
-					faith = { has_doctrine = tenet_hedonistic }
-					faith = { has_doctrine = tenet_carnal_exaltation }
+					rite = { rite_has_tenet = tenet_hedonistic }
+					rite = { rite_has_tenet = tenet_carnal_exaltation }
 					faith = { trait_is_virtue = lustful }
 				}
 				NOT = { has_trait = forgiving }
@@ -11058,8 +11058,8 @@ sicily.0211 = {
 			limit = {
 				is_available_ai_adult = yes
 				NOR = {
-					faith = { has_doctrine = tenet_hedonistic }
-					faith = { has_doctrine = tenet_carnal_exaltation }
+					rite = { rite_has_tenet = tenet_hedonistic }
+					rite = { rite_has_tenet = tenet_carnal_exaltation }
 					faith = { trait_is_virtue = lustful }
 				}
 				NOT = { has_trait = zealous }
@@ -11079,8 +11079,8 @@ sicily.0211 = {
 			limit = {
 				is_available_ai_adult = yes
 				NOR = {
-					faith = { has_doctrine = tenet_hedonistic }
-					faith = { has_doctrine = tenet_carnal_exaltation }
+					rite = { rite_has_tenet = tenet_hedonistic }
+					rite = { rite_has_tenet = tenet_carnal_exaltation }
 					faith = { trait_is_virtue = lustful }
 				}
 				NOT = { has_trait = zealous }
@@ -11105,8 +11105,8 @@ sicily.0211 = {
 			limit = {
 				is_available_ai_adult = yes
 				NOR = {
-					faith = { has_doctrine = tenet_hedonistic }
-					faith = { has_doctrine = tenet_carnal_exaltation }
+					rite = { rite_has_tenet = tenet_hedonistic }
+					rite = { rite_has_tenet = tenet_carnal_exaltation }
 					faith = { trait_is_virtue = lustful }
 				}
 				NOT = { has_trait = forgiving }
@@ -11126,8 +11126,8 @@ sicily.0211 = {
 			limit = {
 				is_available_ai_adult = yes
 				NOR = {
-					faith = { has_doctrine = tenet_hedonistic }
-					faith = { has_doctrine = tenet_carnal_exaltation }
+					rite = { rite_has_tenet = tenet_hedonistic }
+					rite = { rite_has_tenet = tenet_carnal_exaltation }
 					faith = { trait_is_virtue = lustful }
 				}
 				NOT = { has_trait = forgiving }
@@ -11179,7 +11179,7 @@ sicily.0211 = {
 				opinion = -5
 			}		
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = miniscule_stress_impact_gain
 			chaste = miniscule_stress_impact_gain
 			lustful = miniscule_stress_impact_gain
@@ -11206,7 +11206,7 @@ sicily.0211 = {
 				opinion = -10
 			}		
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = miniscule_stress_impact_gain
 			chaste = miniscule_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
@@ -11230,7 +11230,7 @@ sicily.0211 = {
 				opinion = -10
 			}		
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			lustful = miniscule_stress_impact_gain
 			cynical = miniscule_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain

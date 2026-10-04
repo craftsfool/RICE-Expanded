@@ -25,7 +25,7 @@
 		add_rite_doctrine = rice_bon_deities_old_doctrine
 		# Zhangzhung elites were entombed in tombs
 		if = {
-			limit = { has_doctrine = doctrine_funeral_sky_burial }
+			limit = { rite_has_doctrine = doctrine_funeral_sky_burial }
 			remove_rite_doctrine = doctrine_funeral_sky_burial
 			add_rite_doctrine = doctrine_funeral_stoic
 		}
@@ -35,7 +35,7 @@
 	}
 
 	faith:kinnaur_pagan = {
-		add_doctrine = rice_bon_deities_old_doctrine
+		every_faith_rite = { add_rite_doctrine = rice_bon_deities_old_doctrine }
 	}
 
 	title:c_kamru = {
@@ -2331,8 +2331,8 @@ RICE_zhangzhung_title_decision_effect = {
 		add_piety = 1000
 		if = {
 			limit = {
-				faith = {
-					has_doctrine = rice_bon_deities_old_doctrine
+				rite = {
+					rite_has_doctrine = rice_bon_deities_old_doctrine
 				}
 			}
 			dynasty ?= {
@@ -2343,8 +2343,8 @@ RICE_zhangzhung_title_decision_effect = {
 		}
 		if = {
 			limit = {
-				faith = {
-					has_doctrine = rice_bon_deities_new_doctrine
+				rite = {
+					rite_has_doctrine = rice_bon_deities_new_doctrine
 				}
 			}
 			dynasty ?= {
@@ -2451,8 +2451,8 @@ RICE_zhangzhung_zuthulpuk_monastery_decision_effect = {
 
 	if = {
 		limit = {
-			faith = {
-				has_doctrine = rice_vajrayana_canon_doctrine
+			rite = {
+				rite_has_doctrine = rice_vajrayana_canon_doctrine
 			}			
 		}
 		add_piety = 500
@@ -3170,7 +3170,7 @@ RICE_zhangzhung_kinnaur_flower_festival_completed_log_entry_effect = {
 			character = root
 			scope:host = {
 				add_prestige = minor_prestige_gain
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = minor_stress_impact_loss
 				}
 				if = {
@@ -3180,7 +3180,7 @@ RICE_zhangzhung_kinnaur_flower_festival_completed_log_entry_effect = {
 					dynasty ?= {
 						add_dynasty_prestige = RICE_zhangzhung_kinnaur_flower_festival_dynasty_prestige_gain
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						zealous = minor_stress_impact_loss
 						diligent = minor_stress_impact_loss
 					}
@@ -3189,7 +3189,7 @@ RICE_zhangzhung_kinnaur_flower_festival_completed_log_entry_effect = {
 					limit = {
 						has_activity_intent = RICE_zhangzhung_kinnaur_flower_festival_divination_intent
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						ambitious = minor_stress_impact_loss
 						humble = minor_stress_impact_loss
 					}
@@ -3198,7 +3198,7 @@ RICE_zhangzhung_kinnaur_flower_festival_completed_log_entry_effect = {
 					limit = {
 						has_activity_intent = RICE_zhangzhung_kinnaur_flower_festival_rejoicement_intent
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						gregarious = minor_stress_impact_loss
 						generous = minor_stress_impact_loss
 					}
@@ -3231,7 +3231,7 @@ RICE_zhangzhung_kinnaur_flower_festival_completed_log_entry_effect = {
 				limit = { NOT = { this = scope:host } }
 				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
 				add_piety = minor_piety_gain
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = minor_stress_impact_loss
 				}
 			}	

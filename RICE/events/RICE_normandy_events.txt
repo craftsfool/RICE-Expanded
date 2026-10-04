@@ -1335,7 +1335,7 @@ normandy.0012 = {
 	
 	option = { # Keep the structure
 		name = normandy.0012.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 		}
 		add_prestige = 150
@@ -1374,7 +1374,7 @@ normandy.0012 = {
 	}
 	option = { # Get rid of it
 		name = normandy.0012.b
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			just = minor_stress_impact_gain
 			compassionate = minor_stress_impact_gain
 		}
@@ -3066,7 +3066,7 @@ normandy.0025 = {
 		triggered_desc = {
 			trigger = {
 				NOT = { scope:current_ruler.faith = scope:courtier_1.faith }
-				NOT = { scope:current_ruler.faith = { has_doctrine_parameter = unreformed } }
+				NOT = { scope:current_ruler.rite = { rite_has_parameter = unreformed } }
 			}
 			desc = normandy.0025.desc.conversion
 		}
@@ -3086,7 +3086,7 @@ normandy.0025 = {
 		name = normandy.0025.a		
 		trigger = {
 			NOT = { scope:current_ruler.faith = scope:courtier_1.faith }
-			NOT = { scope:current_ruler.faith = { has_doctrine_parameter = unreformed } }
+			NOT = { scope:current_ruler.rite = { rite_has_parameter = unreformed } }
 		}
 		set_character_faith_with_conversion = scope:current_ruler.faith
 		add_piety = -200
@@ -5056,7 +5056,7 @@ normandy.0035 = {
 		triggered_desc = {
 			trigger = {
 				NOT = { scope:current_ruler.faith = scope:courtier_1.faith }
-				NOT = { scope:current_ruler.faith = { has_doctrine_parameter = unreformed } }
+				NOT = { scope:current_ruler.rite = { rite_has_parameter = unreformed } }
 			}
 			desc = normandy.0035.desc.conversion
 		}
@@ -5076,7 +5076,7 @@ normandy.0035 = {
 		name = normandy.0035.a		
 		trigger = {
 			NOT = { scope:current_ruler.faith = scope:courtier_1.faith }
-			NOT = { scope:current_ruler.faith = { has_doctrine_parameter = unreformed } }
+			NOT = { scope:current_ruler.rite = { rite_has_parameter = unreformed } }
 		}
 		set_character_faith_with_conversion = scope:current_ruler.faith
 		add_piety = -200
@@ -6009,7 +6009,7 @@ normandy.0040 = {
 						NOT = { religion = scope:charles.religion }
 					}
 					scope:charles = {
-						NOT = { faith = { has_doctrine_parameter = unreformed } }
+						NOT = { rite = { rite_has_parameter = unreformed } }
 					}
 				}
 				add_character_flag = RICE_normandy_rollo_did_convert_flag
@@ -6742,7 +6742,7 @@ normandy.0040 = {
 				limit = {
 					NOT = { faith = scope:rollo.faith }
 					scope:charles = {
-						NOT = { faith = { has_doctrine_parameter = unreformed } }
+						NOT = { rite = { rite_has_parameter = unreformed } }
 					}
 				}
 				set_character_faith = scope:rollo.faith
@@ -7873,7 +7873,7 @@ normandy.0070 = {
 			modifier = RICE_normandy_chausey_stone
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = miniscule_stress_impact_gain
 		}
 	}
@@ -7943,7 +7943,7 @@ normandy.0071 = {
 		}
 		remove_short_term_gold = 25
 		add_piety = 75
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = minor_stress_impact_gain
 			cynical = miniscule_stress_impact_gain
 		}
@@ -7959,7 +7959,7 @@ normandy.0071 = {
 		}
 		remove_short_term_gold = 50
 		add_piety = 150
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = medium_stress_impact_gain
 			cynical = minor_stress_impact_gain
 		}
@@ -7967,7 +7967,7 @@ normandy.0071 = {
 
 	option = { # Ok
 		name = normandy.0071.c
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 		}
 	}
@@ -8187,7 +8187,7 @@ normandy.0074 = {
 	option = { # Ok
 		name = normandy.0074.a
 		add_prestige = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_loss
 			gluttonous = miniscule_stress_impact_loss
 			gregarious = miniscule_stress_impact_loss
@@ -8327,7 +8327,7 @@ normandy.0076 = {
 
 	option = { # Ok
 		name = normandy.0076.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_loss
 			content = miniscule_stress_impact_loss
 		}
@@ -8393,7 +8393,7 @@ normandy.0077 = {
 	option = { # Ok
 		name = normandy.0077.a
 		add_piety = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			trusting = miniscule_stress_impact_gain
 		}
 	}
@@ -8401,7 +8401,7 @@ normandy.0077 = {
 	option = { # Ok
 		name = normandy.0077.b
 		add_prestige = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 		}
 	}
@@ -10137,13 +10137,13 @@ normandy.0110 = {
 				is_ruler = no
 				OR = {
 					diplomacy >= mediocre_skill_rating
-					has_trait = scholar
+					has_trait = erudite
 					has_trait = education_learning_3
 					has_trait = education_learning_4
 				}
 				OR = {
 					learning >= medium_skill_rating
-					has_trait = scholar
+					has_trait = erudite
 					has_trait = education_learning_3
 					has_trait = education_learning_4
 				}
@@ -10197,12 +10197,12 @@ normandy.0110 = {
 					}
 					modifier = {
 						is_female = yes
-						faith = { has_doctrine = doctrine_gender_male_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
 						add = -15
 					}
 					modifier = {
 						is_female = no
-						faith = { has_doctrine = doctrine_gender_female_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
 						add = -15
 					}
 				}
@@ -10243,12 +10243,12 @@ normandy.0110 = {
 					}
 					modifier = {
 						is_female = yes
-						faith = { has_doctrine = doctrine_gender_male_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_male_dominated }
 						add = -15
 					}
 					modifier = {
 						is_female = no
-						faith = { has_doctrine = doctrine_gender_female_dominated }
+						rite = { rite_has_doctrine = doctrine_gender_female_dominated }
 						add = -15
 					}
 				}

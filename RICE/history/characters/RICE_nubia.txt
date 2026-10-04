@@ -33,7 +33,7 @@
 # 	trait = generous
 # 	trait = zealous
 # 	trait = loyal
-# 	trait = scholar
+# 	trait = erudite
 # 	trait = devoted
 # 	1031.1.13 = {
 # 		birth = yes
@@ -1453,7 +1453,7 @@ RICE_nubia_misc_004 = {
 	rite = "nubian_rite"
 	culture = "egyptian"
 	trait = education_learning_4
-	trait = scholar
+	trait = erudite
 	trait = devoted
 	1149.9.3 = {
 		birth = yes

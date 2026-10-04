@@ -3244,7 +3244,7 @@ RICE_exempt_from_tax_whaling_towns_effect = {
 		modifier = RICE_north_atlantic_whale_tax_exempter
 		years = 10
 	}
-	stress_impact = {
+	stress_and_fulfillment_impact = {
 		greedy = minor_stress_impact_gain
 		arbitrary = miniscule_stress_impact_gain
 	}
@@ -3269,7 +3269,7 @@ RICE_levy_extra_tax_whaling_towns_effect = {
 		modifier = RICE_north_atlantic_whale_tax_levier
 		years = 10
 	}
-	stress_impact = {
+	stress_and_fulfillment_impact = {
 		generous = minor_stress_impact_gain
 		just = miniscule_stress_impact_gain
 	}

@@ -439,7 +439,7 @@ RICE_granada_transfer_seat_of_power = {
 			limit = {
 				NOR = {
 					religion = religion:judaism_religion
-					faith = { has_doctrine = tenet_jewish_syncretism }
+					rite = { rite_has_tenet = tenet_jewish_syncretism }
 				}
 			}
 			custom_tooltip = RICE_granada_transfer_seat_of_power_effect_tooltip_1	

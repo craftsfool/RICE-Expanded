@@ -231,7 +231,7 @@ RICE_siwa_oracle_of_amun_intent_bonuses_effect = {
 			}
 			add_piety = 150
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_loss
 			zealous = minor_stress_impact_loss
 			humble = minor_stress_impact_loss

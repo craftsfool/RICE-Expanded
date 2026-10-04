@@ -160,7 +160,7 @@ RICE_greenland_struggle_ending_integration_decision = {
 		}
 
 		show_as_tooltip = {
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				lazy = medium_stress_impact_gain
 				content = minor_stress_impact_gain
 			}
@@ -271,7 +271,7 @@ RICE_greenland_struggle_ending_indigenous_decision = {
 	   }
 
 	   show_as_tooltip = {
-		   stress_impact = {
+		   stress_and_fulfillment_impact = {
 			   lazy = medium_stress_impact_gain
 			   content = minor_stress_impact_gain
 		   }
@@ -373,7 +373,7 @@ RICE_greenland_struggle_ending_abandonment_decision = {
 	   }
 
 	   show_as_tooltip = {
-		   stress_impact = {
+		   stress_and_fulfillment_impact = {
 			   ambitious = medium_stress_impact_gain
 			   diligent = minor_stress_impact_gain
 		   }
@@ -1667,7 +1667,7 @@ RICE_north_atlantic_skalholt_school = {
 		custom_description = {
 			text = faith_is_reformed
 			subject = root
-			faith = { NOT = { has_doctrine_parameter = unreformed } }
+			rite = { NOT = { rite_has_parameter = unreformed } }
 		}
 
 		# culture = {

@@ -1186,7 +1186,7 @@ yazidi.0030 = {
 				show_in_conclusion = yes
 				character = scope:host
 				scope:host = {
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						lazy = miniscule_stress_impact_loss
 						content = miniscule_stress_impact_loss
@@ -1207,7 +1207,7 @@ yazidi.0030 = {
 				character = scope:host
 				scope:host = {
 					add_prestige = 25
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						gregarious = miniscule_stress_impact_loss
 						shy = miniscule_stress_impact_gain
 					}
@@ -1227,7 +1227,7 @@ yazidi.0030 = {
 				character = scope:host
 				scope:host = {
 					add_piety = 25
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						zealous = miniscule_stress_impact_loss
 						cynical = miniscule_stress_impact_gain
 					}
@@ -1357,7 +1357,7 @@ yazidi.0035 = {
 				character = scope:host
 				scope:host = {
 					remove_short_term_gold = 25
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						gluttonous = miniscule_stress_impact_loss
 					}
 					add_character_modifier = {
@@ -1396,7 +1396,7 @@ yazidi.0036 = {
 				show_in_conclusion = yes
 				character = scope:host
 				scope:host = {
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = miniscule_stress_impact_gain
 						lazy = miniscule_stress_impact_gain
 					}
@@ -1822,7 +1822,7 @@ yazidi.0080 = {
 	
 	trigger = {
 		OR = {
-			faith = { has_doctrine = rice_west_iranian_yazidi_doctrine }
+			rite = { rite_has_doctrine = rice_west_iranian_yazidi_doctrine }
 			rite = rite:yazidi
 		}
 	}
@@ -1858,7 +1858,7 @@ yazidi.0080 = {
 	option = { # Ok
 		name = yazidi.0080.a
 		add_piety = -50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
 			vengeful = miniscule_stress_impact_gain
@@ -1868,7 +1868,7 @@ yazidi.0080 = {
 	option = { # Ok
 		name = yazidi.0080.b
 		add_prestige = -50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_gain
 			forgiving = miniscule_stress_impact_gain
 			humble = miniscule_stress_impact_gain
@@ -1879,7 +1879,7 @@ yazidi.0080 = {
 		name = yazidi.0080.c
 		add_prestige = -100
 		add_gold = { 10 50 }
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 			forgiving = minor_stress_impact_gain
 		}
@@ -1911,7 +1911,7 @@ yazidi.0081 = {
 	
 	trigger = {
 		OR = {
-			faith = { has_doctrine = rice_west_iranian_yazidi_doctrine }
+			rite = { rite_has_doctrine = rice_west_iranian_yazidi_doctrine }
 			rite = rite:yazidi
 		}
 	}
@@ -1948,7 +1948,7 @@ yazidi.0081 = {
 		name = yazidi.0081.a
 		add_prestige = -100
 		add_piety = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			ambitious = minor_stress_impact_gain
 			diligent = miniscule_stress_impact_gain
 			cynical = miniscule_stress_impact_gain
@@ -1959,7 +1959,7 @@ yazidi.0081 = {
 		name = yazidi.0081.b
 		add_piety = -100
 		add_prestige = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
 			vengeful = miniscule_stress_impact_gain
@@ -1976,7 +1976,7 @@ yazidi.0081 = {
 			intrigue < medium_skill_rating
 		}
 		add_prestige = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			honest = miniscule_stress_impact_gain
 		}
 	}
@@ -2065,7 +2065,7 @@ yazidi.0083 = {
 	
 	trigger = {
 		OR = {
-			faith = { has_doctrine = rice_west_iranian_yazidi_doctrine }
+			rite = { rite_has_doctrine = rice_west_iranian_yazidi_doctrine }
 			rite = rite:yazidi
 		}
 	}

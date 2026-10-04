@@ -236,7 +236,7 @@ tarim_basin.0011 = {
 	option = { # OK
 		name = tarim_basin.0011.a
 		add_gold = { RICE_merchant_travel_option_gold_gain_min RICE_merchant_travel_option_gold_gain_max }
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = minor_stress_impact_gain
 		}
 
@@ -426,7 +426,7 @@ tarim_basin.0011 = {
 						title = tarim_basin.0011.b.failure
 						left_icon = root
 						add_prestige = -100
-						stress_impact = {
+						stress_and_fulfillment_impact = {
 							base = miniscule_stress_impact_gain
 							greedy = miniscule_stress_impact_gain
 							ambitious = miniscule_stress_impact_gain
@@ -5743,6 +5743,7 @@ tarim_basin.0040 = {
 				save_scope_as = entertainer
 				culture = scope:kucha_county.culture
 				faith = scope:kucha_county.faith
+				rite = scope:kucha_county.rite
 			}
 		}
 		else = {
@@ -5915,6 +5916,7 @@ tarim_basin.0040 = {
 					}
 				}
 				faith = root.faith
+				rite = root.rite
 			}
 		}
 
@@ -6134,6 +6136,7 @@ tarim_basin.0042 = {
 				save_scope_as = crush
 				culture = scope:kucha_county.culture
 				faith = scope:kucha_county.faith
+				rite = scope:kucha_county.rite
 			}
 		}
 		else = {
@@ -6306,6 +6309,7 @@ tarim_basin.0042 = {
 					}
 				}
 				faith = root.faith
+				rite = root.rite
 			}
 		}
 
@@ -6513,13 +6517,13 @@ tarim_basin.0042 = {
 					has_trait = generous
 				}
 			}
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				compassionate = minor_stress_impact_loss
 				generous = miniscule_stress_impact_loss
 			}
 		}
 		else = {
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				lustful = minor_stress_impact_gain
 				sadistic = minor_stress_impact_gain
 				callous = minor_stress_impact_gain
@@ -6570,7 +6574,7 @@ tarim_basin.0042 = {
 					has_trait = generous
 				}
 			}
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				compassionate = medium_stress_impact_gain
 				chaste = medium_stress_impact_gain
 				generous = minor_stress_impact_gain
@@ -6578,7 +6582,7 @@ tarim_basin.0042 = {
 			}
 		}
 		else = {
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				lustful = medium_stress_impact_loss
 				sadistic = medium_stress_impact_loss
 				callous = minor_stress_impact_loss
@@ -6706,7 +6710,7 @@ tarim_basin.0042 = {
 				}
 			}
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			compassionate = minor_stress_impact_gain
 			generous = minor_stress_impact_gain
 		}
@@ -6875,7 +6879,7 @@ tarim_basin.0042 = {
 				}
 			}
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = minor_stress_impact_gain
 			callous = minor_stress_impact_gain
 			sadistic = minor_stress_impact_gain
@@ -7880,7 +7884,7 @@ tarim_basin.0059 = {
 	option = { # Ok
 		name = tarim_basin.0059.a
 		add_prestige = 30
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_loss
 			brave = miniscule_stress_impact_loss
 			diligent = miniscule_stress_impact_loss
@@ -7895,7 +7899,7 @@ tarim_basin.0059 = {
 	option = { # Ok
 		name = tarim_basin.0059.b
 		add_piety = 30
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_loss
 			zealous = minor_stress_impact_loss
 		}
@@ -7910,7 +7914,7 @@ tarim_basin.0059 = {
 		name = tarim_basin.0059.c
 		add_prestige = 15
 		add_piety = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_loss
 			gregarious = miniscule_stress_impact_loss
 			lazy = miniscule_stress_impact_loss
@@ -7933,7 +7937,7 @@ tarim_basin.0059 = {
 			every_attending_character = {
 				limit = { NOT = { this = scope:host } }
 				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = minor_stress_impact_loss
 				}
 				add_character_modifier = {
@@ -8460,7 +8464,7 @@ tarim_basin.0073 = {
 	option = {
 		name = tarim_basin.0073.a
 		add_piety = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_loss
 		}
 	}
@@ -8484,7 +8488,7 @@ tarim_basin.0074 = {
 	option = {
 		name = tarim_basin.0074.a
 		remove_short_term_gold = 20
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_gain
 			wrathful = miniscule_stress_impact_gain
@@ -8511,7 +8515,7 @@ tarim_basin.0075 = {
 		name = tarim_basin.0075.a
 		remove_short_term_gold = 20
 		add_prestige = -30
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_gain
 			wrathful = miniscule_stress_impact_gain
@@ -8537,7 +8541,7 @@ tarim_basin.0076 = {
 		name = tarim_basin.0076.a
 		add_piety = 50
 		add_prestige = -50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = miniscule_stress_impact_gain
 			paranoid = miniscule_stress_impact_gain
 		}
@@ -8565,7 +8569,7 @@ tarim_basin.0076 = {
 		remove_short_term_gold = 50
 		add_piety = 100
 		add_prestige = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = minor_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
 		}
@@ -8574,7 +8578,7 @@ tarim_basin.0076 = {
 	# Don't need their help
 	option = {
 		name = tarim_basin.0076.c
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			humble = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_gain
 			trusting = miniscule_stress_impact_gain
@@ -8602,7 +8606,7 @@ tarim_basin.0077 = {
 	option = {
 		name = tarim_basin.0077.a
 		add_piety = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = miniscule_stress_impact_loss
 		}
 	}
@@ -8626,7 +8630,7 @@ tarim_basin.0078 = {
 	option = {
 		name = tarim_basin.0078.a
 		add_prestige = -50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = minor_stress_impact_gain
 			wrathful = minor_stress_impact_gain
 			vengeful = miniscule_stress_impact_gain
@@ -8644,7 +8648,7 @@ tarim_basin.0078 = {
 			}
 		}
 		remove_short_term_gold = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = medium_stress_impact_gain
 			arrogant = minor_stress_impact_gain
 			wrathful = minor_stress_impact_gain
@@ -8657,7 +8661,7 @@ tarim_basin.0078 = {
 	option = {
 		name = tarim_basin.0078.c
 		add_piety = -50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			humble = minor_stress_impact_gain
 			calm = minor_stress_impact_gain
 			forgiving = miniscule_stress_impact_gain
@@ -8673,7 +8677,7 @@ tarim_basin.0078 = {
 			diplomacy >= medium_skill_rating		
 		}
 		skill = diplomacy
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = medium_stress_impact_gain
 			wrathful = minor_stress_impact_gain
 			paranoid = minor_stress_impact_gain
@@ -8752,6 +8756,7 @@ tarim_basin.0080 = {
 			save_scope_as = merchant
 			culture = root.culture
 			faith = root.faith
+			rite = root.rite
 		}
 	}
 	
@@ -8800,7 +8805,7 @@ tarim_basin.0081 = {
 	option = {
 		name = tarim_basin.0081.a
 		add_piety = 30
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = minor_stress_impact_gain
 			cynical = miniscule_stress_impact_gain
 		}
@@ -8810,7 +8815,7 @@ tarim_basin.0081 = {
 	option = {
 		name = tarim_basin.0081.b
 		add_prestige = 30
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			humble = miniscule_stress_impact_gain
 			paranoid = miniscule_stress_impact_gain
 		}
@@ -8827,7 +8832,7 @@ tarim_basin.0081 = {
 			chance = 50
 			add_learning_skill = 1
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = miniscule_stress_impact_gain
 			lazy = miniscule_stress_impact_gain
 		}
@@ -8837,7 +8842,7 @@ tarim_basin.0081 = {
 	option = {
 		name = tarim_basin.0081.d
 		add_gold = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = miniscule_stress_impact_gain
 			generous = miniscule_stress_impact_gain
 		}
@@ -8883,6 +8888,7 @@ tarim_basin.0082 = {
 					save_scope_as = foreigner
 					culture = culture:han
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 			10 = {
@@ -8895,6 +8901,7 @@ tarim_basin.0082 = {
 					save_scope_as = foreigner
 					culture = culture:sogdian
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 			10 = {
@@ -8907,6 +8914,7 @@ tarim_basin.0082 = {
 					save_scope_as = foreigner
 					culture = culture:saka
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 			10 = {
@@ -8919,6 +8927,7 @@ tarim_basin.0082 = {
 					save_scope_as = foreigner
 					culture = culture:afghan
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 			10 = {
@@ -8931,6 +8940,7 @@ tarim_basin.0082 = {
 					save_scope_as = foreigner
 					culture = culture:tocharian
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 			10 = {
@@ -8943,6 +8953,7 @@ tarim_basin.0082 = {
 					save_scope_as = foreigner
 					culture = culture:bodpa
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 			10 = {
@@ -8955,6 +8966,7 @@ tarim_basin.0082 = {
 					save_scope_as = foreigner
 					culture = culture:kashmiri
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 			10 = {
@@ -8967,6 +8979,7 @@ tarim_basin.0082 = {
 					save_scope_as = foreigner
 					culture = culture:punjabi
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 			10 = {
@@ -8979,6 +8992,7 @@ tarim_basin.0082 = {
 					save_scope_as = foreigner
 					culture = culture:nepali
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 			10 = {
@@ -8991,6 +9005,7 @@ tarim_basin.0082 = {
 					save_scope_as = foreigner
 					culture = culture:uyghur
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 		}
@@ -8999,7 +9014,7 @@ tarim_basin.0082 = {
 	# Not my problem
 	option = {
 		name = tarim_basin.0082.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			compassionate = minor_stress_impact_gain
 			just = miniscule_stress_impact_gain
 		}
@@ -9017,7 +9032,7 @@ tarim_basin.0082 = {
 		name = tarim_basin.0082.b
 		add_prestige = -25
 		add_piety = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			callous = minor_stress_impact_gain
 			arrogant = minor_stress_impact_gain
 			sadistic = miniscule_stress_impact_gain
@@ -9093,7 +9108,7 @@ tarim_basin.0084 = {
 		name = tarim_basin.0084.a
 		add_piety = -30
 		add_dread = 5
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			compassionate = medium_stress_impact_gain
 			generous = minor_stress_impact_gain
 			calm = minor_stress_impact_gain
@@ -9119,7 +9134,7 @@ tarim_basin.0084 = {
 		remove_short_term_gold = 15
 		add_prestige = -30
 		add_piety = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			sadistic = medium_stress_impact_gain
 			callous = medium_stress_impact_gain
 			greedy = minor_stress_impact_gain
@@ -9142,7 +9157,7 @@ tarim_basin.0085 = {
 	option = {
 		name = tarim_basin.0085.a
 		add_piety = -25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			generous = minor_stress_impact_gain
 			compassionate = miniscule_stress_impact_gain
@@ -9161,7 +9176,7 @@ tarim_basin.0085 = {
 		}
 		remove_short_term_gold = 10
 		add_piety = 20
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 			greedy = miniscule_stress_impact_gain
 			#callous = miniscule_stress_impact_gain
@@ -9180,7 +9195,7 @@ tarim_basin.0085 = {
 		}
 		remove_short_term_gold = 30
 		add_piety = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_gain
 			greedy = medium_stress_impact_gain
 			callous = miniscule_stress_impact_gain
@@ -9205,7 +9220,7 @@ tarim_basin.0086 = {
 	option = {
 		name = tarim_basin.0086.a
 		add_piety = -25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			compassionate = minor_stress_impact_gain
 			temperate = minor_stress_impact_gain
@@ -9217,7 +9232,7 @@ tarim_basin.0086 = {
 	option = {
 		name = tarim_basin.0086.b
 		add_piety = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			gluttonous = miniscule_stress_impact_gain
 		}
 	}
@@ -9227,7 +9242,7 @@ tarim_basin.0086 = {
 		name = tarim_basin.0086.c
 		add_piety = 25
 		add_prestige = -15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			gluttonous = minor_stress_impact_gain
 		}
 	}
@@ -10643,6 +10658,7 @@ tarim_basin.0173 = {
 					save_scope_as = khotan_refugee
 					culture = scope:khotan.culture
 					faith = root.faith
+					rite = root.rite
 				}
 			}
 			# Get a noble
@@ -10653,6 +10669,7 @@ tarim_basin.0173 = {
 					save_scope_as = khotan_refugee
 					culture = scope:khotan.culture
 					faith = root.faith
+					rite = root.rite
 				}				
 			}
 		}
@@ -10692,7 +10709,7 @@ tarim_basin.0173 = {
 				years = 10
 			}			
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_loss
 			generous = minor_stress_impact_loss
 			compassionate = minor_stress_impact_loss
@@ -10708,7 +10725,7 @@ tarim_basin.0173 = {
 				}
 			}
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			generous = minor_stress_impact_gain
 			compassionate = minor_stress_impact_gain
@@ -11070,7 +11087,7 @@ tarim_basin.0201 = {
 			add_character_modifier = {
 				modifier = RICE_tarim_basin_working_on_turkic_dictionary
 			}
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = minor_stress_impact_gain
 				lazy = minor_stress_impact_gain
 			}
@@ -11861,7 +11878,7 @@ tarim_basin.0211 = {
 			has_activity_intent = RICE_tarim_basin_ordam_mazar_remembrance_intent
 		}
 		add_piety = 25
-		# stress_impact = {
+		# stress_and_fulfillment_impact = {
 		# 	cynical = miniscule_stress_impact_gain
 		# 	gregarious = miniscule_stress_impact_gain
 		# }
@@ -11873,7 +11890,7 @@ tarim_basin.0211 = {
 			has_activity_intent = RICE_tarim_basin_ordam_mazar_socialization_intent
 		}
 		add_prestige = 25
-		# stress_impact = {
+		# stress_and_fulfillment_impact = {
 		# 	zealous = miniscule_stress_impact_gain
 		# 	shy = miniscule_stress_impact_gain
 		# }
@@ -12011,7 +12028,7 @@ tarim_basin.0212 = {
 	
 	option = { # Ok
 		name = tarim_basin.0212.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_loss
 			gluttonous = miniscule_stress_impact_loss
 		}
@@ -12038,7 +12055,7 @@ tarim_basin.0213 = {
 	
 	option = { # Ok
 		name = tarim_basin.0213.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_loss
 			zealous = miniscule_stress_impact_loss
 		}
@@ -12100,12 +12117,12 @@ tarim_basin.0215 = {
 			limit = {
 				has_trait = shy
 			}
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				shy = miniscule_stress_impact_gain
 			}
 		}
 		else = {
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = miniscule_stress_impact_loss
 				gregarious = miniscule_stress_impact_loss
 			}
@@ -12179,7 +12196,7 @@ tarim_basin.0218 = {
 		}
 		add_piety = 20
 		add_prestige = -20
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 			lustful = miniscule_stress_impact_gain
 			gregarious = miniscule_stress_impact_gain
@@ -12196,7 +12213,7 @@ tarim_basin.0218 = {
 		}
 		add_prestige = 20
 		add_piety = -20
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = miniscule_stress_impact_gain
 			chaste = miniscule_stress_impact_gain
 			shy = miniscule_stress_impact_gain
@@ -12205,7 +12222,7 @@ tarim_basin.0218 = {
 	
 	option = { # Ok
 		name = tarim_basin.0218.c
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_gain
 		}
@@ -12310,7 +12327,7 @@ tarim_basin.0221 = {
 			}
 		}
 		remove_short_term_gold = 5
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_loss
 			gluttonous = miniscule_stress_impact_loss
 		}
@@ -12318,7 +12335,7 @@ tarim_basin.0221 = {
 	
 	option = { # Ok
 		name = tarim_basin.0221.b
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			temperate = miniscule_stress_impact_loss
 		}
 	}
@@ -12348,7 +12365,7 @@ tarim_basin.0222 = {
 			has_activity_intent = RICE_tarim_basin_ordam_mazar_socialization_intent
 		}
 		add_prestige = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = miniscule_stress_impact_gain
 			chaste = miniscule_stress_impact_gain
 			shy = miniscule_stress_impact_gain
@@ -12364,7 +12381,7 @@ tarim_basin.0222 = {
 			has_activity_intent = RICE_tarim_basin_ordam_mazar_remembrance_intent
 		}
 		add_piety = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 			lustful = miniscule_stress_impact_gain
 			gregarious = miniscule_stress_impact_gain
@@ -12453,7 +12470,7 @@ tarim_basin.0226 = {
 	option = { # Ok
 		name = tarim_basin.0226.a
 		add_prestige = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			humble = miniscule_stress_impact_gain
 			patient = miniscule_stress_impact_gain
@@ -12464,7 +12481,7 @@ tarim_basin.0226 = {
 	option = { # Ok
 		name = tarim_basin.0226.b
 		add_piety = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
 			paranoid = miniscule_stress_impact_gain
@@ -12475,7 +12492,7 @@ tarim_basin.0226 = {
 		name = tarim_basin.0226.c
 		add_prestige = -25
 		add_piety = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
 		}
@@ -13047,7 +13064,7 @@ tarim_basin.0251 = {
 	option = { # ok
 		name = tarim_basin.0251.a
 		add_piety = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 			lustful = miniscule_stress_impact_gain
 			gregarious = miniscule_stress_impact_gain
@@ -13057,7 +13074,7 @@ tarim_basin.0251 = {
 		name = tarim_basin.0251.b
 		add_prestige = 30
 		add_piety = -15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = miniscule_stress_impact_gain
 			chaste = miniscule_stress_impact_gain
 			shy = miniscule_stress_impact_gain
@@ -13299,7 +13316,7 @@ tarim_basin.0255 = {
 		name = tarim_basin.0255.a
 		add_gold = 25
 		add_piety = -50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			forgiving = miniscule_stress_impact_gain
 			generous = miniscule_stress_impact_gain
 			just = miniscule_stress_impact_gain
@@ -13309,7 +13326,7 @@ tarim_basin.0255 = {
 	option = { # Just give it to them
 		name = tarim_basin.0255.b
 		add_piety = 30
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = minor_stress_impact_gain
 			vengeful = miniscule_stress_impact_gain
 			arbitrary = miniscule_stress_impact_gain
@@ -13321,7 +13338,7 @@ tarim_basin.0255 = {
 		name = tarim_basin.0255.c
 		add_gold = 25
 		add_prestige = -50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			impatient = minor_stress_impact_gain
 			vengeful = miniscule_stress_impact_gain
 			arbitrary = miniscule_stress_impact_gain
@@ -13395,7 +13412,7 @@ tarim_basin.0256 = {
 	option = { # Intervene
 		name = tarim_basin.0256.a
 		add_prestige = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_gain
 			diligent = minor_stress_impact_gain
 			shy = minor_stress_impact_gain
@@ -13407,7 +13424,7 @@ tarim_basin.0256 = {
 	option = { # Don't intervene
 		name = tarim_basin.0256.b
 		add_prestige = -50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			lazy = minor_stress_impact_loss
 			content = miniscule_stress_impact_loss
 			callous = miniscule_stress_impact_loss
@@ -13422,7 +13439,7 @@ tarim_basin.0256 = {
 			modifier = RICE_tarim_basin_took_monk_inheritance
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			just = minor_stress_impact_gain
 			generous = minor_stress_impact_gain
@@ -13499,7 +13516,7 @@ tarim_basin.0257 = {
 				years = 10
 			}	
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			forgiving = miniscule_stress_impact_gain
 			callous = miniscule_stress_impact_gain
 			cynical = miniscule_stress_impact_gain
@@ -13518,7 +13535,7 @@ tarim_basin.0257 = {
 				years = 10
 			}	
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			vengeful = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_gain
 			greedy = miniscule_stress_impact_gain
@@ -13732,7 +13749,7 @@ tarim_basin.0260 = {
 		}
 		remove_short_term_gold = 20
 		add_prestige = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = miniscule_stress_impact_gain
 			callous = miniscule_stress_impact_gain
 			lazy = miniscule_stress_impact_gain
@@ -13741,7 +13758,7 @@ tarim_basin.0260 = {
 
 	option = { # ok
 		name = tarim_basin.0260.b
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			generous = miniscule_stress_impact_gain
 			gregarious = miniscule_stress_impact_gain
 			ambitious = miniscule_stress_impact_gain
@@ -13816,12 +13833,12 @@ tarim_basin.0261 = {
 			limit = {
 				has_trait = diligent
 			}
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				diligent = minor_stress_impact_gain
 			}
 		}
 		else = {
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = miniscule_stress_impact_loss
 				lazy = miniscule_stress_impact_loss
 			}
@@ -14086,7 +14103,7 @@ tarim_basin.0265 = {
 		name = tarim_basin.0265.a
 		add_gold = 25
 		add_prestige = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_gain
 			lazy = minor_stress_impact_gain
 			wrathful = miniscule_stress_impact_gain
@@ -14236,7 +14253,7 @@ tarim_basin.0267 = {
 			religion = religion:buddhism_religion
 		}
 		add_prestige = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = miniscule_stress_impact_gain
 		}
 	}
@@ -14247,7 +14264,7 @@ tarim_basin.0267 = {
 			religion = religion:buddhism_religion
 		}
 		add_piety = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 		}
 	}
@@ -14258,7 +14275,7 @@ tarim_basin.0267 = {
 			NOT = { religion = religion:buddhism_religion }
 		}
 		add_prestige = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = miniscule_stress_impact_gain
 		}
 	}
@@ -14269,7 +14286,7 @@ tarim_basin.0267 = {
 			NOT = { religion = religion:buddhism_religion }
 		}
 		add_piety = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			humble = miniscule_stress_impact_gain
 		}
 	}
@@ -14331,7 +14348,7 @@ tarim_basin.0268 = {
 	option = { # ok
 		name = tarim_basin.0268.a
 		add_piety = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 		}
 	}
@@ -14339,7 +14356,7 @@ tarim_basin.0268 = {
 	option = { # ok
 		name = tarim_basin.0268.b
 		add_prestige = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = miniscule_stress_impact_gain
 		}
 	}
@@ -14406,7 +14423,7 @@ tarim_basin.0269 = {
 	option = { # ok
 		name = tarim_basin.0269.a
 		add_prestige = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_loss
 		}
 		if = {
@@ -14481,7 +14498,7 @@ tarim_basin.0270 = {
 	option = { # ok
 		name = tarim_basin.0270.a
 		add_prestige = 15
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_loss
 		}
 	}

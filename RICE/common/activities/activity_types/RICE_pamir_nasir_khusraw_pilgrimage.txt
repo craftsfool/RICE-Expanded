@@ -27,7 +27,7 @@
 
 	can_start = {
 		religion = religion:islam_religion
-		NOT = { faith = { has_doctrine = doctrine_pilgrimage_forbidden } }
+		NOT = { rite = { rite_has_doctrine = doctrine_pilgrimage_forbidden } }
 		trigger_if = {
 			limit = { is_landless_adventurer = no }
 			OR = {

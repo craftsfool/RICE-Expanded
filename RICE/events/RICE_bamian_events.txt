@@ -391,7 +391,7 @@ bamian.0031 = {
 	
 	option = { # Ok
 		name = bamian.0031.b
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_gain
 			lazy = minor_stress_impact_gain
 			impatient = miniscule_stress_impact_gain
@@ -521,7 +521,7 @@ bamian.0032 = {
 				character = scope:host
 				scope:host = {
 					add_piety = 25
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = miniscule_stress_impact_gain
 						zealous = miniscule_stress_impact_gain
 					}
@@ -542,7 +542,7 @@ bamian.0032 = {
 				scope:host = {
 					add_prestige = 25
 					add_piety = -50
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						zealous = medium_stress_impact_gain
 					}
 				}
@@ -576,7 +576,7 @@ bamian.0033 = {
 				character = scope:host
 				scope:host = {
 					custom_tooltip = RICE_bamian_no_offerings_tooltip
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						zealous = miniscule_stress_impact_gain
 					}
 				}
@@ -606,7 +606,7 @@ bamian.0033 = {
 						modifier = RICE_bamian_offerings_siddhartha_modifier
 						years = 10
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						greedy = miniscule_stress_impact_gain
 						cynical = miniscule_stress_impact_gain
 					}
@@ -637,7 +637,7 @@ bamian.0033 = {
 						modifier = RICE_bamian_offerings_vairocana_modifier
 						years = 10
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						greedy = miniscule_stress_impact_gain
 						cynical = miniscule_stress_impact_gain
 					}
@@ -672,7 +672,7 @@ bamian.0033 = {
 						modifier = RICE_bamian_offerings_vairocana_modifier
 						years = 10
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						greedy = minor_stress_impact_gain
 						cynical = minor_stress_impact_gain
 					}
@@ -861,7 +861,7 @@ bamian.0050 = {
 			modifier = RICE_bamian_muslim_understanding_buddhists
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = minor_stress_impact_gain
 			zealous = minor_stress_impact_gain
 		}
@@ -870,7 +870,7 @@ bamian.0050 = {
 	option = { # Ok
 		name = bamian.0050.b
 		add_piety = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_gain
 		}
 	}
@@ -1217,7 +1217,7 @@ bamian.0053 = {
 			modifier = RICE_bamian_supported_buddhist_translators
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			callous = miniscule_stress_impact_gain
 			greedy = minor_stress_impact_gain
 			cynical = minor_stress_impact_gain
@@ -1226,7 +1226,7 @@ bamian.0053 = {
 
 	option = { # Ok
 		name = bamian.0053.b
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			compassionate = miniscule_stress_impact_gain
 			generous = minor_stress_impact_gain
 			zealous = minor_stress_impact_gain

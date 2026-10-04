@@ -103,6 +103,7 @@ socotra.0001 = {
 				#location = root.location
 				gender = female
 				faith = root.faith
+				rite = root.rite
 				culture = culture:south_arabian
 				random_traits = yes
 				employer = root
@@ -112,6 +113,7 @@ socotra.0001 = {
 				#location = root.location
 				gender = male
 				faith = root.faith
+				rite = root.rite
 				culture = culture:south_arabian
 				random_traits = yes
 				employer = root
@@ -121,6 +123,7 @@ socotra.0001 = {
 				#location = root.location
 				gender = female
 				faith = root.faith
+				rite = root.rite
 				random_culture = {
 					culture:swahili = { weight = { base = 10 } }
 					culture:ethiopian = { weight = { base = 10 } }
@@ -151,6 +154,7 @@ socotra.0001 = {
 				#location = root.location
 				gender = male
 				faith = root.faith
+				rite = root.rite
 				random_culture = {
 					culture:persian = { weight = { base = 10 } }
 					culture:sogdian = { weight = { base = 10 } }
@@ -191,6 +195,7 @@ socotra.0001 = {
 				#location = root.location
 				gender = male
 				faith = root.faith
+				rite = root.rite
 				random_culture = {
 					culture:egyptian = { weight = { base = 10 } }
 					culture:levantine = { weight = { base = 10 } }
@@ -240,6 +245,7 @@ socotra.0001 = {
 				#location = root.location
 				gender = male
 				faith = root.faith
+				rite = root.rite
 				random_culture = {
 					culture:gujarati = { weight = { base = 10 } }
 					culture:sindhi = { weight = { base = 10 } }
@@ -292,6 +298,7 @@ socotra.0001 = {
 						#location = root.location
 						gender = male
 						faith = root.faith
+						rite = root.rite
 						random_culture = {
 							culture:ethiopian = { weight = { base = 10 } }
 							culture:nubian = { weight = { base = 10 } }
@@ -312,6 +319,7 @@ socotra.0001 = {
 						#location = root.location
 						gender = male
 						faith = root.faith
+						rite = root.rite
 						culture = culture:somali
 						random_traits = yes
 						employer = root
@@ -335,6 +343,7 @@ socotra.0001 = {
 						#location = root.location
 						gender = male
 						faith = root.faith
+						rite = root.rite
 						culture = culture:malagasy
 						random_traits = yes
 						employer = root
@@ -352,6 +361,7 @@ socotra.0001 = {
 						#location = root.location
 						gender = male
 						faith = root.faith
+						rite = root.rite
 						random_culture = {
 							culture:swahili = { weight = { base = 10 } }
 							culture:shona = { weight = { base = 10 } }
@@ -375,6 +385,7 @@ socotra.0001 = {
 						#location = root.location
 						gender = male
 						faith = root.faith
+						rite = root.rite
 						culture = culture:south_arabian
 						random_traits = yes
 						employer = root
@@ -386,6 +397,7 @@ socotra.0001 = {
 						#location = root.location
 						gender = male
 						faith = root.faith
+						rite = root.rite
 						random_culture = {
 							culture:persian = { weight = { base = 10 } }
 							culture:sogdian = { weight = { base = 10 } }
@@ -428,6 +440,7 @@ socotra.0001 = {
 						#location = root.location
 						gender = male
 						faith = root.faith
+						rite = root.rite
 						random_culture = {
 							culture:egyptian = { weight = { base = 10 } }
 							culture:levantine = { weight = { base = 10 } }
@@ -480,6 +493,7 @@ socotra.0001 = {
 						#location = root.location
 						gender = male
 						faith = root.faith
+						rite = root.rite
 						random_culture = {
 							culture:gujarati = { weight = { base = 10 } }
 							culture:sindhi = { weight = { base = 10 } }
@@ -519,6 +533,7 @@ socotra.0001 = {
 								#location = root.location
 								gender = male
 								faith = root.faith
+								rite = root.rite
 								random_culture = {
 									culture:ethiopian = { weight = { base = 10 } }
 									culture:nubian = { weight = { base = 10 } }
@@ -539,6 +554,7 @@ socotra.0001 = {
 								#location = root.location
 								gender = male
 								faith = root.faith
+								rite = root.rite
 								culture = culture:somali
 								random_traits = yes
 								employer = root
@@ -557,6 +573,7 @@ socotra.0001 = {
 								#location = root.location
 								gender = male
 								faith = root.faith
+								rite = root.rite
 								culture = culture:malagasy
 								random_traits = yes
 								employer = root
@@ -574,6 +591,7 @@ socotra.0001 = {
 								#location = root.location
 								gender = male
 								faith = root.faith
+								rite = root.rite
 								random_culture = {
 									culture:swahili = { weight = { base = 10 } }
 									culture:shona = { weight = { base = 10 } }
@@ -998,7 +1016,7 @@ socotra.0010 = {
 	option = {
 		name = socotra.0010.c
 		add_dread = 10
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			compassionate = medium_stress_impact_gain
 		}
 		hidden_effect = {
@@ -1157,7 +1175,7 @@ socotra.0011 = {
 	option = {
 		name = socotra.0011.c
 		add_dread = 10
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			compassionate = medium_stress_impact_gain
 		}
 		hidden_effect = {
@@ -3336,7 +3354,7 @@ socotra.0025 = {
 		# 		limit = {
 		# 			has_activity_intent = RICE_socotra_host_poetry_contest_judge_intent
 		# 		}
-		# 		stress_impact = {
+		# 		stress_and_fulfillment_impact = {
 		# 			base = minor_stress_impact_gain
 		# 			diligent = miniscule_stress_impact_gain
 		# 			lazy = minor_stress_impact_gain
@@ -3364,7 +3382,7 @@ socotra.0025 = {
 		# 		limit = {
 		# 			has_activity_intent = RICE_socotra_host_poetry_contest_judge_intent
 		# 		}
-		# 		stress_impact = {
+		# 		stress_and_fulfillment_impact = {
 		# 			base = minor_stress_impact_gain
 		# 			diligent = miniscule_stress_impact_gain
 		# 			lazy = minor_stress_impact_gain
@@ -3392,7 +3410,7 @@ socotra.0025 = {
 		# 		limit = {
 		# 			has_activity_intent = RICE_socotra_host_poetry_contest_judge_intent
 		# 		}
-		# 		stress_impact = {
+		# 		stress_and_fulfillment_impact = {
 		# 			base = minor_stress_impact_gain
 		# 			diligent = miniscule_stress_impact_gain
 		# 			lazy = minor_stress_impact_gain
@@ -3412,7 +3430,7 @@ socotra.0025 = {
 		# 		limit = {
 		# 			has_activity_intent = RICE_socotra_host_poetry_contest_judge_intent
 		# 		}
-		# 		stress_impact = {
+		# 		stress_and_fulfillment_impact = {
 		# 			base = minor_stress_impact_gain
 		# 			diligent = miniscule_stress_impact_gain
 		# 			lazy = minor_stress_impact_gain
@@ -3973,7 +3991,7 @@ socotra.0041 = {
 			}
 			add_piety = -50
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = medium_stress_impact_gain
 		}
 		add_character_flag = { flag = RICE_socotra_moon_sacrifice_great days = 1 }
@@ -3993,7 +4011,7 @@ socotra.0041 = {
 			}
 			add_piety = -200
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			compassionate = medium_stress_impact_gain
 		}
 		add_character_flag = { flag = RICE_socotra_moon_sacrifice_commoners_hand days = 1 }
@@ -4304,7 +4322,7 @@ socotra.0051 = {
 
 	option = { # Ok
 		name = socotra.0051.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_loss
 		}
 	}
@@ -4967,13 +4985,13 @@ socotra.0060 = {
 					has_trait = sadistic
 				}
 			}
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = minor_stress_impact_loss
 				lazy = minor_stress_impact_loss
 			}
 		}
 		else = {
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				sadistic = miniscule_stress_impact_gain
 				vengeful = miniscule_stress_impact_gain
 				just = medium_stress_impact_gain
@@ -4983,7 +5001,7 @@ socotra.0060 = {
 	option = { # Ok
 		name = socotra.0060.b
 		add_prestige = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			forgiving = miniscule_stress_impact_gain
 			compassionate = miniscule_stress_impact_gain
 			trusting = miniscule_stress_impact_gain
@@ -5043,7 +5061,7 @@ socotra.0061 = {
 	option = { # Ok
 		name = socotra.0061.a
 		add_prestige = 20
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			trusting = minor_stress_impact_gain
 		}
 	}
@@ -5051,7 +5069,7 @@ socotra.0061 = {
 	option = { # Ok
 		name = socotra.0061.b
 		add_piety = 20
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_gain
 		}
 	}
@@ -5174,14 +5192,14 @@ socotra.0063 = {
 	}
 	
 	immediate = {
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_loss
 		}
 		every_courtier = {
 			limit = {
 				is_available_ai_adult = yes
 			}
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				base = minor_stress_impact_loss
 			}
 			add_opinion = {
@@ -5256,7 +5274,7 @@ socotra.0064 = {
 
 	option = { # Ok
 		name = socotra.0064.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = miniscule_stress_impact_gain
 			paranoid = minor_stress_impact_gain
 		}
@@ -5267,7 +5285,7 @@ socotra.0064 = {
 	}
 	option = { # Ok
 		name = socotra.0064.b
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = miniscule_stress_impact_gain
 			paranoid = minor_stress_impact_gain
 		}
@@ -5278,7 +5296,7 @@ socotra.0064 = {
 	}
 	option = { # Ok
 		name = socotra.0064.c
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = miniscule_stress_impact_gain
 			paranoid = minor_stress_impact_gain
 		}
@@ -5290,7 +5308,7 @@ socotra.0064 = {
 	option = { # Ok
 		name = socotra.0064.d
 		add_prestige = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = miniscule_stress_impact_gain
 			gluttonous = medium_stress_impact_gain
 		}
@@ -5598,14 +5616,14 @@ socotra.0070 = {
 	option = { # Ok
 		name = socotra.0070.a
 		add_prestige = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			trusting = miniscule_stress_impact_gain
 		}
 	}
 	option = { # Ok
 		name = socotra.0070.b
 		add_piety = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 		}
 	}
@@ -5658,14 +5676,14 @@ socotra.0071 = {
 
 	option = { # Ok
 		name = socotra.0071.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			brave = minor_stress_impact_gain
 		}
 	}
 	option = { # Ok
 		name = socotra.0071.b
 		add_prestige = 50	
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			craven = minor_stress_impact_gain
 		}	
 		random = {
@@ -5728,7 +5746,7 @@ socotra.0072 = {
 	option = { # Ok
 		name = socotra.0072.a
 		add_piety = 50	
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			sadistic = minor_stress_impact_gain
 		}	
 	}
@@ -5736,7 +5754,7 @@ socotra.0072 = {
 		name = socotra.0072.b
 		add_prestige = 50
 		add_dread = 10	
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			compassionate = minor_stress_impact_gain
 		}	
 	}
@@ -5843,7 +5861,7 @@ socotra.0074 = {
 
 	option = { # Ok
 		name = socotra.0074.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_loss
 			shy = miniscule_stress_impact_loss
 			content = miniscule_stress_impact_loss

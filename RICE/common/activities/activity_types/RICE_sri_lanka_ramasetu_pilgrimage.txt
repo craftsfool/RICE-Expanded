@@ -50,7 +50,7 @@
 			}
 		}
 		religion = religion:hinduism_religion
-		NOT = { faith = { has_doctrine = doctrine_pilgrimage_forbidden } }
+		NOT = { rite = { rite_has_doctrine = doctrine_pilgrimage_forbidden } }
 	}
 
 	can_start_showing_failures_only = {

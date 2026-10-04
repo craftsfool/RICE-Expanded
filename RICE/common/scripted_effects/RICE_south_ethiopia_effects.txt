@@ -1212,7 +1212,7 @@ RICE_south_ethiopia_cattle_counting_ceremony_completed_log_entry_effect = {
 			every_attending_character = {
 				limit = { NOT = { this = scope:host } }
 				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = minor_stress_impact_loss
 				}
 			}	
@@ -1259,7 +1259,7 @@ RICE_south_ethiopia_gifaataa_festival_completed_log_entry_effect = {
 						has_activity_intent = RICE_south_ethiopia_new_year_generic_reconciliation_intent
 					}
 					add_piety = 100
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						forgiving = minor_stress_impact_loss
 						humble = minor_stress_impact_loss
@@ -1270,7 +1270,7 @@ RICE_south_ethiopia_gifaataa_festival_completed_log_entry_effect = {
 						has_activity_intent = RICE_south_ethiopia_new_year_generic_fun_intent
 					}
 					add_prestige = 100
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = medium_stress_impact_loss
 						gregarious = minor_stress_impact_loss
 						generous = minor_stress_impact_loss
@@ -1321,7 +1321,7 @@ RICE_south_ethiopia_gifaataa_festival_completed_log_entry_effect = {
 				limit = { NOT = { this = scope:host } }
 				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
 				add_prestige = 100
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = medium_stress_impact_loss
 					gregarious = minor_stress_impact_loss
 					forgiving = minor_stress_impact_loss
@@ -1363,7 +1363,7 @@ RICE_south_ethiopia_fichee_chambalaalla_festival_completed_log_entry_effect = {
 						has_activity_intent = RICE_south_ethiopia_new_year_generic_reconciliation_intent
 					}
 					add_piety = 100
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						forgiving = minor_stress_impact_loss
 						humble = minor_stress_impact_loss
@@ -1374,7 +1374,7 @@ RICE_south_ethiopia_fichee_chambalaalla_festival_completed_log_entry_effect = {
 						has_activity_intent = RICE_south_ethiopia_new_year_generic_fun_intent
 					}
 					add_prestige = 100
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = medium_stress_impact_loss
 						gregarious = minor_stress_impact_loss
 						generous = minor_stress_impact_loss
@@ -1425,7 +1425,7 @@ RICE_south_ethiopia_fichee_chambalaalla_festival_completed_log_entry_effect = {
 				limit = { NOT = { this = scope:host } }
 				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
 				add_prestige = 100
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = medium_stress_impact_loss
 					gregarious = minor_stress_impact_loss
 					forgiving = minor_stress_impact_loss

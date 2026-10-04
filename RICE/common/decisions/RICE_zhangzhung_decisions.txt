@@ -1852,8 +1852,8 @@ RICE_select_personal_deity_buddhist_decision = {
 		roa_is_active = no
 		religion = religion:buddhism_religion
 		NOR = {
-			faith = { has_doctrine = rice_theravada_canon_doctrine }
-			faith = { has_doctrine = rice_pudgalavada_canon_doctrine }
+			rite = { rite_has_doctrine = rice_theravada_canon_doctrine }
+			rite = { rite_has_doctrine = rice_pudgalavada_canon_doctrine }
 		}
 		NOR = {
 			culture = { has_cultural_pillar = heritage_tibetan } 
@@ -1864,8 +1864,8 @@ RICE_select_personal_deity_buddhist_decision = {
 	is_valid = {
 		religion = religion:buddhism_religion
 		NOR = {
-			faith = { has_doctrine = rice_theravada_canon_doctrine }
-			faith = { has_doctrine = rice_pudgalavada_canon_doctrine }
+			rite = { rite_has_doctrine = rice_theravada_canon_doctrine }
+			rite = { rite_has_doctrine = rice_pudgalavada_canon_doctrine }
 		}
 		NOR = {
 			culture = { has_cultural_pillar = heritage_tibetan } 

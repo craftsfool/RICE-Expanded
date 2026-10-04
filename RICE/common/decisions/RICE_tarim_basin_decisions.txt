@@ -498,7 +498,7 @@ RICE_tarim_basin_compile_the_turkic_dictionary = {
 		add_character_modifier = {
 			modifier = RICE_tarim_basin_working_on_turkic_dictionary
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_gain
 			lazy = minor_stress_impact_gain
 		}

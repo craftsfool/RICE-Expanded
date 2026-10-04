@@ -2420,7 +2420,7 @@ RICE_pamir_restore_hephthalite_effect = {
 				has_global_variable = RICE_pamir_hephthalite_northern_focus_chosen
 			}
 			faith = {
-				add_doctrine = rice_zun_hephthalite_warriors_doctrine
+				every_faith_rite = { add_rite_doctrine = rice_zun_hephthalite_warriors_doctrine }
 			}
 		}
 		if = {
@@ -2428,7 +2428,7 @@ RICE_pamir_restore_hephthalite_effect = {
 				has_global_variable = RICE_pamir_hephthalite_southern_focus_chosen
 			}
 			faith = {
-				add_doctrine = rice_zun_hephthalite_culture_doctrine
+				every_faith_rite = { add_rite_doctrine = rice_zun_hephthalite_culture_doctrine }
 			}
 		}
 	}
@@ -2730,7 +2730,7 @@ RICE_pamir_chinir_festival_completed_log_entry_effect = {
 					limit = {
 						has_activity_intent = RICE_pamir_chinir_festival_celebration_intent
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						gregarious = minor_stress_impact_loss
 						content = minor_stress_impact_loss
@@ -2794,7 +2794,7 @@ RICE_pamir_chinir_festival_completed_log_entry_effect = {
 				limit = { NOT = { this = scope:host } }
 				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
 				add_prestige = 25
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = miniscule_stress_impact_loss
 				}
 			}
@@ -2973,7 +2973,7 @@ RICE_pamir_goat_sacrifice_completed_log_entry_effect = {
 						has_activity_intent = RICE_pamir_goat_sacrifice_worship_intent
 					}
 					add_piety = 50
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						zealous = minor_stress_impact_loss
 						humble = minor_stress_impact_loss
 					}
@@ -2983,7 +2983,7 @@ RICE_pamir_goat_sacrifice_completed_log_entry_effect = {
 						has_activity_intent = RICE_pamir_goat_sacrifice_reputation_intent
 					}
 					add_prestige = 50
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						ambitious = minor_stress_impact_loss
 						arrogant = minor_stress_impact_loss
 					}

@@ -72,7 +72,7 @@ RICE_setup_yazidi_flavor_pack_effect = {
 	}
 	# Shamsi Sect
 	faith:shamsi_pagan = {
-		add_doctrine = special_doctrine_is_west_iranian_faith
+		every_faith_rite = { add_rite_doctrine = special_doctrine_is_west_iranian_faith }
 	}
 	# Alevis
 	rite:alevi = {
@@ -80,7 +80,7 @@ RICE_setup_yazidi_flavor_pack_effect = {
 	}
 	# Arewordik
 	faith:urartuism = {
-		add_doctrine = special_doctrine_is_west_iranian_faith
+		every_faith_rite = { add_rite_doctrine = special_doctrine_is_west_iranian_faith }
 	}
 
 	############################################################
@@ -746,7 +746,7 @@ RICE_yazidi_yarsani_jam_completed_log_entry_effect = {
 						has_activity_intent = RICE_yazidi_yarsani_jam_purity_intent
 					}
 					add_piety = 50
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						zealous = minor_stress_impact_loss
 						temperate = minor_stress_impact_loss
 					}
@@ -756,7 +756,7 @@ RICE_yazidi_yarsani_jam_completed_log_entry_effect = {
 						has_activity_intent = RICE_yazidi_yarsani_jam_equality_intent
 					}
 					add_prestige = 50
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						compassionate = minor_stress_impact_loss
 						humble = minor_stress_impact_loss
 					}
@@ -765,13 +765,13 @@ RICE_yazidi_yarsani_jam_completed_log_entry_effect = {
 					limit = {
 						has_activity_intent = RICE_yazidi_yarsani_jam_solidarity_intent
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						gregarious = minor_stress_impact_loss
 						generous = minor_stress_impact_loss
 					}
 				}
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = minor_stress_impact_loss
 				}
 			}
@@ -823,7 +823,7 @@ RICE_yazidi_yarsani_jam_completed_log_entry_effect = {
 						has_activity_intent = RICE_yazidi_yarsani_jam_purity_intent
 					}
 					add_piety = 50
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						zealous = minor_stress_impact_loss
 						temperate = minor_stress_impact_loss
 					}
@@ -833,7 +833,7 @@ RICE_yazidi_yarsani_jam_completed_log_entry_effect = {
 						has_activity_intent = RICE_yazidi_yarsani_jam_equality_intent
 					}
 					add_prestige = 50
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						compassionate = minor_stress_impact_loss
 						humble = minor_stress_impact_loss
 					}
@@ -842,13 +842,13 @@ RICE_yazidi_yarsani_jam_completed_log_entry_effect = {
 					limit = {
 						has_activity_intent = RICE_yazidi_yarsani_jam_solidarity_intent
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						gregarious = minor_stress_impact_loss
 						generous = minor_stress_impact_loss
 					}
 				}
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = minor_stress_impact_loss
 				}
 			}	
@@ -966,7 +966,7 @@ RICE_yazidi_tiwaf_completed_log_entry_effect = {
 					}
 					add_piety = 100
 					add_prestige = 50
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						zealous = minor_stress_impact_loss
 						diligent = minor_stress_impact_loss
@@ -984,7 +984,7 @@ RICE_yazidi_tiwaf_completed_log_entry_effect = {
 					}
 					add_prestige = 100
 					add_piety = 50
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						gregarious = minor_stress_impact_loss
 						compassionate = minor_stress_impact_loss
@@ -1002,7 +1002,7 @@ RICE_yazidi_tiwaf_completed_log_entry_effect = {
 				custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT
 				add_prestige = 25
 				add_piety = 25 
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = miniscule_stress_impact_loss
 				}
 			}	

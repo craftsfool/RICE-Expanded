@@ -141,7 +141,7 @@
 					value = 10
 					if = {
 						limit = {
-							has_trait = scholar
+							has_trait = erudite
 						}
 						add = 5
 					}

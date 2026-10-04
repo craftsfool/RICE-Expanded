@@ -472,7 +472,7 @@ RICE_bozo_ghana_funeral_decision = {
 			faith = {
 				OR = {					
 					has_doctrine = unreformed_faith_doctrine
-					has_doctrine = tenet_unreformed_syncretism
+					has_tenet = tenet_unreformed_syncretism
 				}
 			}
 		}
@@ -490,7 +490,7 @@ RICE_bozo_ghana_funeral_decision = {
 			faith = {
 				OR = {					
 					has_doctrine = unreformed_faith_doctrine
-					has_doctrine = tenet_unreformed_syncretism
+					has_tenet = tenet_unreformed_syncretism
 				}
 			}
 		}

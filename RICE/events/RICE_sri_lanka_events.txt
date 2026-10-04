@@ -601,8 +601,8 @@ sri_lanka.0006 = {
 							}
 						}
 					}
-					faith = {
-						has_doctrine = rice_theravada_canon_doctrine
+					rite = {
+						rite_has_doctrine = rice_theravada_canon_doctrine
 					}				
 				}
 			}
@@ -994,14 +994,14 @@ sri_lanka.0010 = {
 				}
 				add_prestige = RICE_india_grant_prestige_same_religion_value
 				add_piety = RICE_india_grant_piety_same_religion_value
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					zealous = minor_stress_impact_loss
 				}
 			}
 			else = {
 				add_prestige = RICE_india_grant_prestige_different_religion_value
 				add_piety = RICE_india_grant_piety_different_religion_value
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					zealous = minor_stress_impact_gain
 				}
 			}
@@ -1166,14 +1166,14 @@ sri_lanka.0010 = {
 				}
 				add_prestige = RICE_india_grant_prestige_same_religion_value
 				add_piety = RICE_india_grant_piety_same_religion_value
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					zealous = minor_stress_impact_loss
 				}
 			}
 			else = {
 				add_prestige = RICE_india_grant_prestige_different_religion_value
 				add_piety = RICE_india_grant_piety_different_religion_value
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					zealous = minor_stress_impact_gain
 				}
 			}
@@ -1321,14 +1321,14 @@ sri_lanka.0010 = {
 				}
 				add_prestige = RICE_india_grant_prestige_same_religion_value
 				add_piety = RICE_india_grant_piety_same_religion_value
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					zealous = minor_stress_impact_loss
 				}
 			}
 			else = {
 				add_prestige = RICE_india_grant_prestige_different_religion_value
 				add_piety = RICE_india_grant_piety_different_religion_value
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					zealous = minor_stress_impact_gain
 				}
 			}
@@ -1346,7 +1346,7 @@ sri_lanka.0010 = {
 
 
 
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_gain
 			greedy = minor_stress_impact_gain
 		}
@@ -3166,7 +3166,7 @@ sri_lanka.0031 = {
 								is_struggle_phase = struggle_RICE_sri_lanka_phase_purification
 							}
 						}
-						faith = { has_doctrine = rice_theravada_purification_doctrine }
+						rite = { rite_has_doctrine = rice_theravada_purification_doctrine }
 					}
 				}
 				add_character_modifier = {
@@ -3253,7 +3253,7 @@ sri_lanka.0031 = {
 								is_struggle_phase = struggle_RICE_sri_lanka_phase_purification
 							}
 						}
-						faith = { has_doctrine = rice_theravada_purification_doctrine }
+						rite = { rite_has_doctrine = rice_theravada_purification_doctrine }
 					}
 				}
 				add_character_modifier = {
@@ -3340,7 +3340,7 @@ sri_lanka.0031 = {
 								is_struggle_phase = struggle_RICE_sri_lanka_phase_purification
 							}
 						}
-						faith = { has_doctrine = rice_theravada_purification_doctrine }
+						rite = { rite_has_doctrine = rice_theravada_purification_doctrine }
 					}
 				}
 				add_character_modifier = {
@@ -3427,7 +3427,7 @@ sri_lanka.0031 = {
 								is_struggle_phase = struggle_RICE_sri_lanka_phase_purification
 							}
 						}
-						faith = { has_doctrine = rice_theravada_purification_doctrine }
+						rite = { rite_has_doctrine = rice_theravada_purification_doctrine }
 					}
 				}
 				add_character_modifier = {
@@ -3515,7 +3515,7 @@ sri_lanka.0031 = {
 								is_struggle_phase = struggle_RICE_sri_lanka_phase_purification
 							}
 						}
-						faith = { has_doctrine = rice_theravada_purification_doctrine }
+						rite = { rite_has_doctrine = rice_theravada_purification_doctrine }
 					}
 				}
 				add_character_modifier = {
@@ -4397,7 +4397,7 @@ sri_lanka.0072 = {
 				show_in_conclusion = yes
 				character = scope:host
 				scope:host = {
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						# base = miniscule_stress_impact_loss
 						lazy = miniscule_stress_impact_loss
 						patient = miniscule_stress_impact_loss
@@ -4419,7 +4419,7 @@ sri_lanka.0072 = {
 				character = scope:host
 				scope:host = {
 					add_prestige = 50
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_gain
 						lazy = minor_stress_impact_gain
 						cynical = miniscule_stress_impact_gain
@@ -4498,7 +4498,7 @@ sri_lanka.0073 = {
 					scope:host = {
 						add_prestige = 50
 						remove_short_term_gold = 25
-						stress_impact = {
+						stress_and_fulfillment_impact = {
 							cynical = miniscule_stress_impact_gain
 							greedy = minor_stress_impact_gain
 						}
@@ -4517,7 +4517,7 @@ sri_lanka.0073 = {
 					scope:host = {
 						add_piety = 50
 						remove_short_term_gold = 25
-						stress_impact = {
+						stress_and_fulfillment_impact = {
 							cynical = miniscule_stress_impact_gain
 							greedy = minor_stress_impact_gain
 						}
@@ -4584,7 +4584,7 @@ sri_lanka.0080 = {
 			modifier = RICE_sri_pada_different_faiths_respect
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 		}
 	}
@@ -4628,7 +4628,7 @@ sri_lanka.0081 = {
 						modifier = RICE_sri_pada_avoided_meat
 						years = 10
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = miniscule_stress_impact_gain
 					}
 				}
@@ -4652,7 +4652,7 @@ sri_lanka.0081 = {
 							religion = { is_in_family = rf_eastern }
 						}
 						add_piety = -50
-						stress_impact = {
+						stress_and_fulfillment_impact = {
 							zealous = minor_stress_impact_gain
 						}
 					}
@@ -5386,7 +5386,7 @@ sri_lanka.0153 = {
 	option = { # Sentence them to join the Rodi caste
 		name = sri_lanka.0153.a
 		add_piety = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			trusting = miniscule_stress_impact_gain
 			forgiving = miniscule_stress_impact_gain
 		}
@@ -5415,7 +5415,7 @@ sri_lanka.0153 = {
 			}
 		}
 		
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			compassionate = minor_stress_impact_gain
 			just = miniscule_stress_impact_gain
 			forgiving = miniscule_stress_impact_gain
@@ -5454,7 +5454,7 @@ sri_lanka.0153 = {
 				type = saved_my_life_hook
 			}
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = minor_stress_impact_gain
 			just = major_stress_impact_gain
 			vengeful = minor_stress_impact_gain
@@ -5521,7 +5521,7 @@ sri_lanka.0154 = {
 
 	option = { # Ok
 		name = sri_lanka.0154.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			base = miniscule_stress_impact_loss
 			lazy = miniscule_stress_impact_loss
 			zealous = miniscule_stress_impact_loss
@@ -5796,7 +5796,7 @@ sri_lanka.0158 = {
 			modifier = RICE_sri_lanka_respects_other_buddhist_sects
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			paranoid = miniscule_stress_impact_gain
 		}
@@ -5808,7 +5808,7 @@ sri_lanka.0158 = {
 			modifier = RICE_sri_lanka_avoids_heretical_buddhist_sects
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			humble = minor_stress_impact_gain
 			calm = miniscule_stress_impact_gain
 		}
@@ -5924,7 +5924,7 @@ sri_lanka.0160 = {
 
 	option = { # Ok
 		name = sri_lanka.0160.a		
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = miniscule_stress_impact_gain
 		}
 	}
@@ -6045,7 +6045,7 @@ sri_lanka.0161 = {
 			modifier = RICE_sri_lanka_generous_to_villagers
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = medium_stress_impact_gain
 			arrogant = minor_stress_impact_gain
 			arbitrary = minor_stress_impact_gain
@@ -6064,7 +6064,7 @@ sri_lanka.0161 = {
 	option = { # Ok
 		name = sri_lanka.0161.b
 		add_gold = 100
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			generous = medium_stress_impact_gain
 			humble = minor_stress_impact_gain
 			just = minor_stress_impact_gain
@@ -6083,7 +6083,7 @@ sri_lanka.0161 = {
 		name = sri_lanka.0161.c
 		add_gold = 50
 		add_prestige = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = minor_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
 			arbitrary = miniscule_stress_impact_gain

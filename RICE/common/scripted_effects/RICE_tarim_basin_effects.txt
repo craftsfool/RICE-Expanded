@@ -2629,7 +2629,7 @@ RICE_tarim_basin_crescent_lake_visit_completed_log_entry_effect = {
 						}
 					}
 					add_prestige = 30
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						brave = miniscule_stress_impact_loss
 						diligent = miniscule_stress_impact_loss
@@ -2642,7 +2642,7 @@ RICE_tarim_basin_crescent_lake_visit_completed_log_entry_effect = {
 						}
 					}
 					add_piety = 30
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						zealous = minor_stress_impact_loss
 					}
@@ -2655,7 +2655,7 @@ RICE_tarim_basin_crescent_lake_visit_completed_log_entry_effect = {
 					}
 					add_prestige = 15
 					add_piety = 15
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						base = minor_stress_impact_loss
 						gregarious = miniscule_stress_impact_loss
 						lazy = miniscule_stress_impact_loss
@@ -2670,7 +2670,7 @@ RICE_tarim_basin_crescent_lake_visit_completed_log_entry_effect = {
             every_attending_character = {
                 limit = { NOT = { this = root } }
                 custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT			
-				stress_impact = {
+				stress_and_fulfillment_impact = {
 					base = minor_stress_impact_loss
 				}
 				add_character_modifier = {
@@ -2694,7 +2694,7 @@ RICE_tarim_basin_crescent_lake_visit_completed_log_entry_effect = {
 # 				every_attending_character = {
 # 					limit = { NOT = { this = root } }
 # 					custom = EVERY_ACTIVITY_PARTICIPANT_EFFECT			
-# 					stress_impact = {
+# 					stress_and_fulfillment_impact = {
 # 						base = minor_stress_impact_loss
 # 					}
 # 					add_character_modifier = {
@@ -2990,7 +2990,7 @@ RICE_tarim_basin_ordam_mazar_completed_log_entry_effect = {
 					limit = {
 						has_activity_intent = RICE_tarim_basin_ordam_mazar_remembrance_intent
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						zealous = miniscule_stress_impact_loss
 						calm = miniscule_stress_impact_loss
 						humble = miniscule_stress_impact_loss
@@ -3001,7 +3001,7 @@ RICE_tarim_basin_ordam_mazar_completed_log_entry_effect = {
 					limit = {
 						has_activity_intent = RICE_tarim_basin_ordam_mazar_socialization_intent
 					}
-					stress_impact = {
+					stress_and_fulfillment_impact = {
 						gregarious = miniscule_stress_impact_loss
 						ambitious = miniscule_stress_impact_loss
 						gluttonous = miniscule_stress_impact_loss
@@ -3023,7 +3023,7 @@ RICE_tarim_basin_ordam_mazar_completed_log_entry_effect = {
 						limit = {
 							has_activity_intent = RICE_tarim_basin_ordam_mazar_remembrance_intent
 						}
-						stress_impact = {
+						stress_and_fulfillment_impact = {
 							zealous = miniscule_stress_impact_loss
 							calm = miniscule_stress_impact_loss
 							humble = miniscule_stress_impact_loss
@@ -3034,7 +3034,7 @@ RICE_tarim_basin_ordam_mazar_completed_log_entry_effect = {
 						limit = {
 							has_activity_intent = RICE_tarim_basin_ordam_mazar_socialization_intent
 						}
-						stress_impact = {
+						stress_and_fulfillment_impact = {
 							gregarious = miniscule_stress_impact_loss
 							ambitious = miniscule_stress_impact_loss
 							gluttonous = miniscule_stress_impact_loss

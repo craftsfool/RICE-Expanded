@@ -267,7 +267,7 @@ manichean.0003 = {
 		# Lose it if you convert away from Buddhism
 		if = {
 			limit = {
-				NOT = { faith = { has_doctrine = rice_light_purification_doctrine } }
+				NOT = { rite = { rite_has_doctrine = rice_light_purification_doctrine } }
 			}
 			if = {
 				limit = {
@@ -329,14 +329,14 @@ manichean.0004 = {
 	option = { # Ok
 		name = manichean.0004.a
 		trigger = {
-			faith = { has_doctrine = rice_light_purification_doctrine }
+			rite = { rite_has_doctrine = rice_light_purification_doctrine }
 		}		
 	}
 	
 	option = { # Ok
 		name = manichean.0004.b
 		trigger = {
-			NOT = { faith = { has_doctrine = rice_light_purification_doctrine } }
+			NOT = { rite = { rite_has_doctrine = rice_light_purification_doctrine } }
 		}	
 	}
 
@@ -356,27 +356,27 @@ manichean.0005 = {
 	
 	option = { # Ok
 		name = manichean.0005.a
-		faith = { add_doctrine = rice_baptism_purification_doctrine }
+		rite = { add_rite_doctrine = rice_baptism_purification_doctrine }
 	}
 	
 	option = { # Ok
 		name = manichean.0005.b
-		faith = { add_doctrine = rice_food_purification_doctrine }
+		rite = { add_rite_doctrine = rice_food_purification_doctrine }
 	}
 	
 	option = { # Ok
 		name = manichean.0005.c
-		faith = { add_doctrine = rice_prayer_love_doctrine }
+		rite = { add_rite_doctrine = rice_prayer_love_doctrine }
 	}
 	
 	option = { # Ok
 		name = manichean.0005.d
-		faith = { add_doctrine = rice_light_purification_doctrine }
+		rite = { add_rite_doctrine = rice_light_purification_doctrine }
 	}
 	
 	option = { # Ok
 		name = manichean.0005.e
-		faith = { add_doctrine = rice_prayer_purification_doctrine }
+		rite = { add_rite_doctrine = rice_prayer_purification_doctrine }
 	}
 
 }
@@ -406,7 +406,7 @@ manichean.0006 = {
 		}
 		NOT = { has_global_variable = RICE_mani_sealstone_found }
 		NOT = { has_global_variable = RICE_manichean_sealstone_timer }
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 		# This is always available to the reviver of Manicheism in Mesopotamia
 		OR = {
 			has_character_flag = RICE_manichean_mesopotamia_reviver_flag
@@ -479,8 +479,8 @@ manichean.0006 = {
 			limit = {
 				OR = {
 					this = scope:discoverer
-					faith = {
-						has_doctrine = rice_light_purification_doctrine
+					rite = {
+						rite_has_doctrine = rice_light_purification_doctrine
 					}
 					capital_county ?= {
 						title_province = { 
@@ -706,9 +706,9 @@ manichean.0012 = {
 						any_county_province = {
 							geographical_region = RICE_former_uyghur_influence_region
 						}
-						faith = {
+						rite = {
 							NOT = {
-								has_doctrine = rice_light_purification_doctrine
+								rite_has_doctrine = rice_light_purification_doctrine
 							}
 						}
 					}
@@ -783,9 +783,9 @@ manichean.0013 = {
 				any_county_province = {
 					geographical_region = RICE_former_uyghur_influence_region
 				}
-				faith = {
+				rite = {
 					NOT = {
-						has_doctrine = rice_light_purification_doctrine
+						rite_has_doctrine = rice_light_purification_doctrine
 					}
 				}
 			}
@@ -1556,14 +1556,14 @@ manichean.0050 = {
 					# If you own a title with a non-Manichean faith, pick that
 					any_held_county = {
 						#tier = county
-						NOT = { faith = { has_doctrine = rice_light_purification_doctrine } }
+						NOT = { rite = { rite_has_doctrine = rice_light_purification_doctrine } }
 						NOT = { faith = { has_doctrine = unreformed_faith_doctrine } }
 					}
 				}
 				random_held_county = {
 					limit = {
 						#tier = county
-						NOT = { faith = { has_doctrine = rice_light_purification_doctrine } }
+						NOT = { rite = { rite_has_doctrine = rice_light_purification_doctrine } }
 						NOT = { faith = { has_doctrine = unreformed_faith_doctrine } }
 					}
 					add_to_list = other_faith_candidates
@@ -1861,7 +1861,7 @@ manichean.0051 = {
     }
 
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	#Trigger if converted to another faith
@@ -2025,7 +2025,7 @@ manichean.0052 = {
     }
 
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	#Trigger if converted to another faith
@@ -2189,7 +2189,7 @@ manichean.0053 = {
     }
 
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	#Trigger if converted to another faith
@@ -2353,7 +2353,7 @@ manichean.0054 = {
     }
 
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	#Trigger if converted to another faith
@@ -2517,7 +2517,7 @@ manichean.0055 = {
     }
 
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	#Trigger if converted to another faith
@@ -2682,7 +2682,7 @@ manichean.0056 = {
     }
 
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	#Trigger if converted to another faith
@@ -2846,7 +2846,7 @@ manichean.0057 = {
     }
 
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	#Trigger if converted to another faith
@@ -3010,7 +3010,7 @@ manichean.0058 = {
     }
 
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	#Trigger if converted to another faith
@@ -3180,7 +3180,7 @@ manichean.0070 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	weight_multiplier = {
@@ -3214,7 +3214,7 @@ manichean.0070 = {
 
 	option = { # Ok
 		name = manichean.0070.a
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 		}
 	}
@@ -3229,7 +3229,7 @@ manichean.0070 = {
 		}
 		remove_short_term_gold = 25
 		add_piety = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			greedy = minor_stress_impact_gain
 			cynical = minor_stress_impact_gain
 		}
@@ -3264,7 +3264,7 @@ manichean.0071 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 		OR = {
 			capital_county ?= {
 				title_province = { 
@@ -3322,7 +3322,7 @@ manichean.0071 = {
 			modifier = RICE_manichean_dislikes_those_who_defame_mani
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			patient = minor_stress_impact_gain
 			calm = minor_stress_impact_gain
 		}
@@ -3334,7 +3334,7 @@ manichean.0071 = {
 			modifier = RICE_manichean_patient_with_anti_manicheans
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			impatient = minor_stress_impact_gain
 			wrathful = minor_stress_impact_gain
 		}
@@ -3357,7 +3357,7 @@ manichean.0072 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	weight_multiplier = {
@@ -3399,7 +3399,7 @@ manichean.0072 = {
 		}
 		remove_short_term_gold = 10
 		add_piety = 50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = miniscule_stress_impact_gain
 			zealous = miniscule_stress_impact_loss
 			greedy = miniscule_stress_impact_gain
@@ -3417,7 +3417,7 @@ manichean.0072 = {
 		}
 		remove_short_term_gold = 35
 		add_piety = 100
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_gain
 			zealous = minor_stress_impact_loss
 			greedy = minor_stress_impact_gain
@@ -3427,7 +3427,7 @@ manichean.0072 = {
 
 	option = { # Ok
 		name = manichean.0072.c
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			cynical = minor_stress_impact_loss
 			generous = minor_stress_impact_gain
@@ -3457,11 +3457,11 @@ manichean.0073 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 		OR = {
 			any_courtier = {
 				is_available_ai_adult = yes
-				NOT = { faith = { has_doctrine = rice_light_purification_doctrine } }
+				NOT = { rite = { rite_has_doctrine = rice_light_purification_doctrine } }
 				learning >= mediocre_skill_rating
 				OR = {
 					has_trait = zealous
@@ -3479,7 +3479,7 @@ manichean.0073 = {
 			}
 			any_vassal = {
 				is_available_ai_adult = yes
-				NOT = { faith = { has_doctrine = rice_light_purification_doctrine } }
+				NOT = { rite = { rite_has_doctrine = rice_light_purification_doctrine } }
 				learning >= mediocre_skill_rating
 				OR = {
 					has_trait = zealous
@@ -3530,7 +3530,7 @@ manichean.0073 = {
 		every_courtier_or_guest = {
 			limit = {
 				is_available_ai_adult = yes
-				NOT = { faith = { has_doctrine = rice_light_purification_doctrine } }
+				NOT = { rite = { rite_has_doctrine = rice_light_purification_doctrine } }
 				learning >= mediocre_skill_rating
 				OR = {
 					has_trait = zealous
@@ -3551,7 +3551,7 @@ manichean.0073 = {
 		every_vassal = {
 			limit = {
 				is_available_ai_adult = yes
-				NOT = { faith = { has_doctrine = rice_light_purification_doctrine } }
+				NOT = { rite = { rite_has_doctrine = rice_light_purification_doctrine } }
 				learning >= mediocre_skill_rating
 				OR = {
 					has_trait = zealous
@@ -3596,7 +3596,7 @@ manichean.0073 = {
 				opinion = -15
 			}
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_gain
 			calm = minor_stress_impact_gain
 			forgiving = minor_stress_impact_gain
@@ -3608,7 +3608,7 @@ manichean.0073 = {
 	option = { # Ok
 		name = manichean.0073.b
 		add_piety = -50
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			wrathful = minor_stress_impact_gain
 			arrogant = miniscule_stress_impact_gain
@@ -3642,7 +3642,7 @@ manichean.0074 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	weight_multiplier = {
@@ -3689,7 +3689,7 @@ manichean.0074 = {
 			modifier = RICE_manichean_helping_manichean_merchants
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arbitrary = minor_stress_impact_gain
 			cynical = miniscule_stress_impact_gain
 			greedy = miniscule_stress_impact_gain
@@ -3713,7 +3713,7 @@ manichean.0074 = {
 			modifier = RICE_manichean_confiscated_manichean_merchants
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			generous = major_stress_impact_gain
 			just = medium_stress_impact_gain
 			zealous = medium_stress_impact_gain
@@ -3746,7 +3746,7 @@ manichean.0075 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	weight_multiplier = {
@@ -3782,7 +3782,7 @@ manichean.0075 = {
 	option = { # Ok
 		name = manichean.0075.a
 		add_prestige = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			arrogant = minor_stress_impact_gain
 			paranoid = miniscule_stress_impact_gain
 		}
@@ -3791,7 +3791,7 @@ manichean.0075 = {
 	option = { # Ok
 		name = manichean.0075.b
 		add_piety = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			humble = minor_stress_impact_gain
 			trusting = miniscule_stress_impact_gain
 		}
@@ -3814,7 +3814,7 @@ manichean.0076 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	weight_multiplier = {
@@ -3853,7 +3853,7 @@ manichean.0076 = {
 			modifier = RICE_manichean_understanding_towards_christians
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			callous = miniscule_stress_impact_gain
 			impatient = miniscule_stress_impact_gain
@@ -3867,7 +3867,7 @@ manichean.0076 = {
 			modifier = RICE_manichean_dislikes_christians
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			compassionate = minor_stress_impact_gain
 			patient = miniscule_stress_impact_gain
 			humble = miniscule_stress_impact_gain
@@ -3899,7 +3899,7 @@ manichean.0077 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 	}
 
 	weight_multiplier = {
@@ -3935,7 +3935,7 @@ manichean.0077 = {
 	option = { # Ok
 		name = manichean.0077.a
 		add_piety = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_loss
 			trusting = miniscule_stress_impact_loss
 			diligent = miniscule_stress_impact_loss
@@ -3946,7 +3946,7 @@ manichean.0077 = {
 	option = { # Ok
 		name = manichean.0077.b
 		add_prestige = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			lazy = minor_stress_impact_loss
 			content = miniscule_stress_impact_loss
 			cynical = miniscule_stress_impact_loss
@@ -3978,7 +3978,7 @@ manichean.0078 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 		cp:councillor_court_chaplain = {
 			exists = yes
 			is_available_ai_adult = yes
@@ -4021,7 +4021,7 @@ manichean.0078 = {
 	option = { # Ok
 		name = manichean.0078.a
 		add_piety = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_loss
 			trusting = miniscule_stress_impact_loss
 			diligent = miniscule_stress_impact_loss
@@ -4044,7 +4044,7 @@ manichean.0078 = {
 	option = { # Ok
 		name = manichean.0078.b
 		add_prestige = 25
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_loss
 			content = miniscule_stress_impact_loss
 			fickle = miniscule_stress_impact_loss
@@ -4094,11 +4094,11 @@ manichean.0079 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 		OR = {
 			any_courtier = {
 				is_available_ai_adult = yes
-				faith = { has_doctrine = rice_light_purification_doctrine }
+				rite = { rite_has_doctrine = rice_light_purification_doctrine }
 				OR = {
 					has_trait = zealous
 					has_trait = compassionate
@@ -4114,7 +4114,7 @@ manichean.0079 = {
 			}
 			any_vassal = {
 				is_available_ai_adult = yes
-				faith = { has_doctrine = rice_light_purification_doctrine }
+				rite = { rite_has_doctrine = rice_light_purification_doctrine }
 				OR = {
 					has_trait = zealous
 					has_trait = compassionate
@@ -4163,7 +4163,7 @@ manichean.0079 = {
 		every_courtier_or_guest = {
 			limit = {
 				is_available_ai_adult = yes
-				faith = { has_doctrine = rice_light_purification_doctrine }
+				rite = { rite_has_doctrine = rice_light_purification_doctrine }
 				OR = {
 					has_trait = zealous
 					has_trait = compassionate
@@ -4182,7 +4182,7 @@ manichean.0079 = {
 		every_vassal = {
 			limit = {
 				is_available_ai_adult = yes
-				faith = { has_doctrine = rice_light_purification_doctrine }
+				rite = { rite_has_doctrine = rice_light_purification_doctrine }
 				OR = {
 					has_trait = zealous
 					has_trait = compassionate
@@ -4218,7 +4218,7 @@ manichean.0079 = {
 			modifier = RICE_manichean_freed_slaves
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			cynical = minor_stress_impact_gain
 			greedy = minor_stress_impact_gain
 			callous = miniscule_stress_impact_gain
@@ -4235,7 +4235,7 @@ manichean.0079 = {
 	}
 	option = { # Ok
 		name = manichean.0079.b
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			zealous = minor_stress_impact_gain
 			ambitious = miniscule_stress_impact_gain
 			generous = minor_stress_impact_gain
@@ -4268,7 +4268,7 @@ manichean.0080 = {
 	}
 		
 	trigger = {
-		faith = { has_doctrine = rice_light_purification_doctrine }
+		rite = { rite_has_doctrine = rice_light_purification_doctrine }
 		RICE_silk_road_east_asian_culture = yes
 	}
 
@@ -4307,7 +4307,7 @@ manichean.0080 = {
 			modifier = RICE_manichean_careful_mingjiao
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			brave = minor_stress_impact_gain
 			wrathful = miniscule_stress_impact_gain
 			vengeful = miniscule_stress_impact_gain
@@ -4319,7 +4319,7 @@ manichean.0080 = {
 			modifier = RICE_manichean_protect_mingjiao
 			years = 10
 		}
-		stress_impact = {
+		stress_and_fulfillment_impact = {
 			craven = minor_stress_impact_gain
 			lazy = miniscule_stress_impact_gain
 			patient = miniscule_stress_impact_gain
@@ -4379,6 +4379,7 @@ manichean.0090 = {
 				template = RICE_random_experienced_male_monk_template
 				culture = root.culture
 				faith = root.faith
+				rite = root.rite
 			}
 			create_character = {
 				employer = root

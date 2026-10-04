@@ -130,7 +130,6 @@
  RICE_sicily_culture_faith_now_involved_desc:0 "Votre [culture|El] et votre [faith|El] seront désormais [struggle_involved|El]es dans la [struggle|El] de [RICE_sicily_struggle|E] si elles ne le sont pas déjà par défaut."
  RICE_physical_appearance_change_desc:0 "Votre apparence physique changera pour correspondre à la [culture|El] que vous avez choisie."
  RICE_sicily_stronghold_chance_choose_generic_desc:0 "Il est possible qu'une [sicily_stronghold|El] apparaisse dans un [county|El] que vous possédez en [GetGeographicalRegion('custom_sicily').GetName] en fonction du [sicily_world|El] que vous choisissez."
- Amatus:0 "Amatus"
  RICE_dynn_monte_cassino:0 "Monte Cassino"
  RICE_dynn_malaterra:0 "Malaterra"
  #  greek_opinion:0 "$greek$ Opinion"

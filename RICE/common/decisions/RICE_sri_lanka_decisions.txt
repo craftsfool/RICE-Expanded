@@ -1269,9 +1269,9 @@ RICE_sri_lanka_support_monastery = {
 		is_available_adult = yes
 	}
 
-	widget = {
-		gui = "decision_view_widget_RICE_sri_lanka_progressbars_all"
-	}
+	# widget = {
+	# 	gui = "decision_view_widget_RICE_sri_lanka_progressbars_all"
+	# }
 		
     widget = {
     	gui = "decision_view_widget_RICE_sri_lanka_support_monastery"
@@ -1797,9 +1797,9 @@ RICE_sri_lanka_persecute_monastery = {
 		is_available_adult = yes
 	}
 
-	widget = {
-		gui = "decision_view_widget_RICE_sri_lanka_progressbars_all"
-	}
+	# widget = {
+	# 	gui = "decision_view_widget_RICE_sri_lanka_progressbars_all"
+	# }
 		
     widget = {
     	gui = "decision_view_widget_RICE_sri_lanka_persecute_monastery"

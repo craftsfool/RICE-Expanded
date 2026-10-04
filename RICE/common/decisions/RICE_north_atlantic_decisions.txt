@@ -2801,9 +2801,9 @@ RICE_north_atlantic_support_greenland = {
 		RICE_is_available_adult_even_if_sick_trigger = yes
 	}
 
-	widget = {
-		gui = "decision_view_widget_RICE_progressbars_greenland"
-	}
+	# widget = {
+	# 	gui = "decision_view_widget_RICE_progressbars_greenland"
+	# }
 
     widget = {
     	gui = "decision_view_widget_RICE_north_atlantic_support_greenland_decision"
@@ -3249,9 +3249,9 @@ RICE_north_atlantic_support_vinland = {
 		RICE_is_available_adult_even_if_sick_trigger = yes
 	}
 
-	widget = {
-		gui = "decision_view_widget_RICE_progressbars_all"
-	}
+	# widget = {
+	# 	gui = "decision_view_widget_RICE_progressbars_all"
+	# }
 
     widget = {
     	gui = "decision_view_widget_RICE_north_atlantic_support_vinland_decision"
@@ -3493,9 +3493,9 @@ RICE_north_atlantic_explore_americas = {
 		RICE_is_available_adult_even_if_sick_trigger = yes
 	}
 
-	widget = {
-		gui = "decision_view_widget_RICE_progressbars_all"
-	}
+	# widget = {
+	# 	gui = "decision_view_widget_RICE_progressbars_all"
+	# }
 
     widget = {
     	gui = "decision_view_widget_RICE_north_atlantic_explore_americas_decision"

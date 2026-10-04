@@ -267,6 +267,7 @@
 		ReligiousText2 = bahnar_pagan_religious_text
 		ReligiousText3 = bahnar_pagan_religious_text
 		ReligiousHeadName = bahnar_pagan_religious_head_title
+		ReligiousHeadNameFemale = bahnar_pagan_religious_head_title
 		ReligiousHeadTitleName = bahnar_pagan_religious_head_title_name
 		DevoteeMale = bahnar_pagan_devotee
 		DevoteeMalePlural = bahnar_pagan_devotee_plural

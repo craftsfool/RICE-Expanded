@@ -708,6 +708,7 @@ zhangzhung.0016 = {
 	type = character_event
 	title = zhangzhung.0016.t
 	window = fullscreen_event
+	queue_icon = "gfx/interface/icons/faith/bon.dds"
 	desc = zhangzhung.0016.desc
 	theme = faith
 	override_background = { reference = RICE_tibetan_buddhist_shrine } # RICE_fullscreen_mountains
@@ -745,6 +746,7 @@ zhangzhung.0017 = {
 	type = character_event
 	title = zhangzhung.0017.t
 	window = fullscreen_event
+	queue_icon = "gfx/interface/icons/faith/bon.dds"
 	desc = zhangzhung.0017.desc
 	theme = faith
 	override_background = { reference = RICE_tibetan_buddhist_shrine } # RICE_fullscreen_mountains

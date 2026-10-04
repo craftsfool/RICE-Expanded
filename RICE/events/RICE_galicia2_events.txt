@@ -114,6 +114,7 @@ galicia2.0002 = {
 	type = character_event
 	title = galicia2.0002.t
 	window = fullscreen_event
+	queue_icon = "gfx/interface/icons/icon_culture.dds"
 	desc = {
 		desc = galicia2.0002.desc
 		first_valid = {

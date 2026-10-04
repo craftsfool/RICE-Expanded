@@ -254,6 +254,7 @@ polynesian_religion = { # Folk religions of the Oceania region's people
 		ReligiousText2 = oceanic_animism_religious_text
 		ReligiousText3 = oceanic_animism_religious_text
 		ReligiousHeadName = oceanic_animism_religious_head_title
+		ReligiousHeadNameFemale = oceanic_animism_religious_head_title
 		ReligiousHeadTitleName = oceanic_animism_religious_head_title_name
 		DevoteeMale = oceanic_animism_devotee
 		DevoteeMalePlural = oceanic_animism_devotee_plural

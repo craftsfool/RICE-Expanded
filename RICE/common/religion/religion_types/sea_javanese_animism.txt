@@ -260,6 +260,7 @@ javanese_religion = {
 		ReligiousText2 = javanist_religious_text
 		ReligiousText3 = javanist_religious_text
 		ReligiousHeadName = javanist_religious_head_title
+		ReligiousHeadNameFemale = javanist_religious_head_title
 		ReligiousHeadTitleName = javanist_religious_head_title_name
 		DevoteeMale = javanist_devotee
 		DevoteeMalePlural = javanist_devotee_plural

@@ -45,11 +45,11 @@
 
 		# Muslim
 		sunni
-		ismaili
-		ibadi
+		shia
+		kharijite
 
 		# Jewish
-		rabbinism
+		rabbinic_faith
 
 	}
 	regions = { 

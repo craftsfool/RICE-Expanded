@@ -259,6 +259,7 @@ australian_religion = {
 		ReligiousText2 = yolngu_pagan_religious_text_2
 		ReligiousText3 = yolngu_pagan_religious_text_3
 		ReligiousHeadName = yolngu_pagan_religious_head_title
+		ReligiousHeadNameFemale = yolngu_pagan_religious_head_title
 		ReligiousHeadTitleName = yolngu_pagan_religious_head_title_name
 		DevoteeMale = yolngu_pagan_devotee
 		DevoteeMalePlural = yolngu_pagan_devotee_plural

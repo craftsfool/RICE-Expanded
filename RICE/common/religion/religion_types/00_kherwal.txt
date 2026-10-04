@@ -287,6 +287,7 @@ sarnaism_religion = {
 		ReligiousText2 = sarnaism_religious_text_2
 		ReligiousText3 = sarnaism_religious_text_3
 		ReligiousHeadName = hinduism_religious_head_title
+		ReligiousHeadNameFemale = hinduism_religious_head_title
 		ReligiousHeadTitleName = hinduism_religious_head_title_name
 		DevoteeMale = hinduism_devotee_male
 		DevoteeMalePlural = hinduism_devotee_male_plural

@@ -261,6 +261,7 @@
 		ReligiousText2 = kuy_animism_religious_text
 		ReligiousText3 = kuy_animism_religious_text
 		ReligiousHeadName = kuy_animism_religious_head_title
+		ReligiousHeadNameFemale = kuy_animism_religious_head_title
 		ReligiousHeadTitleName = kuy_animism_religious_head_title_name
 		DevoteeMale = kuy_animism_devotee
 		DevoteeMalePlural = kuy_animism_devotee_plural

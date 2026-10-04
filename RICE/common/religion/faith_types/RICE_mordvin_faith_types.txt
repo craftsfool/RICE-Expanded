@@ -1,5 +1,6 @@
 ﻿
 erzya_pagan = {
+	main_rite = erzya_pagan
 	faith_details = {
 		religion = mordvin_religion
 		color = { 1 0.45 0.45 }
@@ -30,6 +31,7 @@ erzya_pagan = {
 }
 
 moksha_pagan = {
+	main_rite = moksha_pagan
 	faith_details = {
 		religion = mordvin_religion
 		color = { 0.71 0.30 0.13 } # 	71, 30.2, 12.9

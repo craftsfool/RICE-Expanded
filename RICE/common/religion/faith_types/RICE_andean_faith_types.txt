@@ -1,6 +1,7 @@
 ﻿# Borrowed from After the End with permission
 
 chiminigagua = {
+	main_rite = chiminigagua
 	faith_details = {
 		religion = andean_religion
 		color = { 30 140 150 }
@@ -211,6 +212,7 @@ chiminigagua = {
 }
 
 inti_religion = {
+	main_rite = inti_religion
 	faith_details = {
 		religion = andean_religion
 		color = { 249 204 24 }
@@ -249,6 +251,7 @@ inti_religion = {
 # Representing pre-Inca pan-Andean religious practices, especially spread during the Tiwanaku era
 # (Originally in ATE represented modern Pachamama worship which has some Christian syncretic influences)
 pachamama_religion = {
+	main_rite = pachamama_religion
 	faith_details = {
 		religion = andean_religion
 		color = { 123 182 129 }
@@ -449,6 +452,7 @@ pachamama_religion = {
 
 # Representing various pre-Columbian groups in Ecuador, particularly the Manteños and Huancavilcas
 manteno_religion = {
+	main_rite = manteno_religion
 	faith_details = {
 		religion = andean_religion
 		color = { 88 208 128 }
@@ -652,6 +656,7 @@ manteno_religion = {
 
 # Representing people of the Colombia/Panama border
 embera_religion = {
+	main_rite = embera_religion
 	faith_details = {
 		religion = andean_religion
 		color = { 25 128 85 }

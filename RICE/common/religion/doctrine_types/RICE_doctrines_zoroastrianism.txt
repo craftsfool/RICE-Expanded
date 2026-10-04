@@ -26,9 +26,9 @@
 		}
 	}
 	parameters = {
-		rice_yazata_prestige_gain_automatic = yes
-		rice_yazata_pay_for_modifier_upgrade = yes
-		rice_unlock_destroy_cult_centers = yes
+		rice_yazata_prestige_gain_automatic
+		rice_yazata_pay_for_modifier_upgrade
+		rice_unlock_destroy_cult_centers
 	}
 }
 
@@ -60,8 +60,8 @@ rice_zoroastrian_armenian_doctrine = {		# Caucasus variations of Zoroastrianism
 		}
 	}
 	parameters = {
-		rice_unlock_armenian_yazatas = yes
-		rice_unlock_yazata_cult_center = yes
+		rice_unlock_armenian_yazatas
+		rice_unlock_yazata_cult_center
 	}
 }
 
@@ -93,8 +93,8 @@ rice_zoroastrian_georgian_doctrine = {		# Georgian variations of Zoroastrianism
 		}
 	}
 	parameters = {
-		rice_unlock_georgian_yazatas = yes
-		rice_unlock_yazata_cult_center = yes
+		rice_unlock_georgian_yazatas
+		rice_unlock_yazata_cult_center
 	}
 }
 
@@ -126,8 +126,8 @@ rice_zoroastrian_eastern_doctrine = {		# Sogdian/Bactrian/Khwarezmian variations
 		}
 	}
 	parameters = {
-		rice_unlock_bactro_sogdian_yazatas = yes
-		rice_unlock_yazata_cult_center = yes
+		rice_unlock_bactro_sogdian_yazatas
+		rice_unlock_yazata_cult_center
 	}
 }
 
@@ -164,7 +164,7 @@ rice_zoroastrian_no_yazatas_doctrine = {		# Sogdian/Bactrian/Khwarezmian variati
 		church_holding_build_gold_cost = -0.1
 	}
 	parameters = {
-		rice_no_yazatas = yes
-		rice_unlock_destroy_cult_centers = yes
+		rice_no_yazatas
+		rice_unlock_destroy_cult_centers
 	}
 }

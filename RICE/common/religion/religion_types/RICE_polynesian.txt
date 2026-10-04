@@ -1,6 +1,8 @@
 ﻿
 polynesian_religion = { # Folk religions of the Oceania region's people
-	family = rf_pagan
+	religion_details = {
+		family = rf_pagan
+	}
 	doctrine = pagan_hostility_doctrine
 
 	pagan_roots = yes

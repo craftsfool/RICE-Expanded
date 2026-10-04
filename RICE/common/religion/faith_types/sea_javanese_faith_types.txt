@@ -1,6 +1,7 @@
 ﻿
 
 javanist = {
+	main_rite = javanist
 	faith_details = {
 		religion = javanese_religion
 		color = { 0.43 0.02 0.09 }
@@ -39,6 +40,7 @@ javanist = {
 }
 
 jatisunda = {
+	main_rite = jatisunda
 	faith_details = {
 		religion = javanese_religion
 		color = { 0.83 0.28 0.25 }

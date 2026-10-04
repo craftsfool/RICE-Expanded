@@ -1,5 +1,6 @@
 ﻿
 komi_pagan = {
+	main_rite = komi_pagan
 	faith_details = {
 		religion = permic_religion
 		color = { 1 0.8 0.35 }
@@ -35,6 +36,7 @@ komi_pagan = {
 }
 
 udmurt_pagan = {
+	main_rite = udmurt_pagan
 	faith_details = {
 		religion = permic_religion
 		color = { 1 0.6 0.45 }

@@ -1,6 +1,7 @@
 ﻿
 
 shona_pagan = {
+	main_rite = shona_pagan
 	faith_details = {
 		religion = shona_religion
 		color = { 0.98 0.98 0.44 }
@@ -32,6 +33,7 @@ shona_pagan = {
 }
 
 nguni_pagan = {
+	main_rite = nguni_pagan
 	faith_details = {
 		religion = shona_religion
 		color = { 108 58 25 }
@@ -63,6 +65,7 @@ nguni_pagan = {
 }
 
 sotho_pagan = {
+	main_rite = sotho_pagan
 	faith_details = {
 		religion = shona_religion
 		color = { 80 8 25 }
@@ -94,6 +97,7 @@ sotho_pagan = {
 }
 
 tsonga_pagan = {
+	main_rite = tsonga_pagan
 	faith_details = {
 		religion = shona_religion
 		color = { 66 52 28 }

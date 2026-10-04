@@ -1,5 +1,6 @@
 ﻿
 biak_pagan = {
+	main_rite = biak_pagan
 	faith_details = {
 		religion = west_papuan_religion
 		color = { 8 108 88 }
@@ -37,6 +38,7 @@ biak_pagan = {
 }
 
 tehit_pagan = {
+	main_rite = tehit_pagan
 	faith_details = {
 		religion = west_papuan_religion
 		color = { 55 155 55 }
@@ -225,6 +227,7 @@ tehit_pagan = {
 }
 
 fakfak_pagan = {
+	main_rite = fakfak_pagan
 	faith_details = {
 		religion = west_papuan_religion
 		color = { 52 108 88 }
@@ -411,6 +414,7 @@ fakfak_pagan = {
 }
 
 abui_pagan = {
+	main_rite = abui_pagan
 	faith_details = {
 		religion = west_papuan_religion
 		color = { 22 102 102 }

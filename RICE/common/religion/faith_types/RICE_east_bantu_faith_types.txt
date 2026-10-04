@@ -1,6 +1,7 @@
 ﻿
 # For speakers of Rufiji–Ruvuma languages
 makonde_pagan = {
+	main_rite = makonde_pagan
 	faith_details = {
 		religion = east_bantu_religion
 		color = { 69 182 155 }
@@ -188,6 +189,7 @@ makonde_pagan = {
 
 # For speakers of Makua languages
 makua_pagan = {
+	main_rite = makua_pagan
 	faith_details = {
 		religion = east_bantu_religion
 		color = { 25 182 158 }
@@ -378,6 +380,7 @@ makua_pagan = {
 
 # For speakers of Sabaki languages
 mijikenda_pagan = {
+	main_rite = mijikenda_pagan
 	faith_details = {
 		religion = east_bantu_religion
 		color = { 152 208 185 }

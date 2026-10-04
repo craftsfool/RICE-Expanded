@@ -1,6 +1,7 @@
 ﻿
 
 yolngu_pagan = {
+	main_rite = yolngu_pagan
 	faith_details = {
 		religion = australian_religion
 		color = { 200 169 58 }
@@ -32,6 +33,7 @@ yolngu_pagan = {
 
 
 bininj_pagan = {
+	main_rite = bininj_pagan
 	faith_details = {
 		religion = australian_religion
 		color = { 200 169 58 }
@@ -228,6 +230,7 @@ bininj_pagan = {
 }
 
 tiwi_pagan = {
+	main_rite = tiwi_pagan
 	faith_details = {
 		religion = australian_religion
 		color = { 205 169 88 }

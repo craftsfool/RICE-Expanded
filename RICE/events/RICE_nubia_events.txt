@@ -15680,7 +15680,7 @@ nubia.0276 = {
 			tier = tier_county
 			OR = {
 				religion = religion:christianity_religion
-				faith = { has_doctrine = tenet_monasticism }
+				rite = { rite_has_doctrine = doctrine_monasticism_encouraged }
 			}
 			any_county_province = {
 				geographical_region = RICE_nile_river_valley_without_ethiopia
@@ -15722,7 +15722,7 @@ nubia.0276 = {
 				tier = tier_county
 				OR = {
 					religion = religion:christianity_religion
-					faith = { has_doctrine = tenet_monasticism }
+					rite = { rite_has_doctrine = doctrine_monasticism_encouraged }
 				}
 				any_county_province = {
 					geographical_region = RICE_nile_river_valley_without_ethiopia

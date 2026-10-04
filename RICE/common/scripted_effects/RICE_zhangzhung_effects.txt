@@ -2326,7 +2326,6 @@ RICE_zhangzhung_title_decision_effect = {
 		limit = {
 			OR = {
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 		}
 		add_piety = 1000

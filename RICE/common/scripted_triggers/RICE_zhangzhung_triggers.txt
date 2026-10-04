@@ -5,7 +5,6 @@ RICE_tibetan_buddhist_or_reformed_bon_trigger = {
 		AND = {
 			OR = {
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 			faith = { has_doctrine = rice_bon_deities_new_doctrine }
 		}
@@ -21,7 +20,6 @@ RICE_can_acess_terton_mechanics_trigger = {
 		AND = {
 			OR = {
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 			faith = { has_doctrine = rice_bon_deities_new_doctrine }
 		}

@@ -106,7 +106,6 @@ zhangzhung.0001 = {
 					}
 					#religion = religion:buddhism_religion
 					religion = religion:bon_religion
-					religion = religion:west_himalayan_religion
 					culture = {
 						has_cultural_pillar = heritage_tibetan
 					}
@@ -583,7 +582,6 @@ zhangzhung.0013 = {
 					scope:zhangzhung_reviver = {
 						OR = {
 							religion = religion:bon_religion
-							religion = religion:west_himalayan_religion
 						}
 					}
 				}
@@ -3152,7 +3150,6 @@ zhangzhung.0050 = {
 		trigger = {
 			OR = {
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 			NOT = { has_character_modifier = buddhist_deity_sipe_gyalmo }
 		}
@@ -3164,7 +3161,6 @@ zhangzhung.0050 = {
 		trigger = {
 			OR = {
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 			NOT = { has_character_modifier = buddhist_deity_shenlha_okar }
 		}
@@ -3176,7 +3172,6 @@ zhangzhung.0050 = {
 		trigger = {
 			OR = {
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 			NOT = { has_character_modifier = buddhist_deity_tonpa_shenrab }
 		}
@@ -3188,7 +3183,6 @@ zhangzhung.0050 = {
 		trigger = {
 			OR = {
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 			NOT = { has_character_modifier = buddhist_deity_yeshe_walmo }
 		}
@@ -3200,7 +3194,6 @@ zhangzhung.0050 = {
 		trigger = {
 			OR = {
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 			NOT = { has_character_modifier = buddhist_deity_takla_mebar }
 		}
@@ -3212,7 +3205,6 @@ zhangzhung.0050 = {
 		trigger = {
 			OR = {
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 			NOT = { has_character_modifier = buddhist_deity_Zhambala }
 		}
@@ -3224,7 +3216,6 @@ zhangzhung.0050 = {
 		trigger = {
 			OR = {
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 			NOT = { has_character_modifier = buddhist_deity_sherab_chamma }
 		}
@@ -5199,7 +5190,6 @@ zhangzhung.0152 = {
 		OR = {
 			religion = religion:buddhism_religion
 			religion = religion:bon_religion
-			religion = religion:west_himalayan_religion
 		}
 		location.county.religion = root.religion
 		location = {
@@ -5397,7 +5387,6 @@ zhangzhung.0154 = {
 		OR = {
 			religion = religion:buddhism_religion
 			religion = religion:bon_religion
-			religion = religion:west_himalayan_religion
 		}
 		any_held_title = {
 			tier = tier_county
@@ -5579,7 +5568,7 @@ zhangzhung.0156 = {
 	}
 	
 	trigger = {
-		religion = religion:west_himalayan_religion
+		faith = faith:kinnaur_pagan
 		capital_province = {
 			OR = {
 				terrain = mountains
@@ -5671,7 +5660,7 @@ zhangzhung.0157 = {
 	}
 	
 	trigger = {
-		religion = religion:west_himalayan_religion
+		faith = faith:kinnaur_pagan
 	}
 
 	weight_multiplier = {
@@ -6141,14 +6130,12 @@ zhangzhung.0161 = {
 		OR = {
 			religion = religion:buddhism_religion
 			religion = religion:bon_religion
-			religion = religion:west_himalayan_religion
 		}
 		capital_county = {
 			title_province = { geographical_region = RICE_upper_tibet }
 			OR = {
 				religion = religion:buddhism_religion
 				religion = religion:bon_religion
-				religion = religion:west_himalayan_religion
 			}
 		}
 	}

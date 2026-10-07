@@ -10,7 +10,7 @@
 | EPE | EPE | 主包 + RICE/EPE 兼容 + CE 原始高加索外观字段 |
 | CE–EPE | CE、EPE | 主包 + RICE/EPE、RICE/CE 兼容 + 高加索 CE 去重与初始化处理 |
 
-每个包都只安装一个 `RICE/` 和 `RICE.mod`。根据使用的模组选一个包；加载其他基础模组后，再加载 **RICE Expanded (Community 1.20 Beta)**。不用启用独立高加索包或独立兼容补丁。CE–EPE 包与当前本地 CE/EPE 组合对应，CE 本体和 EPE 本体仍需启用。
+完整包只安装一个 `RICE/` 和 `RICE.mod`。在线的 `Built-In-Update` ZIP 是原位更新包，需要先安装 expanded.1 基础包，再解压覆盖同一个 RICE 目录。根据使用的模组选一个包；加载其他基础模组后，再加载 **RICE Expanded (Community 1.20 Beta)**。不用启用独立高加索包或独立兼容补丁。CE–EPE 包与当前本地 CE/EPE 组合对应，CE 本体和 EPE 本体仍需启用。
 
 兼容预设在构建时合入主目录，避免不同加载组合的整文件覆盖互相干扰。旧独立补丁目录保留作兼容构建来源与旧版维护，不作为本次整合包的额外加载项。`authoring/` 是制作素材与可复现工具，不是可启用的独立模组。
 
@@ -32,7 +32,7 @@ CE 来源为 Workshop 2829397295（本地版本 1.19.0.6），EPE 为 2507209632
 
 # Caucasus: Passes and Sanctuaries — built into RICE Expanded
 
-The English alpha is embedded in RICE, with eight CE culture definitions, relevant source dependencies and character corrections, six decisions, twenty-three events and an original generated Derbent banner. Select one complete installation preset: Base, EPE, or CE–EPE. Each installs only `RICE/` and `RICE.mod`; compatibility files are baked into that directory. Load RICE Expanded after the required base mods and disable the old separate compatibility mods.
+The English alpha is embedded in RICE, with eight CE culture definitions, relevant source dependencies and character corrections, six decisions, twenty-three events and an original generated Derbent banner. Select one complete installation preset: Base, EPE, or CE–EPE. Each full preset installs only `RICE/` and `RICE.mod`; compatibility files are baked into that directory. The online `Built-In-Update` ZIPs require the existing expanded.1 base installation and update that same RICE folder in place. Load RICE Expanded after the required base mods and disable the old separate compatibility mods.
 
 The Base preset retains CE gameplay with vanilla appearance fallbacks. EPE presets preserve the exact copied CE appearance fields. CE–EPE preserves CE's original startup setup and empire decision, suppressing the duplicate copies. Other languages have English fallbacks and native vanilla terms, not completed translations. All new gameplay prose is completed in English.
 

@@ -1,10 +1,11 @@
-﻿
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
 #############################################################
-# 
+#
 # SOME ARE BORROWED/ADAPTED FROM AFTER THE END WITH PERMISSION
 # RICE originals are indicated where possible
 # Unlike ATE, I am doing a catch-all Mapuche culture
-# 
+#
 #############################################################
 
 
@@ -12,18 +13,18 @@
 chango = {
 	color = { 111 161 131 }
 	ethos = ethos_communal
-	heritage = heritage_polynesian #heritage_mapuche
-	language = language_micronesian #language_mapunzungun
+	heritage = heritage_mapuche
+	language = language_mapunzungun
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_mapuche
-	
+
 	traditions = {
 		tradition_fishermen 		# Cybr: Coastal peoples, skilled fishermen
 		tradition_hunters 			# Cybr: Hunters too
 		tradition_nudists 			# Cybr: Said to have been mostly nude
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { malay_clothing_gfx southeast_asian_clothing_gfx }
@@ -31,7 +32,7 @@ chango = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		5 = amerindian_1
 		5 = amerindian_2
@@ -63,19 +64,19 @@ chango = {
 mapuche = {
 	color = { 110 194 109 }
 	ethos = ethos_stoic
-	heritage = heritage_polynesian #heritage_mapuche
-	language = language_micronesian #language_mapunzungun
+	heritage = heritage_mapuche
+	language = language_mapunzungun
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_mapuche
-	
+
 	traditions = {
 		tradition_collective_lands
 		tradition_hill_dwellers
 		tradition_zealous_people
 		tradition_stalwart_defenders
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { malay_clothing_gfx southeast_asian_clothing_gfx }
@@ -83,7 +84,7 @@ mapuche = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		5 = amerindian_1
 		5 = amerindian_2

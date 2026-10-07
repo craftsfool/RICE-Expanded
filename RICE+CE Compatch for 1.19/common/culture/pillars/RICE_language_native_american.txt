@@ -1,0 +1,16 @@
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
+
+# language_inuit is supplied by Culture Expanded.
+
+
+# language_beothuk is supplied by Culture Expanded.
+
+
+# language_cree is supplied by Culture Expanded.
+
+
+# language_eastern_algonquian is supplied by Culture Expanded.
+
+
+# language_iroquoian is supplied by Culture Expanded.

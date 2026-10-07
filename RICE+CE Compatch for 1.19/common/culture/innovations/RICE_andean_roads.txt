@@ -11,17 +11,16 @@ innovation_RICE_andean_roads = {
 	icon = @innovation_RICE_andean_roads
 
 	potential = {
-		has_cultural_pillar = heritage_polynesian
-		# OR = {
-		# 	has_cultural_pillar = heritage_andino
-		# 	has_cultural_pillar = heritage_indigenous_colombian
-		# 	has_cultural_pillar = heritage_mapuche
-		# }
+		OR = {
+			has_cultural_pillar = heritage_andino
+			has_cultural_pillar = heritage_indigenous_colombian
+			has_cultural_pillar = heritage_mapuche
+		}
 	}
 
-	county_modifier = {	
-		hills_travel_danger = mountains_low_danger_reduction	
-		mountains_travel_danger = mountains_low_danger_reduction	
+	county_modifier = {
+		hills_travel_danger = mountains_low_danger_reduction
+		mountains_travel_danger = mountains_low_danger_reduction
 		desert_mountains_travel_danger = desert_mountains_low_danger_reduction
 		hills_supply_limit_mult = 0.1
 		mountains_supply_limit_mult = 0.1

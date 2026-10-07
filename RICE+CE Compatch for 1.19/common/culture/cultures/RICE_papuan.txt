@@ -1,4 +1,5 @@
-﻿
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
 ## In alphabetical order ##
 
 # Adapted from ROA
@@ -254,7 +255,7 @@ baining = {
 
 	ethos = ethos_stoic
 	heritage = heritage_papuan
-	language = language_papuan # language_baining
+	language = language_baining
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
@@ -466,7 +467,7 @@ gogodala = {
 
 	ethos = ethos_communal
 	heritage = heritage_papuan
-	language = language_papuan # language_gogodala
+	language = language_gogodala
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
@@ -565,7 +566,7 @@ kiwaian = {
 
 	ethos = ethos_communal
 	heritage = heritage_papuan
-	language = language_papuan # language_kiwaian
+	language = language_kiwaian
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
@@ -735,7 +736,7 @@ maybrat = {
 
 	ethos = ethos_spiritual
 	heritage = heritage_papuan
-	language = language_halmahera # language_maybrat # Maybrat language is often classified as an isolate, but has been linked with the West Papuan/Bird's Head languages
+	language = language_maybrat # Maybrat language is often classified as an isolate, but has been linked with the West Papuan/Bird's Head languages
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
@@ -1008,7 +1009,7 @@ oriomo = {
 
 	ethos = ethos_spiritual
 	heritage = heritage_papuan
-	language = language_papuan # language_oriomo
+	language = language_oriomo
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
@@ -1042,7 +1043,7 @@ pauwasi = {
 
 	ethos = ethos_communal
 	heritage = heritage_papuan
-	language = language_papuan # language_pauwasi
+	language = language_pauwasi
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
@@ -1076,7 +1077,7 @@ sentani = {
 
 	ethos = ethos_communal
 	heritage = heritage_papuan
-	language = language_papuan # language_kwerba
+	language = language_kwerba
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
@@ -1113,7 +1114,7 @@ sepik = {
 
 	ethos = ethos_communal
 	heritage = heritage_papuan
-	language = language_papuan # language_sepik
+	language = language_sepik
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
@@ -1225,7 +1226,7 @@ yab = {
 
 	ethos = ethos_spiritual
 	heritage = heritage_papuan
-	language = language_papuan # language_yab
+	language = language_yab
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
@@ -1258,7 +1259,7 @@ yam = {
 
 	ethos = ethos_stoic
 	heritage = heritage_papuan
-	language = language_papuan # language_yam
+	language = language_yam
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 
@@ -1330,13 +1331,3 @@ yapen = {
 		80 = papuan
 	}
 }
-
-
-
-
-
-
-
-
-
-

@@ -1,8 +1,8 @@
 ﻿##############################################
-# 
+#
 # Partial adaptation of *some* cultures from the Rajas of Asia mod.
 # Not all cultures have been # adapted to reduce potential compatibility issues and save time.
-# 
+#
 ##############################################
 
 # Based off of Rajas of Asia's version
@@ -25,7 +25,7 @@ batak = {
 		requires_dlc_flag = all_under_heaven
 		fallback = tradition_agrarian
 	}
-	
+
 	dlc_tradition = {
 		trait = tradition_tgp_esoteric_power
 		requires_dlc_flag = all_under_heaven
@@ -78,7 +78,7 @@ sunda = {
 		requires_dlc_flag = all_under_heaven
 		fallback = tradition_agrarian
 	}
-	
+
 	dlc_tradition = {
 		trait = tradition_tgp_esoteric_power
 		requires_dlc_flag = all_under_heaven
@@ -118,7 +118,7 @@ lampung = {
 		requires_dlc_flag = all_under_heaven
 		fallback = tradition_seafaring
 	}
-	
+
 	dlc_tradition = {
 		trait = tradition_tgp_esoteric_power
 		requires_dlc_flag = all_under_heaven
@@ -162,7 +162,7 @@ seletar = {
 		requires_dlc_flag = all_under_heaven
 		fallback = tradition_seafaring
 	}
-	
+
 	# dlc_tradition = {
 	# 	trait = tradition_tgp_esoteric_power
 	# 	requires_dlc_flag = all_under_heaven
@@ -229,10 +229,10 @@ sama = {
 malagasy = {
 	color = { 0.80 0.97 0.97 }
 
-	parents = { dayak east_bantu }
+	parents = { ngaju east_bantu }
 	created = 600.1.1
 	history_loc_override = RICE_malagasy_history_loc
-	
+
 	ethos = ethos_spiritual
 	heritage = heritage_austronesian # heritage_malayic
 	language = language_ngaju
@@ -244,9 +244,9 @@ malagasy = {
 		tradition_esteemed_hospitality
 		tradition_medicinal_plants 		# Cybr: To represent Madagascar's biodiversity
 	}
-	
+
 	name_list = name_list_malagasy
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { malay_clothing_gfx southeast_asian_clothing_gfx }
@@ -256,7 +256,7 @@ malagasy = {
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.9 0.9 }
 
-	
+
 	ethnicities = {
 		17 = african_east_african_1
 		17 = african_east_african_2

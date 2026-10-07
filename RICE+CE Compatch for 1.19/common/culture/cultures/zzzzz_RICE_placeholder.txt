@@ -1,10 +1,11 @@
-﻿##############################################
-# 
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+##############################################
+#
 # These cultures are placeholders
 # Their purpose is to ensure savegame compatibility w/ future updates if one is added
-# i.e., if a new one is added, it won't cause weirdness or bugs in save games 
+# i.e., if a new one is added, it won't cause weirdness or bugs in save games
 # Usually the bugs aren't gamebreaking, but can cause strange behavior
-# 
+#
 ##############################################
 
 
@@ -16,8 +17,8 @@ culture_RICE_placeholder_1 = {
 
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bureaucratic
-	heritage = heritage_egyptian
-	language = language_egyptian 
+	heritage = heritage_RICE_placeholder_1
+	language = language_RICE_placeholder_1
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 
@@ -26,7 +27,7 @@ culture_RICE_placeholder_1 = {
 	traditions = {
 		tradition_RICE_music_practice
 		tradition_RICE_boba_drinkers
-	}	
+	}
 
 	dlc_tradition = {
 		trait = tradition_tgp_rice_cultivators
@@ -38,7 +39,7 @@ culture_RICE_placeholder_1 = {
 	clothing_gfx = { viet_clothing_gfx chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	house_coa_frame = house_frame_28
-	
+
 	ethnicities = {
 		2 = east_asian_han_1
 		2 = east_asian_han_2
@@ -116,8 +117,8 @@ culture_RICE_placeholder_2 = {
 
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bureaucratic
-	heritage = heritage_egyptian
-	language = language_egyptian
+	heritage = heritage_RICE_placeholder_1
+	language = language_RICE_placeholder_1
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 
@@ -126,7 +127,7 @@ culture_RICE_placeholder_2 = {
 	traditions = {
 		tradition_RICE_music_practice
 		tradition_RICE_boba_drinkers
-	}	
+	}
 
 	dlc_tradition = {
 		trait = tradition_tgp_rice_cultivators
@@ -138,7 +139,7 @@ culture_RICE_placeholder_2 = {
 	clothing_gfx = { viet_clothing_gfx chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	house_coa_frame = house_frame_28
-	
+
 	ethnicities = {
 		2 = east_asian_han_1
 		2 = east_asian_han_2
@@ -216,8 +217,8 @@ culture_RICE_placeholder_3 = {
 
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bureaucratic
-	heritage = heritage_egyptian
-	language = language_egyptian
+	heritage = heritage_RICE_placeholder_1
+	language = language_RICE_placeholder_1
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 
@@ -226,7 +227,7 @@ culture_RICE_placeholder_3 = {
 	traditions = {
 		tradition_RICE_music_practice
 		tradition_RICE_boba_drinkers
-	}	
+	}
 
 	dlc_tradition = {
 		trait = tradition_tgp_rice_cultivators
@@ -238,7 +239,7 @@ culture_RICE_placeholder_3 = {
 	clothing_gfx = { viet_clothing_gfx chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	house_coa_frame = house_frame_28
-	
+
 	ethnicities = {
 		2 = east_asian_han_1
 		2 = east_asian_han_2
@@ -316,8 +317,8 @@ culture_RICE_placeholder_4 = {
 
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bureaucratic
-	heritage = heritage_egyptian
-	language = language_egyptian
+	heritage = heritage_RICE_placeholder_1
+	language = language_RICE_placeholder_1
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 
@@ -326,7 +327,7 @@ culture_RICE_placeholder_4 = {
 	traditions = {
 		tradition_RICE_music_practice
 		tradition_RICE_boba_drinkers
-	}	
+	}
 
 	dlc_tradition = {
 		trait = tradition_tgp_rice_cultivators
@@ -338,7 +339,7 @@ culture_RICE_placeholder_4 = {
 	clothing_gfx = { viet_clothing_gfx chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	house_coa_frame = house_frame_28
-	
+
 	ethnicities = {
 		2 = east_asian_han_1
 		2 = east_asian_han_2
@@ -416,8 +417,8 @@ culture_RICE_placeholder_5 = {
 
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bureaucratic
-	heritage = heritage_egyptian
-	language = language_egyptian
+	heritage = heritage_RICE_placeholder_1
+	language = language_RICE_placeholder_1
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 
@@ -426,7 +427,7 @@ culture_RICE_placeholder_5 = {
 	traditions = {
 		tradition_RICE_music_practice
 		tradition_RICE_boba_drinkers
-	}	
+	}
 
 	dlc_tradition = {
 		trait = tradition_tgp_rice_cultivators
@@ -438,7 +439,7 @@ culture_RICE_placeholder_5 = {
 	clothing_gfx = { viet_clothing_gfx chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	house_coa_frame = house_frame_28
-	
+
 	ethnicities = {
 		2 = east_asian_han_1
 		2 = east_asian_han_2
@@ -516,8 +517,8 @@ culture_RICE_placeholder_6 = {
 
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bureaucratic
-	heritage = heritage_egyptian
-	language = language_egyptian
+	heritage = heritage_RICE_placeholder_1
+	language = language_RICE_placeholder_1
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 
@@ -526,7 +527,7 @@ culture_RICE_placeholder_6 = {
 	traditions = {
 		tradition_RICE_music_practice
 		tradition_RICE_boba_drinkers
-	}	
+	}
 
 	dlc_tradition = {
 		trait = tradition_tgp_rice_cultivators
@@ -538,7 +539,7 @@ culture_RICE_placeholder_6 = {
 	clothing_gfx = { viet_clothing_gfx chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	house_coa_frame = house_frame_28
-	
+
 	ethnicities = {
 		2 = east_asian_han_1
 		2 = east_asian_han_2
@@ -616,8 +617,8 @@ culture_RICE_placeholder_7 = {
 
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bureaucratic
-	heritage = heritage_egyptian
-	language = language_egyptian
+	heritage = heritage_RICE_placeholder_1
+	language = language_RICE_placeholder_1
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 
@@ -626,7 +627,7 @@ culture_RICE_placeholder_7 = {
 	traditions = {
 		tradition_RICE_music_practice
 		tradition_RICE_boba_drinkers
-	}	
+	}
 
 	dlc_tradition = {
 		trait = tradition_tgp_rice_cultivators
@@ -638,7 +639,7 @@ culture_RICE_placeholder_7 = {
 	clothing_gfx = { viet_clothing_gfx chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	house_coa_frame = house_frame_28
-	
+
 	ethnicities = {
 		2 = east_asian_han_1
 		2 = east_asian_han_2
@@ -716,8 +717,8 @@ culture_RICE_placeholder_8 = {
 
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bureaucratic
-	heritage = heritage_egyptian
-	language = language_egyptian
+	heritage = heritage_RICE_placeholder_1
+	language = language_RICE_placeholder_1
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 
@@ -726,7 +727,7 @@ culture_RICE_placeholder_8 = {
 	traditions = {
 		tradition_RICE_music_practice
 		tradition_RICE_boba_drinkers
-	}	
+	}
 
 	dlc_tradition = {
 		trait = tradition_tgp_rice_cultivators
@@ -738,7 +739,7 @@ culture_RICE_placeholder_8 = {
 	clothing_gfx = { viet_clothing_gfx chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	house_coa_frame = house_frame_28
-	
+
 	ethnicities = {
 		2 = east_asian_han_1
 		2 = east_asian_han_2
@@ -816,8 +817,8 @@ culture_RICE_placeholder_9 = {
 
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bureaucratic
-	heritage = heritage_egyptian
-	language = language_egyptian
+	heritage = heritage_RICE_placeholder_1
+	language = language_RICE_placeholder_1
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 
@@ -826,7 +827,7 @@ culture_RICE_placeholder_9 = {
 	traditions = {
 		tradition_RICE_music_practice
 		tradition_RICE_boba_drinkers
-	}	
+	}
 
 	dlc_tradition = {
 		trait = tradition_tgp_rice_cultivators
@@ -838,7 +839,7 @@ culture_RICE_placeholder_9 = {
 	clothing_gfx = { viet_clothing_gfx chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	house_coa_frame = house_frame_28
-	
+
 	ethnicities = {
 		2 = east_asian_han_1
 		2 = east_asian_han_2
@@ -916,8 +917,8 @@ culture_RICE_placeholder_10 = {
 
 	name_order_convention = dynasty_always_first
 	ethos = ethos_bureaucratic
-	heritage = heritage_egyptian
-	language = language_egyptian
+	heritage = heritage_RICE_placeholder_1
+	language = language_RICE_placeholder_1
 	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 
@@ -926,7 +927,7 @@ culture_RICE_placeholder_10 = {
 	traditions = {
 		tradition_RICE_music_practice
 		tradition_RICE_boba_drinkers
-	}	
+	}
 
 	dlc_tradition = {
 		trait = tradition_tgp_rice_cultivators
@@ -938,7 +939,7 @@ culture_RICE_placeholder_10 = {
 	clothing_gfx = { viet_clothing_gfx chinese_clothing_gfx }
 	unit_gfx = { chinese_unit_gfx }
 	house_coa_frame = house_frame_28
-	
+
 	ethnicities = {
 		2 = east_asian_han_1
 		2 = east_asian_han_2

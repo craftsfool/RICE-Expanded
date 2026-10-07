@@ -1,99 +1,72 @@
-﻿
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
 # Now listed in Alphabetical Order for easier navigation
 # Some are from After the End and Rajas of Asia
 
 
 
-# heritage_andino = {
-# 	type = heritage
-# 	is_shown = {
-# 		heritage_is_shown_trigger = {
-# 			HERITAGE = heritage_andino
-# 		}
-# 	}
-# 	audio_parameter = sea
-# }
-
-
-# heritage_indigenous_colombian = {
-# 	type = heritage
-# 	is_shown = {
-# 		heritage_is_shown_trigger = {
-# 			HERITAGE = heritage_indigenous_colombian
-# 		}
-# 	}
-# 	audio_parameter = sea
-# }
-
-
-# heritage_mapuche = {
-# 	type = heritage
-# 	is_shown = {
-# 		heritage_is_shown_trigger = {
-# 			HERITAGE = heritage_mapuche
-# 		}
-# 	}
-# 	audio_parameter = sea
-# }
-
-heritage_melanesian = {
+heritage_andino = {
 	type = heritage
 	is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_melanesian
+			HERITAGE = heritage_andino
 		}
 	}
 	audio_parameter = sea
 }
 
-heritage_micronesian = {
+
+heritage_indigenous_colombian = {
 	type = heritage
 	is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_micronesian
+			HERITAGE = heritage_indigenous_colombian
 		}
 	}
 	audio_parameter = sea
 }
+
+
+heritage_mapuche = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_mapuche
+		}
+	}
+	audio_parameter = sea
+}
+
+# heritage_melanesian is supplied by Culture Expanded.
+
+
+# heritage_micronesian is supplied by Culture Expanded.
+
 
 # Localized as Miwatj
-# heritage_arnhem_land = {
-# 	type = heritage
-# 	is_shown = {
-# 		heritage_is_shown_trigger = {
-# 			HERITAGE = heritage_arnhem_land
-# 		}
-# 	}
-# 	audio_parameter = sea
-# }
-
-heritage_papuan = {
+heritage_arnhem_land = {
 	type = heritage
 	is_shown = {
 		heritage_is_shown_trigger = {
-			HERITAGE = heritage_papuan
+			HERITAGE = heritage_arnhem_land
 		}
 	}
 	audio_parameter = sea
 }
 
-heritage_polynesian = {
-	type = heritage
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_polynesian
-		}
-	}
-	audio_parameter = sea
-}
+# heritage_papuan is supplied by Culture Expanded.
+
+
+# heritage_polynesian is supplied by Culture Expanded.
+
 
 # Localized as Zenadth Kes
-# heritage_kaurareg = {
-# 	type = heritage
-# 	is_shown = {
-# 		heritage_is_shown_trigger = {
-# 			HERITAGE = heritage_kaurareg
-# 		}
-# 	}
-# 	audio_parameter = sea
-# }
+heritage_kaurareg = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_kaurareg
+		}
+	}
+	audio_parameter = sea
+}

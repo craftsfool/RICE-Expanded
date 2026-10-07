@@ -2,14 +2,14 @@
 
 krivich = {
 	color = { 52 108 69 }
-	
+
 	ethos = ethos_egalitarian
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {
-		tradition_collective_lands
+		#tradition_collective_lands
 		tradition_druzhina
 		tradition_artisans # Cybrxkhan: Long barrow culture burials with artwork
 	}
@@ -18,7 +18,7 @@ krivich = {
 		trait = tradition_culture_blending
 		requires_dlc_flag = hybridize_culture
 	}
-	
+
 	name_list = name_list_ilmenian
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
@@ -81,4 +81,3 @@ krivich = {
 		2 = european_eastern_slavic_49
 	}
 }
-

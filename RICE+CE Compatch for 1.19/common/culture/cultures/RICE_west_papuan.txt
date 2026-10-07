@@ -1,4 +1,5 @@
-﻿
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
 
 
 
@@ -184,10 +185,3 @@ waropen = {
 		50 = papuan
 	}
 }
-
-
-
-
-
-
-

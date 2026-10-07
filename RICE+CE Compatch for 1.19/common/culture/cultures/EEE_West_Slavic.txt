@@ -1,0 +1,12 @@
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+# Adapted from msl229 with permission
+
+# sorbian is supplied by Culture Expanded.
+
+
+
+# Sorbi language is unique among western-slavish languages, thus it separation from others.
+# Why Festivities tradition?
+# A: They have this cool holiday called Zapus, around one week of dressing up and dancing.
+# Why Staunch Traditionalists tradition?
+# A: Inspired by the fact they managed to survive up to this day despite heavy German prosecution.

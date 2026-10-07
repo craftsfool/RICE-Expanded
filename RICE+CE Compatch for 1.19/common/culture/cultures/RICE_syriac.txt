@@ -1,0 +1,8 @@
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
+# Nabataeans of Iraq, not to be confused with the ancient Nabataeans of the Levant who built Petra
+# Based mostly on Soraya's research and recommendations
+# The Last Pagans of Iraq: Ibn Wahshiyya And His Nabatean Agriculture by Jaakko Hämeen-Anttila was Soraya's main source
+# Wikipedia's page on them is decent as a starting point, too
+# Justifications for traditions/ethos are quoted in verbatim from Soraya
+# nabati is supplied by Culture Expanded.

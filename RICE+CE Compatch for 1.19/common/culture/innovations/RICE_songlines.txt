@@ -11,11 +11,10 @@ innovation_RICE_songlines = {
 	icon = @innovation_RICE_songlines
 
 	potential = {
-		has_cultural_pillar = heritage_melanesian
-		# OR = {
-		# 	has_cultural_pillar = heritage_arnhem_land
-		# 	has_cultural_pillar = heritage_kaurareg
-		# }
+		OR = {
+			has_cultural_pillar = heritage_arnhem_land
+			has_cultural_pillar = heritage_kaurareg
+		}
 	}
 
 	character_modifier = {

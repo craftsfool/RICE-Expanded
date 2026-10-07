@@ -7,6 +7,5 @@ tags={
 	"Events"
 	"Decisions"
 }
-name="RICE + EPE Compatibility Patch"
+name="RICE Expanded + EPE Compatibility (1.20 Beta)"
 supported_version="1.20.*"
-remote_file_id="2553043828"

@@ -1,4 +1,0 @@
-﻿# GENERAL
-is_RICE_CE_temp_compatch_loaded = {
-    always = yes
-}

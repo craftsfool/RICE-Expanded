@@ -1,11 +1,11 @@
 version="1"
 tags={
-	"1.19 'Scribe'"
+	"Compatibility"
 	"Fixes"
 	"Culture"
 	"Map"
 	"Balance"
 }
-name="RICE+CE Compatch for 1.19 (Temp)"
+name="RICE Expanded + CE Compatibility (1.20 Beta)"
 supported_version="1.20.*"
 path="mod/RICE+CE Compatch for 1.19"

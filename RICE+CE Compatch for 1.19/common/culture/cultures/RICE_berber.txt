@@ -1,0 +1,8 @@
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
+# Adapted from BAP
+# tuareg is supplied by Culture Expanded.
+
+
+# Adapted from BAP, CE, and Fallen Eagle
+# african_roman is supplied by Culture Expanded.

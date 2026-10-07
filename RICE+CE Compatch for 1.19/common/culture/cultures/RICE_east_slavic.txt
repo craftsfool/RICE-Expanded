@@ -1,0 +1,4 @@
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
+
+# krivich is supplied by Culture Expanded.

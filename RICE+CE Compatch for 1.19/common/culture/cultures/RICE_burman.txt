@@ -1,0 +1,4 @@
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
+# Mostly adapted from Dharmachakra, credits to Herkles
+# pyu is supplied by Culture Expanded.

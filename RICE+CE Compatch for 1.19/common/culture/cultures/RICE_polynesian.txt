@@ -1,4 +1,5 @@
-﻿
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
 
 hawaiian = {
 	color = { 163 20 58 }
@@ -96,7 +97,7 @@ samoan = {
 	ethos = ethos_communal
 	heritage = heritage_polynesian
 	language = language_micronesian
-	martial_custom = martial_custom_male_only
+	martial_custom = martial_custom_equal
 	head_determination = head_determination_domain
 	traditions = {
 		tradition_storytellers 			# Cybr: Ancient Polynesian oral traditions about sailors

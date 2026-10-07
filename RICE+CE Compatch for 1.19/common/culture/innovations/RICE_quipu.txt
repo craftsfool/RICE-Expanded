@@ -11,12 +11,11 @@ innovation_RICE_quipu = {
 	icon = @innovation_RICE_quipu
 
 	potential = {
-		has_cultural_pillar = heritage_polynesian
-		# OR = {
-		# 	has_cultural_pillar = heritage_andino
-		# 	has_cultural_pillar = heritage_indigenous_colombian
-		# 	has_cultural_pillar = heritage_mapuche
-		# }
+		OR = {
+			has_cultural_pillar = heritage_andino
+			has_cultural_pillar = heritage_indigenous_colombian
+			has_cultural_pillar = heritage_mapuche
+		}
 	}
 
 	character_modifier = {
@@ -25,7 +24,7 @@ innovation_RICE_quipu = {
 		negate_learning_penalty_add = 1
 	}
 
-	county_modifier = {		
+	county_modifier = {
 		monthly_county_control_growth_factor = 0.05
 	}
 

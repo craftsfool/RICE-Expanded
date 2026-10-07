@@ -1,8 +1,8 @@
 ﻿##############################################
-# 
+#
 # Partial adaptation of *some* cultures from the Rajas of Asia mod.
 # Not all cultures have been adapted to reduce potential compatibility issues and save time.
-# 
+#
 ##############################################
 
 ## In alphabetical order ##
@@ -133,7 +133,7 @@ kutai = {
 }
 
 ngaju = {
-	color = { 58 152 128 }
+	color = { 20 180 150 }
 
 	ethos = ethos_spiritual
 	heritage = heritage_austronesian

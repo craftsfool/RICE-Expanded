@@ -1,9 +1,10 @@
-﻿
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
 #############################################################
-# 
+#
 # INDIGENOUS PEOPLE OF NORTHERN AUSTRALIA
 # heritage_arnhem_land = localized as Miwatj, Yolngu name for NE Arnhem Land
-# 
+#
 #############################################################
 
 
@@ -11,18 +12,18 @@
 amurdak = {
 	color = { 44 22 11 }
 	ethos = ethos_stoic
-	heritage = heritage_melanesian #heritage_arnhem_land
-	language = language_micronesian #language_iwaidjan
+	heritage = heritage_arnhem_land
+	language = language_iwaidjan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_bininj
-	
+
 	traditions = {
 		tradition_fishermen 				# Cybr: A lot of their art also features the sea, even if they didn't always live near the sea
 		tradition_artisans 					# Cybr: Painted Hands rock art https://www.cambridge.org/core/journals/cambridge-archaeological-journal/article/survival-social-cohesion-and-rock-art-the-painted-hands-of-western-arnhem-land-australia/F7AB51DF10D001C9C9AF3193C9A85F68
 		tradition_wetlanders 				# Cybr: In a gulf/riverland area
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
@@ -30,7 +31,7 @@ amurdak = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		100 = papuan
 	}
@@ -40,19 +41,19 @@ amurdak = {
 bininj = {
 	color = { 111 80 52 }
 	ethos = ethos_courtly
-	heritage = heritage_melanesian #heritage_arnhem_land
-	language = language_micronesian #language_gunwinyguan
+	heritage = heritage_arnhem_land
+	language = language_gunwinyguan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_bininj
-	
+
 	traditions = {
 		tradition_tribe_unity 		# Cybr: Complex kinship systems
 		tradition_artisans 			# Cybr: Rock art
 		tradition_hunters 			# Cybr: Bush hunting played an important role in their diet
 		tradition_festivities 		# Cybr: Increase Ceremonies to stir the onset of fertilizing rains
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
@@ -60,7 +61,7 @@ bininj = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		100 = papuan
 	}
@@ -70,18 +71,18 @@ bininj = {
 iwaidja = {
 	color = { 128 69 50 }
 	ethos = ethos_communal
-	heritage = heritage_melanesian #heritage_arnhem_land
-	language = language_micronesian #language_iwaidjan
+	heritage = heritage_arnhem_land
+	language = language_iwaidjan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_bininj
-	
+
 	traditions = {
 		tradition_fishermen 				# Cybr: Drew on the sea
 		tradition_music_theory 				# Cybr: Didgeridoo may have come from roughly this region
 		tradition_artisans 					# Cybr: Art figure strongly in Iwaidja culture
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
@@ -89,7 +90,7 @@ iwaidja = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		100 = papuan
 	}
@@ -100,12 +101,12 @@ iwaidja = {
 larrakia = {
 	color = { 39 99 101 } # 101 99 77
 	ethos = ethos_egalitarian
-	heritage = heritage_melanesian #heritage_arnhem_land
-	language = language_micronesian #language_larrakia
+	heritage = heritage_arnhem_land
+	language = language_larrakia
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_bininj
-	
+
 	traditions = {
 		tradition_fishermen 				# Cybr: Fishing and coastal trade
 		tradition_maritime_mercantilism		# Cybr: Called themselves the Saltwater people, established trade routes with other nearby peoples
@@ -117,7 +118,7 @@ larrakia = {
 		trait = tradition_culture_blending
 		requires_dlc_flag = hybridize_culture
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
@@ -125,7 +126,7 @@ larrakia = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		100 = papuan
 	}
@@ -136,19 +137,19 @@ larrakia = {
 marra = {
 	color = { 133 55 28 }
 	ethos = ethos_communal
-	heritage = heritage_melanesian #heritage_arnhem_land
-	language = language_micronesian #language_gunwinyguan
+	heritage = heritage_arnhem_land
+	language = language_gunwinyguan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_bininj
-	
+
 	traditions = {
 		tradition_fishermen 			# Cybr: Saltwater people
 		tradition_wetlanders 			# Cybr: Also made use of woodland and freshwater river systems
 		tradition_tribe_unity 			# Cybr: Moities
 		tradition_ancient_miners 		# Cybr: Stone quarries and raw stone play a major role in Marra traditional philosophy and spirituality
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
@@ -156,7 +157,7 @@ marra = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		100 = papuan
 	}
@@ -166,19 +167,19 @@ marra = {
 maung = {
 	color = { 88 99 108 } # 101 99 77
 	ethos = ethos_egalitarian
-	heritage = heritage_melanesian #heritage_arnhem_land
-	language = language_micronesian #language_iwaidjan
+	heritage = heritage_arnhem_land
+	language = language_iwaidjan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_bininj
-	
+
 	traditions = {
 		tradition_fishermen 				# Cybr: By the sea, Goulburn Islands
 		tradition_wetlanders 				# Cybr: In a coastal wetland area
 		tradition_language_scholars 		# Cybr: Warruwi on South Goulburn Island learn a lot of small indigenous languages
 		tradition_agrarian 					# Cybr: Practiced a system of agriculture by culling roots and trees and replanting them for seasonal harvest
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
@@ -186,7 +187,7 @@ maung = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		100 = papuan
 	}
@@ -197,18 +198,18 @@ maung = {
 nunggubuyu = {
 	color = { 166 144 8 }
 	ethos = ethos_spiritual
-	heritage = heritage_melanesian #heritage_arnhem_land
-	language = language_micronesian #language_gunwinyguan
+	heritage = heritage_arnhem_land
+	language = language_gunwinyguan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_yolngu
-	
+
 	traditions = {
 		tradition_zealous_people 		# Cybr: Mandayung moities are the proprietors of the Gunabibi/Kunapipi cult
 		tradition_tribe_unity 			# Cybr: Unusually for the region,  interpersonal genealogical relationships undergird the social structure, possible Papuan/Melanesian similarities
 		tradition_xenophilic 			# Cybr: Absorb foreign concepts into their totemic systems, similarities with Papuan/Melanesians
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
@@ -216,7 +217,7 @@ nunggubuyu = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		100 = papuan
 	}
@@ -226,12 +227,12 @@ nunggubuyu = {
 tiwi = {
 	color = { 8 8 64 }
 	ethos = ethos_stoic
-	heritage = heritage_melanesian #heritage_arnhem_land
-	language = language_micronesian #language_tiwi
+	heritage = heritage_arnhem_land
+	language = language_tiwi
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_bininj
-	
+
 	traditions = {
 		tradition_wedding_ceremonies 		# Cybr: Marriage is important, women would often remarry if they become widows
 		tradition_fishermen 				# Cybr: Island and fishing
@@ -239,7 +240,7 @@ tiwi = {
 		tradition_isolationist 				# Cybr: Language isolate, separate on the Tiwi island
 		tradition_mystical_ancestors 		# Cybr: People cannot eat their totemic animal ancestor
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
@@ -247,7 +248,7 @@ tiwi = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		100 = papuan
 	}
@@ -258,18 +259,18 @@ tiwi = {
 warnumamalya = {
 	color = { 161 144 64 }
 	ethos = ethos_communal
-	heritage = heritage_melanesian #heritage_arnhem_land
-	language = language_micronesian #language_gunwinyguan
+	heritage = heritage_arnhem_land
+	language = language_gunwinyguan
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_yolngu
-	
+
 	traditions = {
 		tradition_fishermen 			# Cybr: Islands
 		tradition_artisans 				# Cybr: Various traditions of art
 		tradition_tribe_unity 			# Cybr: Complex kinship system where they are all related to each other and bound by ceremonial participation
 	}
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
@@ -277,7 +278,7 @@ warnumamalya = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		100 = papuan
 	}
@@ -287,12 +288,12 @@ warnumamalya = {
 yolngu = {
 	color = { 64 25 8 }
 	ethos = ethos_communal
-	heritage = heritage_melanesian #heritage_arnhem_land
-	language = language_micronesian #language_yolngu
+	heritage = heritage_arnhem_land
+	language = language_yolngu
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	name_list = name_list_yolngu
-	
+
 	traditions = {
 		tradition_xenophilic 			# Cybr: Later integrated Indonesian elements into their culture and language
 		tradition_religion_blending 	# Cybr: Later integrated Indonesian elements into their spiritual beliefs
@@ -306,7 +307,7 @@ yolngu = {
 	# 	trait = tradition_culture_blending
 	# 	requires_dlc_flag = hybridize_culture
 	# }
-	
+
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { southeast_asian_building_gfx }
 	clothing_gfx = { papuan_clothing_gfx southeast_asian_clothing_gfx }
@@ -314,7 +315,7 @@ yolngu = {
 	house_coa_frame = house_frame_26
 	house_coa_mask_offset = { 0.0 0.0 }
 	house_coa_mask_scale = { 0.85 0.85 }
-	
+
 	ethnicities = {
 		100 = papuan
 	}

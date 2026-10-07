@@ -1,0 +1,2191 @@
+{
+  "structure_errors": [],
+  "gameplay_errors": [
+    {
+      "culture": "krivich",
+      "error": "EPE override changes local gameplay fields"
+    },
+    {
+      "culture": "khasi",
+      "error": "EPE override changes local gameplay fields"
+    },
+    {
+      "culture": "ngaju",
+      "error": "EPE override changes local gameplay fields"
+    },
+    {
+      "culture": "malagasy",
+      "error": "EPE override changes local gameplay fields"
+    },
+    {
+      "culture": "tolaki",
+      "error": "EPE override changes local gameplay fields"
+    },
+    {
+      "culture": "bungku",
+      "error": "EPE override changes local gameplay fields"
+    }
+  ],
+  "profiles": {
+    "local_modified_epe": {
+      "errors": [],
+      "patched_cultures_checked": 214,
+      "rice_cultures": 219,
+      "rice_pillars": 117,
+      "ethnicities": 3243
+    },
+    "local_modified_ce_epe": {
+      "errors": [
+        {
+          "registry": "culture/cultures",
+          "key": "african_roman",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_berber.txt",
+            "x00_ce_latin.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "evenk",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_siberian.txt",
+            "00_ce_mongolic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "gandhari",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_indo_aryan.txt",
+            "00_ce_indo_aryan.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "goliad",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_baltic.txt",
+            "00_ce_baltic_balto_finnic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "harla",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_somalian.txt",
+            "BAP_somalian.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "hephthalite",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_iranian.txt",
+            "00_ce_iranian.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "himyarite",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_arabic.txt",
+            "00_ce_south_arabic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "krivich",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_east_slavic.txt",
+            "00_ce_east_slavic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "nabati",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_syriac.txt",
+            "00_ce_byzantine.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "nuristani",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_indo_aryan.txt",
+            "00_ce_indo_aryan.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "oromo",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_somalian.txt",
+            "BAP_somalian.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "pamiri",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_iranian.txt",
+            "00_ce_iranian.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "pyu",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_burman.txt",
+            "00_ce_burman.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "sidama",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_east_african.txt",
+            "BAP_east_african.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "sorbian",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/EEE_West_Slavic.txt",
+            "00_ce_west_slavic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "south_arabian",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_arabic.txt",
+            "00_ce_south_arabic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "tuareg",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_berber.txt",
+            "BAP_berber.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "yakut",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_siberian.txt",
+            "00_ce_turkic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "yeniseian",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_siberian.txt",
+            "00_ce_ugro_permian.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_RICE_placeholder_1",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_RICE_placeholder_2",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_RICE_placeholder_3",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_algonquian",
+          "definitions": [
+            "RICE_heritage_native_american.txt",
+            "xRICE_heritage_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_andino",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_arnhem_land",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_east_bantu",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_elamite",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_guanche",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_indigenous_colombian",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_inuit",
+          "definitions": [
+            "RICE_heritage_native_american.txt",
+            "xRICE_heritage_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_iroquoian",
+          "definitions": [
+            "RICE_heritage_native_american.txt",
+            "xRICE_heritage_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_kaurareg",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_mapuche",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_melanesian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage_oceanic.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_micronesian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage_oceanic.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_paleo_inuit",
+          "definitions": [
+            "RICE_heritage_native_american.txt",
+            "xRICE_heritage_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_papuan",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage_oceanic.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_polynesian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage_oceanic.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_siberian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_south_bantu",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_1",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_10",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_2",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_3",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_4",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_5",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_6",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_7",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_8",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_9",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_african_romance",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "00_ce_italo_western_languages.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_amis",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_aymara",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_bahnaric",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_baining",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_barbacoan",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_batak",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_bauzi",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_beothuk",
+          "definitions": [
+            "RICE_language_native_american.txt",
+            "xRICE_language_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_biak",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_brahui",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_bugis",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_burusho",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_cacan",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_chachapoya",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_chamorro",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_chibchan",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_chimu",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_chong",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_cree",
+          "definitions": [
+            "RICE_language_native_american.txt",
+            "xRICE_language_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_dinka",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_eastern_algonquian",
+          "definitions": [
+            "RICE_language_native_american.txt",
+            "xRICE_language_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_elamite",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_filipino",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_fur",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_gogodala",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_gunwinyguan",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_halmahera",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_inuit",
+          "definitions": [
+            "RICE_language_native_american.txt",
+            "xRICE_language_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_iroquoian",
+          "definitions": [
+            "RICE_language_native_american.txt",
+            "xRICE_language_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_iwaidjan",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_java",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_katuic",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kaurareg",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_khasi",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_khmuic",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kirati",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kiwaian",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kordofanian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kunza",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kwerba",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_lampung",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_larrakia",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_maban",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_mairasi",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_makua",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_malay",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_mapunzungun",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_maybrat",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_micronesian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_mochica",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_moklen",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_monpa",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_mpur",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_munda",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_nasa",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_ngaju",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_nicobar",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_nuristani",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "00_ce_nuristani_languages.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_oriomo",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_palauan",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_palaungic",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_pauwasi",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_pijao",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_puquina",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_pyu",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "00_ce_burman_languages.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_quechua",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_quimbaya",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_rufiji_ruvuma",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_sayhadic",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "00_ce_south_arabian_languages.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_sepik",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_shona",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_sorbian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_south_arabian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_timor",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_tiwi",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_tomini",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_uru",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_west_himalayan",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_yab",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_yam",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_yeniseian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "00_ce_siberian_languages.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_yolngu",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_yukaghir",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_zenu",
+          "definitions": []
+        }
+      ],
+      "patched_cultures_checked": 214,
+      "rice_cultures": 219,
+      "rice_pillars": 117,
+      "ethnicities": 3243
+    },
+    "expanded_epe": {
+      "errors": [],
+      "patched_cultures_checked": 214,
+      "rice_cultures": 219,
+      "rice_pillars": 117,
+      "ethnicities": 3243
+    },
+    "expanded_ce_epe": {
+      "errors": [
+        {
+          "registry": "culture/cultures",
+          "key": "african_roman",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_berber.txt",
+            "x00_ce_latin.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "evenk",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_siberian.txt",
+            "00_ce_mongolic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "gandhari",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_indo_aryan.txt",
+            "00_ce_indo_aryan.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "goliad",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_baltic.txt",
+            "00_ce_baltic_balto_finnic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "harla",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_somalian.txt",
+            "BAP_somalian.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "hephthalite",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_iranian.txt",
+            "00_ce_iranian.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "himyarite",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_arabic.txt",
+            "00_ce_south_arabic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "krivich",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_east_slavic.txt",
+            "00_ce_east_slavic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "nabati",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_syriac.txt",
+            "00_ce_byzantine.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "nuristani",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_indo_aryan.txt",
+            "00_ce_indo_aryan.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "oromo",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_somalian.txt",
+            "BAP_somalian.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "pamiri",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_iranian.txt",
+            "00_ce_iranian.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "pyu",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_burman.txt",
+            "00_ce_burman.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "sidama",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_east_african.txt",
+            "BAP_east_african.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "sorbian",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/EEE_West_Slavic.txt",
+            "00_ce_west_slavic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "south_arabian",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_arabic.txt",
+            "00_ce_south_arabic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "tuareg",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_berber.txt",
+            "BAP_berber.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "yakut",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_siberian.txt",
+            "00_ce_turkic.txt"
+          ]
+        },
+        {
+          "registry": "culture/cultures",
+          "key": "yeniseian",
+          "definitions": [
+            "RICE-EPE-Compatch/common/culture/cultures/RICE_siberian.txt",
+            "00_ce_ugro_permian.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_RICE_placeholder_1",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_RICE_placeholder_2",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_RICE_placeholder_3",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_algonquian",
+          "definitions": [
+            "RICE/common/culture/pillars/RICE_heritage_native_american.txt",
+            "xRICE_heritage_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_andino",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_arnhem_land",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_east_bantu",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_elamite",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_guanche",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_indigenous_colombian",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_inuit",
+          "definitions": [
+            "RICE/common/culture/pillars/RICE_heritage_native_american.txt",
+            "xRICE_heritage_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_iroquoian",
+          "definitions": [
+            "RICE/common/culture/pillars/RICE_heritage_native_american.txt",
+            "xRICE_heritage_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_kaurareg",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_mapuche",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_melanesian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage_oceanic.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_micronesian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage_oceanic.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_paleo_inuit",
+          "definitions": [
+            "RICE/common/culture/pillars/RICE_heritage_native_american.txt",
+            "xRICE_heritage_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_papuan",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage_oceanic.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_polynesian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage_oceanic.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_siberian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "heritage_south_bantu",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_heritage.txt",
+            "xRICE_heritage.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_1",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_10",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_2",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_3",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_4",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_5",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_6",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_7",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_8",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_RICE_placeholder_9",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_african_romance",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "00_ce_italo_western_languages.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_amis",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_aymara",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_bahnaric",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_baining",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_barbacoan",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_batak",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_bauzi",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_beothuk",
+          "definitions": [
+            "RICE/common/culture/pillars/RICE_language_native_american.txt",
+            "xRICE_language_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_biak",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_brahui",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_bugis",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_burusho",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_cacan",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_chachapoya",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_chamorro",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_chibchan",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_chimu",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_chong",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_cree",
+          "definitions": [
+            "RICE/common/culture/pillars/RICE_language_native_american.txt",
+            "xRICE_language_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_dinka",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_eastern_algonquian",
+          "definitions": [
+            "RICE/common/culture/pillars/RICE_language_native_american.txt",
+            "xRICE_language_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_elamite",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_filipino",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_fur",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_gogodala",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_gunwinyguan",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_halmahera",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_inuit",
+          "definitions": [
+            "RICE/common/culture/pillars/RICE_language_native_american.txt",
+            "xRICE_language_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_iroquoian",
+          "definitions": [
+            "RICE/common/culture/pillars/RICE_language_native_american.txt",
+            "xRICE_language_native_american.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_iwaidjan",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_java",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_katuic",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kaurareg",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_khasi",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_khmuic",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kirati",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kiwaian",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kordofanian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kunza",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_kwerba",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_lampung",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_larrakia",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_maban",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_mairasi",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_makua",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_malay",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_mapunzungun",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_maybrat",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_micronesian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_mochica",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_moklen",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_monpa",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_mpur",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_munda",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_nasa",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_ngaju",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_nicobar",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_nuristani",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "00_ce_nuristani_languages.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_oriomo",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_palauan",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_palaungic",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_pauwasi",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_pijao",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_puquina",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_pyu",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "00_ce_burman_languages.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_quechua",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_quimbaya",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_rufiji_ruvuma",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_sayhadic",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "00_ce_south_arabian_languages.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_sepik",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_shona",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_sorbian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_south_arabian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_timor",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_tiwi",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_tomini",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_uru",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_west_himalayan",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_yab",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_yam",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_yeniseian",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "00_ce_siberian_languages.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_yolngu",
+          "definitions": []
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_yukaghir",
+          "definitions": [
+            "RICE+CE Compatch for 1.19/common/culture/pillars/RICE_language.txt",
+            "xRICE_language.txt"
+          ]
+        },
+        {
+          "registry": "culture/pillars",
+          "key": "language_zenu",
+          "definitions": []
+        }
+      ],
+      "patched_cultures_checked": 214,
+      "rice_cultures": 219,
+      "rice_pillars": 117,
+      "ethnicities": 3243
+    }
+  },
+  "sources": {
+    "rice": {
+      "files": 2292,
+      "sha256": "0abd439b0bf5175d36f98c1dd469d7214a3d044db88a67473cfc88ae1aac4763"
+    },
+    "ce": {
+      "files": 636,
+      "sha256": "94aaee616b0d303f8c2c6a804181c997b8a064d875f853c01c924e002038c6ef"
+    },
+    "epe": {
+      "files": 3689,
+      "sha256": "9605f375db10168ede285e4bce103d448327705260a779c2c4e1b0d0a86abb74"
+    }
+  },
+  "limitations": [
+    "No game was launched. Engine scopes, rendering, DNA genes and long campaigns are not runtime-verified.",
+    "Checks cover RICE culture/pillar uniqueness and references in effective patched cultures; unrelated CE/vanilla conflicts are outside this patch audit.",
+    "Installed CE still targets 1.19; these compatibility changes are not a full CE port to 1.20."
+  ],
+  "local_comparison": {
+    "epe": {
+      "installed": true,
+      "repo_only": [],
+      "local_only": [],
+      "byte_differences": [
+        "common/bookmark_portraits/bookmark_RICE_1066_al_kashgari.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_al_wuhsha.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_ali_ibn_asad.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_ali_ibn_asad_alt_nasir_khusraw.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_anawrahta.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_anawrahta_alt_kyansittha.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_anawrahta_alt_manisanda.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_badis_ibn_habus.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_badis_ibn_habus_alt_al_mu_tasim.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_badis_ibn_habus_alt_yosef.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_budivoj.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_budivoj_alt_henrik.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_bursuq.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_bursuq_alt_bursuq.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_chen_pingshan.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_chen_pingshan_alt_lin_deng.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_constantine_the_african.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_constantine_the_african_alt_atto.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_constantine_the_african_alt_johannes.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_dpal_dus_sgra.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_dpal_dus_sgra_alt_hrugs_wer.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_dpal_dus_sgra_alt_liege.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_faramurz_kakuyid.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_faramurz_kakuyid_alt_alp_arslan.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_fernan_mendez.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_fernan_mendez_alt_arcruni.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_fernan_mendez_alt_mendo.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_isleifur.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_isleifur_alt_gissur.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_isleifur_alt_teitur.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_kong_zongyuan.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_kong_zongyuan_alt_kong_ruomeng.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_kong_zongyuan_alt_kong_ruoxu.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_krutoj.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_kusbur.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_ly_thuong_kiet.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_ly_thuong_kiet_alt_ly_thuong_hien.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_ly_thuong_kiet_alt_than_canh_phuc.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_manuel_angelos.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_marianos.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_marianos_alt_georgios.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_marianos_alt_mena.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_morcar.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_morcar_alt_eadwin.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_morcar_alt_ealdgyth.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_nasir_al_dawla.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_nasir_al_dawla_alt_al_mustansir.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_nasir_al_dawla_alt_badr.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_pithipati.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_pithipati_alt_vigrahapala.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_roger.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_roger_alt_benavert.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_said_ibn_najah.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_said_ibn_najah_alt_jayyash.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_said_ibn_najah_alt_sulayhid.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_song_jiang.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_tidore.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_tidore_alt_biak.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_tidore_alt_ternate.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_tunka_menin.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_tunka_menin_alt_almoravid.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_tzachas.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_vijayabahu.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_vijayabahu_alt_budal.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_vijayabahu_alt_chola.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_yelu_yixin.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_yelu_yixin_alt_hongji.txt",
+        "common/bookmark_portraits/bookmark_RICE_1066_yelu_yixin_alt_xiao_guanyin.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_al_nasir.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_al_nasir_alt_al_mustadi.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_constance.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_damot.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_genghis_khan.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_genghis_khan_alt_borte.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_genghis_khan_alt_hoelun.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_hafsa.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_hafsa_alt_abu_said_uthman.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_ikhtiyar_al_din.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_ikhtiyar_al_din_alt_laksmana.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_ikhtiyar_al_din_alt_muhammad_of_ghor.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_jayavarman_vii.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_jayavarman_vii_alt_jaya_indravarman_iv.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_jayavarman_vii_alt_jayarajadevi.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_li_shichang.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_lu_you.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_lu_you_alt_tang_wan.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_margaret_of_beverley.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_margaret_of_beverley_alt_thomas.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_margaritus.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_margaritus_alt_william_ii.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_michael_scot.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_moses_georgios.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_moses_georgios_alt_adam.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_moses_georgios_alt_maria.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_oleg.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_oleg_alt_vladimir.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_oleg_alt_yaroslav.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_oranmiyan.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_parakramabahu.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_parakramabahu_alt_lilavati.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_rahabhan.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_rahabhan_alt_hege.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_rahabhan_alt_wife.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_roman_alt_casimir.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_roman_alt_konchek.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_roman_mtislavich.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_ruaidri.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_ruaidri_alt_aoife.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_ruaidri_alt_henry.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_trapelicino.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_trapelicino_alt_alfonso.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_wo_daochong.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_wo_daochong_alt_wotela.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_wo_daochong_alt_zhakui.txt",
+        "common/bookmark_portraits/bookmark_RICE_1178_yelu_zhilugu.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_abu_bakr_al_madharai.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_abu_bakr_alt_al_husayn.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_abu_bakr_alt_ali.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_al_baridi.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_al_umari.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_al_umari_alt_ahmad_ibn_tulun.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_al_umari_alt_zakharias.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_azjur_al_turki.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_azjur_al_turki_alt_ahmad_ibn_tulun.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_azur_jamshid.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_azur_jamshid_alt_nur_bakht.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_bah_lud.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_bah_lud_alt_inak.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_balaputradewa.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_bokut.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_bokut_alt_mi_huaiyu.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_bokut_alt_zhang_yichao.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_cao_yijin.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_eldad_ha_dani.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_georgios.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_georgios_alt_merki.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_georgios_alt_niuty.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_gung_ye.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_gung_ye_alt_eung_ryeom.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_hafsunid.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_hafsunid_alt_ibn_hafsun.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_helgi_eyvindarson.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_helgi_eyvindarson_alt_bjorg.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_helgi_eyvindarson_alt_rafarta.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_ibn_wahshiyya.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_khwarezm.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_khwarezm_alt_samanid.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_last_zunbil.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_last_zunbil_alt_cousin.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_last_zunbil_alt_yaqub_saffarid.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_maymun_ibn_rustumiyya.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_ngo_man.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_normandy_hrolfr.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_pei_toutuo.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_sawdan.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_sawdan_alt_abu_aaron.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_sawdan_alt_louis.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_shinnyo.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_slavibor.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_slavibor_alt_ludmila.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_socotra.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_thabit_ibn_qurra.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_zhai_xin.txt",
+        "common/bookmark_portraits/bookmark_RICE_867_zhai_xin_alt_farong.txt",
+        "common/culture/cultures/EEE_West_Slavic.txt",
+        "common/culture/cultures/RICE_algonquian.txt",
+        "common/culture/cultures/RICE_andean.txt",
+        "common/culture/cultures/RICE_arabic.txt",
+        "common/culture/cultures/RICE_arnhem_land.txt",
+        "common/culture/cultures/RICE_asian_american.txt",
+        "common/culture/cultures/RICE_baltic.txt",
+        "common/culture/cultures/RICE_bantu.txt",
+        "common/culture/cultures/RICE_berber.txt",
+        "common/culture/cultures/RICE_burman.txt",
+        "common/culture/cultures/RICE_central_african.txt",
+        "common/culture/cultures/RICE_chinese.txt",
+        "common/culture/cultures/RICE_colombian.txt",
+        "common/culture/cultures/RICE_dravidian.txt",
+        "common/culture/cultures/RICE_east_african.txt",
+        "common/culture/cultures/RICE_east_slavic.txt",
+        "common/culture/cultures/RICE_elamite.txt",
+        "common/culture/cultures/RICE_indo_aryan.txt",
+        "common/culture/cultures/RICE_inuit.txt",
+        "common/culture/cultures/RICE_iranian.txt",
+        "common/culture/cultures/RICE_iroquoian.txt",
+        "common/culture/cultures/RICE_israelite.txt",
+        "common/culture/cultures/RICE_kaurareg.txt",
+        "common/culture/cultures/RICE_mapuche.txt",
+        "common/culture/cultures/RICE_melanesian.txt",
+        "common/culture/cultures/RICE_micronesian.txt",
+        "common/culture/cultures/RICE_north_germanic.txt",
+        "common/culture/cultures/RICE_paleo_inuit.txt",
+        "common/culture/cultures/RICE_papuan.txt",
+        "common/culture/cultures/RICE_polynesian.txt",
+        "common/culture/cultures/RICE_sea_aslian.txt",
+        "common/culture/cultures/RICE_sea_chamic.txt",
+        "common/culture/cultures/RICE_sea_dayak.txt",
+        "common/culture/cultures/RICE_sea_filipino.txt",
+        "common/culture/cultures/RICE_sea_japanese.txt",
+        "common/culture/cultures/RICE_sea_khmer.txt",
+        "common/culture/cultures/RICE_sea_korean.txt",
+        "common/culture/cultures/RICE_sea_loloish.txt",
+        "common/culture/cultures/RICE_sea_malayic.txt",
+        "common/culture/cultures/RICE_sea_sulawesi.txt",
+        "common/culture/cultures/RICE_sea_tai.txt",
+        "common/culture/cultures/RICE_sea_vietic.txt",
+        "common/culture/cultures/RICE_siberian.txt",
+        "common/culture/cultures/RICE_somalian.txt",
+        "common/culture/cultures/RICE_syriac.txt",
+        "common/culture/cultures/RICE_turkic.txt",
+        "common/culture/cultures/RICE_ugro_permian.txt",
+        "common/culture/cultures/RICE_volga_finnic.txt",
+        "common/culture/cultures/RICE_west_papuan.txt",
+        "common/culture/cultures/zzzzz_RICE_placeholder.txt",
+        "common/dna_data/RICE_asian_dna.txt",
+        "common/dna_data/RICE_aslian_dna.txt",
+        "common/dna_data/RICE_buddhist_dna.txt",
+        "common/dna_data/RICE_cybrxkhan_dna.txt",
+        "common/dna_data/RICE_easter_egg_dna.txt",
+        "common/dna_data/RICE_galicia2_dna.txt",
+        "common/dna_data/RICE_hangzhou_dna.txt",
+        "common/dna_data/RICE_landless_dna.txt",
+        "common/dna_data/RICE_manichean_dna.txt",
+        "common/dna_data/RICE_socotra_dna.txt",
+        "descriptor.mod"
+      ],
+      "script_differences": [
+        "descriptor.mod"
+      ]
+    },
+    "ce": {
+      "installed": false,
+      "note": "No installed CE patch was found; repository baseline audited instead."
+    }
+  }
+}

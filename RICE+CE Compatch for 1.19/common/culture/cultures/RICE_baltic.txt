@@ -1,0 +1,5 @@
+﻿# RICE Expanded CE compatibility: retain local RICE content; CE owns shared keys.
+
+
+# East Galindians / Moshchiny culture
+# goliad is supplied by Culture Expanded.

@@ -56,3 +56,10 @@ Static validation reports zero errors and 13 optional-mod/debug faith-reference 
 Runtime checks used CK3 **1.20.0.4**, an isolated user directory, a frozen mod copy and Simplified Chinese. The 1066 start, religion interface, non-default Sri Lankan support/purification choices, and Greenland basic-supply support completed their confirmation and event flows. An observer run reached 1073-01-01 from 1066-09-15 without a further crash. The final option-list repairs were retested in these decision flows. The maintainer subsequently confirmed manual testing was complete and authorized publication; individual manual test results were not supplied. Landless validation in the automated environment was limited by DLC availability.
 
 Two earlier test crashes occurred during localization hot reload and after an invalid debug role-switch argument. Neither recurred after freezing the test files and using verified numeric character IDs. This is not a guarantee of crash-free gameplay. Beta log issues remain, including DLC-locked tenets, optional faith references, missing historical characters, event scopes and an Ethiopian activity option category. Sampled affected scripts match the starting beta; a controlled two-build runtime comparison was not performed. Other languages were checked structurally, with full UI coverage, long campaigns, old-save upgrades and mod combinations still unverified. This remains a **prerelease**.
+
+
+## 2026-10-07 — Compatibility patches
+
+核对维护者修改过的本地 RICE、CE 和 EPE，同步 EPE 补丁的六处文化内容；修复 CE 组合的重复文化和语言／传承定义，恢复美洲及大洋洲独立分类与创新初始化。两个补丁改用便携安装描述文件。未启动游戏；四种加载组合通过脚本检查。CE 本体仍标注 1.19，本次不是 CE 全量 1.20 移植。详见 [兼容补丁说明](COMPATCHES-Expanded.md) 及 [检查报告](reports/compatch-validation.json)。
+
+Audit against modified local RICE, CE and EPE; preserve local gameplay in six EPE cultures, resolve CE shared registries, restore distinct American/Oceanian pillars and startup innovation grants, and make both patch descriptors portable. Four static load profiles pass; no game launched. CE itself still targets 1.19. See the compatibility documentation and report linked above.

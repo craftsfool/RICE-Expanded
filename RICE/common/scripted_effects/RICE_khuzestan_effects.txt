@@ -178,37 +178,40 @@ RICE_setup_khuzestan_flavor_pack_effect = {
 	# 	}
 	}
 
-	# Default for other Dualist faiths
+	# Check each rite so the fallback does not overwrite its existing purification doctrine.
 	religion:dualism_religion = {
 		every_faith = {
-			limit = {
-				NOR = {
-					has_doctrine = rice_baptism_purification_doctrine
-					has_doctrine = rice_food_purification_doctrine
-					has_doctrine = rice_prayer_love_doctrine
-					has_doctrine = rice_light_purification_doctrine
-					has_doctrine = rice_prayer_purification_doctrine
+			every_faith_rite = {
+				limit = {
+					NOR = {
+						rite_has_doctrine = rice_baptism_purification_doctrine
+						rite_has_doctrine = rice_food_purification_doctrine
+						rite_has_doctrine = rice_prayer_love_doctrine
+						rite_has_doctrine = rice_light_purification_doctrine
+						rite_has_doctrine = rice_prayer_purification_doctrine
+					}
 				}
+				add_rite_doctrine = rice_prayer_purification_doctrine
 			}
-			every_faith_rite = { add_rite_doctrine = rice_prayer_purification_doctrine }
 		}
 	}
 	every_religion_global = {
 		every_faith = {
-			limit = {
-				has_tenet = tenet_gnosticism
-				NOR = {
-					has_doctrine = rice_baptism_purification_doctrine
-					has_doctrine = rice_food_purification_doctrine
-					has_doctrine = rice_prayer_love_doctrine
-					has_doctrine = rice_light_purification_doctrine
-					has_doctrine = rice_prayer_purification_doctrine
+			limit = { has_tenet = tenet_gnosticism }
+			every_faith_rite = {
+				limit = {
+					NOR = {
+						rite_has_doctrine = rice_baptism_purification_doctrine
+						rite_has_doctrine = rice_food_purification_doctrine
+						rite_has_doctrine = rice_prayer_love_doctrine
+						rite_has_doctrine = rice_light_purification_doctrine
+						rite_has_doctrine = rice_prayer_purification_doctrine
+					}
 				}
+				add_rite_doctrine = rice_prayer_purification_doctrine
 			}
-			every_faith_rite = { add_rite_doctrine = rice_prayer_purification_doctrine }
 		}
 	}
-
 
 	if = {
 		limit = {

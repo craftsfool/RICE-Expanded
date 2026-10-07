@@ -28,15 +28,15 @@ odinala_high_god_name:0 "Chineke"
 odinala_high_god_name_possessive:0 "de Chineke"
 odinala_high_god_name_alternate:0 "Chúkwú"
 odinala_high_god_name_alternate_possessive:0 "de Chúkwú"
-odinala_high_god_shehe:0 "Él" #Chúkwú es de género fluido pero a menudo masculino, opté por un pronombre de género ya que probablemente el texto de pdx no manejaría bien el "they" en algunos contextos.
+odinala_high_god_shehe:0 "Él"
 odinala_high_god_herselfhimself:0 "Él mismo"
 odinala_high_god_herhis:0 "Su"
-odinala_good_god_ala:0 "Alà" #diosa de la tierra
-odinala_good_god_amadioha:0 "Amádiọhà" #dios del trueno
-odinala_good_god_anyanwu:0 "Anyanwụ" #dios del sol
-odinala_good_god_igwekaalau:0 "Igwekaala" #dios del cielo
+odinala_good_god_ala:0 "Alà"
+odinala_good_god_amadioha:0 "Amádiọhà"
+odinala_good_god_anyanwu:0 "Anyanwụ"
+odinala_good_god_igwekaalau:0 "Igwekaala"
 # Los dioses malignos
-odinala_devil_name:0 "Ogbanje" #no hay un diablo per se en la cosmología Igbo, pero Ogbanje es una entidad mítica maligna que maldice y mata
+odinala_devil_name:0 "Ogbanje"
 odinala_devil_name_possessive:0 "de Ogbanje"
 odinala_devil_shehe:0 "él"
 odinala_devil_herselfhimself:0 "él mismo"
@@ -53,7 +53,7 @@ odinala_household_god_name:0 "Ikenga"
 odinala_household_god_name_possessive:0 "de Ikenga"
 odinala_knowledge_god_name:0 "Anyanwu"
 odinala_knowledge_god_name_possessive:0 "de Anyanwu"
-odinala_fate_god_name:0 "Chi" #concepto de destino en Odinala
+odinala_fate_god_name:0 "Chi"
 odinala_fate_god_name_possessive:0 "de Chi"
 odinala_war_god_name:0 "Ekwensu"
 odinala_war_god_name_possessive:0 "de Ekwensu"
@@ -68,7 +68,7 @@ odinala_death_deity_name_possessive:0 "de Ogbunabali"
 witchgodname_odinala_ogbunabali:0 "Ogbunabali"
 witchgodname_odinala_ogbunabalis:0 "de Ogbunabali"
 #Odinala pagana
-odinala_pagan:0 "Odinàlà" #el nombre alternativo es Odinani, ambos son aceptables pero realmente me gustó el sonido de la palabra Odinala, especialmente para los adherentes, p. ej. Odinalan sobre Odinanian
+odinala_pagan:0 "Odinàlà"
 odinala_pagan_adj:0 "Odinàlàn"
 odinala_pagan_adherent:0 "Odinàlàn"
 odinala_pagan_adherent_plural:0 "Odinàlàns"

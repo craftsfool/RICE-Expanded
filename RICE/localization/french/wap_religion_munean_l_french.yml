@@ -7,18 +7,18 @@
  munean_religion_adherent_plural:1 "Kanúris"
  munean_religion_desc:1 "When our Izwağen ancestors descended from the sacred mountains to conquer the lands of Kanem they established a new faith by divine covenant. By and from the veneration of Mune the legitimacy, power, and authority of our rulers is derived"
  # Temples, priests, symbols, divine terms
- munean_religious_text:0 "Girgam" 
+ munean_religious_text:0 "Girgam"
  #fictional based on the name for written historical records in some kingdoms west of Bornu, including Daura, Fika and Mandara, defined as chronicle or list of ancestors or simply date
  # The great and good gods and goddesses
- munean_high_god_name:0 "Mune" #the Mune is a mysterious idol or god of worship of the pagan period of Kanem, little is known about it.
+ munean_high_god_name:0 "Mune"
  munean_high_god_name_possessive:0 "de Mune"
  munean_high_god_name_alternate:0 "$munean_high_god_name$"
  munean_high_god_name_alternate_possessive:0 "$munean_high_god_name_possessive$"
 
  #Munean Pagan
- munean_pagan:0 "Muneism" #fictional term created for game purposes.
- munean_pagan_adj:0 "Munean" #fictional term created for game purposes.
- munean_pagan_adherent:0 "Munean" #fictional term created for game purposes.
+ munean_pagan:0 "Muneism"
+ munean_pagan_adj:0 "Munean"
+ munean_pagan_adherent:0 "Munean"
  munean_pagan_adherent_plural:0 "Muneans"
  munean_pagan_desc:1 "$munean_religion_desc$"
  

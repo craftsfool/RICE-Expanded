@@ -73,7 +73,7 @@
  yolngu_pagan_priest_plural:0 "Elders"
  yolngu_pagan_priest_term_plural:0 "Elders"
  yolngu_pagan_priest_alternate_plural:1 "Elders"
- yolngu_pagan_divine_realm:0 "Bralgu" # Final resting place of the ancestors
+ yolngu_pagan_divine_realm:0 "Bralgu"
  yolngu_pagan_positive_afterlife:0 "Bralgu"
  yolngu_pagan_negative_afterlife:0 "Darkness"
  witchgodname_yolngu_pagan_the_shadow:0 "$yolngu_pagan_devil_name$"
@@ -94,19 +94,19 @@
  bininj_pagan_old_adherent_plural:0 "Old Djangists"
  bininj_pagan_old_desc:0 "$bininj_pagan_desc$"
 
- bininj_pagan_high_god_name:0 "Ngalyod" # Rainbow serpent, sometimes treated as female, but can also be androgynous or male
+ bininj_pagan_high_god_name:0 "Ngalyod"
  bininj_pagan_high_god_name_possessive:0 "Ngalyod's"
  bininj_pagan_high_god_name_alternate:0 "The Morning Star"
  bininj_pagan_high_god_name_alternate_possessive:0 "The Morning Star's"
- bininj_pagan_good_god_ancestors:0 "the djang" # Benevolent creator ancestral spirits
+ bininj_pagan_good_god_ancestors:0 "the djang"
  bininj_pagan_good_god_ancestors_possessive:0 "the djang's"
- bininj_pagan_good_god_nakorrkko:0 "Nakorrkko" # Nakorrkko - creator heroes
+ bininj_pagan_good_god_nakorrkko:0 "Nakorrkko"
  bininj_pagan_good_god_nakorrkko_possessive:0 "Nakorrkko's"
- bininj_pagan_good_god_mimih:0 "the good mimih" # Mimih spirits can be good or bad tricksters
+ bininj_pagan_good_god_mimih:0 "the good mimih"
  bininj_pagan_good_god_mimih_possessive:0 "the good mimih's"
- bininj_pagan_good_god_wayarra:0 "the wayarra" # Ghosts of ancestral spirits who wander at night
+ bininj_pagan_good_god_wayarra:0 "the wayarra"
  bininj_pagan_good_god_wayarra_possessive:0 "the wayarra's"
- bininj_pagan_good_god_mamaragan:0 "Mamaragan" # Lightning ancestor who precedes rain and punishes those who disobey laws
+ bininj_pagan_good_god_mamaragan:0 "Mamaragan"
  bininj_pagan_good_god_mamaragan_possessive:0 "Mamaragan's"
  bininj_pagan_devil_name:0 "the mimih"
  bininj_pagan_devil_name_possessive:0 "the mimih's"
@@ -117,7 +117,7 @@
  bininj_pagan_death_deity_name_possessive:0 "Ngalyod's"
  bininj_pagan_death_deity_herhis:0 "her"
 
- bininj_pagan_creator_god_name:0 "Yingarna" # Yingarna - original creator being
+ bininj_pagan_creator_god_name:0 "Yingarna"
  bininj_pagan_creator_god_name_possessive:0 "Yingarna's"
  bininj_pagan_health_god_name:0 "$bininj_pagan_good_god_ancestors$"
  bininj_pagan_health_god_name_possessive:0 "$bininj_pagan_good_god_ancestors_possessive$"
@@ -137,10 +137,10 @@
  bininj_pagan_trickster_god_name_possessive:0 "$bininj_pagan_devil_name_possessive$"
  bininj_pagan_night_god_name:0 "$bininj_pagan_good_god_wayarra$"
  bininj_pagan_night_god_name_possessive:0 "$bininj_pagan_good_god_wayarra_possessive$"
- bininj_pagan_water_god_name:0 "Yawkyawks" # Young girl spirits similar to mermaids, associated with water
+ bininj_pagan_water_god_name:0 "Yawkyawks"
  bininj_pagan_water_god_name_possessive:0 "Yawkyawks'"
 
- bininj_pagan_house_of_worship:0 "djang" # djang = dreaming sites or certain kinds of ancestor spirits
+ bininj_pagan_house_of_worship:0 "djang"
  bininj_pagan_house_of_worship_plural:0 "djang"
  bininj_pagan_religious_symbol:0 "water lily"
  bininj_pagan_religious_text:0 "songlines"
@@ -173,11 +173,11 @@
  tiwi_pagan_old_adherent_plural:0 "Old Palanerists"
  tiwi_pagan_old_desc:0 "$tiwi_pagan_desc$"
 
- tiwi_pagan_high_god_name:0 "$tiwi_pagan_good_god_ancestors$" # 
+ tiwi_pagan_high_god_name:0 "$tiwi_pagan_good_god_ancestors$"
  tiwi_pagan_high_god_name_possessive:0 "$tiwi_pagan_good_god_ancestors_possessive$"
  tiwi_pagan_high_god_name_alternate:0 "$tiwi_pagan_good_god_ancestors$"
  tiwi_pagan_high_god_name_alternate_possessive:0 "$tiwi_pagan_good_god_ancestors_possessive$"
- tiwi_pagan_good_god_ancestors:0 "The Ancestors" # Benevolent creator ancestral spirits
+ tiwi_pagan_good_god_ancestors:0 "The Ancestors"
  tiwi_pagan_good_god_ancestors_possessive:0 "The Ancestors'"
  tiwi_pagan_good_god_purrukapali:0 "Purrukapali"
  tiwi_pagan_good_god_purrukapali_possessive:0 "Purrukapali's"
@@ -187,15 +187,15 @@
  tiwi_pagan_good_god_bima_possessive:0 "Bima's"
  tiwi_pagan_good_god_pintoma:0 "Pintoma"
  tiwi_pagan_good_god_pintoma_possessive:0 "Pintoma's"
- tiwi_pagan_good_god_wuriupranala:0 "Wuriupranala" # The Sun Woman
+ tiwi_pagan_good_god_wuriupranala:0 "Wuriupranala"
  tiwi_pagan_good_god_wuriupranala_possessive:0 "Wuriupranala's"
- tiwi_pagan_good_god_murupiangkala:0 "Murupiangkala" # Second Sun Woman
+ tiwi_pagan_good_god_murupiangkala:0 "Murupiangkala"
  tiwi_pagan_good_god_murupiangkala_possessive:0 "Murupiangkala's"
- tiwi_pagan_good_god_jirakati:0 "Jirakati" # First initiate of the Kulama/men's initiation ceremony
+ tiwi_pagan_good_god_jirakati:0 "Jirakati"
  tiwi_pagan_good_god_jirakati_possessive:0 "Jirakati's"
- tiwi_pagan_good_god_japara:0 "Japara" # Moon Man
+ tiwi_pagan_good_god_japara:0 "Japara"
  tiwi_pagan_good_god_japara_possessive:0 "Japara's"
- tiwi_pagan_devil_name:0 "the mapurtiti" # Malevolent haunting spirits/ghosts
+ tiwi_pagan_devil_name:0 "the mapurtiti"
  tiwi_pagan_devil_name_possessive:0 "the mapurtiti's"
  tiwi_pagan_devil_shehe:0 "they"
  tiwi_pagan_devil_herselfhimself:0 "themselves"
@@ -227,9 +227,9 @@
  tiwi_pagan_water_god_name:0 "$tiwi_pagan_good_god_purrukapali$"
  tiwi_pagan_water_god_name_possessive:0 "$tiwi_pagan_good_god_purrukapali_possessive$"
 
- tiwi_pagan_house_of_worship:0 "sacred site" 
+ tiwi_pagan_house_of_worship:0 "sacred site"
  tiwi_pagan_house_of_worship_plural:0 "sacred sites"
- tiwi_pagan_religious_symbol:0 "tokampini" # Sacred messenger birds, typically jabirus or pelicans
+ tiwi_pagan_religious_symbol:0 "tokampini"
  tiwi_pagan_religious_text:0 "songlines"
  tiwi_pagan_religious_head_title:0 "Head Elder"
  tiwi_pagan_religious_head_title_name:0 "High Council"

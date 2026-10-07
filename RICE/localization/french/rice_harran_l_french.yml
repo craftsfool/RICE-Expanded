@@ -18,7 +18,7 @@
  Porphyry:0 "Porphyry"
  Damascius:0 "Damascius"
  ammonius_saccas:0 "Ammonius Saccas"
- dynn_harrani_motto:0 "Celui qui connaît sa propre essence devient divin" # Based on supposed Plato quote found at the Neoplatonic Academy in Harran
+ dynn_harrani_motto:0 "Celui qui connaît sa propre essence devient divin"
  RICE_harran_geography_own_county_req:0 "Vous possédez un [county|El] en [GetTitleByKey('c_harran').GetNameNoTier]"
  abu_bakr_ahmad:0 "Abu Bakr Ahmad"
  RICE_dynn_ibn_wahshiyya:0 "ibn Wahshiyya"
@@ -30,7 +30,7 @@
  abd_al_latif:0 "Abd al-Latif"
  abu_l_izz:0 "Abu l-'Izz"
  abu_bakr_ahmad_ibn_wahshiyya:0 "$abu_bakr_ahmad$ $RICE_dynn_ibn_wahshiyya$"
- RICE_dynn_ibn_wahshiyya_2:0 "Altayawi" # Based on the oldest names in ibn Wahshiyya genealogy and are likely of Chaldean/Nabati origin, per fellow modder iFrunx
+ RICE_dynn_ibn_wahshiyya_2:0 "Altayawi"
 
  # Traits
  trait_RICE_the_nabataean:0 "Le Nabatéen"
@@ -89,11 +89,11 @@
  building_type_RICE_harran_temple_of_the_moon:0 "Temple de Sin"
  building_type_RICE_harran_temple_of_the_moon_desc:0 "Le temple de la divinité lunaire Sin, à Harran, a traversé les siècles, témoin des allées et venues des Babyloniens, des Perses, des Grecs, des Romains et d'autres encore. Sin est vénéré dans cette région depuis l'époque des anciens rois mésopotamiens."
  building_RICE_harran_temple_of_the_moon:0 "$building_type_RICE_harran_temple_of_the_moon$"
- building_RICE_harran_temple_of_the_moon_desc:0 "$building_type_RICE_harran_temple_of_the_moon_desc$" 
+ building_RICE_harran_temple_of_the_moon_desc:0 "$building_type_RICE_harran_temple_of_the_moon_desc$"
  building_type_RICE_harran_baalbek_temple:0 "Temple de Jupiter héliopolitain"
  building_type_RICE_harran_baalbek_temple_desc:0 "Le temple de Jupiter à Baalbek était l'un des plus grands du monde romain antique. À Baalbek, Jupiter était identifié à la divinité sémitique Ba'al Hadad. Selon les sources anciennes, la statue idolâtre qui dominait le temple représentait un dieu doré imberbe dans la posture d'un char, un fouet brandi dans la main droite et un foudre et des tiges de céréales dans la main gauche."
  building_RICE_harran_baalbek_temple:0 "$building_type_RICE_harran_baalbek_temple$"
- building_RICE_harran_baalbek_temple_desc:0 "$building_type_RICE_harran_baalbek_temple_desc$" 
+ building_RICE_harran_baalbek_temple_desc:0 "$building_type_RICE_harran_baalbek_temple_desc$"
  building_type_RICE_harran_neoplatonic_academy:0 "Académie Néoplatonicienne"
  building_type_RICE_harran_neoplatonic_academy_desc:0 "Pendant de nombreux siècles, l'Académie de Harran a été le dernier vestige de l'ancienne philosophie connue sous le nom de néoplatonisme, qui découle d'une interprétation mystique des enseignements de Platon. Cette académie est un centre régional d'apprentissage et a fourni de nombreux érudits qui ont participé à la culture intellectuelle du Moyen-Orient."
  building_RICE_harran_neoplatonic_academy:0 "$building_type_RICE_harran_neoplatonic_academy$"

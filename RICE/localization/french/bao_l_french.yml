@@ -22,8 +22,8 @@
  # Misc
  bao_gift_breton_horses:0 "Offrir un Cheval Breton"
  bao_gift_breton_horses_desc:0 "Offrir un Cheval Breton"
- bao_gift_breton_horses_self: "Acheter un Cheval Breton"
- bao_gift_breton_horses_self_desc: "Acheter un Cheval Breton pour vous-même"
+ bao_gift_breton_horses_self:0 "Acheter un Cheval Breton"
+ bao_gift_breton_horses_self_desc:0 "Acheter un Cheval Breton pour vous-même"
 
  # MAA
  marc_hegion:0 "Marc'hegion"
@@ -49,23 +49,23 @@
  bao_opinion_gifted_breton_horse:0 "M'a Offert un Cheval Breton"
 
  # Traditions 
- bao_tradition_breizh_laid_name: "Question de Grande-Bretagne"
- bao_tradition_breizh_laid_desc: "La poésie, les contes, l'insulte et l'humour sont très valorisés dans les sociétés brythoniennes. Avec des influences provenant à la fois de la tradition bardesque celtique et de la littérature française, la Matière de Bretagne est le chaînon manquant entre les légendes arthuriennes et leur réinterprétation médiévale."
- bao_tradition_breizh_collective_lands_name: "Kevaez"
- bao_tradition_breizh_collective_lands_desc: "Le kevaez (ou quévaise en français moderne), souvent vu sous sa forme médiévale quemaes, est un système de propriété foncière dirigé par la commanderie et conçu pour protéger les paysans (bien que de manière limitée). Ce système a été mis en place pour faciliter le défrichement en Bretagne pendant la Période Chaude Médiévale."
- bao_tradition_free_range_name: "Peurajoù Libr"
- bao_tradition_free_range_desc: "Les chevaux bretons étaient très réputés à l'époque médiévale. Ils étaient élevés dans des Peurajoù Libr, ou pâturages libres - c'est-à-dire des pâturages semi-sauvages ou entièrement sauvages - et étaient prisés par la noblesse de toute l'Europe occidentale, comme le célèbre chevalier Bertrand Du Guesclin. À la fin du XVe siècle, tous les domaines étaient monopolisés par une seule famille."
- culture_parameter_bao_free_ranges: "Les souverains peuvent construire le [building|E] #high $building_type_bao_free_range_01$#! dans [GetGeographicalRegion('RICE_brittany_horse_region').GetName]."
- culture_parameter_bao_horse_gift: "Déverrouille l'[interaction|E] de $bao_gift_breton_horses$."
+ bao_tradition_breizh_laid_name:0 "Question de Grande-Bretagne"
+ bao_tradition_breizh_laid_desc:0 "La poésie, les contes, l'insulte et l'humour sont très valorisés dans les sociétés brythoniennes. Avec des influences provenant à la fois de la tradition bardesque celtique et de la littérature française, la Matière de Bretagne est le chaînon manquant entre les légendes arthuriennes et leur réinterprétation médiévale."
+ bao_tradition_breizh_collective_lands_name:0 "Kevaez"
+ bao_tradition_breizh_collective_lands_desc:0 "Le kevaez (ou quévaise en français moderne), souvent vu sous sa forme médiévale quemaes, est un système de propriété foncière dirigé par la commanderie et conçu pour protéger les paysans (bien que de manière limitée). Ce système a été mis en place pour faciliter le défrichement en Bretagne pendant la Période Chaude Médiévale."
+ bao_tradition_free_range_name:0 "Peurajoù Libr"
+ bao_tradition_free_range_desc:0 "Les chevaux bretons étaient très réputés à l'époque médiévale. Ils étaient élevés dans des Peurajoù Libr, ou pâturages libres - c'est-à-dire des pâturages semi-sauvages ou entièrement sauvages - et étaient prisés par la noblesse de toute l'Europe occidentale, comme le célèbre chevalier Bertrand Du Guesclin. À la fin du XVe siècle, tous les domaines étaient monopolisés par une seule famille."
+ culture_parameter_bao_free_ranges:0 "Les souverains peuvent construire le [building|E] #high $building_type_bao_free_range_01$#! dans [GetGeographicalRegion('RICE_brittany_horse_region').GetName]."
+ culture_parameter_bao_horse_gift:0 "Déverrouille l'[interaction|E] de $bao_gift_breton_horses$."
 
 # Events
  #sonerien_du
  bao.0001.t:0 "Le Sonerien Du"
- bao.0001.desc:0 "Mes soldats amènent deux jeunes hommes costumés en noir qu'ils ont arrêtés devant ma résidence.\n\n"Cette racaille de bas étage a été trouvée endormie dans un fossé asséché, mon [ROOT.Char.GetLadyLord]", dit un de mes soldats quand on lui demande qui ils sont. "Ils disent être des musiciens d'église, mais ils agissaient de manière suspecte, et il est clair qu'ils sont des voleurs de grand chemin qui utilisent votre propriété sans permission".\n\nUn autre soldat intervient : "Bien que je sois d'accord pour dire qu'ils agissent de façon suspecte, nous ne devrions pas porter de jugement trop hâtif.\n\nLe premier soldat ignore le commentaire de l'autre et dit : "Ce sont des voleurs de grand chemin, que cela vous plaise ou non, alors je suggère que nous leur donnions une punition exemplaire rapide pour intrusion.""
+ bao.0001.desc:0 "Mes soldats amènent deux jeunes hommes costumés en noir qu'ils ont arrêtés devant ma résidence.\n\n\"Cette racaille de bas étage a été trouvée endormie dans un fossé asséché, mon [ROOT.Char.GetLadyLord]\", dit un de mes soldats quand on lui demande qui ils sont. \"Ils disent être des musiciens d'église, mais ils agissaient de manière suspecte, et il est clair qu'ils sont des voleurs de grand chemin qui utilisent votre propriété sans permission\".\n\nUn autre soldat intervient : \"Bien que je sois d'accord pour dire qu'ils agissent de façon suspecte, nous ne devrions pas porter de jugement trop hâtif.\n\nLe premier soldat ignore le commentaire de l'autre et dit : \"Ce sont des voleurs de grand chemin, que cela vous plaise ou non, alors je suggère que nous leur donnions une punition exemplaire rapide pour intrusion.\""
  bao.0001.a:0 "Faites-le ! Et saisissez leurs biens !"
  bao.0001.b:0 "Renvoyez les deux chez eux."
  bao.0001.c:0 "Ils semblent être de bons gars. Recrutons-les !"
- bao.0001.info:0 "#emphasis Context:e Historique :#! Jusqu'au milieu du XXe siècle, les costumes étaient le moyen le plus fiable de connaître le statut social d'un étranger ; en Bretagne, les costumes noirs étaient les costumes non brodés des plus pauvres des pauvres. Les "Sonerien Du" ou "Musiciens noirs" étaient des chanteurs et musiciens itinérants payés principalement en nourriture et en boisson, qui allaient d'église en église, de messe en messe et de mariage en mariage pour faire leur métier. Ils avaient la réputation de jouer "hep diskrog" ou "agité" et selon la superstition locale, un mariage breton ne pouvait se terminer que lorsque le musicien était trop ivre pour jouer. Ils étaient souvent considérés comme des fauteurs de troubles par les Gendarmes et les couches supérieures de la société bretonne.\n La légende du "Sonerien Du" qui sert de référence à l'événement est la légende du Bro Vigouden (Baronnie de Kemper) où deux musiciens en robe noire ont été injustement punis vers 1790 à Pont-'n-Abad (Pont l'Abbé en français) et condamnés à mort pour avoir dormi ivres morts au bord de la route, soit parce qu'on les avait pris pour des voleurs de grand chemin, soit à cause de la corruption de l'aristocratie locale. Leurs corps étaient exposés sur des piques à la vue de tous. Comme cet événement coïncidait avec des épidémies de peste (non vérifiées), les gens les considéraient comme des martyrs et touchaient leurs corps, croyant ainsi les immuniser contre la peste."
+ bao.0001.info:0 "#emphasis Context:e Historique :#! Jusqu'au milieu du XXe siècle, les costumes étaient le moyen le plus fiable de connaître le statut social d'un étranger ; en Bretagne, les costumes noirs étaient les costumes non brodés des plus pauvres des pauvres. Les \"Sonerien Du\" ou \"Musiciens noirs\" étaient des chanteurs et musiciens itinérants payés principalement en nourriture et en boisson, qui allaient d'église en église, de messe en messe et de mariage en mariage pour faire leur métier. Ils avaient la réputation de jouer \"hep diskrog\" ou \"agité\" et selon la superstition locale, un mariage breton ne pouvait se terminer que lorsque le musicien était trop ivre pour jouer. Ils étaient souvent considérés comme des fauteurs de troubles par les Gendarmes et les couches supérieures de la société bretonne.\n La légende du \"Sonerien Du\" qui sert de référence à l'événement est la légende du Bro Vigouden (Baronnie de Kemper) où deux musiciens en robe noire ont été injustement punis vers 1790 à Pont-'n-Abad (Pont l'Abbé en français) et condamnés à mort pour avoir dormi ivres morts au bord de la route, soit parce qu'on les avait pris pour des voleurs de grand chemin, soit à cause de la corruption de l'aristocratie locale. Leurs corps étaient exposés sur des piques à la vue de tous. Comme cet événement coïncidait avec des épidémies de peste (non vérifiées), les gens les considéraient comme des martyrs et touchaient leurs corps, croyant ainsi les immuniser contre la peste."
  #toss_a_coin
  bao.0002.t:0 "Le Puits de la Sainteté"
  bao.0002.desc:0 "En voyageant entre deux de mes châteaux, je suis tombé sur un nouveau puits dédié à un saint local. Les villageois voisins disent que je devrais jeter une pièce dans le puits pour avoir de la chance !"
@@ -78,7 +78,7 @@
  bao.0050.a:0 "Bon sang !"
  bao.0050.info:0 "#emphasis Contexte Historique :#! Les Korrigans sont des nains espiègles de Bretagne, très semblables aux lutins. Ils sont connus sous de nombreux noms, tels que Poulpiqué, Bouffon Noz, et Kereore ; on dit également qu'il existe de nombreuses variétés d'entre eux comme Kerion, Ozegan, Korrig, et Pixies.  On dit souvent que s'ils sont maltraités, ils voleront les objets précieux de quelqu'un, comme les montres, les chaussettes, les cuillères ou les assiettes, il faut donc toujours être prudent en leur présence et les traiter avec respect."
  bao.0051.t:0 "Un Anneau Féerique de Champignons"
- bao.0051.desc:0 "J'ai trouvé un "anneau de fée" de belles chanterelles immaculées en me promenant près de ma résidence. Les Korrigans ont sûrement récompensé ma diligence ! Que dois-je faire de ces champignons ?"
+ bao.0051.desc:0 "J'ai trouvé un \"anneau de fée\" de belles chanterelles immaculées en me promenant près de ma résidence. Les Korrigans ont sûrement récompensé ma diligence ! Que dois-je faire de ces champignons ?"
  bao.0051.a:0 "Les sécher et les vendre pour de l'argent de poche"
  bao.0051.b:0 "Demandez à mes cuisiniers d'organiser un repas spécial de remerciement."
  bao.0051.info:0 "$bao.0050.info$"

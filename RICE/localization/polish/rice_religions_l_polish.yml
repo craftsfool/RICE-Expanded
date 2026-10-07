@@ -77,7 +77,7 @@
  holy_site_tripura_name:0 "Tripura"
  holy_site_tripura_effect_name:0 "From [holy_site|E] #weak ($holy_site_tripura_name$)#!"
  holy_site_chau_phong_name:0 "Phong Chau"
- holy_site_chau_phong_effect_name_name:0 "From [holy_site|E] #weak ($holy_site_chau_phong_effect_name$)#!"
+ holy_site_chau_phong_effect_name:0 "From [holy_site|E] #weak ($holy_site_chau_phong_name$)#!"
  holy_site_mount_gamalama_name:0 "Mount Gamalama"
  holy_site_mount_gamalama_effect_name:0 "From [holy_site|E] #weak ($holy_site_mount_gamalama_name$)#!"
  holy_site_mount_kie_matubu_name:0 "Mount Kie Matubu"
@@ -206,7 +206,7 @@
  semitic_night_god_name:0 "Almaqah"
  semitic_night_god_name_possessive:0 "Almaqah's"
  semitic_water_god_name:0 "Athtar"
- semitic_water_god_name_possessive:0 "Athtar's" 
+ semitic_water_god_name_possessive:0 "Athtar's"
 
  harranian_high_god_name:0 "the One"
  harranian_high_god_name_possessive:0 "the One's"
@@ -260,7 +260,7 @@
  harranian_night_god_name:0 "Sin"
  harranian_night_god_name_possessive:0 "Sin's"
  harranian_water_god_name:0 "Enki"
- harranian_water_god_name_possessive:0 "Enki's" 
+ harranian_water_god_name_possessive:0 "Enki's"
  
  nabataean_high_god_name:0 "Dushara"
  nabataean_high_god_name_possessive:0 "Dushara's"
@@ -310,7 +310,7 @@
  arabic_pagan_night_god_name:0 "Allat"
  arabic_pagan_night_god_name_possessive:0 "Allat's"
  arabic_pagan_water_god_name:0 "Hubal"
- arabic_pagan_water_god_name_possessive:0 "Hubal's" 
+ arabic_pagan_water_god_name_possessive:0 "Hubal's"
 
  aksumite_pagan_high_god_name:0 "Mahrem"
  aksumite_pagan_high_god_name_possessive:0 "Mahrem's"
@@ -337,7 +337,7 @@
  aksumite_pagan_night_god_name:0 "Ilumquh"
  aksumite_pagan_night_god_name_possessive:0 "Ilumquh's"
  aksumite_pagan_water_god_name:0 "Beher"
- aksumite_pagan_water_god_name_possessive:0 "Beher's" 
+ aksumite_pagan_water_god_name_possessive:0 "Beher's"
  
  # Peristani/Kalash/Nuristani
  peristani_religion:1 "Peristani"
@@ -406,17 +406,17 @@
  peristani_night_god_name:0 "Indra"
  peristani_night_god_name_possessive:0 "Indra's"
  peristani_water_god_name:0 "Indra"
- peristani_water_god_name_possessive:0 "Indra's" 
- peristani_house_of_worship:0 "Amol" 
- peristani_house_of_worship_plural:0 "Amols" 
- peristani_good_god_dezaw:0 "Dezaw" 
- peristani_good_god_dezalik:0 "Dezalik" 
- peristani_good_god_jestak:0 "Jestak" 
- peristani_good_god_balumain:0 "Balumain" 
- peristani_good_god_mahandeo:0 "Mahandeo" 
- peristani_good_god_indra:0 "Indra" 
- peristani_witchgodname:0 "Balumain" 
- peristani_witchgodname_possessive:0 "Balumain's" 
+ peristani_water_god_name_possessive:0 "Indra's"
+ peristani_house_of_worship:0 "Amol"
+ peristani_house_of_worship_plural:0 "Amols"
+ peristani_good_god_dezaw:0 "Dezaw"
+ peristani_good_god_dezalik:0 "Dezalik"
+ peristani_good_god_jestak:0 "Jestak"
+ peristani_good_god_balumain:0 "Balumain"
+ peristani_good_god_mahandeo:0 "Mahandeo"
+ peristani_good_god_indra:0 "Indra"
+ peristani_witchgodname:0 "Balumain"
+ peristani_witchgodname_possessive:0 "Balumain's"
  
  # Malagasy
  malagasy_religion:1 "Malagasy"
@@ -439,11 +439,11 @@
   
  malagasy_high_god_name:0 "Zanahary"
  malagasy_high_god_name_possessive:0 "Zanahary's"
- malagasy_devil_name:0 "the angatras" # they
+ malagasy_devil_name:0 "the angatras"
  malagasy_devil_name_possessive:0 "the angatras'"
  malagasy_death_deity_name:0 "Zanahary"
  malagasy_death_deity_name_possessive:0 "Zanahary's"
- malagasy_religious_symbol:0 "lamba" # cloth
+ malagasy_religious_symbol:0 "lamba"
  malagasy_religious_text:0 "stories of the ancestors"
  malagasy_religious_head_title:0 "High Ombiasy"
  malagasy_religious_head_title_name:0 "High Council"
@@ -464,11 +464,11 @@
  malagasy_creator_god_name_possessive:0 "Zanahary's"
  malagasy_health_god_name:0 "Raraky"
  malagasy_health_god_name_possessive:0 "Raraky's"
- malagasy_fertility_god_name:0 "Rafara" # Female
+ malagasy_fertility_god_name:0 "Rafara"
  malagasy_fertility_god_name_possessive:0 "Rafara's"
  malagasy_wealth_god_name:0 "Ratovantany"
  malagasy_wealth_god_name_possessive:0 "Ratovantany's"
- malagasy_household_god_name:0 "Rafara" # Female
+ malagasy_household_god_name:0 "Rafara"
  malagasy_household_god_name_possessive:0 "Rafara's"
  malagasy_fate_god_name:0 "Raraky"
  malagasy_fate_god_name_possessive:0 "Raraky's"
@@ -481,11 +481,11 @@
  malagasy_night_god_name:0 "Zanahary"
  malagasy_night_god_name_possessive:0 "Zanahary's"
  malagasy_water_god_name:0 "Tompondrano"
- malagasy_water_god_name_possessive:0 "Tompondrano's" 
- malagasy_house_of_worship:0 "Shrine" 
+ malagasy_water_god_name_possessive:0 "Tompondrano's"
+ malagasy_house_of_worship:0 "Shrine"
  malagasy_house_of_worship_plural:0 "Shrines"
- malagasy_witchgodname:0 "Raraky" 
- malagasy_witchgodname_possessive:0 "Raraky's" 
+ malagasy_witchgodname:0 "Raraky"
+ malagasy_witchgodname_possessive:0 "Raraky's"
  
  # Shona
  shona_religion:1 "South Bantu"
@@ -550,11 +550,11 @@
  shona_night_god_name:0 "Mwari"
  shona_night_god_name_possessive:0 "Mwari's"
  shona_water_god_name:0 "Mwari"
- shona_water_god_name_possessive:0 "Mwari's" 
- shona_house_of_worship:0 "Temple" 
+ shona_water_god_name_possessive:0 "Mwari's"
+ shona_house_of_worship:0 "Temple"
  shona_house_of_worship_plural:0 "Temples"
- shona_witchgodname:0 "Mwari" 
- shona_witchgodname_possessive:0 "Mwari's" 
+ shona_witchgodname:0 "Mwari"
+ shona_witchgodname_possessive:0 "Mwari's"
 
 
  # NATIVE AMERICAN RELIGIONS
@@ -597,7 +597,7 @@
 #  inuit_night_god_name:0 "Mwari"
 #  inuit_night_god_name_possessive:0 "Mwari's"
  inuit_water_god_name:0 "Sedna"
- inuit_water_god_name_possessive:0 "Sedna's" 
+ inuit_water_god_name_possessive:0 "Sedna's"
 #  inuit_house_of_worship:0 "Temple" 
 #  inuit_house_of_worship_plural:0 "Temples"
 #  inuit_witchgodname:0 "Mwari" 
@@ -639,7 +639,7 @@
  iroquoian_pagan_old_adj:0 "Old Uki-Otkon"
  iroquoian_pagan_old_adherent:1 "Old Uki-Otkonist"
  iroquoian_pagan_old_adherent_plural:0 "Old Uki-Otkonists"
- iroquoian_pagan_old_desc:0 "$iroquoian_religion_desc$"  
+ iroquoian_pagan_old_desc:0 "$iroquoian_religion_desc$"
  iroquoian_high_god_name:0 "Great Spirit"
  iroquoian_high_god_name_possessive:0 "Great Spirit's"
 
@@ -665,8 +665,8 @@
  makonde_pagan_old_adherent_plural:0 "Old Vyamaists"
  makonde_pagan_old_desc:0 "$makonde_pagan_desc$"
  makonde_pagan_high_god_name:0 "Nnungu"
- makonde_pagan_high_god_name_2:0 "$makonde_pagan_high_god_name$" # Optional translation alt
- makonde_pagan_high_god_name_3:0 "$makonde_pagan_high_god_name$" # Optional translation alt
+ makonde_pagan_high_god_name_2:0 "$makonde_pagan_high_god_name$"
+ makonde_pagan_high_god_name_3:0 "$makonde_pagan_high_god_name$"
  makonde_pagan_high_god_name_possessive:0 "Nnungu's"
  makonde_pagan_devil_name:0 "Nandenga"
  makonde_pagan_devil_name_possessive:0 "Nandenga's"
@@ -685,10 +685,10 @@
  makua_pagan_old_adherent_plural:0 "Old Mulukuists"
  makua_pagan_old_desc:0 "$makua_pagan_desc$"
  makua_pagan_high_god_name:0 "Muluku"
- makua_pagan_high_god_name_2:0 "$makua_pagan_high_god_name$" # Optional translation alt
- makua_pagan_high_god_name_3:0 "$makua_pagan_high_god_name$" # Optional translation alt
+ makua_pagan_high_god_name_2:0 "$makua_pagan_high_god_name$"
+ makua_pagan_high_god_name_3:0 "$makua_pagan_high_god_name$"
  makua_pagan_high_god_name_possessive:0 "Muluku's"
- makua_pagan_devil_name:0 "minepa" # Plural, evil spirits
+ makua_pagan_devil_name:0 "minepa"
  makua_pagan_devil_name_possessive:0 "minepa's"
 
  # Mijikenda
@@ -703,8 +703,8 @@
  mijikenda_pagan_old_adherent_plural:0 "Old Kayaists"
  mijikenda_pagan_old_desc:0 "$mijikenda_pagan_desc$"
  mijikenda_pagan_high_god_name:0 "Mulungu"
- mijikenda_pagan_high_god_name_2:0 "$mijikenda_pagan_high_god_name$" # Optional translation alt
- mijikenda_pagan_high_god_name_3:0 "$mijikenda_pagan_high_god_name$" # Optional translation alt
+ mijikenda_pagan_high_god_name_2:0 "$mijikenda_pagan_high_god_name$"
+ mijikenda_pagan_high_god_name_3:0 "$mijikenda_pagan_high_god_name$"
  mijikenda_pagan_high_god_name_possessive:0 "Mulungu's"
 
 
@@ -787,22 +787,22 @@
  yarsani_creator_god_name:0 "Khawandagar"
  yarsani_creator_god_name_possessive:0 "Khawandagar's"
  yarsani_house_of_worship:0 "jamkhaneh"
- yarsani_house_of_worship_2:0 "$yarsani_house_of_worship$" # Optional translation alt
- yarsani_house_of_worship_3:0 "$yarsani_house_of_worship$" # Optional translation alt
+ yarsani_house_of_worship_2:0 "$yarsani_house_of_worship$"
+ yarsani_house_of_worship_3:0 "$yarsani_house_of_worship$"
  yarsani_house_of_worship_plural:0 "jamkhanehs"
  yarsani_religious_symbol:0 "tambur"
- yarsani_religious_symbol_2:0 "$yarsani_religious_symbol$" # Optional translation alt
- yarsani_religious_symbol_3:0 "$yarsani_religious_symbol$" # Optional translation alt
+ yarsani_religious_symbol_2:0 "$yarsani_religious_symbol$"
+ yarsani_religious_symbol_3:0 "$yarsani_religious_symbol$"
  yarsani_religious_text:0 "kalams"
- yarsani_religious_text_2:0 "$yarsani_religious_text$" # Optional translation alt
- yarsani_religious_text_3:0 "$yarsani_religious_text$" # Optional translation alt
+ yarsani_religious_text_2:0 "$yarsani_religious_text$"
+ yarsani_religious_text_3:0 "$yarsani_religious_text$"
  yarsani_priest:0 "pir"
  yarsani_priest_plural:0 "pirs"
  yarsani_bishop:0 "sayyed"
  yarsani_bishop_plural:0 "sayyeds"
  yarsani_positive_afterlife:0 "the 1001th Don"
- yarsani_positive_afterlife_2:0 "$yarsani_positive_afterlife$" # Optional translation alt
- yarsani_positive_afterlife_3:0 "$yarsani_positive_afterlife$" # Optional translation alt
+ yarsani_positive_afterlife_2:0 "$yarsani_positive_afterlife$"
+ yarsani_positive_afterlife_3:0 "$yarsani_positive_afterlife$"
 
  # Pre-Islamic/Para-Zoroastrian Kurdish faith
  kurdish_pagan_high_god_name:0 "Mithra"
@@ -812,22 +812,22 @@
  kurdish_pagan_creator_god_name:0 "$zoroastrianism_high_god_name$"
  kurdish_pagan_creator_god_name_possessive:0 "$zoroastrianism_high_god_name_possessive$"
  kurdish_pagan_house_of_worship:0 "nature shrine"
- kurdish_pagan_house_of_worship_2:0 "$kurdish_pagan_house_of_worship$" # Optional translation alt
- kurdish_pagan_house_of_worship_3:0 "$kurdish_pagan_house_of_worship$" # Optional translation alt
+ kurdish_pagan_house_of_worship_2:0 "$kurdish_pagan_house_of_worship$"
+ kurdish_pagan_house_of_worship_3:0 "$kurdish_pagan_house_of_worship$"
  kurdish_pagan_house_of_worship_plural:0 "nature shrines"
  kurdish_pagan_religious_symbol:0 "sun"
- kurdish_pagan_religious_symbol_2:0 "$kurdish_pagan_religious_symbol$" # Optional translation alt
- kurdish_pagan_religious_symbol_3:0 "$kurdish_pagan_religious_symbol$" # Optional translation alt
+ kurdish_pagan_religious_symbol_2:0 "$kurdish_pagan_religious_symbol$"
+ kurdish_pagan_religious_symbol_3:0 "$kurdish_pagan_religious_symbol$"
  kurdish_pagan_religious_text:0 "ancient legends"
- kurdish_pagan_religious_text_2:0 "$kurdish_pagan_religious_text$" # Optional translation alt
- kurdish_pagan_religious_text_3:0 "$kurdish_pagan_religious_text$" # Optional translation alt
+ kurdish_pagan_religious_text_2:0 "$kurdish_pagan_religious_text$"
+ kurdish_pagan_religious_text_3:0 "$kurdish_pagan_religious_text$"
  kurdish_pagan_priest:0 "priest"
  kurdish_pagan_priest_plural:0 "priests"
  kurdish_pagan_bishop:0 "high priest"
  kurdish_pagan_bishop_plural:0 "high priests"
  kurdish_pagan_positive_afterlife:0 "paradise"
- kurdish_pagan_positive_afterlife_2:0 "$kurdish_pagan_positive_afterlife$" # Optional translation alt
- kurdish_pagan_positive_afterlife_3:0 "$kurdish_pagan_positive_afterlife$" # Optional translation alt
+ kurdish_pagan_positive_afterlife_2:0 "$kurdish_pagan_positive_afterlife$"
+ kurdish_pagan_positive_afterlife_3:0 "$kurdish_pagan_positive_afterlife$"
 
  # South Mesopotamian/Nabataeans of Iraq (per Soraya's research)
  south_mesopotamian_pagan:0 "Kasdanianism"
@@ -852,8 +852,8 @@
  # al-Mirrìkh = Mars
 
  south_mesopotamian_pagan_high_god_name:0 "ash-Shams"
- south_mesopotamian_pagan_high_god_name_2:0 "$south_mesopotamian_pagan_high_god_name$" # Optional translation alt
- south_mesopotamian_pagan_high_god_name_3:0 "$south_mesopotamian_pagan_high_god_name$" # Optional translation alt
+ south_mesopotamian_pagan_high_god_name_2:0 "$south_mesopotamian_pagan_high_god_name$"
+ south_mesopotamian_pagan_high_god_name_3:0 "$south_mesopotamian_pagan_high_god_name$"
  south_mesopotamian_pagan_high_god_name_possessive:0 "ash-Shams'"
  south_mesopotamian_pagan_creator_god_name:0 "$south_mesopotamian_pagan_high_god_name$"
  south_mesopotamian_pagan_creator_god_name_possessive:0 "$south_mesopotamian_pagan_high_god_name_possessive$"
@@ -863,21 +863,21 @@
  south_mesopotamian_pagan_health_god_name_possessive:0 "Tammuz's"
  south_mesopotamian_pagan_fertility_god_name:0 "$south_mesopotamian_pagan_health_god_name$"
  south_mesopotamian_pagan_fertility_god_name_possessive:0 "$south_mesopotamian_pagan_health_god_name_possessive$"
- south_mesopotamian_pagan_wealth_god_name:0 "Zu'al" # Saturn
+ south_mesopotamian_pagan_wealth_god_name:0 "Zu'al"
  south_mesopotamian_pagan_wealth_god_name_possessive:0 "Zu'al's"
- south_mesopotamian_pagan_household_god_name:0 "az-Zuhara" # Venus
+ south_mesopotamian_pagan_household_god_name:0 "az-Zuhara"
  south_mesopotamian_pagan_household_god_name_possessive:0 "az-Zuhara's"
- south_mesopotamian_pagan_fate_god_name:0 "al-Mushtari" # Jupiter
+ south_mesopotamian_pagan_fate_god_name:0 "al-Mushtari"
  south_mesopotamian_pagan_fate_god_name_possessive:0 "al-Mushtari's"
- south_mesopotamian_pagan_knowledge_god_name:0 "'Utarid" # Mercury
+ south_mesopotamian_pagan_knowledge_god_name:0 "'Utarid"
  south_mesopotamian_pagan_knowledge_god_name_possessive:0 "'Utarid's"
- south_mesopotamian_pagan_war_god_name:0 "al-Mirrikh" 
+ south_mesopotamian_pagan_war_god_name:0 "al-Mirrikh"
  south_mesopotamian_pagan_war_god_name_possessive:0 "al-Mirrikh's"
- south_mesopotamian_pagan_trickster_god_name:0 "the evil spirits" # Evil spirits
+ south_mesopotamian_pagan_trickster_god_name:0 "the evil spirits"
  south_mesopotamian_pagan_trickster_god_name_possessive:0 "the evil spirits'"
  south_mesopotamian_pagan_night_god_name:0 "$south_mesopotamian_pagan_good_god_name$"
  south_mesopotamian_pagan_night_god_name_possessive:0 "$south_mesopotamian_pagan_good_god_name_possessive$"
- south_mesopotamian_pagan_water_god_name:0 "al-Mirrikh" # Mars
+ south_mesopotamian_pagan_water_god_name:0 "al-Mirrikh"
  south_mesopotamian_pagan_water_god_name_possessive:0 "al-Mirrikh's"
  south_mesopotamian_pagan_religious_text:0 "ancient legends"
 
@@ -929,13 +929,13 @@
 
  # Buddhist
  rice_doctrine_buddhist_canon_name:0 "Buddhist Canon"
- rice_doctrine_buddhist_canon_desc:0 "It is important to recognize which teachings are authentic, and do not contradict the word of the Buddha. These will be compiled into collections, the core of which are the #italic tripitaka#! (meaning "Triple Baskets")."
- rice_mahayana_canon_doctrine_name:0 "Mahayana Canon" # Dazangjing
+ rice_doctrine_buddhist_canon_desc:0 "It is important to recognize which teachings are authentic, and do not contradict the word of the Buddha. These will be compiled into collections, the core of which are the #italic tripitaka#! (meaning \"Triple Baskets\")."
+ rice_mahayana_canon_doctrine_name:0 "Mahayana Canon"
  rice_mahayana_canon_doctrine_desc:0 "The Great Storage of Scriptures (#italic Dazangjing#! in Chinese), also known as the Chinese or East Asian Canon, is a loose canon of Buddhist texts accepted by Mahayana sects of Buddhism in East Asia. It includes various Mahayana [Glossary( 'sutras', 'BUDDHIST_SUTRAS_GLOSS' )], as well as texts from early schools of Buddhism that are not part of or were discarded from the Pali Canon, such as the canons of the Sarvastivada and Dharmaguptaka schools."
- rice_theravada_canon_doctrine_name:0 "Pali Canon" # Pali
+ rice_theravada_canon_doctrine_name:0 "Pali Canon"
  rice_theravada_canon_doctrine_desc:0 "The Pali Tripitaka is the canon of Buddhist texts accepted by the Theravada sects of Buddhism in Southeast Asia. Traditionally, the first Pali Canon was believed to have been written down at the Fourth Buddhist Council in Sri Lanka in 29 BCE, although the canon was still being revised and changed for several centuries afterwards, as Theravada, Mahayana, Vajrayana, and other early Buddhist schools exchanged ideas."
- rice_vajrayana_canon_doctrine_name:0 "Tantric Canon" # Kangyur and Tengyur
- rice_vajrayana_canon_doctrine_desc:0 "The Tantric Canon is the collection of Buddhist texts accepted by the so-called esoteric schools of Buddhism, such as Tibetan Vajrayana and sects influenced by them. The Tibetan Canon for example consists of the Kangyur ("Translation of the Word") and Tengyur ("Translation of Treatises"). These canons include Mahayana texts, as well as texts from early schools of Buddhism that are not part of or were discarded from the Pali Canon."
+ rice_vajrayana_canon_doctrine_name:0 "Tantric Canon"
+ rice_vajrayana_canon_doctrine_desc:0 "The Tantric Canon is the collection of Buddhist texts accepted by the so-called esoteric schools of Buddhism, such as Tibetan Vajrayana and sects influenced by them. The Tibetan Canon for example consists of the Kangyur (\"Translation of the Word\") and Tengyur (\"Translation of Treatises\"). These canons include Mahayana texts, as well as texts from early schools of Buddhism that are not part of or were discarded from the Pali Canon."
  rice_pudgalavada_canon_doctrine_name:0 "Pudgalavada Canon"
  rice_pudgalavada_canon_doctrine_desc:0 "The Pudgalavada or Personalist schools of Buddhism have been strongly criticized by other Buddhist sects for their unique views on the Buddhist doctrine of no-self. Regardless of the validity of their interpretation of the Buddha's teachings, they have maintained their own extensive and rigorous canon of Buddhist texts as well."
  doctrine_parameter_hostility_override_rice_mahayana_canon_doctrine:1 "Other Buddhist [faiths|E] that also accept the #italic Mahayana Canon#! as their canon are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
@@ -952,11 +952,11 @@
  rice_pagodas_unlocked_active_name:1 "ability to donate to pagodas"
  doctrine_parameter_rice_pagodas_unlocked_active:0 "Can build pagodas for an extra cost when taking the [decision|E] to #V Build a Local Buddhist Religious Site#!"
  rice_theravada_canon_mahavihara_doctrine_name:0 "Mahavihara Preeminence"
- rice_theravada_canon_mahavihara_doctrine_desc:0 "#weak This [doctrine|E] is automatically inherited by any Buddhist [faith|E] with the [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName] [doctrine|E].#!\n\nThe [mahavihara|E] monastery emerged as the dominant sect in [RICE_sri_lanka_s_sangha|E], and has become the main school of thought among Buddhists who follow the Pali Canon."
+ rice_theravada_canon_mahavihara_doctrine_desc:0 "#weak This [doctrine|E] is automatically inherited by any Buddhist [faith|E] with the [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName] [doctrine|E].#!\n\nThe [mahavihara|E] monastery emerged as the dominant sect in [RICE_sri_lanka_sangha|E], and has become the main school of thought among Buddhists who follow the Pali Canon."
  rice_theravada_canon_abhayagiri_doctrine_name:0 "Abhayagiri Preeminence"
- rice_theravada_canon_abhayagiri_doctrine_desc:0 "#weak This [doctrine|E] is automatically inherited by any Buddhist [faith|E] with the [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName] [doctrine|E].#!\n\nThe [abhayagiri|E] monastery emerged as the dominant sect in [RICE_sri_lanka_s_sangha|E], and has become the main school of thought among Buddhists who follow the Pali Canon."
+ rice_theravada_canon_abhayagiri_doctrine_desc:0 "#weak This [doctrine|E] is automatically inherited by any Buddhist [faith|E] with the [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName] [doctrine|E].#!\n\nThe [abhayagiri|E] monastery emerged as the dominant sect in [RICE_sri_lanka_sangha|E], and has become the main school of thought among Buddhists who follow the Pali Canon."
  rice_theravada_canon_jetavana_doctrine_name:0 "Jetavana Preeminence"
- rice_theravada_canon_jetavana_doctrine_desc:0 "#weak This [doctrine|E] is automatically inherited by any Buddhist [faith|E] with the [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName] [doctrine|E].#!\n\nThe [jetavana|E] monastery emerged as the dominant sect in [RICE_sri_lanka_s_sangha|E], and has become the main school of thought among Buddhists who follow the Pali Canon."
+ rice_theravada_canon_jetavana_doctrine_desc:0 "#weak This [doctrine|E] is automatically inherited by any Buddhist [faith|E] with the [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName] [doctrine|E].#!\n\nThe [jetavana|E] monastery emerged as the dominant sect in [RICE_sri_lanka_sangha|E], and has become the main school of thought among Buddhists who follow the Pali Canon."
  rice_theravada_accumulation_doctrine_name:0 "Merit Accumulation"
  rice_theravada_accumulation_doctrine_desc:0 "The competing monasteries of the [RICE_sri_lanka_struggle|E] were unified during the [struggle_phase_sri_lanka_accumulation|E]. It was an era when religious instutitions flourished under elite patronage, and could come together to settle their differences. The period's spiritual zeitgeist has subsequently heavily influenced this branch of Buddhism."
  rice_theravada_purification_doctrine_name:0 "Great Purification"
@@ -1054,7 +1054,7 @@
  doctrine_parameter_rice_unlock_georgian_yazatas:0 "Adds the following [yazatas|E] for worship: Dali, Gaim (replacing Sraosha), Gatsi (replacing Rashnu), Kopala, and Zaden"
  doctrine_parameter_rice_yazata_prestige_gain_automatic:0 "Automatically gain [prestige|E] when taking the [decision|E] to Worship the [yazatas|E]"
  doctrine_parameter_rice_yazata_pay_for_modifier_upgrade:0 "Can pay extra [gold|E] to gain a better version of the [character_modifier|E] when taking the [decision|E] to Worship the [yazatas|E]"
- doctrine_parameter_rice_unlock_destroy_cult_centers:0 "Can take the [decision|E] to Suppress [zoroastrian_cult_centers|E] of "[yazatas|E]" not adhering to your [yazata|E] [doctrine|E]"
+ doctrine_parameter_rice_unlock_destroy_cult_centers:0 "Can take the [decision|E] to Suppress [zoroastrian_cult_centers|E] of \"[yazatas|E]\" not adhering to your [yazata|E] [doctrine|E]"
  doctrine_parameter_rice_unlock_yazata_cult_center:0 "Can take the [decision|E] to Establish a [zoroastrian_cult_center|E] in the [capital|E]"
  doctrine_parameter_rice_no_yazatas:0 "Disables the [decision|E] to Worship the [yazatas|E]"
 

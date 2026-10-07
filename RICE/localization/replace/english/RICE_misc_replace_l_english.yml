@@ -20,10 +20,10 @@
  mandeaism_high_god_name:1 "The First Life"
  mandeaism_high_god_name_possessive:1 "The First Life's"
  mandeaism_high_god_alternate:1 "Hayyi Rabbi's"
- mandeaism_high_god_alternate_possessive:1 "Hayyi Rabbi's" 
+ mandeaism_high_god_alternate_possessive:1 "Hayyi Rabbi's"
  councillor_court_chaplain_finno_ugric_religion_duchy:0 "Tietäjä"
  councillor_court_chaplain_finno_ugric_religion_duchy_possessive:0 "Tietäjä's"
- balto_finnic_group:0 "Baltic-Finnic & Sami" 
+ balto_finnic_group:0 "Baltic-Finnic & Sami"
  finno_ugric_religion:1 "Baltic-Finnic"
  finno_ugric_religion_adj:1 "Baltic-Finnic"
  finno_ugric_religion_adherent:1 "Baltic-Finnic"
@@ -31,15 +31,15 @@
  finno_ugric_religion_desc:1 "The nature-centered Baltic-Finnic pagans see birds as sacred animals, for it is believed that they were involved in the creation of our world."
  cn_veletia:1 "$cn_obotritia$"
  cn_veletia_adj:1 "$cn_obotritia_adj$"
- afridunism: "Faridunism"
- afridunism_adj: "Faridunist"
- afridunism_adherent: "Faridunist"
- afridunism_adherent_plural: "Faridunists"
- east_bantu: "Sabaki"
- east_bantu_prefix: "Sabaki"
- east_bantu_collective_noun: "Sabaki"
- language_sabaki_name: "Northeast Bantu"
- bactrian_heritage_loc: "Formed from the Persianization of Khorasan during late antiquity"
+ afridunism:0 "Faridunism"
+ afridunism_adj:0 "Faridunist"
+ afridunism_adherent:0 "Faridunist"
+ afridunism_adherent_plural:0 "Faridunists"
+ east_bantu:0 "Sabaki"
+ east_bantu_prefix:0 "Sabaki"
+ east_bantu_collective_noun:0 "Sabaki"
+ language_sabaki_name:0 "Northeast Bantu"
+ bactrian_heritage_loc:0 "Formed from the Persianization of Khorasan during late antiquity"
  welayta:0 "Omotic"
  welayta_prefix:0 "Omoto"
  welayta_collective_noun:0 "Omotics"
@@ -88,29 +88,28 @@
  meshefaresism_adherent:0 "$meshefares_adherent$"
  meshefares_adherent_plural:0 "Yarsanis"
  meshefaresism_adherent_plural:0 "$meshefares_adherent_plural$"
- meshefares_desc:0 "The "Group of Friends," also known as Ahl-e Haqq, or "People of Truth," believe that God manifests in one primary and seven secondary incarnations in each epoch of the world. These seven persons are called the #Italic Haft Tan#!. The primary incarnation of the current, fourth epoch is Sultan Sahak."
+ meshefares_desc:0 "The \"Group of Friends,\" also known as Ahl-e Haqq, or \"People of Truth,\" believe that God manifests in one primary and seven secondary incarnations in each epoch of the world. These seven persons are called the #Italic Haft Tan#!. The primary incarnation of the current, fourth epoch is Sultan Sahak."
  meshefaresism_desc:0 "$meshefares_desc$"
  meshefaresism_holy_text:0 "$yarsani_religious_text$"
- meshefaresism_holy_text_2:0 "$yarsani_religious_text$" # Optional translation alt
- meshefaresism_holy_text_3:0 "$yarsani_religious_text$" # Optional translation alt
+ meshefaresism_holy_text_2:0 "$yarsani_religious_text$"
+ meshefaresism_holy_text_3:0 "$yarsani_religious_text$"
 
- kitebacilweism:0 "Mehrism" # Dar = Tree # Kutayeism - Kutaye
+ kitebacilweism:0 "Mehrism"
  kitebacilweism_adj:0 "Mehrist"
  kitebacilweism_adherent:0 "Mehrist"
  kitebacilweism_adherent_plural:0 "Mehrists"
  kitebacilweism_desc:0 "The Northwest Iranians' old religious beliefs are related to but distinct from orthodox Zoroastrianism, with which it may have coexisted during the Sassanids' heyday. Veneration of nature is prominent, and the old Iranian deity Mithra, or Mehr, plays an key cosmological role as the demiurge and common object of worship – a role that might have inspired the Roman Cult of Mithras centuries before."
  kitebacilweism_holy_text:0 "$kurdish_pagan_religious_text$"
- kitebacilweism_holy_text_2:0 "$kurdish_pagan_religious_text$" # Optional translation alt
- kitebacilweism_holy_text_3:0 "$kurdish_pagan_religious_text$" # Optional translation alt
+ kitebacilweism_holy_text_2:0 "$kurdish_pagan_religious_text$"
+ kitebacilweism_holy_text_3:0 "$kurdish_pagan_religious_text$"
 
  yazidi_high_god_name:0 "[GetPlayer.Custom('RICE_yazidi_high_god')]"
- yazidi_high_god_name_2:0 "[GetPlayer.Custom('RICE_yazidi_high_god')]" # Optional translation alt
+ yazidi_high_god_name_2:0 "[GetPlayer.Custom('RICE_yazidi_high_god')]"
  yazidi_high_god_name_possessive:0 "[GetPlayer.Custom('RICE_yazidi_high_god_possessive')]"
  yazidi_high_god_name_alternate:0 "[GetPlayer.Custom('RICE_yazidi_high_god_alternative')]"
  yazidi_high_god_name_alternate_possessive:0 "[GetPlayer.Custom('RICE_yazidi_high_god_alternative_possessive')]"
  yazidi_creator_god_name:0 "[GetPlayer.Custom('RICE_yazidi_creator_god')]"
  yazidi_creator_god_name_possessive:0 "[GetPlayer.Custom('RICE_yazidi_creator_god')]'s"
- yazidi_house_of_worship:0 "[GetPlayer.Custom('RICE_yazidi_house_of_worship_loc')]"
  yazidi_religious_symbol:0 "[GetPlayer.Custom('RICE_yazidi_religious_symbol_loc')]"
  yazidi_religious_text:0 "[GetPlayer.Custom('RICE_yazidi_religious_text_loc')]"
  yazidi_priest:0 "[GetPlayer.Custom('RICE_yazidi_priest_loc')]"
@@ -121,11 +120,11 @@
  yazidi_house_of_worship:0 "[GetPlayer.Custom('RICE_yazidi_house_of_worship_loc')]"
 
  buddhism_divine_realm:0 "an auspicious rebirth"
- buddhism_divine_realm_2:0 "$buddhism_divine_realm$" # Optional translation alt
- buddhism_divine_realm_3:0 "$buddhism_divine_realm$" # Optional translation alt
+ buddhism_divine_realm_2:0 "$buddhism_divine_realm$"
+ buddhism_divine_realm_3:0 "$buddhism_divine_realm$"
  buddhism_negative_afterlife:0 "an inauspicious rebirth"
- buddhism_negative_afterlife_2:0 "$buddhism_negative_afterlife$" # Optional translation alt
- buddhism_negative_afterlife_3:0 "$buddhism_negative_afterlife$" # Optional translation alt
+ buddhism_negative_afterlife_2:0 "$buddhism_negative_afterlife$"
+ buddhism_negative_afterlife_3:0 "$buddhism_negative_afterlife$"
 
  # I don't think there's anything wrong with the original use of "Tibetan" in vanilla, but I prefer to change it to make it easier to distinguish when talking about Tibetan culture/heritage in-game vs the Bön faith
  bon_religion:1 "Bön"
@@ -174,8 +173,8 @@
  slavic_creator_god_name:1 "Svarog"
  slavic_creator_god_name_possessive:1 "Svarog's"
  # who the hell is Zhibog - was this meant to be Stribog?
- slavic_health_god_name:1 "Jarylo" # for Eastern and Southern Slavs
- slavic_health_god_name_possessive:1 "Jarylo's" # for Eastern and Southern Slavs
+ slavic_health_god_name:1 "Jarylo"
+ slavic_health_god_name_possessive:1 "Jarylo's"
  # Mokosh is also known as Mother Nature - Devanna is moreso goddess of wilderness and hunt albeit her realtion tp Marzanna might imply more comlicated role
  slavic_fertility_god_name:1 "Mokosh"
  slavic_fertility_god_name_possessive:1 "Mokosh's"
@@ -184,10 +183,10 @@
  slavic_wealth_god_name_possessive:1 "Dazhbog's"
  slavic_wealth_god_name_alternate:1 "Stribog"
  slavic_wealth_god_name_alternate_possessive:1 "Stribog's"
- slavic_household_god_name:1 "Domovoy" # Uboże would be Polish alternative
+ slavic_household_god_name:1 "Domovoy"
  slavic_household_god_name_possessive:1 "Domovoy's"
  # Sud is another name of Rod - while important god he was more so a family/parentage god
- slavic_fate_god_name:1 "Rozhanitsy" # Dola is also a fate goddess but more so a good fate goddess
+ slavic_fate_god_name:1 "Rozhanitsy"
  slavic_fate_god_name_possessive:1 "Rozhanitsy'"
  # Veles is quite famously god of knoweledge
  slavic_knowledge_god_name:1 "Veles"

@@ -403,46 +403,46 @@
 
  embera_pantheon:0 "the Jais"
  witchgodname_embera:0 "Picario"
- embera_pagan_high_god_name:0 "Karagabí" # Creator being
+ embera_pagan_high_god_name:0 "Karagabí"
  embera_pagan_high_god_name_possessive:0 "Karagabí's"
  embera_pagan_high_god_name_alternate:0 "Carabi"
  embera_pagan_high_god_name_alternate_possessive:0 "Carabi's"
  embera_pagan_good_god_jai:0 "Jai"
  embera_pagan_good_god_jai_possessive:0 "Jai's"
- embera_pagan_good_god_betenabe:0 "Betenabe" # Mother of Fish
+ embera_pagan_good_god_betenabe:0 "Betenabe"
  embera_pagan_good_god_betenabe_possessive:0 "Betenabe's"
- embera_pagan_good_god_ancastor:0 "Ancastor" # White bird deity/king of the vultures, linked to the origin of maize and peach palm
+ embera_pagan_good_god_ancastor:0 "Ancastor"
  embera_pagan_good_god_ancastor_possessive:0 "Ancastor's"
- embera_pagan_good_god_awena:0 "Awena" # Woman who sinks to the earth from weight during the first menstration, causes earthquakes, sister of Betenabe
+ embera_pagan_good_god_awena:0 "Awena"
  embera_pagan_good_god_awena_possessive:0 "Awena's"
- embera_pagan_good_god_dojura:0 "Dojura" # Spirits of the water
+ embera_pagan_good_god_dojura:0 "Dojura"
  embera_pagan_good_god_dojura_possessive:0 "Dojura's"
- embera_pagan_good_god_aremuko:0 "Aremuko" # Spirits of the earth
+ embera_pagan_good_god_aremuko:0 "Aremuko"
  embera_pagan_good_god_aremuko_possessive:0 "Aremuko's"
- embera_pagan_good_god_umantau:0 "Umantau" # The Sun
+ embera_pagan_good_god_umantau:0 "Umantau"
  embera_pagan_good_god_umantau_possessive:0 "Umantau's"
- embera_pagan_good_god_jedeko:0 "Jedeko" # The Moon
+ embera_pagan_good_god_jedeko:0 "Jedeko"
  embera_pagan_good_god_jedeko_possessive:0 "Jedeko's"
- embera_pagan_good_god_picario:0 "Picario" # The first Jaibana
+ embera_pagan_good_god_picario:0 "Picario"
  embera_pagan_good_god_picario_possessive:0 "Picario's"
- embera_pagan_good_god_antumia:0 "Antumiá" # Spirits of the deep jungle
+ embera_pagan_good_god_antumia:0 "Antumiá"
  embera_pagan_good_god_antumia_possessive:0 "Antumiá's"
- embera_pagan_good_god_wandra:0 "Wandra" # Spirits of animals and plants in the headwaters of rivers
+ embera_pagan_good_god_wandra:0 "Wandra"
  embera_pagan_good_god_wandra_possessive:0 "Wandra's"
- embera_pagan_devil_name:0 "Tutuicá" # Lord of the Underworld
+ embera_pagan_devil_name:0 "Tutuicá"
  embera_pagan_devil_name_possessive:0 "Tutuicá's"
  embera_pagan_devil_shehe:0 "he"
  embera_pagan_devil_herselfhimself:0 "himself"
  embera_pagan_devil_herhis:0 "his"
- embera_pagan_death_deity_name:0 "Keyemé" # Grandfather of the water birds and godfather of death
+ embera_pagan_death_deity_name:0 "Keyemé"
  embera_pagan_death_deity_name_possessive:0 "Keyemé's"
  embera_pagan_death_deity_herhis:0 "his"
 
- embera_pagan_creator_god_name:0 "Dachizeze" # Father of the highest world
+ embera_pagan_creator_god_name:0 "Dachizeze"
  embera_pagan_creator_god_name_possessive:0 "Dachizeze's"
  embera_pagan_health_god_name:0 "$embera_pagan_good_god_jai$"
  embera_pagan_health_god_name_possessive:0 "$embera_pagan_good_god_jai_possessive$"
- embera_pagan_fertility_god_name:0 "$embera_pagan_good_god_awena$" 
+ embera_pagan_fertility_god_name:0 "$embera_pagan_good_god_awena$"
  embera_pagan_fertility_god_name_possessive:0 "$embera_pagan_good_god_awena_possessive$"
  embera_pagan_wealth_god_name:0 "$embera_pagan_good_god_betenabe$"
  embera_pagan_wealth_god_name_possessive:0 "$embera_pagan_good_god_betenabe_possessive$"
@@ -461,7 +461,7 @@
  embera_pagan_water_god_name:0 "$embera_pagan_good_god_betenabe$"
  embera_pagan_water_god_name_possessive:0 "$embera_pagan_good_god_betenabe_possessive$"
 
- embera_pagan_house_of_worship:0 "sacred site" 
+ embera_pagan_house_of_worship:0 "sacred site"
  embera_pagan_house_of_worship_plural:0 "sacred sites"
  embera_pagan_religious_symbol:0 "ancient tree"
  embera_pagan_religious_text:0 "legends"
@@ -475,7 +475,7 @@
  embera_pagan_priest_alternate_plural:1 "shamans"
  embera_pagan_divine_realm:0 "World of Blue Things"
  embera_pagan_positive_afterlife:0 "$embera_pagan_divine_realm$"
- embera_pagan_negative_afterlife:0 "Chiapérera" # The world below
+ embera_pagan_negative_afterlife:0 "Chiapérera"
  witchgodname_embera_pagan_the_shadow:0 "$embera_pagan_devil_name$"
  embera_pagan_bishop:0 "High Elder"
  embera_pagan_bishop_plural:0 "High Jaibanás"

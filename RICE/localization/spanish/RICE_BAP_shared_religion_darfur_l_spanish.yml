@@ -32,13 +32,13 @@ fur_pagan_old_adherent_plural:0 "Antiguos Moluistas"
 fur_pagan_old_desc:0 "$fur_pagan_desc$"
 
 kalge_high_god_name:0 "Kalge"
-kalge_high_god_name_2:0 "$kalge_high_god_name$" # Optional translation alt
+kalge_high_god_name_2:0 "$kalge_high_god_name$"
 kalge_high_god_name_possessive:0 "de Kalge"
 kalge_high_god_name_alternate:0 "El Supremo"
 kalge_high_god_name_alternate_possessive:0 "del Supremo"
 kalge_pantheon:0 "Kalge"
-kalge_pantheon_2:0 "$kalge_pantheon$" # Optional translation alt
-kalge_pantheon_3:0 "$kalge_pantheon$" # Optional translation alt
+kalge_pantheon_2:0 "$kalge_pantheon$"
+kalge_pantheon_3:0 "$kalge_pantheon$"
 
 kalge_creator_god_name:0 "$kalge_high_god_name$"
 kalge_creator_god_name_possessive:0 "$kalge_high_god_name_possessive$"
@@ -63,8 +63,8 @@ kalge_night_god_name_possessive:0 "$kalge_high_god_name_possessive$"
 kalge_water_god_name:0 "$kalge_high_god_name$"
 kalge_water_god_name_possessive:0 "$kalge_high_god_name_possessive$"
 kalge_religious_symbol:0 "paja atada"
-kalge_religious_symbol_2:0 "$kalge_religious_symbol$" # Optional translation alt
-kalge_religious_symbol_3:0 "$kalge_religious_symbol$" # Optional translation alt
+kalge_religious_symbol_2:0 "$kalge_religious_symbol$"
+kalge_religious_symbol_3:0 "$kalge_religious_symbol$"
 witchgodname_kalge_the_spirits:0 "los espíritus"
 witchgodname_kalge_the_spirits_possessive:0 "de los espíritus"
 
@@ -76,13 +76,13 @@ kalge_paganism_house_of_worship:0 "perari"
 kalge_paganism_house_of_worship_plural:0 "peraris"
 
 molu_high_god_name:0 "Molu"
-molu_high_god_name_2:0 "$molu_high_god_name$" # Optional translation alt
+molu_high_god_name_2:0 "$molu_high_god_name$"
 molu_high_god_name_possessive:0 "de Molu"
 molu_high_god_name_alternate:0 "El Supremo"
 molu_high_god_name_alternate_possessive:0 "del Supremo"
 molu_pantheon:0 "Molu"
-molu_pantheon_2:0 "$molu_pantheon$" # Optional translation alt
-molu_pantheon_3:0 "$molu_pantheon$" # Optional translation alt
+molu_pantheon_2:0 "$molu_pantheon$"
+molu_pantheon_3:0 "$molu_pantheon$"
 
 molu_creator_god_name:0 "$molu_high_god_name$"
 molu_creator_god_name_possessive:0 "$molu_high_god_name_possessive$"
@@ -107,8 +107,8 @@ molu_night_god_name_possessive:0 "$molu_high_god_name_possessive$"
 molu_water_god_name:0 "$molu_high_god_name$"
 molu_water_god_name_possessive:0 "$molu_high_god_name_possessive$"
 molu_religious_symbol:0 "piedra sagrada"
-molu_religious_symbol_2:0 "$molu_religious_symbol$" # Optional translation alt
-molu_religious_symbol_3:0 "$molu_religious_symbol$" # Optional translation alt
+molu_religious_symbol_2:0 "$molu_religious_symbol$"
+molu_religious_symbol_3:0 "$molu_religious_symbol$"
 witchgodname_molu_the_spirits:0 "los espíritus"
 witchgodname_molu_the_spirits_possessive:0 "de los espíritus"
 

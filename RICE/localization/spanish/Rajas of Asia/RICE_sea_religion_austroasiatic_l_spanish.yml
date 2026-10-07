@@ -69,7 +69,7 @@ kuy_animism_devotee_male:0 "devoto"
 kuy_animism_devotee_male_plural:0 "devotos"
 kuy_animism_devotee_female:0 "devota"
 kuy_animism_devotee_female_plural:0 "devotas"
-kuy_animism_priest:0 "chây" # chây = chamán
+kuy_animism_priest:0 "chây"
 kuy_animism_priest_plural:0 "châys"
 kuy_animism_priest_alternate_plural:1 "chamanes"
 kuy_animism_divine_realm:0 "los Cielos"
@@ -147,7 +147,7 @@ wa_animism_night_god_name:0 "Lun"
 wa_animism_night_god_name_possessive:0 "de Lun"
 wa_animism_water_god_name:0 "Agu"
 wa_animism_water_god_name_possessive:0 "de Agu"
-wa_animism_house_of_worship:0 "Nyiex Moeg" # Santuario
+wa_animism_house_of_worship:0 "Nyiex Moeg"
 wa_animism_house_of_worship_2:0 "$wa_animism_house_of_worship$"
 wa_animism_house_of_worship_3:0 "$wa_animism_house_of_worship$"
 wa_animism_house_of_worship_plural:0 "Nyiex Moegs"
@@ -166,7 +166,7 @@ wa_animism_devotee_male_plural:0 "devotos"
 wa_animism_devotee_female:0 "devota"
 wa_animism_devotee_female_plural:0 "devotas"
 wa_animism_priest:0 "Tax Cao Chai"
-wa_animism_priest_plural:0 "Tax Cao Chais" # Tax Cao Chai = sanadores espirituales
+wa_animism_priest_plural:0 "Tax Cao Chais"
 wa_animism_priest_term_plural:0 "Tax Cao Chais"
 wa_animism_priest_alternate_plural:1 "sanadores espirituales"
 wa_animism_bishop:0 "Tax Cao Chai"
@@ -297,11 +297,11 @@ khmuic_religion_adherent:0 "Jmuista"
 khmuic_religion_adherent_plural:0 "Jmuistas"
 khmuic_religion_desc:0 "Las creencias espirituales de los pueblos jmuicos giran en torno a los #italic rooy#!, o espíritus, a quienes se debe tratar con el máximo respeto y temor."
 
-khmu_pagan:1 "Rooyismo" # ŋɔ rooy/ŋɔ rooy = Miedo a los Espíritus
+khmu_pagan:1 "Rooyismo"
 khmu_pagan_adj:2 "Rooyista"
 khmu_pagan_adherent:2 "Rooyista"
 khmu_pagan_adherent_plural:2 "Rooyistas"
-khmu_pagan_desc:0 "Los espíritus (o #italic Rooy#!), que a menudo son invisibles, deben ser monitoreados y manejados con cuidado si queremos evitar calamidades. Aunque hay algunos espíritus benevolentes, muchos, muchos otros son malevolentes, especialmente el #italic rooy rwaay#!, el Espíritu Tigre." # Ngo Rooy se traduce como #italic Miedo a los Espíritus#!.
+khmu_pagan_desc:0 "Los espíritus (o #italic Rooy#!), que a menudo son invisibles, deben ser monitoreados y manejados con cuidado si queremos evitar calamidades. Aunque hay algunos espíritus benevolentes, muchos, muchos otros son malevolentes, especialmente el #italic rooy rwaay#!, el Espíritu Tigre."
 
 khmu_pagan_old:1 "Antiguo Rooyismo"
 khmu_pagan_old_adj:2 "Antiguo Rooyista"
@@ -309,19 +309,19 @@ khmu_pagan_old_adherent:2 "Antiguo Rooyista"
 khmu_pagan_old_adherent_plural:2 "Antiguos Rooyistas"
 khmu_pagan_old_desc:0 "$khmuic_religion_desc$"
 
-khmu_pagan_high_god_name:0 "Rooy Gang" # Rooy Gang, el espíritu más importante, el Espíritu del Hogar
+khmu_pagan_high_god_name:0 "Rooy Gang"
 khmu_pagan_high_god_name_possessive:0 "de Rooy Gang"
 khmu_pagan_high_god_name_alternate:0 "El Espíritu del Hogar"
 khmu_pagan_high_god_name_alternate_possessive:0 "del Espíritu del Hogar"
 khmu_pagan_good_god:0 "rooy benevolentes"
-khmu_pagan_devil_name:0 "rooy rwaay" # rooy rwaay, el espíritu tigre malevolente
+khmu_pagan_devil_name:0 "rooy rwaay"
 khmu_pagan_devil_name_possessive:0 "de rooy rwaay"
 khmu_pagan_devil_shehe:0 "él"
 khmu_pagan_devil_herselfhimself:0 "sí mismo"
 khmu_pagan_devil_herhis:0 "su"
 khmu_pagan_evil_god:0 "rooy malevolentes"
-khmu_pagan_death_name:0 "rooy h'eep" # Espíritu de accidentes y malas muertes
-khmu_pagan_death_name_possessive:0 "de rooy h'eep" # Espíritu de accidentes y malas muertes
+khmu_pagan_death_name:0 "rooy h'eep"
+khmu_pagan_death_name_possessive:0 "de rooy h'eep"
 khmu_pagan_death_herhis:0 "su"
 
 khmu_pagan_creator_god_name:0 "$khmu_pagan_high_god_name$"
@@ -330,28 +330,28 @@ khmu_pagan_health_god_name:0 "$khmu_pagan_high_god_name$"
 khmu_pagan_health_god_name_possessive:0 "$khmu_pagan_high_god_name_possessive$"
 khmu_pagan_fertility_god_name:0 "$khmu_pagan_high_god_name$"
 khmu_pagan_fertility_god_name_possessive:0 "$khmu_pagan_high_god_name_possessive$"
-khmu_pagan_wealth_god_name:0 "rooy prri" # espíritu del bosque
+khmu_pagan_wealth_god_name:0 "rooy prri"
 khmu_pagan_wealth_god_name_possessive:0 "de rooy prri"
 khmu_pagan_household_god_name:0 "$khmu_pagan_high_god_name$"
 khmu_pagan_household_god_name_possessive:0 "$khmu_pagan_high_god_name_possessive$"
-khmu_pagan_fate_god_name:0 "pnmec rooy" # pnmec rooy = espíritus ancestrales
+khmu_pagan_fate_god_name:0 "pnmec rooy"
 khmu_pagan_fate_god_name_possessive:0 "de pnmec rooy"
 khmu_pagan_knowledge_god_name:0 "$khmu_pagan_fate_god_name$"
 khmu_pagan_knowledge_god_name_possessive:0 "$khmu_pagan_fate_god_name_possessive$"
 khmu_pagan_war_god_name:0 "$khmu_pagan_high_god_name$"
 khmu_pagan_war_god_name_possessive:0 "$khmu_pagan_high_god_name_possessive$"
-khmu_pagan_trickster_god_name:0 "rooy h'eep" # Espíritu de accidentes y malas muertes
+khmu_pagan_trickster_god_name:0 "rooy h'eep"
 khmu_pagan_trickster_god_name_possessive:0 "de rooy h'eep"
 khmu_pagan_night_god_name:0 "$khmu_pagan_trickster_god_name$"
 khmu_pagan_night_god_name_possessive:0 "$khmu_pagan_trickster_god_name_possessive$"
-khmu_pagan_water_god_name:0 "rooy hom" # Espíritu del agua
+khmu_pagan_water_god_name:0 "rooy hom"
 khmu_pagan_water_god_name_possessive:0 "de rooy hom"
 
-khmu_pagan_house_of_worship:0 "coong lkuun" # cɔɔŋ lkuun = casa de trabajo del sacerdote
+khmu_pagan_house_of_worship:0 "coong lkuun"
 khmu_pagan_house_of_worship_plural:0 "coong lkuuns"
-khmu_pagan_religious_symbol:0 "ardilla" # Las ardillas y los huevos se usan como ofrendas rituales
+khmu_pagan_religious_symbol:0 "ardilla"
 khmu_pagan_religious_text:0 "historias sagradas"
-khmu_pagan_religious_head_title:0 "Alto Lkuun" # lkuun = especialista ritual
+khmu_pagan_religious_head_title:0 "Alto Lkuun"
 khmu_pagan_religious_head_title_name:0 "Consejo Supremo"
 khmu_pagan_devotee:0 "devoto"
 khmu_pagan_devotee_plural:0 "devotos"
@@ -376,7 +376,7 @@ pearic_religion_adherent:0 "Péarista"
 pearic_religion_adherent_plural:0 "Péaristas"
 pearic_religion_desc:0 "Los pueblos de habla péarica creen que hay muchos espíritus, o Khamûuc, en este universo, que pueden ser útiles o dañinos."
 
-samre_pagan:1 "Khamûucismo" # ŋɔ rooy/ŋɔ rooy = Miedo a los Espíritus
+samre_pagan:1 "Khamûucismo"
 samre_pagan_adj:2 "Khamûucista"
 samre_pagan_adherent:2 "Khamûucista"
 samre_pagan_adherent_plural:2 "Khamûucistas"
@@ -388,12 +388,12 @@ samre_pagan_old_adherent:2 "Antiguo Khamûucista"
 samre_pagan_old_adherent_plural:2 "Antiguos Khamûucistas"
 samre_pagan_old_desc:0 "$pearic_religion_desc$"
 
-samre_pagan_high_god_name:0 "Khamûuc Mòt" # Espíritus hechiceros, el espíritu más importante
+samre_pagan_high_god_name:0 "Khamûuc Mòt"
 samre_pagan_high_god_name_possessive:0 "de Khamûuc Mòt"
 samre_pagan_high_god_name_alternate:0 "Los Espíritus Hechiceros"
 samre_pagan_high_god_name_alternate_possessive:0 "de los Espíritus Hechiceros"
-samre_pagan_good_god:0 "Khamûuc Khuunh Minh" # espíritus buenos, los espíritus ancestrales
-samre_pagan_devil_name:0 "Khamûuc Taaj Hong" # espíritus malvados de aquellos que murieron muertes no naturales
+samre_pagan_good_god:0 "Khamûuc Khuunh Minh"
+samre_pagan_devil_name:0 "Khamûuc Taaj Hong"
 samre_pagan_devil_name_possessive:0 "de Khamûuc Taaj Hong"
 samre_pagan_devil_shehe:0 "ellos"
 samre_pagan_devil_herselfhimself:0 "sí mismos"
@@ -409,28 +409,28 @@ samre_pagan_health_god_name:0 "$samre_pagan_high_god_name$"
 samre_pagan_health_god_name_possessive:0 "$samre_pagan_high_god_name_possessive$"
 samre_pagan_fertility_god_name:0 "$samre_pagan_high_god_name$"
 samre_pagan_fertility_god_name_possessive:0 "$samre_pagan_high_god_name_possessive$"
-samre_pagan_wealth_god_name:0 "Khamûuc 'Aarak" # espíritu de los árboles, ya que los pueblos péaricos tradicionalmente cosechaban recursos de los bosques
+samre_pagan_wealth_god_name:0 "Khamûuc 'Aarak"
 samre_pagan_wealth_god_name_possessive:0 "de Khamûuc 'Aarak"
-samre_pagan_household_god_name:0 "Khamûuc Pra'phuum" # Dioses del hogar, también llamados khamûuc tong
+samre_pagan_household_god_name:0 "Khamûuc Pra'phuum"
 samre_pagan_household_god_name_possessive:0 "de Khamûuc Pra'phuum"
 samre_pagan_fate_god_name:0 "$samre_pagan_high_god_name$"
 samre_pagan_fate_god_name_possessive:0 "$samre_pagan_high_god_name_possessive$"
 samre_pagan_knowledge_god_name:0 "$samre_pagan_high_god_name$"
 samre_pagan_knowledge_god_name_possessive:0 "$samre_pagan_high_god_name_possessive$"
-samre_pagan_war_god_name:0 "Khamûuc Samuun" # Espíritus que protegen una parte particular del bosque
+samre_pagan_war_god_name:0 "Khamûuc Samuun"
 samre_pagan_war_god_name_possessive:0 "de Khamûuc Samuun"
 samre_pagan_trickster_god_name:0 "$samre_pagan_devil_name$"
 samre_pagan_trickster_god_name_possessive:0 "$samre_pagan_devil_name_possessive$"
 samre_pagan_night_god_name:0 "$samre_pagan_high_god_name$"
 samre_pagan_night_god_name_possessive:0 "$samre_pagan_high_god_name_possessive$"
-samre_pagan_water_god_name:0 "$samre_pagan_high_god_name$" # Espíritu del agua
+samre_pagan_water_god_name:0 "$samre_pagan_high_god_name$"
 samre_pagan_water_god_name_possessive:0 "$samre_pagan_high_god_name_possessive$"
 
-samre_pagan_house_of_worship:0 "coong lkuun" # cɔɔŋ lkuun = casa de trabajo del sacerdote
+samre_pagan_house_of_worship:0 "coong lkuun"
 samre_pagan_house_of_worship_plural:0 "coong lkuuns"
 samre_pagan_religious_symbol:0 "velas en un cuenco de arroz"
 samre_pagan_religious_text:0 "historias sagradas"
-samre_pagan_religious_head_title:0 "Alto Mòo Khamûuc Mòt" # doctores o médiums
+samre_pagan_religious_head_title:0 "Alto Mòo Khamûuc Mòt"
 samre_pagan_religious_head_title_name:0 "Consejo Supremo"
 samre_pagan_devotee:0 "devoto"
 samre_pagan_devotee_plural:0 "devotos"
@@ -453,7 +453,7 @@ bahnaric_religion_adherent:0 "Bahnarista"
 bahnaric_religion_adherent_plural:0 "Bahnaristas"
 bahnaric_religion_desc:0 "Los pueblos bahnáricos creen en muchos espíritus que influyen en sus vidas de diferentes maneras, tanto buenas como malas."
 
-bahnar_pagan:1 "Yangismo" # ŋɔ rooy/ŋɔ rooy = Miedo a los Espíritus
+bahnar_pagan:1 "Yangismo"
 bahnar_pagan_adj:2 "Yángico"
 bahnar_pagan_adherent:2 "Yangista"
 bahnar_pagan_adherent_plural:2 "Yangistas"
@@ -466,20 +466,20 @@ bahnar_pagan_old_adherent_plural:2 "Antiguos Yangistas"
 bahnar_pagan_old_desc:0 "$bahnaric_religion_desc$"
 
 bahnar_pagan_the_yangs:0 "los Yangs"
-bahnar_pagan_the_yangs_2:0 "$religion_the_yangs$" # Traducción alternativa opcional
-bahnar_pagan_the_yangs_3:0 "$religion_the_yangs$" # Traducción alternativa opcional
+bahnar_pagan_the_yangs_2:0 "$bahnar_pagan_the_yangs$"
+bahnar_pagan_the_yangs_3:0 "$bahnar_pagan_the_yangs$"
 
-bahnar_pagan_high_god_name:0 "Bok Kei Dei y Yă Kuh Keh" # Pareja de Dioses Supremos
+bahnar_pagan_high_god_name:0 "Bok Kei Dei y Yă Kuh Keh"
 bahnar_pagan_high_god_name_possessive:0 "de Bok Kei Dei y Yă Kuh Keh"
 bahnar_pagan_high_god_name_alternate:0 "$bahnar_pagan_high_god_name$"
 bahnar_pagan_high_god_name_alternate_possessive:0 "$bahnar_pagan_high_god_name_possessive$"
-bahnar_pagan_yang_bri_good_god:0 "Yang Bri" # Yang Bri = Dios del Bosque
-bahnar_pagan_yang_tmo_good_god:0 "Yang Tmo" # Yang Tmo = Dios de la Roca
-bahnar_pagan_yang_kong_good_god:0 "Yang Kong" # Yang Kong = Dios de la Montaña
-bahnar_pagan_yang_rong_good_god:0 "Yang Rong" # Yang Rong = Dios de la Casa Comunal
-bahnar_pagan_yang_nak_good_god:0 "Yang Nak" # Yang Nak = Deidad de la Puerta del Pueblo
-bahnar_pagan_yang_au_good_god:0 "Yang Au" # Yang Au = Deidad del Pueblo
-bahnar_pagan_devil_name:0 "O Ma Lai" # Espíritu fantasma
+bahnar_pagan_yang_bri_good_god:0 "Yang Bri"
+bahnar_pagan_yang_tmo_good_god:0 "Yang Tmo"
+bahnar_pagan_yang_kong_good_god:0 "Yang Kong"
+bahnar_pagan_yang_rong_good_god:0 "Yang Rong"
+bahnar_pagan_yang_nak_good_god:0 "Yang Nak"
+bahnar_pagan_yang_au_good_god:0 "Yang Au"
+bahnar_pagan_devil_name:0 "O Ma Lai"
 bahnar_pagan_devil_name_possessive:0 "de O Ma Lai"
 bahnar_pagan_devil_shehe:0 "ellos"
 bahnar_pagan_devil_herselfhimself:0 "sí mismos"
@@ -491,34 +491,34 @@ bahnar_pagan_death_herhis:0 "su"
 
 bahnar_pagan_creator_god_name:0 "$bahnar_pagan_high_god_name$"
 bahnar_pagan_creator_god_name_possessive:0 "$bahnar_pagan_high_god_name_possessive$"
-bahnar_pagan_health_god_name:0 "Yang Po" # Dios de la Olla
+bahnar_pagan_health_god_name:0 "Yang Po"
 bahnar_pagan_health_god_name_possessive:0 "de Yang Po"
-bahnar_pagan_fertility_god_name:0 "Yang Xori" # Yang Xori o Yang Dai, dios del arroz
+bahnar_pagan_fertility_god_name:0 "Yang Xori"
 bahnar_pagan_fertility_god_name_possessive:0 "de Yang Xori"
-bahnar_pagan_wealth_god_name:0 "Yang The" # Yang The = Dios de la Tierra
+bahnar_pagan_wealth_god_name:0 "Yang The"
 bahnar_pagan_wealth_god_name_possessive:0 "de Yang 'Aarak"
-bahnar_pagan_household_god_name:0 "Yang Hnam" # Dios del hogar
+bahnar_pagan_household_god_name:0 "Yang Hnam"
 bahnar_pagan_household_god_name_possessive:0 "de Yang Hnam"
 bahnar_pagan_fate_god_name:0 "$bahnar_pagan_high_god_name$"
 bahnar_pagan_fate_god_name_possessive:0 "$bahnar_pagan_high_god_name_possessive$"
 bahnar_pagan_knowledge_god_name:0 "$bahnar_pagan_high_god_name$"
 bahnar_pagan_knowledge_god_name_possessive:0 "$bahnar_pagan_high_god_name_possessive$"
-bahnar_pagan_war_god_name:0 "Za Bok Kla" # Dios Tigre
+bahnar_pagan_war_god_name:0 "Za Bok Kla"
 bahnar_pagan_war_god_name_possessive:0 "de Za Bok Kla"
 bahnar_pagan_trickster_god_name:0 "$bahnar_pagan_war_god_name$"
 bahnar_pagan_trickster_god_name_possessive:0 "$bahnar_pagan_water_god_name_possessive$"
 bahnar_pagan_night_god_name:0 "$bahnar_pagan_high_god_name$"
 bahnar_pagan_night_god_name_possessive:0 "$bahnar_pagan_high_god_name_possessive$"
-bahnar_pagan_water_god_name:0 "Yang Dak" # Espíritu del agua
+bahnar_pagan_water_god_name:0 "Yang Dak"
 bahnar_pagan_water_god_name_possessive:0 "de Yang Dak"
-bahnar_pagan_witch_god_name:0 "Yang Nom" # Espíritus femeninos que tienen una relación especial con los hechiceros
+bahnar_pagan_witch_god_name:0 "Yang Nom"
 bahnar_pagan_witch_god_name_possessive:0 "de Yang Nom"
 
-bahnar_pagan_house_of_worship:0 "rong" # rong = casa comunal para actividades culturales/sociales Bahnar
+bahnar_pagan_house_of_worship:0 "rong"
 bahnar_pagan_house_of_worship_plural:0 "rongs"
-bahnar_pagan_religious_symbol:0 "jarra de vino" # Vino de arroz fermentado que se bebe durante festivales especiales
-bahnar_pagan_religious_text:0 "H'amon" # H'amon = Epopeyas
-bahnar_pagan_religious_head_title:0 "Alto Pojau" # pơjâu = chamán
+bahnar_pagan_religious_symbol:0 "jarra de vino"
+bahnar_pagan_religious_text:0 "H'amon"
+bahnar_pagan_religious_head_title:0 "Alto Pojau"
 bahnar_pagan_religious_head_title_name:0 "Consejo Supremo"
 bahnar_pagan_devotee:0 "devoto"
 bahnar_pagan_devotee_plural:0 "devotos"

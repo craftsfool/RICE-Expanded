@@ -30,13 +30,13 @@ welayta_pagan_old_adherent_plural:0 "Viejos Xossistas"
 welayta_pagan_old_desc:0 "$welayta_pagan_desc$"
 
 welayta_high_god_name:0 "Xossa"
-welayta_high_god_name_2:0 "$welayta_high_god_name$" # Traducción opcional alt
-welayta_high_god_name_3:0 "$welayta_high_god_name$" # Traducción opcional alt
+welayta_high_god_name_2:0 "$welayta_high_god_name$"
+welayta_high_god_name_3:0 "$welayta_high_god_name$"
 welayta_creator_god_name:0 "$welayta_high_god_name$"
 welayta_creator_god_name_possessive:0 "$welayta_high_god_name_possessive$"
-welayta_good_god_name:0 "los Xilo-ayyana" # Buenos espíritus
+welayta_good_god_name:0 "los Xilo-ayyana"
 welayta_good_god_name_possessive:0 "de los Xilo-ayyana"
-welayta_ancestor_god_name:0 "los Awa-xossa" # Espíritus ancestrales
+welayta_ancestor_god_name:0 "los Awa-xossa"
 welayta_ancestor_god_name_possessive:0 "de los Awa-xossa"
 welayta_health_god_name:0 "$welayta_good_god_name$"
 welayta_health_god_name_possessive:0 "$welayta_good_god_name_possessive$"
@@ -52,7 +52,7 @@ welayta_knowledge_god_name:0 "$welayta_ancestor_god_name$"
 welayta_knowledge_god_name_possessive:0 "$welayta_ancestor_god_name_possessive$"
 welayta_war_god_name:0 "$welayta_good_god_name$"
 welayta_war_god_name_possessive:0 "$welayta_good_god_name_possessive$"
-welayta_trickster_god_name:0 "los Ita-ayyana" # Espíritus malignos
+welayta_trickster_god_name:0 "los Ita-ayyana"
 welayta_trickster_god_name_possessive:0 "de los Ita-ayyana"
 welayta_night_god_name:0 "$welayta_good_god_name$"
 welayta_night_god_name_possessive:0 "$welayta_good_god_name_possessive$"
@@ -60,8 +60,8 @@ welayta_water_god_name:0 "$welayta_good_god_name$"
 welayta_water_god_name_possessive:0 "$welayta_good_god_name_possessive$"
 
 welayta_house_of_worship:0 "santuario"
-welayta_house_of_worship_2:0 "$welayta_house_of_worship$" # Traducción opcional alt
-welayta_house_of_worship_3:0 "$welayta_house_of_worship$" # Traducción opcional alt
+welayta_house_of_worship_2:0 "$welayta_house_of_worship$"
+welayta_house_of_worship_3:0 "$welayta_house_of_worship$"
 welayta_house_of_worship_plural:0 "santuarios"
 
 welayta_priest:0 "sharechuwa"

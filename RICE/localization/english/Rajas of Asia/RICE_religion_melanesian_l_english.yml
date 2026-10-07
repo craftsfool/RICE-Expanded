@@ -17,43 +17,43 @@
  fiji_pagan_old_adherent_plural:0 "Old Kalouists"
  fiji_pagan_old_desc:0 "The diverse beliefs of the Austronesian inhabitants of Melanesia are marked by a reverence for their ancestors and the spirits of the natural world."
 
- fiji_pagan_high_god_name:0 "Degei" # Supreme god
+ fiji_pagan_high_god_name:0 "Degei"
  fiji_pagan_high_god_name_possessive:0 "Degei's"
  fiji_pagan_high_god_name_alternate:0 "$fiji_pagan_high_god_name$"
  fiji_pagan_high_god_name_alternate_possessive:0 "$fiji_pagan_high_god_name_possessive$"
- fiji_pagan_good_god_lutunasobasoba:0 "Lutunasobasoba" # Another founding figure of Fiji alongside Degei
- fiji_pagan_devil_name:0 "Ravuyalo" # god who harassed spirits of dead and obstruct them on the journey to the afterlife
+ fiji_pagan_good_god_lutunasobasoba:0 "Lutunasobasoba"
+ fiji_pagan_devil_name:0 "Ravuyalo"
  fiji_pagan_devil_name_possessive:0 "Ravuyalo's"
- fiji_pagan_death_deity_name:0 "$fiji_pagan_high_god_name$" # Judge of the newly dead
+ fiji_pagan_death_deity_name:0 "$fiji_pagan_high_god_name$"
  fiji_pagan_death_deity_name_possessive:0 "$fiji_pagan_high_god_name_possessive$"
  fiji_pagan_death_deity_herhis:0 "his"
 
  fiji_pagan_creator_god_name:0 "$fiji_pagan_high_god_name$"
  fiji_pagan_creator_god_name_possessive:0 "$fiji_pagan_high_god_name_possessive$"
- fiji_pagan_health_god_name:0 "Margigi" # Mother of all crop deities
+ fiji_pagan_health_god_name:0 "Margigi"
  fiji_pagan_health_god_name_possessive:0 "Margigi's"
- fiji_pagan_fertility_god_name:0 "Ratumaibulu" # god who ensured success of garden crops
+ fiji_pagan_fertility_god_name:0 "Ratumaibulu"
  fiji_pagan_fertility_god_name_possessive:0 "Ratumaibulu's"
- fiji_pagan_wealth_god_name:0 "Rakola" # Patron god of carpenters and canoe-builders
+ fiji_pagan_wealth_god_name:0 "Rakola"
  fiji_pagan_wealth_god_name_possessive:0 "Rakola's"
- fiji_pagan_household_god_name:0 "The Thagiths" # Thagith = ancestor spirits
+ fiji_pagan_household_god_name:0 "The Thagiths"
  fiji_pagan_household_god_name_possessive:0 "The Thagiths'"
- fiji_pagan_fate_god_name:0 "Yanolop" # Head of the gods
+ fiji_pagan_fate_god_name:0 "Yanolop"
  fiji_pagan_fate_god_name_possessive:0 "Yanolop's"
  fiji_pagan_knowledge_god_name:0 "$fiji_pagan_fate_god_name$"
  fiji_pagan_knowledge_god_name_possessive:0 "$fiji_pagan_fate_god_name_possessive$"
- fiji_pagan_war_god_name:0 "Samulayo" # God of War per Wikipedia, but couldn't find many mentions of him online elsewhere
+ fiji_pagan_war_god_name:0 "Samulayo"
  fiji_pagan_war_god_name_possessive:0 "Samulayo's"
- fiji_pagan_trickster_god_name:0 "Degei" # Heroic trickster deity, more heroic than his Chuukese counterpart since he's the main subject of worship
+ fiji_pagan_trickster_god_name:0 "Degei"
  fiji_pagan_trickster_god_name_possessive:0 "Degei's"
  fiji_pagan_night_god_name:0 "$fiji_pagan_high_god_name$"
  fiji_pagan_night_god_name_possessive:0 "$fiji_pagan_high_god_name_possessive$"
- fiji_pagan_water_god_name:0 "Dakuwaqa" # Shark god of the waters and defender of the seas around Fiji
+ fiji_pagan_water_god_name:0 "Dakuwaqa"
  fiji_pagan_water_god_name_possessive:0 "Dakuwaqa's"
  fiji_pagan_witchgodname:0 "$fiji_pagan_high_god_name$"
- fiji_pagan_witchgodname_possessive:0 "$fiji_pagan_high_god_name_possessive$" 
+ fiji_pagan_witchgodname_possessive:0 "$fiji_pagan_high_god_name_possessive$"
 
- fiji_pagan_house_of_worship:0 "Bure Kalou" # Bure Kalous = temples
+ fiji_pagan_house_of_worship:0 "Bure Kalou"
  fiji_pagan_house_of_worship_plural:0 "Bure Kalous"
  fiji_pagan_religious_symbol:0 "snake"
  fiji_pagan_religious_text:0 "sacred stories"
@@ -61,20 +61,20 @@
  fiji_pagan_religious_head_title_name:0 "High Council"
  fiji_pagan_devotee:0 "devotee"
  fiji_pagan_devotee_plural:0 "devotees"
- fiji_pagan_priest:0 "bete" # bete = fijian priests
+ fiji_pagan_priest:0 "bete"
  fiji_pagan_priest_plural:0 "betes"
  fiji_pagan_priest_term_plural:0 "betes"
  fiji_pagan_priest_alternate_plural:1 "priests"
- fiji_pagan_divine_realm:0 "Bulu" # World of spirits
- fiji_pagan_positive_afterlife:0 "Burotu" # Paradise/heaven
- fiji_pagan_negative_afterlife:0 "Murimuria" # Underworld, neither happy nor unhappy
+ fiji_pagan_divine_realm:0 "Bulu"
+ fiji_pagan_positive_afterlife:0 "Burotu"
+ fiji_pagan_negative_afterlife:0 "Murimuria"
  fiji_pagan_bishop:0 "Chief bete"
  fiji_pagan_bishop_plural:0 "Chief betes"
 
  # Kwara'ae - Solomon Islands Catch-all
  # https://www.researchgate.net/publication/331566989_Traditional_religion_in_Kwara'ae_Solomon_Islands
 
- kwaraae_pagan:0 "Tua Fuana Akalo" # Tua Fuana Akalo = Living for Akalo, Akalo means a source of spiritual power, can be spirits but not necessarily
+ kwaraae_pagan:0 "Tua Fuana Akalo"
  kwaraae_pagan_adj:0 "Akaloist"
  kwaraae_pagan_adherent:0 "Akaloist"
  kwaraae_pagan_adherent_plural:0 "Akaloists"
@@ -88,7 +88,7 @@
 
  # Tolai - Bismarck Archipelago Catch-all
 
- tolai_pagan:0 "Duk-Duk Society" # Duk-Duk = male spirits, Tubuan = female spirits, who members of the Duk-Duk society adapt during rituals through masks
+ tolai_pagan:0 "Duk-Duk Society"
  tolai_pagan_adj:0 "Duk-Dukist"
  tolai_pagan_adherent:0 "Duk-Dukist"
  tolai_pagan_adherent_plural:0 "Duk-Dukists"
@@ -104,7 +104,7 @@
 
  # Vanuatu - catch-all for the islands of the Southern Oceanic languages
 
- vanuatu_pagan:0 "Tamateism" # 
+ vanuatu_pagan:0 "Tamateism"
  vanuatu_pagan_adj:0 "Tamateist"
  vanuatu_pagan_adherent:0 "Tamateist"
  vanuatu_pagan_adherent_plural:0 "Tamateists"
@@ -118,7 +118,7 @@
 
  # Manus island/people - catch-all for the Admiralty Islands
 
- manus_pagan:0 "Sir Ghost Cult" # 
+ manus_pagan:0 "Sir Ghost Cult"
  manus_pagan_adj:0 "Sir Ghostist"
  manus_pagan_adherent:0 "Sir Ghostist"
  manus_pagan_adherent_plural:0 "Sir Ghostists"

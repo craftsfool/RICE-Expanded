@@ -1,7 +1,8 @@
 ﻿l_spanish:
   # Master file for all new religions added by RICE   
 
-# Misc
+# Misc
+
 manichaean_faith_opinion:0 "$manichaean_faith_adherent$ Opinion"
 miaphysitism_opinion:0 "$miaphysitism_adherent$ Opinion"
 fervor_gain_RICE_repopulated_patmos:0 "Repopuló la Cueva del Apocalipsis en Patmos"
@@ -54,15 +55,15 @@ holy_site_damot_name:0 "Monte Damota"
 holy_site_damot_effect_name:0 "Desde [holy_site|E] #weak ($holy_site_damot_name$)#!"
 holy_site_abbo_wonsho_name:0 "Abbo-Wonsho"
 holy_site_abbo_wonsho_effect_name:0 "Desde [holy_site|E] #weak ($holy_site_abbo_wonsho_name$)#!"
-holy_site_kinnaur_name:0 "Kinnaur"  
-holy_site_kinnaur_effect_name:0 "De [holy_site|E] #débil ($holy_site_kinnaur_name$)#!"  
+holy_site_kinnaur_name:0 "Kinnaur"
+holy_site_kinnaur_effect_name:0 "De [holy_site|E] #débil ($holy_site_kinnaur_name$)#!"
 # Taken from BAP/Africa Plus  
-holy_site_kordofan_name:0 "Kordofán"  
-holy_site_kordofan_effect_name:0 "De [holy_site|E] #débil ($holy_site_kordofan_name$)#!"  
-holy_site_ayn_farrah_name:0 "Ayn Farrah"  
-holy_site_ayn_farrah_effect_name:0 "De [holy_site|E] #débil ($holy_site_ayn_farrah_name$)#!"  
-holy_site_abwab_name:0 "Shendi"  
-holy_site_abwab_effect_name:0 "De [holy_site|E] #débil ($holy_site_abwab_name$)#!"  
+holy_site_kordofan_name:0 "Kordofán"
+holy_site_kordofan_effect_name:0 "De [holy_site|E] #débil ($holy_site_kordofan_name$)#!"
+holy_site_ayn_farrah_name:0 "Ayn Farrah"
+holy_site_ayn_farrah_effect_name:0 "De [holy_site|E] #débil ($holy_site_ayn_farrah_name$)#!"
+holy_site_abwab_name:0 "Shendi"
+holy_site_abwab_effect_name:0 "De [holy_site|E] #débil ($holy_site_abwab_name$)#!"
  # Southeast Asia stuff
  #holy_site_MAL_gelanggi_name:0 "Gelanggi"
  #holy_site_MAL_gelanggi_effect_name:0 "From [holy_site|E] #weak ($holy_site_MAL_gelanggi_name$)#!"
@@ -77,7 +78,7 @@ holy_site_abwab_effect_name:0 "De [holy_site|E] #débil ($holy_site_abwab_name$)
  holy_site_tripura_name:0 "Tripura"
  holy_site_tripura_effect_name:0 "From [holy_site|E] #weak ($holy_site_tripura_name$)#!"
  holy_site_chau_phong_name:0 "Phong Chau"
- holy_site_chau_phong_effect_name_name:0 "Desde [holy_site|E] #weak ($holy_site_chau_phong_effect_name$)#!"
+ holy_site_chau_phong_effect_name:0 "Desde [holy_site|E] #weak ($holy_site_chau_phong_name$)#!"
  holy_site_mount_gamalama_name:0 "Monte Gamalama"
  holy_site_mount_gamalama_effect_name:0 "Desde [holy_site|E] #weak ($holy_site_mount_gamalama_name$)#!"
  holy_site_mount_kie_matubu_name:0 "Monte Kie Matubu"
@@ -868,7 +869,7 @@ west_himalayan_religion:1 "Himalaya Occidental"
 west_himalayan_religion_adj:1 "Himalayo Occidental"
 west_himalayan_religion_adherent:1 "Himalayo Occidental"
 west_himalayan_religion_adherent_plural:1 "Himalayos Occidentales"
-west_himalayan_religion_desc:1 "Los pueblos de las tierras fronterizas montañosas entre el Tíbet y la India veneran a muchas deidades locales.
+west_himalayan_religion_desc:1 "Los pueblos de las tierras fronterizas montañosas entre el Tíbet y la India veneran a muchas deidades locales."
 kinnaur_pagan:0 "Kimshuísmo"
 kinnaur_pagan_adj:0 "Kimshuista"
 kinnaur_pagan_adherent:1 "Kimshuista"
@@ -908,13 +909,13 @@ game_concept_zoroastrian_cult_center_desc:0 "Algunas [faiths|E] $zoroastrianism_
 
 # Budista
 rice_doctrine_buddhist_canon_name:0 "Canon Budista"
-rice_doctrine_buddhist_canon_desc:0 "Es importante reconocer qué enseñanzas son auténticas y no contradicen la palabra de Buda. Estas se compilarán en colecciones, cuyo núcleo son las #italic tripitaka#! (que significa "Tres Cestas")."
+rice_doctrine_buddhist_canon_desc:0 "Es importante reconocer qué enseñanzas son auténticas y no contradicen la palabra de Buda. Estas se compilarán en colecciones, cuyo núcleo son las #italic tripitaka#! (que significa \"Tres Cestas\")."
 rice_mahayana_canon_doctrine_name:0 "Canon Mahayana"
 rice_mahayana_canon_doctrine_desc:0 "El Gran Almacén de Escrituras (#italic Dazangjing#! en chino), también conocido como el Canon Chino o del Este Asiático, es un canon laxo de textos budistas aceptados por las sectas Mahayana del budismo en el Este de Asia. Incluye varios [Glossary( 'sutras', 'BUDDHIST_SUTRAS_GLOSS' )] Mahayana, así como textos de las primeras escuelas del budismo que no forman parte o fueron descartados del Canon Pali, como los canones de las escuelas Sarvastivada y Dharmaguptaka."
 rice_theravada_canon_doctrine_name:0 "Canon Pali"
 rice_theravada_canon_doctrine_desc:0 "El Tripitaka Pali es el canon de textos budistas aceptado por las sectas Theravada del budismo en el Sudeste Asiático. Tradicionalmente, se creía que el primer Canon Pali fue escrito en el Cuarto Concilio Budista en Sri Lanka en el año 29 a.C., aunque el canon siguió siendo revisado y cambiado durante varios siglos después, ya que las escuelas Theravada, Mahayana, Vajrayana y otras primeras escuelas budistas intercambiaban ideas."
 rice_vajrayana_canon_doctrine_name:0 "Canon Tántrico"
-rice_vajrayana_canon_doctrine_desc:0 "El Canon Tántrico es la colección de textos budistas aceptados por las llamadas escuelas esotéricas del budismo, como el Vajrayana tibetano y las sectas influenciadas por él. El Canon Tibetano, por ejemplo, consiste en el Kangyur ("Traducción de la Palabra") y el Tengyur ("Traducción de los Tratados"). Estos cánones incluyen textos Mahayana, así como textos de las primeras escuelas del budismo que no forman parte o fueron descartados del Canon Pali."
+rice_vajrayana_canon_doctrine_desc:0 "El Canon Tántrico es la colección de textos budistas aceptados por las llamadas escuelas esotéricas del budismo, como el Vajrayana tibetano y las sectas influenciadas por él. El Canon Tibetano, por ejemplo, consiste en el Kangyur (\"Traducción de la Palabra\") y el Tengyur (\"Traducción de los Tratados\"). Estos cánones incluyen textos Mahayana, así como textos de las primeras escuelas del budismo que no forman parte o fueron descartados del Canon Pali."
 rice_pudgalavada_canon_doctrine_name:0 "Canon Pudgalavada"
 rice_pudgalavada_canon_doctrine_desc:0 "Las escuelas Pudgalavada o Personalistas del budismo han sido fuertemente criticadas por otras sectas budistas por sus puntos de vista únicos sobre la doctrina budista del no-yo. Independientemente de la validez de su interpretación de las enseñanzas de Buda, han mantenido su propio canon extenso y riguroso de textos budistas."
 doctrine_parameter_hostility_override_rice_mahayana_canon_doctrine:1 "Otras [faiths|E] budistas que también aceptan el #italic Canon Mahayana#! como su canon se consideran [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
@@ -931,11 +932,11 @@ doctrine_parameter_rice_vassa_active:0 "Puede tomar la [decision|E] #V Absteners
 rice_pagodas_unlocked_active_name:1 "capacidad para donar a las pagodas"
 doctrine_parameter_rice_pagodas_unlocked_active:0 "Puede construir pagodas por un coste adicional al tomar la [decision|E] #V Construir un Sitio Religioso Budista Local#!"
 rice_theravada_canon_mahavihara_doctrine_name:0 "Preeminencia de Mahavihara"
-rice_theravada_canon_mahavihara_doctrine_desc:0 "#weak Esta [doctrine|E] es heredada automáticamente por cualquier [faith|E] budista con la [doctrine|E] [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName].#!\n\nEl monasterio [mahavihara|E] emergió como la secta dominante en [RICE_sri_lanka_s_sangha|E], y se ha convertido en la principal escuela de pensamiento entre los budistas que siguen el Canon Pali."
+rice_theravada_canon_mahavihara_doctrine_desc:0 "#weak Esta [doctrine|E] es heredada automáticamente por cualquier [faith|E] budista con la [doctrine|E] [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName].#!\n\nEl monasterio [mahavihara|E] emergió como la secta dominante en [RICE_sri_lanka_sangha|E], y se ha convertido en la principal escuela de pensamiento entre los budistas que siguen el Canon Pali."
 rice_theravada_canon_abhayagiri_doctrine_name:0 "Preeminencia de Abhayagiri"
-rice_theravada_canon_abhayagiri_doctrine_desc:0 "#weak Esta [doctrine|E] es heredada automáticamente por cualquier [faith|E] budista con la [doctrine|E] [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName].#!\n\nEl monasterio [abhayagiri|E] emergió como la secta dominante en [RICE_sri_lanka_s_sangha|E], y se ha convertido en la principal escuela de pensamiento entre los budistas que siguen el Canon Pali."
+rice_theravada_canon_abhayagiri_doctrine_desc:0 "#weak Esta [doctrine|E] es heredada automáticamente por cualquier [faith|E] budista con la [doctrine|E] [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName].#!\n\nEl monasterio [abhayagiri|E] emergió como la secta dominante en [RICE_sri_lanka_sangha|E], y se ha convertido en la principal escuela de pensamiento entre los budistas que siguen el Canon Pali."
 rice_theravada_canon_jetavana_doctrine_name:0 "Preeminencia de Jetavana"
-rice_theravada_canon_jetavana_doctrine_desc:0 "#weak Esta [doctrine|E] es heredada automáticamente por cualquier [faith|E] budista con la [doctrine|E] [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName].#!\n\nEl monasterio [jetavana|E] emergió como la secta dominante en [RICE_sri_lanka_s_sangha|E], y se ha convertido en la principal escuela de pensamiento entre los budistas que siguen el Canon Pali."
+rice_theravada_canon_jetavana_doctrine_desc:0 "#weak Esta [doctrine|E] es heredada automáticamente por cualquier [faith|E] budista con la [doctrine|E] [GetDoctrineType('rice_theravada_canon_doctrine').GetBaseName].#!\n\nEl monasterio [jetavana|E] emergió como la secta dominante en [RICE_sri_lanka_sangha|E], y se ha convertido en la principal escuela de pensamiento entre los budistas que siguen el Canon Pali."
 rice_theravada_accumulation_doctrine_name:0 "Acumulación de Mérito"
 rice_theravada_accumulation_doctrine_desc:0 "Los monasterios rivales de la [RICE_sri_lanka_struggle|E] se unificaron durante la [struggle_phase_sri_lanka_accumulation|E]. Fue una era en la que las instituciones religiosas florecieron bajo el patrocinio de la élite y pudieron unirse para resolver sus diferencias. El espíritu de la época ha influido posteriormente de manera significativa en esta rama del budismo."
 rice_theravada_purification_doctrine_name:0 "Gran Purificación"
@@ -1031,7 +1032,7 @@ doctrine_parameter_rice_unlock_armenian_yazatas:0 "Añade los siguientes [yazata
 doctrine_parameter_rice_unlock_georgian_yazatas:0 "Añade los siguientes [yazatas|E] para la adoración: Dali, Gaim (reemplazando a Sraosha), Gatsi (reemplazando a Rashnu), Kopala y Zaden"
 doctrine_parameter_rice_yazata_prestige_gain_automatic:0 "Gana automáticamente [prestige|E] al tomar la [decision|E] para Adorar a los [yazatas|E]"
 doctrine_parameter_rice_yazata_pay_for_modifier_upgrade:0 "Puede pagar [gold|E] adicional para obtener una mejor versión del [character_modifier|E] al tomar la [decision|E] para Adorar a los [yazatas|E]"
-doctrine_parameter_rice_unlock_destroy_cult_centers:0 "Puede tomar la [decision|E] para Suprimir [zoroastrian_cult_centers|E] de los "[yazatas|E]" que no se adhieren a tu [doctrine|E] [yazata|E]"
+doctrine_parameter_rice_unlock_destroy_cult_centers:0 "Puede tomar la [decision|E] para Suprimir [zoroastrian_cult_centers|E] de los \"[yazatas|E]\" que no se adhieren a tu [doctrine|E] [yazata|E]"
 doctrine_parameter_rice_unlock_yazata_cult_center:0 "Puede tomar la [decision|E] para Establecer un [zoroastrian_cult_center|E] en la [capital|E]"
 doctrine_parameter_rice_no_yazatas:0 "Desactiva la [decision|E] para Adorar a los [yazatas|E]"
 
@@ -1060,9 +1061,9 @@ special_doctrine_rice_doctrine_horse_sacrifice_desc:0 "Los caballos se encuentra
 doctrine_parameter_rice_unlock_horse_sacrifice:0 "Desbloquea la [actividad|E] [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]"
 
  # Northeast African Tattoo Doctrine
-special_doctrine_rice_doctrine_northeast_african_tattoo_name:0 "Tatuajes Apotropaicos Africanos"  
-rice_doctrine_northeast_african_tattoo_name:0 "$special_doctrine_rice_doctrine_northeast_african_tattoo_name$"  
-special_doctrine_rice_doctrine_northeast_african_tattoo_desc:0 "Tradicionalmente, los tatuajes de símbolos religiosos eran vistos como poseedores de poder mágico, protector y espiritual en el noreste de África, independientemente de las creencias de cada uno."  
+special_doctrine_rice_doctrine_northeast_african_tattoo_name:0 "Tatuajes Apotropaicos Africanos"
+rice_doctrine_northeast_african_tattoo_name:0 "$special_doctrine_rice_doctrine_northeast_african_tattoo_name$"
+special_doctrine_rice_doctrine_northeast_african_tattoo_desc:0 "Tradicionalmente, los tatuajes de símbolos religiosos eran vistos como poseedores de poder mágico, protector y espiritual en el noreste de África, independientemente de las creencias de cada uno."
 doctrine_parameter_rice_unlock_northeast_african_tattoo_decision:0 "Desbloquea la [decision|E] #bold $RICE_east_african_tattoo_decision$#! independientemente de la [culture|E]"
 
  # Austroasiatic Religion

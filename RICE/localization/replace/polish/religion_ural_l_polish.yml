@@ -1,5 +1,5 @@
 ﻿l_polish:
-l_english:
+# Removed duplicate language header
 
  #Generic Pagan/Common Pagan Localization
  
@@ -16,17 +16,12 @@ l_english:
 
  finnish_pagan_desc:0 "The Finnic pagans believe that there are spirits all around us. Objects, places and people have their own guardian spirits known as Haltijas."
  
- finnish_pagan:0 "Väenusko"
  
  finnish_pagan_priest_male:0 "tietäjä"
  finnish_pagan_priest_male_plural:0 "tietäjäs"
  finnish_pagan_priest_female:0 "tietäjätär"
  finnish_pagan_priest_female_plural:0 "tietäjätärs"
  
- finnish_pagan:1 "Väenusko"
- finnish_pagan_adj:1 "Väenusko"
- finnish_pagan_adherent:1 "Väenusko"
- finnish_pagan_adherent_plural:1 "Väenuskos"
  finnish_pagan:0 "Väenusko"
  finnish_pagan_adj:0 "Väenusko"
  finnish_pagan_adherent:0 "Väenusko"
@@ -45,7 +40,7 @@ l_english:
  councillor_court_chaplain_finnish_pagan_female:1 "Court Tietäjä"
  councillor_court_chaplain_finnish_pagan_kingdom_female_possessive:1 "Court Tietäjä's"
  
- finnish_priest_0: "Tietäjä"
+ finnish_priest_0:0 "Tietäjä"
  finnish_priest_plural:0 "Tietäjäs"
  finnish_priest_female:0 "Tietäjätär"
  finnish_priest_plural_female:0 "Tietäjätärs"
@@ -193,7 +188,7 @@ l_english:
  khanty_pagan_high_god_name_alternate_possessive:0 "Old Man's"
  khanty_pagan_good_god_ekwa:0 "Kaltes-Ekwa"
  khanty_pagan_good_god_siwes:0 "Nŭm Sĭwes"
- khanty_pagan_good_god_susne: "Mir-Susne-Hum"
+ khanty_pagan_good_god_susne:0 "Mir-Susne-Hum"
  khanty_pagan_devil_name:0 "Kuł"
  khanty_pagan_devil_name_possessive:0 "Kuł's"
  khanty_pagan_evil_god_kul:0 "Kuł"
@@ -324,8 +319,8 @@ l_english:
  erzya_pagan_old:0 "Old Pazon Koy"
  erzya_pagan_old_adj:0 "Old Pazon Koy"
  erzya_pagan_old_adherent:0 "Old Pazon Koyist"
- erzya_pagan_old_adherent_plural:0 "Old Pazon Koyists" 
- erzya_pagan_desc:0 "The Erzyas are one of the two Mordvin peoples. Mordvin pagans believe in various major and minor gods, like the great hero-god Tyushtya." 
+ erzya_pagan_old_adherent_plural:0 "Old Pazon Koyists"
+ erzya_pagan_desc:0 "The Erzyas are one of the two Mordvin peoples. Mordvin pagans believe in various major and minor gods, like the great hero-god Tyushtya."
  moksha_pagan:0 "Shkayism"
  moksha_pagan_adj:0 "Shkayist"
  moksha_pagan_adherent:0 "Shkayist"
@@ -333,12 +328,12 @@ l_english:
  moksha_pagan_old:0 "Old Shkayism"
  moksha_pagan_old_adj:0 "Old Shkayist"
  moksha_pagan_old_adherent:0 "Old Shkayist"
- moksha_pagan_old_adherent_plural:0 "Old Shkayists" 
- moksha_pagan_desc:0 "The Mokshas are one of the two Mordvin peoples. Mordvin pagans believe in various major and minor gods, like the great hero-god Tyushtya." 
+ moksha_pagan_old_adherent_plural:0 "Old Shkayists"
+ moksha_pagan_desc:0 "The Mokshas are one of the two Mordvin peoples. Mordvin pagans believe in various major and minor gods, like the great hero-god Tyushtya."
  
  mordvin_religious_symbol:0 "mordvin"
  
- mordvin_religion_desc:0 "The Erzya and Moksha peoples, who collectively make up the Mordvins, are Finno-Ugric speakers from the Volga River basin. Their religious practices are similar to other Finno-Ugric peoples, but they also have their own unique aspects as well." 
+ mordvin_religion_desc:0 "The Erzya and Moksha peoples, who collectively make up the Mordvins, are Finno-Ugric speakers from the Volga River basin. Their religious practices are similar to other Finno-Ugric peoples, but they also have their own unique aspects as well."
  mordvin_religion:0 "Mordvin"
  mordvin_religion_adj:0 "Mordvin"
  mordvin_religion_adherent:0 "Mordvin"
@@ -411,18 +406,18 @@ l_english:
  erzya_pagan_religious_symbol:0 "shtatol"
  erzya_pagan_religious_text:0 "great epics"
  erzya_pagan_afterlife:0 "The underworld"
- erzya_pagan_good_god_purginepaz:0 "Purginepaz" # Thunder god
- erzya_pagan_good_god_yondolpaz:0 "Yondolpaz" # Lightning god
- erzya_pagan_good_god_varmava:0 "Varmava" # Wind spirit
- erzya_pagan_good_god_viryava:0 "Viryava" # Foreset spirit
+ erzya_pagan_good_god_purginepaz:0 "Purginepaz"
+ erzya_pagan_good_god_yondolpaz:0 "Yondolpaz"
+ erzya_pagan_good_god_varmava:0 "Varmava"
+ erzya_pagan_good_god_viryava:0 "Viryava"
 
  erzya_pagan_creator_god_name:0 "$erzya_pagan_high_god_name$"
  erzya_pagan_creator_god_name_possessive:0 "$erzya_pagan_high_god_name_possessive$"
- erzya_pagan_health_god_name:0 "Mastorava" # Technically earth goddess
+ erzya_pagan_health_god_name:0 "Mastorava"
  erzya_pagan_health_god_name_possessive:0 "Mastorava's"
- erzya_pagan_fertility_god_name:0 "Vedyava" # Water deity, but considered goddess of fertility as well
+ erzya_pagan_fertility_god_name:0 "Vedyava"
  erzya_pagan_fertility_god_name_possessive:0 "Vedyava's"
- erzya_pagan_wealth_god_name:0 "Paksyava" # Technically goddess of the fields
+ erzya_pagan_wealth_god_name:0 "Paksyava"
  erzya_pagan_wealth_god_name_possessive:0 "Paksyava"
  erzya_pagan_household_god_name:0 "Yurtava"
  erzya_pagan_household_god_name_possessive:0 "Yurtava's"
@@ -440,15 +435,15 @@ l_english:
  erzya_pagan_water_god_name_possessive:0 "Vedyava's"
  erzya_pagan_WitchGodName:0 "Nishkepaz"
 
- erzya_pagan_house_of_worship:0 "keremet" # Sacred Grove
- erzya_pagan_house_of_worship_2:0 "$erzya_pagan_house_of_worship$" # Optional translation alt
- erzya_pagan_house_of_worship_3:0 "$erzya_pagan_house_of_worship$" # Optional translation alt
- erzya_pagan_house_of_worship_plural:0 "keremets" # Sacred Grove
- erzya_priest_male:0 "ozatya" # "Praying Father"
+ erzya_pagan_house_of_worship:0 "keremet"
+ erzya_pagan_house_of_worship_2:0 "$erzya_pagan_house_of_worship$"
+ erzya_pagan_house_of_worship_3:0 "$erzya_pagan_house_of_worship$"
+ erzya_pagan_house_of_worship_plural:0 "keremets"
+ erzya_priest_male:0 "ozatya\" # \"Praying Father"
  erzya_priest_male_plural:0 "ozatya"
  erzya_priest_female:0 "ozyiy"
  erzya_priest_female_plural:0 "ozyiy"
- erzya_priest_neuter:0 "ozyiy" # Gender neutral form of Ozatya
+ erzya_priest_neuter:0 "ozyiy"
  erzya_priest_neuter_plural:0 "ozyiy"
 
  moksha_pagan_high_god_name:0 "Shkay"
@@ -462,17 +457,17 @@ l_english:
  moksha_pagan_religious_symbol:0 "shtatol"
  moksha_pagan_religious_text:0 "great epics"
  moksha_pagan_afterlife:0 "The underworld"
- moksha_pagan_good_god_atyamshkay:0 "Atyamshkay" # Thunder god
- moksha_pagan_good_god_varmava:0 "Varmava" # Wind god
- moksha_pagan_good_god_viryava:0 "Viryava" # Forest god
+ moksha_pagan_good_god_atyamshkay:0 "Atyamshkay"
+ moksha_pagan_good_god_varmava:0 "Varmava"
+ moksha_pagan_good_god_viryava:0 "Viryava"
 
  moksha_pagan_creator_god_name:0 "$moksha_pagan_high_god_name$"
  moksha_pagan_creator_god_name_possessive:0 "$moksha_pagan_high_god_name_possessive$"
- moksha_pagan_health_god_name:0 "Modava" # Technically earth goddess
+ moksha_pagan_health_god_name:0 "Modava"
  moksha_pagan_health_god_name_possessive:0 "Modava's"
- moksha_pagan_fertility_god_name:0 "Vedyava" # Water deity, but considered goddess of fertility as well
+ moksha_pagan_fertility_god_name:0 "Vedyava"
  moksha_pagan_fertility_god_name_possessive:0 "Vedyava's"
- moksha_pagan_wealth_god_name:0 "Vazava" # Technically goddess of cattle
+ moksha_pagan_wealth_god_name:0 "Vazava"
  moksha_pagan_wealth_god_name_possessive:0 "Vazava"
  moksha_pagan_household_god_name:0 "Yurkhtava"
  moksha_pagan_household_god_name_possessive:0 "Yurkhtava's"
@@ -484,17 +479,17 @@ l_english:
  moksha_pagan_war_god_name_possessive:0 "Tyushtya's"
  moksha_pagan_trickster_god_name:0 "Idemyavoz"
  moksha_pagan_trickster_god_name_possessive:0 "Idemyavoz's"
- moksha_pagan_night_god_name:0 "Kovava" # Moon goddess
+ moksha_pagan_night_god_name:0 "Kovava"
  moksha_pagan_night_god_name_possessive:0 "Kovava's"
  moksha_pagan_water_god_name:0 "Vedyava"
  moksha_pagan_water_god_name_possessive:0 "Vedyava's"
  moksha_pagan_WitchGodName:0 "$moksha_pagan_high_god_name$"
 
- moksha_pagan_house_of_worship:0 "repeshtye" # Sacred Grove
- moksha_pagan_house_of_worship_2:0 "$moksha_pagan_house_of_worship$" # Optional translation alt
- moksha_pagan_house_of_worship_3:0 "$moksha_pagan_house_of_worship$" # Optional translation alt
- moksha_pagan_house_of_worship_plural:0 "repeshtyes" # Sacred Grove
- moksha_priest_male:0 "inyatya" # "Priest"
+ moksha_pagan_house_of_worship:0 "repeshtye"
+ moksha_pagan_house_of_worship_2:0 "$moksha_pagan_house_of_worship$"
+ moksha_pagan_house_of_worship_3:0 "$moksha_pagan_house_of_worship$"
+ moksha_pagan_house_of_worship_plural:0 "repeshtyes"
+ moksha_priest_male:0 "inyatya\" # \"Priest"
  moksha_priest_male_plural:0 "inyatyas"
  moksha_priest_female:0 "inyatya"
  moksha_priest_female_plural:0 "inyatyas"
@@ -681,7 +676,7 @@ l_english:
  samoyedic_group:0 "Samoyedic"
  nenets:0 "Nenets"
  samoyedic_religion:0 "Samoyedic"
- samoyedic_religion_desc:0 "The Nenetsian faith is animistic and shamanistic. Their supreme god is the great Num, the ruler of one of the three worlds." 
+ samoyedic_religion_desc:0 "The Nenetsian faith is animistic and shamanistic. Their supreme god is the great Num, the ruler of one of the three worlds."
  samoyedic_religion_adj:0 "Samoyedic"
  samoyedic_religion_adherent:0 "Samoyedic"
  samoyedic_religion_adherent_plural:0 "Samoyedics"
@@ -738,7 +733,7 @@ l_english:
  ## Udmurt ##
  
  udmurt_religion:0 "Udmurt"
- udmurt_religion_desc:0 "Inmar, the god of the heavens is one of the Udmurt main deities." 
+ udmurt_religion_desc:0 "Inmar, the god of the heavens is one of the Udmurt main deities."
  udmurt_religion_adj:0 "Udmurt"
  udmurt_religion_adherent:0 "Udmurt"
  udmurt_religion_adherent_plural:0 "Udmurts"
@@ -832,7 +827,7 @@ l_english:
  estonian_religious_head_title:0 "Vanem"
  estonian_religious_head_title_name:0 "Vanadus"
  estonian_religious_symbol:0 "ohvrikivi"
- estonian_religious_text:0 "rahvaluule" #folklore
+ estonian_religious_text:0 "rahvaluule"
 
  estonian_creator_god_name:0 "$estonian_good_god_Maajumal$"
  estonian_creator_god_name_possessive:0 "$estonian_good_god_Maajumal$'s"
@@ -866,34 +861,34 @@ l_english:
  estonian_wealth_god_name_possessive:0 "$estonian_high_god_name_possessive$"
  estonian_witch_god_name:0 "$estonian_good_god_Rougutaja$"
 
- estonian_good_god_Ahto:0 "Ahto" #god of sea
- estonian_good_god_Aio:0 "Äio" #god of dreams
- estonian_good_god_Jumal:0 "Jumal" #god
- estonian_good_god_Jutta:0 "Jutta" #goddess of birds, daughter of Uku
- estonian_good_god_Kou:0 "Kõu" #god of thunder, son of Uku
- estonian_good_god_Lemming:0 "Lemming" #god of hunting
- estonian_good_god_Linda:0 "Linda" #goddess of birds, daughter of Uku
- estonian_good_god_Maaema:0 "Maaema" #mother of earth
- estonian_good_god_Maaisa:0 "Maaisa" #father of earth
- estonian_good_god_Maajumal:0 "Maajumal" #god of earth
- estonian_good_god_Majahaldjas:0 "Majahaldjas" #fairy of house
- estonian_good_god_Metsavana:0 "Metsavana" #god of forest
- estonian_good_god_Peko:0 "Peko" #god of fertility, Seto
- estonian_good_god_Pikker:0 "Pikker" #god of lighting, son of Uku
- estonian_good_god_Rougutaja:0 "Rõugutaja" #goddess of women and children
- estonian_good_god_Tonn:0 "Tõnn" #god of fertility
- estonian_good_god_Taara:0 "Taara" #god like Thor
- estonian_good_god_Vanemuine:0 "Vanemuine" #god of song
+ estonian_good_god_Ahto:0 "Ahto"
+ estonian_good_god_Aio:0 "Äio"
+ estonian_good_god_Jumal:0 "Jumal"
+ estonian_good_god_Jutta:0 "Jutta"
+ estonian_good_god_Kou:0 "Kõu"
+ estonian_good_god_Lemming:0 "Lemming"
+ estonian_good_god_Linda:0 "Linda"
+ estonian_good_god_Maaema:0 "Maaema"
+ estonian_good_god_Maaisa:0 "Maaisa"
+ estonian_good_god_Maajumal:0 "Maajumal"
+ estonian_good_god_Majahaldjas:0 "Majahaldjas"
+ estonian_good_god_Metsavana:0 "Metsavana"
+ estonian_good_god_Peko:0 "Peko"
+ estonian_good_god_Pikker:0 "Pikker"
+ estonian_good_god_Rougutaja:0 "Rõugutaja"
+ estonian_good_god_Tonn:0 "Tõnn"
+ estonian_good_god_Taara:0 "Taara"
+ estonian_good_god_Vanemuine:0 "Vanemuine"
 
- estonian_evil_god_Ilmatutar:0 "Ilmatütar" #goddess of weather
- estonian_evil_god_Kurat:0 "Kurat" #devil
- estonian_evil_god_Luupainaja:0 "Luupainaja" #god of nightmare
- estonian_evil_god_Mana:0 "Mana" #god of underworld
- estonian_evil_god_Paharet:0 "Paharet" #devil helper
- estonian_evil_god_Purgu_Vanaeit:0 "Põrgu Vanaeit" #goddess of underworld
- estonian_evil_god_Sarvik:0 "Sarvik" #god of underworld
- estonian_evil_god_Ussikuningas:0 "Ussikuningas" #god of snakes
- estonian_evil_god_Vana_Tuhi:0 "Vana Tühi" #god of underworld
+ estonian_evil_god_Ilmatutar:0 "Ilmatütar"
+ estonian_evil_god_Kurat:0 "Kurat"
+ estonian_evil_god_Luupainaja:0 "Luupainaja"
+ estonian_evil_god_Mana:0 "Mana"
+ estonian_evil_god_Paharet:0 "Paharet"
+ estonian_evil_god_Purgu_Vanaeit:0 "Põrgu Vanaeit"
+ estonian_evil_god_Sarvik:0 "Sarvik"
+ estonian_evil_god_Ussikuningas:0 "Ussikuningas"
+ estonian_evil_god_Vana_Tuhi:0 "Vana Tühi"
 
  osilian_pagan:0 "Taarausk"
  osilian_pagan_adj:0 "Taarausuline"
@@ -930,8 +925,8 @@ l_english:
  osilian_priest_neuter_plural:0 "nõiad"
  osilian_religious_head_title:0 "Vanem"
  osilian_religious_head_title_name:0 "Vanadus"
- osilian_religious_symbol:0 "urituli" #sacred fire
- osilian_religious_text:0 "rahvaluule" #folklore
+ osilian_religious_symbol:0 "urituli"
+ osilian_religious_text:0 "rahvaluule"
 
  osilian_creator_god_name:0 "$osilian_high_god_name$"
  osilian_creator_god_name_possessive:0 "$osilian_high_god_name_possessive$"
@@ -966,7 +961,7 @@ l_english:
  osilian_witch_god_name:0 "$osilian_devil_name$"
  
  #Holy Sites: Estonian
- holy_site_harja_name:0 "Härjä" #Toompea
+ holy_site_harja_name:0 "Härjä"
  holy_site_harja_effect_name:0 "From [holy_site|E] #weak ($holy_site_harja_name$)#!"
  holy_site_kuremae_name:0 "Kuremäe"
  holy_site_kuremae_effect_name:0 "From [holy_site|E] #weak ($holy_site_kuremae_name$)#!"
@@ -974,7 +969,7 @@ l_english:
  holy_site_puhajarv_effect_name:0 "From [holy_site|E] #weak ($holy_site_puhajarv_name$)#!"
 
 #Holy Sites: Osilian
- holy_site_ebavere_name:0 "Ebaveremägi" #Birthplace of Taara
+ holy_site_ebavere_name:0 "Ebaveremägi"
  holy_site_ebavere_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebavere_name$)#!"
  holy_site_kaali_name:0 "Kaali"
  holy_site_kaali_effect_name:0 "From [holy_site|E] #weak ($holy_site_kaali_name$)#!"
@@ -1003,7 +998,7 @@ l_english:
  bjarmian_pagan_old_adherent:0 "Vanha Jómalinusko"
  bjarmian_pagan_old_adherent_plural:0 "Vanha Jómalinusko"
  
- bjarmian_priest_0: "Tietäjä"
+ bjarmian_priest_0:0 "Tietäjä"
  bjarmian_priest_plural:0 "Tietäjäs"
  bjarmian_priest_female:0 "Tietäjätär"
  bjarmian_priest_plural_female:0 "Tietäjätärs"

@@ -21,40 +21,40 @@
  yap_pagan_high_god_name_possessive:0 "Yälfaath's"
  yap_pagan_high_god_name_alternate:0 "Yälfaath"
  yap_pagan_high_god_name_alternate_possessive:0 "Yälfaath's"
- yap_pagan_good_god_ancestors:0 "the Thagiths" # Thagith = ancestor spirits
- yap_pagan_good_god_madavul:0 "Madavul" # Mother of Margigi, who is in turn the mother of all crop deities
- yap_pagan_devil_name:0 "the evil kan" # kan = spirit
+ yap_pagan_good_god_ancestors:0 "the Thagiths"
+ yap_pagan_good_god_madavul:0 "Madavul"
+ yap_pagan_devil_name:0 "the evil kan"
  yap_pagan_devil_name_possessive:0 "the evil kan's"
- yap_pagan_death_deity_name:0 "Rumang" # watchman who guarded the gate to heaven and the underworld
+ yap_pagan_death_deity_name:0 "Rumang"
  yap_pagan_death_deity_name_possessive:0 "Rumang's"
  yap_pagan_death_deity_herhis:0 "his"
 
- yap_pagan_creator_god_name:0 "Gavur Li Yel Yel" # Creator deity
+ yap_pagan_creator_god_name:0 "Gavur Li Yel Yel"
  yap_pagan_creator_god_name_possessive:0 "Gavur Li Yel Yel's"
- yap_pagan_health_god_name:0 "Margigi" # Mother of all crop deities
+ yap_pagan_health_god_name:0 "Margigi"
  yap_pagan_health_god_name_possessive:0 "Margigi's"
- yap_pagan_fertility_god_name:0 "Taliiw	Kan" # spirits of major food sources, crop deities
+ yap_pagan_fertility_god_name:0 "Taliiw	Kan"
  yap_pagan_fertility_god_name_possessive:0 "Taliiw	Kan's"
  yap_pagan_wealth_god_name:0 "$yap_pagan_fertility_god_name$"
  yap_pagan_wealth_god_name_possessive:0 "$yap_pagan_fertility_god_name_possessive$"
- yap_pagan_household_god_name:0 "The Thagiths" # Thagith = ancestor spirits
+ yap_pagan_household_god_name:0 "The Thagiths"
  yap_pagan_household_god_name_possessive:0 "The Thagiths'"
- yap_pagan_fate_god_name:0 "Yanolop" # Head of the gods
+ yap_pagan_fate_god_name:0 "Yanolop"
  yap_pagan_fate_god_name_possessive:0 "Yanolop's"
  yap_pagan_knowledge_god_name:0 "$yap_pagan_fate_god_name$"
  yap_pagan_knowledge_god_name_possessive:0 "$yap_pagan_fate_god_name_possessive$"
  yap_pagan_war_god_name:0 "$yap_pagan_high_god_name$"
  yap_pagan_war_god_name_possessive:0 "$yap_pagan_high_god_name_possessive$"
- yap_pagan_trickster_god_name:0 "Yälfaath" # Heroic trickster deity, more heroic than his Chuukese counterpart since he's the main subject of worship
+ yap_pagan_trickster_god_name:0 "Yälfaath"
  yap_pagan_trickster_god_name_possessive:0 "Yälfaath's"
  yap_pagan_night_god_name:0 "$yap_pagan_high_god_name$"
  yap_pagan_night_god_name_possessive:0 "$yap_pagan_high_god_name_possessive$"
- yap_pagan_water_god_name:0 "Solal" # God of the sea and the underworld-under-the-sea
+ yap_pagan_water_god_name:0 "Solal"
  yap_pagan_water_god_name_possessive:0 "Solal's"
  yap_witchgodname:0 "$yap_pagan_high_god_name$"
- yap_witchgodname_possessive:0 "$yap_pagan_high_god_name_possessive$" 
+ yap_witchgodname_possessive:0 "$yap_pagan_high_god_name_possessive$"
 
- yap_pagan_house_of_worship:0 "taliiw" # taliiws are the precinct of a shrine tothoothups are spirit house where offerings are brought
+ yap_pagan_house_of_worship:0 "taliiw"
  yap_pagan_house_of_worship_plural:0 "taliiws"
  yap_pagan_religious_symbol:0 "rai stone"
  yap_pagan_religious_text:0 "sacred stories"
@@ -62,13 +62,13 @@
  yap_pagan_religious_head_title_name:0 "High Council"
  yap_pagan_devotee:0 "devotee"
  yap_pagan_devotee_plural:0 "devotees"
- yap_pagan_priest:0 "tamaarong" # Tamaarong = religious expert/priest
+ yap_pagan_priest:0 "tamaarong"
  yap_pagan_priest_plural:0 "tamaarongs"
  yap_pagan_priest_term_plural:0 "tamaarongs"
  yap_pagan_priest_alternate_plural:1 "shamans"
- yap_pagan_divine_realm:0 "Tharami" # the home of the gods
+ yap_pagan_divine_realm:0 "Tharami"
  yap_pagan_positive_afterlife:0 "$yap_pagan_divine_realm$"
- yap_pagan_negative_afterlife:0 "Ar" # The world under the sea
+ yap_pagan_negative_afterlife:0 "Ar"
  yap_pagan_bishop:0 "Chief Tamaarong"
  yap_pagan_bishop_plural:0 "Chief Tamaarongs"
 
@@ -107,7 +107,7 @@
  palau_pagan_fate_god_name_possessive:0 "$palau_pagan_fertility_god_name_possessive$"
  palau_pagan_knowledge_god_name:0 "$palau_pagan_high_god_name_alternate$"
  palau_pagan_knowledge_god_name_possessive:0 "$palau_pagan_high_god_name_alternate_possessive$"
- palau_pagan_war_god_name:0 "Orrekim" # Orrekim / Horgim - god of war; Ngirchomkuul
+ palau_pagan_war_god_name:0 "Orrekim"
  palau_pagan_war_god_name_possessive:0 "Orrekim's"
  palau_pagan_trickster_god_name:0 "$palau_pagan_devil_name$"
  palau_pagan_trickster_god_name_possessive:0 "$palau_pagan_devil_name_possessive$"

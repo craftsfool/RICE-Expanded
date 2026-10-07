@@ -98,14 +98,14 @@
  halmahera_old_pagan_adherent_plural:0 "Old Gosimosts"
  halmahera_old_pagan_desc:0 "$halmahera_pagan_desc$"
 
- halmahera_pagan_high_god_name:0 "The Gosimos" # In modern day folk Islam of the region, they are also called Jinn, but this is clearly an Islamic borrowing
+ halmahera_pagan_high_god_name:0 "The Gosimos"
  halmahera_pagan_high_god_name_possessive:0 "The Gosimos'"
  halmahera_pagan_high_god_name_alternate:0 "The Ancestors"
  halmahera_pagan_high_god_name_alternate_possessive:0 "The Ancestors'"
- halmahera_pagan_devil_name:0 "evil sprits" # In modern day folk Islam of the region, they are also called Jinn, but this is clearly an Islamic borrowing
+ halmahera_pagan_devil_name:0 "evil sprits"
  halmahera_pagan_devil_name_possessive:0 "evil sprits"
 
- halmahera_pagan_house_of_worship:0 "jere" # Megalithic tombs of the ancestors
+ halmahera_pagan_house_of_worship:0 "jere"
  halmahera_pagan_house_of_worship_plural:0 "jeres"
  halmahera_pagan_religious_symbol:0 "mountain"
  halmahera_pagan_religious_text:0 "sacred stories"
@@ -113,11 +113,11 @@
  halmahera_pagan_religious_head_title_name:0 "High Council"
  halmahera_pagan_devotee:0 "devotee"
  halmahera_pagan_devotee_plural:0 "devotees"
- halmahera_pagan_priest:0 "Sowohi" # Religious ritual specialists in Tidore, even today 
+ halmahera_pagan_priest:0 "Sowohi"
  halmahera_pagan_priest_plural:0 "Sowohis"
  halmahera_pagan_priest_term_plural:0 "Sowohis"
  halmahera_pagan_priest_alternate_plural:1 "shamans"
- halmahera_pagan_divine_realm:0 "Sacred Mountain" # the realm of paradise
+ halmahera_pagan_divine_realm:0 "Sacred Mountain"
  halmahera_pagan_positive_afterlife:0 "$halmahera_pagan_divine_realm$"
  halmahera_pagan_negative_afterlife:0 "the darkness"
  halmahera_pagan_bishop:0 "Chief Sowohi"

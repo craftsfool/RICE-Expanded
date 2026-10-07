@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+ # Existing RICE overrides moved here to use CK3 replace semantics.
+ Amatus:0 "阿马图斯"
+ Aymin:0 "阿亚觅"
+ Basili:0 "巴西利"
+ Gregori:0 "格雷戈里"
+ Maksymilian:0 "马克西米利安"
+ Simplicius:0 "辛普利丘斯"
+ Teodore:0 "特奥多尔"
+ Wulfad:0 "沃尔法德"
+ kushitism_pagan:0 "埃贝雷教"
+ kushitism_pagan_adherent:0 "埃贝雷教信徒"
+ kushitism_pagan_adherent_plural:0 "埃贝雷教信徒"
+ kushitism_pagan_adj:0 "埃贝雷教"
+ kushitism_pagan_old:0 "旧埃贝雷教"
+ kushitism_pagan_old_adherent:0 "旧埃贝雷教信徒"
+ kushitism_pagan_old_adherent_plural:0 "旧埃贝雷教信徒"
+ kushitism_pagan_old_adj:0 "旧埃贝雷教"

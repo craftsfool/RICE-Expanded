@@ -1,27 +1,27 @@
 ﻿l_spanish:
 
-YIDAM_GLOSS: "El #bold Yidam#! es una deidad meditacional que ayuda a alcanzar la iluminación espiritual en el Bon, la religión indígena [GetReligionByKey('bon_religion').GetAdjective], y en el [GetReligionByKey('buddhism_religion').GetName] tibetano. Son una parte importante de las prácticas espirituales de estas religiones, especialmente el #italic yoga deidad#! (devatayoga), que implica la recitación de oraciones y mantras, o la visualización de la deidad."
-NAT_GLOSS: "Los #bold Nats#! son deidades adoradas tradicionalmente en [GetGeographicalRegion('world_burma').GetName]. La adoración de estas deidades, y la religión popular birmana en general, se ha fusionado fuertemente con las prácticas religiosas [GetReligionByKey('buddhism_religion').GetAdjective]."
+YIDAM_GLOSS:0 "El #bold Yidam#! es una deidad meditacional que ayuda a alcanzar la iluminación espiritual en el Bon, la religión indígena [GetReligionByKey('bon_religion').GetAdjective], y en el [GetReligionByKey('buddhism_religion').GetName] tibetano. Son una parte importante de las prácticas espirituales de estas religiones, especialmente el #italic yoga deidad#! (devatayoga), que implica la recitación de oraciones y mantras, o la visualización de la deidad."
+NAT_GLOSS:0 "Los #bold Nats#! son deidades adoradas tradicionalmente en [GetGeographicalRegion('world_burma').GetName]. La adoración de estas deidades, y la religión popular birmana en general, se ha fusionado fuertemente con las prácticas religiosas [GetReligionByKey('buddhism_religion').GetAdjective]."
 
 #######################################
 # Select Personal Deity Decisions
 #######################################
 
-RICE_select_personal_deity_tibet_decision: "Seleccionar un Yidam Personal"
-select_personal_deity_tibet_decision_desc: "Un [Glossary( 'Yidam', 'YIDAM_GLOSS' )] es una deidad meditacional que ayuda a alcanzar la iluminación espiritual en la creencia [GetReligionByKey('bon_religion').GetAdjective]. Al enfocarme en un [Glossary( 'Yidam', 'YIDAM_GLOSS' )] en particular, pueden ayudarme en mi camino para convertirme en un ser completamente iluminado. \n\nDebería contemplar las diversas entidades divinas y decidir cuál me llama más la atención."
-RICE_select_personal_deity_tibet_decision_confirm: "Contemplar un Yidam"
-select_personal_yidam_decision_tooltip: "Reflexiona sobre quién debería ser tu [Glossary( 'Yidam', 'YIDAM_GLOSS' )]."
-select_personal_yidam_decision_tt: "Obtén un [modifier|E] #P positivo#! asociado con tu [Glossary( 'Yidam', 'YIDAM_GLOSS' )] seleccionado."
-RICE_select_personal_nat_decision: "Seleccionar un Nat Personal"
-select_personal_nat_decision_desc: "Un #bold Nat#! es un espíritu en la creencia [GetReligionByKey('burmic_religion').GetAdjective] que puede ayudar a alcanzar la iluminación espiritual o proteger de daños. Al enfocarme en un Nat en particular, pueden ayudarme en mi camino para convertirme en un ser completamente iluminado. \n\nDebería contemplar las diversas entidades divinas y decidir cuál me llama más la atención."
-RICE_select_personal_nat_decision_confirm: "Contemplar un Nat"
-select_personal_nat_decision_tooltip: "Reflexiona sobre quién debería ser tu Nat."
-select_personal_nat_decision_tt: "Obtén un [modifier|E] #P positivo#! asociado con tu Nat seleccionado."
-RICE_select_personal_deity_buddhist_decision: "Seleccionar una Deidad de Meditación Personal"
-select_personal_deity_buddhist_decision_desc: "Muchos [GetReligionByKey('buddhism_religion').GetAdherentNamePlural] se dedican a una #bold Deidad de Meditación, Buda o Bodhisattva#! para alcanzar la iluminación. Al dedicarme a una de ellas, pueden ayudarme en mi camino para convertirme en un ser completamente iluminado. \n\nDebería contemplar las diversas entidades divinas y decidir cuál me llama más la atención."
-RICE_select_personal_deity_buddhist_decision_confirm: "Contemplar una Deidad de Meditación"
-select_personal_deity_buddhist_decision_tooltip: "Reflexiona sobre quién debería ser tu Deidad de Meditación."
-select_personal_meditional_deity_decision_tt: "Obtén un [modifier|E] #P positivo#! asociado con tu Deidad de Meditación seleccionada."
+RICE_select_personal_deity_tibet_decision:0 "Seleccionar un Yidam Personal"
+select_personal_deity_tibet_decision_desc:0 "Un [Glossary( 'Yidam', 'YIDAM_GLOSS' )] es una deidad meditacional que ayuda a alcanzar la iluminación espiritual en la creencia [GetReligionByKey('bon_religion').GetAdjective]. Al enfocarme en un [Glossary( 'Yidam', 'YIDAM_GLOSS' )] en particular, pueden ayudarme en mi camino para convertirme en un ser completamente iluminado. \n\nDebería contemplar las diversas entidades divinas y decidir cuál me llama más la atención."
+RICE_select_personal_deity_tibet_decision_confirm:0 "Contemplar un Yidam"
+select_personal_yidam_decision_tooltip:0 "Reflexiona sobre quién debería ser tu [Glossary( 'Yidam', 'YIDAM_GLOSS' )]."
+select_personal_yidam_decision_tt:0 "Obtén un [modifier|E] #P positivo#! asociado con tu [Glossary( 'Yidam', 'YIDAM_GLOSS' )] seleccionado."
+RICE_select_personal_nat_decision:0 "Seleccionar un Nat Personal"
+select_personal_nat_decision_desc:0 "Un #bold Nat#! es un espíritu en la creencia [GetReligionByKey('burmic_religion').GetAdjective] que puede ayudar a alcanzar la iluminación espiritual o proteger de daños. Al enfocarme en un Nat en particular, pueden ayudarme en mi camino para convertirme en un ser completamente iluminado. \n\nDebería contemplar las diversas entidades divinas y decidir cuál me llama más la atención."
+RICE_select_personal_nat_decision_confirm:0 "Contemplar un Nat"
+select_personal_nat_decision_tooltip:0 "Reflexiona sobre quién debería ser tu Nat."
+select_personal_nat_decision_tt:0 "Obtén un [modifier|E] #P positivo#! asociado con tu Nat seleccionado."
+RICE_select_personal_deity_buddhist_decision:0 "Seleccionar una Deidad de Meditación Personal"
+select_personal_deity_buddhist_decision_desc:0 "Muchos [GetReligionByKey('buddhism_religion').GetAdherentNamePlural] se dedican a una #bold Deidad de Meditación, Buda o Bodhisattva#! para alcanzar la iluminación. Al dedicarme a una de ellas, pueden ayudarme en mi camino para convertirme en un ser completamente iluminado. \n\nDebería contemplar las diversas entidades divinas y decidir cuál me llama más la atención."
+RICE_select_personal_deity_buddhist_decision_confirm:0 "Contemplar una Deidad de Meditación"
+select_personal_deity_buddhist_decision_tooltip:0 "Reflexiona sobre quién debería ser tu Deidad de Meditación."
+select_personal_meditional_deity_decision_tt:0 "Obtén un [modifier|E] #P positivo#! asociado con tu Deidad de Meditación seleccionada."
 
 #######################################
 # Picking Buddhist Deities

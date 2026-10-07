@@ -21,9 +21,9 @@
  game_concept_red_sea_ferry_desc:0 "Es gibt mehrere Provinzen entlang des Roten Meeres - nämlich in #V Aydhab#!, #V Suakin#! und #V Jeddah#! - die über ein [special_building|E] namens $game_concept_red_sea_ferry$ verfügen, das verschiedene Boni bietet. Diese Häfen dienen als wichtige Durchgangsstraße für Hadsch-Pilger, die über das Rote Meer reisen wollen.\n\nJeder [ruler|E] von Aydhab oder Suakin hat auch Zugriff auf eine [decision|E], die #V Steuern#! für die Pilger dort zu #V zu erhöhen#!. Allerdings hat dies auch negative Konsequenzen. Da Aydhab und Suakin traditionell rivalisieren, werden Steuererhöhungen in der einen Stadt einen Teil des Pilgerverkehrs in die andere Stadt umleiten."
 
  # Aspirations 
- RICE_red_sea_aspiration_al_umari_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$Be an [independent|E] [king|E] or [emperor|E] [rank|E] [ruler|E]\n$EFFECT_LIST_BULLET$[completely_control|E] [GetTitleByKey('c_aswan').GetNameNoTier], [GetTitleByKey('c_qus').GetNameNoTier], [GetTitleByKey('c_qurta').GetNameNoTier], and [GetTitleByKey('c_naqis').GetNameNoTier]\n$EFFECT_LIST_BULLET$Have at least [gold_i|E] #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! in your treasury\n\n#bold Rewards#!\n$EFFECT_LIST_BULLET$Gain @gold_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [gold|E]\n$EFFECT_LIST_BULLET$Every [county|E] in your [realm|E] in [GetGeographicalRegion('world_africa_east').GetName] gains @development_icon! #V [EmptyScope.ScriptValue('RICE_red_sea_al_umari_aspiration_dev_bonus')]#! [development|E]\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$Have at least @dread_icon! #V 80#! [dread|E] (Reward: Gain a [martial_lifestyle|E] [perk|E])\n$EFFECT_LIST_BULLET$Have at least two [rivals|E] or [nemeses|E] (Reward: Gain a [intrigue_lifestyle|E] [perk|E])"
- RICE_red_sea_historical_aspiration_action_al_umari: "#italic By taking advantage of the Abbasid power vacuum and brutalizing your enemies, you hope to fill your coffers with the riches of the Eastern Desert and emerge as the most feared warlord along the Red Sea.#!$RICE_red_sea_aspiration_al_umari_desc$"
- RICE_red_sea_historical_aspiration_modifier_desc_al_umari: "[GetModifier('RICE_red_sea_aspiration_red_sea_riches').GetNameWithTooltip]"
+ RICE_red_sea_aspiration_al_umari_desc:0 "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$Be an [independent|E] [king|E] or [emperor|E] [rank|E] [ruler|E]\n$EFFECT_LIST_BULLET$[completely_control|E] [GetTitleByKey('c_aswan').GetNameNoTier], [GetTitleByKey('c_qus').GetNameNoTier], [GetTitleByKey('c_qurta').GetNameNoTier], and [GetTitleByKey('c_naqis').GetNameNoTier]\n$EFFECT_LIST_BULLET$Have at least [gold_i|E] #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! in your treasury\n\n#bold Rewards#!\n$EFFECT_LIST_BULLET$Gain @gold_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [gold|E]\n$EFFECT_LIST_BULLET$Every [county|E] in your [realm|E] in [GetGeographicalRegion('world_africa_east').GetName] gains @development_icon! #V [EmptyScope.ScriptValue('RICE_red_sea_al_umari_aspiration_dev_bonus')]#! [development|E]\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$Have at least @dread_icon! #V 80#! [dread|E] (Reward: Gain a [martial_lifestyle|E] [perk|E])\n$EFFECT_LIST_BULLET$Have at least two [rivals|E] or [nemeses|E] (Reward: Gain a [intrigue_lifestyle|E] [perk|E])"
+ RICE_red_sea_historical_aspiration_action_al_umari:0 "#italic By taking advantage of the Abbasid power vacuum and brutalizing your enemies, you hope to fill your coffers with the riches of the Eastern Desert and emerge as the most feared warlord along the Red Sea.#!$RICE_red_sea_aspiration_al_umari_desc$"
+ RICE_red_sea_historical_aspiration_modifier_desc_al_umari:0 "[GetModifier('RICE_red_sea_aspiration_red_sea_riches').GetNameWithTooltip]"
 
  # Activities
 
@@ -68,7 +68,7 @@
  building_RICE_red_sea_ferry_03:0 "Herbergen am Roten Meer"
  building_RICE_red_sea_ferry_03_desc:0 "Da sich die Stadt als wichtiger Zwischenhalt für Hadsch-Pilger etabliert hat, die auf dem Seeweg anreisen wollen, gibt es inzwischen ganze Abschnitte dieser Siedlung, die dem Unterhalt und der Bereitstellung verschiedener Unterkünfte für diese Pilger gewidmet sind."
  building_RICE_red_sea_ferry_04:0 "Pilger-Karawanserei"
- building_RICE_red_sea_ferry_04_desc:0 "Dieser Küstenhafen ist bekannt für die große Anzahl von Hadsch-Pilgern, die regelmäßig den Hafen passieren. Ein umfangreiches, gut organisiertes System von Fähren, Gasthäusern, Festungen und Märkten bietet Komfort, Sicherheit und Handelsmöglichkeiten für diese Karawanen." 
+ building_RICE_red_sea_ferry_04_desc:0 "Dieser Küstenhafen ist bekannt für die große Anzahl von Hadsch-Pilgern, die regelmäßig den Hafen passieren. Ein umfangreiches, gut organisiertes System von Fähren, Gasthäusern, Festungen und Märkten bietet Komfort, Sicherheit und Handelsmöglichkeiten für diese Karawanen."
  building_type_RICE_red_sea_pearl_industry_01:0 "Perlenindustrie"
  building_type_RICE_red_sea_pearl_industry_01_desc:0 "Die Küsten dieser Region sind reich an Perlen und stellen eine wichtige Einnahmequelle dar."
  building_RICE_red_sea_pearl_industry_01:0 "Perlentaucher"
@@ -114,12 +114,12 @@
  RICE_red_sea_beautiful_ostrich_egg:0 "Dekoratives Straußenei"
  RICE_red_sea_bought_dairy:0 "Erwarb kürzlich Ziegen, Milch und Butter"
  RICE_red_sea_bought_ostrich_egg:0 "Erwarb kürzlich Straußeneier"
- RICE_red_sea_bought_slave:0 ""Erwarb kürzlich einen neuen gefälligen Sklaven"
- RICE_red_sea_bought_camels:0 ""Erwarb kürzlich robuste, starke Kamele"
+ RICE_red_sea_bought_slave:0 "\"Erwarb kürzlich einen neuen gefälligen Sklaven"
+ RICE_red_sea_bought_camels:0 "\"Erwarb kürzlich robuste, starke Kamele"
  RICE_red_sea_massawa_mosque:0 "Moschee der Gefährten"
  RICE_red_sea_massawa_mosque_desc:0 "In der Siedlung Massawa gibt es eine Moschee, die, obwohl sie klein und unscheinbar wirkt, für die örtlichen Muslime von großer Bedeutung ist, da sie als eine der frühesten Moscheen der Welt gilt. Der Legende nach suchten einige Anhänger des Propheten Mohammed, als dieser Mekka aufgrund von Verfolgung verließ, Zuflucht in Massawa, wo sie diese Moschee errichteten."
- RICE_red_sea_aspiration_red_sea_riches: "[RICE_aspiration|E]: Bleed the Red Sea Dry"
- RICE_red_sea_aspiration_red_sea_riches_desc: "#italic By taking advantage of the Abbasid power vacuum and brutalizing his enemies, al-Umari hopes to fill his coffers with the riches of the Eastern Desert and emerge as the most feared warlord along the Red Sea.#!$RICE_red_sea_aspiration_al_umari_desc$\n\n"
+ RICE_red_sea_aspiration_red_sea_riches:0 "[RICE_aspiration|E]: Bleed the Red Sea Dry"
+ RICE_red_sea_aspiration_red_sea_riches_desc:0 "#italic By taking advantage of the Abbasid power vacuum and brutalizing his enemies, al-Umari hopes to fill his coffers with the riches of the Eastern Desert and emerge as the most feared warlord along the Red Sea.#!$RICE_red_sea_aspiration_al_umari_desc$\n\n"
 
  # Decisions
  RICE_red_sea_seek_investors_from_aswan:0 "Investoren aus Assuan suchen"
@@ -221,7 +221,7 @@
  red_sea.0019.desc:0 "xxxxx"
  red_sea.0019.a:0 "xxxxx"
  red_sea.0020.t:0 "Die Geschichte von al-'Umari"
- red_sea.0020.desc:0 "Ich lachte über die Warnungen meiner Berater. " Ihr seid zu tollkühn, sagten sie. Ihr seid zu gierig, sagten sie. Ihr seid zu blutdürstig, sagten sie. Gewiss, meine jüngsten Rückschläge haben mich gedemütigt, aber erkennen sie denn nicht das Ausmaß meines Eifers und meines Glaubens, dieses Hinterland der östlichen Wüste zum Ruhme des Kalifats zu beherrschen? Die früheren Statthalter und Beamten des Kalifats erkannten nicht den immensen, unerschlossenen Reichtum, der in [wadi_allaqi_region.GetNameNoTier] lag, aber ich sah das anders, als ich in dieses Land kam."
+ red_sea.0020.desc:0 "Ich lachte über die Warnungen meiner Berater. \" Ihr seid zu tollkühn, sagten sie. Ihr seid zu gierig, sagten sie. Ihr seid zu blutdürstig, sagten sie. Gewiss, meine jüngsten Rückschläge haben mich gedemütigt, aber erkennen sie denn nicht das Ausmaß meines Eifers und meines Glaubens, dieses Hinterland der östlichen Wüste zum Ruhme des Kalifats zu beherrschen? Die früheren Statthalter und Beamten des Kalifats erkannten nicht den immensen, unerschlossenen Reichtum, der in [wadi_allaqi_region.GetNameNoTier] lag, aber ich sah das anders, als ich in dieses Land kam."
  red_sea.0020.a:0 "Wie bin ich hierher gekommen?"
  red_sea.0021.t:0 "Die Wurzeln von al-'Umari"
  red_sea.0021.desc:0 "Ich wurde vor vielen Jahren in Medina geboren und begann nicht als ein Mann des Schwertes oder der Münze, sondern als ein Mann der Buchstaben und der Gelehrsamkeit. Trotz der Skrupellosigkeit, die mir meine Feinde nachsagen, bin ich im Herzen immer noch ein Gelehrter, einer, der die #italic Hadith#! eingehend studiert hat und der ohne Pause Gedichte rezitieren kann. Meine Reisen führten mich durch alle Länder, die nominell von den Abbasiden regiert wurden, von Fustat, wo ich viele Jahre lang studierte, bis zum spirituellen Zentrum in Kairouan. Diese Erfahrungen haben mich geformt und mich zu dem gemacht, was ich bin, insbesondere..."
@@ -259,7 +259,7 @@
  red_sea.0028.a:0 "xxxxx"
  red_sea.0029.t:0 "xxxxx"
  red_sea.0029.desc:0 "xxxxx"
- red_sea.0029.a:0 "xxxxx" 
+ red_sea.0029.a:0 "xxxxx"
  red_sea.0030.t:0 "Mu’allim und Rubban"
  red_sea.0030.desc:0 "Einige in der Region des Roten Meeres bekannte Entdecker besuchen meinen Hof. Sie sind erfahrene Hochseenavigatoren, die als #italic Mu'allim#! bekannt sind, und erklären mir einige der Grundlagen ihrer Fertigkeiten. Diese Männer haben ihr ganzes Leben der Beherrschung astronomischer Kenntnisse gewidmet und wenden sie auf Reisen zwischen den Häfen des Indischen Ozeans an.\n\nIch stelle fest, dass diese #italic Mu'allim#! eine ablehnende Haltung gegenüber den #italic Rubban#! einnehmen - einheimischen Schiffskapitänen, die hauptsächlich nur auf dem Roten Meer Erfahrung haben. Viele hier wissen jedoch, dass die #italic Rubban#! voller Wissen über die örtliche Landeskunde sind, beispielsweise über die verschiedenen Riffe und Inseln im Roten Meer und wie man sie durchquert. Letztlich scheinen diese #italischen Mu'allim#! das Wissen der #italischen Rubban#! als minderwertig zu betrachten."
  red_sea.0030.a:0 "Geografie kann jeder auswendig lernen - die Sterne zu verstehen, ist etwas anderes!"
@@ -291,7 +291,7 @@
  red_sea.0036.a:0 "Er ist bereits reich, ich bin sicher, dass er zurechtkommt."
  red_sea.0036.b:0 "Ich werde mich nicht scheuen, großzügig zu sein!"
  red_sea.0037.t:0 "Der seekranke Pilger"
- red_sea.0037.desc:0 "Ich habe einen wichtigen muslimischen Adeligen zu Gast, der gerade seine Pilgerreise nach Mekka beendet hat und nun auf dem Heimweg ist. Als ich ihn bitte, mir zu erzählen, wie sein Abenteuer verlaufen ist, berichtet er mir, dass der furchterregendste Teil der Reise die Überquerung des Roten Meeres mit einer Fähre war:\n\n"Ich war noch nie auf dem Meer gewesen", erklärt er. "Ich musste mich die ganze Zeit an meiner Sklavin festhalten, damit ich mich nicht übergeben musste. Sie war in einem Küstenland geboren und an das Leben auf einem Boot gewöhnt, und sie lachte mich wegen meiner Schwäche aus - ich hätte das streitlustige Mädchen auf der Stelle auspeitschen können, wenn ich sie nicht so gern gehabt hätte... oder vielleicht war mir einfach zu mulmig, um zu reagieren...".”"
+ red_sea.0037.desc:0 "Ich habe einen wichtigen muslimischen Adeligen zu Gast, der gerade seine Pilgerreise nach Mekka beendet hat und nun auf dem Heimweg ist. Als ich ihn bitte, mir zu erzählen, wie sein Abenteuer verlaufen ist, berichtet er mir, dass der furchterregendste Teil der Reise die Überquerung des Roten Meeres mit einer Fähre war:\n\n\"Ich war noch nie auf dem Meer gewesen\", erklärt er. \"Ich musste mich die ganze Zeit an meiner Sklavin festhalten, damit ich mich nicht übergeben musste. Sie war in einem Küstenland geboren und an das Leben auf einem Boot gewöhnt, und sie lachte mich wegen meiner Schwäche aus - ich hätte das streitlustige Mädchen auf der Stelle auspeitschen können, wenn ich sie nicht so gern gehabt hätte... oder vielleicht war mir einfach zu mulmig, um zu reagieren...\".”"
  red_sea.0037.a:0 "Es ist nicht einfach für diejenigen, die noch nie gesegelt sind!"
  red_sea.0037.b:0 "Seid froh, dass eure Sklavin loyal ist und euch bei dieser Tortur beigestanden hat."
  red_sea.0037.c:0 "Ich hätte auch gelacht - du siehst aus wie ein erbärmlicher, verweichlichter Mann."

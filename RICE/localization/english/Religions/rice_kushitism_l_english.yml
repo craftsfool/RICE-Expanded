@@ -33,9 +33,9 @@
  meroitic_high_god_name_alternate_possessive:0 "Apedemak's"
  meroitic_creator_god_name:0 "Amun"
  meroitic_creator_god_name_possessive:0 "Amun's"
- meroitic_health_god_name:0 "Isis" #Blemmeyan for Isis
+ meroitic_health_god_name:0 "Isis"
  meroitic_health_god_name_possessive:0 "Isis'"
- meroitic_fertility_god_name:0 "Sebiumeker" # God of regeneration
+ meroitic_fertility_god_name:0 "Sebiumeker"
  meroitic_fertility_god_name_possessive:0 "Sebiumeker's"
  meroitic_death_deity_name:0 "Osiris"
  meroitic_death_deity_name_possessive:0 "Osiris's"
@@ -45,7 +45,7 @@
  meroitic_fate_god_name_possessive:0 "Thoth's"
  meroitic_knowledge_god_name:0 "Thoth"
  meroitic_knowledge_god_name_possessive:0 "Thoth's"
- meroitic_night_god_name:0 "Amesemi" # Goddess of the Moon
+ meroitic_night_god_name:0 "Amesemi"
  meroitic_night_god_name_possessive:0 "Amesemi's"
  meroitic_good_god_mash:0 "Mash"
  meroitic_good_god_shebo:0 "Shebo"
@@ -78,17 +78,17 @@
  beja_high_god_name_alternate_possessive:0 "Mandulis's"
  beja_good_god_khopan:0 "Khopan"
  beja_good_god_abene:0 "Abene"
- beja_creator_god_name:0 "$beja_high_god_god_name$"
- beja_creator_god_name_possessive:0 "$beja_high_god_god_name_possessive$"
- beja_health_god_name:0 "Amati" #Blemmeyan for Isis
+ beja_creator_god_name:0 "$beja_high_god_name$"
+ beja_creator_god_name_possessive:0 "$beja_high_god_name_possessive$"
+ beja_health_god_name:0 "Amati"
  beja_health_god_name_possessive:0 "Amati's"
  beja_fertility_god_name:0 "Priapus"
  beja_fertility_god_name_possessive:0 "Priapus's"
- beja_fate_god_name:0 "$beja_health_god_god_name$"
- beja_fate_god_name_possessive:0 "$beja_health_god_god_name_possessive$"
+ beja_fate_god_name:0 "$beja_health_god_name$"
+ beja_fate_god_name_possessive:0 "$beja_health_god_name_possessive$"
  
- beja_night_god_name:0 "$beja_health_god_god_name$"
- beja_night_god_name_possessive:0 "$beja_health_god_god_name_possessive$"
+ beja_night_god_name:0 "$beja_health_god_name$"
+ beja_night_god_name_possessive:0 "$beja_health_god_name_possessive$"
  beja_death_deity_name:0 "Osiris"
  beja_death_deity_name_possessive:0 "Osiris's"
  

@@ -22,8 +22,8 @@
  # Misc
  bao_gift_breton_horses:0 "Einen Bretonen verschenken"
  bao_gift_breton_horses_desc:0 "Verschenkt ein bretonisches Pferd"
- bao_gift_breton_horses_self: "Einen Bretonen kaufen"
- bao_gift_breton_horses_self_desc: "Kauft euch ein bretonisches Pferd"
+ bao_gift_breton_horses_self:0 "Einen Bretonen kaufen"
+ bao_gift_breton_horses_self_desc:0 "Kauft euch ein bretonisches Pferd"
 
  # MAA
  marc_hegion:0 "Marc'hegion"
@@ -49,23 +49,23 @@
  bao_opinion_gifted_breton_horse:0 "Schenkte mir einen Bretonen"
 
  # Traditions 
- bao_tradition_breizh_laid_name: "Matter of Britain"
- bao_tradition_breizh_laid_desc: "Poesie, Geschichtenerzählen, Schmähung und Humor haben in den brythonischen Gesellschaften einen hohen Stellenwert. Mit Einflüssen sowohl aus der keltischen Bardentradition als auch aus der französischen Literatur ist Matter of Britain das fehlende Bindeglied zwischen den Artuslegenden und ihrer mittelalterlichen Neuinterpretation."
- bao_tradition_breizh_collective_lands_name: "Kevaez"
- bao_tradition_breizh_collective_lands_desc: "Die Kevaez (oder Quévaise im modernen Französisch), häufig in ihrer mittelalterlichen Form Quemaes, sind ein von der Komturei geführtes Landbesitzsystem zum Schutz der Bauern (wenn auch mit Einschränkungen). Dieses System wurde eingeführt, um die Rodung von Land in der Bretagne während der mittelalterlichen Warmzeit zu erleichtern."
- bao_tradition_free_range_name: "Peurajoù Libr"
- bao_tradition_free_range_desc: "Bretonische Pferde waren im Mittelalter sehr berühmt. Sie wurden auf den Peurajoù Libr, den freien Weiden, gezüchtet, d. h. auf halbwilden oder gänzlich wilden Weiden, und wurden von Adligen in ganz Westeuropa geschätzt, wie z. B. von dem berühmten Chevalier Bertrand Du Guesclin. Gegen Ende des 15. Jahrhunderts waren alle Weideflächen in der Hand einer einzigen Familie."
- culture_parameter_bao_free_ranges: "Herrscher können das #high $building_type_bao_free_range_01$#!-[building|E] in [GetGeographicalRegion('RICE_brittany_horse_region').GetName] errichten" 
- culture_parameter_bao_horse_gift: "Ermöglicht die [interaction|E] $bao_gift_breton_horses$"
+ bao_tradition_breizh_laid_name:0 "Matter of Britain"
+ bao_tradition_breizh_laid_desc:0 "Poesie, Geschichtenerzählen, Schmähung und Humor haben in den brythonischen Gesellschaften einen hohen Stellenwert. Mit Einflüssen sowohl aus der keltischen Bardentradition als auch aus der französischen Literatur ist Matter of Britain das fehlende Bindeglied zwischen den Artuslegenden und ihrer mittelalterlichen Neuinterpretation."
+ bao_tradition_breizh_collective_lands_name:0 "Kevaez"
+ bao_tradition_breizh_collective_lands_desc:0 "Die Kevaez (oder Quévaise im modernen Französisch), häufig in ihrer mittelalterlichen Form Quemaes, sind ein von der Komturei geführtes Landbesitzsystem zum Schutz der Bauern (wenn auch mit Einschränkungen). Dieses System wurde eingeführt, um die Rodung von Land in der Bretagne während der mittelalterlichen Warmzeit zu erleichtern."
+ bao_tradition_free_range_name:0 "Peurajoù Libr"
+ bao_tradition_free_range_desc:0 "Bretonische Pferde waren im Mittelalter sehr berühmt. Sie wurden auf den Peurajoù Libr, den freien Weiden, gezüchtet, d. h. auf halbwilden oder gänzlich wilden Weiden, und wurden von Adligen in ganz Westeuropa geschätzt, wie z. B. von dem berühmten Chevalier Bertrand Du Guesclin. Gegen Ende des 15. Jahrhunderts waren alle Weideflächen in der Hand einer einzigen Familie."
+ culture_parameter_bao_free_ranges:0 "Herrscher können das #high $building_type_bao_free_range_01$#!-[building|E] in [GetGeographicalRegion('RICE_brittany_horse_region').GetName] errichten"
+ culture_parameter_bao_horse_gift:0 "Ermöglicht die [interaction|E] $bao_gift_breton_horses$"
 
 # Events
  #sonerien_du
   bao.0001.t:0 "Die Sonerien Du"
-  bao.0001.desc:0 "Meine Soldaten bringen zwei junge Männer in schwarzer Kleidung, die sie vor meinem Haus festgenommen haben.\n\n"Dieses niedere Gesindel wurde schlafend in einem ausgetrockneten Graben gefunden, mein [ROOT.Char.GetLadyLord]", sagt einer meiner Soldaten auf die Frage, wer sie seien. "Sie sagen, sie seien Kirchenmusiker, aber sie haben sich verdächtig verhalten, und es ist klar, dass sie Wegelagerer sind, die Euer Land ohne Erlaubnis betreten."\n\nEin anderer Soldat wirft ein: "Ich stimme zwar zu, dass sie sich verdächtig verhalten, aber wir sollten nicht zu voreilig urteilen.\n\nDer erste Soldat ignoriert die Bemerkung des anderen und sagt: "Sie sind Wegelagerer, ob es Euch gefällt oder nicht, also schlage ich vor, dass wir sie wegen Landfriedensbruch schnell exemplarisch strafen.""
+  bao.0001.desc:0 "Meine Soldaten bringen zwei junge Männer in schwarzer Kleidung, die sie vor meinem Haus festgenommen haben.\n\n\"Dieses niedere Gesindel wurde schlafend in einem ausgetrockneten Graben gefunden, mein [ROOT.Char.GetLadyLord]\", sagt einer meiner Soldaten auf die Frage, wer sie seien. \"Sie sagen, sie seien Kirchenmusiker, aber sie haben sich verdächtig verhalten, und es ist klar, dass sie Wegelagerer sind, die Euer Land ohne Erlaubnis betreten.\"\n\nEin anderer Soldat wirft ein: \"Ich stimme zwar zu, dass sie sich verdächtig verhalten, aber wir sollten nicht zu voreilig urteilen.\n\nDer erste Soldat ignoriert die Bemerkung des anderen und sagt: \"Sie sind Wegelagerer, ob es Euch gefällt oder nicht, also schlage ich vor, dass wir sie wegen Landfriedensbruch schnell exemplarisch strafen.\""
   bao.0001.a:0 "So tut es! Und nehmt ihre Habseligkeiten!"
   bao.0001.b:0 "Schickt die beiden zurück in ihre Heimat."
   bao.0001.c:0 "Das scheinen nette Burschen zu sein. Lasst sie uns einstellen!"
-  bao.0001.info:0 "#emphasis Historischer Kontext:#! Bis zur Mitte des 20. Jahrhunderts waren Trachten das zuverlässigste Mittel, um den sozialen Status eines Fremden zu erkennen; in der Bretagne waren schwarze Trachten die unverhüllten Gewänder für die Ärmsten der Armen. Die "Sonerien Du" oder "Schwarzen Musikanten" waren reisende Sänger und Musiker, die hauptsächlich mit Speis und Trank bezahlt wurden und von Kirche zu Kirche, von Messe zu Messe und von Hochzeit zu Hochzeit zogen, um ihren Beruf auszuüben. Sie hatten den Ruf, "hep diskrog" oder "rastlos" zu spielen, und dem örtlichen Aberglauben zufolge konnte eine bretonische Hochzeit nur dann zu Ende gehen, wenn der Musikant zu betrunken zum Spielen war. Sie wurden von den Gendarmen und den oberen Schichten der bretonischen Gesellschaft oft als Unruhestifter angesehen.\n Die eigentliche "Sonerien Du"-Legende, auf die sich das Ereignis bezieht, ist die Legende der Bro Vigouden (Baronie Kemper), in der zwei schwarzgekleidete Musiker um 1790 in Pont-'n-Abad (Pont-l'-Abbé auf Französisch) zu Unrecht bestraft und zum Tode verurteilt wurden, weil sie betrunken am Straßenrand schliefen, entweder weil sie fälschlicherweise für Straßenräuber gehalten wurden oder als Folge der Korruption der örtlichen Aristokratie. Ihre Leichen wurden für alle sichtbar auf Spießen ausgesetzt. Da dieses Ereignis mit (nicht bestätigten) Pestausbrüchen zusammenfiel, hielt man sie für Märtyrer und berührte die Leichen, weil man glaubte, dass dies Immunität gegen die Pest gewähren würde."
+  bao.0001.info:0 "#emphasis Historischer Kontext:#! Bis zur Mitte des 20. Jahrhunderts waren Trachten das zuverlässigste Mittel, um den sozialen Status eines Fremden zu erkennen; in der Bretagne waren schwarze Trachten die unverhüllten Gewänder für die Ärmsten der Armen. Die \"Sonerien Du\" oder \"Schwarzen Musikanten\" waren reisende Sänger und Musiker, die hauptsächlich mit Speis und Trank bezahlt wurden und von Kirche zu Kirche, von Messe zu Messe und von Hochzeit zu Hochzeit zogen, um ihren Beruf auszuüben. Sie hatten den Ruf, \"hep diskrog\" oder \"rastlos\" zu spielen, und dem örtlichen Aberglauben zufolge konnte eine bretonische Hochzeit nur dann zu Ende gehen, wenn der Musikant zu betrunken zum Spielen war. Sie wurden von den Gendarmen und den oberen Schichten der bretonischen Gesellschaft oft als Unruhestifter angesehen.\n Die eigentliche \"Sonerien Du\"-Legende, auf die sich das Ereignis bezieht, ist die Legende der Bro Vigouden (Baronie Kemper), in der zwei schwarzgekleidete Musiker um 1790 in Pont-'n-Abad (Pont-l'-Abbé auf Französisch) zu Unrecht bestraft und zum Tode verurteilt wurden, weil sie betrunken am Straßenrand schliefen, entweder weil sie fälschlicherweise für Straßenräuber gehalten wurden oder als Folge der Korruption der örtlichen Aristokratie. Ihre Leichen wurden für alle sichtbar auf Spießen ausgesetzt. Da dieses Ereignis mit (nicht bestätigten) Pestausbrüchen zusammenfiel, hielt man sie für Märtyrer und berührte die Leichen, weil man glaubte, dass dies Immunität gegen die Pest gewähren würde."
  #toss_a_coin
   bao.0002.t:0 "Der Heilige Brunnen"
   bao.0002.desc:0 "Auf dem Weg zwischen zwei meiner Burgen bin ich über einen neuen Brunnen gestolpert, der einem örtlichen Heiligen gewidmet ist. Die Dorfbewohner in der Nähe sagen, ich solle eine Münze in den Brunnen werfen, um Glück zu erlangen!"
@@ -78,7 +78,7 @@
  bao.0050.a:0 "Gosh darn!"
  bao.0050.info:0 "#emphasis Historischer Kontext:#! Die Korriganen sind einheimische, schelmische Zwerge in der Bretagne, die den Kobolden sehr ähnlich sind. Sie sind unter vielen Namen bekannt, wie z. B. Poulpiqué, Bouffon Noz und Kereore; man sagt auch, dass es viele Varianten von ihnen gibt, wie Kerion, Ozegan, Korrig und Pixies.  Es wird oft gesagt, dass sie, wenn man sie schlecht behandelt, die wertvollen Dinge eines Menschen stehlen, wie Uhren, Socken, Löffel oder Teller."
  bao.0051.t:0 "Ein Feenring aus Pilzen"
- bao.0051.desc:0 "Ich habe bei einem Spaziergang in der Nähe meines Wohnsitzes einen "Feenring" mit schönen, unberührten Pfifferlingen gefunden. Die Korriganer haben meinen Fleiß sicher belohnt! Was soll ich mit diesen Pilzen machen?"
+ bao.0051.desc:0 "Ich habe bei einem Spaziergang in der Nähe meines Wohnsitzes einen \"Feenring\" mit schönen, unberührten Pfifferlingen gefunden. Die Korriganer haben meinen Fleiß sicher belohnt! Was soll ich mit diesen Pilzen machen?"
  bao.0051.a:0 "Sie trocknen und für ein kleines Entgelt verkaufen"
  bao.0051.b:0 "Meine Köche bitten, aus ihnen ein köstliches Mahl zu zaubern"
  bao.0051.info:0 "$bao.0050.info$"

@@ -20,11 +20,11 @@ sarnaism_old_desc:0 "$sarnaism_desc$"
 
 sarnaism_high_god_name:0 "Singabonga"
 sarnaism_high_god_name_possessive:0 "de Singabonga"
-sarnaism_health_god_name:0 "Jaher Buri" # Diosa de la Tierra/Dama del Bosquecillo
+sarnaism_health_god_name:0 "Jaher Buri"
 sarnaism_health_god_name_possessive:0 "de Jaher Buri"
-sarnaism_household_god_name:0 "Orabongako" # Dioses/espíritus/ancestros del hogar
+sarnaism_household_god_name:0 "Orabongako"
 sarnaism_household_god_name_possessive:0 "de Orabongako"
-sarnaism_war_god_name:0 "Marang Baru" # Guardián de las aldeas Santhal
+sarnaism_war_god_name:0 "Marang Baru"
 sarnaism_war_god_name_possessive:0 "de Marang Baru"
 
 sarnaism_house_of_worship:0 "sarna"
@@ -37,7 +37,7 @@ sarnaism_religious_symbol_3:0 "$sarnaism_religious_symbol$"
 sarnaism_religious_text:0 "historias sagradas"
 sarnaism_religious_text_2:0 "$sarnaism_religious_symbol$"
 sarnaism_religious_text_3:0 "$sarnaism_religious_symbol$"
-sarnaism_priest_male:0 "pahan" # Pahan o Deori
+sarnaism_priest_male:0 "pahan"
 sarnaism_priest_male_plural:0 "pahanes"
 sarnaism_priest_female:0 "ngamurok"
 sarnaism_priest_female_plural:0 "ngamuroks"

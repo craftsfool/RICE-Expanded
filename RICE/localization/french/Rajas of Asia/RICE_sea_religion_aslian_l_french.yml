@@ -33,36 +33,36 @@
  senoi_pagan_high_god_name_possessive:0 "de Nkuu"
  senoi_pagan_high_god_name_alternate:0 "le dieu du tonnerre"
  senoi_pagan_high_god_name_alternate_possessive:0 "du dieu du tonnerre"
- senoi_pagan_good_god_keloog_pias:0 "Keloog Pias" # Kəloog Pias, spirit of blessings
- senoi_pagan_good_god_keloog_kabul:0 "Keloog Kabul" # Kəloog Kabul, spirit who grants wishes
- senoi_pagan_good_god_keloog_mengkah:0 "Keloog Mengkah" # Kəloog Mengkah, spirit of the east and all goodness
+ senoi_pagan_good_god_keloog_pias:0 "Keloog Pias"
+ senoi_pagan_good_god_keloog_kabul:0 "Keloog Kabul"
+ senoi_pagan_good_god_keloog_mengkah:0 "Keloog Mengkah"
  senoi_pagan_good_god:0 "les esprits amicaux"
  senoi_pagan_good_god_possessive:0 "des esprits amicaux"
  senoi_pagan_devil_name:0 "les esprits hostiles"
  senoi_pagan_devil_name_possessive:0 "des esprits hostiles"
- senoi_pagan_death_deity_name:0 "Krentsha" # Krentʃɑ, spirit of death
+ senoi_pagan_death_deity_name:0 "Krentsha"
  senoi_pagan_death_deity_name_possessive:0 "de Krentsha"
  senoi_pagan_death_deity_herhis:0 "son"
 
  senoi_pagan_creator_god_name:0 "Jnaang"
  senoi_pagan_creator_god_name_possessive:0 "de Jnaang"
- senoi_pagan_health_god_name:0 "Keloog Ming Lot" # Kəloog Ming Lot, the Semai spiritually gifted Tiger God and first Halaaq
+ senoi_pagan_health_god_name:0 "Keloog Ming Lot"
  senoi_pagan_health_god_name_possessive:0 "de Keloog Ming Lot"
  senoi_pagan_fertility_god_name:0 "$senoi_pagan_good_god$"
  senoi_pagan_fertility_god_name_possessive:0 "$senoi_pagan_good_god_possessive$"
- senoi_pagan_wealth_god_name:0 "Keramat" # ĸerɑmat, dwellers of the land associated with landscape features
+ senoi_pagan_wealth_god_name:0 "Keramat"
  senoi_pagan_wealth_god_name_possessive:0 "de Keramat"
  senoi_pagan_household_god_name:0 "$senoi_pagan_good_god$"
  senoi_pagan_household_god_name_possessive:0 "$senoi_pagan_good_god_possessive$"
- senoi_pagan_fate_god_name:0 "Naga" # Naga, the wise and gentle teacher of the first Halaaq, brother of Nkuu
+ senoi_pagan_fate_god_name:0 "Naga"
  senoi_pagan_fate_god_name_possessive:0 "de Naga"
  senoi_pagan_knowledge_god_name:0 "$senoi_pagan_fate_god_name$"
  senoi_pagan_knowledge_god_name_possessive:0 "$senoi_pagan_fate_god_name_possessive$"
- senoi_pagan_war_god_name:0 "Ipoh Bernei" # Ipoh Bernei, spirit of the Ipoh plant used for blowdart guns
+ senoi_pagan_war_god_name:0 "Ipoh Bernei"
  senoi_pagan_war_god_name_possessive:0 "d'Ipoh Bernei"
  senoi_pagan_trickster_god_name:0 "$senoi_pagan_devil_name$"
  senoi_pagan_trickster_god_name_possessive:0 "$senoi_pagan_devil_name_possessive$"
- senoi_pagan_night_god_name:0 "Keloog Nhenlel" # Kəloog Ŋenlel, spirit of twilight
+ senoi_pagan_night_god_name:0 "Keloog Nhenlel"
  senoi_pagan_night_god_name_possessive:0 "de Keloog Nhenlel"
  senoi_pagan_water_god_name:0 "$senoi_pagan_good_god$"
  senoi_pagan_water_god_name_possessive:0 "$senoi_pagan_good_god_possessive$"
@@ -75,13 +75,13 @@
  senoi_pagan_religious_head_title_name:0 "Haut Conseil"
  senoi_pagan_devotee:0 "dévot"
  senoi_pagan_devotee_plural:0 "dévots"
- senoi_pagan_priest:0 "Halaaq" # halaaɂ (variously spelt as halaag, halaa, and halaak; the correct form is halaaˀ or halaaq) - I am using the q to indicate the glottal stop
+ senoi_pagan_priest:0 "Halaaq"
  senoi_pagan_priest_plural:0 "Halaaqs"
  senoi_pagan_priest_term_plural:0 "Halaaqs"
  senoi_pagan_priest_alternate_plural:1 "chamanes"
- senoi_pagan_divine_realm:0 "Oos Nyeng" # le Bon Endroit
+ senoi_pagan_divine_realm:0 "Oos Nyeng"
  senoi_pagan_positive_afterlife:0 "$senoi_pagan_divine_realm$"
- senoi_pagan_negative_afterlife:0 "Jenaloob" # le Mauvais Endroit
+ senoi_pagan_negative_afterlife:0 "Jenaloob"
  senoi_pagan_bishop:0 "Chef Halaaq"
  senoi_pagan_bishop_plural:0 "Chefs Halaaqs"
 
@@ -99,7 +99,7 @@
  semang_pagan_death_deity_name_possessive:0 "de la mort"
  semang_pagan_death_deity_herhis:0 "son"
 
- semang_pagan_creator_god_name:0 "Manoij" # Creator goddess, wife of Karey
+ semang_pagan_creator_god_name:0 "Manoij"
  semang_pagan_creator_god_name_possessive:0 "de Manoij"
  semang_pagan_health_god_name:0 "$semang_pagan_creator_god_name$"
  semang_pagan_health_god_name_possessive:0 "$semang_pagan_creator_god_name_possessive$"
@@ -111,7 +111,7 @@
  semang_pagan_household_god_name_possessive:0 "$semang_pagan_creator_god_name_possessive$"
  semang_pagan_fate_god_name:0 "le destin"
  semang_pagan_fate_god_name_possessive:0 "du destin"
- semang_pagan_knowledge_god_name:0 "Taped'n" # Karey's brother
+ semang_pagan_knowledge_god_name:0 "Taped'n"
  semang_pagan_knowledge_god_name_possessive:0 "Taped'n"
  semang_pagan_war_god_name:0 "$semang_pagan_high_god_name$"
  semang_pagan_war_god_name_possessive:0 "$semang_pagan_high_god_name_possessive$"

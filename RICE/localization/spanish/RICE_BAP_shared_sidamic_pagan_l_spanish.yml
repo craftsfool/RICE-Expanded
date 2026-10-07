@@ -31,13 +31,13 @@ damot_pagan_old_adherent_plural:0 "Antiguos Däskitas"
 damot_pagan_old_desc:0 "$damot_pagan_desc$"
 
 sidama_high_god_name:0 "Magano"
-sidama_high_god_name_2:0 "$sidama_high_god_name$" # Traducción opcional alt
-sidama_high_god_name_3:0 "$sidama_high_god_name$" # Traducción opcional alt
+sidama_high_god_name_2:0 "$sidama_high_god_name$"
+sidama_high_god_name_3:0 "$sidama_high_god_name$"
 sidama_creator_god_name:0 "$sidama_high_god_name$"
 sidama_creator_god_name_possessive:0 "$sidama_high_god_name$"
-sidama_good_god_name:0 "Akaako" # Buenos espíritus
+sidama_good_god_name:0 "Akaako"
 sidama_good_god_name_possessive:0 "de Akaako"
-sidama_ancestor_god_name:0 "Akaako" # Espíritus ancestrales
+sidama_ancestor_god_name:0 "Akaako"
 sidama_ancestor_god_name_possessive:0 "de Akaako"
 sidama_health_god_name:0 "$sidama_good_god_name$"
 sidama_health_god_name_possessive:0 "$sidama_good_god_name_possessive$"
@@ -53,7 +53,7 @@ sidama_knowledge_god_name:0 "$sidama_ancestor_god_name$"
 sidama_knowledge_god_name_possessive:0 "$sidama_ancestor_god_name_possessive$"
 sidama_war_god_name:0 "$sidama_good_god_name$"
 sidama_war_god_name_possessive:0 "$sidama_good_god_name_possessive$"
-sidama_trickster_god_name:0 "los espíritus malignos" # Espíritus malignos
+sidama_trickster_god_name:0 "los espíritus malignos"
 sidama_trickster_god_name_possessive:0 "de los espíritus malignos"
 sidama_night_god_name:0 "$sidama_good_god_name$"
 sidama_night_god_name_possessive:0 "$sidama_good_god_name_possessive$"
@@ -61,8 +61,8 @@ sidama_water_god_name:0 "$sidama_good_god_name$"
 sidama_water_god_name_possessive:0 "$sidama_good_god_name_possessive$"
 
 sidama_house_of_worship:0 "santuario"
-sidama_house_of_worship_2:0 "$sidama_house_of_worship$" # Traducción opcional alt
-sidama_house_of_worship_3:0 "$sidama_house_of_worship$" # Traducción opcional alt
+sidama_house_of_worship_2:0 "$sidama_house_of_worship$"
+sidama_house_of_worship_3:0 "$sidama_house_of_worship$"
 sidama_house_of_worship_plural:0 "santuarios"
 
 sidama_priest:0 "qaddo"
@@ -71,8 +71,8 @@ sidama_high_priest:0 "ganna"
 sidama_high_priest_plural:0 "ganna"
 
 damot_high_god_name:0 "Däsk"
-damot_high_god_name_2:0 "$sidama_high_god_name$" # Traducción opcional alt
-damot_high_god_name_3:0 "$sidama_high_god_name$" # Traducción opcional alt
+damot_high_god_name_2:0 "$sidama_high_god_name$"
+damot_high_god_name_3:0 "$sidama_high_god_name$"
  damot_high_god_name_possessive:0 "Däsk's"
 
 # Fandaanano
@@ -84,18 +84,18 @@ fandaanano_adherent_plural:0 "Fandaanano"
 fandaanano_desc:0 "Hay un Dios creador, Waaýa; sin embargo, el destino de la humanidad depende principalmente de los espíritus menores y demonios, a quienes debemos adorar y evitar respectivamente. Aunque los seguidores de las religiones abrahámicas nos ven con sospecha, somos una verdadera religión como ellos, y no podemos ser considerados paganos."
 
 fandaanano_high_god_name:0 "Waaýa"
-fandaanano_high_god_name_2:0 "$fandaanano_high_god_name$" # Traducción opcional alt
-fandaanano_high_god_name_3:0 "$fandaanano_high_god_name$" # Traducción opcional alt
-fandaanano_high_god_name_possessive:0 "de Waaýa" # Traducción opcional alt
+fandaanano_high_god_name_2:0 "$fandaanano_high_god_name$"
+fandaanano_high_god_name_3:0 "$fandaanano_high_god_name$"
+fandaanano_high_god_name_possessive:0 "de Waaýa"
 fandaanano_good_god_name:0 "los buenos espíritus"
 fandaanano_good_god_name_possessive:0 "de los buenos espíritus"
-fandaanano_trickster_god_name:0 "los šetaana" # Espíritus malignos
+fandaanano_trickster_god_name:0 "los šetaana"
 fandaanano_trickster_god_name_possessive:0 "de los šetaana"
-fandaanano_health_god_name:0 "Kitoosa" # Cristo
+fandaanano_health_god_name:0 "Kitoosa"
 fandaanano_health_god_name_possessive:0 "de Kitoosa"
-fandaanano_fertility_god_name:0 "Maaraame" # Santa María
+fandaanano_fertility_god_name:0 "Maaraame"
 fandaanano_fertility_god_name_possessive:0 "de Maaraame"
-fandaanano_war_god_name:0 "Gergiisa" # San Jorge
+fandaanano_war_god_name:0 "Gergiisa"
 fandaanano_war_god_name_possessive:0 "de Gergiisa"
 fandaanano_priest:0 "kiiraano"
 fandaanano_priest_plural:0 "kiiraano"

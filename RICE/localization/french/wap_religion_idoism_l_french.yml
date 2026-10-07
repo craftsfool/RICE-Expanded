@@ -12,12 +12,12 @@
  idoism_religion_adherent_plural:1 "Chadians"
  idoism_religion_desc:1 "Les peuples du Sahara central et du Sahel possèdent des traditions variées, parmi lesquelles figure le respect de la nature et du monde des esprits. Les montagnes sont souvent considérées comme sacrées."
  # Temples, priests, symbols, divine terms
- idoism_house_of_worship:0 "Shrine" 
+ idoism_house_of_worship:0 "Shrine"
  idoism_house_of_worship_plural:0 "Shrines"
  idoism_religious_symbol:0 "nahãs"
- idoism_religious_text:0 "sacred songs" #fictional
- idoism_religious_head_title:0 "Supreme Urong Durong" #fictional
- idoism_religious_head_title_name:0 "Durongiate" #fictional
+ idoism_religious_text:0 "sacred songs"
+ idoism_religious_head_title:0 "Supreme Urong Durong"
+ idoism_religious_head_title_name:0 "Durongiate"
  idoism_priest_male:0 "bada"
  idoism_priest_male_plural:0 "bada"
  idoism_priest_term_plural:0 "badas"
@@ -61,18 +61,18 @@
  idoism_war_god_name_possessive:0 "Mani's"
  idoism_trickster_god_name:0 "Boi"
  idoism_trickster_god_name_possessive:0 "Boi's"
- idoism_night_god_name:0 "$idoism_trickster_god_name$" 
+ idoism_night_god_name:0 "$idoism_trickster_god_name$"
  idoism_night_god_name_possessive:0 "$idoism_trickster_god_name_possessive$"
- idoism_water_god_name:0 "the water spirits" #fictional though keeping within the belief system.
+ idoism_water_god_name:0 "the water spirits"
  idoism_water_god_name_possessive:0 "the water spirit's"
  idoism_death_deity_name:0 "Mani"
  idoism_death_deity_name_possessive:0 "Mani's"
  witchgodname_idoism_boi:0 "$idoism_devil_name$"
  witchgodname_idoism_boi_possessive:0 "$idoism_devil_name_possessive$"
  #Idoism Pagan
- idoism_pagan:0 "Idoism" #fictional as no known name available for traditional Zaghawi religion.
- idoism_pagan_adj:0 "Idoic" #fictional term created for game purposes.
- idoism_pagan_adherent:0 "Idoist" #fictional term created for game purposes.
+ idoism_pagan:0 "Idoism"
+ idoism_pagan_adj:0 "Idoic"
+ idoism_pagan_adherent:0 "Idoist"
  idoism_pagan_adherent_plural:0 "Idoists"
  idoism_pagan_desc:1 "The world has been created and is controlled by Ido, the high god who dwells in Ido Ha, the sacred mountain. He is master of our world and boi-bé - the world of the spirits. We can commune with him at our ha-manda - sacred mountains, gurbo-manda - sacred rocks, and betti-manda - sacred trees."
  

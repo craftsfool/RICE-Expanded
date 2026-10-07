@@ -33,13 +33,13 @@
 
 
  welayta_high_god_name:0 "Xossa"
- welayta_high_god_name_2:0 "$welayta_high_god_name$" # Optional translation alt
- welayta_high_god_name_3:0 "$welayta_high_god_name$" # Optional translation alt
+ welayta_high_god_name_2:0 "$welayta_high_god_name$"
+ welayta_high_god_name_3:0 "$welayta_high_god_name$"
  welayta_creator_god_name:0 "$welayta_high_god_name$"
  welayta_creator_god_name_possessive:0 "$welayta_high_god_name_possessive$"
- welayta_good_god_name:0 "the Xilo-ayyana" # Good spirits
+ welayta_good_god_name:0 "the Xilo-ayyana"
  welayta_good_god_name_possessive:0 "the Xilo-ayyana's"
- welayta_ancestor_god_name:0 "the Awa-xossa" # Ancestor spirits
+ welayta_ancestor_god_name:0 "the Awa-xossa"
  welayta_ancestor_god_name_possessive:0 "the Awa-xossa's"
  welayta_health_god_name:0 "$welayta_good_god_name$"
  welayta_health_god_name_possessive:0 "$welayta_good_god_name_possessive$"
@@ -55,7 +55,7 @@
  welayta_knowledge_god_name_possessive:0 "$welayta_ancestor_god_name_possessive$"
  welayta_war_god_name:0 "$welayta_good_god_name$"
  welayta_war_god_name_possessive:0 "$welayta_good_god_name_possessive$"
- welayta_trickster_god_name:0 "the Ita-ayyana" # Evil spirits
+ welayta_trickster_god_name:0 "the Ita-ayyana"
  welayta_trickster_god_name_possessive:0 "the Ita-ayyana's"
  welayta_night_god_name:0 "$welayta_good_god_name$"
  welayta_night_god_name_possessive:0 "$welayta_good_god_name_possessive$"
@@ -63,8 +63,8 @@
  welayta_water_god_name_possessive:0 "$welayta_good_god_name_possessive$"
 
  welayta_house_of_worship:0 "shrine"
- welayta_house_of_worship_2:0 "$welayta_house_of_worship$" # Optional translation alt
- welayta_house_of_worship_3:0 "$welayta_house_of_worship$" # Optional translation alt
+ welayta_house_of_worship_2:0 "$welayta_house_of_worship$"
+ welayta_house_of_worship_3:0 "$welayta_house_of_worship$"
  welayta_house_of_worship_plural:0 "shrines"
 
  welayta_priest:0 "sharechuwa"

@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
- tradition_hfc_bedouin_honor_codes_name: "贝都因人的荣誉准则"
- tradition_hfc_bedouin_honor_codes_desc: "对于贝都因人来说，正直就是一切：好客和诚实，即使是对待敌人；拥有捍卫家族和部落的勇气。破坏这一准则的领袖将面对各方反对，而那些以身作则的人将从人民的善意中获得强大的资源。"
- culture_parameter_generous_honest_brave_traits_more_valued: "[personality_traits|E]如[GetTrait('generous').GetName( GetNullCharacter )]，[GetTrait('honest').GetName( GetNullCharacter )]，和[GetTrait('brave').GetName( GetNullCharacter )]被视为[prestige_i]#P 受人尊敬的#!"
- culture_parameter_greedy_deceitful_craven_traits_looked_down_upon: "[personality_traits|E]如[GetTrait('craven').GetName( GetNullCharacter )]，[GetTrait('deceitful').GetName( GetNullCharacter )]，和[GetTrait('greedy').GetName( GetNullCharacter )]被视为[prestige_i]#N 耻辱的#!"
- tradition_hfc_bedouin_oral_poetry_name: "贝都因人的口头诗"
- tradition_hfc_bedouin_oral_poetry_desc: "诗歌被认为是贝都因人的一种高尚艺术，而且几乎完全是以口头和背诵的形式。作为沙漠中为数不多的娱乐方式之一，许多人吧时间花在拼凑有意义和思想的词语上。孩子们在成长的过程中会听很多关于文化英雄和价值观的故事。"
+ tradition_hfc_bedouin_honor_codes_name:0 "贝都因人的荣誉准则"
+ tradition_hfc_bedouin_honor_codes_desc:0 "对于贝都因人来说，正直就是一切：好客和诚实，即使是对待敌人；拥有捍卫家族和部落的勇气。破坏这一准则的领袖将面对各方反对，而那些以身作则的人将从人民的善意中获得强大的资源。"
+ culture_parameter_generous_honest_brave_traits_more_valued:0 "[personality_traits|E]如[GetTrait('generous').GetName( GetNullCharacter )]，[GetTrait('honest').GetName( GetNullCharacter )]，和[GetTrait('brave').GetName( GetNullCharacter )]被视为[prestige_i]#P 受人尊敬的#!"
+ culture_parameter_greedy_deceitful_craven_traits_looked_down_upon:0 "[personality_traits|E]如[GetTrait('craven').GetName( GetNullCharacter )]，[GetTrait('deceitful').GetName( GetNullCharacter )]，和[GetTrait('greedy').GetName( GetNullCharacter )]被视为[prestige_i]#N 耻辱的#!"
+ tradition_hfc_bedouin_oral_poetry_name:0 "贝都因人的口头诗"
+ tradition_hfc_bedouin_oral_poetry_desc:0 "诗歌被认为是贝都因人的一种高尚艺术，而且几乎完全是以口头和背诵的形式。作为沙漠中为数不多的娱乐方式之一，许多人吧时间花在拼凑有意义和思想的词语上。孩子们在成长的过程中会听很多关于文化英雄和价值观的故事。"

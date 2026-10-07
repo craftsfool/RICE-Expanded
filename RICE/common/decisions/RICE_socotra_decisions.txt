@@ -766,6 +766,8 @@ RICE_pirate_indian_ocean_decision = {
 	widget = {
 		gui = "decision_view_widget_RICE_pirate_indian_ocean_decision"
 		controller = decision_option_list_controller
+		# CK3 1.20: keep choices visible before confirming.
+		show_from_start = yes
 		decision_to_second_step_button = "RICE_PIRATE_PICK_ACTION_TYPE"
 		show_from_start = yes
 		
@@ -1106,6 +1108,8 @@ RICE_socotra_cast_insular_sorcery = {
 	widget = {
 		gui = "decision_view_widget_RICE_socotra_cast_insular_sorcery"
 		controller = decision_option_list_controller
+		# CK3 1.20: keep choices visible before confirming.
+		show_from_start = yes
 		decision_to_second_step_button = "RICE_SOCOTRA_SORCERY_PICK_TYPE"
 		show_from_start = yes	
 		

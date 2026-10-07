@@ -42,6 +42,8 @@ RICE_sicily_struggle_ending_dominion_decision = {
 	widget = {
 		gui = "decision_view_widget_RICE_sicily_dominion_ending"
 		controller = decision_option_list_controller
+		# CK3 1.20: keep choices visible before confirming.
+		show_from_start = yes
 		decision_to_second_step_button = "RICE_SICILY_PICK_DOMINION_ENDING_TYPE"
 		show_from_start = yes
 		
@@ -762,6 +764,8 @@ RICE_sicily_constantine_the_african_decision = {
 	widget = {
 		gui = "decision_view_widget_generic_multichoice_with_effects"
 		controller = decision_option_list_controller
+		# CK3 1.20: keep choices visible before confirming.
+		show_from_start = yes
 		decision_to_second_step_button = "CHOOSE_CONSTANTINE_ACTION"
 		show_from_start = yes
 		
@@ -1952,6 +1956,8 @@ RICE_sicily_bargain_with_stronghold = {
 	widget = {
 		gui = "decision_view_widget_RICE_sicily_bargain_with_stronghold"
 		controller = decision_option_list_controller
+		# CK3 1.20: keep choices visible before confirming.
+		show_from_start = yes
 		decision_to_second_step_button = "RICE_SICILY_PICK_STRONGHOLD_TYPE"
 		show_from_start = yes
 		
@@ -2114,6 +2120,8 @@ RICE_sicily_recruit_soldiers_decision = {
 	widget = {
 		gui = "decision_view_widget_generic_multichoice_with_effects"
 		controller = decision_option_list_controller
+		# CK3 1.20: keep choices visible before confirming.
+		show_from_start = yes
 		decision_to_second_step_button = "RICE_SICILY_PICK_SOLDIER_TYPE"
 		show_from_start = yes
 		
@@ -2364,6 +2372,8 @@ RICE_sicily_administer_frontier = {
 	widget = {
 		gui = "decision_view_widget_RICE_sicily_administer_frontier"
 		controller = decision_option_list_controller
+		# CK3 1.20: keep choices visible before confirming.
+		show_from_start = yes
 		decision_to_second_step_button = "RICE_SICILY_PICK_AGENDA_TYPE"
 		show_from_start = yes
 		

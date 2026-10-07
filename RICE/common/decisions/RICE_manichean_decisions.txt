@@ -119,6 +119,8 @@ RICE_uyghur_manichean_church_decision = {
 	widget = {
 		gui = "decision_view_widget_RICE_manichean_uyghur_decision"
 		controller = decision_option_list_controller
+		# CK3 1.20: keep choices visible before confirming.
+		show_from_start = yes
 		decision_to_second_step_button = "RICE_manichean_uyghur_decision_PICK_TYPE"
 		show_from_start = yes
 		
@@ -713,6 +715,8 @@ RICE_manichean_convert_away_decision = {
 	widget = {
 		gui = "decision_view_widget_RICE_manichean_convert_away_decision"
 		controller = decision_option_list_controller
+		# CK3 1.20: keep choices visible before confirming.
+		show_from_start = yes
 		decision_to_second_step_button = "RICE_ADOPT_NEW_UYGHUR_FAITH_PICK_ACTION_TYPE"
 		show_from_start = yes
 
@@ -1015,6 +1019,8 @@ RICE_manichean_manuscript_decision = {
 	widget = {
 		gui = "decision_view_widget_RICE_manichean_manuscript_decision"
 		controller = decision_option_list_controller
+		# CK3 1.20: keep choices visible before confirming.
+		show_from_start = yes
 		decision_to_second_step_button = "RICE_MANICHEAN_MANUSCRIPT_PICK_TYPE"
 		show_from_start = yes
 		

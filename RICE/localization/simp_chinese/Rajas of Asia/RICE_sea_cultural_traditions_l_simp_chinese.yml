@@ -1,0 +1,13 @@
+﻿l_simp_chinese:
+ tradition_angkorian_architecture_name:0 "吴哥建筑"
+ tradition_angkorian_architecture_desc:1 "该文化觉得建造神殿是通向神明最直接的方式。虔诚的统治者会建造很多很大的神殿。"
+ bokator:0 "那曳罗"
+ bokator_flavor:0 "#F 那曳罗属于战士种姓，其不仅接受武术训练，还被训练如何欺骗和分散敌人的注意力。#!"
+ tradition_warrior_caste_name:1 "战士种姓"
+ tradition_warrior_caste_desc:1 "我们的人民受印度神祇和自然野兽的启发发展出了一种独特的战斗方式。罗菩迦度罗的范用性极佳，其技艺很受士兵们的欢迎。"
+ culture_parameter_unlock_maa_khmer:0 "可以招募[GetMaA('bokator').GetName][men_at_arms|E]"
+ luojuzi:0 "罗苴子"
+ luojuzi_flavor:0 "#F 择乡兵为四军罗苴子，戴朱鞮鍪，负犀革铜盾而跣，走险如飞#!"
+ tradition_tiger_sons_name:1 "猛虎之子"
+ tradition_tiger_sons_desc:1 "那些不论艰险，愿意持剑为自己的文化而战的人应受崇敬。"
+ culture_parameter_unlock_maa_luojuzi:0 "可以招募[GetMaA('luojuzi').GetName][men_at_arms|E]"

@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ RICEmisc.0010.t:0 "皈依"
+ RICEmisc.0010.desc.host:0 "由于我已皈依[host.GetFaith.GetName]，我原本计划的[activity_type.GetNameNoTooltip()]对我已无太大用处，因为活动本身不符合我所遵循的新教义，因此我取消了该活动。"
+ RICEmisc.0010.desc.not_host:0 "由于[host.GetTitledFirstName]已皈依[host.GetFaith.GetName]，[host.GetSheHe]原计划的[activity_type.GetNameNoTooltip()]已被取消，因为该活动本身或其进行方式不符合[host.GetSheHe]所遵循的新教义。\n\n这确实令人颇为尴尬。"
+ RICEmisc.0010.a:0 "就这样吧。"

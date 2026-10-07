@@ -1,0 +1,515 @@
+﻿CAUC_CE_setup_867_effect = {
+culture:alan = { save_scope_as = alan }
+culture:georgian = { save_scope_as = georgian }
+culture:circassian = { save_scope_as = circassian }
+culture:circassian = {
+		get_all_innovations_from = culture:alan
+	}
+culture:abkhaz = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:lazi = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:ce_svan = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:udi = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:dagestani = {
+		get_all_innovations_from = culture:alan
+	}
+culture:georgian = {
+		set_heritage_from = culture:circassian
+	}
+culture:armenian = {
+		set_culture_pillar = heritage_armenian
+	}
+culture:armenian = {
+		remove_culture_tradition = tradition_zealous_people
+	}
+culture:armenian = {
+		add_culture_tradition = tradition_armenian_resilience
+	}
+if = { limit = { exists = character:160021 } character:160021 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160022 } character:160022 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160023 } character:160023 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160024 } character:160024 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160025 } character:160025 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160026 } character:160026 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160027 } character:160027= {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160028 } character:160028 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160029 } character:160029 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160030 } character:160030 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160031 } character:160031 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70472 } character:70472 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70473 } character:70473 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70471 } character:70471 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70476 } character:70476 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70474 } character:70474 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70475 } character:70475 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70470 } character:70470 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70469 } character:70469 = {
+		set_culture = culture:abkhaz
+	} }
+title:c_abkhazia = {
+		set_county_culture = culture:abkhaz
+	}
+title:c_odishi = {
+		set_county_culture = culture:lazi
+	}
+title:c_acampse = {
+		set_county_culture = culture:lazi
+	}
+title:c_tmutarakan = {
+		set_county_culture = culture:circassian
+		set_county_faith = faith:orthodox
+	}
+title:c_zichia = {
+		set_county_culture = culture:circassian
+		set_county_faith = faith:orthodox
+	}
+title:c_shaki = {
+		set_county_culture = culture:udi
+	}
+title:c_aran = {
+		set_county_culture = culture:udi
+	}
+title:c_hereti = {
+		set_county_culture = culture:georgian
+	}
+title:c_tbilisi = {
+		set_county_culture = culture:georgian
+	}
+title:c_derbent = {
+		set_county_culture = culture:dagestani
+	}
+title:c_samander = {
+		set_county_culture = culture:dagestani
+		set_county_faith = faith:orthodox
+	}
+title:c_samiran = {
+		set_county_culture = culture:dagestani
+		set_county_faith = faith:tengri_pagan
+	}
+title:c_svaneti = {
+		set_county_culture = culture:ce_svan
+	}
+culture:tat = {
+		get_all_innovations_from = culture:daylamite
+	}
+culture:alan = {
+		set_culture_pillar = language_alani
+	}
+title:c_shirvan = {
+		set_county_culture = culture:tat
+	}
+title:c_ablastha = {
+		set_county_culture = culture:armenian
+	}
+title:c_azysia = {
+		set_county_culture = culture:armenian
+	}
+title:c_lycandus = {
+		set_county_culture = culture:armenian
+	}
+title:c_satala = {
+		set_county_culture = culture:armenian
+	}
+title:c_sebasteia = {
+		set_county_culture = culture:armenian
+	}
+title:c_zela = {
+		set_county_culture = culture:armenian
+	}
+title:c_colonea = {
+		set_county_culture = culture:armenian
+	}
+}
+
+CAUC_CE_setup_1066_effect = {
+culture:alan = { save_scope_as = alan }
+culture:georgian = { save_scope_as = georgian }
+culture:circassian = {
+		get_all_innovations_from = culture:alan
+	}
+culture:abkhaz = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:lazi = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:ce_svan = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:udi = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:dagestani = {
+		get_all_innovations_from = culture:alan
+	}
+culture:georgian = {
+		set_heritage_from = culture:circassian
+	}
+culture:armenian = {
+		set_culture_pillar = heritage_armenian
+	}
+culture:armenian = {
+		add_culture_tradition = tradition_armenian_resilience
+	}
+if = { limit = { exists = character:160021 } character:160021 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160022 } character:160022 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160023 } character:160023 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160024 } character:160024 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160025 } character:160025 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160026 } character:160026 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160027 } character:160027= {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160028 } character:160028 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160029 } character:160029 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160030 } character:160030 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160031 } character:160031 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70472 } character:70472 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70473 } character:70473 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70471 } character:70471 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70476 } character:70476 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70474 } character:70474 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70475 } character:70475 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70470 } character:70470 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70469 } character:70469 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70468 } character:70468 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70465 } character:70465 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70466 } character:70466 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70467 } character:70467 = {
+		set_culture = culture:abkhaz
+	} }
+title:c_abkhazia = {
+		set_county_culture = culture:abkhaz
+	}
+title:c_odishi = {
+		set_county_culture = culture:lazi
+	}
+title:c_acampse = {
+		set_county_culture = culture:lazi
+	}
+title:c_zichia = {
+		set_county_culture = culture:circassian
+	}
+title:c_tmutarakan = {
+		set_county_culture = culture:circassian
+		set_county_faith = faith:orthodox
+	}
+title:c_aran = {
+		set_county_culture = culture:udi
+	}
+title:c_hereti = {
+		set_county_culture = culture:udi
+	}
+title:c_derbent = {
+		set_county_culture = culture:dagestani
+	}
+title:c_samander = {
+		set_county_culture = culture:dagestani
+		set_county_faith = faith:orthodox
+	}
+title:c_samiran = {
+		set_county_culture = culture:dagestani
+		set_county_faith = faith:tengri_pagan
+	}
+title:c_svaneti = {
+		set_county_culture = culture:ce_svan
+	}
+culture:tat = {
+		get_all_innovations_from = culture:daylamite
+	}
+culture:tat = {
+		set_culture_name = {
+            noun = "tati"
+            collective_noun = "tati_collective_noun"
+            prefix = "tati_prefix"
+		}
+	}
+culture:alan = {
+		set_culture_pillar = language_alani
+	}
+title:c_shirvan = {
+		set_county_culture = culture:tat
+	}
+title:c_shaki = {
+		set_county_culture = culture:tat
+	}
+title:c_ablastha = {
+		set_county_culture = culture:armenian
+	}
+title:c_azysia = {
+		set_county_culture = culture:armenian
+	}
+title:c_lycandus = {
+		set_county_culture = culture:armenian
+	}
+title:c_satala = {
+		set_county_culture = culture:armenian
+	}
+title:c_marash = {
+		set_county_culture = culture:armenian
+	}
+title:c_antiocheia = {
+		set_county_culture = culture:armenian
+	}
+title:c_sebasteia = {
+		set_county_culture = culture:armenian
+	}
+}
+
+CAUC_CE_setup_1178_effect = {
+culture:alan = { save_scope_as = alan }
+culture:georgian = { save_scope_as = georgian }
+culture:circassian = {
+		get_all_innovations_from = culture:alan
+	}
+culture:abkhaz = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:lazi = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:ce_svan = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:udi = {
+		get_all_innovations_from = culture:georgian
+	}
+culture:dagestani = {
+		get_all_innovations_from = culture:alan
+	}
+culture:georgian = {
+		set_heritage_from = culture:circassian
+	}
+culture:armenian = {
+		set_culture_pillar = heritage_armenian
+	}
+culture:armenian = {
+		add_culture_tradition = tradition_armenian_resilience
+	}
+if = { limit = { exists = character:160021 } character:160021 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160022 } character:160022 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160023 } character:160023 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160024 } character:160024 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160025 } character:160025 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160026 } character:160026 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160027 } character:160027= {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160028 } character:160028 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160029 } character:160029 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160030 } character:160030 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:160031 } character:160031 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70472 } character:70472 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70473 } character:70473 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70471 } character:70471 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70476 } character:70476 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70474 } character:70474 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70475 } character:70475 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70470 } character:70470 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70469 } character:70469 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70468 } character:70468 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70465 } character:70465 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70466 } character:70466 = {
+		set_culture = culture:abkhaz
+	} }
+if = { limit = { exists = character:70467 } character:70467 = {
+		set_culture = culture:abkhaz
+	} }
+title:c_abkhazia = {
+		set_county_culture = culture:abkhaz
+	}
+title:c_odishi = {
+		set_county_culture = culture:lazi
+	}
+title:c_acampse = {
+		set_county_culture = culture:lazi
+	}
+title:c_zichia = {
+		set_county_culture = culture:circassian
+	}
+title:c_tmutarakan = {
+		set_county_culture = culture:circassian
+		set_county_faith = faith:orthodox
+	}
+title:c_aran = {
+		set_county_culture = culture:tat
+	}
+title:c_hereti = {
+		set_county_culture = culture:udi
+	}
+title:c_derbent = {
+		set_county_culture = culture:dagestani
+	}
+title:c_samander = {
+		set_county_culture = culture:dagestani
+		set_county_faith = faith:orthodox
+	}
+title:c_samiran = {
+		set_county_culture = culture:dagestani
+	}
+title:c_svaneti = {
+		set_county_culture = culture:ce_svan
+	}
+culture:tat = {
+		get_all_innovations_from = culture:daylamite
+	}
+culture:tat = {
+		set_culture_name = {
+            noun = "tati"
+            collective_noun = "tati_collective_noun"
+            prefix = "tati_prefix"
+		}
+	}
+culture:alan = {
+		set_culture_pillar = language_alani
+	}
+title:c_shirvan = {
+		set_county_culture = culture:tat
+	}
+title:c_shaki = {
+		set_county_culture = culture:tat
+	}
+title:c_ablastha = {
+		set_county_culture = culture:armenian
+		set_county_faith = faith:orthodox
+	}
+title:c_azysia = {
+		set_county_culture = culture:armenian
+		set_county_faith = faith:orthodox
+	}
+title:c_lycandus = {
+		set_county_culture = culture:armenian
+	}
+title:c_marash = {
+		set_county_culture = culture:armenian
+	}
+title:c_sebasteia = {
+		set_county_culture = culture:armenian
+		set_county_faith = faith:orthodox
+	}
+}

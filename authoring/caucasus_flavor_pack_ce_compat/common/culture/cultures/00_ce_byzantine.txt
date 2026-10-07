@@ -1,0 +1,591 @@
+﻿#arberian = { #Rip Albania
+#	color = { 145 56 151 }
+#
+	# Croatian = stand-in for unknown cultures in the Albanian mountains.
+
+#	parents = { roman croatian }
+
+#	created = 600.1.1
+
+#	history_loc_override = arberian_history_loc
+
+#	ethos = ethos_stoic
+#	heritage = heritage_arberian
+#	language = language_arberian
+#	martial_custom = martial_custom_male_only
+#	traditions = {
+#		tradition_quarrelsome
+#		tradition_hill_dwellers
+#		tradition_eye_for_an_eye
+#	}
+#
+#	name_list = name_list_arberian
+#
+#	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+#	building_gfx = { mediterranean_building_gfx }
+#	clothing_gfx = { byzantine_clothing_gfx }
+#	unit_gfx = { eastern_unit_gfx }
+#
+#	ethnicities = {
+#		3 = european_caucasian_blond_1
+#		3 = european_caucasian_blond_2
+#		3 = european_caucasian_blond_3
+#		3 = european_caucasian_blond_4
+#		3 = european_caucasian_blond_5
+#		3 = european_caucasian_blond_6
+#		3 = european_caucasian_ginger_1
+#		3 = european_caucasian_ginger_2
+#		3 = european_caucasian_brown_1
+#		3 = european_caucasian_brown_2
+#		3 = european_caucasian_brown_3
+#		3 = european_caucasian_brown_4
+#		3 = european_caucasian_brown_5
+#		3 = european_caucasian_dark_1
+#		3 = european_caucasian_dark_2
+#		3 = european_caucasian_dark_3
+#		3 = european_caucasian_dark_4
+#		3 = european_caucasian_dark_5
+#		2 = european_med_greek_1
+#		2 = european_med_greek_2
+#		2 = european_med_greek_3
+#		2 = european_med_greek_4
+#		2 = european_med_greek_5
+#		2 = european_med_greek_6
+#		2 = european_med_greek_7
+#		2 = european_med_greek_8
+#		2 = european_med_greek_9
+#		2 = european_med_greek_10
+#		2 = european_med_greek_11
+#		2 = european_med_greek_12
+#		2 = european_med_greek_13
+#		2 = european_med_greek_14
+#		2 = european_med_greek_15
+#		2 = european_med_greek_16
+#		2 = european_med_greek_17
+#		2 = european_med_greek_18
+#		2 = european_med_greek_19
+#		2 = european_med_greek_20
+#		2 = european_med_greek_21
+#		2 = european_med_greek_22
+#		2 = european_med_greek_23
+#		2 = european_med_greek_24
+#		2 = european_med_greek_25
+#		2 = european_med_greek_26
+#		2 = european_med_greek_27
+#		2 = european_med_greek_28
+#		2 = european_med_greek_29
+#		2 = european_med_greek_30
+#		2 = european_med_greek_31
+#		2 = european_med_greek_32
+#		2 = european_med_greek_33
+#		2 = european_med_greek_34
+#		2 = european_med_greek_35
+#		2 = european_med_greek_36
+#		2 = european_med_greek_37
+#		2 = european_med_greek_38
+#		2 = european_med_greek_39
+#		2 = european_med_greek_40
+#		2 = european_med_greek_41
+#		2 = european_med_greek_42
+#		2 = european_med_greek_43
+#		2 = european_med_greek_44
+#		2 = european_med_greek_45
+#		2 = european_med_greek_46
+#		2 = european_med_greek_47
+#		2 = european_med_greek_48
+#		2 = european_med_greek_49
+#		2 = european_med_greek_50
+#		2 = european_med_greek_51
+#		2 = european_med_greek_52
+#		2 = european_med_greek_53
+#		2 = european_med_greek_54
+#		2 = european_med_greek_55
+#		2 = european_med_greek_56
+#		2 = european_med_greek_57
+#		2 = european_med_greek_58
+#		2 = european_med_greek_59
+#		2 = european_med_greek_60
+#		2 = european_med_greek_61
+#		2 = european_med_greek_62
+#		2 = european_med_greek_63
+#		2 = european_med_greek_64
+#		2 = european_med_greek_65
+#		2 = european_med_greek_66
+#		2 = european_med_greek_67
+#		2 = european_med_south_slavic_01
+#		2 = european_med_south_slavic_02
+#		2 = european_med_south_slavic_03
+#		2 = european_med_south_slavic_04
+#		2 = european_med_south_slavic_05
+#		2 = european_med_south_slavic_06
+#		2 = european_med_south_slavic_07
+#		2 = european_med_south_slavic_08
+#		2 = european_med_south_slavic_09
+#		2 = european_med_south_slavic_10
+#		2 = european_med_south_slavic_11
+#		2 = european_med_south_slavic_12
+#		2 = european_med_south_slavic_13
+#		2 = european_med_south_slavic_14
+#		2 = european_med_south_slavic_15
+#		2 = european_med_south_slavic_16
+#		2 = european_med_south_slavic_17
+#		2 = european_med_south_slavic_18
+#		2 = european_med_south_slavic_19
+#		2 = european_med_south_slavic_20
+#		2 = european_med_south_slavic_21
+#		2 = european_med_south_slavic_22
+#		2 = european_med_south_slavic_23
+#		2 = european_med_south_slavic_24
+#		2 = european_med_south_slavic_25
+#		2 = european_med_south_slavic_26
+#		2 = european_med_south_slavic_27
+#		2 = european_med_south_slavic_28
+#		2 = european_med_south_slavic_29
+#		2 = european_med_south_slavic_30
+#		2 = european_med_south_slavic_31
+#		2 = european_med_south_slavic_32
+#		2 = european_med_south_slavic_33
+#		2 = european_med_south_slavic_34
+#		2 = european_med_south_slavic_35
+#		2 = european_med_south_slavic_36
+#	}
+#}
+
+crimean_gothic = {
+	color = { 0.625 0.43 0.625 }
+
+	created = 500.1.1
+	parents = { gothic }
+
+	history_loc_override = crimean_gothic_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_east_germanic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_loyal_soldiers
+		tradition_hit_and_run
+	}
+
+	name_list = name_list_crimean_gothic
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { byzantine_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_med_greek_1
+		2 = european_med_greek_2
+		2 = european_med_greek_3
+		2 = european_med_greek_4
+		2 = european_med_greek_5
+		2 = european_med_greek_6
+		2 = european_med_greek_7
+		2 = european_med_greek_8
+		2 = european_med_greek_9
+		2 = european_med_greek_10
+		2 = european_med_greek_11
+		2 = european_med_greek_12
+		2 = european_med_greek_13
+		2 = european_med_greek_14
+		2 = european_med_greek_15
+		2 = european_med_greek_16
+		2 = european_med_greek_17
+		2 = european_med_greek_18
+		2 = european_med_greek_19
+		2 = european_med_greek_20
+		2 = european_med_greek_21
+		2 = european_med_greek_22
+		2 = european_med_greek_23
+		2 = european_med_greek_24
+		2 = european_med_greek_25
+		2 = european_med_greek_26
+		2 = european_med_greek_27
+		2 = european_med_greek_28
+		2 = european_med_greek_29
+		2 = european_med_greek_30
+		2 = european_med_greek_31
+		2 = european_med_greek_32
+		2 = european_med_greek_33
+		2 = european_med_greek_34
+		2 = european_med_greek_35
+		2 = european_med_greek_36
+		2 = european_med_greek_37
+		2 = european_med_greek_38
+		2 = european_med_greek_39
+		2 = european_med_greek_40
+		2 = european_med_greek_41
+		2 = european_med_greek_42
+		2 = european_med_greek_43
+		2 = european_med_greek_44
+		2 = european_med_greek_45
+		2 = european_med_greek_46
+		2 = european_med_greek_47
+		2 = european_med_greek_48
+		2 = european_med_greek_49
+		2 = european_med_greek_50
+		2 = european_med_greek_51
+		2 = european_med_greek_52
+		2 = european_med_greek_53
+		2 = european_med_greek_54
+		2 = european_med_greek_55
+		2 = european_med_greek_56
+		2 = european_med_greek_57
+		2 = european_med_greek_58
+		2 = european_med_greek_59
+		2 = european_med_greek_60
+		2 = european_med_greek_61
+		2 = european_med_greek_62
+		2 = european_med_greek_63
+		2 = european_med_greek_64
+		2 = european_med_greek_65
+		2 = european_med_greek_66
+		2 = european_med_greek_67
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+	}
+}
+
+# circassian is supplied by Caucasus: Passes and Sanctuaries.
+
+
+# udi is supplied by Caucasus: Passes and Sanctuaries.
+
+
+# dagestani is supplied by Caucasus: Passes and Sanctuaries.
+
+
+syriac = {
+	color = { 167 97 28 }
+	created = 300.1.1
+	parents = { roman } #+Aramean
+
+	history_loc_override = syriac_history_loc
+
+	ethos = ethos_spiritual
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_poetry
+		tradition_dryland_dwellers
+		tradition_loyal_soldiers
+		tradition_city_keepers
+
+	}
+
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { epe_armenian_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_15
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_kurdish_1
+		2 = iranian_kurdish_2
+		2 = iranian_kurdish_3
+		2 = iranian_kurdish_4
+		2 = iranian_kurdish_5
+		2 = iranian_kurdish_6
+		2 = iranian_kurdish_7
+		2 = iranian_kurdish_8
+		2 = iranian_kurdish_9
+		2 = iranian_kurdish_10
+		2 = iranian_kurdish_11
+		2 = iranian_kurdish_12
+		2 = iranian_kurdish_13
+		2 = iranian_kurdish_14
+		2 = iranian_kurdish_15
+		2 = iranian_kurdish_16
+		2 = iranian_kurdish_17
+		2 = iranian_kurdish_18
+		2 = iranian_kurdish_19
+		2 = iranian_kurdish_20
+		2 = iranian_kurdish_21
+		2 = iranian_kurdish_22
+		2 = iranian_kurdish_23
+		2 = iranian_kurdish_24
+		2 = iranian_kurdish_25
+		2 = iranian_kurdish_26
+		2 = iranian_kurdish_27
+		2 = iranian_kurdish_28
+		2 = iranian_kurdish_29
+		2 = iranian_kurdish_30
+		2 = iranian_kurdish_31
+		2 = iranian_kurdish_32
+		2 = iranian_kurdish_33
+		2 = iranian_kurdish_34
+		2 = iranian_kurdish_35
+		2 = iranian_kurdish_36
+		2 = iranian_kurdish_37
+		2 = iranian_kurdish_38
+		2 = iranian_kurdish_39
+		2 = iranian_kurdish_40
+	}
+}
+
+mandaic = {
+	color = assyrian
+	created = 100.1.1
+	parents = { syriac }
+
+	history_loc_override = mandaic_history_loc
+
+	ethos = ethos_spiritual
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_faith_bound
+		tradition_staunch_traditionalists
+
+	}
+
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { levant_unit_gfx mena_unit_gfx }
+	house_coa_frame = house_frame_15
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_kurdish_1
+		2 = iranian_kurdish_2
+		2 = iranian_kurdish_3
+		2 = iranian_kurdish_4
+		2 = iranian_kurdish_5
+		2 = iranian_kurdish_6
+		2 = iranian_kurdish_7
+		2 = iranian_kurdish_8
+		2 = iranian_kurdish_9
+		2 = iranian_kurdish_10
+		2 = iranian_kurdish_11
+		2 = iranian_kurdish_12
+		2 = iranian_kurdish_13
+		2 = iranian_kurdish_14
+		2 = iranian_kurdish_15
+		2 = iranian_kurdish_16
+		2 = iranian_kurdish_17
+		2 = iranian_kurdish_18
+		2 = iranian_kurdish_19
+		2 = iranian_kurdish_20
+		2 = iranian_kurdish_21
+		2 = iranian_kurdish_22
+		2 = iranian_kurdish_23
+		2 = iranian_kurdish_24
+		2 = iranian_kurdish_25
+		2 = iranian_kurdish_26
+		2 = iranian_kurdish_27
+		2 = iranian_kurdish_28
+		2 = iranian_kurdish_29
+		2 = iranian_kurdish_30
+		2 = iranian_kurdish_31
+		2 = iranian_kurdish_32
+		2 = iranian_kurdish_33
+		2 = iranian_kurdish_34
+		2 = iranian_kurdish_35
+		2 = iranian_kurdish_36
+		2 = iranian_kurdish_37
+		2 = iranian_kurdish_38
+		2 = iranian_kurdish_39
+		2 = iranian_kurdish_40
+	}
+}
+
+nabati = { #From RICE, thank yoy Cybrx <3
+	color = { 100 108 125 }
+
+	ethos = ethos_stoic # Hard work considered virtuous
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	traditions = {
+		tradition_agrarian 			# Soraya: Associated strongly with farming, and their culture considered farming the most noble profession
+		tradition_isolationist 		# Soraya: Known for being non-adventurous
+		tradition_medicinal_plants 	# Soraya: Medieval Iraq was known for its medicine
+		tradition_religion_blending # Soraya: Local faiths blended pagan and Abrahamic beliefs
+	}
+
+	name_list = name_list_assyrian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_13
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = mid_east_arabic_1
+		2 = mid_east_arabic_2
+		2 = mid_east_arabic_3
+		2 = mid_east_arabic_4
+		2 = mid_east_arabic_5
+		2 = mid_east_arabic_6
+		2 = mid_east_arabic_7
+		2 = mid_east_arabic_8
+		2 = mid_east_arabic_9
+		2 = mid_east_arabic_10
+		2 = mid_east_arabic_11
+		2 = mid_east_arabic_12
+		2 = mid_east_arabic_13
+		2 = mid_east_arabic_14
+		2 = mid_east_arabic_15
+		2 = mid_east_arabic_16
+		2 = mid_east_arabic_17
+		2 = mid_east_arabic_18
+		2 = mid_east_arabic_19
+		2 = mid_east_arabic_20
+		2 = mid_east_arabic_21
+		2 = mid_east_arabic_22
+		2 = mid_east_arabic_23
+		2 = mid_east_arabic_24
+		2 = mid_east_arabic_25
+		2 = mid_east_arabic_26
+		2 = mid_east_arabic_27
+		2 = mid_east_arabic_28
+		2 = mid_east_arabic_29
+		2 = mid_east_arabic_30
+		2 = mid_east_arabic_31
+		2 = mid_east_arabic_32
+		2 = mid_east_arabic_33
+		2 = mid_east_arabic_34
+		2 = mid_east_arabic_35
+		2 = mid_east_arabic_36
+		2 = mid_east_arabic_37
+		2 = mid_east_arabic_38
+		2 = mid_east_arabic_39
+		2 = mid_east_arabic_40
+		2 = mid_east_arabic_41
+		2 = mid_east_arabic_42
+		2 = mid_east_arabic_43
+		2 = mid_east_arabic_44
+		2 = mid_east_arabic_45
+		2 = mid_east_arabic_46
+		2 = mid_east_arabic_47
+		2 = mid_east_arabic_48
+		2 = mid_east_arabic_49
+		2 = mid_east_arabic_50
+		2 = mid_east_arabic_51
+		2 = mid_east_arabic_52
+		2 = mid_east_arabic_53
+		2 = mid_east_arabic_54
+		2 = mid_east_arabic_55
+		2 = mid_east_arabic_56
+		2 = mid_east_arabic_57
+		2 = mid_east_arabic_58
+		2 = mid_east_arabic_59
+		2 = mid_east_arabic_60
+		2 = mid_east_arabic_61
+		2 = mid_east_arabic_62
+		2 = mid_east_arabic_63
+		2 = mid_east_arabic_64
+		2 = mid_east_arabic_65
+		2 = mid_east_arabic_66
+		2 = mid_east_arabic_67
+		2 = mid_east_arabic_68
+		2 = mid_east_arabic_69
+		2 = mid_east_arabic_70
+		2 = mid_east_arabic_71
+		2 = mid_east_arabic_72
+		2 = mid_east_arabic_73
+		2 = mid_east_arabic_74
+		2 = mid_east_arabic_75
+		2 = mid_east_arabic_76
+		2 = mid_east_arabic_77
+		2 = mid_east_arabic_78
+		2 = mid_east_arabic_79
+		2 = mid_east_arabic_80
+		2 = mid_east_arabic_81
+		2 = mid_east_arabic_82
+		2 = mid_east_arabic_83
+		2 = mid_east_arabic_84
+		2 = mid_east_arabic_85
+		2 = mid_east_arabic_86
+		2 = mid_east_arabic_87
+		2 = mid_east_arabic_88
+		2 = mid_east_arabic_89
+		2 = mid_east_arabic_90
+		2 = mid_east_arabic_91
+		2 = mid_east_arabic_92
+		2 = mid_east_arabic_93
+		2 = mid_east_arabic_94
+		2 = mid_east_arabic_95
+		2 = mid_east_arabic_96
+		2 = mid_east_arabic_97
+		2 = mid_east_arabic_98
+		2 = mid_east_arabic_99
+		2 = mid_east_arabic_100
+		2 = mid_east_arabic_101
+		2 = mid_east_arabic_102
+		2 = mid_east_arabic_103
+		2 = mid_east_arabic_104
+		2 = mid_east_arabic_105
+		2 = mid_east_arabic_106
+		2 = mid_east_arabic_107
+		2 = mid_east_arabic_108
+	}
+}
+
+# abkhaz is supplied by Caucasus: Passes and Sanctuaries.
+
+
+# lazi is supplied by Caucasus: Passes and Sanctuaries.
+
+
+# ce_svan is supplied by Caucasus: Passes and Sanctuaries.

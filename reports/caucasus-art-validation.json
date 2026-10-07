@@ -1,0 +1,16 @@
+{
+  "decoded": true,
+  "size": [
+    1100,
+    440
+  ],
+  "format": "DXT1",
+  "mip_levels": 11,
+  "file_bytes": 323584,
+  "expected_bytes": 323584,
+  "mean_RGB_compression_error": [
+    3.8659586776859505,
+    3.1112128099173555,
+    3.442146694214876
+  ]
+}

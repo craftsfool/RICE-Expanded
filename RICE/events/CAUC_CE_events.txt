@@ -1,0 +1,19 @@
+﻿
+namespace = CAUC_CE
+CAUC_CE.0025 = {
+ type = character_event #Establish Transcaucasia
+	title = CAUC_CE.0025.t
+	desc = CAUC_CE.0025.desc
+	theme = new_royal_court
+	left_portrait = {
+		character = this
+	}
+
+	option = {
+		name = CAUC_CE.0025.a
+
+		ai_chance = {
+			base = 100
+		}
+	}
+}

@@ -1,0 +1,84 @@
+﻿CAUC_repair_derbent_pass = {
+ picture = { reference = "gfx/interface/illustrations/decisions/CAUC_derbent_pass.dds" }
+ decision_group_type = RICE_regional
+ desc = CAUC_repair_derbent_pass_desc
+ selection_tooltip = CAUC_repair_derbent_pass_tooltip
+ confirm_text = CAUC_repair_derbent_pass_confirm
+ ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
+ cooldown = { years = 5 }
+ is_shown = { is_landed = yes has_title = title:c_derbent  }
+ is_valid = { NOT = { title:c_derbent = { has_county_modifier = CAUC_pass_restored } } }
+ is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
+ effect = { if = { limit = { has_game_rule = RICE_historical_context_on } custom_tooltip = CAUC_repair_derbent_pass_context }  title:c_derbent = { add_county_modifier = { modifier = CAUC_pass_restored years = 10 } } trigger_event = { id = CAUC.0001 } }
+ cost = { gold = 100 }
+ ai_potential = { short_term_gold >= 200 }
+ ai_will_do = { base = 20 }
+}
+
+CAUC_manage_derbent_pass = {
+ picture = { reference = "gfx/interface/illustrations/decisions/CAUC_derbent_pass.dds" }
+ decision_group_type = RICE_regional
+ desc = CAUC_manage_derbent_pass_desc
+ selection_tooltip = CAUC_manage_derbent_pass_tooltip
+ confirm_text = CAUC_manage_derbent_pass_confirm
+ ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
+ cooldown = { years = 3 }
+ is_shown = { is_landed = yes has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } }
+ is_valid = { title:c_derbent = { has_county_modifier = CAUC_pass_restored } }
+ is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
+ effect = { trigger_event = { id = CAUC.0001 } }
+ cost = { gold = 25 }
+ ai_potential = { short_term_gold >= 50 }
+ ai_will_do = { base = 20 }
+}
+
+CAUC_patronize_lori_learning = {
+ picture = { reference = "gfx/interface/illustrations/decisions/decision_castle_view.dds" }
+ decision_group_type = RICE_regional
+ desc = CAUC_patronize_lori_learning_desc
+ selection_tooltip = CAUC_patronize_lori_learning_tooltip
+ confirm_text = CAUC_patronize_lori_learning_confirm
+ ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
+ cooldown = { years = 5 }
+ is_shown = { is_landed = yes has_title = title:c_lori faith = { religion = religion:christianity_religion } }
+ is_valid = { NOT = { title:c_lori = { has_county_modifier = CAUC_lori_learning } } }
+ is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
+ effect = { if = { limit = { has_game_rule = RICE_historical_context_on } custom_tooltip = CAUC_patronize_lori_learning_context }  title:c_lori = { add_county_modifier = { modifier = CAUC_lori_learning years = 5 } } trigger_event = { id = CAUC.0002 } }
+ cost = { gold = 100 }
+ ai_potential = { short_term_gold >= 200 }
+ ai_will_do = { base = 20 }
+}
+
+CAUC_support_svan_towers = {
+ picture = { reference = "gfx/interface/illustrations/decisions/decision_castle_view.dds" }
+ decision_group_type = RICE_regional
+ desc = CAUC_support_svan_towers_desc
+ selection_tooltip = CAUC_support_svan_towers_tooltip
+ confirm_text = CAUC_support_svan_towers_confirm
+ ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
+ cooldown = { years = 5 }
+ is_shown = { is_landed = yes has_title = title:c_svaneti  }
+ is_valid = { NOT = { title:c_svaneti = { has_county_modifier = CAUC_svan_towers } } }
+ is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
+ effect = { if = { limit = { has_game_rule = RICE_historical_context_on } custom_tooltip = CAUC_support_svan_towers_context }  title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_towers years = 5 } } trigger_event = { id = CAUC.0003 } }
+ cost = { gold = 100 }
+ ai_potential = { short_term_gold >= 200 }
+ ai_will_do = { base = 20 }
+}
+
+CAUC_support_gelati = {
+ picture = { reference = "gfx/interface/illustrations/decisions/decision_castle_view.dds" }
+ decision_group_type = RICE_regional
+ desc = CAUC_support_gelati_desc
+ selection_tooltip = CAUC_support_gelati_tooltip
+ confirm_text = CAUC_support_gelati_confirm
+ ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
+ cooldown = { years = 5 }
+ is_shown = { is_landed = yes has_title = title:c_odishi faith = { religion = religion:christianity_religion } current_date >= 1106.1.1 }
+ is_valid = { current_date >= 1106.1.1 NOT = { title:c_odishi = { has_county_modifier = CAUC_gelati_learning } } }
+ is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
+ effect = { if = { limit = { has_game_rule = RICE_historical_context_on } custom_tooltip = CAUC_support_gelati_context }  title:c_odishi = { add_county_modifier = { modifier = CAUC_gelati_learning years = 5 } } trigger_event = { id = CAUC.0004 } }
+ cost = { gold = 150 }
+ ai_potential = { short_term_gold >= 300 }
+ ai_will_do = { base = 20 }
+}

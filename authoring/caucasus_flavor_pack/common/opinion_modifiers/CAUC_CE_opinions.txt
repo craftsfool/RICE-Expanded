@@ -1,0 +1,5 @@
+﻿
+CAUC_imperial_pretender = {
+	opinion = -100
+	years = 100
+}

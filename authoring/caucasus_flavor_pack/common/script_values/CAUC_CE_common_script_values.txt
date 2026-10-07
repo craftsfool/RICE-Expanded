@@ -1,0 +1,13 @@
+﻿# Selected Culture Expanded content. See research/ce-import-manifest.json.
+
+CAUC_CE_same_language_branch_choice_factor = 4
+
+CAUC_CE_same_language_choice_factor = 10
+
+CAUC_CE_same_language_dialect_continuum_choice_factor = 8
+
+CAUC_CE_same_language_family_choice_factor = 2
+
+CAUC_CE_same_language_group_choice_factor = 6
+
+CAUC_CE_same_language_union_choice_factor = 2

@@ -1,0 +1,36 @@
+﻿
+e_CAUC_transcaucasia = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	colored_emblem={
+		color1=yellow
+		color2=white
+		texture="ce_cross_patty.dds"
+		instance={
+			position={ 0.500000 0.140000 }
+			scale={ 0.240000 0.240000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=yellow
+		color3=black
+		texture="ce_lion_passant_small.dds"
+		instance={
+			position={ 0.500000 0.710000 }
+			scale={ 0.900000 0.900000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.900000 0.900000 }
+			depth=2.010000
+		}
+
+	}
+
+}

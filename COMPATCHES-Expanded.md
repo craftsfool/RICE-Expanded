@@ -1,5 +1,7 @@
 # RICE Expanded compatibility patches — 1.20 beta
 
+**Current update:** the Caucasus installation presets embed these compatibility files directly in `RICE/`. See [built-in installation instructions](CAUCASUS-Expanded.md). The separate-patch installation below documents the earlier compatibility release and its retained build sources.
+
 Updated 2026-10-07 against the maintainer's **modified local RICE**, installed Culture Expanded (CE, descriptor 1.19.0.6), and installed Ethnicities and Portraits Expanded (EPE, descriptor 1.20.0.3). The RICE base mod is unchanged by this update. These patches do not constitute a full CE migration to CK3 1.20.
 
 ## Comparison and changes

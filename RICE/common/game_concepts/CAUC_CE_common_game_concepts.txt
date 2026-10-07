@@ -1,0 +1,3 @@
+﻿# Selected Culture Expanded content. See research/ce-import-manifest.json.
+
+bp_monolithic_culture_tradition = { shown_in_encyclopedia = no }

@@ -1,0 +1,6 @@
+﻿CAUC_ce_setup = {
+ categories = { RICE setup flavor }
+ default = CAUC_ce_setup_on
+ CAUC_ce_setup_on = { }
+ CAUC_ce_setup_off = { }
+}

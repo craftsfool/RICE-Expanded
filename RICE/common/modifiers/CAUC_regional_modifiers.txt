@@ -1,0 +1,35 @@
+﻿CAUC_pass_restored = {
+ development_growth_factor = 0.05
+}
+
+CAUC_pass_trade = {
+ tax_mult = 0.05
+}
+
+CAUC_pass_guard = {
+ fort_level = 0.25
+}
+
+CAUC_pass_compact = {
+ monthly_county_control_growth_add = 0.1
+}
+
+CAUC_pass_obstructed = {
+ tax_mult = -0.05
+}
+
+CAUC_lori_learning = {
+ development_growth_factor = 0.05
+}
+
+CAUC_svan_towers = {
+ fort_level = 0.25
+}
+
+CAUC_svan_masons = {
+ fort_level = 0.25
+}
+
+CAUC_gelati_learning = {
+ development_growth_factor = 0.05
+}

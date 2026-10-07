@@ -1,0 +1,43 @@
+﻿on_game_start_after_lobby = { on_actions = { CAUC_setup_on_action } }
+CAUC_setup_on_action = {
+ effect = {
+  if = {
+   limit = { NOT = { has_global_variable = CAUC_initialized } }
+   set_global_variable = { name = CAUC_initialized value = yes }
+   if = {
+    limit = { has_game_rule = CAUC_ce_setup_on CAUC_ce_present_trigger = no }
+    if = { limit = { game_start_date = 867.1.1 } CAUC_CE_setup_867_effect = yes }
+    else_if = { limit = { game_start_date = 1066.9.15 } CAUC_CE_setup_1066_effect = yes }
+    else_if = { limit = { game_start_date = 1178.10.1 } CAUC_CE_setup_1178_effect = yes }
+   }
+  }
+ }
+}
+yearly_playable_pulse = { on_actions = { CAUC_regional_yearly_pulse } }
+CAUC_regional_yearly_pulse = {
+ trigger = {
+  is_landed = yes is_available_adult = yes is_imprisoned = no is_at_war = no
+  OR = { has_title = title:c_derbent has_title = title:c_lori has_title = title:c_svaneti }
+ }
+ random_events = {
+  chance_to_happen = 30
+  10 = CAUC.0010
+  10 = CAUC.0011
+  10 = CAUC.0012
+  10 = CAUC.0013
+  10 = CAUC.0014
+  10 = CAUC.0015
+  10 = CAUC.0020
+  10 = CAUC.0021
+  10 = CAUC.0022
+  10 = CAUC.0023
+  10 = CAUC.0024
+  10 = CAUC.0025
+  10 = CAUC.0030
+  10 = CAUC.0031
+  10 = CAUC.0032
+  10 = CAUC.0033
+  10 = CAUC.0034
+  10 = CAUC.0035
+ }
+}

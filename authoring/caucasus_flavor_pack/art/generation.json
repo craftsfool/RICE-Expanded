@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "asset": "Derbent decision banner",
+  "prompt": "Use case: historical-scene\nAsset type: medieval grand strategy game decision background banner, 5:2 landscape composition, target crop 1100 by 440.\nPrimary request: an original painted illustration of medieval Derbent (Chinese name 杰尔宾特), the fortified passage between the eastern Caucasus foothills and the Caspian Sea, around the 10th to 12th century.\nScene: view from the hillside citadel toward the coastal plain, two roughly parallel weathered limestone defensive walls with square towers descending toward the blue-grey Caspian, compact medieval town between them, a modest gate on a caravan track in the middle distance. Historically plausible terrain: mountains inland to the left, sea to the right. Small distant travelers and pack animals give scale; they are incidental.\nStyle: restrained museum-quality historical landscape painting, realistic atmospheric perspective, hand-painted brush texture, subdued ochre stone, earth brown and slate blue, soft overcast morning light, believable architecture.\nComposition: very wide horizontal panorama, all essential landmarks inside the middle horizontal band, strong readable citadel and passage silhouette at small display size, gently darkened edges for UI overlay. No lettering, borders, interface, logos or watermark. No modern buildings, modern roads, fantasy towers, gothic European castle, domed Ottoman mosque or dramatic oversized mountains. Produce one finished image.",
+  "source": "source/CAUC_derbent_generated.png",
+  "preview": "previews/CAUC_derbent_banner.png",
+  "texture": "gfx/interface/illustrations/decisions/CAUC_derbent_pass.dds",
+  "role": "Illustrative historical reconstruction; not archaeological documentation"
+}

@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "language": "english",
+  "decisions": 5,
+  "visible_events": 22,
+  "yearly_events": 18,
+  "gameplay_localization_keys": 139,
+  "naming": "Vanilla c_derbent/b_derbent aliases; Chinese must use 杰尔宾特.",
+  "historical_context_sources": [
+    "https://whc.unesco.org/en/list/1070",
+    "https://whc.unesco.org/en/list/777/",
+    "https://whc.unesco.org/en/list/709",
+    "https://whc.unesco.org/en/list/710"
+  ],
+  "note": "Event scenes and outcomes are authored gameplay fiction grounded in the selected topics; specific household disputes, conversations and accounts are not presented as documented historical incidents."
+}

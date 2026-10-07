@@ -1,0 +1,13 @@
+﻿##### Changed from Vanilla: Tied in with limitation_on_divergence_hybridization_culture_head
+
+# Is this character allowed to diverge their culture?
+# root: Character
+# can_diverge_culture is supplied by Caucasus: Passes and Sanctuaries.
+
+
+##### Changed from Vanilla: Tied in with limitation_on_divergence_hybridization_culture_head
+
+# Is this character allowed to hybridize their culture with the target culture?
+# root: Character
+# scope:culture: The culture they want to hybridize with
+# can_hybridize_culture is supplied by Caucasus: Passes and Sanctuaries.

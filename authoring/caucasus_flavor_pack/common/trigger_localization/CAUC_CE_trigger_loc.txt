@@ -1,0 +1,4 @@
+﻿
+CAUC_establish_transcaucasia_trigger = {
+	first_not = ESTABLISH_TRANSCAUCASIA_TRIGGER
+}

@@ -1,4 +1,4 @@
-# RICE Expanded — 1.20.0-beta-1-expanded.1
+# RICE Expanded — expanded.2: Caucasus English Alpha
 
 2026-10-07 · CK3 1.20.* · 社区预发布 / Community prerelease
 
@@ -63,3 +63,9 @@ Two earlier test crashes occurred during localization hot reload and after an in
 核对维护者修改过的本地 RICE、CE 和 EPE，同步 EPE 补丁的六处文化内容；修复 CE 组合的重复文化和语言／传承定义，恢复美洲及大洋洲独立分类与创新初始化。两个补丁改用便携安装描述文件。未启动游戏；四种加载组合通过脚本检查。CE 本体仍标注 1.19，本次不是 CE 全量 1.20 移植。详见 [兼容补丁说明](COMPATCHES-Expanded.md) 及 [检查报告](reports/compatch-validation.json)。
 
 Audit against modified local RICE, CE and EPE; preserve local gameplay in six EPE cultures, resolve CE shared registries, restore distinct American/Oceanian pillars and startup innovation grants, and make both patch descriptors portable. Four static load profiles pass; no game launched. CE itself still targets 1.19. See the compatibility documentation and report linked above.
+
+## 2026-10-07 — expanded.2: Caucasus English Alpha, built-in compatibility
+
+高加索内容直接合入 RICE 主包：八个 CE 文化及依赖、23 位既有历史人物文化修正、六个决议、23 个事件、686 条英文键和杰尔宾特横幅。Base、EPE、CE–EPE 三个完整安装预设把所需兼容文件合入同一个 RICE 目录，无需独立高加索或兼容模组。其他语言保留原版术语和明确的英文回退，尚未完成新内容翻译。本次只进行后台静态检查，未启动游戏或操作桌面；旧版实机测试不能代表本次新内容已实机验证。
+
+Embeds the Caucasus English alpha and produces complete Base, EPE and CE–EPE installation presets, with compatibility baked into each RICE directory. Includes eight CE culture definitions, source dependencies and existing-character corrections, six decisions, twenty-three events and a generated Derbent banner. Native vanilla terms and explicit English fallbacks are retained for other languages. Validation of this update is static only; earlier runtime results do not validate the new content. See [Caucasus details](CAUCASUS-Expanded.md).

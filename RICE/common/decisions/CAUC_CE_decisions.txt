@@ -1,0 +1,79 @@
+﻿
+CAUC_establish_transcaucasia_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+	decision_group_type = major
+	ai_check_interval = 120
+
+	desc = CAUC_establish_transcaucasia_decision_desc
+	selection_tooltip = CAUC_establish_transcaucasia_decision_tooltip
+
+	is_shown = {
+ CAUC_ce_present_trigger = no
+		exists = capital_province
+        capital_province = { geographical_region = CAUC_transcaucasia_region }
+
+		NOT = {	#You can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:CAUC_transcaucasia_has_been_established
+			}
+		}
+
+		highest_held_title_tier <= tier_kingdom # Can not already rule an Empire
+
+		NOT = {	has_government = tribal_government } # Must not be tribal
+	}
+
+	is_valid = {
+		#You must have sufficient clout.
+		is_independent_ruler = yes
+ exists = dynasty
+        prestige_level >= very_high_prestige_level
+
+		#You must completely control the empire's heartlands
+		completely_controls_region = CAUC_transcaucasia_region
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		is_at_war = no
+	}
+
+	effect = {
+		save_scope_as = founder
+		show_as_tooltip = {
+			CAUC_establish_transcaucasia_effect = yes
+		}
+		trigger_event = {
+			id =  CAUC_CE.0025 # HAVE TO MAKE
+		}
+		hidden_effect = {
+			CAUC_establish_transcaucasia_effect = yes
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:CAUC_transcaucasia_has_been_established # DO WE HAVE TO MAKE THESE?
+			}
+			set_global_variable = {
+				name = CAUC_transcaucasia_has_been_established
+				value = root
+			}
+		}
+	}
+
+	cost = {
+		gold = 500
+		prestige = 1000
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 1000
+	}
+}

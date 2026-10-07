@@ -1,0 +1,11 @@
+﻿
+CAUC_transcaucasia_region = {
+	duchies = {
+		#Georgia
+		d_tao-klarjeti d_georgia d_abkhazia
+		#Armenia
+		d_mesopotamia d_vaspurakan d_greater_armenia
+		#Shirvan
+		d_shirvan
+	}
+}

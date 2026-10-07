@@ -1,0 +1,4 @@
+﻿##### Changed from Vanilla: Prevent hybridization between Hellenizers and Colonizers
+
+# Checks if you could Hybridise with the culture without checking for acceptance
+# is_valid_for_hybridising_trigger is supplied by Caucasus: Passes and Sanctuaries.

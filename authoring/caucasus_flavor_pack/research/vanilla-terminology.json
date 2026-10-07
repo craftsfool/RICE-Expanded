@@ -1,0 +1,83 @@
+{
+  "english": {
+    "c_derbent": "Derbent",
+    "b_derbent": "Derbent",
+    "c_svaneti": "Svaneti",
+    "c_lori": "Lori",
+    "armenian": "Armenian",
+    "georgian": "Georgian",
+    "alan": "Alan"
+  },
+  "simp_chinese": {
+    "c_derbent": "杰尔宾特",
+    "b_derbent": "杰尔宾特",
+    "c_svaneti": "斯瓦内蒂",
+    "c_lori": "洛里",
+    "armenian": "亚美尼亚",
+    "georgian": "格鲁吉亚",
+    "alan": "阿兰"
+  },
+  "french": {
+    "c_derbent": "Derbent",
+    "b_derbent": "Derbent",
+    "c_svaneti": "Svaneti",
+    "c_lori": "Lori",
+    "armenian": "arménienne",
+    "georgian": "géorgienne",
+    "alan": "alaine"
+  },
+  "german": {
+    "c_derbent": "Derbent",
+    "b_derbent": "Derbent",
+    "c_svaneti": "Swanetien",
+    "c_lori": "Lori",
+    "armenian": "Armenisch",
+    "georgian": "Georgisch",
+    "alan": "Alanisch"
+  },
+  "spanish": {
+    "c_derbent": "Derbent",
+    "b_derbent": "Derbent",
+    "c_svaneti": "Svaneti",
+    "c_lori": "Lori",
+    "armenian": "armenia",
+    "georgian": "georgiana",
+    "alan": "alana"
+  },
+  "russian": {
+    "c_derbent": "Дербент",
+    "b_derbent": "Дербент",
+    "c_svaneti": "Сванетия",
+    "c_lori": "Лори",
+    "armenian": "Армяне",
+    "georgian": "Грузины",
+    "alan": "Аланы"
+  },
+  "polish": {
+    "c_derbent": "Derbent",
+    "b_derbent": "Derbent",
+    "c_svaneti": "Swanetia",
+    "c_lori": "Lori",
+    "armenian": "Ormiańska",
+    "georgian": "Gruzińska",
+    "alan": "Alańska"
+  },
+  "japanese": {
+    "c_derbent": "デルベント",
+    "b_derbent": "デルベント",
+    "c_svaneti": "スヴァネティ",
+    "c_lori": "ローリ",
+    "armenian": "アルメニア",
+    "georgian": "グルジア",
+    "alan": "アラン"
+  },
+  "korean": {
+    "c_derbent": "데르벤트",
+    "b_derbent": "데르벤트",
+    "c_svaneti": "스바네티",
+    "c_lori": "로리",
+    "armenian": "아르메니아",
+    "georgian": "조지아",
+    "alan": "알란"
+  }
+}

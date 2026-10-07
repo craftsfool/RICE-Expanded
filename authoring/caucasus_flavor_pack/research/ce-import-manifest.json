@@ -1,0 +1,1707 @@
+{
+  "source_workshop_id": "2829397295",
+  "cultures": [
+    "circassian",
+    "udi",
+    "dagestani",
+    "abkhaz",
+    "lazi",
+    "ce_svan",
+    "tat",
+    "alan"
+  ],
+  "entries": [
+    {
+      "category": "common/culture/cultures",
+      "key": "circassian",
+      "source": "common/culture/cultures/00_ce_byzantine.txt",
+      "source_sha256": "aec3420c67356023a82ef0057a39f547c4a5a284e4b4a1ebdeec653cb54cc5ff",
+      "target": "common/culture/cultures/CAUC_CE_common_culture_cultures.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/cultures",
+      "key": "udi",
+      "source": "common/culture/cultures/00_ce_byzantine.txt",
+      "source_sha256": "aec3420c67356023a82ef0057a39f547c4a5a284e4b4a1ebdeec653cb54cc5ff",
+      "target": "common/culture/cultures/CAUC_CE_common_culture_cultures.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/cultures",
+      "key": "dagestani",
+      "source": "common/culture/cultures/00_ce_byzantine.txt",
+      "source_sha256": "aec3420c67356023a82ef0057a39f547c4a5a284e4b4a1ebdeec653cb54cc5ff",
+      "target": "common/culture/cultures/CAUC_CE_common_culture_cultures.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/cultures",
+      "key": "abkhaz",
+      "source": "common/culture/cultures/00_ce_byzantine.txt",
+      "source_sha256": "aec3420c67356023a82ef0057a39f547c4a5a284e4b4a1ebdeec653cb54cc5ff",
+      "target": "common/culture/cultures/CAUC_CE_common_culture_cultures.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/cultures",
+      "key": "lazi",
+      "source": "common/culture/cultures/00_ce_byzantine.txt",
+      "source_sha256": "aec3420c67356023a82ef0057a39f547c4a5a284e4b4a1ebdeec653cb54cc5ff",
+      "target": "common/culture/cultures/CAUC_CE_common_culture_cultures.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/cultures",
+      "key": "ce_svan",
+      "source": "common/culture/cultures/00_ce_byzantine.txt",
+      "source_sha256": "aec3420c67356023a82ef0057a39f547c4a5a284e4b4a1ebdeec653cb54cc5ff",
+      "target": "common/culture/cultures/CAUC_CE_common_culture_cultures.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/cultures",
+      "key": "tat",
+      "source": "common/culture/cultures/00_ce_iranian.txt",
+      "source_sha256": "828ed7a9cdd2195929db03c8eef41f5f7bec6c67babcf854d2b69842cc5f910d",
+      "target": "common/culture/cultures/CAUC_CE_common_culture_cultures.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/cultures",
+      "key": "alan",
+      "source": "common/culture/cultures/00_z_ce_overriding_file.txt",
+      "source_sha256": "60763f046390e158307606459a42ddafdb98e23fddb2fd699126fbabdc0904d9",
+      "target": "common/culture/cultures/00_iranian.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "heritage_caucasian",
+      "source": "common/culture/pillars/xCE_heritage.txt",
+      "source_sha256": "a72eaa2625f7a82e672f7cd6585b567f8ba69ca4156ec1b540277d07a615eeae",
+      "target": "common/culture/pillars/00_heritage.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_circassian",
+      "source": "common/culture/pillars/00_ce_circassian_languages.txt",
+      "source_sha256": "f21556ec4b7a93bf95814d1f9c43d5cfd3067a946be2597b5911dd9138099d3a",
+      "target": "common/culture/pillars/CAUC_CE_common_culture_pillars.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/name_lists",
+      "key": "name_list_circassian",
+      "source": "common/culture/name_lists/ce_circassian.txt",
+      "source_sha256": "b70d53e5b833cbcaa23af1d670b2c08979e46f0e305f7eeed059d05fe5ec97c6",
+      "target": "common/culture/name_lists/CAUC_CE_common_culture_name_lists.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_udi",
+      "source": "common/culture/pillars/00_ce_lezgic_languages.txt",
+      "source_sha256": "27ceb86d77f4a4fe9ea7aa1ac92e5f708f28420ec8ff4fdedc49762edf06b3ea",
+      "target": "common/culture/pillars/CAUC_CE_common_culture_pillars.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/name_lists",
+      "key": "name_list_georgian",
+      "source": "common/culture/name_lists/ce_georgian.txt",
+      "source_sha256": "e1f91fc6623a7808922b8cc0bf1b55b8a5068c2e3f3f13d9117f236b4ece1faa",
+      "target": "common/culture/name_lists/00_byzantine.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_avaric",
+      "source": "common/culture/pillars/00_ce_lezgic_languages.txt",
+      "source_sha256": "27ceb86d77f4a4fe9ea7aa1ac92e5f708f28420ec8ff4fdedc49762edf06b3ea",
+      "target": "common/culture/pillars/CAUC_CE_common_culture_pillars.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_abazgi",
+      "source": "common/culture/pillars/00_ce_circassian_languages.txt",
+      "source_sha256": "f21556ec4b7a93bf95814d1f9c43d5cfd3067a946be2597b5911dd9138099d3a",
+      "target": "common/culture/pillars/CAUC_CE_common_culture_pillars.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_laz",
+      "source": "common/culture/pillars/00_ce_kartvelian_languages.txt",
+      "source_sha256": "c182f7446401b240b0852b484c62575cabb30b84a0e2fb7179c3cc9e66b859cc",
+      "target": "common/culture/pillars/CAUC_CE_common_culture_pillars.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_svan",
+      "source": "common/culture/pillars/00_ce_kartvelian_languages.txt",
+      "source_sha256": "c182f7446401b240b0852b484c62575cabb30b84a0e2fb7179c3cc9e66b859cc",
+      "target": "common/culture/pillars/CAUC_CE_common_culture_pillars.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "heritage_iranian",
+      "source": "common/culture/pillars/xCE_heritage.txt",
+      "source_sha256": "a72eaa2625f7a82e672f7cd6585b567f8ba69ca4156ec1b540277d07a615eeae",
+      "target": "common/culture/pillars/00_heritage.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_iranian",
+      "source": "common/culture/pillars/xCE_language.txt",
+      "source_sha256": "34af18399ee07fa7a0f32f2ec7bbffaf7501b21ae2b8f7084d6f597623c4fad5",
+      "target": "common/culture/pillars/00_language.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_scythian",
+      "source": "common/culture/pillars/xCE_language.txt",
+      "source_sha256": "34af18399ee07fa7a0f32f2ec7bbffaf7501b21ae2b8f7084d6f597623c4fad5",
+      "target": "common/culture/pillars/00_language.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "heritage_armenian",
+      "source": "common/culture/pillars/00_ce_heritage.txt",
+      "source_sha256": "edf2c46e05075e9181c006b5726e634ea7de50de5caf7ea3a7ff4ab0ff7d66a9",
+      "target": "common/culture/pillars/CAUC_CE_common_culture_pillars.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_armenian",
+      "source": "common/culture/pillars/xCE_language.txt",
+      "source_sha256": "34af18399ee07fa7a0f32f2ec7bbffaf7501b21ae2b8f7084d6f597623c4fad5",
+      "target": "common/culture/pillars/00_language.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_georgian",
+      "source": "common/culture/pillars/xCE_language.txt",
+      "source_sha256": "34af18399ee07fa7a0f32f2ec7bbffaf7501b21ae2b8f7084d6f597623c4fad5",
+      "target": "common/culture/pillars/00_language.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/culture/traditions",
+      "key": "tradition_armenian_resilience",
+      "source": "common/culture/traditions/new_realm_traditions.txt",
+      "source_sha256": "4714458665bbcaa53ab90ea7988a335b8f77f613f4c861854cc275b1a1b32bab",
+      "target": "common/culture/traditions/CAUC_CE_common_culture_traditions.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/culture/pillars",
+      "key": "language_alani",
+      "source": "common/culture/pillars/00_ce_iranian_languages.txt",
+      "source_sha256": "c9c2230cb3a92bb66144648e7d65caafecb1dfbc167865ef83ad9d7ed5260be0",
+      "target": "common/culture/pillars/CAUC_CE_common_culture_pillars.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/game_concepts",
+      "key": "bp_monolithic_culture_tradition",
+      "source": "common/game_concepts/ce_game_concepts.txt",
+      "source_sha256": "e81988664a0333cbed69923e404ea8d6b86bc80c8d9436f3dabf52f614900aae",
+      "target": "common/game_concepts/CAUC_CE_common_game_concepts.txt",
+      "adaptations": []
+    },
+    {
+      "category": "common/script_values",
+      "key": "same_language_branch_choice_factor",
+      "source": "common/script_values/ccu_script_values.txt",
+      "source_sha256": "dfa237cfd964d1720cbdc1939aecde33401b991265a71785e75735bcc1c363b1",
+      "target": "common/script_values/CAUC_CE_common_script_values.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/script_values",
+      "key": "same_language_choice_factor",
+      "source": "common/script_values/ccu_script_values.txt",
+      "source_sha256": "dfa237cfd964d1720cbdc1939aecde33401b991265a71785e75735bcc1c363b1",
+      "target": "common/script_values/CAUC_CE_common_script_values.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/script_values",
+      "key": "same_language_dialect_continuum_choice_factor",
+      "source": "common/script_values/ccu_script_values.txt",
+      "source_sha256": "dfa237cfd964d1720cbdc1939aecde33401b991265a71785e75735bcc1c363b1",
+      "target": "common/script_values/CAUC_CE_common_script_values.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/script_values",
+      "key": "same_language_family_choice_factor",
+      "source": "common/script_values/ccu_script_values.txt",
+      "source_sha256": "dfa237cfd964d1720cbdc1939aecde33401b991265a71785e75735bcc1c363b1",
+      "target": "common/script_values/CAUC_CE_common_script_values.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/script_values",
+      "key": "same_language_group_choice_factor",
+      "source": "common/script_values/ccu_script_values.txt",
+      "source_sha256": "dfa237cfd964d1720cbdc1939aecde33401b991265a71785e75735bcc1c363b1",
+      "target": "common/script_values/CAUC_CE_common_script_values.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/script_values",
+      "key": "same_language_union_choice_factor",
+      "source": "common/script_values/ccu_script_values.txt",
+      "source_sha256": "dfa237cfd964d1720cbdc1939aecde33401b991265a71785e75735bcc1c363b1",
+      "target": "common/script_values/CAUC_CE_common_script_values.txt",
+      "adaptations": [
+        "Namespace imported CCU AI-choice values; retain group metadata"
+      ]
+    },
+    {
+      "category": "common/scripted_effects",
+      "key": "ce_byzantine_867_setup_effect",
+      "source": "common/scripted_effects/ce_byzantine_fixes_scripted_effects.txt",
+      "target": "common/scripted_effects/CAUC_CE_setup_effects.txt",
+      "source_sha256": "7e70612281081a76fa1350f516cbe61b6645b38ddbf0ac79f49dbd4034ac8fdb",
+      "adaptations": [
+        "Caucasus cultures and Armenian distribution only",
+        "Guard existing character scopes",
+        "Resolve innovation inheritance through explicit culture scopes",
+        "Startup can be disabled by game rule"
+      ]
+    },
+    {
+      "category": "common/scripted_effects",
+      "key": "ce_iranian_867_setup_effect",
+      "source": "common/scripted_effects/ce_iranian_fixes_scripted_effects.txt",
+      "target": "common/scripted_effects/CAUC_CE_setup_effects.txt",
+      "source_sha256": "52cc63cb61b601373c162f532729d69008bde633a87c973eb0a66c5cef120bbd",
+      "adaptations": [
+        "Caucasus cultures and Armenian distribution only",
+        "Guard existing character scopes",
+        "Resolve innovation inheritance through explicit culture scopes",
+        "Startup can be disabled by game rule"
+      ]
+    },
+    {
+      "category": "common/scripted_effects",
+      "key": "ce_mid_east_867_setup_effect",
+      "source": "common/scripted_effects/ce_mid_east_fixes_scripted_effects.txt",
+      "target": "common/scripted_effects/CAUC_CE_setup_effects.txt",
+      "source_sha256": "edb8ba91a6edcfd04383006bb56b8779756833ce7846c11f656163ff8c40716d",
+      "adaptations": [
+        "Caucasus cultures and Armenian distribution only",
+        "Guard existing character scopes",
+        "Resolve innovation inheritance through explicit culture scopes",
+        "Startup can be disabled by game rule"
+      ]
+    },
+    {
+      "category": "common/scripted_effects",
+      "key": "ce_byzantine_1066_setup_effect",
+      "source": "common/scripted_effects/ce_byzantine_fixes_scripted_effects.txt",
+      "target": "common/scripted_effects/CAUC_CE_setup_effects.txt",
+      "source_sha256": "7e70612281081a76fa1350f516cbe61b6645b38ddbf0ac79f49dbd4034ac8fdb",
+      "adaptations": [
+        "Caucasus cultures and Armenian distribution only",
+        "Guard existing character scopes",
+        "Resolve innovation inheritance through explicit culture scopes",
+        "Startup can be disabled by game rule"
+      ]
+    },
+    {
+      "category": "common/scripted_effects",
+      "key": "ce_iranian_1066_setup_effect",
+      "source": "common/scripted_effects/ce_iranian_fixes_scripted_effects.txt",
+      "target": "common/scripted_effects/CAUC_CE_setup_effects.txt",
+      "source_sha256": "52cc63cb61b601373c162f532729d69008bde633a87c973eb0a66c5cef120bbd",
+      "adaptations": [
+        "Caucasus cultures and Armenian distribution only",
+        "Guard existing character scopes",
+        "Resolve innovation inheritance through explicit culture scopes",
+        "Startup can be disabled by game rule"
+      ]
+    },
+    {
+      "category": "common/scripted_effects",
+      "key": "ce_mid_east_1066_setup_effect",
+      "source": "common/scripted_effects/ce_mid_east_fixes_scripted_effects.txt",
+      "target": "common/scripted_effects/CAUC_CE_setup_effects.txt",
+      "source_sha256": "edb8ba91a6edcfd04383006bb56b8779756833ce7846c11f656163ff8c40716d",
+      "adaptations": [
+        "Caucasus cultures and Armenian distribution only",
+        "Guard existing character scopes",
+        "Resolve innovation inheritance through explicit culture scopes",
+        "Startup can be disabled by game rule"
+      ]
+    },
+    {
+      "category": "common/scripted_effects",
+      "key": "ce_byzantine_1178_setup_effect",
+      "source": "common/scripted_effects/ce_byzantine_fixes_scripted_effects.txt",
+      "target": "common/scripted_effects/CAUC_CE_setup_effects.txt",
+      "source_sha256": "7e70612281081a76fa1350f516cbe61b6645b38ddbf0ac79f49dbd4034ac8fdb",
+      "adaptations": [
+        "Caucasus cultures and Armenian distribution only",
+        "Guard existing character scopes",
+        "Resolve innovation inheritance through explicit culture scopes",
+        "Startup can be disabled by game rule"
+      ]
+    },
+    {
+      "category": "common/scripted_effects",
+      "key": "ce_iranian_1178_setup_effect",
+      "source": "common/scripted_effects/ce_iranian_fixes_scripted_effects.txt",
+      "target": "common/scripted_effects/CAUC_CE_setup_effects.txt",
+      "source_sha256": "52cc63cb61b601373c162f532729d69008bde633a87c973eb0a66c5cef120bbd",
+      "adaptations": [
+        "Caucasus cultures and Armenian distribution only",
+        "Guard existing character scopes",
+        "Resolve innovation inheritance through explicit culture scopes",
+        "Startup can be disabled by game rule"
+      ]
+    },
+    {
+      "category": "common/scripted_effects",
+      "key": "ce_mid_east_1178_setup_effect",
+      "source": "common/scripted_effects/ce_mid_east_fixes_scripted_effects.txt",
+      "target": "common/scripted_effects/CAUC_CE_setup_effects.txt",
+      "source_sha256": "edb8ba91a6edcfd04383006bb56b8779756833ce7846c11f656163ff8c40716d",
+      "adaptations": [
+        "Caucasus cultures and Armenian distribution only",
+        "Guard existing character scopes",
+        "Resolve innovation inheritance through explicit culture scopes",
+        "Startup can be disabled by game rule"
+      ]
+    },
+    {
+      "category": "common/decisions",
+      "key": "establish_transcaucasia_decision",
+      "source": "common/decisions/00_major_decisions_cultural_flavor_expanded.txt",
+      "target": "common/decisions/CAUC_CE_decisions.txt",
+      "source_sha256": "4d482b41c7b7597b2ce0654439d099abbc0001259a5776022f16377b3c4c05b0",
+      "adaptations": [
+        "Namespace isolation",
+        "Hide duplicate decision with CE adapter; require dynasty"
+      ]
+    },
+    {
+      "category": "common/scripted_effects",
+      "key": "establish_transcaucasia_scripted_effect",
+      "source": "common/scripted_effects/DE_scripted_effects.txt",
+      "target": "common/scripted_effects/CAUC_CE_flavor_effects.txt",
+      "source_sha256": "25749aa2bdc07621ba7437b837728047782a6693f5187799716bb8c9c0f993dd",
+      "adaptations": [
+        "Namespace isolation"
+      ]
+    },
+    {
+      "category": "events",
+      "key": "DE_decision_event.0025",
+      "source": "events/DE_Decision_Events.txt",
+      "target": "events/CAUC_CE_events.txt",
+      "source_sha256": "8203618670990a19ff98378ebdae8578963be8c900eb26a3fea9e098a8e8952e",
+      "adaptations": [
+        "Namespace isolation"
+      ]
+    },
+    {
+      "category": "common/landed_titles",
+      "key": "e_transcaucasia",
+      "source": "common/landed_titles/00_decisions_expanded_titles.txt",
+      "target": "common/landed_titles/CAUC_CE_titles.txt",
+      "source_sha256": "0a82554bb60b61f00784d1da320d7e715459c0cdf5b818d1b836a3eba3a0d38e",
+      "adaptations": [
+        "Namespace isolation"
+      ]
+    },
+    {
+      "category": "common/landed_titles",
+      "key": "k_shirvan",
+      "source": "common/landed_titles/00_decisions_expanded_titles.txt",
+      "target": "common/landed_titles/CAUC_CE_titles.txt",
+      "source_sha256": "0a82554bb60b61f00784d1da320d7e715459c0cdf5b818d1b836a3eba3a0d38e",
+      "adaptations": [
+        "Namespace isolation"
+      ]
+    },
+    {
+      "category": "common/coat_of_arms/coat_of_arms",
+      "key": "e_transcaucasia",
+      "source": "common/coat_of_arms/coat_of_arms/Decisions_flags.txt",
+      "target": "common/coat_of_arms/coat_of_arms/CAUC_CE_coa.txt",
+      "source_sha256": "feaba588bae368b11bcf803354f0ed24fc41e66d1f3ab7d02db6c9eb049685d2",
+      "adaptations": [
+        "Namespace isolation"
+      ]
+    },
+    {
+      "category": "common/opinion_modifiers",
+      "key": "de_imperial_pretender_opinions",
+      "source": "common/opinion_modifiers/DE_opinions.txt",
+      "target": "common/opinion_modifiers/CAUC_CE_opinions.txt",
+      "source_sha256": "40e3d60de09e3ce95dbc5911a3e7c81c1219614d6906144f14c2ccfff432cd64",
+      "adaptations": [
+        "Namespace isolation"
+      ]
+    },
+    {
+      "category": "common/trigger_localization",
+      "key": "establish_transcaucasia_trigger",
+      "source": "common/trigger_localization/ce_decision_triggers.txt",
+      "target": "common/trigger_localization/CAUC_CE_trigger_loc.txt",
+      "source_sha256": "040f61d5807f8680200db2709de39730a1d2ea3683546e36bebf9f3ba858a75d",
+      "adaptations": [
+        "Namespace isolation"
+      ]
+    },
+    {
+      "category": "map_data/geographical_regions",
+      "key": "custom_transcaucasia",
+      "source": "map_data/geographical_regions/CE_geographical_region.txt",
+      "target": "map_data/geographical_regions/CAUC_CE_regions.txt",
+      "source_sha256": "42e2a5508f3611f021b199b558ef4a2921abefced27471846528e99b4a1e437b",
+      "adaptations": [
+        "Namespace isolation"
+      ]
+    },
+    {
+      "category": "common/scripted_rules",
+      "key": "can_diverge_culture",
+      "source": "common/scripted_rules/00_rules_ce_overwrite.txt",
+      "target": "common/scripted_rules/00_rules.txt",
+      "source_sha256": "654da8f412e8527a80b2d218d3de27ad06b20bc755fec15650561674484f2e53",
+      "adaptations": [
+        "Insert only CE monolithic-culture restriction into current vanilla 1.20 implementation"
+      ]
+    },
+    {
+      "category": "common/scripted_rules",
+      "key": "can_hybridize_culture",
+      "source": "common/scripted_rules/00_rules_ce_overwrite.txt",
+      "target": "common/scripted_rules/00_rules.txt",
+      "source_sha256": "654da8f412e8527a80b2d218d3de27ad06b20bc755fec15650561674484f2e53",
+      "adaptations": [
+        "Insert only CE monolithic-culture restriction into current vanilla 1.20 implementation"
+      ]
+    },
+    {
+      "category": "common/scripted_triggers",
+      "key": "is_valid_for_hybridising_trigger",
+      "source": "common/scripted_triggers/00_cultural_triggers_ce_overwrite.txt",
+      "target": "common/scripted_triggers/00_cultural_triggers.txt",
+      "source_sha256": "8a908364a646ae3537daf5c2096e850ee2b4439a64983cfee45b07db7c1714f2",
+      "adaptations": [
+        "Insert only CE monolithic-culture restriction into current vanilla 1.20 implementation"
+      ]
+    }
+  ],
+  "historical_character_changes": [
+    {
+      "start": 867,
+      "character": "160021",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "160022",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "160023",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "160024",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "160025",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "160026",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "160027",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "160028",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "160029",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "160030",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "160031",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "70472",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "70473",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "70471",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "70476",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "70474",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "70475",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "70470",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "character": "70469",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160021",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160022",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160023",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160024",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160025",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160026",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160027",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160028",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160029",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160030",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "160031",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70472",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70473",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70471",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70476",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70474",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70475",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70470",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70469",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70468",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70465",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70466",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "character": "70467",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160021",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160022",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160023",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160024",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160025",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160026",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160027",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160028",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160029",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160030",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "160031",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70472",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70473",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70471",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70476",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70474",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70475",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70470",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70469",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70468",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70465",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70466",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "character": "70467",
+      "action": [
+        "set_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    }
+  ],
+  "county_setup_changes": [
+    {
+      "start": 867,
+      "title": "c_abkhazia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_odishi",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:lazi"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_acampse",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:lazi"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_tmutarakan",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:circassian",
+        "set_county_faith",
+        "=",
+        "faith:orthodox"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_zichia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:circassian",
+        "set_county_faith",
+        "=",
+        "faith:orthodox"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_shaki",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:udi"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_aran",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:udi"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_hereti",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:georgian"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_tbilisi",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:georgian"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_derbent",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:dagestani"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_samander",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:dagestani",
+        "set_county_faith",
+        "=",
+        "faith:orthodox"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_samiran",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:dagestani",
+        "set_county_faith",
+        "=",
+        "faith:tengri_pagan"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_svaneti",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:ce_svan"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_shirvan",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:tat"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_ablastha",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_azysia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_lycandus",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_satala",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_sebasteia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_zela",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 867,
+      "title": "c_colonea",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_abkhazia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_odishi",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:lazi"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_acampse",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:lazi"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_zichia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:circassian"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_tmutarakan",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:circassian",
+        "set_county_faith",
+        "=",
+        "faith:orthodox"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_aran",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:udi"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_hereti",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:udi"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_derbent",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:dagestani"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_samander",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:dagestani",
+        "set_county_faith",
+        "=",
+        "faith:orthodox"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_samiran",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:dagestani",
+        "set_county_faith",
+        "=",
+        "faith:tengri_pagan"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_svaneti",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:ce_svan"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_shirvan",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:tat"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_shaki",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:tat"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_ablastha",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_azysia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_lycandus",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_satala",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_marash",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_antiocheia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 1066,
+      "title": "c_sebasteia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_abkhazia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:abkhaz"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_odishi",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:lazi"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_acampse",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:lazi"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_zichia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:circassian"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_tmutarakan",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:circassian",
+        "set_county_faith",
+        "=",
+        "faith:orthodox"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_aran",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:tat"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_hereti",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:udi"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_derbent",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:dagestani"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_samander",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:dagestani",
+        "set_county_faith",
+        "=",
+        "faith:orthodox"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_samiran",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:dagestani"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_svaneti",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:ce_svan"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_shirvan",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:tat"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_shaki",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:tat"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_ablastha",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian",
+        "set_county_faith",
+        "=",
+        "faith:orthodox"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_azysia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian",
+        "set_county_faith",
+        "=",
+        "faith:orthodox"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_lycandus",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_marash",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian"
+      ]
+    },
+    {
+      "start": 1178,
+      "title": "c_sebasteia",
+      "action": [
+        "set_county_culture",
+        "=",
+        "culture:armenian",
+        "set_county_faith",
+        "=",
+        "faith:orthodox"
+      ]
+    }
+  ],
+  "new_caucasus_character_records": 0,
+  "note": "CE history/characters contains only unrelated fictional Balkans/Pannonia records. Existing Caucasus character corrections are imported from CE startup effects. CCU metadata and referenced scalar values are preserved; global CCU GUI and acceptance overhaul are not imported."
+}

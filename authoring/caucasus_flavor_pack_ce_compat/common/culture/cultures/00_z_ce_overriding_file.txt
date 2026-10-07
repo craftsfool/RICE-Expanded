@@ -1,0 +1,3207 @@
+﻿###EAST GERMANIC###
+
+gothic = {
+	color = gothic
+
+	ethos = ethos_bellicose
+	heritage = heritage_gothic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_isolationist
+		tradition_martial_admiration
+		tradition_stand_and_fight
+	}
+
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_visigothic
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_05
+
+	ethnicities = { # Copied from Norse
+		2 = european_caucasian_nordic_01
+		2 = european_caucasian_nordic_02
+		2 = european_caucasian_nordic_03
+		2 = european_caucasian_nordic_04
+		2 = european_caucasian_nordic_05
+		2 = european_caucasian_nordic_06
+		2 = european_caucasian_nordic_07
+		2 = european_caucasian_nordic_08
+		2 = european_caucasian_nordic_09
+		2 = european_caucasian_nordic_10
+		2 = european_caucasian_nordic_11
+		2 = european_caucasian_nordic_12
+		2 = european_caucasian_nordic_13
+		2 = european_caucasian_nordic_14
+		2 = european_caucasian_nordic_15
+		2 = european_caucasian_nordic_16
+		2 = european_caucasian_nordic_17
+		2 = european_caucasian_nordic_18
+		2 = european_caucasian_nordic_19
+		2 = european_caucasian_nordic_20
+		2 = european_caucasian_nordic_21
+		2 = european_caucasian_nordic_22
+		2 = european_caucasian_nordic_23
+		2 = european_caucasian_nordic_24
+		2 = european_caucasian_nordic_25
+		2 = european_caucasian_nordic_26
+		2 = european_caucasian_nordic_27
+		2 = european_caucasian_nordic_28
+		2 = european_caucasian_nordic_29
+		2 = european_caucasian_nordic_30
+		2 = european_caucasian_nordic_31
+		2 = european_caucasian_nordic_32
+		2 = european_caucasian_nordic_33
+		2 = european_caucasian_nordic_34
+		2 = european_caucasian_nordic_35
+		2 = european_caucasian_nordic_36
+		2 = european_caucasian_nordic_37
+		2 = european_caucasian_nordic_38
+		2 = european_caucasian_nordic_39
+		2 = european_caucasian_nordic_40
+		2 = european_caucasian_nordic_41
+		2 = european_caucasian_nordic_42
+		2 = european_caucasian_nordic_43
+		2 = european_caucasian_nordic_44
+		2 = european_caucasian_nordic_45
+		2 = european_caucasian_nordic_46
+		2 = european_caucasian_nordic_47
+		2 = european_caucasian_nordic_48
+		2 = european_caucasian_nordic_49
+		2 = european_caucasian_nordic_50
+		2 = european_eastern_slavic_1
+		2 = european_eastern_slavic_2
+		2 = european_eastern_slavic_3
+		2 = european_eastern_slavic_4
+		2 = european_eastern_slavic_5
+		2 = european_eastern_slavic_6
+		2 = european_eastern_slavic_7
+		2 = european_eastern_slavic_8
+		2 = european_eastern_slavic_9
+		2 = european_eastern_slavic_10
+		2 = european_eastern_slavic_11
+		2 = european_eastern_slavic_12
+		2 = european_eastern_slavic_13
+		2 = european_eastern_slavic_14
+		2 = european_eastern_slavic_15
+		2 = european_eastern_slavic_16
+		2 = european_eastern_slavic_17
+		2 = european_eastern_slavic_18
+		2 = european_eastern_slavic_19
+		2 = european_eastern_slavic_20
+		2 = european_eastern_slavic_21
+		2 = european_eastern_slavic_22
+		2 = european_eastern_slavic_23
+		2 = european_eastern_slavic_24
+		2 = european_eastern_slavic_25
+		2 = european_eastern_slavic_26
+		2 = european_eastern_slavic_27
+		2 = european_eastern_slavic_28
+		2 = european_eastern_slavic_29
+		2 = european_eastern_slavic_30
+		2 = european_eastern_slavic_31
+		2 = european_eastern_slavic_32
+		2 = european_eastern_slavic_33
+		2 = european_eastern_slavic_34
+		2 = european_eastern_slavic_35
+		2 = european_eastern_slavic_36
+		2 = european_eastern_slavic_37
+		2 = european_eastern_slavic_38
+		2 = european_eastern_slavic_39
+		2 = european_eastern_slavic_40
+		2 = european_eastern_slavic_41
+		2 = european_eastern_slavic_42
+		2 = european_eastern_slavic_43
+		2 = european_eastern_slavic_44
+		2 = european_eastern_slavic_45
+		2 = european_eastern_slavic_46
+		2 = european_eastern_slavic_47
+		2 = european_eastern_slavic_48
+		2 = european_eastern_slavic_49
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+###WEST GERMANIC###
+
+scottish = {
+	color = hsv{ 0.035 0.8 0.8 }
+	created = 1050.1.1
+	parents = { northumbrian cumbrian }
+
+	history_loc_override = scottish_history_loc
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_city_keepers
+		tradition_xenophilic
+		tradition_strong_kinship
+	}
+
+	name_list = name_list_scottish
+
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { epe_english_clothing_gfx western_clothing_gfx }
+	unit_gfx = { scottish_unit_gfx western_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		1 = european_caucasian_scottish_1
+		1 = european_caucasian_scottish_2
+		1 = european_caucasian_scottish_3
+		1 = european_caucasian_scottish_4
+		1 = european_caucasian_scottish_5
+		1 = european_caucasian_scottish_6
+		1 = european_caucasian_scottish_7
+		1 = european_caucasian_scottish_8
+		1 = european_caucasian_scottish_9
+		1 = european_caucasian_scottish_10
+		1 = european_caucasian_irish_01
+		1 = european_caucasian_irish_02
+		1 = european_caucasian_irish_03
+		1 = european_caucasian_irish_04
+		1 = european_caucasian_irish_05
+		1 = european_caucasian_irish_06
+		1 = european_caucasian_irish_07
+		1 = european_caucasian_irish_08
+		1 = european_caucasian_irish_09
+		1 = european_caucasian_irish_10
+		1 = european_caucasian_irish_11
+		1 = european_caucasian_irish_12
+		1 = european_caucasian_irish_13
+		1 = european_caucasian_irish_14
+		1 = european_caucasian_irish_15
+		1 = european_caucasian_irish_16
+		1 = european_caucasian_irish_17
+		1 = european_caucasian_irish_18
+		1 = european_caucasian_irish_19
+		1 = european_caucasian_irish_20
+		1 = european_caucasian_irish_21
+		1 = european_caucasian_irish_22
+		1 = european_caucasian_irish_23
+		1 = european_caucasian_irish_24
+		1 = european_caucasian_irish_25
+		1 = european_caucasian_irish_26
+		1 = european_caucasian_irish_27
+		1 = european_caucasian_irish_28
+		1 = european_caucasian_irish_29
+		1 = european_caucasian_irish_30
+		1 = european_caucasian_irish_31
+		1 = european_caucasian_irish_32
+		1 = european_caucasian_irish_33
+		1 = european_caucasian_irish_34
+		1 = european_caucasian_irish_35
+		1 = european_caucasian_irish_36
+		1 = european_caucasian_irish_37
+		1 = european_caucasian_irish_38
+		1 = european_caucasian_irish_39
+		1 = european_caucasian_irish_40
+		1 = european_caucasian_irish_41
+		1 = european_caucasian_irish_42
+		1 = european_caucasian_irish_43
+		1 = european_caucasian_irish_44
+		1 = european_caucasian_irish_45
+		1 = european_caucasian_irish_46
+		1 = european_caucasian_irish_47
+		1 = european_caucasian_irish_48
+		1 = european_caucasian_irish_49
+		1 = european_caucasian_irish_50
+		1 = european_caucasian_irish_51
+		1 = european_caucasian_irish_52
+		1 = european_caucasian_irish_53
+		1 = european_caucasian_irish_54
+		1 = european_caucasian_irish_55
+		1 = european_caucasian_irish_56
+		1 = european_caucasian_irish_57
+		1 = european_caucasian_irish_58
+		1 = european_caucasian_irish_59
+		1 = european_caucasian_irish_60
+		1 = european_caucasian_irish_61
+		1 = european_caucasian_irish_62
+		1 = european_caucasian_irish_63
+		1 = european_caucasian_irish_64
+		1 = european_caucasian_irish_65
+		1 = european_caucasian_irish_66
+		1 = european_caucasian_irish_67
+		1 = european_caucasian_irish_68
+		1 = european_caucasian_irish_69
+		1 = european_caucasian_irish_70
+		1 = european_caucasian_irish_71
+		1 = european_caucasian_irish_72
+		1 = european_caucasian_irish_73
+		1 = european_caucasian_irish_74
+		1 = european_caucasian_irish_75
+		1 = european_caucasian_irish_76
+		1 = european_caucasian_irish_77
+		1 = european_caucasian_irish_78
+		1 = european_caucasian_irish_79
+		1 = european_caucasian_irish_80
+		1 = european_caucasian_english_1
+		1 = european_caucasian_english_2
+		1 = european_caucasian_english_3
+		1 = european_caucasian_english_4
+		1 = european_caucasian_english_5
+		1 = european_caucasian_english_6
+		1 = european_caucasian_english_7
+		1 = european_caucasian_english_8
+		1 = european_caucasian_english_9
+		1 = european_caucasian_english_10
+		1 = european_caucasian_english_11
+		1 = european_caucasian_english_12
+		1 = european_caucasian_english_13
+		1 = european_caucasian_english_14
+		1 = european_caucasian_english_15
+		1 = european_caucasian_english_16
+		1 = european_caucasian_english_17
+		1 = european_caucasian_english_18
+		1 = european_caucasian_english_19
+		1 = european_caucasian_english_20
+		1 = european_caucasian_english_21
+		1 = european_caucasian_english_22
+		1 = european_caucasian_english_23
+		1 = european_caucasian_english_24
+		1 = european_caucasian_english_25
+		1 = european_caucasian_english_26
+		1 = european_caucasian_english_27
+		1 = european_caucasian_english_28
+		1 = european_caucasian_english_29
+		1 = european_caucasian_english_30
+		1 = european_caucasian_english_31
+		1 = european_caucasian_english_32
+		1 = european_caucasian_english_33
+		1 = european_caucasian_english_34
+		1 = european_caucasian_english_35
+		1 = european_caucasian_english_36
+		1 = european_caucasian_english_37
+		1 = european_caucasian_english_38
+		1 = european_caucasian_english_39
+		1 = european_caucasian_english_40
+		1 = european_caucasian_english_41
+		1 = european_caucasian_english_42
+		1 = european_caucasian_english_43
+		1 = european_caucasian_english_44
+		1 = european_caucasian_english_45
+		1 = european_caucasian_english_46
+		1 = european_caucasian_english_47
+		1 = european_caucasian_english_48
+		1 = european_caucasian_english_49
+		1 = european_caucasian_english_50
+		1 = european_caucasian_english_51
+		1 = european_caucasian_english_52
+		1 = european_caucasian_english_53
+		1 = european_caucasian_english_54
+		1 = european_caucasian_english_55
+		1 = european_caucasian_english_56
+		1 = european_caucasian_english_57
+		1 = european_caucasian_english_58
+		1 = european_caucasian_english_59
+		1 = european_caucasian_english_60
+		1 = european_caucasian_english_61
+		1 = european_caucasian_english_62
+		1 = european_caucasian_english_63
+		1 = european_caucasian_english_64
+		1 = european_caucasian_english_65
+		1 = european_caucasian_english_66
+		1 = european_caucasian_english_67
+		1 = european_caucasian_english_68
+		1 = european_caucasian_english_69
+		1 = european_caucasian_english_70
+		1 = european_caucasian_english_71
+		1 = european_caucasian_english_72
+		1 = european_caucasian_english_73
+		1 = european_caucasian_english_74
+		1 = european_caucasian_english_75
+		1 = european_caucasian_english_76
+		1 = european_caucasian_english_77
+		1 = european_caucasian_english_78
+		1 = european_caucasian_english_79
+		1 = european_caucasian_english_80
+		1 = european_caucasian_english_81
+		1 = european_caucasian_english_82
+		1 = european_caucasian_english_83
+		1 = european_caucasian_english_84
+		1 = european_caucasian_english_85
+		1 = european_caucasian_english_86
+		1 = european_caucasian_english_87
+		1 = european_caucasian_english_88
+		1 = european_caucasian_english_89
+		1 = european_caucasian_english_90
+		1 = european_caucasian_english_91
+		1 = european_caucasian_english_92
+		1 = european_caucasian_english_93
+		1 = european_caucasian_english_94
+		1 = european_caucasian_english_95
+		1 = european_caucasian_english_96
+		1 = european_caucasian_english_97
+		1 = european_caucasian_english_98
+		1 = european_caucasian_english_99
+		1 = european_caucasian_english_100
+		1 = european_caucasian_english_101
+		1 = epe_random_european_01
+		1 = epe_random_european_01
+		1 = epe_random_european_01
+		1 = epe_random_european_01
+		1 = epe_random_european_01
+		1 = epe_random_european_01
+		1 = epe_random_european_01
+		1 = epe_random_european_01
+		1 = epe_random_european_01
+		1 = epe_random_european_01
+	}
+}
+
+anglo_saxon = {
+	color = { 0.8 0.3 0.3 }
+	created = 927.1.1
+	parents = { old_anglian old_saxon }
+
+	history_loc_override = anglo_saxon_history_loc
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_the_witenagemot
+		tradition_city_keepers
+		tradition_stalwart_defenders
+		tradition_hird
+	}
+
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { epe_english_clothing_gfx western_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	house_coa_frame = house_frame_24
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_anglo_saxon_blond_1
+		2 = european_anglo_saxon_blond_2
+		2 = european_anglo_saxon_blond_3
+		2 = european_anglo_saxon_blond_4
+		2 = european_anglo_saxon_blond_5
+		2 = european_anglo_saxon_brown_1
+		2 = european_anglo_saxon_brown_2
+		2 = european_anglo_saxon_brown_3
+		2 = european_anglo_saxon_brown_4
+		2 = european_anglo_saxon_brown_5
+		2 = european_anglo_saxon_dark_1
+		2 = european_anglo_saxon_dark_2
+		2 = european_anglo_saxon_dark_3
+		2 = european_anglo_saxon_dark_4
+		2 = european_anglo_saxon_dark_5
+		2 = european_anglo_saxon_dark_6
+		2 = european_anglo_saxon_ginger_1
+		2 = european_anglo_saxon_ginger_2
+		2 = european_anglo_saxon_ginger_3
+		2 = european_anglo_saxon_ginger_4
+		2 = european_anglo_saxon_ginger_5
+		2 = european_caucasian_english_1
+		2 = european_caucasian_english_2
+		2 = european_caucasian_english_3
+		2 = european_caucasian_english_4
+		2 = european_caucasian_english_5
+		2 = european_caucasian_english_6
+		2 = european_caucasian_english_7
+		2 = european_caucasian_english_8
+		2 = european_caucasian_english_9
+		2 = european_caucasian_english_10
+		2 = european_caucasian_english_11
+		2 = european_caucasian_english_12
+		2 = european_caucasian_english_13
+		2 = european_caucasian_english_14
+		2 = european_caucasian_english_15
+		2 = european_caucasian_english_16
+		2 = european_caucasian_english_17
+		2 = european_caucasian_english_18
+		2 = european_caucasian_english_19
+		2 = european_caucasian_english_20
+		2 = european_caucasian_english_21
+		2 = european_caucasian_english_22
+		2 = european_caucasian_english_23
+		2 = european_caucasian_english_24
+		2 = european_caucasian_english_25
+		2 = european_caucasian_english_26
+		2 = european_caucasian_english_27
+		2 = european_caucasian_english_28
+		2 = european_caucasian_english_29
+		2 = european_caucasian_english_30
+		2 = european_caucasian_english_31
+		2 = european_caucasian_english_32
+		2 = european_caucasian_english_33
+		2 = european_caucasian_english_34
+		2 = european_caucasian_english_35
+		2 = european_caucasian_english_36
+		2 = european_caucasian_english_37
+		2 = european_caucasian_english_38
+		2 = european_caucasian_english_39
+		2 = european_caucasian_english_40
+		2 = european_caucasian_english_41
+		2 = european_caucasian_english_42
+		2 = european_caucasian_english_43
+		2 = european_caucasian_english_44
+		2 = european_caucasian_english_45
+		2 = european_caucasian_english_46
+		2 = european_caucasian_english_47
+		2 = european_caucasian_english_48
+		2 = european_caucasian_english_49
+		2 = european_caucasian_english_50
+		2 = european_caucasian_english_51
+		2 = european_caucasian_english_52
+		2 = european_caucasian_english_53
+		2 = european_caucasian_english_54
+		2 = european_caucasian_english_55
+		2 = european_caucasian_english_56
+		2 = european_caucasian_english_57
+		2 = european_caucasian_english_58
+		2 = european_caucasian_english_59
+		2 = european_caucasian_english_60
+		2 = european_caucasian_english_61
+		2 = european_caucasian_english_62
+		2 = european_caucasian_english_63
+		2 = european_caucasian_english_64
+		2 = european_caucasian_english_65
+		2 = european_caucasian_english_66
+		2 = european_caucasian_english_67
+		2 = european_caucasian_english_68
+		2 = european_caucasian_english_69
+		2 = european_caucasian_english_70
+		2 = european_caucasian_english_71
+		2 = european_caucasian_english_72
+		2 = european_caucasian_english_73
+		2 = european_caucasian_english_74
+		2 = european_caucasian_english_75
+		2 = european_caucasian_english_76
+		2 = european_caucasian_english_77
+		2 = european_caucasian_english_78
+		2 = european_caucasian_english_79
+		2 = european_caucasian_english_80
+		2 = european_caucasian_english_81
+		2 = european_caucasian_english_82
+		2 = european_caucasian_english_83
+		2 = european_caucasian_english_84
+		2 = european_caucasian_english_85
+		2 = european_caucasian_english_86
+		2 = european_caucasian_english_87
+		2 = european_caucasian_english_88
+		2 = european_caucasian_english_89
+		2 = european_caucasian_english_90
+		2 = european_caucasian_english_91
+		2 = european_caucasian_english_92
+		2 = european_caucasian_english_93
+		2 = european_caucasian_english_94
+		2 = european_caucasian_english_95
+		2 = european_caucasian_english_96
+		2 = european_caucasian_english_97
+		2 = european_caucasian_english_98
+		2 = european_caucasian_english_99
+		2 = european_caucasian_english_100
+		2 = european_caucasian_english_101
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+##LATIN##
+
+italian = {
+	color = italian
+
+	parents = { lombard }
+
+	created = 750.1.1
+
+	ethos = ethos_spiritual
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_formation_fighting
+		tradition_republican_legacy
+		tradition_poetry
+	}
+
+	name_list = name_list_italian
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { italian_unit_gfx western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		2 = european_med_italian_1
+		2 = european_med_italian_2
+		2 = european_med_italian_3
+		2 = european_med_italian_4
+		2 = european_med_italian_5
+		2 = european_med_italian_6
+		2 = european_med_italian_7
+		2 = european_med_italian_8
+		2 = european_med_italian_9
+		2 = european_med_italian_10
+		2 = european_med_italian_11
+		2 = european_med_italian_12
+		2 = european_med_italian_13
+		2 = european_med_italian_14
+		2 = european_med_italian_15
+		2 = european_med_italian_16
+		2 = european_med_italian_17
+		2 = european_med_italian_18
+		2 = european_med_italian_19
+		2 = european_med_italian_20
+		2 = european_med_italian_21
+		2 = european_med_italian_22
+		2 = european_med_italian_23
+		2 = european_med_italian_24
+		2 = european_med_italian_25
+		2 = european_med_italian_26
+		2 = european_med_italian_27
+		2 = european_med_italian_28
+		2 = european_med_italian_29
+		2 = european_med_italian_30
+		2 = european_med_italian_31
+		2 = european_med_italian_32
+		2 = european_med_italian_33
+		2 = european_med_italian_34
+		2 = european_med_italian_35
+		2 = european_med_italian_36
+		2 = european_med_italian_37
+		2 = european_med_italian_38
+		2 = european_med_italian_39
+		2 = european_med_italian_40
+		2 = european_med_italian_41
+		2 = european_med_italian_42
+		2 = european_med_italian_43
+		2 = european_med_italian_44
+		2 = european_med_italian_45
+		2 = european_med_italian_46
+		2 = european_med_italian_47
+		2 = european_med_italian_48
+		2 = european_med_italian_49
+		2 = european_med_italian_50
+		2 = european_med_italian_51
+		2 = european_med_italian_52
+		2 = european_med_italian_53
+		2 = european_med_italian_54
+		2 = european_med_italian_55
+		2 = european_med_italian_56
+		2 = european_med_italian_57
+		2 = european_med_italian_58
+		2 = european_med_italian_59
+		2 = european_med_italian_60
+		2 = european_med_italian_61
+		2 = european_med_italian_62
+		2 = european_med_italian_63
+		2 = european_med_italian_64
+		2 = european_med_italian_65
+		2 = european_med_italian_66
+		2 = european_med_italian_67
+		2 = european_med_italian_68
+		2 = european_med_italian_69
+		2 = european_med_italian_70
+		2 = european_med_italian_71
+		2 = european_med_italian_72
+		2 = european_med_italian_73
+		2 = european_med_italian_74
+		2 = european_med_italian_75
+		2 = european_med_italian_76
+		2 = european_med_italian_77
+		2 = european_med_italian_78
+		2 = european_med_italian_79
+		2 = european_med_italian_80
+		2 = european_med_italian_81
+		2 = european_med_italian_82
+		2 = european_med_italian_83
+		2 = european_med_italian_84
+		2 = european_med_italian_85
+		2 = european_med_italian_86
+		2 = european_med_italian_87
+		2 = european_med_italian_88
+		2 = european_med_italian_89
+		2 = european_med_italian_90
+		2 = european_med_italian_91
+		2 = european_med_italian_92
+		2 = european_med_italian_93
+		2 = european_med_italian_94
+		2 = european_med_italian_95
+		2 = european_med_italian_96
+		2 = european_med_italian_97
+		2 = european_med_italian_98
+		2 = european_med_italian_99
+		2 = european_med_italian_100
+		2 = european_med_italian_101
+		2 = european_med_italian_102
+		2 = european_med_italian_103
+	}
+}
+
+lombard = { #Italo-Lombards
+	color = { 0.8 0.8 0.5 }
+
+	created = 550.1.1
+
+	parents = { langobard roman }
+
+	# history_loc_override = ce_lombard_history_loc
+
+	ethos = ethos_stoic
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_isolationist
+		tradition_martial_admiration
+		tradition_stand_and_fight
+		tradition_republican_legacy
+	}
+
+	name_list = name_list_lombard
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { italian_unit_gfx western_unit_gfx }
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		2 = european_med_lombard_1
+		2 = european_med_lombard_2
+		2 = european_med_lombard_3
+		2 = european_med_lombard_4
+		2 = european_med_lombard_5
+		2 = european_med_lombard_6
+		2 = european_med_lombard_7
+		2 = european_med_lombard_8
+		2 = european_med_lombard_9
+		2 = european_med_lombard_10
+		2 = european_med_lombard_11
+		2 = european_med_lombard_12
+		2 = european_med_lombard_13
+		2 = european_med_lombard_14
+		2 = european_med_lombard_15
+		2 = european_med_lombard_16
+		2 = european_med_lombard_17
+		2 = european_med_lombard_18
+		2 = european_med_lombard_19
+		2 = european_med_lombard_20
+		2 = european_med_lombard_21
+		2 = european_med_lombard_22
+		2 = european_med_lombard_23
+		2 = european_med_lombard_24
+		2 = european_med_lombard_25
+		2 = european_med_lombard_26
+		2 = european_med_lombard_27
+		2 = european_med_lombard_28
+		2 = european_med_lombard_29
+		2 = european_med_lombard_30
+		2 = european_med_lombard_31
+		2 = european_med_lombard_32
+		2 = european_med_lombard_33
+		2 = european_med_lombard_34
+		2 = european_med_lombard_35
+		2 = european_med_lombard_36
+		2 = european_med_lombard_37
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+		2 = epe_random_european_01
+	}
+}
+
+###WEST SLAVIC###
+
+pommeranian = {
+	color = { 0.27 0.49 0.59 }
+
+	ethos = ethos_stoic
+	heritage = heritage_west_slavic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_hussar
+	}
+
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_pommeranian
+
+	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { epe_west_slav_clothing_gfx west_slavic_clothing_gfx western_clothing_gfx }
+	unit_gfx = { polish_unit_gfx eastern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 1.0 1.0 }
+
+	ethnicities = {
+		10 = european_slavic_blond_1
+		10 = european_slavic_blond_2
+		10 = european_slavic_blond_3
+		5 = european_slavic_ginger_1
+		15 = european_slavic_brown_1
+		15 = european_slavic_brown_2
+		10 = european_slavic_brown_3
+		5 = european_slavic_dark_1
+		10 = european_slavic_dark_2
+		10 = european_slavic_dark_3
+	}
+}
+
+slovien = {
+	color = { 0.3 0.6 0.5 }
+	created = 800.1.1
+	parents = { czech avar }
+
+	history_loc_override = slovien_history_loc
+
+	ethos = ethos_egalitarian
+	heritage = heritage_west_slavic
+	language = language_czech_slovak
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountaineer_ruralism
+		tradition_equitable
+	}
+
+	name_list = name_list_slovien
+
+	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { epe_west_slav_clothing_gfx west_slavic_clothing_gfx western_clothing_gfx }
+	unit_gfx = { polish_unit_gfx eastern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 1.0 1.0 }
+
+	ethnicities = {
+		10 = european_slavic_blond_1
+		10 = european_slavic_blond_2
+		5 = european_slavic_blond_3
+		5 = european_slavic_blond_4
+		5 = european_slavic_ginger_1
+		5 = european_slavic_ginger_2
+		10 = european_slavic_brown_1
+		10 = european_slavic_brown_2
+		5 = european_slavic_brown_3
+		5 = european_slavic_brown_4
+		5 = european_slavic_dark_1
+		10 = european_slavic_dark_2
+		10 = european_slavic_dark_3
+		5 = european_slavic_dark_4
+	}
+}
+
+
+###SOUTH SLAVIC###
+
+bulgarian = {
+	color = { 0.7 0.5 0.5 }
+	created = 850.1.1
+	parents = { bolghar serbian }
+
+	history_loc_override = bulgarian_history_loc
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_ruling_caste
+		tradition_stand_and_fight
+		tradition_hussar
+		tradition_merciful_blindings
+	}
+
+	name_list = name_list_bulgarian
+
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_bulgarian_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { south_slavic_unit_gfx eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_south_slavic_blond_1
+		2 = european_south_slavic_blond_2
+		2 = european_south_slavic_blond_3
+		2 = european_south_slavic_brown_1
+		2 = european_south_slavic_brown_2
+		2 = european_south_slavic_brown_3
+		2 = european_south_slavic_brown_4
+		2 = european_south_slavic_dark_1
+		2 = european_south_slavic_dark_2
+		2 = european_south_slavic_dark_3
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+###Aramaics###
+
+assyrian = {
+	color = { 142 68 28 }
+	created = 300.1.1
+	parents = { persian } #+Aramean/Old Assyrian
+
+	history_loc_override = assyrian_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_philosopher_culture
+		tradition_caravaneers
+		tradition_ce1_ritual_washing
+	}
+
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { epe_armenian_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_15
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_kurdish_1
+		2 = iranian_kurdish_2
+		2 = iranian_kurdish_3
+		2 = iranian_kurdish_4
+		2 = iranian_kurdish_5
+		2 = iranian_kurdish_6
+		2 = iranian_kurdish_7
+		2 = iranian_kurdish_8
+		2 = iranian_kurdish_9
+		2 = iranian_kurdish_10
+		2 = iranian_kurdish_11
+		2 = iranian_kurdish_12
+		2 = iranian_kurdish_13
+		2 = iranian_kurdish_14
+		2 = iranian_kurdish_15
+		2 = iranian_kurdish_16
+		2 = iranian_kurdish_17
+		2 = iranian_kurdish_18
+		2 = iranian_kurdish_19
+		2 = iranian_kurdish_20
+		2 = iranian_kurdish_21
+		2 = iranian_kurdish_22
+		2 = iranian_kurdish_23
+		2 = iranian_kurdish_24
+		2 = iranian_kurdish_25
+		2 = iranian_kurdish_26
+		2 = iranian_kurdish_27
+		2 = iranian_kurdish_28
+		2 = iranian_kurdish_29
+		2 = iranian_kurdish_30
+		2 = iranian_kurdish_31
+		2 = iranian_kurdish_32
+		2 = iranian_kurdish_33
+		2 = iranian_kurdish_34
+		2 = iranian_kurdish_35
+		2 = iranian_kurdish_36
+		2 = iranian_kurdish_37
+		2 = iranian_kurdish_38
+		2 = iranian_kurdish_39
+		2 = iranian_kurdish_40
+	}
+}
+
+###Iranians###
+
+persian = {
+	color = { 0.1 0.6 0.8 }
+
+	created = 650.1.1
+	parents = { old_persian }
+
+	history_loc_override = persian_history_loc
+
+	ethos = ethos_courtly
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_gardening
+		tradition_futuwaa
+		tradition_ce1_ritual_washing
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
+	}
+	dlc_tradition = {
+		trait = tradition_fp3_beacon_of_learning
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_philosopher_culture
+	}
+	dlc_tradition = {
+		trait = tradition_fp3_enlightened_magnates
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_poetry
+	}
+
+	name_list = name_list_persian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { west_iranian_unit_gfx iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_persian_01
+		2 = iranian_persian_02
+		2 = iranian_persian_03
+		2 = iranian_persian_04
+		2 = iranian_persian_05
+		2 = iranian_persian_06
+		2 = iranian_persian_07
+		2 = iranian_persian_08
+		2 = iranian_persian_09
+		2 = iranian_persian_10
+		2 = iranian_persian_11
+		2 = iranian_persian_12
+		2 = iranian_persian_13
+		2 = iranian_persian_14
+		2 = iranian_persian_15
+		2 = iranian_persian_16
+		2 = iranian_persian_17
+		2 = iranian_persian_18
+		2 = iranian_persian_19
+		2 = iranian_persian_20
+		2 = iranian_persian_21
+		2 = iranian_persian_22
+		2 = iranian_persian_23
+		2 = iranian_persian_24
+		2 = iranian_persian_25
+		2 = iranian_persian_26
+		2 = iranian_persian_27
+		2 = iranian_persian_28
+		2 = iranian_persian_29
+		2 = iranian_persian_30
+		2 = iranian_persian_31
+		2 = iranian_persian_32
+		2 = iranian_persian_33
+		2 = iranian_persian_34
+		2 = iranian_persian_35
+		2 = iranian_persian_36
+		2 = iranian_persian_37
+		2 = iranian_persian_38
+		2 = iranian_persian_39
+		2 = iranian_persian_40
+		2 = iranian_persian_41
+		2 = iranian_persian_42
+		2 = iranian_persian_43
+		2 = iranian_persian_44
+		2 = iranian_persian_45
+		2 = iranian_persian_46
+		2 = iranian_persian_47
+		2 = iranian_persian_48
+		2 = iranian_persian_49
+		2 = iranian_persian_50
+		2 = iranian_persian_51
+		2 = iranian_persian_52
+		2 = iranian_persian_53
+		2 = iranian_persian_54
+		2 = iranian_persian_55
+		2 = iranian_persian_107
+		2 = iranian_persian_108
+	}
+}
+
+tajik = {
+	color = { 0.7 0.6 1 }
+
+	created = 650.1.1
+	parents = { old_persian }
+
+	history_loc_override = tajik_history_loc
+
+	ethos = ethos_spiritual
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_caravaneers
+		tradition_futuwaa
+		tradition_city_keepers #FP3 addition
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
+	}
+	dlc_tradition = {
+		trait = tradition_fp3_beacon_of_learning
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_philosopher_culture
+	}
+
+	name_list = name_list_tajik
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_khorasani_01
+		2 = iranian_khorasani_02
+		2 = iranian_khorasani_03
+		2 = iranian_khorasani_04
+		2 = iranian_khorasani_05
+		2 = iranian_khorasani_06
+		2 = iranian_khorasani_07
+		2 = iranian_khorasani_08
+		2 = iranian_khorasani_09
+		2 = iranian_khorasani_10
+		2 = iranian_khorasani_11
+		2 = iranian_khorasani_12
+		2 = iranian_khorasani_13
+		2 = iranian_khorasani_14
+		2 = iranian_khorasani_15
+		2 = iranian_khorasani_16
+		2 = iranian_khorasani_17
+		2 = iranian_khorasani_18
+		2 = iranian_khorasani_19
+		2 = iranian_khorasani_20
+		2 = iranian_khorasani_21
+		2 = iranian_khorasani_22
+		2 = iranian_khorasani_23
+		2 = iranian_khorasani_24
+		2 = iranian_khorasani_25
+		2 = iranian_khorasani_26
+		2 = iranian_khorasani_27
+		2 = iranian_khorasani_28
+		2 = iranian_khorasani_29
+		2 = iranian_khorasani_30
+		2 = iranian_khorasani_31
+		2 = iranian_khorasani_32
+		2 = iranian_khorasani_33
+		2 = iranian_khorasani_34
+		2 = iranian_khorasani_35
+		2 = iranian_khorasani_36
+		2 = iranian_khorasani_37
+		2 = iranian_khorasani_38
+		2 = iranian_khorasani_39
+		2 = iranian_khorasani_40
+		2 = iranian_khorasani_41
+		2 = iranian_khorasani_42
+		2 = iranian_khorasani_43
+		2 = iranian_khorasani_44
+		2 = iranian_khorasani_45
+		2 = iranian_khorasani_46
+		2 = iranian_khorasani_47
+		2 = iranian_khorasani_48
+		2 = iranian_khorasani_49
+		2 = iranian_khorasani_50
+	}
+}
+
+kurdish = {
+	color = { 0 0.9 0.7 }
+
+	created = 650.1.1
+	parents = { old_persian }
+
+	history_loc_override = kurdish_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_swords_for_hire
+		tradition_mountain_homes
+		tradition_eye_for_an_eye
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_fierce_independence
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_futuwaa
+	}
+
+	name_list = name_list_kurdish
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { west_iranian_unit_gfx iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_kurdish_1
+		2 = iranian_kurdish_2
+		2 = iranian_kurdish_3
+		2 = iranian_kurdish_4
+		2 = iranian_kurdish_5
+		2 = iranian_kurdish_6
+		2 = iranian_kurdish_7
+		2 = iranian_kurdish_8
+		2 = iranian_kurdish_9
+		2 = iranian_kurdish_10
+		2 = iranian_kurdish_11
+		2 = iranian_kurdish_12
+		2 = iranian_kurdish_13
+		2 = iranian_kurdish_14
+		2 = iranian_kurdish_15
+		2 = iranian_kurdish_16
+		2 = iranian_kurdish_17
+		2 = iranian_kurdish_18
+		2 = iranian_kurdish_19
+		2 = iranian_kurdish_20
+		2 = iranian_kurdish_21
+		2 = iranian_kurdish_22
+		2 = iranian_kurdish_23
+		2 = iranian_kurdish_24
+		2 = iranian_kurdish_25
+		2 = iranian_kurdish_26
+		2 = iranian_kurdish_27
+		2 = iranian_kurdish_28
+		2 = iranian_kurdish_29
+		2 = iranian_kurdish_30
+		2 = iranian_kurdish_31
+		2 = iranian_kurdish_32
+		2 = iranian_kurdish_33
+		2 = iranian_kurdish_34
+		2 = iranian_kurdish_35
+		2 = iranian_kurdish_36
+		2 = iranian_kurdish_37
+		2 = iranian_kurdish_38
+		2 = iranian_kurdish_39
+		2 = iranian_kurdish_40
+	}
+}
+
+# alan is supplied by Caucasus: Passes and Sanctuaries.
+
+
+afghan = { # a.k.a. Pashtun
+	color = { 0.4 0.3 1 }
+
+	created = 350.1.1
+	parents = { old_persian }
+
+	history_loc_override = afghan_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_eye_for_an_eye #FP3 change from Loyal Subjects
+		tradition_esteemed_hospitality
+		tradition_mountain_homes
+		tradition_futuwaa
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+	}
+
+	name_list = name_list_afghan
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		2 = iranian_afghan_1
+		2 = iranian_afghan_2
+		2 = iranian_afghan_3
+		2 = iranian_afghan_4
+		2 = iranian_afghan_5
+		2 = iranian_afghan_6
+		2 = iranian_afghan_7
+		2 = iranian_afghan_8
+		2 = iranian_afghan_9
+		2 = iranian_afghan_10
+		2 = iranian_afghan_11
+		2 = iranian_afghan_12
+		2 = iranian_afghan_13
+		2 = iranian_afghan_14
+		2 = iranian_afghan_15
+		2 = iranian_afghan_16
+		2 = iranian_afghan_17
+		2 = iranian_afghan_18
+		2 = iranian_afghan_19
+		2 = iranian_afghan_20
+		2 = iranian_afghan_21
+		2 = iranian_afghan_22
+		2 = iranian_afghan_23
+		2 = iranian_afghan_24
+		2 = iranian_afghan_25
+		2 = iranian_afghan_26
+		2 = iranian_afghan_27
+		2 = iranian_afghan_28
+		2 = iranian_afghan_29
+		2 = iranian_afghan_30
+		2 = iranian_afghan_31
+		2 = iranian_afghan_32
+		2 = iranian_afghan_33
+		2 = iranian_afghan_34
+		2 = iranian_afghan_35
+		2 = iranian_afghan_36
+		2 = iranian_afghan_37
+		2 = iranian_afghan_38
+		2 = iranian_afghan_39
+		2 = iranian_afghan_40
+		2 = iranian_afghan_41
+		2 = iranian_afghan_42
+		2 = iranian_afghan_43
+		2 = iranian_afghan_44
+		2 = iranian_afghan_45
+		2 = iranian_afghan_46
+		2 = iranian_afghan_47
+		2 = iranian_afghan_48
+		2 = iranian_afghan_49
+		2 = iranian_afghan_50
+	}
+}
+
+baloch = {
+	color = { 0.1 0.15 0.5 }
+
+	created = 650.1.1
+	parents = { old_persian }
+
+	history_loc_override = baloch_history_loc
+
+	ethos = ethos_stoic #FP3 change based on research
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_futuwaa
+		tradition_desert_nomads
+		tradition_esteemed_hospitality
+		tradition_isolationist
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+	}
+
+	name_list = name_list_baloch
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { west_iranian_unit_gfx iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_baloch_1
+		2 = iranian_baloch_2
+		2 = iranian_baloch_3
+		2 = iranian_baloch_4
+		2 = iranian_baloch_5
+		2 = iranian_baloch_6
+		2 = iranian_baloch_7
+		2 = iranian_baloch_8
+		2 = iranian_baloch_9
+		2 = iranian_baloch_10
+		2 = iranian_baloch_11
+		2 = iranian_baloch_12
+		2 = iranian_baloch_13
+		2 = iranian_baloch_14
+		2 = iranian_baloch_15
+		2 = iranian_baloch_16
+		2 = iranian_baloch_17
+		2 = iranian_baloch_18
+		2 = iranian_baloch_19
+		2 = iranian_baloch_20
+		2 = iranian_baloch_21
+		2 = iranian_baloch_22
+		2 = iranian_baloch_23
+		2 = iranian_baloch_24
+		2 = iranian_baloch_25
+		2 = iranian_baloch_26
+		2 = iranian_baloch_27
+		2 = iranian_baloch_28
+		2 = iranian_baloch_29
+		2 = iranian_baloch_30
+		2 = iranian_baloch_31
+		2 = iranian_baloch_32
+		2 = iranian_baloch_33
+		2 = iranian_baloch_34
+		2 = iranian_baloch_35
+		2 = iranian_baloch_36
+		2 = iranian_baloch_37
+		2 = iranian_baloch_38
+		2 = iranian_baloch_39
+		2 = iranian_baloch_40
+		2 = iranian_baloch_41
+		2 = iranian_baloch_42
+		2 = iranian_baloch_43
+		2 = iranian_baloch_44
+		2 = iranian_baloch_45
+	}
+}
+
+daylamite = {
+	color = { 0 0.35 0.6 }
+
+	created = 650.1.1
+	parents = { old_persian }
+
+	history_loc_override = daylamite_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_swords_for_hire
+		tradition_stalwart_defenders
+		tradition_mountaineers
+		tradition_isolationist
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_pragmatic_creed
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_futuwaa
+	}
+
+	name_list = name_list_daylamite
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { west_iranian_unit_gfx iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_daylamite_1
+		2 = iranian_daylamite_2
+		2 = iranian_daylamite_3
+		2 = iranian_daylamite_4
+		2 = iranian_daylamite_5
+		2 = iranian_daylamite_6
+		2 = iranian_daylamite_7
+		2 = iranian_daylamite_8
+		2 = iranian_daylamite_9
+		2 = iranian_daylamite_10
+		2 = iranian_daylamite_11
+		2 = iranian_daylamite_12
+		2 = iranian_daylamite_13
+		2 = iranian_daylamite_14
+		2 = iranian_daylamite_15
+		2 = iranian_daylamite_16
+		2 = iranian_daylamite_17
+		2 = iranian_daylamite_18
+		2 = iranian_daylamite_19
+		2 = iranian_daylamite_20
+		2 = iranian_daylamite_21
+		2 = iranian_daylamite_22
+		2 = iranian_daylamite_23
+	}
+}
+
+sogdian = {
+	color = { 0.1 0.3 0.9 }
+
+	created = 650.1.1
+	parents = { old_persian }
+
+	history_loc_override = sogdian_history_loc
+
+	ethos = ethos_egalitarian
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_caravaneers
+		tradition_religion_blending
+		tradition_parochialism
+	}
+
+	# FP3 	traditions
+	dlc_tradition = {
+		trait = tradition_fp3_frontier_warriors
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_futuwaa
+	}
+	dlc_tradition = {
+		trait = tradition_horse_breeder #FP3 addition
+		requires_dlc_flag = legacy_of_persia
+	}
+
+	name_list = name_list_sogdian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_sogdian_01
+		2 = iranian_sogdian_02
+		2 = iranian_sogdian_03
+		2 = iranian_sogdian_04
+		2 = iranian_sogdian_05
+		2 = iranian_sogdian_06
+		2 = iranian_sogdian_07
+		2 = iranian_sogdian_08
+		2 = iranian_sogdian_09
+		2 = iranian_sogdian_10
+		2 = iranian_sogdian_11
+		2 = iranian_sogdian_12
+		2 = iranian_sogdian_13
+		2 = iranian_sogdian_14
+		2 = iranian_sogdian_15
+		2 = iranian_sogdian_16
+		2 = iranian_sogdian_17
+		2 = iranian_sogdian_18
+		2 = iranian_sogdian_19
+		2 = iranian_sogdian_20
+		2 = iranian_sogdian_21
+		2 = iranian_sogdian_22
+		2 = iranian_sogdian_23
+		2 = iranian_sogdian_24
+		2 = iranian_sogdian_25
+		2 = iranian_sogdian_26
+		2 = iranian_sogdian_27
+		2 = iranian_sogdian_28
+		2 = iranian_sogdian_29
+		2 = iranian_sogdian_30
+		2 = iranian_sogdian_31
+		2 = iranian_sogdian_32
+		2 = iranian_sogdian_33
+		2 = iranian_sogdian_34
+		2 = iranian_sogdian_35
+		2 = iranian_sogdian_36
+		2 = iranian_sogdian_37
+		2 = iranian_sogdian_38
+		2 = iranian_sogdian_39
+		2 = iranian_sogdian_40
+		2 = iranian_sogdian_41
+		2 = iranian_sogdian_42
+		2 = iranian_sogdian_43
+		2 = iranian_sogdian_44
+		2 = iranian_sogdian_45
+		2 = iranian_sogdian_46
+		2 = iranian_sogdian_47
+		2 = iranian_sogdian_49
+		2 = iranian_sogdian_50
+		2 = iranian_sogdian_51
+		2 = iranian_sogdian_52
+		2 = iranian_sogdian_53
+		2 = iranian_sogdian_54
+	}
+}
+
+khwarezmian = {
+	color = { 0.4 0.6 0.9 }
+
+	created = 650.1.1
+	parents = { old_persian }
+
+	history_loc_override = khwarazmian_history_loc
+
+	ethos = ethos_stoic
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_city_keepers #FP3 - swapped from Isolationism
+		tradition_stalwart_defenders # Added in FP3
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_frontier_warriors
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_futuwaa
+	}
+
+	name_list = name_list_khwarezmian
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_khorasani_01
+		2 = iranian_khorasani_02
+		2 = iranian_khorasani_03
+		2 = iranian_khorasani_04
+		2 = iranian_khorasani_05
+		2 = iranian_khorasani_06
+		2 = iranian_khorasani_07
+		2 = iranian_khorasani_08
+		2 = iranian_khorasani_09
+		2 = iranian_khorasani_10
+		2 = iranian_khorasani_11
+		2 = iranian_khorasani_12
+		2 = iranian_khorasani_13
+		2 = iranian_khorasani_14
+		2 = iranian_khorasani_15
+		2 = iranian_khorasani_16
+		2 = iranian_khorasani_17
+		2 = iranian_khorasani_18
+		2 = iranian_khorasani_19
+		2 = iranian_khorasani_20
+		2 = iranian_khorasani_21
+		2 = iranian_khorasani_22
+		2 = iranian_khorasani_23
+		2 = iranian_khorasani_24
+		2 = iranian_khorasani_25
+		2 = iranian_khorasani_26
+		2 = iranian_khorasani_27
+		2 = iranian_khorasani_28
+		2 = iranian_khorasani_29
+		2 = iranian_khorasani_30
+		2 = iranian_khorasani_31
+		2 = iranian_khorasani_32
+		2 = iranian_khorasani_33
+		2 = iranian_khorasani_34
+		2 = iranian_khorasani_35
+		2 = iranian_khorasani_36
+		2 = iranian_khorasani_37
+		2 = iranian_khorasani_38
+		2 = iranian_khorasani_39
+		2 = iranian_khorasani_40
+		2 = iranian_khorasani_41
+		2 = iranian_khorasani_42
+		2 = iranian_khorasani_43
+		2 = iranian_khorasani_44
+		2 = iranian_khorasani_45
+		2 = iranian_khorasani_46
+		2 = iranian_khorasani_47
+		2 = iranian_khorasani_48
+		2 = iranian_khorasani_49
+		2 = iranian_khorasani_50
+	}
+}
+
+saka = {
+	color = { 0.5 0.3 1 }
+	created = 100.1.1
+
+	history_loc_override = scythian_heritage_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_caravaneers
+		#tradition_horse_lords
+		tradition_dryland_dwellers
+		tradition_artisans
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_frontier_warriors
+		requires_dlc_flag = legacy_of_persia
+	}
+
+	name_list = name_list_saka
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { epe_sino_iranian_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_china
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = iranian_saka_01
+		2 = iranian_saka_02
+		2 = iranian_saka_03
+		2 = iranian_saka_04
+		2 = iranian_saka_05
+		2 = iranian_saka_06
+		2 = iranian_saka_07
+		2 = iranian_saka_08
+		2 = iranian_saka_09
+		2 = iranian_saka_10
+		2 = iranian_saka_11
+		2 = iranian_saka_12
+		2 = iranian_saka_13
+		2 = iranian_saka_14
+		2 = iranian_saka_15
+		2 = iranian_saka_16
+		2 = iranian_saka_17
+		2 = iranian_saka_18
+		2 = iranian_saka_19
+		2 = iranian_saka_20
+		2 = asian_turkic_1_western
+		2 = asian_turkic_2_western
+		2 = asian_turkic_3_western
+		2 = asian_turkic_4_western
+		2 = asian_turkic_5_western
+		2 = asian_turkic_6_western
+		2 = asian_turkic_7_western
+		2 = asian_turkic_8_western
+		2 = asian_turkic_9_western
+		2 = asian_turkic_15_western
+		2 = asian_turkic_16_western
+		2 = asian_turkic_17_western
+		2 = asian_turkic_19_western
+		2 = asian_turkic_20_western
+		2 = asian_turkic_23_western
+	}
+}
+
+brahui = { # FP3 addition. This people represent, as best as I have been able to research this mysterious issue, the mixed nomadic population of Baluchistan before the Baloch migration.
+	color = { 1.0 0.4 0.4 }
+
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_brahui
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_astute_diplomats
+		tradition_culture_blending
+		tradition_desert_nomads
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_tribe_unity
+	}
+
+	name_list = name_list_gond
+
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_17
+
+	ethnicities = {
+		3 = indian_sindh_1
+		3 = indian_sindh_2
+		3 = indian_sindh_3
+		3 = indian_sindh_4
+		3 = indian_sindh_5
+		3 = indian_sindh_6
+		3 = indian_sindh_7
+		3 = indian_sindh_8
+		3 = indian_sindh_9
+		3 = indian_sindh_10
+		3 = indian_sindh_11
+		3 = indian_sindh_12
+		3 = indian_sindh_13
+		3 = indian_sindh_14
+		3 = indian_sindh_15
+		3 = indian_sindh_16
+		3 = indian_sindh_17
+		3 = indian_sindh_18
+		3 = indian_sindh_19
+		3 = indian_sindh_20
+		3 = indian_sindh_21
+		3 = indian_sindh_22
+		3 = indian_sindh_23
+		3 = indian_sindh_24
+		3 = indian_sindh_25
+		2 = indian_northern_1
+		2 = indian_northern_2
+		2 = indian_northern_3
+		2 = indian_northern_4
+		2 = indian_northern_5
+		2 = indian_northern_6
+		2 = indian_northern_7
+		2 = indian_northern_8
+		2 = indian_northern_9
+		2 = indian_northern_10
+		2 = indian_northern_11
+		2 = indian_northern_12
+		2 = indian_northern_13
+		2 = indian_northern_14
+		2 = indian_northern_15
+		2 = indian_northern_16
+		2 = indian_northern_17
+		2 = indian_northern_18
+		2 = indian_northern_19
+		2 = indian_northern_20
+		2 = indian_northern_21
+		2 = indian_northern_22
+	}
+}
+
+levantine = {
+	color = { 0.3 0.95 0.3 }
+	created = 650.1.1
+	parents = { assyrian }
+
+	history_loc_override = levantine_history_loc
+
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_medicinal_plants
+		tradition_mubarizuns
+		tradition_dryland_dwellers
+		tradition_ce1_ritual_washing
+	}
+
+	name_list = name_list_levantine
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { levant_unit_gfx mena_unit_gfx }
+	house_coa_frame = house_frame_13
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		2 = mid_east_arabic_1
+		2 = mid_east_arabic_2
+		2 = mid_east_arabic_3
+		2 = mid_east_arabic_4
+		2 = mid_east_arabic_5
+		2 = mid_east_arabic_6
+		2 = mid_east_arabic_7
+		2 = mid_east_arabic_8
+		2 = mid_east_arabic_9
+		2 = mid_east_arabic_10
+		2 = mid_east_arabic_11
+		2 = mid_east_arabic_12
+		2 = mid_east_arabic_13
+		2 = mid_east_arabic_14
+		2 = mid_east_arabic_15
+		2 = mid_east_arabic_16
+		2 = mid_east_arabic_17
+		2 = mid_east_arabic_18
+		2 = mid_east_arabic_19
+		2 = mid_east_arabic_20
+		2 = mid_east_arabic_21
+		2 = mid_east_arabic_22
+		2 = mid_east_arabic_23
+		2 = mid_east_arabic_24
+		2 = mid_east_arabic_25
+		2 = mid_east_arabic_26
+		2 = mid_east_arabic_27
+		2 = mid_east_arabic_28
+		2 = mid_east_arabic_29
+		2 = mid_east_arabic_30
+		2 = mid_east_arabic_31
+		2 = mid_east_arabic_32
+		2 = mid_east_arabic_33
+		2 = mid_east_arabic_34
+		2 = mid_east_arabic_35
+		2 = mid_east_arabic_36
+		2 = mid_east_arabic_37
+		2 = mid_east_arabic_38
+		2 = mid_east_arabic_39
+		2 = mid_east_arabic_40
+		2 = mid_east_arabic_41
+		2 = mid_east_arabic_42
+		2 = mid_east_arabic_43
+		2 = mid_east_arabic_44
+		2 = mid_east_arabic_45
+		2 = mid_east_arabic_46
+		2 = mid_east_arabic_47
+		2 = mid_east_arabic_48
+		2 = mid_east_arabic_49
+		2 = mid_east_arabic_50
+		2 = mid_east_arabic_51
+		2 = mid_east_arabic_52
+		2 = mid_east_arabic_53
+		2 = mid_east_arabic_54
+		2 = mid_east_arabic_55
+		2 = mid_east_arabic_56
+		2 = mid_east_arabic_57
+		2 = mid_east_arabic_58
+		2 = mid_east_arabic_59
+		2 = mid_east_arabic_60
+		2 = mid_east_arabic_61
+		2 = mid_east_arabic_62
+		2 = mid_east_arabic_63
+		2 = mid_east_arabic_64
+		2 = mid_east_arabic_65
+		2 = mid_east_arabic_66
+		2 = mid_east_arabic_67
+		2 = mid_east_arabic_68
+		2 = mid_east_arabic_69
+		2 = mid_east_arabic_70
+		2 = mid_east_arabic_71
+		2 = mid_east_arabic_72
+		2 = mid_east_arabic_73
+		2 = mid_east_arabic_74
+		2 = mid_east_arabic_75
+		2 = mid_east_arabic_76
+		2 = mid_east_arabic_77
+		2 = mid_east_arabic_78
+		2 = mid_east_arabic_79
+		2 = mid_east_arabic_80
+		2 = mid_east_arabic_81
+		2 = mid_east_arabic_82
+		2 = mid_east_arabic_83
+		2 = mid_east_arabic_84
+		2 = mid_east_arabic_85
+		2 = mid_east_arabic_86
+		2 = mid_east_arabic_87
+		2 = mid_east_arabic_88
+		2 = mid_east_arabic_89
+		2 = mid_east_arabic_90
+		2 = mid_east_arabic_91
+		2 = mid_east_arabic_92
+		2 = mid_east_arabic_93
+		2 = mid_east_arabic_94
+		2 = mid_east_arabic_95
+		2 = mid_east_arabic_96
+		2 = mid_east_arabic_97
+		2 = mid_east_arabic_98
+		2 = mid_east_arabic_99
+		2 = mid_east_arabic_100
+		2 = mid_east_arabic_101
+		2 = mid_east_arabic_102
+		2 = mid_east_arabic_103
+		2 = mid_east_arabic_104
+		2 = mid_east_arabic_105
+		2 = mid_east_arabic_106
+		2 = mid_east_arabic_107
+		2 = mid_east_arabic_108
+	}
+}
+
+croatian = {
+	color = { 0.4 0.2 0.2 }
+
+	created = 800.1.1
+	parents = { dalmatian_ce slavonian } #technically also belocroat, but I don't want the Belocroats to end up as South Slavs// Slavonian for gameplay reaons
+
+	history_loc_override = croatian_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_astute_diplomats
+		tradition_hereditary_hierarchy
+	}
+
+	name_list = name_list_croatian
+
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+bosnian = {
+	color = bosnian
+
+	# *Definitely* a bit early; should likely be more between 900 & 1000.
+	created = 800.1.1
+	parents = { croatian serbian } #PDX thing
+
+	history_loc_override = bosnian_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mendicant_mystics
+		tradition_monastic_communities
+		tradition_isolationist
+	}
+
+	name_list = name_list_bosnian
+
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+serbian = {
+	color = {  0.36 0.1 0.04 }
+
+	created = 800.1.1
+	parents = { doclean travunian } #Gameplay reaosns, makes it easier for Serbs to assimilate these two
+
+	history_loc_override = serbian_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_religious_patronage
+		tradition_stalwart_defenders
+	}
+
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_serbian
+
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_south_slav_clothing_gfx byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+
+	ethnicities = {
+		2 = european_med_south_slavic_01
+		2 = european_med_south_slavic_02
+		2 = european_med_south_slavic_03
+		2 = european_med_south_slavic_04
+		2 = european_med_south_slavic_05
+		2 = european_med_south_slavic_06
+		2 = european_med_south_slavic_07
+		2 = european_med_south_slavic_08
+		2 = european_med_south_slavic_09
+		2 = european_med_south_slavic_10
+		2 = european_med_south_slavic_11
+		2 = european_med_south_slavic_12
+		2 = european_med_south_slavic_13
+		2 = european_med_south_slavic_14
+		2 = european_med_south_slavic_15
+		2 = european_med_south_slavic_16
+		2 = european_med_south_slavic_17
+		2 = european_med_south_slavic_18
+		2 = european_med_south_slavic_19
+		2 = european_med_south_slavic_20
+		2 = european_med_south_slavic_21
+		2 = european_med_south_slavic_22
+		2 = european_med_south_slavic_23
+		2 = european_med_south_slavic_24
+		2 = european_med_south_slavic_25
+		2 = european_med_south_slavic_26
+		2 = european_med_south_slavic_27
+		2 = european_med_south_slavic_28
+		2 = european_med_south_slavic_29
+		2 = european_med_south_slavic_30
+		2 = european_med_south_slavic_31
+		2 = european_med_south_slavic_32
+		2 = european_med_south_slavic_33
+		2 = european_med_south_slavic_34
+		2 = european_med_south_slavic_35
+		2 = european_med_south_slavic_36
+		2 = european_med_south_slavic_37
+		2 = european_med_south_slavic_38
+		2 = european_med_south_slavic_39
+		2 = european_med_south_slavic_40
+		2 = european_med_south_slavic_41
+		2 = european_med_south_slavic_42
+		2 = european_med_south_slavic_43
+		2 = european_med_south_slavic_44
+		2 = european_med_south_slavic_45
+		2 = european_med_south_slavic_46
+		2 = european_med_south_slavic_47
+		2 = european_med_south_slavic_48
+		2 = european_med_south_slavic_49
+		2 = european_med_south_slavic_50
+	}
+}
+
+### IBERIAN ####
+
+visigothic = {
+	color = { 0.55 0.55 0.15 }
+
+	created = 500.1.1
+	parents = { gothic }
+
+	history_loc_override = visigothic_history_loc
+
+	ethos = ethos_egalitarian
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_visigothic_codes
+		tradition_hit_and_run
+		tradition_martial_admiration
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+	}
+
+	name_list = name_list_visigothic
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	ethnicities = {
+		2 = european_med_iberian_1
+		2 = european_med_iberian_2
+		2 = european_med_iberian_3
+		2 = european_med_iberian_4
+		2 = european_med_iberian_5
+		2 = european_med_iberian_6
+		2 = european_med_iberian_7
+		2 = european_med_iberian_8
+		2 = european_med_iberian_9
+		2 = european_med_iberian_2
+		2 = european_med_iberian_11
+		2 = european_med_iberian_12
+		2 = european_med_iberian_13
+		2 = european_med_iberian_14
+		2 = european_med_iberian_15
+		2 = european_med_iberian_16
+		2 = european_med_iberian_17
+		2 = european_med_iberian_18
+		2 = european_med_iberian_19
+		2 = european_med_iberian_20
+		2 = european_med_iberian_21
+		2 = european_med_iberian_22
+		2 = european_med_iberian_23
+		2 = european_med_iberian_24
+		2 = european_med_iberian_25
+		2 = european_med_iberian_26
+		2 = european_med_iberian_27
+		2 = european_med_iberian_28
+		2 = european_med_iberian_29
+		2 = european_med_iberian_30
+		2 = european_med_iberian_31
+		2 = european_med_iberian_32
+		2 = european_med_iberian_33
+		2 = european_med_iberian_34
+		2 = european_med_iberian_35
+		2 = european_med_iberian_36
+		2 = european_med_iberian_37
+		2 = european_med_iberian_38
+		2 = european_med_iberian_39
+		2 = european_med_iberian_40
+		2 = european_med_iberian_41
+		2 = european_med_iberian_42
+		2 = european_med_iberian_43
+		2 = european_med_iberian_44
+		2 = european_med_iberian_45
+		2 = european_med_iberian_46
+		2 = european_med_iberian_47
+		2 = european_med_iberian_48
+		2 = european_med_iberian_49
+		2 = european_med_iberian_50
+		2 = european_med_iberian_51
+		2 = european_med_iberian_52
+		2 = european_med_iberian_53
+		2 = european_med_iberian_54
+		2 = european_med_iberian_55
+		2 = european_med_iberian_56
+		2 = european_med_iberian_57
+		2 = european_med_iberian_58
+		2 = european_med_iberian_59
+		2 = european_med_iberian_60
+		2 = european_med_iberian_61
+		2 = european_med_iberian_62
+		2 = european_med_iberian_63
+		2 = european_med_iberian_64
+		2 = european_med_iberian_65
+		2 = european_med_iberian_66
+		2 = european_med_iberian_67
+		2 = european_med_iberian_68
+		2 = european_med_iberian_69
+		2 = european_med_iberian_70
+	}
+}
+
+andalusian = {
+	color = { 0.4 0.6 0.1 }
+	created = 720.1.1
+	parents = { visigothic }
+
+	history_loc_override = andalusian_history_loc
+
+	ethos = ethos_courtly
+	heritage = heritage_iberian
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hit_and_run
+	}
+
+	dlc_tradition = {
+		trait = tradition_artisans
+		requires_dlc_flag = royal_court
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_xenophilic
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+	}
+
+	name_list = name_list_andalusian
+
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iberian_muslim_unit_gfx }
+
+	ethnicities = {
+		1 = mid_east_arabic_1
+		1 = mid_east_arabic_2
+		1 = mid_east_arabic_3
+		1 = mid_east_arabic_4
+		1 = mid_east_arabic_5
+		1 = mid_east_arabic_6
+		1 = mid_east_arabic_7
+		1 = mid_east_arabic_8
+		1 = mid_east_arabic_9
+		1 = mid_east_arabic_10
+		1 = mid_east_arabic_11
+		1 = mid_east_arabic_12
+		1 = mid_east_arabic_13
+		1 = mid_east_arabic_14
+		1 = mid_east_arabic_15
+		1 = mid_east_arabic_16
+		1 = mid_east_arabic_17
+		1 = mid_east_arabic_18
+		1 = mid_east_arabic_19
+		1 = mid_east_arabic_20
+		1 = mid_east_arabic_21
+		1 = mid_east_arabic_22
+		1 = mid_east_arabic_23
+		1 = mid_east_arabic_24
+		1 = mid_east_arabic_25
+		1 = mid_east_arabic_26
+		1 = mid_east_arabic_27
+		1 = mid_east_arabic_28
+		1 = mid_east_arabic_29
+		1 = mid_east_arabic_30
+		1 = mid_east_arabic_31
+		1 = mid_east_arabic_32
+		1 = mid_east_arabic_33
+		1 = mid_east_arabic_34
+		1 = mid_east_arabic_35
+		1 = mid_east_arabic_36
+		1 = mid_east_arabic_37
+		1 = mid_east_arabic_38
+		1 = mid_east_arabic_39
+		1 = mid_east_arabic_40
+		1 = mid_east_arabic_41
+		1 = mid_east_arabic_42
+		1 = mid_east_arabic_43
+		1 = mid_east_arabic_44
+		1 = mid_east_arabic_45
+		1 = mid_east_arabic_46
+		1 = mid_east_arabic_47
+		1 = mid_east_arabic_48
+		1 = mid_east_arabic_49
+		1 = mid_east_arabic_50
+		1 = mid_east_arabic_51
+		1 = mid_east_arabic_52
+		1 = mid_east_arabic_53
+		1 = mid_east_arabic_54
+		1 = mid_east_arabic_55
+		1 = mid_east_arabic_56
+		1 = mid_east_arabic_57
+		1 = mid_east_arabic_58
+		1 = mid_east_arabic_59
+		1 = mid_east_arabic_60
+		1 = mid_east_arabic_61
+		1 = mid_east_arabic_62
+		1 = mid_east_arabic_63
+		1 = mid_east_arabic_64
+		1 = mid_east_arabic_65
+		1 = mid_east_arabic_66
+		1 = mid_east_arabic_67
+		1 = mid_east_arabic_68
+		1 = mid_east_arabic_69
+		1 = mid_east_arabic_70
+		1 = mid_east_arabic_71
+		1 = mid_east_arabic_72
+		1 = mid_east_arabic_73
+		1 = mid_east_arabic_74
+		1 = mid_east_arabic_75
+		1 = mid_east_arabic_76
+		1 = mid_east_arabic_77
+		1 = mid_east_arabic_78
+		1 = mid_east_arabic_79
+		1 = mid_east_arabic_80
+		1 = mid_east_arabic_81
+		1 = mid_east_arabic_82
+		1 = mid_east_arabic_83
+		1 = mid_east_arabic_84
+		1 = mid_east_arabic_85
+		1 = mid_east_arabic_86
+		1 = mid_east_arabic_87
+		1 = european_med_iberian_1
+		1 = european_med_iberian_2
+		1 = european_med_iberian_3
+		1 = european_med_iberian_4
+		1 = european_med_iberian_5
+		1 = european_med_iberian_6
+		1 = european_med_iberian_7
+		1 = european_med_iberian_8
+		1 = european_med_iberian_9
+		1 = european_med_iberian_2
+		1 = european_med_iberian_11
+		1 = european_med_iberian_12
+		1 = european_med_iberian_13
+		1 = european_med_iberian_14
+		1 = european_med_iberian_15
+		1 = european_med_iberian_16
+		1 = european_med_iberian_17
+		1 = european_med_iberian_18
+		1 = european_med_iberian_19
+		1 = european_med_iberian_20
+		1 = european_med_iberian_21
+		1 = european_med_iberian_22
+		1 = european_med_iberian_23
+		1 = european_med_iberian_24
+		1 = european_med_iberian_25
+		1 = european_med_iberian_26
+		1 = european_med_iberian_27
+		1 = european_med_iberian_28
+		1 = european_med_iberian_29
+		1 = european_med_iberian_30
+		1 = european_med_iberian_31
+		1 = european_med_iberian_32
+		1 = european_med_iberian_33
+		1 = european_med_iberian_34
+		1 = european_med_iberian_35
+		1 = european_med_iberian_36
+		1 = european_med_iberian_37
+		1 = european_med_iberian_38
+		1 = european_med_iberian_39
+		1 = european_med_iberian_40
+		1 = european_med_iberian_41
+		1 = european_med_iberian_42
+		1 = european_med_iberian_43
+		1 = european_med_iberian_44
+		1 = european_med_iberian_45
+		1 = european_med_iberian_46
+		1 = european_med_iberian_47
+		1 = european_med_iberian_48
+		1 = european_med_iberian_49
+		1 = european_med_iberian_50
+		1 = european_med_iberian_51
+		1 = european_med_iberian_52
+		1 = european_med_iberian_53
+		1 = european_med_iberian_54
+		1 = european_med_iberian_55
+		1 = european_med_iberian_56
+		1 = european_med_iberian_57
+		1 = european_med_iberian_58
+		1 = european_med_iberian_59
+		1 = european_med_iberian_60
+		1 = european_med_iberian_61
+		1 = european_med_iberian_62
+		1 = european_med_iberian_63
+		1 = european_med_iberian_64
+		1 = european_med_iberian_65
+		1 = european_med_iberian_66
+		1 = european_med_iberian_67
+		1 = european_med_iberian_68
+		1 = european_med_iberian_69
+		1 = european_med_iberian_70
+		2 = north_african_amazigh_01
+		2 = north_african_amazigh_02
+		2 = north_african_amazigh_03
+		2 = north_african_amazigh_04
+		2 = north_african_amazigh_05
+		2 = north_african_amazigh_06
+		2 = north_african_amazigh_07
+		2 = north_african_amazigh_08
+		2 = north_african_amazigh_09
+		2 = north_african_amazigh_10
+		2 = north_african_amazigh_11
+		2 = north_african_amazigh_12
+		2 = north_african_amazigh_13
+		2 = north_african_amazigh_14
+		2 = north_african_amazigh_15
+		2 = north_african_amazigh_16
+		2 = north_african_amazigh_17
+	}
+}
+
+castilian = {
+	color = castilian
+	created = 850.1.1
+	parents = { visigothic mozarab }
+
+	history_loc_override = castilian_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_chivalry
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_hit_and_run
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+
+	name_list = name_list_castilian
+
+	coa_gfx = { castilian_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	ethnicities = {
+		2 = european_med_iberian_1
+		2 = european_med_iberian_2
+		2 = european_med_iberian_3
+		2 = european_med_iberian_4
+		2 = european_med_iberian_5
+		2 = european_med_iberian_6
+		2 = european_med_iberian_7
+		2 = european_med_iberian_8
+		2 = european_med_iberian_9
+		2 = european_med_iberian_2
+		2 = european_med_iberian_11
+		2 = european_med_iberian_12
+		2 = european_med_iberian_13
+		2 = european_med_iberian_14
+		2 = european_med_iberian_15
+		2 = european_med_iberian_16
+		2 = european_med_iberian_17
+		2 = european_med_iberian_18
+		2 = european_med_iberian_19
+		2 = european_med_iberian_20
+		2 = european_med_iberian_21
+		2 = european_med_iberian_22
+		2 = european_med_iberian_23
+		2 = european_med_iberian_24
+		2 = european_med_iberian_25
+		2 = european_med_iberian_26
+		2 = european_med_iberian_27
+		2 = european_med_iberian_28
+		2 = european_med_iberian_29
+		2 = european_med_iberian_30
+		2 = european_med_iberian_31
+		2 = european_med_iberian_32
+		2 = european_med_iberian_33
+		2 = european_med_iberian_34
+		2 = european_med_iberian_35
+		2 = european_med_iberian_36
+		2 = european_med_iberian_37
+		2 = european_med_iberian_38
+		2 = european_med_iberian_39
+		2 = european_med_iberian_40
+		2 = european_med_iberian_41
+		2 = european_med_iberian_42
+		2 = european_med_iberian_43
+		2 = european_med_iberian_44
+		2 = european_med_iberian_45
+		2 = european_med_iberian_46
+		2 = european_med_iberian_47
+		2 = european_med_iberian_48
+		2 = european_med_iberian_49
+		2 = european_med_iberian_50
+		2 = european_med_iberian_51
+		2 = european_med_iberian_52
+		2 = european_med_iberian_53
+		2 = european_med_iberian_54
+		2 = european_med_iberian_55
+		2 = european_med_iberian_56
+		2 = european_med_iberian_57
+		2 = european_med_iberian_58
+		2 = european_med_iberian_59
+		2 = european_med_iberian_60
+		2 = european_med_iberian_61
+		2 = european_med_iberian_62
+		2 = european_med_iberian_63
+		2 = european_med_iberian_64
+		2 = european_med_iberian_65
+		2 = european_med_iberian_66
+		2 = european_med_iberian_67
+		2 = european_med_iberian_68
+		2 = european_med_iberian_69
+		2 = european_med_iberian_70
+	}
+}
+
+catalan = {
+	color = { 0.76 0.42 0.08 }
+	created = 800.1.1
+	parents = { visigothic mozarab }
+
+	history_loc_override = catalan_history_loc
+
+	ethos = ethos_courtly
+	heritage = heritage_iberian
+	language = language_occitano_romance
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_visigothic_codes
+		tradition_maritime_mercantilism
+		tradition_parochialism
+		tradition_poetry
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+
+	name_list = name_list_catalan
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	ethnicities = {
+		2 = european_med_iberian_1
+		2 = european_med_iberian_2
+		2 = european_med_iberian_3
+		2 = european_med_iberian_4
+		2 = european_med_iberian_5
+		2 = european_med_iberian_6
+		2 = european_med_iberian_7
+		2 = european_med_iberian_8
+		2 = european_med_iberian_9
+		2 = european_med_iberian_2
+		2 = european_med_iberian_11
+		2 = european_med_iberian_12
+		2 = european_med_iberian_13
+		2 = european_med_iberian_14
+		2 = european_med_iberian_15
+		2 = european_med_iberian_16
+		2 = european_med_iberian_17
+		2 = european_med_iberian_18
+		2 = european_med_iberian_19
+		2 = european_med_iberian_20
+		2 = european_med_iberian_21
+		2 = european_med_iberian_22
+		2 = european_med_iberian_23
+		2 = european_med_iberian_24
+		2 = european_med_iberian_25
+		2 = european_med_iberian_26
+		2 = european_med_iberian_27
+		2 = european_med_iberian_28
+		2 = european_med_iberian_29
+		2 = european_med_iberian_30
+		2 = european_med_iberian_31
+		2 = european_med_iberian_32
+		2 = european_med_iberian_33
+		2 = european_med_iberian_34
+		2 = european_med_iberian_35
+		2 = european_med_iberian_36
+		2 = european_med_iberian_37
+		2 = european_med_iberian_38
+		2 = european_med_iberian_39
+		2 = european_med_iberian_40
+		2 = european_med_iberian_41
+		2 = european_med_iberian_42
+		2 = european_med_iberian_43
+		2 = european_med_iberian_44
+		2 = european_med_iberian_45
+		2 = european_med_iberian_46
+		2 = european_med_iberian_47
+		2 = european_med_iberian_48
+		2 = european_med_iberian_49
+		2 = european_med_iberian_50
+		2 = european_med_iberian_51
+		2 = european_med_iberian_52
+		2 = european_med_iberian_53
+		2 = european_med_iberian_54
+		2 = european_med_iberian_55
+		2 = european_med_iberian_56
+		2 = european_med_iberian_57
+		2 = european_med_iberian_58
+		2 = european_med_iberian_59
+		2 = european_med_iberian_60
+		2 = european_med_iberian_61
+		2 = european_med_iberian_62
+		2 = european_med_iberian_63
+		2 = european_med_iberian_64
+		2 = european_med_iberian_65
+		2 = european_med_iberian_66
+		2 = european_med_iberian_67
+		2 = european_med_iberian_68
+		2 = european_med_iberian_69
+		2 = european_med_iberian_70
+		2 = european_caucasian_occitan_01
+		2 = european_caucasian_occitan_02
+		2 = european_caucasian_occitan_03
+		2 = european_caucasian_occitan_04
+		2 = european_caucasian_occitan_05
+		2 = european_caucasian_occitan_06
+		2 = european_caucasian_occitan_07
+		2 = european_caucasian_occitan_08
+		2 = european_caucasian_occitan_09
+		2 = european_caucasian_occitan_10
+		2 = european_caucasian_occitan_11
+		2 = european_caucasian_occitan_12
+		2 = european_caucasian_occitan_13
+		2 = european_caucasian_occitan_14
+		2 = european_caucasian_occitan_15
+		2 = european_caucasian_occitan_16
+		2 = european_caucasian_occitan_17
+		2 = european_caucasian_occitan_18
+		2 = european_caucasian_occitan_19
+		2 = european_caucasian_occitan_20
+		2 = european_caucasian_occitan_21
+		2 = european_caucasian_occitan_22
+		2 = european_caucasian_occitan_23
+		2 = european_caucasian_occitan_24
+		2 = european_caucasian_occitan_25
+		2 = european_caucasian_occitan_26
+		2 = european_caucasian_occitan_27
+		2 = european_caucasian_occitan_28
+		2 = european_caucasian_occitan_29
+		2 = european_caucasian_occitan_30
+		2 = european_caucasian_occitan_31
+		2 = european_caucasian_occitan_32
+		2 = european_caucasian_occitan_33
+		2 = european_caucasian_occitan_34
+		2 = european_caucasian_occitan_35
+		2 = european_caucasian_occitan_36
+		2 = european_caucasian_occitan_37
+		2 = european_caucasian_occitan_38
+		2 = european_caucasian_occitan_39
+		2 = european_caucasian_occitan_40
+		2 = european_caucasian_occitan_41
+		2 = european_caucasian_occitan_42
+		2 = european_caucasian_occitan_43
+		2 = european_caucasian_occitan_44
+		2 = european_caucasian_occitan_45
+		2 = european_caucasian_occitan_46
+		2 = european_caucasian_occitan_47
+		2 = european_caucasian_occitan_48
+		2 = european_caucasian_occitan_49
+		2 = european_caucasian_occitan_50
+		2 = european_caucasian_occitan_51
+		2 = european_caucasian_occitan_52
+		2 = european_caucasian_occitan_53
+		2 = european_caucasian_occitan_54
+		2 = european_caucasian_occitan_55
+		2 = european_caucasian_occitan_56
+	}
+}
+
+galician = {
+	color = { 0.92 0.93 0.63 }
+	created = 500.1.1
+	parents = { suebi }
+
+	history_loc_override = galician_history_loc
+
+	ethos = ethos_spiritual
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_monastic_communities
+		tradition_highland_warriors
+		tradition_fishermen
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+
+	name_list = name_list_galician
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	ethnicities = {
+		2 = european_med_iberian_1
+		2 = european_med_iberian_2
+		2 = european_med_iberian_3
+		2 = european_med_iberian_4
+		2 = european_med_iberian_5
+		2 = european_med_iberian_6
+		2 = european_med_iberian_7
+		2 = european_med_iberian_8
+		2 = european_med_iberian_9
+		2 = european_med_iberian_2
+		2 = european_med_iberian_11
+		2 = european_med_iberian_12
+		2 = european_med_iberian_13
+		2 = european_med_iberian_14
+		2 = european_med_iberian_15
+		2 = european_med_iberian_16
+		2 = european_med_iberian_17
+		2 = european_med_iberian_18
+		2 = european_med_iberian_19
+		2 = european_med_iberian_20
+		2 = european_med_iberian_21
+		2 = european_med_iberian_22
+		2 = european_med_iberian_23
+		2 = european_med_iberian_24
+		2 = european_med_iberian_25
+		2 = european_med_iberian_26
+		2 = european_med_iberian_27
+		2 = european_med_iberian_28
+		2 = european_med_iberian_29
+		2 = european_med_iberian_30
+		2 = european_med_iberian_31
+		2 = european_med_iberian_32
+		2 = european_med_iberian_33
+		2 = european_med_iberian_34
+		2 = european_med_iberian_35
+		2 = european_med_iberian_36
+		2 = european_med_iberian_37
+		2 = european_med_iberian_38
+		2 = european_med_iberian_39
+		2 = european_med_iberian_40
+		2 = european_med_iberian_41
+		2 = european_med_iberian_42
+		2 = european_med_iberian_43
+		2 = european_med_iberian_44
+		2 = european_med_iberian_45
+		2 = european_med_iberian_46
+		2 = european_med_iberian_47
+		2 = european_med_iberian_48
+		2 = european_med_iberian_49
+		2 = european_med_iberian_50
+		2 = european_med_iberian_51
+		2 = european_med_iberian_52
+		2 = european_med_iberian_53
+		2 = european_med_iberian_54
+		2 = european_med_iberian_55
+		2 = european_med_iberian_56
+		2 = european_med_iberian_57
+		2 = european_med_iberian_58
+		2 = european_med_iberian_59
+		2 = european_med_iberian_60
+		2 = european_med_iberian_61
+		2 = european_med_iberian_62
+		2 = european_med_iberian_63
+		2 = european_med_iberian_64
+		2 = european_med_iberian_65
+		2 = european_med_iberian_66
+		2 = european_med_iberian_67
+		2 = european_med_iberian_68
+		2 = european_med_iberian_69
+		2 = european_med_iberian_70
+	}
+}
+
+asturleonese = {
+	color = { 0.98 0.85 0.36  }
+	created = 720.1.1
+	parents = { visigothic mozarab }
+
+	history_loc_override = leonese_history_loc
+
+	ethos = ethos_egalitarian
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hit_and_run
+		tradition_mountaineers
+		tradition_fervent_temple_builders
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+
+	name_list = name_list_asturleonese
+
+	coa_gfx = { leonese_coa_gfx iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	ethnicities = {
+		2 = european_med_iberian_1
+		2 = european_med_iberian_2
+		2 = european_med_iberian_3
+		2 = european_med_iberian_4
+		2 = european_med_iberian_5
+		2 = european_med_iberian_6
+		2 = european_med_iberian_7
+		2 = european_med_iberian_8
+		2 = european_med_iberian_9
+		2 = european_med_iberian_2
+		2 = european_med_iberian_11
+		2 = european_med_iberian_12
+		2 = european_med_iberian_13
+		2 = european_med_iberian_14
+		2 = european_med_iberian_15
+		2 = european_med_iberian_16
+		2 = european_med_iberian_17
+		2 = european_med_iberian_18
+		2 = european_med_iberian_19
+		2 = european_med_iberian_20
+		2 = european_med_iberian_21
+		2 = european_med_iberian_22
+		2 = european_med_iberian_23
+		2 = european_med_iberian_24
+		2 = european_med_iberian_25
+		2 = european_med_iberian_26
+		2 = european_med_iberian_27
+		2 = european_med_iberian_28
+		2 = european_med_iberian_29
+		2 = european_med_iberian_30
+		2 = european_med_iberian_31
+		2 = european_med_iberian_32
+		2 = european_med_iberian_33
+		2 = european_med_iberian_34
+		2 = european_med_iberian_35
+		2 = european_med_iberian_36
+		2 = european_med_iberian_37
+		2 = european_med_iberian_38
+		2 = european_med_iberian_39
+		2 = european_med_iberian_40
+		2 = european_med_iberian_41
+		2 = european_med_iberian_42
+		2 = european_med_iberian_43
+		2 = european_med_iberian_44
+		2 = european_med_iberian_45
+		2 = european_med_iberian_46
+		2 = european_med_iberian_47
+		2 = european_med_iberian_48
+		2 = european_med_iberian_49
+		2 = european_med_iberian_50
+		2 = european_med_iberian_51
+		2 = european_med_iberian_52
+		2 = european_med_iberian_53
+		2 = european_med_iberian_54
+		2 = european_med_iberian_55
+		2 = european_med_iberian_56
+		2 = european_med_iberian_57
+		2 = european_med_iberian_58
+		2 = european_med_iberian_59
+		2 = european_med_iberian_60
+		2 = european_med_iberian_61
+		2 = european_med_iberian_62
+		2 = european_med_iberian_63
+		2 = european_med_iberian_64
+		2 = european_med_iberian_65
+		2 = european_med_iberian_66
+		2 = european_med_iberian_67
+		2 = european_med_iberian_68
+		2 = european_med_iberian_69
+		2 = european_med_iberian_70
+	}
+}
+
+aragonese = {
+	color = { 0.80 0.67 0.24  }
+	created = 800.1.1
+	parents = { mozarab }
+
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_occitano_romance
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_visigothic_codes
+		tradition_martial_admiration
+		tradition_mountaineers
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_wedding_ceremonies
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_state_ransoming
+		requires_dlc_flag = the_fate_of_iberia
+	}
+
+	name_list = name_list_aragonese
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	ethnicities = {
+		2 = european_med_iberian_1
+		2 = european_med_iberian_2
+		2 = european_med_iberian_3
+		2 = european_med_iberian_4
+		2 = european_med_iberian_5
+		2 = european_med_iberian_6
+		2 = european_med_iberian_7
+		2 = european_med_iberian_8
+		2 = european_med_iberian_9
+		2 = european_med_iberian_2
+		2 = european_med_iberian_11
+		2 = european_med_iberian_12
+		2 = european_med_iberian_13
+		2 = european_med_iberian_14
+		2 = european_med_iberian_15
+		2 = european_med_iberian_16
+		2 = european_med_iberian_17
+		2 = european_med_iberian_18
+		2 = european_med_iberian_19
+		2 = european_med_iberian_20
+		2 = european_med_iberian_21
+		2 = european_med_iberian_22
+		2 = european_med_iberian_23
+		2 = european_med_iberian_24
+		2 = european_med_iberian_25
+		2 = european_med_iberian_26
+		2 = european_med_iberian_27
+		2 = european_med_iberian_28
+		2 = european_med_iberian_29
+		2 = european_med_iberian_30
+		2 = european_med_iberian_31
+		2 = european_med_iberian_32
+		2 = european_med_iberian_33
+		2 = european_med_iberian_34
+		2 = european_med_iberian_35
+		2 = european_med_iberian_36
+		2 = european_med_iberian_37
+		2 = european_med_iberian_38
+		2 = european_med_iberian_39
+		2 = european_med_iberian_40
+		2 = european_med_iberian_41
+		2 = european_med_iberian_42
+		2 = european_med_iberian_43
+		2 = european_med_iberian_44
+		2 = european_med_iberian_45
+		2 = european_med_iberian_46
+		2 = european_med_iberian_47
+		2 = european_med_iberian_48
+		2 = european_med_iberian_49
+		2 = european_med_iberian_50
+		2 = european_med_iberian_51
+		2 = european_med_iberian_52
+		2 = european_med_iberian_53
+		2 = european_med_iberian_54
+		2 = european_med_iberian_55
+		2 = european_med_iberian_56
+		2 = european_med_iberian_57
+		2 = european_med_iberian_58
+		2 = european_med_iberian_59
+		2 = european_med_iberian_60
+		2 = european_med_iberian_61
+		2 = european_med_iberian_62
+		2 = european_med_iberian_63
+		2 = european_med_iberian_64
+		2 = european_med_iberian_65
+		2 = european_med_iberian_66
+		2 = european_med_iberian_67
+		2 = european_med_iberian_68
+		2 = european_med_iberian_69
+		2 = european_med_iberian_70
+	}
+}

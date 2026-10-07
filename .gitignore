@@ -24,3 +24,8 @@ $RECYCLE.BIN/
 
 # Tiger output
 ck3-tiger.out
+
+# Local Python and macOS metadata
+__pycache__/
+*.pyc
+.DS_Store

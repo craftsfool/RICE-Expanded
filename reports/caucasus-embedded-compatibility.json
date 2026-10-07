@@ -1,0 +1,26 @@
+{
+  "base": {
+    "errors": [],
+    "rice_owned_cultures": 218,
+    "rice_owned_pillars": 116,
+    "mod_registrations": [
+      "RICE.mod"
+    ]
+  },
+  "epe": {
+    "errors": [],
+    "rice_owned_cultures": 218,
+    "rice_owned_pillars": 116,
+    "mod_registrations": [
+      "RICE.mod"
+    ]
+  },
+  "ce-epe": {
+    "errors": [],
+    "rice_owned_cultures": 218,
+    "rice_owned_pillars": 116,
+    "mod_registrations": [
+      "RICE.mod"
+    ]
+  }
+}

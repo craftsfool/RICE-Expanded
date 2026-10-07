@@ -1,0 +1,277 @@
+﻿# Selected Culture Expanded content. See research/ce-import-manifest.json.
+
+language_circassian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_circassian
+		}
+	}
+	parameters = {
+		language_branch_circassian = yes
+		language_family_northwest_caucasian = yes
+		language_union_caucasus = yes
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_circassian }
+			multiply = CAUC_CE_same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_circassian }
+			multiply = CAUC_CE_same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_northwest_caucasian }
+			multiply = CAUC_CE_same_language_family_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_union_caucasus }
+			multiply = CAUC_CE_same_language_union_choice_factor
+		}
+	}
+
+	color = georgian
+}
+
+language_udi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_udi
+		}
+	}
+	parameters = {
+		language_branch_lezgic = yes
+		language_family_east_caucasian = yes
+		language_union_caucasus = yes
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_udi }
+			multiply = CAUC_CE_same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_lezgic }
+			multiply = CAUC_CE_same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_east_caucasian }
+			multiply = CAUC_CE_same_language_family_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_union_caucasus }
+			multiply = CAUC_CE_same_language_union_choice_factor
+		}
+	}
+
+	color = { 0.65 0.94 0.55 }
+}
+
+language_avaric = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_avaric
+		}
+	}
+	parameters = {
+		language_branch_avar_andic = yes
+		language_family_east_caucasian = yes
+		language_union_caucasus = yes
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_avaric }
+			multiply = CAUC_CE_same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_avar_andic }
+			multiply = CAUC_CE_same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_east_caucasian }
+			multiply = CAUC_CE_same_language_family_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_union_caucasus }
+			multiply = CAUC_CE_same_language_union_choice_factor
+		}
+	}
+
+	color = { 0.65 0.96 0.55 }
+}
+
+language_abazgi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_abazgi
+		}
+	}
+	parameters = {
+		language_branch_circassian = yes
+		language_family_northwest_caucasian = yes
+		language_union_caucasus = yes
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_abazgi }
+			multiply = CAUC_CE_same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_circassian }
+			multiply = CAUC_CE_same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_northwest_caucasian }
+			multiply = CAUC_CE_same_language_family_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_union_caucasus }
+			multiply = CAUC_CE_same_language_union_choice_factor
+		}
+	}
+
+	color = georgian
+}
+
+language_laz = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_laz
+		}
+	}
+	parameters = {
+		language_group_zan = yes
+		language_branch_karto_zan = yes
+		language_family_kartvelian = yes
+		language_union_caucasus = yes
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_laz }
+			multiply = CAUC_CE_same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_group_zan }
+			multiply = CAUC_CE_same_language_group_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_karto_zan }
+			multiply = CAUC_CE_same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_kartvelian }
+			multiply = CAUC_CE_same_language_family_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_union_caucasus }
+			multiply = CAUC_CE_same_language_union_choice_factor
+		}
+	}
+
+	color = georgian
+}
+
+language_svan = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_svan
+		}
+	}
+	parameters = {
+		language_branch_svan = yes
+		language_family_kartvelian = yes
+		language_union_caucasus = yes
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_svan }
+			multiply = CAUC_CE_same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_svan }
+			multiply = CAUC_CE_same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_kartvelian }
+			multiply = CAUC_CE_same_language_family_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_union_caucasus }
+			multiply = CAUC_CE_same_language_union_choice_factor
+		}
+	}
+
+	color = georgian
+}
+
+heritage_armenian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_armenian
+		}
+	}
+	parameters = {
+		heritage_group_iranian = yes
+		heritage_group_levantine = yes
+		heritage_group_byzantine = yes
+		heritage_family_west_asian = yes
+	}
+	audio_parameter = european
+}
+
+language_alani = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_alani
+		}
+	}
+	parameters = {
+		dialect_continua_eastern_iranian = yes
+		language_group_iranic = yes
+		language_branch_indo_iranian = yes
+		language_family_indo_european = yes
+		language_union_caucasus = yes
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_alani }
+			multiply = CAUC_CE_same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = dialect_continua_eastern_iranian }
+			multiply = CAUC_CE_same_language_dialect_continuum_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_group_iranic }
+			multiply = CAUC_CE_same_language_group_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_indo_iranian }
+			multiply = CAUC_CE_same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_indo_european }
+			multiply = CAUC_CE_same_language_family_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_union_caucasus }
+			multiply = CAUC_CE_same_language_union_choice_factor
+		}
+	}
+
+	color = { 0.3 0.35 0.1 }
+}

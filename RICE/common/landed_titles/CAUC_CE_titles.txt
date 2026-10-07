@@ -1,0 +1,67 @@
+﻿
+@better_than_the_alternatives_score = 100
+e_CAUC_transcaucasia = {
+	color = { 190 39 39 }
+
+	definite_form = yes
+
+	capital = c_hayk
+
+	can_create = {
+		custom_description = {
+			text = CAUC_establish_transcaucasia_trigger
+
+			trigger_if = {
+				limit = {
+					has_global_variable = CAUC_transcaucasia_has_been_established
+				}
+				always = yes
+			}
+			trigger_if = {
+				limit = {
+					NOT = {
+						has_global_variable = CAUC_transcaucasia_has_been_established
+					}
+				}
+				always = no
+			}
+		}
+	}
+
+	can_create_on_partition = {
+		custom_description = {
+			text = CAUC_establish_transcaucasia_trigger
+
+			trigger_if = {
+				limit = {
+					has_global_variable = CAUC_transcaucasia_has_been_established
+				}
+				always = yes
+			}
+			trigger_if = {
+				limit = {
+					NOT = {
+						has_global_variable = CAUC_transcaucasia_has_been_established
+					}
+				}
+				always = no
+			}
+		}
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_caucasian }
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}
+
+}
+
+k_shirvan = {
+	color = { 40 195 165 }
+
+	capital = c_shirvan
+}

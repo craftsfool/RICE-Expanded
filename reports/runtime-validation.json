@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-07",
+  "game_version": "1.20.0.4",
+  "profile": "isolated; existing workshop installs, playsets and saves unchanged",
+  "mod_policy": "frozen copy during final runtime tests",
+  "agent_observed": [
+    {
+      "test": "1066 start and religion UI",
+      "result": "entered world; Simplified Chinese faith/rite/tenet interface rendered"
+    },
+    {
+      "test": "Sri Lanka support",
+      "result": "non-default buried-offerings choice selected; confirmation, corresponding event, -50 gold and reward verified"
+    },
+    {
+      "test": "Sri Lanka purification",
+      "result": "non-default wealth-confiscation choice selected; confirmation, corresponding event and resource/struggle changes verified"
+    },
+    {
+      "test": "Greenland support",
+      "result": "option list visible; basic supplies selected; confirmation, event and -50 gold verified"
+    },
+    {
+      "test": "observer",
+      "start": "1066-09-15",
+      "end": "1073-01-01",
+      "result": "no further crash observed; final interface/localization-only repairs tested separately in decision flows"
+    }
+  ],
+  "manual_test_confirmation": {
+    "source": "maintainer",
+    "statement": "测试完毕 发布",
+    "scope": "confirmation after receiving the test checklist",
+    "individual_results_provided": false
+  },
+  "not_independently_verified": [
+    "867 and 1178 gameplay starts by agent",
+    "playable landless camp in DLC-limited automated environment",
+    "save/reload coverage by agent",
+    "all other-language UI flows",
+    "long campaigns, old-save upgrades and mod combinations"
+  ],
+  "earlier_test_crashes": [
+    {
+      "context": "localization edited while debug-mode game was running",
+      "stack_area": "SettingsWindowSetupReload / ReloadPdxLocalize / FileWatcher",
+      "assessment": "hot-reload-associated; final tests used frozen files"
+    },
+    {
+      "context": "invalid history character ID passed to debug play command",
+      "stack_area": "SubjectContractIsMatchingAppointmentType / SuccessionFillMeritPools / IngameUpdateViews",
+      "assessment": "invalid role-switch-associated; final decision tests used verified numeric IDs"
+    }
+  ],
+  "remaining_log_issues": [
+    "DLC-locked tenets",
+    "optional mod faith references",
+    "missing RICE_bodah_001 and RICE_lohanah_001 history character targets",
+    "event scope warnings",
+    "South Ethiopia activity gift option category",
+    "trigger localization exact-perspective fallback",
+    "vanilla no-player portrait/court preview contexts"
+  ],
+  "baseline_review": {
+    "sampled_unchanged_scripts": [
+      "common/scripted_effects/RICE_south_ethiopia_effects.txt:1386",
+      "events/RICE_pamir_events.txt:495",
+      "common/scripted_effects/rice_buddhist_effects.txt:232"
+    ],
+    "controlled_runtime_baseline_comparison": false,
+    "note": "Runtime logs are not error-free. Sampled inherited script fragments do not establish provenance of every warning."
+  },
+  "crash_records_after_manual_confirmation": 2,
+  "private_data_policy": "Only this summary is published; raw game logs, profiles, local snapshot archives and save games remain local."
+}

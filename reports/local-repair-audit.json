@@ -1,0 +1,2044 @@
+{
+  "total": 236,
+  "statuses": {
+    "upstream_resolved": 232,
+    "obsolete": 4
+  },
+  "entries": [
+    {
+      "file": "common/religion/religion_types/RICE_peristani.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "peristani_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_peristani.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "nuristani_pagan",
+        "minaro_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_peristani.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "nuristani_pagan",
+        "minaro_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/sea_papuan_animism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "papuan_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_sea_papuan_animism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "penunggu",
+        "yaambism",
+        "bis"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_sea_papuan_animism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "penunggu",
+        "yaambism",
+        "bis"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_inuit_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "inuit_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_inuit_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "inuit_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_inuit_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "inuit_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_malagasy.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "malagasy_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_malagasy.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "malagasy_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_malagasy.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "malagasy_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_mordvin.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "mordvin_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_mordvin.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "erzya_pagan",
+        "moksha_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_mordvin.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "erzya_pagan",
+        "moksha_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_vedda_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "vedda_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_vedda_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "vedda_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_vedda_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "vedda_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_sami_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "sami_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_sami_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "sami_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_sami_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "sami_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/sea_kuy_animism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "kuy_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_sea_kuy_animism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "kuy_animism"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_sea_kuy_animism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "kuy_animism"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_darfur_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "darfur_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_darfur_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "daju_pagan",
+        "fur_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_darfur_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "daju_pagan",
+        "fur_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/sea_animism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "austronesian_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_sea_animism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "mentawai_animism",
+        "nias_animism",
+        "umboh",
+        "batak_animism",
+        "malayic"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_sea_animism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "mentawai_animism",
+        "nias_animism",
+        "umboh",
+        "batak_animism",
+        "malayic"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_idoism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "idoism_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_idoism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "idoism_pagan",
+        "munean_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_idoism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "idoism_pagan",
+        "munean_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/sea_australian_animism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "tagai_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_sea_australian_animism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "tagai"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_sea_australian_animism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "tagai"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_melanesian.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "melanesian_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_melanesian.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "fiji_pagan",
+        "kwaraae_pagan",
+        "tolai_pagan",
+        "vanuatu_pagan",
+        "manus_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_melanesian.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "fiji_pagan",
+        "kwaraae_pagan",
+        "tolai_pagan",
+        "vanuatu_pagan",
+        "manus_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/sea_moluccan_animism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "moluccan_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_sea_moluccan_animism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "nunusaku",
+        "halmahera_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_sea_moluccan_animism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "nunusaku",
+        "halmahera_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_shona.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "shona_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_shona.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "shona_pagan",
+        "nguni_pagan",
+        "sotho_pagan",
+        "tsonga_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_shona.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "shona_pagan",
+        "nguni_pagan",
+        "sotho_pagan",
+        "tsonga_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/zzzzz_RICE_placeholder_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "obsolete",
+      "definition_keys": [
+        "rice_placeholder_religion"
+      ],
+      "note": "Religion removed or folded into another upstream religion: rice_placeholder_religion"
+    },
+    {
+      "file": "common/religion/faith_types/local120_zzzzz_RICE_placeholder_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "obsolete",
+      "definition_keys": [
+        "rice_faith_placeholder_1",
+        "rice_faith_placeholder_2",
+        "rice_faith_placeholder_3",
+        "rice_faith_placeholder_4",
+        "rice_faith_placeholder_5"
+      ],
+      "note": "Legacy keys removed or reorganized by upstream 1.20: rice_faith_placeholder_1, rice_faith_placeholder_2, rice_faith_placeholder_3, rice_faith_placeholder_4, rice_faith_placeholder_5"
+    },
+    {
+      "file": "common/religion/rite_types/local120_zzzzz_RICE_placeholder_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "obsolete",
+      "definition_keys": [
+        "rice_faith_placeholder_1",
+        "rice_faith_placeholder_2",
+        "rice_faith_placeholder_3",
+        "rice_faith_placeholder_4",
+        "rice_faith_placeholder_5"
+      ],
+      "note": "Legacy keys removed or reorganized by upstream 1.20: rice_faith_placeholder_1, rice_faith_placeholder_2, rice_faith_placeholder_3, rice_faith_placeholder_4, rice_faith_placeholder_5"
+    },
+    {
+      "file": "common/religion/religion_types/RICE_bahnaric_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "bahnaric_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_bahnaric_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "bahnar_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_bahnaric_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "bahnar_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_mari.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "mari_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_mari.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "mari_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_mari.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "mari_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/sea_khasi_animism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "khasi_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_sea_khasi_animism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "khasi_animism"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_sea_khasi_animism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "khasi_animism"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_australian.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "australian_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_australian.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "yolngu_pagan",
+        "bininj_pagan",
+        "tiwi_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_australian.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "yolngu_pagan",
+        "bininj_pagan",
+        "tiwi_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_semitic.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "semitic_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_semitic.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "harranian_pagan",
+        "nabataean_pagan",
+        "arabic_pagan",
+        "aksumite_pagan",
+        "south_arabian_pagan",
+        "shamsi_pagan",
+        "south_mesopotamian_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_semitic.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "harranian_pagan",
+        "nabataean_pagan",
+        "arabic_pagan",
+        "aksumite_pagan",
+        "south_arabian_pagan",
+        "shamsi_pagan",
+        "south_mesopotamian_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_sidamic_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "sidamic_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_sidamic_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "sidama_pagan",
+        "damot_pagan",
+        "fandaanano"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_sidamic_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "sidama_pagan",
+        "damot_pagan",
+        "fandaanano"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_omotic_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "omotic_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_omotic_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "welayta_pagan",
+        "south_omotic_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_omotic_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "welayta_pagan",
+        "south_omotic_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/sea_javanese_animism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "javanese_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_sea_javanese_animism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "javanist",
+        "jatisunda"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_sea_javanese_animism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "javanist",
+        "jatisunda"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_east_bantu_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "east_bantu_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_east_bantu_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "makonde_pagan",
+        "makua_pagan",
+        "mijikenda_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_east_bantu_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "makonde_pagan",
+        "makua_pagan",
+        "mijikenda_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_andean.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "andean_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_andean.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "chiminigagua",
+        "inti_religion",
+        "pachamama_religion",
+        "manteno_religion",
+        "embera_religion"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_andean.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "chiminigagua",
+        "inti_religion",
+        "pachamama_religion",
+        "manteno_religion",
+        "embera_religion"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_micronesian.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "micronesian_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_micronesian.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "palau_pagan",
+        "yap_pagan",
+        "pohnpei_pagan",
+        "chamorro_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_micronesian.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "palau_pagan",
+        "yap_pagan",
+        "pohnpei_pagan",
+        "chamorro_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_algonquian_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "algonquian_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_algonquian_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "algonquian_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_algonquian_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "algonquian_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_permic.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "permic_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_permic.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "komi_pagan",
+        "udmurt_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_permic.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "komi_pagan",
+        "udmurt_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_dinka.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "dinka_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_dinka.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "dinka_pagan",
+        "nuba_pagan",
+        "turkana_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_dinka.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "dinka_pagan",
+        "nuba_pagan",
+        "turkana_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_polynesian.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "polynesian_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_polynesian.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "polynesian_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_polynesian.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "polynesian_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_kherwal.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "sarnaism_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_kherwal.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "sarnaism"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_kherwal.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "sarnaism"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_khmuic_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "khmuic_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_khmuic_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "khmu_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_khmuic_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "khmu_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_amazigh.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "amazigh_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_amazigh.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "amazigh_pagan",
+        "tuareg_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_amazigh.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "amazigh_pagan",
+        "tuareg_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_sea_lesser_sunda_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "lesser_sunda_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_sea_lesser_sunda_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "marapu",
+        "timor_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_sea_lesser_sunda_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "marapu",
+        "timor_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_pearic_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "pearic_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_pearic_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "samre_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_pearic_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "samre_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_west_papuan.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "west_papuan_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_west_papuan.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "biak_pagan",
+        "tehit_pagan",
+        "fakfak_pagan",
+        "abui_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_west_papuan.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "biak_pagan",
+        "tehit_pagan",
+        "fakfak_pagan",
+        "abui_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/sea_burmic_animism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "burmic_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_sea_burmic_animism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "burmic"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_sea_burmic_animism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "burmic"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_odinala.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "odinala_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_odinala.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "odinala_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_odinala.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "odinala_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/sea_aslian_animism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "aslian_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_sea_aslian_animism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "senoi_pagan",
+        "semang_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_sea_aslian_animism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "senoi_pagan",
+        "semang_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/00_feyentun.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "mapuche_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_00_feyentun.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "nguillatun"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_00_feyentun.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "nguillatun"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_west_himalayan_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "obsolete",
+      "definition_keys": [
+        "west_himalayan_religion"
+      ],
+      "note": "Religion removed or folded into another upstream religion: west_himalayan_religion"
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_west_himalayan_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "kinnaur_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_west_himalayan_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "kinnaur_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/sea_wa_animism.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "wa_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_sea_wa_animism.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "wa_animism"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_sea_wa_animism.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "wa_animism"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_vietic_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "vietic_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_vietic_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "viet_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_vietic_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "viet_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/religion_types/RICE_iroquoian_religion.txt",
+      "repair_purpose": "Migrate religion_details; extract nested legacy faith definitions",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "iroquoian_religion"
+      ],
+      "note": "Upstream religion_details migration retained."
+    },
+    {
+      "file": "common/religion/faith_types/local120_RICE_iroquoian_religion.txt",
+      "repair_purpose": "Register custom faith_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "iroquoian_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "common/religion/rite_types/local120_RICE_iroquoian_religion.txt",
+      "repair_purpose": "Register custom rite_types",
+      "status": "upstream_resolved",
+      "definition_keys": [
+        "iroquoian_pagan"
+      ],
+      "note": "Canonical upstream definitions replace local120 files; do not duplicate registrations."
+    },
+    {
+      "file": "history/characters/RICE_red_sea.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_bozo.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/nuba_BAP.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_magadha.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_khuzestan.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_north_atlantic.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/me_najahid.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_tarim_basin_dunhuang.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_siwa.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE__setup_dna.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_yorkshire.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_galicia.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_bon.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_harranian.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_galicia2.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_tarim_basin_uyghur.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_bamian.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_south_ethiopia.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_nubia.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_tarim_basin_xixia.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_sardinia.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_cybrxkhan_easter_eggs.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_tora.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_niger_delta.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_maban.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_socotra.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_chinese_miscellaneous.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_vietnamese_miscellaneous.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_tarim_basin_other.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_rhodes.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_polabian.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_yazidi.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_manichean.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_sicily.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_tarim_basin_south.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_northeast_asia_miscellaneous.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_yazd.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_khwarezm.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_lower_egypt.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_BAP_nubian_shared.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_chinese_manichean.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_pamir.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_andalusia.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_neoplatonists.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_khitan.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_mayo.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_buddhist.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_easter_eggs.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_biak.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_zhangzhung.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_maluku.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_normandy.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_daju.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_southeast_asian_miscellaneous.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_upper_egypt.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_aslian.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "history/characters/RICE_sri_lanka.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/on_action/RICE_events_on_actions.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_character_templates/RICE_character_templates.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_character_templates/RICE_sicily_character_templates.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/decisions/RICE_manichean_decisions.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/decisions/RICE_yazd_decisions.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/decisions/RICE_zhangzhung_decisions.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_yazidi_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_nubia_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_zhangzhung_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_magadha_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_sicily_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_tarim_basin_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_yazd_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_sus_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_khuzestan_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE__general_east_asian_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_mayo_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_north_atlantic_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_manichean_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_pamir_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE__game_start_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_sri_lanka_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/scripted_effects/RICE_siwa_effects.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/activities/activity_types/RICE_mandaean_parwanaya.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "common/activities/activity_types/RICE_yazidi_yarsani_jam.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_magadha_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_tarim_basin_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_zhangzhung_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_harran_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_manichean_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_sus_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_granada_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_nubia_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_sri_lanka_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_bamian_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_sardinia_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_red_sea_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_yazidi_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_sicily_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_socotra_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_pamir_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_normandy_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_north_atlantic_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    },
+    {
+      "file": "events/RICE_mayo_events.txt",
+      "repair_purpose": "Repair historical rite assignments and/or obsolete faith scopes",
+      "status": "upstream_resolved",
+      "definition_keys": [],
+      "note": "Retained 1.20 rite-aware adaptation from PR #345 instead of replaying restored 1.19 files."
+    }
+  ],
+  "crash_patch": {
+    "status": "upstream_resolved",
+    "source_pr": 345,
+    "decisions": [
+      "RICE_north_atlantic_decisions.txt",
+      "RICE_sri_lanka_decisions.txt"
+    ],
+    "note": "Duplicate progressbar widgets disabled in integrated core files."
+  }
+}

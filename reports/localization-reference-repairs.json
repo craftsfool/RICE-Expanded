@@ -1,0 +1,1157 @@
+[
+  {
+    "file": "RICE/localization/simp_chinese/rice_zhangzhung_l_simp_chinese.yml",
+    "key": "zhangzhung.0018.desc.zhengyi",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_siberia_l_simp_chinese.yml",
+    "key": "RICE_siberia_reindeer_sacrifice_guest_memory_third_perspective",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_manichean_l_simp_chinese.yml",
+    "key": "trait_RICE_disciple_of_lin_deng_info",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_socotra_l_simp_chinese.yml",
+    "key": "game_concept_indian_ocean_pirate_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_nubia_l_simp_chinese.yml",
+    "key": "RICE_every_nile_agrarian_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_nubia_l_simp_chinese.yml",
+    "key": "RICE_every_nile_pastoralist_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_nubia_l_simp_chinese.yml",
+    "key": "situation_type_RICE_nile_river_situation_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_nubia_l_simp_chinese.yml",
+    "key": "RICE_nubia_agriculture_construct_hafirs_tooltip",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_nubia_l_simp_chinese.yml",
+    "key": "nubia.0267.desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_nubia_l_simp_chinese.yml",
+    "key": "nubia.0126.info",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_mayo_l_simp_chinese.yml",
+    "key": "RICE_mayo_bury_bog_butter_effect_tooltip_2",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_cultures_l_simp_chinese.yml",
+    "key": "culture_parameter_promote_cantiga_bonuses",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_mordvin_l_simp_chinese.yml",
+    "key": "mordvin.0035.desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_religions_l_simp_chinese.yml",
+    "key": "rice_theravada_canon_mahavihara_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_religions_l_simp_chinese.yml",
+    "key": "rice_theravada_canon_abhayagiri_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_religions_l_simp_chinese.yml",
+    "key": "rice_theravada_canon_jetavana_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_religions_l_simp_chinese.yml",
+    "key": "doctrine_parameter_hostility_override_special_doctrine_is_west_iranian_faith",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_religions_l_simp_chinese.yml",
+    "key": "holy_site_chau_phong_effect_name",
+    "old_key": "holy_site_chau_phong_effect_name_name"
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_yorkshire_l_simp_chinese.yml",
+    "key": "yorkshire.0102.desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_normandy_l_simp_chinese.yml",
+    "key": "normandy.0011.desc.small_church",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_breton_l_simp_chinese.yml",
+    "key": "RICE_breton_aspiration_constance_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_upper_egypt_l_simp_chinese.yml",
+    "key": "upper_egypt.0001.desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_red_sea_l_simp_chinese.yml",
+    "key": "RICE_red_sea_aspiration_said_jayyash_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sicily_l_simp_chinese.yml",
+    "key": "RICE_sicilian_ruler_progress_towards_trait_1_tt",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_granada_l_simp_chinese.yml",
+    "key": "granada.0021.desc.structure.house_of_worship",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_granada_l_simp_chinese.yml",
+    "key": "RICE_insult_uthman_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "RICE_sri_lanka_values_notification.title",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "struggle_RICE_sri_lanka_phase_purification_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "RICE_sri_lanka_support_monastery_tooltip",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "RICE_sri_lanka_support_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_desc_persecute",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/rice_sri_lanka_l_simp_chinese.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_manichean_l_japanese.yml",
+    "key": "trait_RICE_disciple_of_lin_deng_info",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_nubia_l_japanese.yml",
+    "key": "RICE_every_nile_agrarian_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_nubia_l_japanese.yml",
+    "key": "RICE_every_nile_pastoralist_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_religions_l_japanese.yml",
+    "key": "holy_site_chau_phong_effect_name",
+    "old_key": "holy_site_chau_phong_effect_name_name"
+  },
+  {
+    "file": "RICE/localization/japanese/rice_religions_l_japanese.yml",
+    "key": "rice_theravada_canon_mahavihara_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_religions_l_japanese.yml",
+    "key": "rice_theravada_canon_abhayagiri_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_religions_l_japanese.yml",
+    "key": "rice_theravada_canon_jetavana_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "RICE_sri_lanka_values_notification.title",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "struggle_RICE_sri_lanka_phase_purification_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "RICE_sri_lanka_support_monastery_tooltip",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "RICE_sri_lanka_support_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_desc_persecute",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_sri_lanka_l_japanese.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/rice_granada_l_japanese.yml",
+    "key": "RICE_insult_uthman_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_nubia_l_german.yml",
+    "key": "RICE_every_nile_agrarian_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_nubia_l_german.yml",
+    "key": "RICE_every_nile_pastoralist_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_religions_l_german.yml",
+    "key": "holy_site_chau_phong_effect_name",
+    "old_key": "holy_site_chau_phong_effect_name_name"
+  },
+  {
+    "file": "RICE/localization/german/rice_religions_l_german.yml",
+    "key": "rice_theravada_canon_mahavihara_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_religions_l_german.yml",
+    "key": "rice_theravada_canon_abhayagiri_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_religions_l_german.yml",
+    "key": "rice_theravada_canon_jetavana_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_granada_l_german.yml",
+    "key": "RICE_insult_uthman_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_manichean_l_german.yml",
+    "key": "trait_RICE_disciple_of_lin_deng_info",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "RICE_sri_lanka_values_notification.title",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "struggle_RICE_sri_lanka_phase_purification_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "RICE_sri_lanka_support_monastery_tooltip",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "RICE_sri_lanka_support_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_desc_persecute",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/rice_sri_lanka_l_german.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_granada_l_russian.yml",
+    "key": "RICE_insult_uthman_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_nubia_l_russian.yml",
+    "key": "RICE_every_nile_agrarian_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_nubia_l_russian.yml",
+    "key": "RICE_every_nile_pastoralist_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_manichean_l_russian.yml",
+    "key": "trait_RICE_disciple_of_lin_deng_info",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_religions_l_russian.yml",
+    "key": "holy_site_chau_phong_effect_name",
+    "old_key": "holy_site_chau_phong_effect_name_name"
+  },
+  {
+    "file": "RICE/localization/russian/rice_religions_l_russian.yml",
+    "key": "rice_theravada_canon_mahavihara_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_religions_l_russian.yml",
+    "key": "rice_theravada_canon_abhayagiri_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_religions_l_russian.yml",
+    "key": "rice_theravada_canon_jetavana_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "RICE_sri_lanka_values_notification.title",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "struggle_RICE_sri_lanka_phase_purification_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "RICE_sri_lanka_support_monastery_tooltip",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "RICE_sri_lanka_support_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_desc_persecute",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/rice_sri_lanka_l_russian.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "RICE_sri_lanka_values_notification.title",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "struggle_RICE_sri_lanka_phase_purification_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "RICE_sri_lanka_support_monastery_tooltip",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "RICE_sri_lanka_support_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_desc_persecute",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_sri_lanka_l_english.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_nubia_l_english.yml",
+    "key": "RICE_every_nile_agrarian_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_nubia_l_english.yml",
+    "key": "RICE_every_nile_pastoralist_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_granada_l_english.yml",
+    "key": "RICE_insult_uthman_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_religions_l_english.yml",
+    "key": "holy_site_chau_phong_effect_name",
+    "old_key": "holy_site_chau_phong_effect_name_name"
+  },
+  {
+    "file": "RICE/localization/english/rice_religions_l_english.yml",
+    "key": "rice_theravada_canon_mahavihara_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_religions_l_english.yml",
+    "key": "rice_theravada_canon_abhayagiri_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_religions_l_english.yml",
+    "key": "rice_theravada_canon_jetavana_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/rice_manichean_l_english.yml",
+    "key": "trait_RICE_disciple_of_lin_deng_info",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "RICE_sri_lanka_values_notification.title",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "struggle_RICE_sri_lanka_phase_purification_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "RICE_sri_lanka_support_monastery_tooltip",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "RICE_sri_lanka_support_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_desc_persecute",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_sri_lanka_l_polish.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_granada_l_polish.yml",
+    "key": "RICE_insult_uthman_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_manichean_l_polish.yml",
+    "key": "trait_RICE_disciple_of_lin_deng_info",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_religions_l_polish.yml",
+    "key": "holy_site_chau_phong_effect_name",
+    "old_key": "holy_site_chau_phong_effect_name_name"
+  },
+  {
+    "file": "RICE/localization/polish/rice_religions_l_polish.yml",
+    "key": "rice_theravada_canon_mahavihara_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_religions_l_polish.yml",
+    "key": "rice_theravada_canon_abhayagiri_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_religions_l_polish.yml",
+    "key": "rice_theravada_canon_jetavana_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_nubia_l_polish.yml",
+    "key": "RICE_every_nile_agrarian_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/rice_nubia_l_polish.yml",
+    "key": "RICE_every_nile_pastoralist_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_tarim_basin_l_french.yml",
+    "key": "tarim_basin.0205.desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_religions_l_french.yml",
+    "key": "holy_site_chau_phong_effect_name",
+    "old_key": "holy_site_chau_phong_effect_name_name"
+  },
+  {
+    "file": "RICE/localization/french/rice_religions_l_french.yml",
+    "key": "rice_theravada_canon_mahavihara_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_religions_l_french.yml",
+    "key": "rice_theravada_canon_abhayagiri_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_religions_l_french.yml",
+    "key": "rice_theravada_canon_jetavana_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_nubia_l_french.yml",
+    "key": "RICE_every_nile_agrarian_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_nubia_l_french.yml",
+    "key": "RICE_every_nile_pastoralist_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "RICE_sri_lanka_values_notification.title",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "struggle_RICE_sri_lanka_phase_purification_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "RICE_sri_lanka_support_monastery_tooltip",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "RICE_sri_lanka_support_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_desc_persecute",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_sri_lanka_l_french.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_granada_l_french.yml",
+    "key": "RICE_insult_uthman_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/rice_manichean_l_french.yml",
+    "key": "trait_RICE_disciple_of_lin_deng_info",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_religions_l_spanish.yml",
+    "key": "holy_site_chau_phong_effect_name",
+    "old_key": "holy_site_chau_phong_effect_name_name"
+  },
+  {
+    "file": "RICE/localization/spanish/rice_religions_l_spanish.yml",
+    "key": "rice_theravada_canon_mahavihara_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_religions_l_spanish.yml",
+    "key": "rice_theravada_canon_abhayagiri_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_religions_l_spanish.yml",
+    "key": "rice_theravada_canon_jetavana_doctrine_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_manichean_l_spanish.yml",
+    "key": "trait_RICE_disciple_of_lin_deng_info",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_nubia_l_spanish.yml",
+    "key": "RICE_every_nile_agrarian_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_nubia_l_spanish.yml",
+    "key": "RICE_every_nile_pastoralist_ruler",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_granada_l_spanish.yml",
+    "key": "RICE_insult_uthman_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "RICE_sri_lanka_values_notification.title",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "struggle_RICE_sri_lanka_phase_purification_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_almsgiving_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_burn_books_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_defrock_heretics_non_buddhist_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "catalyst_RICE_sri_lanka_high_jetavana_prominence",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "RICE_sri_lanka_support_monastery_tooltip",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "RICE_sri_lanka_support_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_desc_persecute",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_sri_lanka_l_spanish.yml",
+    "key": "RICE_sri_lanka_persecute_monastery_gui",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_north_atlantic_l_spanish.yml",
+    "key": "RICE_taiga_percentage_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_normandy_l_spanish.yml",
+    "key": "game_concept_RICE_norman_adventure_desc",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/rice_normandy_l_spanish.yml",
+    "key": "catalyst_RICE_normandy_high_martial",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/Rajas of Asia/RICE_sea_religion_austroasiatic_l_spanish.yml",
+    "key": "bahnar_pagan_the_yangs_2",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/spanish/Rajas of Asia/RICE_sea_religion_austroasiatic_l_spanish.yml",
+    "key": "bahnar_pagan_the_yangs_3",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/Rajas of Asia/RICE_sea_religion_austroasiatic_l_french.yml",
+    "key": "bahnar_pagan_the_yangs_2",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/french/Rajas of Asia/RICE_sea_religion_austroasiatic_l_french.yml",
+    "key": "bahnar_pagan_the_yangs_3",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/Rajas of Asia/RICE_sea_religion_austroasiatic_l_polish.yml",
+    "key": "bahnar_pagan_the_yangs_2",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/polish/Rajas of Asia/RICE_sea_religion_austroasiatic_l_polish.yml",
+    "key": "bahnar_pagan_the_yangs_3",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/Rajas of Asia/RICE_sea_religion_austroasiatic_l_english.yml",
+    "key": "bahnar_pagan_the_yangs_2",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/english/Rajas of Asia/RICE_sea_religion_austroasiatic_l_english.yml",
+    "key": "bahnar_pagan_the_yangs_3",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/Rajas of Asia/RICE_sea_religion_austroasiatic_l_russian.yml",
+    "key": "bahnar_pagan_the_yangs_2",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/russian/Rajas of Asia/RICE_sea_religion_austroasiatic_l_russian.yml",
+    "key": "bahnar_pagan_the_yangs_3",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/Rajas of Asia/RICE_sea_religion_austroasiatic_l_german.yml",
+    "key": "bahnar_pagan_the_yangs_2",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/german/Rajas of Asia/RICE_sea_religion_austroasiatic_l_german.yml",
+    "key": "bahnar_pagan_the_yangs_3",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/Rajas of Asia/RICE_sea_religion_austroasiatic_l_japanese.yml",
+    "key": "bahnar_pagan_the_yangs_2",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/japanese/Rajas of Asia/RICE_sea_religion_austroasiatic_l_japanese.yml",
+    "key": "bahnar_pagan_the_yangs_3",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/Rajas of Asia/RICE_sea_religion_austroasiatic_l_simp_chinese.yml",
+    "key": "bahnar_pagan_the_yangs_2",
+    "old_key": null
+  },
+  {
+    "file": "RICE/localization/simp_chinese/Rajas of Asia/RICE_sea_religion_austroasiatic_l_simp_chinese.yml",
+    "key": "bahnar_pagan_the_yangs_3",
+    "old_key": null
+  }
+]

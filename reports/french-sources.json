@@ -1,0 +1,175 @@
+[
+  {
+    "number": 327,
+    "sha": "b34a4f4d9c12ca0af35284142b703c3e647fb0af",
+    "author": "Bacchurion",
+    "updated_at": "2026-08-17T21:26:39Z",
+    "changed_keys_applied": 62,
+    "files": [
+      "RICE/localization/french/rice_aachen_l_french.yml"
+    ]
+  },
+  {
+    "number": 328,
+    "sha": "9a834b657e28d33ffb533c9ee4d3a6c1eb65bb77",
+    "author": "Bacchurion",
+    "updated_at": "2026-08-20T11:51:08Z",
+    "changed_keys_applied": 188,
+    "files": [
+      "RICE/localization/french/rice_mordvin_l_french.yml"
+    ]
+  },
+  {
+    "number": 329,
+    "sha": "4ea6c408e16a2a79615a2a10119f20a4185b8346",
+    "author": "Bacchurion",
+    "updated_at": "2026-08-20T15:15:12Z",
+    "changed_keys_applied": 55,
+    "files": [
+      "RICE/localization/french/rice_bamian_l_french.yml"
+    ]
+  },
+  {
+    "number": 330,
+    "sha": "db5e9b508d35bcb59ae165844e88fdacb9530e05",
+    "author": "Bacchurion",
+    "updated_at": "2026-08-21T19:16:23Z",
+    "changed_keys_applied": 823,
+    "files": [
+      "RICE/localization/french/rice_pamir_l_french.yml"
+    ]
+  },
+  {
+    "number": 331,
+    "sha": "da0bef890ce43587900f9f2927cc296c75e23ce4",
+    "author": "Bacchurion",
+    "updated_at": "2026-08-21T23:03:25Z",
+    "changed_keys_applied": 188,
+    "files": [
+      "RICE/localization/french/rice_niger_delta_l_french.yml"
+    ]
+  },
+  {
+    "number": 333,
+    "sha": "8542ca5629ed163c82a87799b01090336c1087be",
+    "author": "NicolasGrosjean",
+    "updated_at": "2026-08-22T15:03:43Z",
+    "changed_keys_applied": 124,
+    "files": [
+      "RICE/localization/french/rice_sardinia_l_french.yml"
+    ]
+  },
+  {
+    "number": 334,
+    "sha": "0c4bb26b16faa190970e7c87914a9744d36a6bf1",
+    "author": "Bacchurion",
+    "updated_at": "2026-08-27T10:50:53Z",
+    "changed_keys_applied": 49,
+    "files": [
+      "RICE/localization/french/rice_tuyuhun_l_french.yml"
+    ]
+  },
+  {
+    "number": 335,
+    "sha": "f414302410858f202e318fdf7ab4fb6c21c09c8b",
+    "author": "Bacchurion",
+    "updated_at": "2026-08-29T15:01:02Z",
+    "changed_keys_applied": 385,
+    "files": [
+      "RICE/localization/french/gloss_tooltips/rice_gloss_oceania_l_french.yml",
+      "RICE/localization/french/rice_oceania_l_french.yml"
+    ]
+  },
+  {
+    "number": 336,
+    "sha": "58f13d64a976e690f2c3c36808dd267c051552ce",
+    "author": "Bacchurion",
+    "updated_at": "2026-08-30T22:45:01Z",
+    "changed_keys_applied": 901,
+    "files": [
+      "RICE/localization/french/rice_cultures_l_french.yml",
+      "RICE/localization/french/rice_misc_l_french.yml",
+      "RICE/localization/french/rice_religions_l_french.yml",
+      "RICE/localization/french/rice_sri_lanka_l_french.yml"
+    ]
+  },
+  {
+    "number": 337,
+    "sha": "c63ab79643745a253878da5ff0fff68f583f7abc",
+    "author": "Bacchurion",
+    "updated_at": "2026-09-04T22:15:04Z",
+    "changed_keys_applied": 72,
+    "files": [
+      "RICE/localization/french/rice_breton_l_french.yml"
+    ]
+  },
+  {
+    "number": 338,
+    "sha": "cbb9614def92ff7033bcf8d45d1ff9e4ad56bcbb",
+    "author": "Bacchurion",
+    "updated_at": "2026-09-09T10:37:43Z",
+    "changed_keys_applied": 201,
+    "files": [
+      "RICE/localization/french/rice_khuzestan_l_french.yml"
+    ]
+  },
+  {
+    "number": 339,
+    "sha": "01b7d78944f0968629e0ac3e7debc4d988253f99",
+    "author": "Bacchurion",
+    "updated_at": "2026-09-09T23:23:48Z",
+    "changed_keys_applied": 234,
+    "files": [
+      "RICE/localization/french/gloss_tooltips/rice_gloss_yazd_l_french.yml",
+      "RICE/localization/french/rice_yazd_l_french.yml"
+    ]
+  },
+  {
+    "number": 340,
+    "sha": "18c02ba9ea8bc4a7b222bd0abd0e65f1816cae6f",
+    "author": "Bacchurion",
+    "updated_at": "2026-09-10T23:58:38Z",
+    "changed_keys_applied": 343,
+    "files": [
+      "RICE/localization/french/rice_normandy_l_french.yml"
+    ]
+  },
+  {
+    "number": 341,
+    "sha": "4f1394e48bb928507283d7f7f0e9502cf452e12f",
+    "author": "Bacchurion",
+    "updated_at": "2026-09-17T18:21:31Z",
+    "changed_keys_applied": 403,
+    "files": [
+      "RICE/localization/french/gloss_tooltips/rice_gloss_manichean_l_french.yml",
+      "RICE/localization/french/rice_manichean_l_french.yml",
+      "RICE/localization/replace/french/RICE_misc_replace_l_french.yml"
+    ]
+  },
+  {
+    "number": 332,
+    "sha": "64dca97ab590b736522768eb90892dc56f40eced",
+    "author": "Bacchurion",
+    "updated_at": "2026-09-29T22:07:13Z",
+    "changed_keys_applied": 96,
+    "files": [
+      "RICE/localization/french/Rajas of Asia/RICE_cultures_oceania_l_french.yml",
+      "RICE/localization/french/gloss_tooltips/rice_gloss_granada_l_french.yml",
+      "RICE/localization/french/gloss_tooltips/rice_gloss_nubia_l_french.yml",
+      "RICE/localization/french/rice_galicia_l_french.yml",
+      "RICE/localization/french/rice_granada_l_french.yml",
+      "RICE/localization/french/rice_lesbos_l_french.yml",
+      "RICE/localization/french/rice_mayo_l_french.yml"
+    ]
+  },
+  {
+    "number": 342,
+    "sha": "2d8d0a23eda68d7d078e28b2e17125c745bc5ad8",
+    "author": "Bacchurion",
+    "updated_at": "2026-09-29T22:12:00Z",
+    "changed_keys_applied": 732,
+    "files": [
+      "RICE/localization/french/RICE_north_atlantic_l_french.yml"
+    ]
+  }
+]

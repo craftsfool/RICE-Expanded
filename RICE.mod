@@ -1,4 +1,4 @@
-version="1.8.0"
+version="1.20.0-beta-1-expanded.1"
 tags={
 	"Culture"
 	"Events"
@@ -8,7 +8,6 @@ tags={
 	"Historical"
 	"Religion"
 }
-name="Regional Immersion and Cultural Enrichment (RICE)"
+name="RICE Expanded (Community 1.20 Beta)"
 supported_version="1.20.*"
 path="mod/RICE"
-remote_file_id="2273832430"

@@ -1,0 +1,42 @@
+{
+  "decision_option_lists": {
+    "RICE/common/decisions/RICE_sri_lanka_decisions.txt": 4,
+    "RICE/common/decisions/RICE_sicily_decisions.txt": 5,
+    "RICE/common/decisions/RICE_south_ethiopia_decisions.txt": 1,
+    "RICE/common/decisions/RICE_mordvin_decisions.txt": 1,
+    "RICE/common/decisions/RICE_sardinia_decisions.txt": 3,
+    "RICE/common/decisions/RICE_lesbos_decisions.txt": 1,
+    "RICE/common/decisions/RICE_niger_delta_decisions.txt": 3,
+    "RICE/common/decisions/RICE_oceania_decisions.txt": 1,
+    "RICE/common/decisions/RICE_khwarezm_decisions.txt": 2,
+    "RICE/common/decisions/RICE_mayo_decisions.txt": 1,
+    "RICE/common/decisions/RICE_manichean_decisions.txt": 3,
+    "RICE/common/decisions/RICE_galicia_decisions.txt": 1,
+    "RICE/common/decisions/RICE_socotra_decisions.txt": 2,
+    "RICE/common/decisions/RICE_bozo_decisions.txt": 2,
+    "RICE/common/decisions/RICE_hangzhou_decisions.txt": 1,
+    "RICE/common/decisions/RICE_granada_decisions.txt": 2,
+    "RICE/common/decisions/RICE_nubia_decisions.txt": 3,
+    "RICE/common/decisions/RICE_tarim_basin_decisions.txt": 2,
+    "RICE/common/decisions/RICE_upper_egypt_decisions.txt": 1,
+    "RICE/common/decisions/RICE_polabian_decisions.txt": 1,
+    "RICE/common/decisions/RICE_normandy_decisions.txt": 3,
+    "RICE/common/decisions/RICE_galicia2_decisions.txt": 1,
+    "RICE/common/decisions/RICE_north_atlantic_decisions.txt": 4,
+    "RICE/common/decisions/RICE_zhangzhung_decisions.txt": 1,
+    "RICE/common/decisions/RICE_khuzestan_decisions.txt": 1
+  },
+  "reason": "1.20 option-list controller was not exposing choices; show_from_start is supported by installed _decisions.info.",
+  "new_runtime_labels": [
+    "held_county",
+    "squared_distance"
+  ],
+  "english_fallback_languages": [
+    "french",
+    "german",
+    "spanish",
+    "russian",
+    "polish",
+    "japanese"
+  ]
+}

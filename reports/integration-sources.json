@@ -1,0 +1,35 @@
+{
+  "base_commit": "f2aa2c7ae50294407f0aca7f154dfdbd2dc28d46",
+  "upstream_beta_tag": "1.20.0-beta-1",
+  "upstream_beta_commit": "4369f80938917adc113d801639517a17ca4809d2",
+  "community": [
+    {
+      "pr": 345,
+      "author": "pharaox",
+      "head": "7097fbf0b41f3aada8dbb11e516dd819ad01c7ec",
+      "integration": "Full merge; CK3 1.20 adaptation, landless title definitions, localization accessors, decision widgets."
+    },
+    {
+      "pr": 344,
+      "author": "Vakiadia",
+      "head": "54924c115ed827da5042afdba47e76c850fec12b",
+      "integration": "Full merge; starting tenet history and missing Tagai tenet. Sacred mountains history references subsequently updated to tenet_mountain_worship for 1.20.0.4."
+    },
+    {
+      "pr": 343,
+      "author": "Vakiadia",
+      "head": "261a750796d77398c3460ccc595d7e831fed3284",
+      "integration": "Reviewed against #345. Only remaining rite-specific canon and purification fallback behavior applied; overlapping adaptations retained from #345."
+    }
+  ],
+  "french_report": "french-sources.json",
+  "simplified_chinese": {
+    "source": "Milk RICE translation / 牛奶汉化之RICE",
+    "workshop_id": "2823178539",
+    "migrated_files": 113,
+    "new_translated_keys": 187,
+    "reviewed_changed_english_keys": 47,
+    "credit": "Original translator credit retained in RICEintro.0000.desc. Expanded integration is maintained by craftsfool with Codex assistance."
+  },
+  "local_snapshot_policy": "Local RICE, Milk translation, decision crash patch, and repair manifest were archived before editing. Workshop files and existing playsets were not modified."
+}

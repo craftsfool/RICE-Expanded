@@ -44,13 +44,12 @@
 		orthodox
 
 		# Muslim
-		ashari
-		muwalladi
-		ismaili
-		ibadi
+		sunni
+		shia
+		kharijite
 
 		# Jewish
-		rabbinism
+		rabbinic_faith
 
 	}
 	regions = { 

@@ -141,13 +141,13 @@ RICE_greenland_struggle_ending_integration_decision = {
 	# }
 
 	effect = {		
-		if = {
-			limit = { has_dlc_feature = legends }
-			RICE_north_atlantic_legend_seed_greenland_struggle_ending_effect = {
-				ENDER = root
-				STRUGGLE = RICE_greenland_struggle
-			}
-		}
+		# if = { # TODO Try to restore these after analyzing the crashes
+		# 	limit = { has_dlc_feature = legends }
+		# 	RICE_north_atlantic_legend_seed_greenland_struggle_ending_effect = {
+		# 		ENDER = root
+		# 		STRUGGLE = RICE_greenland_struggle
+		# 	}
+		# }
 		if = {
 			limit = { has_ach_dlc_trigger = yes }
 			add_character_flag = ach_ended_struggle
@@ -160,7 +160,7 @@ RICE_greenland_struggle_ending_integration_decision = {
 		}
 
 		show_as_tooltip = {
-			stress_impact = {
+			stress_and_fulfillment_impact = {
 				lazy = medium_stress_impact_gain
 				content = minor_stress_impact_gain
 			}
@@ -252,13 +252,13 @@ RICE_greenland_struggle_ending_indigenous_decision = {
 	# }
 
 	effect = {
-		if = {
-			limit = { has_dlc_feature = legends }
-			RICE_north_atlantic_legend_seed_greenland_struggle_sunset_invasion_ending_effect = {
-				ENDER = root
-				STRUGGLE = RICE_greenland_struggle
-			}
-		}
+		# if = {
+		# 	limit = { has_dlc_feature = legends }
+		# 	RICE_north_atlantic_legend_seed_greenland_struggle_sunset_invasion_ending_effect = {
+		# 		ENDER = root
+		# 		STRUGGLE = RICE_greenland_struggle
+		# 	}
+		# }
 		if = {
 			limit = { has_ach_dlc_trigger = yes }
 			add_character_flag = ach_ended_struggle
@@ -271,7 +271,7 @@ RICE_greenland_struggle_ending_indigenous_decision = {
 	   }
 
 	   show_as_tooltip = {
-		   stress_impact = {
+		   stress_and_fulfillment_impact = {
 			   lazy = medium_stress_impact_gain
 			   content = minor_stress_impact_gain
 		   }
@@ -373,7 +373,7 @@ RICE_greenland_struggle_ending_abandonment_decision = {
 	   }
 
 	   show_as_tooltip = {
-		   stress_impact = {
+		   stress_and_fulfillment_impact = {
 			   ambitious = medium_stress_impact_gain
 			   diligent = minor_stress_impact_gain
 		   }
@@ -1667,7 +1667,7 @@ RICE_north_atlantic_skalholt_school = {
 		custom_description = {
 			text = faith_is_reformed
 			subject = root
-			faith = { NOT = { has_doctrine_parameter = unreformed } }
+			rite = { NOT = { rite_has_parameter = unreformed } }
 		}
 
 		# culture = {
@@ -2801,9 +2801,9 @@ RICE_north_atlantic_support_greenland = {
 		RICE_is_available_adult_even_if_sick_trigger = yes
 	}
 
-	widget = {
-		gui = "decision_view_widget_RICE_progressbars_greenland"
-	}
+	# widget = {
+	# 	gui = "decision_view_widget_RICE_progressbars_greenland"
+	# }
 
     widget = {
     	gui = "decision_view_widget_RICE_north_atlantic_support_greenland_decision"
@@ -3249,9 +3249,9 @@ RICE_north_atlantic_support_vinland = {
 		RICE_is_available_adult_even_if_sick_trigger = yes
 	}
 
-	widget = {
-		gui = "decision_view_widget_RICE_progressbars_all"
-	}
+	# widget = {
+	# 	gui = "decision_view_widget_RICE_progressbars_all"
+	# }
 
     widget = {
     	gui = "decision_view_widget_RICE_north_atlantic_support_vinland_decision"
@@ -3493,9 +3493,9 @@ RICE_north_atlantic_explore_americas = {
 		RICE_is_available_adult_even_if_sick_trigger = yes
 	}
 
-	widget = {
-		gui = "decision_view_widget_RICE_progressbars_all"
-	}
+	# widget = {
+	# 	gui = "decision_view_widget_RICE_progressbars_all"
+	# }
 
     widget = {
     	gui = "decision_view_widget_RICE_north_atlantic_explore_americas_decision"

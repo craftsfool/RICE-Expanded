@@ -1,5 +1,6 @@
 ﻿
 idoism_pagan = {
+	main_rite = idoism_pagan
 	faith_details = {
 		religion = idoism_religion
 		color = { 108 8 8 }
@@ -30,6 +31,7 @@ idoism_pagan = {
 }
 
 munean_pagan = {
+	main_rite = munean_pagan
 	faith_details = {
 		religion = idoism_religion
 		color = { 105 28 28 }

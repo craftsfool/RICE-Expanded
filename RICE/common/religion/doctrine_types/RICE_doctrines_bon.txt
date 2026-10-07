@@ -16,7 +16,7 @@ rice_bon_deities_old_doctrine = {
 		}
 	}
 	parameters = {
-		rice_no_piety_cost_deities = yes
+		rice_no_piety_cost_deities
 	}
 }
 
@@ -45,7 +45,7 @@ rice_bon_deities_new_doctrine = {
 	# 	}
 	# }
 	parameters = {
-		rice_unlocks_terton_content = yes
+		rice_unlocks_terton_content
 	}
 }
 

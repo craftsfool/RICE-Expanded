@@ -5,6 +5,7 @@ vietic_religion = {
 		family = rf_pagan
 		graphical_faith = dharmic_gfx
 	}
+	doctrine = pagan_hostility_doctrine
 
 	#Main Group
 	doctrine = doctrine_polytheist
@@ -35,9 +36,6 @@ vietic_religion = {
 	doctrine = doctrine_monasticism_absent
 	doctrine = doctrine_sacraments_absent
 
-	doctrine = doctrine_monasticism_absent
-	doctrine = doctrine_sacraments_absent
-
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_local_rites
 
@@ -53,9 +51,6 @@ vietic_religion = {
 
 	# Austroasiatic Religion
 	doctrine = special_doctrine_is_austroasiatic_faith
-
-	#Preservation
-	doctrine = doctrine_oral_storytelling
 
 	traits = {
 		virtues = {
@@ -296,6 +291,7 @@ vietic_religion = {
 		ReligiousText2 = viet_pagan_religious_text_2
 		ReligiousText3 = viet_pagan_religious_text_3
 		ReligiousHeadName = viet_pagan_religious_head_title
+		ReligiousHeadNameFemale = viet_pagan_religious_head_title
 		ReligiousHeadTitleName = viet_pagan_religious_head_title_name
 		DevoteeMale = viet_pagan_devotee
 		DevoteeMalePlural = viet_pagan_devoteeplural

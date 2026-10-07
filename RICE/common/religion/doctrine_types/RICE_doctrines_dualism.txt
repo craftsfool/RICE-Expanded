@@ -27,7 +27,7 @@ rice_baptism_purification_doctrine = {		# Baptism
 		}
 	}
 	parameters = {
-		rice_baptism_decision_unlocked_active = yes
+		rice_baptism_decision_unlocked_active
 	}
 	traits = {
 		virtues = { patient }
@@ -107,7 +107,7 @@ rice_prayer_love_doctrine = {		# Procreation
 		NOR = {
 			doctrine:doctrine_adultery_men_accepted = { is_in_list = selected_doctrines }
 			doctrine:doctrine_adultery_women_accepted = { is_in_list = selected_doctrines }
-			doctrine:tenet_polyamory = { is_in_list = selected_doctrines }
+			tenet:tenet_polyamory = { is_in_list = selected_doctrines }
 		}
 	}	
 
@@ -156,9 +156,9 @@ rice_light_purification_doctrine = {		# Manichean doctrine
 	# 	monthly_piety_gain_mult = 0.05
 	# }
 	parameters = {
-		rice_bema_feast_activity_unlocked_active = yes
-		rice_manichean_manuscript_unlocked_active = yes
-		rice_manichean_weekly_confession_unlocked_active = yes
+		rice_bema_feast_activity_unlocked_active
+		rice_manichean_manuscript_unlocked_active
+		rice_manichean_weekly_confession_unlocked_active
 	}
 	traits = {
 		virtues = { chaste }

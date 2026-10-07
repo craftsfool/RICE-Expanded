@@ -34,7 +34,7 @@ RICE_sri_lanka_struggle_ending_unite_sangha_decision = {
 
 		OR = {
 			religion = religion:buddhism_religion
-			faith = { has_doctrine = doctrine_pluralism_pluralistic }
+			rite = { rite_has_doctrine = doctrine_pluralism_pluralistic }
 		}
 
 		OR = {
@@ -97,13 +97,13 @@ RICE_sri_lanka_struggle_ending_unite_sangha_decision = {
 	}
 
 	effect = {
-		if = {
-			limit = { has_dlc_feature = legends }
-			RICE_sri_lanka_legend_seed_struggle_ending_effect = {
-				ENDER = root
-				STRUGGLE = RICE_sri_lanka_struggle
-			}
-		}
+		# if = { # TODO Try to restore these after analyzing the crashes
+		# 	limit = { has_dlc_feature = legends }
+		# 	RICE_sri_lanka_legend_seed_struggle_ending_effect = {
+		# 		ENDER = root
+		# 		STRUGGLE = RICE_sri_lanka_struggle
+		# 	}
+		# }
 		if = {
 			limit = { has_ach_dlc_trigger = yes }
 			add_character_flag = ach_ended_struggle
@@ -246,8 +246,8 @@ RICE_sri_lanka_struggle_ending_destroy_sangha_decision = {
 							}
 						}
 					}
-					faith = {
-						has_doctrine = rice_theravada_canon_doctrine
+					rite = {
+						rite_has_doctrine = rice_theravada_canon_doctrine
 					}				
 				}
 			}
@@ -290,7 +290,7 @@ RICE_sri_lanka_struggle_ending_foreign_sangha_decision = {
 			}
 		}
 		religion = religion:buddhism_religion
-		faith = { has_doctrine = rice_theravada_canon_doctrine }
+		rite = { rite_has_doctrine = rice_theravada_canon_doctrine }
 	}
 
 	is_valid = {
@@ -310,7 +310,7 @@ RICE_sri_lanka_struggle_ending_foreign_sangha_decision = {
 		}
 
 		religion = religion:buddhism_religion
-		faith = { has_doctrine = rice_theravada_canon_doctrine }
+		rite = { rite_has_doctrine = rice_theravada_canon_doctrine }
 
 		OR = {
 			AND = {
@@ -391,13 +391,13 @@ RICE_sri_lanka_struggle_ending_foreign_sangha_decision = {
 	}
 
 	effect = {
-		if = {
-			limit = { has_dlc_feature = legends }
-			RICE_sri_lanka_legend_seed_struggle_ending_effect = {
-				ENDER = root
-				STRUGGLE = RICE_sri_lanka_struggle
-			}
-		}
+		# if = {
+		# 	limit = { has_dlc_feature = legends }
+		# 	RICE_sri_lanka_legend_seed_struggle_ending_effect = {
+		# 		ENDER = root
+		# 		STRUGGLE = RICE_sri_lanka_struggle
+		# 	}
+		# }
 		if = {
 			limit = { has_ach_dlc_trigger = yes }
 			add_character_flag = ach_ended_struggle
@@ -430,7 +430,7 @@ RICE_sri_lanka_struggle_ending_foreign_sangha_decision = {
 			limit = {
 				OR = {
 					this = scope:sri_lanka_struggle_ender
-					faith = { has_doctrine = rice_theravada_canon_doctrine }	
+					rite = { rite_has_doctrine = rice_theravada_canon_doctrine }	
 					any_held_county = {
 						any_county_province = {
 							OR = {
@@ -1269,9 +1269,9 @@ RICE_sri_lanka_support_monastery = {
 		is_available_adult = yes
 	}
 
-	widget = {
-		gui = "decision_view_widget_RICE_sri_lanka_progressbars_all"
-	}
+	# widget = {
+	# 	gui = "decision_view_widget_RICE_sri_lanka_progressbars_all"
+	# }
 		
     widget = {
     	gui = "decision_view_widget_RICE_sri_lanka_support_monastery"
@@ -1751,7 +1751,7 @@ RICE_sri_lanka_persecute_monastery = {
 				has_global_variable = RICE_sri_lanka_ending_revived_sangha
 			}
 			OR = {
-				faith = { has_doctrine = rice_theravada_canon_doctrine }
+				rite = { rite_has_doctrine = rice_theravada_canon_doctrine }
 				any_held_county = {
 					any_county_province = {
 						geographical_region = RICE_sri_lanka_struggle_region
@@ -1775,7 +1775,7 @@ RICE_sri_lanka_persecute_monastery = {
 				has_global_variable = RICE_sri_lanka_ending_revived_sangha
 			}
 			OR = {
-				faith = { has_doctrine = rice_theravada_canon_doctrine }
+				rite = { rite_has_doctrine = rice_theravada_canon_doctrine }
 				any_held_county = {
 					any_county_province = {
 						geographical_region = RICE_sri_lanka_struggle_region
@@ -1797,9 +1797,9 @@ RICE_sri_lanka_persecute_monastery = {
 		is_available_adult = yes
 	}
 
-	widget = {
-		gui = "decision_view_widget_RICE_sri_lanka_progressbars_all"
-	}
+	# widget = {
+	# 	gui = "decision_view_widget_RICE_sri_lanka_progressbars_all"
+	# }
 		
     widget = {
     	gui = "decision_view_widget_RICE_sri_lanka_persecute_monastery"

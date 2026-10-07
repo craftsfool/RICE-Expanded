@@ -319,7 +319,7 @@ RICE_khuzestan_gnostic_baptism_rite = {
 		# 	faith = faith:sethianism
 		# 	faith = faith:valentinianism
 		# }
-		faith = { has_doctrine = rice_baptism_purification_doctrine }
+		rite = { rite_has_doctrine = rice_baptism_purification_doctrine }
 	}
 	
 	is_valid = {
@@ -328,7 +328,7 @@ RICE_khuzestan_gnostic_baptism_rite = {
 		# 	faith = faith:sethianism
 		# 	faith = faith:valentinianism
 		# }
-		faith = { has_doctrine = rice_baptism_purification_doctrine }
+		rite = { rite_has_doctrine = rice_baptism_purification_doctrine }
 	}
 	
 	is_valid_showing_failures_only = {

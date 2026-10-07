@@ -296,14 +296,13 @@
 	#
 	############################################################		
 	
-	faith:sufri = {
+	rite:sufri = {
 		if = {
 			limit = {					
 				has_game_rule = default_gender_equality
-				has_doctrine = doctrine_gender_equal
+				rite_has_doctrine = doctrine_gender_equal
 			}
-			remove_doctrine = doctrine_gender_equal
-			add_doctrine = doctrine_gender_male_dominated
+			change_rite_doctrine = doctrine_gender_male_dominated
 		}
 	}
 

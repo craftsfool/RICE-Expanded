@@ -1,5 +1,6 @@
 ﻿
 biak_pagan = {
+	main_rite = biak_pagan
 	faith_details = {
 		religion = west_papuan_religion
 		color = { 8 108 88 }
@@ -37,6 +38,7 @@ biak_pagan = {
 }
 
 tehit_pagan = {
+	main_rite = tehit_pagan
 	faith_details = {
 		religion = west_papuan_religion
 		color = { 55 155 55 }
@@ -153,6 +155,7 @@ tehit_pagan = {
 		ReligiousText2 = tehit_pagan_religious_text
 		ReligiousText3 = tehit_pagan_religious_text
 		ReligiousHeadName = tehit_pagan_religious_head_title
+		ReligiousHeadNameFemale = tehit_pagan_religious_head_title
 		ReligiousHeadTitleName = tehit_pagan_religious_head_title_name
 		DevoteeMale = tehit_pagan_devotee
 		DevoteeMalePlural = tehit_pagan_devoteeplural
@@ -225,6 +228,7 @@ tehit_pagan = {
 }
 
 fakfak_pagan = {
+	main_rite = fakfak_pagan
 	faith_details = {
 		religion = west_papuan_religion
 		color = { 52 108 88 }
@@ -341,6 +345,7 @@ fakfak_pagan = {
 		ReligiousText2 = fakfak_pagan_religious_text
 		ReligiousText3 = fakfak_pagan_religious_text
 		ReligiousHeadName = fakfak_pagan_religious_head_title
+		ReligiousHeadNameFemale = fakfak_pagan_religious_head_title
 		ReligiousHeadTitleName = fakfak_pagan_religious_head_title_name
 		DevoteeMale = fakfak_pagan_devotee
 		DevoteeMalePlural = fakfak_pagan_devoteeplural
@@ -411,6 +416,7 @@ fakfak_pagan = {
 }
 
 abui_pagan = {
+	main_rite = abui_pagan
 	faith_details = {
 		religion = west_papuan_religion
 		color = { 22 102 102 }
@@ -537,6 +543,7 @@ abui_pagan = {
 		ReligiousText2 = abui_pagan_religious_text_2
 		ReligiousText3 = abui_pagan_religious_text_3
 		ReligiousHeadName = abui_pagan_religious_head_title
+		ReligiousHeadNameFemale = abui_pagan_religious_head_title
 		ReligiousHeadTitleName = abui_pagan_religious_head_title_name
 		DevoteeMale = abui_pagan_devotee
 		DevoteeMalePlural = abui_pagan_devotee_plural

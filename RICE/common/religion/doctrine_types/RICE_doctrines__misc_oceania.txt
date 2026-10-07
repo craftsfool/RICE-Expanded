@@ -19,7 +19,7 @@ rice_kava_role_social_doctrine = {
 		}
 	}
 	parameters = {
-		rice_kava_cheaper = yes
+		rice_kava_cheaper
 	}
 }
 
@@ -42,9 +42,9 @@ rice_kava_role_ceremonial_doctrine = {
 		}
 	}
 	parameters = {
-		rice_kava_increased_chances = yes
-		rice_kava_bonus_faith_political = yes
-		rice_kava_expensive = yes
+		rice_kava_increased_chances
+		rice_kava_bonus_faith_political
+		rice_kava_expensive
 	}
 }
 
@@ -67,9 +67,9 @@ rice_kava_role_medicinal_doctrine = {
 		}
 	}
 	parameters = {
-		rice_kava_increased_chances = yes
-		rice_kava_bonus_faith_health = yes
-		rice_kava_expensive = yes
+		rice_kava_increased_chances
+		rice_kava_bonus_faith_health
+		rice_kava_expensive
 	}
 }
 

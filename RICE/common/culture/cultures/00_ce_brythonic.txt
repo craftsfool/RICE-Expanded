@@ -4,12 +4,13 @@
 
 pictish = {
 
+
 	color = hsv { 0.58 1.00 0.72 }
 	created = 300.1.1
 	parents = { old_brythonic }
-	
+
 	history_loc_override = pictish_history_loc
-	
+
 	ethos = ethos_bellicose
 	heritage = heritage_brythonic
 	language = language_brythonic
@@ -21,13 +22,13 @@ pictish = {
 		tradition_highland_warriors
 		tradition_hill_dwellers
 	}
-	
+
 	name_list = name_list_pictish
 
-	coa_gfx = { scottish_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx } 	
+	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_24
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 0.9 0.9 }
@@ -39,16 +40,18 @@ pictish = {
 		30 = caucasian_dark_hair
 	}
 
+
 }
 
 welsh = {
 
+
 	color = welsh
 	created = 600.1.1 #Briton Divergence
 	parents = { old_brythonic }
-	
+
 	history_loc_override = new_welsh_history_loc
-	
+
 	ethos = ethos_stoic
 	heritage = heritage_brythonic
 	language = language_brythonic
@@ -60,17 +63,17 @@ welsh = {
 		tradition_highland_warriors
 		tradition_longbow_competitions
 	}
-	
+
 	name_list = name_list_welsh
-	
-	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx } 
+	clothing_gfx = { welsh_clothing_gfx western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_24
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 0.9 0.9 }
-	
+
 	ethnicities = {
 		5 = caucasian_blond
 		30 = caucasian_ginger
@@ -78,16 +81,18 @@ welsh = {
 		30 = caucasian_dark_hair
 	}
 
+
 }
 
 breton = {
 
+
 	color = hsv { 0.72 0.6 0.76 }
 	created = 600.1.1 #Briton Divergence
 	parents = { dumnonian old_brythonic }
-	
+
 	history_loc_override = new_breton_history_loc
-	
+
 	ethos = ethos_communal
 	heritage = heritage_brythonic
 	language = language_brythonic
@@ -99,17 +104,17 @@ breton = {
 		tradition_swords_for_hire
 		tradition_chanson_de_geste
 	}
-	
+
 	name_list = name_list_breton
-	
-	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+
+	coa_gfx = { breton_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	clothing_gfx = { breton_clothing_gfx western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_24
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 0.9 0.9 }
-	
+
 	ethnicities = {
 		5 = caucasian_blond
 		30 = caucasian_ginger
@@ -117,16 +122,18 @@ breton = {
 		30 = caucasian_dark_hair
 	}
 
+
 }
 
 cornish = {
 
+
 	color = hsv { 0.72 0.6 0.72 }
 	created = 822.1.1 #Final conquest of Devon by Wessex
 	parents = { dumnonian }
-	
+
 	history_loc_override = cornish_history_loc
-	
+
 	ethos = ethos_communal
 	heritage = heritage_brythonic
 	language = language_brythonic
@@ -137,17 +144,17 @@ cornish = {
 		tradition_storytellers
 		tradition_ancient_miners
 	}
-	
+
 	name_list = name_list_cornish
-	
-	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+
+	coa_gfx = { welsh_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx } 
+	clothing_gfx = { cornish_clothing_gfx western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_24
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 0.9 0.9 }
-	
+
 	ethnicities = {
 		5 = caucasian_blond
 		30 = caucasian_ginger
@@ -155,16 +162,18 @@ cornish = {
 		30 = caucasian_dark_hair
 	}
 
+
 }
 
 cumbrian = {
 
+
 	color = hsv { 0.64 0.6 0.72 }
 	created = 600.1.1 #Briton Divergence
 	parents = { old_brythonic }
-	
+
 	history_loc_override = cumbrian_history_loc
-	
+
 	ethos = ethos_stoic
 	heritage = heritage_brythonic
 	language = language_brythonic
@@ -176,23 +185,24 @@ cumbrian = {
 		tradition_highland_warriors
 		tradition_stalwart_defenders
 	}
-	
+
 	name_list = name_list_cumbrian
-	
+
 	coa_gfx = { scottish_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_24
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 0.9 0.9 }
-	
+
 	ethnicities = {
 		5 = caucasian_blond
 		30 = caucasian_ginger
 		35 = caucasian_brown_hair
 		30 = caucasian_dark_hair
 	}
+
 
 }
 
@@ -201,9 +211,9 @@ wylish = {
 	color = hsv { 0.66 0.58 0.72 }
 	created = 600.1.1 #Briton Divergence
 	parents = { old_brythonic }
-	
+
 	history_loc_override = wylish_history_loc
-	
+
 	ethos = ethos_stoic
 	heritage = heritage_brythonic
 	language = language_brythonic
@@ -215,9 +225,9 @@ wylish = {
 		tradition_quarrelsome
 		tradition_swords_for_hire
 	}
-	
+
 	name_list = name_list_welsh
-	
+
 	coa_gfx = { scottish_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
@@ -225,7 +235,7 @@ wylish = {
 	house_coa_frame = house_frame_24
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 0.9 0.9 }
-	
+
 	ethnicities = {
 		5 = caucasian_blond
 		30 = caucasian_ginger
@@ -240,9 +250,9 @@ dumnonian = {
 	color = hsv { 0.78 0.64 0.78 }
 	created = 600.1.1 #Briton Divergence
 	parents = { old_brythonic }
-	
+
 	history_loc_override = dumnonian_history_loc
-	
+
 	ethos = ethos_stoic
 	heritage = heritage_brythonic
 	language = language_brythonek
@@ -253,17 +263,17 @@ dumnonian = {
 		tradition_storytellers
 		tradition_ancient_miners
 	}
-	
+
 	name_list = name_list_cornish
-	
+
 	coa_gfx = { scottish_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_24
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 0.9 0.9 }
-	
+
 	ethnicities = {
 		5 = caucasian_blond
 		30 = caucasian_ginger
@@ -276,7 +286,7 @@ dumnonian = {
 old_brythonic = {
 
 	color = hsv { 0.8 0.66 0.8 }
-	
+
 	ethos = ethos_stoic
 	heritage = heritage_brythonic
 	language = language_brythonic
@@ -288,17 +298,17 @@ old_brythonic = {
 		tradition_ancient_miners
 		tradition_stalwart_defenders
 	}
-	
+
 	name_list = name_list_welsh
-	
+
 	coa_gfx = { scottish_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
 	house_coa_frame = house_frame_24
 	house_coa_mask_offset = { 0.0 0.055 }
 	house_coa_mask_scale = { 0.9 0.9 }
-	
+
 	ethnicities = {
 		5 = caucasian_blond
 		30 = caucasian_ginger

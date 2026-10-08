@@ -3,8 +3,9 @@
 
 
 roman = {
+
 	color = { 0.8 0.1 0.1 }
-	
+
 	ethos = ethos_bellicose
 	heritage = heritage_latin
 	language = language_latin
@@ -18,14 +19,14 @@ roman = {
 		tradition_hereditary_hierarchy
 		tradition_noble_adoption
 	}
-	
+
 	name_list = name_list_roman
 
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mediterranean_building_gfx } 
-	clothing_gfx = { byzantine_clothing_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { eastern_unit_gfx } 	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
 	house_coa_frame = house_frame_22
 	house_coa_mask_offset = { 0.0 0.11 }
 	house_coa_mask_scale = { 0.85 0.85 }
@@ -33,15 +34,17 @@ roman = {
 	ethnicities = {
 		100 = mediterranean
 	}
+
 }
 
 cisalpine = {
+
 	color = { 0.95 0.95 0.55 }
 
 	created = 800.1.1
 
 	parents = { frankish lombard }
-	
+
 	ethos = ethos_communal
 	heritage = heritage_latin
 	language = language_italian
@@ -52,9 +55,9 @@ cisalpine = {
 		tradition_mountain_homes
 		tradition_maritime_mercantilism
 	}
-	
+
 	name_list = name_list_cisalpine
-	
+
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
@@ -66,15 +69,17 @@ cisalpine = {
 	ethnicities = {
 		100 = mediterranean
 	}
+
 }
 
 sardinian = {
+
 	color = sardinian
 
 	parents = { roman }
 
 	created = 100.1.1
-	
+
 	ethos = ethos_communal
 	heritage = heritage_latin
 	language = language_sardinian
@@ -86,9 +91,9 @@ sardinian = {
 		tradition_ancient_miners
 		tradition_hill_dwellers
 	}
-	
+
 	name_list = name_list_sardinian
-	
+
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
@@ -100,15 +105,17 @@ sardinian = {
 	ethnicities = {
 		100 = mediterranean
 	}
+
 }
 
 sicilian = {
+
 	color = { 0.65 0.65 0.2 }
 
 	parents = { lombard greek }
 
 	created = 950.1.1
-	
+
 	ethos = ethos_courtly
 	heritage = heritage_latin
 	language = language_italian
@@ -121,9 +128,9 @@ sicilian = {
 		tradition_poetry
 		tradition_republican_legacy
 	}
-	
+
 	name_list = name_list_sicilian
-	
+
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
@@ -134,12 +141,14 @@ sicilian = {
 
 	ethnicities = {
 		100 = mediterranean
-	}	
+	}
+
 }
 
-langobard = { #Germanic Ancestor culture
+langobard = {
+ #Germanic Ancestor culture
 	color = langobard
-	
+
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
 	language = language_central_germanic
@@ -150,14 +159,14 @@ langobard = { #Germanic Ancestor culture
 		tradition_martial_admiration
 		tradition_stand_and_fight
 	}
-	
+
 	dlc_tradition = {
 		trait = tradition_malleable_invaders
 		requires_dlc_flag = hybridize_culture
 	}
-	
+
 	name_list = name_list_lombard
-	
+
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
@@ -169,4 +178,5 @@ langobard = { #Germanic Ancestor culture
 	ethnicities = {
 		100 = mediterranean
 	}
+
 }

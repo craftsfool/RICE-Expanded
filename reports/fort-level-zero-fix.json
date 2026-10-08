@@ -1,0 +1,23 @@
+{
+  "changed_modifiers": {
+    "CAUC_pass_guard": {
+      "before": 0.25,
+      "after": 1
+    },
+    "CAUC_svan_towers": {
+      "before": 0.25,
+      "after": 1
+    },
+    "CAUC_svan_masons": {
+      "before": 0.25,
+      "after": 1
+    }
+  },
+  "reason": "Fractional fort levels render as +0 in the reported county tooltip; author whole fort levels matching native modifier definitions.",
+  "publisher_synced": true,
+  "generator_fixed": true,
+  "restart_required": true,
+  "engine_retest_performed": false,
+  "backup": "/Users/gaomingxuan/Documents/RICE-Expanded-work/backups/fort-level-zero-20261008/common/modifiers/CAUC_regional_modifiers.txt",
+  "publisher_sha256": "a3b9c0975893a0c50a834982d8d2eedb2c1b8a9ca0d1c5d8e75384dc1aab2efe"
+}

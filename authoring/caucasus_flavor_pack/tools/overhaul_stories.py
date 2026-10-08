@@ -27,7 +27,8 @@ def cast_effect(role,culture,faith,traits,skills,age=40,female=0):
 def overhaul(events,decisions,modifiers,flows,loc):
  def L(key,en,zh,fr):
   for lang,value in zip(LANGS,(en,zh,fr)):loc[lang][key]=value
- def opinion(who,n):return 'scope:CAUC_'+who+'_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = '+str(n)+' years = 10 } }'
+ # Native friendliness decays monthly and therefore rejects an explicit duration.
+ def opinion(who,n):return 'scope:CAUC_'+who+'_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = '+str(n)+' } }'
  def recruit(who):return 'add_courtier = scope:CAUC_'+who+'_speaker'
  def nxt(n,days=45):return f'trigger_event = {{ id = CAUC.{n:04d} days = {days} }}'
  def chosen(county,flow,n):return f'title:{county} = {{ set_variable = {{ name = CAUC_{flow}'+('' if flow.endswith('_use') else '_choice')+f' value = {n} }} }}'

@@ -10,7 +10,7 @@ from validate_religious import fresh,effects,condition,get,fields,paths,date
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--game',required=True,type=Path);ap.add_argument('--mod',type=Path,default=ROOT/'RICE');ap.add_argument('--output',type=Path,default=ROOT/'reports/story-design-validation.json');args=ap.parse_args()
  mod=args.mod;game=args.game;events=registry([mod],'events');actions=registry([mod],'common/on_action');cast=registry([mod],'common/scripted_effects')
- checks=[];timelines=[]
+ checks=[];timelines=[];modifier_numbers=[]
  # Every visible scene has its own cast and directly resolves actual actor scopes.
  regional=[k for k in events if k.startswith('CAUC.') and int(k.split('.')[1])<100 and int(k.split('.')[1])!=50]
  for key in regional:
@@ -77,9 +77,19 @@ def main():
   if not key.startswith('CAUC_'):continue
   icon=get(body,'icon');assert icon in icons,(key,icon)
   assert icon.endswith(('_positive','_negative')),(key,icon)
+  for field,value,_,_ in entries(body):
+   if field=='icon':continue
+   number=float(value)
+   assert number!=0,(key,field,'Zero modifier effect')
+   # Native fortification modifiers use whole levels. Fractional levels such as
+   # 0.25 render as +0 in the county tooltip and should never be authored here.
+   if field in ('fort_level','county_opinion_add','learning'):
+    assert number.is_integer(),(key,field,'Integer-displayed modifier requires a whole value')
+   modifier_numbers.append({'modifier':key,'field':field,'value':number})
   if key in ('CAUC_pass_obstructed','CAUC_tondrakian_suppressed'):assert icon.endswith('_negative')
  for key in ('CAUC_lori_autonomy','CAUC_ani_existing_use','CAUC_pass_restored'):assert get(modifiers[key][1],'icon').endswith('_positive')
  checks.append('All 25 Caucasus modifiers point to existing native icons; green/red names follow the engine’s documented suffix rule')
+ checks.append('All authored modifier effects are nonzero; fort levels, opinion and skill bonuses use whole values instead of fractions that display as zero')
  # Every typed reference introduced by the story overhaul resolves in the actual game.
  references=[]
  for p in list((mod/'events').glob('CAUC*'))+list((mod/'common/scripted_effects').glob('CAUC*')):
@@ -89,6 +99,6 @@ def main():
    for key in re.findall(r'\b'+scope+r':([a-zA-Z0-9_]+)',code):assert key in known,(p,key)
  for category,key in [('artifacts/visuals','book'),('artifacts/templates','general_unique_template'),('men_at_arms_types','light_horsemen')]:assert key in registry([game,mod],'common/'+category)
  checks.append('New culture, faith, cavalry type, book visual/template and modifier references resolve against 1.20')
- report={'errors':[],'scope':'Native file references and bounded script-state regression tests; no game launch, rendering or engine simulation','checks':checks,'timelines':timelines,'bodyguard_aptitude':{'base':raw_score,'with_palace_politics':raw_score-10,'excellent_threshold':80},'regional_scenes':22}
+ report={'errors':[],'scope':'Native file references and bounded script-state regression tests; no game launch, rendering or engine simulation','checks':checks,'timelines':timelines,'bodyguard_aptitude':{'base':raw_score,'with_palace_politics':raw_score-10,'excellent_threshold':80},'regional_scenes':22,'modifier_numbers':modifier_numbers}
  args.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'errors':[],'checks':len(checks),'timelines':timelines,'bodyguard_aptitude':report['bodyguard_aptitude']}))
 if __name__=='__main__':main()

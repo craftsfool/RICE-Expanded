@@ -197,9 +197,9 @@ def main():
         if key.startswith('@'): return raw
         fields=v.entries(body);by_field={f:value for f,value,_,_ in fields}
         refs={value for _,value,_,_ in v.entries(by_field.get('ethnicities',''))}
-        if refs<=ethnicity: return raw
+        if refs<=ethnicity and key not in donors: return raw
         parent=next((p for p in v.canonical(by_field.get('parents','')) if p in donors),None)
-        donor=parent or next((k for k,b in donors.items() if any(f=='heritage' and value==by_field.get('heritage') for f,value,_,_ in v.entries(b))),None)
+        donor=(key if key in donors else None) or parent or next((k for k,b in donors.items() if any(f=='heritage' and value==by_field.get('heritage') for f,value,_,_ in v.entries(b))),None)
         donor=donor or next((k for k,b in donors.items() if any(f=='language' and value==by_field.get('language') for f,value,_,_ in v.entries(b))),None)
         donor=donor or 'armenian'
         safe={f:donors[donor][s:e] for f,value,s,e in v.entries(donors[donor]) if f in VISUALS}
@@ -226,8 +226,12 @@ def main():
             constants={}
             for source in [a.game,a.ce,a.rice_source]:
                 p=source/'common'/cat/filename
-                if not p.exists() or cat=='script_values':continue
+                if not p.exists():continue
                 text=p.read_text(encoding='utf-8-sig')
+                if cat=='script_values':
+                    for m in re.finditer(r'^(@[A-Za-z_]\w*)\s*=[^\r\n]*',text,re.M):
+                        constants[m.group(1)]=m.group(0)
+                    continue
                 for key,body,s,e in v.entries(text):
                     if key.startswith('@'): constants[key]=text[s:e]
             write(a.output/'common'/cat/filename,
@@ -258,6 +262,18 @@ def main():
     if descriptor.exists(): descriptor.unlink()
     descriptor.write_text(text,encoding='utf-8')
     consolidate_script_collisions(a.output,a.ce,report)
+    # Native 1.20 renamed the administrative government rule to a mechanic.
+    traditions=a.output/'common/culture/traditions/new_realm_traditions.txt'
+    if traditions.exists():
+        write(traditions, traditions.read_text(encoding='utf-8-sig').replace('government_allows = administrative', 'government_has_mechanic = administrative'))
+    # CE concepts use bare icon names; their textures are also needed standalone.
+    report['concept_icons']={}
+    for p in sorted((a.ce/'gfx/interface/icons/culture_pillars').glob('*.dds')):
+        q=a.output/p.relative_to(a.ce)
+        q.parent.mkdir(parents=True,exist_ok=True)
+        if q.exists(): q.unlink()
+        shutil.copy2(p,q)
+        report['concept_icons'][str(p.relative_to(a.ce))]=hashlib.sha256(p.read_bytes()).hexdigest()
     report['localization']=supply_localization(a.rice_source,a.output,a.ce,a.game,report['files'])
     report['source_hashes']={str(p.relative_to(a.ce)):hashlib.sha256(p.read_bytes()).hexdigest()
                              for cat,files in included.items() for filename in files

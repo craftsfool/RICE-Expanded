@@ -7,6 +7,7 @@
     "Rus captain: Slavic faith, East Slavic heritage, martial 26/prowess 32, native aptitude 91 (81 after Palace Politics), both choices exactly 500 troops, full positions protected, actor survives reload",
     "867 schedules a public outbreak after one year with a global succession fallback; 1066/1178 initialize the rite immediately independent of ruler faith",
     "All 25 Caucasus modifiers point to existing native icons; green/red names follow the engine’s documented suffix rule",
+    "All authored modifier effects are nonzero; fort levels, opinion and skill bonuses use whole values instead of fractions that display as zero",
     "New culture, faith, cavalry type, book visual/template and modifier references resolve against 1.20"
   ],
   "timelines": [
@@ -32,5 +33,212 @@
     "with_palace_politics": 81,
     "excellent_threshold": 80
   },
-  "regional_scenes": 22
+  "regional_scenes": 22,
+  "modifier_numbers": [
+    {
+      "modifier": "CAUC_scholarly_book_modifier",
+      "field": "learning",
+      "value": 1.0
+    },
+    {
+      "modifier": "CAUC_pass_restored",
+      "field": "development_growth_factor",
+      "value": 0.05
+    },
+    {
+      "modifier": "CAUC_pass_trade",
+      "field": "tax_mult",
+      "value": 0.05
+    },
+    {
+      "modifier": "CAUC_pass_guard",
+      "field": "fort_level",
+      "value": 1.0
+    },
+    {
+      "modifier": "CAUC_pass_compact",
+      "field": "monthly_county_control_growth_add",
+      "value": 0.1
+    },
+    {
+      "modifier": "CAUC_pass_obstructed",
+      "field": "tax_mult",
+      "value": -0.05
+    },
+    {
+      "modifier": "CAUC_lori_learning",
+      "field": "development_growth_factor",
+      "value": 0.05
+    },
+    {
+      "modifier": "CAUC_svan_towers",
+      "field": "fort_level",
+      "value": 1.0
+    },
+    {
+      "modifier": "CAUC_svan_masons",
+      "field": "fort_level",
+      "value": 1.0
+    },
+    {
+      "modifier": "CAUC_gelati_learning",
+      "field": "development_growth_factor",
+      "value": 0.05
+    },
+    {
+      "modifier": "CAUC_rus_protected",
+      "field": "levy_size",
+      "value": 0.1
+    },
+    {
+      "modifier": "CAUC_rus_protected",
+      "field": "county_opinion_add",
+      "value": -10.0
+    },
+    {
+      "modifier": "CAUC_rus_instructed",
+      "field": "levy_size",
+      "value": 0.05
+    },
+    {
+      "modifier": "CAUC_rus_instructed",
+      "field": "tax_mult",
+      "value": -0.03
+    },
+    {
+      "modifier": "CAUC_rus_dismissed",
+      "field": "levy_size",
+      "value": -0.05
+    },
+    {
+      "modifier": "CAUC_rus_dismissed",
+      "field": "county_opinion_add",
+      "value": 8.0
+    },
+    {
+      "modifier": "CAUC_lori_autonomy",
+      "field": "county_opinion_add",
+      "value": 10.0
+    },
+    {
+      "modifier": "CAUC_lori_autonomy",
+      "field": "tax_mult",
+      "value": -0.03
+    },
+    {
+      "modifier": "CAUC_lori_rapprochement",
+      "field": "development_growth_factor",
+      "value": 0.08
+    },
+    {
+      "modifier": "CAUC_lori_rapprochement",
+      "field": "county_opinion_add",
+      "value": -5.0
+    },
+    {
+      "modifier": "CAUC_lori_guarantees",
+      "field": "county_opinion_add",
+      "value": 5.0
+    },
+    {
+      "modifier": "CAUC_lori_guarantees",
+      "field": "development_growth_factor",
+      "value": 0.03
+    },
+    {
+      "modifier": "CAUC_ani_church_restored",
+      "field": "county_opinion_add",
+      "value": -5.0
+    },
+    {
+      "modifier": "CAUC_ani_church_restored",
+      "field": "development_growth_factor",
+      "value": 0.05
+    },
+    {
+      "modifier": "CAUC_ani_mosque_endowed",
+      "field": "county_opinion_add",
+      "value": -5.0
+    },
+    {
+      "modifier": "CAUC_ani_mosque_endowed",
+      "field": "tax_mult",
+      "value": 0.05
+    },
+    {
+      "modifier": "CAUC_ani_existing_use",
+      "field": "county_opinion_add",
+      "value": 8.0
+    },
+    {
+      "modifier": "CAUC_ani_existing_use",
+      "field": "tax_mult",
+      "value": -0.03
+    },
+    {
+      "modifier": "CAUC_alan_mission_supported",
+      "field": "development_growth_factor",
+      "value": 0.08
+    },
+    {
+      "modifier": "CAUC_alan_mission_supported",
+      "field": "county_opinion_add",
+      "value": -8.0
+    },
+    {
+      "modifier": "CAUC_alan_old_rites_protected",
+      "field": "county_opinion_add",
+      "value": 8.0
+    },
+    {
+      "modifier": "CAUC_alan_old_rites_protected",
+      "field": "development_growth_factor",
+      "value": 0.03
+    },
+    {
+      "modifier": "CAUC_alan_mission_dismissed",
+      "field": "county_opinion_add",
+      "value": 12.0
+    },
+    {
+      "modifier": "CAUC_alan_mission_dismissed",
+      "field": "development_growth_factor",
+      "value": -0.05
+    },
+    {
+      "modifier": "CAUC_tondrakian_refuge",
+      "field": "county_opinion_add",
+      "value": 5.0
+    },
+    {
+      "modifier": "CAUC_tondrakian_refuge",
+      "field": "tax_mult",
+      "value": -0.08
+    },
+    {
+      "modifier": "CAUC_tondrakian_suppressed",
+      "field": "county_opinion_add",
+      "value": -12.0
+    },
+    {
+      "modifier": "CAUC_tondrakian_suppressed",
+      "field": "tax_mult",
+      "value": 0.05
+    },
+    {
+      "modifier": "CAUC_tondrakian_assembly",
+      "field": "county_opinion_add",
+      "value": 10.0
+    },
+    {
+      "modifier": "CAUC_tondrakian_assembly",
+      "field": "tax_mult",
+      "value": -0.08
+    },
+    {
+      "modifier": "CAUC_tondrakian_assembly",
+      "field": "levy_size",
+      "value": 0.05
+    }
+  ]
 }

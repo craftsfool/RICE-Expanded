@@ -1,3 +1,15 @@
+# RICE Expanded — expanded.3.4: nonzero fort bonuses and runtime repairs
+
+2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease
+
+- 修复用户截图中塔楼修缮显示“堡垒等级 +0”的问题：塔楼修缮、熟练石匠、杰尔宾特守卫补给的 `fort_level` 从 0.25 改为整数 1；同步制作脚本，并增加整数显示与非零数值检查。其余百分比修正保留原数值。
+- 根据实际启动日志，移除 55 处原版 `friendliness_opinion` 不接受的额外持续时间；好感仍按原版月度衰减。
+- 补齐迁入 CE 文化概念的 20 个支柱图标，恢复西西里费用计算的四个文件内常量。原版已有文化采用自身的原版外观字段；行政政体条件改用 1.20 的 `government_has_mechanic`。
+- 单独启用 Expanded 已实际进入主菜单与1066新战役；爱尔兰角色没有看到不相干的高加索地区决议，存档中1066通德拉基礼制和创立者已生成。本条记录的是修复前首轮实机测试；修复后数值显示尚未再次实机验证。
+- 本次提供面向 Unified 3.3 的小型更新包，避免重复保存完整构建目录。完全退出并重启游戏以读取新的修正定义。保留预发布状态，不声称所有模组组合及长期战役已验证。
+
+Corrects three fortification bonuses from fractional 0.25 to whole +1, matching native fort-level presentation. Fixes invalid friendliness-opinion durations, missing culture-pillar icons, local Sicily cost constants, native culture appearance fallback and the administrative-government condition. Standalone main-menu and 1066 campaign loading were observed before these repairs; post-fix UI rendering has not yet been retested. The small update applies to Unified 3.3 and requires a complete game restart.
+
 # RICE Expanded — expanded.3.3: one self-contained package and character-led stories
 
 2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease
@@ -5,7 +17,7 @@
 - 合并为一个无外部模组依赖的 Unified 完整包；CE／EPE 为可选项。补齐共同文化支柱与传递依赖，实际检测 CE 是否启用，恢复独立开局的高加索文化分布和外高加索帝国决议。修复与北太平洋地图的鄂温克文化／姓名表重复定义。
 - 为全部 25 个高加索修正配置有效的原版正／负图标，恢复绿／红名称。重写四条宗教争端，强化通德拉基五阶段调查，并让 22 个地方场景出现持续保存的实际人物与书册结果。
 - 罗斯招募出现斯拉夫真理教、东斯拉夫传承、军事 26／勇武 32 的队长；按原版机制可达极佳护卫称职度。选择聘为护卫或只雇战团，两者均获得 500 名事件兵，不替换满额职位。
-- 洛里可延请教师与制作论辩书册；阿尼代表可入廷并安置迁出会众；阿兰可招募 100 名骑兵，个人洗礼为明确选项。通德拉基的女代表、讲道者和囚禁／庇护均为实际人物效果。
+- 洛里可延请教师与制作论辩书册；阿尼代表可入廷并安置迁出会众；阿兰可招募 200 名骑兵，个人洗礼为明确选项。通德拉基的女代表、讲道者和囚禁／庇护均为实际人物效果。
 - 867 开局约一年后公布通德拉基兴起，年度全局补偿防止领主死亡漏触发；1066／1178 立即创建分支礼制。保持原创立者在死亡后的姓名、地点与年份链接。
 - 878 个高加索制作内容键提供英／简中／法语；额外 CE 依赖标签保留可取得的源译文，缺失翻译明确使用英文回退。修复重复构建误清空标签的问题。
 - 六种模组组合的脚本文件检查，以及 582 条宗教分支、时间安排、人物恢复、原版称职度和资源检查通过；只进行后台检验，未启动游戏。没有将静态通过表述为完整组合的崩溃已获实机解决。

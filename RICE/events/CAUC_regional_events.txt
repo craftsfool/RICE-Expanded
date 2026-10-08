@@ -12,7 +12,7 @@ CAUC.0001 = {
  option = { name = CAUC.0001.c title:c_derbent = { remove_county_modifier = CAUC_pass_trade } title:c_derbent = { remove_county_modifier = CAUC_pass_guard } title:c_derbent = { remove_county_modifier = CAUC_pass_compact } title:c_derbent = { add_county_modifier = { modifier = CAUC_pass_compact years = 5 } } ai_chance = { base = 50 } }
 immediate = { CAUC_overseer_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_overseer_speaker }
- option = { name = CAUC.0001.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } title:c_derbent = { remove_county_modifier = CAUC_pass_trade remove_county_modifier = CAUC_pass_guard remove_county_modifier = CAUC_pass_compact add_county_modifier = { modifier = CAUC_pass_compact years = 5 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0001.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } title:c_derbent = { remove_county_modifier = CAUC_pass_trade remove_county_modifier = CAUC_pass_guard remove_county_modifier = CAUC_pass_compact add_county_modifier = { modifier = CAUC_pass_compact years = 5 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0002 = {
@@ -42,7 +42,7 @@ CAUC.0003 = {
  option = { name = CAUC.0003.c add_prestige = 75 ai_chance = { base = 50 } }
 immediate = { CAUC_mason_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_mason_speaker }
- option = { name = CAUC.0003.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0003.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0004 = {
@@ -70,7 +70,7 @@ CAUC.0010 = {
  option = { name = CAUC.0010.b title:c_derbent = { change_county_control = -3 } ai_chance = { base = 50 } }
 immediate = { CAUC_overseer_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_overseer_speaker }
- option = { name = CAUC.0010.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0010.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0011 = {
@@ -84,7 +84,7 @@ CAUC.0011 = {
  option = { name = CAUC.0011.b add_prestige = 25 ai_chance = { base = 50 } }
 immediate = { CAUC_overseer_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_overseer_speaker }
- option = { name = CAUC.0011.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0011.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0012 = {
@@ -98,7 +98,7 @@ CAUC.0012 = {
  option = { name = CAUC.0012.b title:c_derbent = { change_county_control = -2 } ai_chance = { base = 50 } }
 immediate = { CAUC_overseer_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_overseer_speaker }
- option = { name = CAUC.0012.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0012.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0013 = {
@@ -112,7 +112,7 @@ CAUC.0013 = {
  option = { name = CAUC.0013.b trigger = { gold >= 20 } remove_short_term_gold = 20 ai_chance = { base = 50 } }
 immediate = { CAUC_overseer_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_overseer_speaker }
- option = { name = CAUC.0013.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0013.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0014 = {
@@ -126,7 +126,7 @@ CAUC.0014 = {
  option = { name = CAUC.0014.b add_gold = 5 ai_chance = { base = 50 } }
 immediate = { CAUC_overseer_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_overseer_speaker }
- option = { name = CAUC.0014.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0014.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0015 = {
@@ -140,7 +140,7 @@ CAUC.0015 = {
  option = { name = CAUC.0015.b title:c_derbent = { add_county_modifier = { modifier = CAUC_pass_obstructed years = 2 } } ai_chance = { base = 50 } }
 immediate = { CAUC_overseer_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_overseer_speaker }
- option = { name = CAUC.0015.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0015.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0020 = {
@@ -238,7 +238,7 @@ CAUC.0030 = {
  option = { name = CAUC.0030.b trigger = { gold >= 20 } remove_short_term_gold = 20 ai_chance = { base = 50 } }
 immediate = { CAUC_mason_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_mason_speaker }
- option = { name = CAUC.0030.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0030.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0031 = {
@@ -252,7 +252,7 @@ CAUC.0031 = {
  option = { name = CAUC.0031.b add_prestige = 20 ai_chance = { base = 50 } }
 immediate = { CAUC_mason_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_mason_speaker }
- option = { name = CAUC.0031.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0031.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0032 = {
@@ -266,7 +266,7 @@ CAUC.0032 = {
  option = { name = CAUC.0032.b trigger = { gold >= 20 } remove_short_term_gold = 20 title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_masons years = 2 } } ai_chance = { base = 50 } }
 immediate = { CAUC_mason_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_mason_speaker }
- option = { name = CAUC.0032.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0032.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0033 = {
@@ -280,7 +280,7 @@ CAUC.0033 = {
  option = { name = CAUC.0033.b trigger = { gold >= 15 } remove_short_term_gold = 15 add_prestige = 25 ai_chance = { base = 50 } }
 immediate = { CAUC_mason_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_mason_speaker }
- option = { name = CAUC.0033.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0033.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0034 = {
@@ -294,7 +294,7 @@ CAUC.0034 = {
  option = { name = CAUC.0034.b title:c_svaneti = { change_county_control = -2 } ai_chance = { base = 50 } }
 immediate = { CAUC_mason_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_mason_speaker }
- option = { name = CAUC.0034.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0034.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }
 
 CAUC.0035 = {
@@ -308,5 +308,5 @@ CAUC.0035 = {
  option = { name = CAUC.0035.b add_prestige = 15 ai_chance = { base = 50 } }
 immediate = { CAUC_mason_speaker_effect = yes }
 right_portrait = { character = scope:CAUC_mason_speaker }
- option = { name = CAUC.0035.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
+ option = { name = CAUC.0035.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 } } ai_chance = { base = 30 } }
 }

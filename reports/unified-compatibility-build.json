@@ -126,6 +126,7 @@
       "RICE_ugro_permian.txt",
       "RICE_volga_finnic.txt",
       "RICE_west_papuan.txt",
+      "evenk.txt",
       "x00_ce_latin.txt",
       "zzzzz_RICE_placeholder.txt"
     ],
@@ -133,6 +134,7 @@
       "00_berber.txt",
       "00_byzantine.txt",
       "00_east_african.txt",
+      "00_evenk.txt",
       "00_somalian.txt",
       "BAP_berber.txt",
       "BAP_east_african.txt",
@@ -277,9 +279,332 @@
       "ce_game_concepts.txt"
     ]
   },
-  "appearance_fallbacks": [],
+  "appearance_fallbacks": [
+    {
+      "culture": "bedouin",
+      "donor": "bedouin"
+    },
+    {
+      "culture": "levantine",
+      "donor": "levantine"
+    },
+    {
+      "culture": "egyptian",
+      "donor": "egyptian"
+    },
+    {
+      "culture": "maghrebi",
+      "donor": "maghrebi"
+    },
+    {
+      "culture": "yemeni",
+      "donor": "yemeni"
+    },
+    {
+      "culture": "pictish",
+      "donor": "pictish"
+    },
+    {
+      "culture": "welsh",
+      "donor": "welsh"
+    },
+    {
+      "culture": "breton",
+      "donor": "breton"
+    },
+    {
+      "culture": "cornish",
+      "donor": "cornish"
+    },
+    {
+      "culture": "cumbrian",
+      "donor": "cumbrian"
+    },
+    {
+      "culture": "gothic",
+      "donor": "gothic"
+    },
+    {
+      "culture": "ancient_egyptian",
+      "donor": "ancient_egyptian"
+    },
+    {
+      "culture": "hebrew",
+      "donor": "hebrew"
+    },
+    {
+      "culture": "hunnic",
+      "donor": "hunnic"
+    },
+    {
+      "culture": "trojan",
+      "donor": "trojan"
+    },
+    {
+      "culture": "macedonian",
+      "donor": "macedonian"
+    },
+    {
+      "culture": "carthaginian",
+      "donor": "carthaginian"
+    },
+    {
+      "culture": "andalusian",
+      "donor": "andalusian"
+    },
+    {
+      "culture": "basque",
+      "donor": "basque"
+    },
+    {
+      "culture": "castilian",
+      "donor": "castilian"
+    },
+    {
+      "culture": "catalan",
+      "donor": "catalan"
+    },
+    {
+      "culture": "portuguese",
+      "donor": "portuguese"
+    },
+    {
+      "culture": "visigothic",
+      "donor": "visigothic"
+    },
+    {
+      "culture": "galician",
+      "donor": "galician"
+    },
+    {
+      "culture": "asturleonese",
+      "donor": "asturleonese"
+    },
+    {
+      "culture": "aragonese",
+      "donor": "aragonese"
+    },
+    {
+      "culture": "suebi",
+      "donor": "suebi"
+    },
+    {
+      "culture": "bengali",
+      "donor": "bengali"
+    },
+    {
+      "culture": "oriya",
+      "donor": "oriya"
+    },
+    {
+      "culture": "assamese",
+      "donor": "assamese"
+    },
+    {
+      "culture": "hindustani",
+      "donor": "hindustani"
+    },
+    {
+      "culture": "gujarati",
+      "donor": "gujarati"
+    },
+    {
+      "culture": "punjabi",
+      "donor": "punjabi"
+    },
+    {
+      "culture": "rajput",
+      "donor": "rajput"
+    },
+    {
+      "culture": "malvi",
+      "donor": "malvi"
+    },
+    {
+      "culture": "sindhi",
+      "donor": "sindhi"
+    },
+    {
+      "culture": "marathi",
+      "donor": "marathi"
+    },
+    {
+      "culture": "kashmiri",
+      "donor": "kashmiri"
+    },
+    {
+      "culture": "sinhala",
+      "donor": "sinhala"
+    },
+    {
+      "culture": "nepali",
+      "donor": "nepali"
+    },
+    {
+      "culture": "brahui",
+      "donor": "brahui"
+    },
+    {
+      "culture": "persian",
+      "donor": "persian"
+    },
+    {
+      "culture": "kurdish",
+      "donor": "kurdish"
+    },
+    {
+      "culture": "baloch",
+      "donor": "baloch"
+    },
+    {
+      "culture": "daylamite",
+      "donor": "daylamite"
+    },
+    {
+      "culture": "tajik",
+      "donor": "tajik"
+    },
+    {
+      "culture": "afghan",
+      "donor": "afghan"
+    },
+    {
+      "culture": "saka",
+      "donor": "saka"
+    },
+    {
+      "culture": "sogdian",
+      "donor": "sogdian"
+    },
+    {
+      "culture": "khwarezmian",
+      "donor": "khwarezmian"
+    },
+    {
+      "culture": "tocharian",
+      "donor": "tocharian"
+    },
+    {
+      "culture": "alan",
+      "donor": "alan"
+    },
+    {
+      "culture": "italian",
+      "donor": "italian"
+    },
+    {
+      "culture": "roman",
+      "donor": "roman"
+    },
+    {
+      "culture": "cisalpine",
+      "donor": "cisalpine"
+    },
+    {
+      "culture": "sardinian",
+      "donor": "sardinian"
+    },
+    {
+      "culture": "sicilian",
+      "donor": "sicilian"
+    },
+    {
+      "culture": "lombard",
+      "donor": "lombard"
+    },
+    {
+      "culture": "langobard",
+      "donor": "langobard"
+    },
+    {
+      "culture": "croatian",
+      "donor": "croatian"
+    },
+    {
+      "culture": "bosnian",
+      "donor": "bosnian"
+    },
+    {
+      "culture": "serbian",
+      "donor": "serbian"
+    },
+    {
+      "culture": "bulgarian",
+      "donor": "bulgarian"
+    },
+    {
+      "culture": "albanian",
+      "donor": "albanian"
+    },
+    {
+      "culture": "assyrian",
+      "donor": "assyrian"
+    },
+    {
+      "culture": "english",
+      "donor": "english"
+    },
+    {
+      "culture": "anglo_saxon",
+      "donor": "anglo_saxon"
+    },
+    {
+      "culture": "old_saxon",
+      "donor": "old_saxon"
+    },
+    {
+      "culture": "scottish",
+      "donor": "scottish"
+    },
+    {
+      "culture": "pommeranian",
+      "donor": "pommeranian"
+    },
+    {
+      "culture": "czech",
+      "donor": "czech"
+    },
+    {
+      "culture": "polish",
+      "donor": "polish"
+    },
+    {
+      "culture": "polabian",
+      "donor": "polabian"
+    },
+    {
+      "culture": "slovien",
+      "donor": "slovien"
+    },
+    {
+      "culture": "carantanian",
+      "donor": "carantanian"
+    }
+  ],
   "unresolved": [],
   "geography_source_sha256": "42e2a5508f3611f021b199b558ef4a2921abefced27471846528e99b4a1e437b",
+  "concept_icons": {
+    "gfx/interface/icons/culture_pillars/anglo_saxon.dds": "9d2626d25df562ef9381ab668958fbbe785d4d42abc15b92df8a60ff30506e71",
+    "gfx/interface/icons/culture_pillars/arabs.dds": "16945a41f5da2e2c42ef5caceba8f1ef1fae4a0974da53cdb1cd7fb8eed48ef4",
+    "gfx/interface/icons/culture_pillars/arameans.dds": "a1f92bb1419e3f91e0f058f41ba1ce80366237aa06b254afaf659c0d3639fa84",
+    "gfx/interface/icons/culture_pillars/berbers.dds": "04f90d540f51d8ec3a0151796ea190789e44d3f2d0036aed53a632d111e6901b",
+    "gfx/interface/icons/culture_pillars/britons.dds": "b7169298bdc0bbc025c762ceba58b93acc757824fbfec93da3554c555748f28b",
+    "gfx/interface/icons/culture_pillars/celtiberians.dds": "27b04fe39b031db6d20694d780ddcb9c03c82ed473a6f7a734ba2e7f63b27ce8",
+    "gfx/interface/icons/culture_pillars/east_slavs.dds": "2aa098864981092fbf85f2e0f7ec9e920620ca3b8b279df7471fcfd640e5dd3a",
+    "gfx/interface/icons/culture_pillars/egyptians.dds": "01f34123398f8353e20d6df7a1a5765eaaddcfe89b0f718b3211fc41aa2e2c4c",
+    "gfx/interface/icons/culture_pillars/germans.dds": "d46c5d44f1dffdcdbb5e47a6d999f877f974ea1db3ce6e6075dd881701d4b46b",
+    "gfx/interface/icons/culture_pillars/gothics.dds": "e62ebcac8c6ca3e3483ce6ab6ab69f69317d408d04baff360ea068e1352829fd",
+    "gfx/interface/icons/culture_pillars/hellenes.dds": "5f516f2c307870c9a51aa1c1d0503dca0f1536f777a04f559eea9764d5b94903",
+    "gfx/interface/icons/culture_pillars/iranians.dds": "c8c4b6fb3a428eb672714df9bafb5d6faaa7612269a6200a5669941a39e4e373",
+    "gfx/interface/icons/culture_pillars/norse.dds": "2b06f52b3de95efff096564fca744319ef67fd99a3cd0aac30e39282501d1e78",
+    "gfx/interface/icons/culture_pillars/old_britons.dds": "faff012a44d8674af8e5ef004d2c593f6622d22e6069a409026da7ae22a4711d",
+    "gfx/interface/icons/culture_pillars/old_slavs.dds": "59eb5a6a412f3d9bf63ccc8aff237101493642ef7719e75b5de72746aef86a5c",
+    "gfx/interface/icons/culture_pillars/pannonian_slavs.dds": "c959ee90e6604b29018f3dee85c460357d3d2aebf49ea3fccffdb5d96618abd0",
+    "gfx/interface/icons/culture_pillars/romans.dds": "9534210522d92ac66fbaa30cbce9c35817cf1ffe93ecb3d2692172b48b780c9c",
+    "gfx/interface/icons/culture_pillars/scytho_sarmatians.dds": "561c57c7655de355718fd9f22dff62c2a43b11725b50aca8424a184b1bbb80e4",
+    "gfx/interface/icons/culture_pillars/south_slavs.dds": "54a889068c3d449f942e25cf211d7e7cd71bb3729ad565ad5d468419de7b1fe3",
+    "gfx/interface/icons/culture_pillars/west_slavs.dds": "5576638736e1f3b2a877ca4f5143cbf2797695041aad8f4440140cba49b6ff74"
+  },
   "localization": {
     "english": {
       "added_keys": 2676,
@@ -13135,77 +13460,71 @@
     }
   },
   "source_hashes": {
-    "common/culture/pillars/00_ce_south_arabian_languages.txt": "830c824509df2f39e58bdd427fecfbac83a4ad7691b61b40ff9d8aefc33a85f8",
-    "common/culture/pillars/00_ce_siberian_languages.txt": "0914194eaf5c7be05a82ae9ebc5ca1acf9bf7dfb55db8ee2e7f0b1549d7c90b5",
-    "common/culture/pillars/00_ce_burman_languages.txt": "bcbf51198749c0d9b714f0ff476dc9c10e3e62a972b4ba764f283e83e029f63e",
-    "common/culture/pillars/BAP_language.txt": "51076bd303a10b89cac51ec3a527914301c3074483e646e53ec0c6b6e409f607",
-    "common/culture/pillars/00_ce_turkic_languages.txt": "10ae7e655df87e1ffe00f4133a8a9de0743134e1a24b2cf16963f257e8005b42",
     "common/culture/pillars/00_ce_kartvelian_languages.txt": "c182f7446401b240b0852b484c62575cabb30b84a0e2fb7179c3cc9e66b859cc",
+    "common/culture/pillars/00_ce_italo_western_languages.txt": "8374220b4c9dd4e54faabec2f65e30b9e4a855c6e856caed8dd65cc0fe3cea1b",
+    "common/culture/pillars/00_ce_coptic_languages.txt": "e0865cc9116dfe3795fc507a76488b7d5f40ca35261cdae7f2f475c39ecd060a",
+    "common/culture/pillars/00_ce_circassian_languages.txt": "f21556ec4b7a93bf95814d1f9c43d5cfd3067a946be2597b5911dd9138099d3a",
+    "common/culture/pillars/00_ce_burman_languages.txt": "bcbf51198749c0d9b714f0ff476dc9c10e3e62a972b4ba764f283e83e029f63e",
+    "common/culture/pillars/00_ce_baltic_languages.txt": "ff3f0cabb3e17c374b6acc62f945ae06ed6880e937a25648ca7856272ecef251",
+    "common/culture/pillars/00_ce_turkic_languages.txt": "10ae7e655df87e1ffe00f4133a8a9de0743134e1a24b2cf16963f257e8005b42",
+    "common/culture/pillars/00_ce_lezgic_languages.txt": "27ceb86d77f4a4fe9ea7aa1ac92e5f708f28420ec8ff4fdedc49762edf06b3ea",
+    "common/culture/pillars/xRICE_heritage.txt": "a2aa3508ce17dc9e655ebb6d5379ee9c24b2f0112832cdfc9959e5a2b098f677",
     "common/culture/pillars/BAP_guanche_language.txt": "a970685879e94255afbcd440a75dbdc1ca3da7f7249059899673d3cb9e07bbf1",
-    "common/culture/pillars/00_ce_nuristani_languages.txt": "c3b302868939dd8a9c3a73ccec1c8a10086a3249137f665dc7dd7b87f1993e1e",
+    "common/culture/pillars/xRICE_language_native_american.txt": "e7704037cb540c0d02f9be168d93827323339ba273606f1afac88186ac40fc34",
+    "common/culture/pillars/00_ce_south_arabian_languages.txt": "830c824509df2f39e58bdd427fecfbac83a4ad7691b61b40ff9d8aefc33a85f8",
     "common/culture/pillars/00_ce_iranian_languages.txt": "c9c2230cb3a92bb66144648e7d65caafecb1dfbc167865ef83ad9d7ed5260be0",
+    "common/culture/pillars/00_ce_siberian_languages.txt": "0914194eaf5c7be05a82ae9ebc5ca1acf9bf7dfb55db8ee2e7f0b1549d7c90b5",
+    "common/culture/pillars/BAP_language.txt": "51076bd303a10b89cac51ec3a527914301c3074483e646e53ec0c6b6e409f607",
     "common/culture/pillars/00_ce_heritage.txt": "edf2c46e05075e9181c006b5726e634ea7de50de5caf7ea3a7ff4ab0ff7d66a9",
     "common/culture/pillars/xCE_language.txt": "34af18399ee07fa7a0f32f2ec7bbffaf7501b21ae2b8f7084d6f597623c4fad5",
     "common/culture/pillars/00_ce_brythonic_languages.txt": "1882fb6eec47fa1803efc0099c677f1a647e7337b3a8e3a30d24c98ff54e8b1f",
-    "common/culture/pillars/00_ce_coptic_languages.txt": "e0865cc9116dfe3795fc507a76488b7d5f40ca35261cdae7f2f475c39ecd060a",
-    "common/culture/pillars/xRICE_heritage_native_american.txt": "cb0be385cad99d72cb221dab4963bb5b47f5e34d16ec2e70bcc1ebd298840864",
-    "common/culture/pillars/00_ce_lezgic_languages.txt": "27ceb86d77f4a4fe9ea7aa1ac92e5f708f28420ec8ff4fdedc49762edf06b3ea",
-    "common/culture/pillars/00_ce_baltic_languages.txt": "ff3f0cabb3e17c374b6acc62f945ae06ed6880e937a25648ca7856272ecef251",
-    "common/culture/pillars/xRICE_heritage.txt": "a2aa3508ce17dc9e655ebb6d5379ee9c24b2f0112832cdfc9959e5a2b098f677",
-    "common/culture/pillars/xRICE_language.txt": "fc983e378245d957f8aeb158195d4648aa3d46e4f2f1339e27be3ee1b84999ac",
-    "common/culture/pillars/00_ce_circassian_languages.txt": "f21556ec4b7a93bf95814d1f9c43d5cfd3067a946be2597b5911dd9138099d3a",
-    "common/culture/pillars/xCE_heritage.txt": "a72eaa2625f7a82e672f7cd6585b567f8ba69ca4156ec1b540277d07a615eeae",
-    "common/culture/pillars/00_ce_italo_western_languages.txt": "8374220b4c9dd4e54faabec2f65e30b9e4a855c6e856caed8dd65cc0fe3cea1b",
     "common/culture/pillars/00_ce_germanic_languages.txt": "beb7730a47d086ac0f89a7f6fa1ad2288c5ca34180b1aa22d5e322406cc8ec6b",
-    "common/culture/pillars/xRICE_language_native_american.txt": "e7704037cb540c0d02f9be168d93827323339ba273606f1afac88186ac40fc34",
-    "common/culture/cultures/x00_ce_latin.txt": "d5875ee4218652783718c503899bf3749624ce63e76716c6a5cf72d6d6adf10e",
-    "common/culture/cultures/BAP_berber.txt": "f586b92e2759d1346d7c14a844f35a449035a70bff2c900671b0aa0e02ef16fa",
-    "common/culture/cultures/00_ce_east_slavic.txt": "594a3b7f2e5afdcf138a2df8a9337ddb1d99efd14f179af89dfe38ef5ba96939",
+    "common/culture/pillars/xCE_heritage.txt": "a72eaa2625f7a82e672f7cd6585b567f8ba69ca4156ec1b540277d07a615eeae",
+    "common/culture/pillars/00_ce_nuristani_languages.txt": "c3b302868939dd8a9c3a73ccec1c8a10086a3249137f665dc7dd7b87f1993e1e",
+    "common/culture/pillars/xRICE_heritage_native_american.txt": "cb0be385cad99d72cb221dab4963bb5b47f5e34d16ec2e70bcc1ebd298840864",
+    "common/culture/pillars/xRICE_language.txt": "fc983e378245d957f8aeb158195d4648aa3d46e4f2f1339e27be3ee1b84999ac",
     "common/culture/cultures/00_ce_arabic.txt": "7246b9d4cbf4cc4792f6cd66174ea93a9ef764622d0e2c320ecac30f55025d2a",
-    "common/culture/cultures/00_ce_brythonic.txt": "de49650851d605a6ba16c5f8834d7fdfdb6926f48e6e7b54cad00c66a5948de9",
+    "common/culture/cultures/00_ce_north_germanic.txt": "e4a39a0072bb1427dcb5f0263a593a2f35f27c041eafc2649611f5b90f3146f1",
+    "common/culture/cultures/00_ce_turkic.txt": "9b981dc94dd1a27198727ebc8f1042ccad2b72a1b009077aa125b18718e38027",
     "common/culture/cultures/00_ce_mongolic.txt": "9bdfe395450eb7add50fa3eb54c826f6619645000b0963680bbf6ed45460bf42",
     "common/culture/cultures/00_ce_iranian.txt": "828ed7a9cdd2195929db03c8eef41f5f7bec6c67babcf854d2b69842cc5f910d",
-    "common/culture/cultures/00_ce_turkic.txt": "9b981dc94dd1a27198727ebc8f1042ccad2b72a1b009077aa125b18718e38027",
-    "common/culture/cultures/00_ce_west_germanic.txt": "b03e972325fbbcda71d070090bfa4a231c53ce24bf5de303b0d4795ed2a02765",
     "common/culture/cultures/00_ce_south_arabic.txt": "6df1b996d1b8fb5c64f85cd17bb1a3f463e730cd29305fb8c188601e71906111",
-    "common/culture/cultures/00_ce_coptic.txt": "acb1219c60dc5b580c6e272052bd1918c3c7edb4b674b815eca6ec8130cb06bb",
-    "common/culture/cultures/00_z_ce_overriding_file.txt": "60763f046390e158307606459a42ddafdb98e23fddb2fd699126fbabdc0904d9",
-    "common/culture/cultures/00_ce_byzantine.txt": "aec3420c67356023a82ef0057a39f547c4a5a284e4b4a1ebdeec653cb54cc5ff",
-    "common/culture/cultures/00_ce_south_slavic.txt": "8d46a51a91c8f6c1a4dc9570dd242bfb3fca5aa22f0807780c04a8feabb72806",
-    "common/culture/cultures/BAP_somalian.txt": "1e10e77be3ff97bde8cdb0a434077aeb1b0d43b33edcb6647e1576237b7d4168",
-    "common/culture/cultures/00_ce_baltic_balto_finnic.txt": "00ca135714e5d903f72180522e2ca3fd3b4dcbbb7bc3d918a48eead0f3aa74ee",
-    "common/culture/cultures/00_ce_indo_aryan.txt": "e4cbae2350dc33481f09e97a845c97db8c0de49efa7b2ee8a5ffacce8bfb5865",
-    "common/culture/cultures/00_ce_west_slavic.txt": "9c1304d1e64e290f9db6bf04ae151f558f5a415b8a5ff94eff550dfd5657b900",
-    "common/culture/cultures/00_ce_north_germanic.txt": "e4a39a0072bb1427dcb5f0263a593a2f35f27c041eafc2649611f5b90f3146f1",
     "common/culture/cultures/BAP_east_african.txt": "a8c337fb68c20422f93b5a1598eda6a11508b8537f6841034f8d04e5a1e47054",
-    "common/culture/cultures/00_ce_iberian.txt": "551ee7a553b098cf660a020f2b6d40b79a0224c54222e1a6d329b095a5cada9d",
-    "common/culture/cultures/00_ce_burman.txt": "27c87a7523e992533504f122a8aa353674e1c21c833c31287596f305b2b34d12",
+    "common/culture/cultures/00_ce_byzantine.txt": "aec3420c67356023a82ef0057a39f547c4a5a284e4b4a1ebdeec653cb54cc5ff",
+    "common/culture/cultures/00_ce_west_germanic.txt": "b03e972325fbbcda71d070090bfa4a231c53ce24bf5de303b0d4795ed2a02765",
+    "common/culture/cultures/00_ce_east_slavic.txt": "594a3b7f2e5afdcf138a2df8a9337ddb1d99efd14f179af89dfe38ef5ba96939",
+    "common/culture/cultures/00_z_ce_overriding_file.txt": "60763f046390e158307606459a42ddafdb98e23fddb2fd699126fbabdc0904d9",
+    "common/culture/cultures/00_ce_west_slavic.txt": "9c1304d1e64e290f9db6bf04ae151f558f5a415b8a5ff94eff550dfd5657b900",
+    "common/culture/cultures/BAP_somalian.txt": "1e10e77be3ff97bde8cdb0a434077aeb1b0d43b33edcb6647e1576237b7d4168",
+    "common/culture/cultures/00_ce_coptic.txt": "acb1219c60dc5b580c6e272052bd1918c3c7edb4b674b815eca6ec8130cb06bb",
+    "common/culture/cultures/BAP_berber.txt": "f586b92e2759d1346d7c14a844f35a449035a70bff2c900671b0aa0e02ef16fa",
     "common/culture/cultures/00_ce_ugro_permian.txt": "2d7ce3bafb23c0fcf6f1162d03d510ba548c7c71ac3a19d19d0d23b25084cc11",
-    "common/culture/name_lists/ce_yeniseian.txt": "daec18742060082dba3167bef5fa77afe60af86a3a39e10d4bcc820c4c63213f",
-    "common/culture/name_lists/ce_assyrian_ce.txt": "1c113bf18a61d0fecbf7fd3cca204483bea2a9faf8e894771f2eb91b3c25c9e1",
-    "common/culture/name_lists/BAP_berber.txt": "f8b3076b273536ca09c562848912d435f11f0a310e80dd0784927cadaf193e66",
-    "common/culture/name_lists/ce_mazanderani.txt": "ab10bfb49a7953f0a91270156e9a33931c61d9bca70a82737a810e10f4c1a45e",
+    "common/culture/cultures/00_ce_burman.txt": "27c87a7523e992533504f122a8aa353674e1c21c833c31287596f305b2b34d12",
+    "common/culture/cultures/00_ce_iberian.txt": "551ee7a553b098cf660a020f2b6d40b79a0224c54222e1a6d329b095a5cada9d",
+    "common/culture/cultures/00_ce_baltic_balto_finnic.txt": "00ca135714e5d903f72180522e2ca3fd3b4dcbbb7bc3d918a48eead0f3aa74ee",
+    "common/culture/cultures/00_ce_south_slavic.txt": "8d46a51a91c8f6c1a4dc9570dd242bfb3fca5aa22f0807780c04a8feabb72806",
+    "common/culture/cultures/x00_ce_latin.txt": "d5875ee4218652783718c503899bf3749624ce63e76716c6a5cf72d6d6adf10e",
+    "common/culture/cultures/00_ce_indo_aryan.txt": "e4cbae2350dc33481f09e97a845c97db8c0de49efa7b2ee8a5ffacce8bfb5865",
+    "common/culture/cultures/00_ce_brythonic.txt": "de49650851d605a6ba16c5f8834d7fdfdb6926f48e6e7b54cad00c66a5948de9",
+    "common/culture/name_lists/ce_coptic.txt": "07b8a9eed94d6ff0ce4b0adc53c4b76294efe238838357b0e1fd08c260a5ec38",
+    "common/culture/name_lists/ce_georgian.txt": "e1f91fc6623a7808922b8cc0bf1b55b8a5068c2e3f3f13d9117f236b4ece1faa",
+    "common/culture/name_lists/ce_gothic.txt": "8c583474d302d9348ea1176c3255f9afc045a1c57c8d0cf5824560e212b96221",
     "common/culture/name_lists/ce_byzantine.txt": "fc83c74981dcb9345f3d7c0faec3c03f178f617c81824a7549a6c3edd183b512",
     "common/culture/name_lists/ce_arabic.txt": "cfc4e07d6e0fdfdbda0ae87136d83a6182fd60543a8e35e958c231c434b9aa92",
-    "common/culture/name_lists/ce_afri.txt": "d3766e40b0879151ea1dd1c417ae9eda5f0510fd6bb138f50c57389c9886b44a",
-    "common/culture/name_lists/ce_circassian.txt": "b70d53e5b833cbcaa23af1d670b2c08979e46f0e305f7eeed059d05fe5ec97c6",
     "common/culture/name_lists/ce_evenk.txt": "0fcfb276c77da552288766ed0cc834ecca418f6aeb58612b3c840f80788111dc",
-    "common/culture/name_lists/BAP_somalian.txt": "5626ec931e426bc32414c2bfaa64e7fb215696f8a61e0a65e64f0fbdaa4b2d73",
-    "common/culture/name_lists/ce_jat.txt": "c4022275959167b651b75ace7ee6805688dc243f2ecefcb599aa280141e7dae8",
-    "common/culture/name_lists/ce_venetian.txt": "75110f4e66d2721594e303a2f72411d78dfd40715e49df8a201f07c57b058ec3",
-    "common/culture/name_lists/ce_coptic.txt": "07b8a9eed94d6ff0ce4b0adc53c4b76294efe238838357b0e1fd08c260a5ec38",
-    "common/culture/name_lists/ce_indo_aryan.txt": "26569de97513f3f997f0bc421f032a9fc46a4ec76b6909a46e245f25a0ae6ff9",
     "common/culture/name_lists/BAP_east_african.txt": "b37a0aa8513c9c20fd3ad444e25583185bc0fb07b452deb47ea3798522dfdc70",
-    "common/culture/name_lists/ce_georgian.txt": "e1f91fc6623a7808922b8cc0bf1b55b8a5068c2e3f3f13d9117f236b4ece1faa",
+    "common/culture/name_lists/ce_indo_aryan.txt": "26569de97513f3f997f0bc421f032a9fc46a4ec76b6909a46e245f25a0ae6ff9",
+    "common/culture/name_lists/ce_afri.txt": "d3766e40b0879151ea1dd1c417ae9eda5f0510fd6bb138f50c57389c9886b44a",
+    "common/culture/name_lists/ce_assyrian_ce.txt": "1c113bf18a61d0fecbf7fd3cca204483bea2a9faf8e894771f2eb91b3c25c9e1",
+    "common/culture/name_lists/ce_mazanderani.txt": "ab10bfb49a7953f0a91270156e9a33931c61d9bca70a82737a810e10f4c1a45e",
+    "common/culture/name_lists/BAP_somalian.txt": "5626ec931e426bc32414c2bfaa64e7fb215696f8a61e0a65e64f0fbdaa4b2d73",
     "common/culture/name_lists/ce_dalmatian.txt": "afa06ec082b4f37761b39b7c793ffff8f532c2147090767b58ad0fc27193d913",
+    "common/culture/name_lists/BAP_berber.txt": "f8b3076b273536ca09c562848912d435f11f0a310e80dd0784927cadaf193e66",
+    "common/culture/name_lists/RICE_iranian.txt": "ad6c009293005c106c0d80b6754380ddf8c4f09af656a58648c977746329ba0b",
+    "common/culture/name_lists/ce_yeniseian.txt": "daec18742060082dba3167bef5fa77afe60af86a3a39e10d4bcc820c4c63213f",
     "common/culture/name_lists/ce_east_slavic.txt": "544bf78722952f0fbfe569292f37856318259d3d087ce016bdcb695d34f11467",
-    "common/culture/name_lists/ce_gothic.txt": "8c583474d302d9348ea1176c3255f9afc045a1c57c8d0cf5824560e212b96221",
-    "common/culture/name_lists/RICE_iranian.txt": "ad6c009293005c106c0d80b6754380ddf8c4f09af656a58648c977746329ba0b"
-  },
-  "appearance_policy": "The unified tree uses native appearance assets. appearance_fallbacks lists new replacements in this build; already-normalized source records need no further replacement.",
-  "script_consolidation_source_hashes": {
-    "common/scripted_rules/00_rules_ce_overwrite.txt": "654da8f412e8527a80b2d218d3de27ad06b20bc755fec15650561674484f2e53",
-    "common/scripted_triggers/00_cultural_triggers_ce_overwrite.txt": "8a908364a646ae3537daf5c2096e850ee2b4439a64983cfee45b07db7c1714f2",
-    "common/game_concepts/ce_game_concepts.txt": "e81988664a0333cbed69923e404ea8d6b86bc80c8d9436f3dabf52f614900aae"
+    "common/culture/name_lists/ce_circassian.txt": "b70d53e5b833cbcaa23af1d670b2c08979e46f0e305f7eeed059d05fe5ec97c6",
+    "common/culture/name_lists/ce_venetian.txt": "75110f4e66d2721594e303a2f72411d78dfd40715e49df8a201f07c57b058ec3",
+    "common/culture/name_lists/ce_jat.txt": "c4022275959167b651b75ace7ee6805688dc243f2ecefcb599aa280141e7dae8"
   }
 }

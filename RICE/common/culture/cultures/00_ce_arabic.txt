@@ -4,11 +4,12 @@
 
 egyptian = {
 
+
 	color = { 0.1 0.6 0.1 }
 
 	created = 640.1.1
 	parents = { bedouin ce_copt }
-	
+
 	ethos = ethos_spiritual
 	heritage = heritage_arabic
 	language = language_arabic
@@ -20,20 +21,21 @@ egyptian = {
 		tradition_zealous_people
 		tradition_mubarizuns
 	}
-	
+
 	name_list = name_list_egyptian
 
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 	
-	house_coa_frame = house_frame_13
-	house_coa_mask_offset = { 0.0 -0.03 }
-	house_coa_mask_scale = { 0.95 0.95 }
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_10
+	house_coa_mask_offset = { 0.0 -0.06 }
+	house_coa_mask_scale = { 0.9 0.9 }
 
 	ethnicities = {
 		100 = arab
 	}
+
 
 }
 
@@ -43,7 +45,7 @@ hedjazi = {
 
 	created = 450.1.1
 	parents = { bedouin }
-	
+
 	ethos = ethos_spiritual
 	heritage = heritage_arabic
 	language = language_arabic
@@ -56,13 +58,13 @@ hedjazi = {
 		tradition_caravaneers
 		tradition_ep2_avid_falconers
 	}
-	
+
 	name_list = name_list_bedouin
 
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 	
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	house_coa_frame = house_frame_13
 	house_coa_mask_offset = { 0.0 -0.03 }
 	house_coa_mask_scale = { 0.95 0.95 }
@@ -79,7 +81,7 @@ madan = {
 
 	created = 600.1.1
 	parents = { bedouin nabati }
-	
+
 	ethos = ethos_communal
 	heritage = heritage_arabic
 	language = language_arabic
@@ -90,13 +92,13 @@ madan = {
 		tradition_medicinal_plants
 		tradition_agrarian
 	}
-	
+
 	name_list = name_list_bedouin
 
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 	
+	coa_gfx = { arabic_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx }
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	house_coa_frame = house_frame_13
 	house_coa_mask_offset = { 0.0 -0.03 }
 	house_coa_mask_scale = { 0.95 0.95 }

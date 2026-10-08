@@ -7,7 +7,7 @@ CAUC_pass_trade = { icon = economy_positive
  }
 
 CAUC_pass_guard = { icon = martial_positive
- fort_level = 0.25
+ fort_level = 1
  }
 
 CAUC_pass_compact = { icon = county_modifier_development_positive
@@ -23,11 +23,11 @@ CAUC_lori_learning = { icon = county_modifier_development_positive
  }
 
 CAUC_svan_towers = { icon = martial_positive
- fort_level = 0.25
+ fort_level = 1
  }
 
 CAUC_svan_masons = { icon = martial_positive
- fort_level = 0.25
+ fort_level = 1
  }
 
 CAUC_gelati_learning = { icon = county_modifier_development_positive

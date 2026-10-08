@@ -98,12 +98,12 @@ def main():
  mods={
  'CAUC_pass_restored':('Repaired Passage','Local workers have repaired the walls and approaches of the passage.','development_growth_factor = 0.05'),
  'CAUC_pass_trade':('Support for Caravans','The county supports merchants and provides space for their caravans.','tax_mult = 0.05'),
- 'CAUC_pass_guard':('Provisions for the Watch','The local ruler has set aside supplies for the garrison.','fort_level = 0.25'),
+ 'CAUC_pass_guard':('Provisions for the Watch','The local ruler has set aside supplies for the garrison.','fort_level = 1'),
  'CAUC_pass_compact':('Agreed Maintenance Duties','Settlements share defined obligations for maintaining the passage.','monthly_county_control_growth_add = 0.1'),
  'CAUC_pass_obstructed':('Obstructed Approach','Laborers are clearing fallen stone from the approach.','tax_mult = -0.05'),
  'CAUC_lori_learning':('Patronage of Local Scholars','A patron supports teaching and copying in the monastic communities of Lori.','development_growth_factor = 0.05'),
- 'CAUC_svan_towers':('Supported Tower Repairs','Households receive support for maintaining their tower dwellings.','fort_level = 0.25'),
- 'CAUC_svan_masons':('Work of Skilled Masons','Skilled masons have undertaken repairs to local towers.','fort_level = 0.25'),
+ 'CAUC_svan_towers':('Supported Tower Repairs','Households receive support for maintaining their tower dwellings.','fort_level = 1'),
+ 'CAUC_svan_masons':('Work of Skilled Masons','Skilled masons have undertaken repairs to local towers.','fort_level = 1'),
  'CAUC_gelati_learning':('Learning near Kutaisi','A patron supports teachers and copyists near Kutaisi.','development_growth_factor = 0.05'),
  }
  for k,(name,desc,_) in mods.items():loc(k,name);loc(k+'_desc',desc)

@@ -1,3 +1,13 @@
+# RICE Expanded — expanded.3.7: opt-in Tondrakian testimony
+
+2026-10-09 · CK3 1.20.* · 社区预发布 / Community prerelease
+
+- 重做通德拉基派地区广播：第一次证词让玩家选择继续听证，或斥责异端、获得100虔诚并退出中间广播。
+- 选择听证后，土地争议和教会禁令由玩家决定自己的宫廷立场，并产生学识经验、虔诚和人物态度效果。所有符合地域条件的基督教统治者仍会收到最终裁决；改信选项保留在后期阶段。
+- 广播过滤、阶段选项、退订和最终消息加入脚本检查。英、简中、法文同步完成，其他语言提供英文回退。本次未启动游戏。
+
+Turns the regional Tondrakian reports into an opt-in response chain. Rulers may hear the testimony and make decisions in the two intermediate stages, or rebuke the heretics for 100 Piety and receive only the final verdict. English, Simplified Chinese and French are complete; validation remains script-level.
+
 # RICE Expanded — expanded.3.6: Tondrakian rite loop and Caucasus names
 
 2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease

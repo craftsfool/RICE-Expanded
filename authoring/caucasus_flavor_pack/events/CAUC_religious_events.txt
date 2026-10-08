@@ -221,8 +221,57 @@ CAUC.0151 = {
  left_portrait = { character = scope:CAUC_tondrakian_host }
  trigger = { exists = global_var:CAUC_tondrakian_founder exists = scope:CAUC_tondrakian_host CAUC_tondrakian_broadcast_recipient_trigger = yes }
  immediate = { CAUC_tondrakian_notification_scopes_effect = yes }
- option = { name = CAUC.0151.a ai_chance = { base = 100 } }
- option = { name = CAUC.0150.b trigger = { CAUC_tondrakian_broadcast_recipient_trigger = yes is_available_adult = yes is_imprisoned = no NOT = { rite = rite:CAUC_tondrakian_rite } NOT = { any_held_title = { has_clerical_region = yes } } } CAUC_tondrakian_join_effect = yes ai_chance = { base = 5 modifier = { factor = 8 CAUC_tondrakian_armenian_crown_vassal_trigger = yes } } }
+ option = {
+  name = CAUC.0151.a
+  trigger = { scope:CAUC_tondrakian_news_stage = 141 }
+  remove_character_flag = CAUC_tondrakian_rejected_testimony
+  add_character_flag = { flag = CAUC_tondrakian_follow_testimony years = 2 }
+  ai_chance = { base = 25 }
+ }
+ option = {
+  name = CAUC.0151.b
+  trigger = { scope:CAUC_tondrakian_news_stage = 141 }
+  remove_character_flag = CAUC_tondrakian_follow_testimony
+  add_character_flag = { flag = CAUC_tondrakian_rejected_testimony years = 2 }
+  add_piety = 100
+  ai_chance = { base = 75 }
+ }
+ option = {
+  name = CAUC.0151.land_a
+  trigger = { scope:CAUC_tondrakian_news_stage = 142 has_character_flag = CAUC_tondrakian_follow_testimony }
+  add_learning_lifestyle_xp = 75
+  add_piety = -25
+  ai_chance = { base = 50 }
+ }
+ option = {
+  name = CAUC.0151.land_b
+  trigger = { scope:CAUC_tondrakian_news_stage = 142 has_character_flag = CAUC_tondrakian_follow_testimony }
+  add_piety = 50
+  ai_chance = { base = 50 }
+ }
+ option = {
+  name = CAUC.0151.prohibition_a
+  trigger = { scope:CAUC_tondrakian_news_stage = 143 has_character_flag = CAUC_tondrakian_follow_testimony }
+  add_piety = -50
+  add_prestige = 50
+  ai_chance = { base = 35 }
+ }
+ option = {
+  name = CAUC.0151.prohibition_b
+  trigger = { scope:CAUC_tondrakian_news_stage = 143 has_character_flag = CAUC_tondrakian_follow_testimony }
+  remove_character_flag = CAUC_tondrakian_follow_testimony
+  add_character_flag = { flag = CAUC_tondrakian_rejected_testimony years = 2 }
+  add_piety = 100
+  ai_chance = { base = 65 }
+ }
+ option = {
+  name = CAUC.0151.result
+  trigger = { scope:CAUC_tondrakian_news_stage = 144 }
+  remove_character_flag = CAUC_tondrakian_follow_testimony
+  remove_character_flag = CAUC_tondrakian_rejected_testimony
+  ai_chance = { base = 100 }
+ }
+ option = { name = CAUC.0150.b trigger = { CAUC_tondrakian_broadcast_recipient_trigger = yes is_available_adult = yes is_imprisoned = no NOT = { rite = rite:CAUC_tondrakian_rite } NOT = { any_held_title = { has_clerical_region = yes } } scope:CAUC_tondrakian_news_stage >= 143 } CAUC_tondrakian_join_effect = yes ai_chance = { base = 5 modifier = { factor = 8 CAUC_tondrakian_armenian_crown_vassal_trigger = yes } } }
 }
 CAUC.0152 = { hidden = yes scope = faith
    trigger = { exists = global_var:CAUC_tondrakian_founder NOT = { has_global_variable = CAUC_tondrakian_inquiry_started } }

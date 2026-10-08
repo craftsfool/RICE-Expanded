@@ -94,12 +94,20 @@ CAUC_tondrakian_join_effect = {
  pam_heresy_convert_ruler_to_new_rite_effect = yes
 }
 
-# The host continues the investigation; every other Christian ruler governing
-# northern or southern Caucasian land receives the testimony and final verdict.
+# The first testimony and final verdict reach every eligible Caucasian ruler.
+# Only rulers who opt into the hearing receive the two intervening stages.
 CAUC_tondrakian_broadcast_followup_effect = {
  title:c_apahunik.holder = { save_scope_as = CAUC_tondrakian_host }
  every_ruler = {
-  limit = { CAUC_tondrakian_broadcast_recipient_trigger = yes NOT = { this = scope:CAUC_tondrakian_host } }
+  limit = {
+   CAUC_tondrakian_broadcast_recipient_trigger = yes
+   NOT = { this = scope:CAUC_tondrakian_host }
+   OR = {
+    scope:CAUC_tondrakian_news_stage = 141
+    scope:CAUC_tondrakian_news_stage = 144
+    has_character_flag = CAUC_tondrakian_follow_testimony
+   }
+  }
   trigger_event = { id = CAUC.0151 days = 3 }
  }
 }

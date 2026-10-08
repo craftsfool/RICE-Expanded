@@ -91,7 +91,7 @@
     "Old-save startup never reparents a detached rite",
     "No repeated seed after deliberate reconversion or suppression",
     "Cross-denomination acceptance stays in Armenian parent faith",
-    "All four follow-up stages broadcast to regional rulers",
+    "First testimony offers opt-in or a 100-piety rebuke; intermediate stages require opt-in and the final result reaches everyone",
     "Public sequel survives an ineligible local host; an actual investigation takes over",
     "No automatic on_faith_created reparent hook or set_parent_faith call"
   ]

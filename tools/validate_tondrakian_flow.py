@@ -76,6 +76,25 @@ def main():
   immediate=get(events[f'CAUC.{n:04d}'][1],'immediate');assert f'value = {n}' in immediate and 'CAUC_tondrakian_broadcast_followup_effect = yes' in immediate
  assert get(events['CAUC.0151'][1],'trigger').find('CAUC_tondrakian_broadcast_recipient_trigger')>=0
  assert 'has_title' not in get(events['CAUC.0151'][1],'trigger')
+ broadcast=scripted['CAUC_tondrakian_broadcast_followup_effect'][1]
+ recipient_limit=get(next(v for k,v,_ in fields(broadcast) if k=='every_ruler'),'limit')
+ assert 'scope:CAUC_tondrakian_news_stage = 141' in recipient_limit
+ assert 'scope:CAUC_tondrakian_news_stage = 144' in recipient_limit
+ assert 'has_character_flag = CAUC_tondrakian_follow_testimony' in recipient_limit
+ news_options=[v for k,v,_ in fields(events['CAUC.0151'][1]) if k=='option']
+ named=lambda name:next(v for v in news_options if get(v,'name')==name)
+ hear=named('CAUC.0151.a');rebuke=named('CAUC.0151.b')
+ assert 'scope:CAUC_tondrakian_news_stage = 141' in get(hear,'trigger')
+ assert 'flag = CAUC_tondrakian_follow_testimony' in get(hear,'add_character_flag')
+ assert get(rebuke,'add_piety')=='100' and 'remove_character_flag = CAUC_tondrakian_follow_testimony' in rebuke
+ for name,stage in [('CAUC.0151.land_a',142),('CAUC.0151.land_b',142),('CAUC.0151.prohibition_a',143),('CAUC.0151.prohibition_b',143)]:
+  option=named(name);trigger=get(option,'trigger')
+  assert f'scope:CAUC_tondrakian_news_stage = {stage}' in trigger
+  assert 'has_character_flag = CAUC_tondrakian_follow_testimony' in trigger
+ assert get(named('CAUC.0151.prohibition_b'),'add_piety')=='100'
+ result=named('CAUC.0151.result')
+ assert 'scope:CAUC_tondrakian_news_stage = 144' in get(result,'trigger')
+ assert 'remove_character_flag = CAUC_tondrakian_follow_testimony' in result
  # A Muslim/minor/imprisoned origin ruler must not block the public sequel.
  fallback=fresh('c_apahunik','sunni','868.1.1',created=True)
  for n in range(152,156):
@@ -92,7 +111,7 @@ def main():
  for folder in ('common/on_action','common/scripted_effects'):
   for path in (mod/folder).glob('CAUC_tondrakian*.txt'):
    assert 'set_parent_faith' not in path.read_text(encoding='utf-8-sig'),path
- report={'errors':[],'scope':'Native source references and bounded script models only; no engine, UI or calculated divergence verification','region_duchies':sorted(area),'broadcast_cases':cases,'ai_join_weights':{'ordinary':base,'armenian_crown_vassal':base*factor,'decline':100},'checks':['Native rite notification scopes resolve','Native domain and court conversion helpers exist','County seed, neighbor exclusions and no forced player conversion','Old-save startup never reparents a detached rite','No repeated seed after deliberate reconversion or suppression','Cross-denomination acceptance stays in Armenian parent faith','All four follow-up stages broadcast to regional rulers','Public sequel survives an ineligible local host; an actual investigation takes over','No automatic on_faith_created reparent hook or set_parent_faith call']}
+ report={'errors':[],'scope':'Native source references and bounded script models only; no engine, UI or calculated divergence verification','region_duchies':sorted(area),'broadcast_cases':cases,'ai_join_weights':{'ordinary':base,'armenian_crown_vassal':base*factor,'decline':100},'checks':['Native rite notification scopes resolve','Native domain and court conversion helpers exist','County seed, neighbor exclusions and no forced player conversion','Old-save startup never reparents a detached rite','No repeated seed after deliberate reconversion or suppression','Cross-denomination acceptance stays in Armenian parent faith','First testimony offers opt-in or a 100-piety rebuke; intermediate stages require opt-in and the final result reaches everyone','Public sequel survives an ineligible local host; an actual investigation takes over','No automatic on_faith_created reparent hook or set_parent_faith call']}
  a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'errors':[],'checks':len(report['checks']),'broadcast_cases':len(cases),'ai_join_weights':report['ai_join_weights']}))
 
 if __name__=='__main__':main()

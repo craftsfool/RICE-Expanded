@@ -53,7 +53,10 @@ def main():
  errors.extend({'dds': item} for item in dds['errors'])
  for p in mod.rglob('*'):
   if p.suffix not in ('.txt','.gui'):continue
-  try:blocks(p.read_text(encoding='utf-8-sig'))
+  try:
+   text=p.read_text(encoding='utf-8-sig');blocks(text)
+   if re.search(r'\badd_gold\s*=\s*-\d',' '.join(tokens(text))):errors.append({'negative_add_gold':str(p.relative_to(ROOT))})
+   if p.suffix=='.txt' and p.name.startswith('CAUC') and not p.read_bytes().startswith(b'\xef\xbb\xbf'):errors.append({'script_encoding':str(p.relative_to(ROOT)),'expected':'utf8-bom'})
   except (UnicodeError,ValueError) as e:errors.append({'file':str(p.relative_to(ROOT)),'error':str(e)})
  registries={k:registry(mod,k) for k in ('faith_types','rite_types','religion_types')}
  for kind,defs in registries.items():

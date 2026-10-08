@@ -40,5 +40,17 @@
   "limitations": [
     "No game, UI, mouse or keyboard controlled by the agent.",
     "Static validity and the DDS correction do not demonstrate that the tooltip crash is resolved."
-  ]
+  ],
+  "later_user_run": {
+    "started": "2026-10-08 13:27:08 +0800",
+    "observed_until": "2026-10-08 13:30:56 +0800",
+    "enabled_mods": 9,
+    "culture_expanded_enabled": false,
+    "old_rice_epe_patch_enabled": true,
+    "note": "Reached portrait script evaluation with no new crash snapshot observed; this is not the requested three-mod control or a confirmed main-menu success.",
+    "newly_logged_defects_fixed": [
+      "31 invalid negative add_gold effects in authored Caucasus events",
+      "Missing UTF-8 BOM in Tondrakian rite definition"
+    ]
+  }
 }

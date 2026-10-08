@@ -1,0 +1,14 @@
+{
+  "game_log_timestamp": "2026-10-08 13:27:22 +0800",
+  "error": "add_gold effect: Negative value",
+  "replacements": {
+    "tools/build_flavor.py": 15,
+    "tools/build_religious_content.py": 16,
+    "events/CAUC_regional_events.txt": 15,
+    "events/CAUC_religious_events.txt": 16
+  },
+  "repair": "Use native remove_short_term_gold with a positive amount; keep existing affordability triggers and monetary amounts.",
+  "reference": "events/decisions_events/iberia_north_africa_events.txt:2376 (installed CK3 1.20.0.4)",
+  "scope": "All 31 authored paid event options, both Caucasus event files, corresponding generators; no localization changes.",
+  "additional_fix": "UTF-8 BOM added to Tondrakian rite definition."
+}

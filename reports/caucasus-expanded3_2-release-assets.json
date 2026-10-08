@@ -1,0 +1,32 @@
+{
+  "version": "1.20.0-beta-1-expanded.3.2-caucasus-alpha",
+  "assets": [
+    {
+      "profile": "base",
+      "name": "RICE-Expanded-base-Caucasus-Built-In-Update.zip",
+      "bytes": 502784,
+      "changed_files": 60,
+      "sha256": "8b7f2a4ec305e72f5dad61c95553f6a9b83f8ef2e90bbd0baf4e308b6edf1b4d"
+    },
+    {
+      "profile": "epe",
+      "name": "RICE-Expanded-epe-Caucasus-Built-In-Update.zip",
+      "bytes": 1061248,
+      "changed_files": 274,
+      "sha256": "d9cc9ac4ebb740927ef09232fdb9c2d5fcc91bdb2fcf6dfbba12cbb46e746e61"
+    },
+    {
+      "profile": "ce-epe",
+      "name": "RICE-Expanded-ce-epe-Caucasus-Built-In-Update.zip",
+      "bytes": 1125350,
+      "changed_files": 312,
+      "sha256": "00cff46f4c0100251090f8d5729ce614beedb9345b9517f6a04fa958d9eeb623"
+    }
+  ],
+  "archive_checks": [
+    "DDS repair included",
+    "31 paid options use native gold removal",
+    "Rite UTF-8 BOM present",
+    "Version matches"
+  ]
+}

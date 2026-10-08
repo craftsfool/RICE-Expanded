@@ -34,7 +34,7 @@ CAUC.0003 = {
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } }
  option = { name = CAUC.0003.a title:c_svaneti = { change_county_control = 5 } ai_chance = { base = 50 } }
- option = { name = CAUC.0003.b trigger = { gold >= 25 } add_gold = -25 title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_masons years = 3 } } ai_chance = { base = 50 } }
+ option = { name = CAUC.0003.b trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_masons years = 3 } } ai_chance = { base = 50 } }
  option = { name = CAUC.0003.c add_prestige = 75 ai_chance = { base = 50 } }
 }
 
@@ -58,7 +58,7 @@ CAUC.0010 = {
  theme = stewardship
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no }
- option = { name = CAUC.0010.a trigger = { gold >= 25 } add_gold = -25 title:c_derbent = { change_county_control = 2 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0010.a trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_derbent = { change_county_control = 2 } ai_chance = { base = 50 } }
  option = { name = CAUC.0010.b title:c_derbent = { change_county_control = -3 } ai_chance = { base = 50 } }
 }
 
@@ -82,7 +82,7 @@ CAUC.0012 = {
  theme = stewardship
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no title:c_derbent = { has_county_modifier = CAUC_pass_guard } }
- option = { name = CAUC.0012.a trigger = { gold >= 20 } add_gold = -20 title:c_derbent = { change_county_control = 3 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0012.a trigger = { gold >= 20 } remove_short_term_gold = 20 title:c_derbent = { change_county_control = 3 } ai_chance = { base = 50 } }
  option = { name = CAUC.0012.b title:c_derbent = { change_county_control = -2 } ai_chance = { base = 50 } }
 }
 
@@ -95,7 +95,7 @@ CAUC.0013 = {
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no title:c_derbent = { has_county_modifier = CAUC_pass_compact } }
  option = { name = CAUC.0013.a add_stress = 10 title:c_derbent = { change_county_control = 3 } ai_chance = { base = 50 } }
- option = { name = CAUC.0013.b trigger = { gold >= 20 } add_gold = -20 ai_chance = { base = 50 } }
+ option = { name = CAUC.0013.b trigger = { gold >= 20 } remove_short_term_gold = 20 ai_chance = { base = 50 } }
 }
 
 
@@ -106,7 +106,7 @@ CAUC.0014 = {
  theme = stewardship
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no }
- option = { name = CAUC.0014.a trigger = { gold >= 15 } add_gold = -15 add_prestige = 40 ai_chance = { base = 50 } }
+ option = { name = CAUC.0014.a trigger = { gold >= 15 } remove_short_term_gold = 15 add_prestige = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0014.b add_gold = 5 ai_chance = { base = 50 } }
 }
 
@@ -118,7 +118,7 @@ CAUC.0015 = {
  theme = stewardship
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no }
- option = { name = CAUC.0015.a trigger = { gold >= 40 } add_gold = -40 ai_chance = { base = 50 } }
+ option = { name = CAUC.0015.a trigger = { gold >= 40 } remove_short_term_gold = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0015.b title:c_derbent = { add_county_modifier = { modifier = CAUC_pass_obstructed years = 2 } } ai_chance = { base = 50 } }
 }
 
@@ -130,7 +130,7 @@ CAUC.0020 = {
  theme = learning
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori title:c_lori = { has_county_modifier = CAUC_lori_learning } faith = { religion = religion:christianity_religion } is_at_war = no }
- option = { name = CAUC.0020.a trigger = { gold >= 20 } add_gold = -20 add_piety = 40 ai_chance = { base = 50 } }
+ option = { name = CAUC.0020.a trigger = { gold >= 20 } remove_short_term_gold = 20 add_piety = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0020.b add_learning_lifestyle_xp = 50 ai_chance = { base = 50 } }
 }
 
@@ -142,7 +142,7 @@ CAUC.0021 = {
  theme = learning
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori title:c_lori = { has_county_modifier = CAUC_lori_learning } faith = { religion = religion:christianity_religion } is_at_war = no }
- option = { name = CAUC.0021.a trigger = { gold >= 25 } add_gold = -25 add_learning_lifestyle_xp = 100 ai_chance = { base = 50 } }
+ option = { name = CAUC.0021.a trigger = { gold >= 25 } remove_short_term_gold = 25 add_learning_lifestyle_xp = 100 ai_chance = { base = 50 } }
  option = { name = CAUC.0021.b add_piety = 20 ai_chance = { base = 50 } }
 }
 
@@ -178,7 +178,7 @@ CAUC.0024 = {
  theme = learning
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori title:c_lori = { has_county_modifier = CAUC_lori_learning } faith = { religion = religion:christianity_religion } is_at_war = no }
- option = { name = CAUC.0024.a trigger = { gold >= 30 } add_gold = -30 add_piety = 40 ai_chance = { base = 50 } }
+ option = { name = CAUC.0024.a trigger = { gold >= 30 } remove_short_term_gold = 30 add_piety = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0024.b title:c_lori = { change_county_control = -2 } ai_chance = { base = 50 } }
 }
 
@@ -203,7 +203,7 @@ CAUC.0030 = {
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
  option = { name = CAUC.0030.a add_stress = 10 title:c_svaneti = { change_county_control = 3 } ai_chance = { base = 50 } }
- option = { name = CAUC.0030.b trigger = { gold >= 20 } add_gold = -20 ai_chance = { base = 50 } }
+ option = { name = CAUC.0030.b trigger = { gold >= 20 } remove_short_term_gold = 20 ai_chance = { base = 50 } }
 }
 
 
@@ -214,7 +214,7 @@ CAUC.0031 = {
  theme = diplomacy
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
- option = { name = CAUC.0031.a trigger = { gold >= 25 } add_gold = -25 title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_masons years = 2 } } ai_chance = { base = 50 } }
+ option = { name = CAUC.0031.a trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_masons years = 2 } } ai_chance = { base = 50 } }
  option = { name = CAUC.0031.b add_prestige = 20 ai_chance = { base = 50 } }
 }
 
@@ -227,7 +227,7 @@ CAUC.0032 = {
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
  option = { name = CAUC.0032.a title:c_svaneti = { change_county_control = 2 } ai_chance = { base = 50 } }
- option = { name = CAUC.0032.b trigger = { gold >= 20 } add_gold = -20 title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_masons years = 2 } } ai_chance = { base = 50 } }
+ option = { name = CAUC.0032.b trigger = { gold >= 20 } remove_short_term_gold = 20 title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_masons years = 2 } } ai_chance = { base = 50 } }
 }
 
 
@@ -239,7 +239,7 @@ CAUC.0033 = {
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
  option = { name = CAUC.0033.a add_stress = 10 title:c_svaneti = { change_county_control = 4 } ai_chance = { base = 50 } }
- option = { name = CAUC.0033.b trigger = { gold >= 15 } add_gold = -15 add_prestige = 25 ai_chance = { base = 50 } }
+ option = { name = CAUC.0033.b trigger = { gold >= 15 } remove_short_term_gold = 15 add_prestige = 25 ai_chance = { base = 50 } }
 }
 
 
@@ -250,7 +250,7 @@ CAUC.0034 = {
  theme = diplomacy
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
- option = { name = CAUC.0034.a trigger = { gold >= 15 } add_gold = -15 add_prestige = 40 ai_chance = { base = 50 } }
+ option = { name = CAUC.0034.a trigger = { gold >= 15 } remove_short_term_gold = 15 add_prestige = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0034.b title:c_svaneti = { change_county_control = -2 } ai_chance = { base = 50 } }
 }
 
@@ -262,6 +262,6 @@ CAUC.0035 = {
  theme = diplomacy
  left_portrait = { character = root }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
- option = { name = CAUC.0035.a trigger = { gold >= 25 } add_gold = -25 title:c_svaneti = { change_county_control = 3 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0035.a trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_svaneti = { change_county_control = 3 } ai_chance = { base = 50 } }
  option = { name = CAUC.0035.b add_prestige = 15 ai_chance = { base = 50 } }
 }

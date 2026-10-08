@@ -111,8 +111,13 @@ def effects(text,s,scope='root'):
    s['control'][scope]=s['control'].get(scope,50)+float(value)
   elif key in ('add_gold','add_piety','add_prestige','add_learning_lifestyle_xp'):
    metric={'add_gold':'gold','add_piety':'piety','add_prestige':'prestige','add_learning_lifestyle_xp':'learning'}[key]
+   if key=='add_gold':assert float(value)>=0,'Native add_gold does not accept negative amounts'
    s[metric]+=float(value)
    if metric=='gold':assert s['gold']>=0,('unfunded option',s['gold'])
+  elif key=='remove_short_term_gold':
+   assert float(value)>=0
+   s['gold']-=float(value)
+   assert s['gold']>=0,('unfunded option',s['gold'])
   elif key=='add_character_flag':
    if '=' not in value:s['characters'][scope]['flags'].append(value)
    else:
@@ -256,7 +261,7 @@ def main():
   assert set(values)==set(source['english']),('Source key coverage',lang)
   for key,value in values.items():assert marks(value)==marks(source['english'][key]),('Changed interpolation',lang,key)
   installed=localization(mod,lang)
- for key,value in values.items():assert installed[key]==value,('Installed translation differs',lang,key)
+  for key,value in values.items():assert installed[key]==value,('Installed translation differs',lang,key)
  # Founder death, movement and a serialization round trip must not change the
  # historical link or create a second Smbat. Speaker replacement is independent.
  s=fresh('c_apahunik','armenian_apostolic','867.1.1')

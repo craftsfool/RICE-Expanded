@@ -1,4 +1,4 @@
-version="1.20.0-beta-1-expanded.3.1-caucasus-alpha"
+version="1.20.0-beta-1-expanded.3.2-caucasus-alpha"
 tags={
 	"Culture"
 	"Events"

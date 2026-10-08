@@ -1,4 +1,4 @@
-CAUC_tondrakian_rite = {
+﻿CAUC_tondrakian_rite = {
  name = CAUC_tondrakian_rite
  desc = {
   first_valid = {

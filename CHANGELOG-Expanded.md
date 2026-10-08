@@ -1,3 +1,13 @@
+# RICE Expanded — expanded.3.2: native gold effects
+
+2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease
+
+- 根据用户启动后的新日志，修复 31 个高加索事件付费选项：用原版 `remove_short_term_gold` 扣款，替换引擎不接受的负数 `add_gold`。金额、支付条件与分支结果不变，制作脚本也已同步修正。
+- 通基拉德礼制定义补充 UTF-8 BOM。静态检查现在拒绝负数 `add_gold`，事件模型使用实际扣款指令，并逐种验证英法中安装文本；三个兼容预设及本地目录的 408 条分支检查通过。
+- 包含 expanded.3.1 的 DDS 修复。仍不将这些已确认错误的修复表述为已证实解决完整模组组合的提示框动画崩溃。
+
+Replaced invalid negative add_gold effects in 31 Caucasus event options with native remove_short_term_gold. Added the rite definition's UTF-8 BOM and tightened validation. Includes the DDS fix from expanded.3.1; the full-playset startup crash remains unconfirmed resolved.
+
 # RICE Expanded — expanded.3.1: DDS resource repair
 
 2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease

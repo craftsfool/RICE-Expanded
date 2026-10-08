@@ -1,0 +1,83 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+torkil = {
+
+	color = { 0.75 0.71 0.21 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_turkic
+	language = language_oghuz
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_warrior_culture
+		#tradition_horse_lords
+		tradition_swords_for_hire
+		tradition_loyal_soldiers
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}	
+
+	name_list = name_list_pecheneg
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx}
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+
+	ethnicities = {
+		100 = turkic_west
+	}
+
+}
+
+basmyl = {
+
+	color = { 0.96 0.87 0.76 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_turkic
+	language = language_karluk
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_herd
+	traditions = {
+		tradition_sacred_mountains
+		#tradition_horse_lords
+		tradition_forest_folk
+		tradition_steppe_tolerance
+	}
+	
+	dlc_tradition = {
+		trait = tradition_mpo_iron_cavalry
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}	
+	
+	name_list = name_list_karluk
+	
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx}
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+	
+	ethnicities = {
+		100 = turkic_west
+	}
+
+}

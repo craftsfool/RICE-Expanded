@@ -1,0 +1,36 @@
+{
+  "errors": [],
+  "scope": "Native file references and bounded script-state regression tests; no game launch, rendering or engine simulation",
+  "checks": [
+    "All 22 smaller regional scenes have a recurring named contact and tangible recruit/manuscript outcomes",
+    "Every stage of the four religious disputes displays and recovers its actual participants",
+    "Rus captain: Slavic faith, East Slavic heritage, martial 26/prowess 32, native aptitude 91 (81 after Palace Politics), both choices exactly 500 troops, full positions protected, actor survives reload",
+    "867 schedules a public outbreak after one year with a global succession fallback; 1066/1178 initialize the rite immediately independent of ruler faith",
+    "All 25 Caucasus modifiers point to existing native icons; green/red names follow the engine’s documented suffix rule",
+    "New culture, faith, cavalry type, book visual/template and modifier references resolve against 1.20"
+  ],
+  "timelines": [
+    {
+      "start": "867.1.1",
+      "normal_outbreak_day": 365,
+      "notification_day": 366,
+      "succession_fallback": "first annual pulse from 868; current Apahunik holder, no religion/war/adulthood gate"
+    },
+    {
+      "start": "1066.9.15",
+      "rite_exists_at_initialization": true,
+      "duplicate_foundation": false
+    },
+    {
+      "start": "1178.10.1",
+      "rite_exists_at_initialization": true,
+      "duplicate_foundation": false
+    }
+  ],
+  "bodyguard_aptitude": {
+    "base": 91,
+    "with_palace_politics": 81,
+    "excellent_threshold": 80
+  },
+  "regional_scenes": 22
+}

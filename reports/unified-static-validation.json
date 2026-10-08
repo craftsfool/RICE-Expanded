@@ -1,0 +1,122 @@
+{
+  "errors": [],
+  "warnings": [
+    {
+      "unresolved_scope": "faith:chalcedonian",
+      "file": "RICE/events/RICE_tarim_basin_events.txt"
+    },
+    {
+      "unresolved_scope": "faith:phat_giao",
+      "file": "RICE/events/RICE_tarim_basin_events.txt"
+    },
+    {
+      "unresolved_scope": "faith:united_islam",
+      "file": "RICE/events/RICE_tarim_basin_events.txt"
+    },
+    {
+      "unresolved_scope": "faith:nicene",
+      "file": "RICE/events/RICE_sus_events.txt"
+    },
+    {
+      "unresolved_scope": "faith:nicene",
+      "file": "RICE/events/RICE_socotra_events.txt"
+    },
+    {
+      "unresolved_scope": "faith:benzhu",
+      "file": "RICE/events/RICE_debug.txt"
+    },
+    {
+      "unresolved_scope": "faith:armaz",
+      "file": "RICE/common/scripted_effects/RICE_khwarezm_effects.txt"
+    },
+    {
+      "unresolved_scope": "faith:behafaridism",
+      "file": "RICE/common/scripted_effects/RICE_khwarezm_effects.txt"
+    },
+    {
+      "unresolved_scope": "faith:magousaian",
+      "file": "RICE/common/scripted_effects/RICE_khwarezm_effects.txt"
+    },
+    {
+      "unresolved_scope": "faith:athinganoi",
+      "file": "RICE/common/scripted_effects/RICE_khuzestan_effects.txt"
+    },
+    {
+      "unresolved_scope": "faith:denawar",
+      "file": "RICE/common/scripted_effects/RICE_khuzestan_effects.txt"
+    },
+    {
+      "unresolved_scope": "faith:quqite",
+      "file": "RICE/common/scripted_effects/RICE_khuzestan_effects.txt"
+    },
+    {
+      "unresolved_scope": "faith:oloku_pagan",
+      "file": "RICE/common/scripted_effects/RICE_niger_delta_effects.txt"
+    }
+  ],
+  "languages": {
+    "english": {
+      "keys": 63239,
+      "missing_keys": 0,
+      "malformed_entries": 0,
+      "unresolved_references": 0
+    },
+    "simp_chinese": {
+      "keys": 63248,
+      "missing_keys": 0,
+      "malformed_entries": 0,
+      "unresolved_references": 0
+    },
+    "french": {
+      "keys": 63241,
+      "missing_keys": 0,
+      "malformed_entries": 0,
+      "unresolved_references": 0
+    },
+    "german": {
+      "keys": 63268,
+      "missing_keys": 0,
+      "malformed_entries": 0,
+      "unresolved_references": 0
+    },
+    "spanish": {
+      "keys": 64316,
+      "missing_keys": 0,
+      "malformed_entries": 0,
+      "unresolved_references": 0
+    },
+    "russian": {
+      "keys": 63239,
+      "missing_keys": 0,
+      "malformed_entries": 0,
+      "unresolved_references": 0
+    },
+    "polish": {
+      "keys": 63239,
+      "missing_keys": 0,
+      "malformed_entries": 0,
+      "unresolved_references": 0
+    },
+    "japanese": {
+      "keys": 63239,
+      "missing_keys": 0,
+      "malformed_entries": 0,
+      "unresolved_references": 0
+    }
+  },
+  "dds": {
+    "checked": 1994,
+    "errors": [],
+    "limitations": [
+      "Header and payload checks do not validate GPU decoding or engine behavior."
+    ]
+  },
+  "registries": {
+    "faith_types": 103,
+    "rite_types": 107,
+    "religion_types": 44
+  },
+  "limitations": [
+    "Structural checks do not validate every engine function, scope, or gameplay path."
+  ]
+}

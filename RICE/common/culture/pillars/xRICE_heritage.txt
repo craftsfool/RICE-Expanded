@@ -1,0 +1,141 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+heritage_east_bantu = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_east_bantu
+		}
+	}
+	parameters = {
+		heritage_group_central_african = yes
+		heritage_family_african = yes 
+	}
+	audio_parameter = mena
+}
+
+heritage_elamite = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_elamite
+		}
+	}
+	# can_pick_for_hybridization = {
+	# 	trigger_if = {
+	# 		limit = { has_cultural_parameter = hybridize_keep_heritage }
+	# 		custom_description = {
+	# 			text = hybridize_keep_heritage_must_keep_same_heritage
+	# 			has_cultural_pillar = heritage_elamite
+	# 		}
+	# 	}
+	# }
+	
+	parameters = { 
+		heritage_group_levantine = yes
+		heritage_family_middle_eastern = yes 
+	}
+	audio_parameter = mena
+}
+
+heritage_guanche = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_guanche
+		}
+	}
+	parameters = { 
+		heritage_group_berber = yes
+		heritage_family_middle_eastern = yes 
+	}
+	audio_parameter = mena
+}
+
+heritage_melanesian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_melanesian
+		}
+	}
+	parameters = { 
+		heritage_group_austronesian = yes
+		heritage_family_southeast_asian = yes 
+	}
+	audio_parameter = sea
+}
+
+heritage_micronesian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_micronesian
+		}
+	}
+	parameters = { 
+		heritage_group_austronesian = yes
+		heritage_family_southeast_asian = yes 
+	}
+	audio_parameter = sea
+}
+
+heritage_papuan = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_papuan
+		}
+	}
+	parameters = { 
+		heritage_group_austronesian = yes
+		heritage_family_southeast_asian = yes 
+	}
+	audio_parameter = sea
+}
+
+heritage_polynesian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_polynesian
+		}
+	}
+	parameters = { 
+		heritage_group_austronesian = yes
+		heritage_family_southeast_asian = yes 
+	}
+	audio_parameter = sea
+}
+
+heritage_siberian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_siberian
+		}
+	}
+	parameters = { 
+		heritage_group_north_asian = yes
+		heritage_group_siberian = yes
+		heritage_family_eurasian = yes 
+	}
+	audio_parameter = european
+}
+
+heritage_south_bantu = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_south_bantu
+		}
+	}
+	parameters = { 
+		heritage_group_central_african = yes
+		heritage_group_south_african = yes
+		heritage_family_african = yes 
+	}
+	audio_parameter = mena
+}

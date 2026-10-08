@@ -1,140 +1,107 @@
 ﻿# Optional regional stories; delayed stages recheck direct ownership.
 namespace = CAUC
 
-CAUC.0100 = {
- type = character_event
- title = CAUC.0100.t
- desc = CAUC.0100.desc
- theme = martial
- left_portrait = { character = root }
- trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent faith = { religion = religion:islam_religion } }
-option = { name = CAUC.0100.a  trigger_event = { id = CAUC.0101 days = 30 } ai_chance = { base = 50 } }
+CAUC.0100 = { type = character_event title = CAUC.0100.t desc = CAUC.0100.desc theme = martial
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_rus_speaker }
+ trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent  }
+ immediate = { CAUC_rus_speaker_effect = yes  }
+ option = { name = CAUC.0100.a trigger = { is_valid_to_hire_court_position_type = bodyguard_court_position can_employ_court_position_type = bodyguard_court_position } add_courtier = scope:CAUC_rus_speaker appoint_court_position = { recipient = scope:CAUC_rus_speaker court_position = bodyguard_court_position } spawn_army = { name = CAUC_rus_event_army levies = 500 location = root.capital_province inheritable = no war_keep_on_attacker_victory = yes }scope:CAUC_rus_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 30 years = 10 } }title:c_derbent = { set_variable = { name = CAUC_rus_hired_choice value = 1 } } trigger_event = { id = CAUC.0101 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0100.b spawn_army = { name = CAUC_rus_event_army levies = 500 location = root.capital_province inheritable = no war_keep_on_attacker_victory = yes }title:c_derbent = { set_variable = { name = CAUC_rus_hired_choice value = 0 } } trigger_event = { id = CAUC.0101 days = 45 } ai_chance = { base = 50 } }
 }
 
-CAUC.0101 = {
- type = character_event
- title = CAUC.0101.t
- desc = CAUC.0101.desc
- theme = diplomacy
- left_portrait = { character = root }
- trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent faith = { religion = religion:islam_religion } }
-option = { name = CAUC.0101.a  title:c_derbent = { remove_county_modifier = CAUC_rus_protected remove_county_modifier = CAUC_rus_instructed remove_county_modifier = CAUC_rus_dismissed }title:c_derbent = { add_county_modifier = { modifier = CAUC_rus_protected years = 5 } }title:c_derbent = { set_variable = { name = CAUC_derbent_guards_choice value = 1 } } add_piety = -75 trigger_event = { id = CAUC.0102 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0101.b  title:c_derbent = { remove_county_modifier = CAUC_rus_protected remove_county_modifier = CAUC_rus_instructed remove_county_modifier = CAUC_rus_dismissed }title:c_derbent = { add_county_modifier = { modifier = CAUC_rus_instructed years = 5 } }title:c_derbent = { set_variable = { name = CAUC_derbent_guards_choice value = 2 } } add_piety = 50 trigger_event = { id = CAUC.0102 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0101.c trigger = { gold >= 25 } title:c_derbent = { remove_county_modifier = CAUC_rus_protected remove_county_modifier = CAUC_rus_instructed remove_county_modifier = CAUC_rus_dismissed }title:c_derbent = { add_county_modifier = { modifier = CAUC_rus_dismissed years = 5 } }title:c_derbent = { set_variable = { name = CAUC_derbent_guards_choice value = 3 } } remove_short_term_gold = 25 add_piety = 75 trigger_event = { id = CAUC.0102 days = 60 } ai_chance = { base = 50 } }
+CAUC.0101 = { type = character_event title = CAUC.0101.t desc = CAUC.0101.desc theme = diplomacy
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_rus_speaker }
+ trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent  }
+ immediate = { CAUC_rus_speaker_effect = yes  }
+ option = { name = CAUC.0101.a title:c_derbent = { remove_county_modifier = CAUC_rus_protected remove_county_modifier = CAUC_rus_instructed remove_county_modifier = CAUC_rus_dismissed add_county_modifier = { modifier = CAUC_rus_protected years = 5 } } title:c_derbent = { set_variable = { name = CAUC_derbent_guards_choice value = 1 } }scope:CAUC_rus_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 35 years = 10 } } add_piety = -75 trigger_event = { id = CAUC.0102 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0101.b title:c_derbent = { remove_county_modifier = CAUC_rus_protected remove_county_modifier = CAUC_rus_instructed remove_county_modifier = CAUC_rus_dismissed add_county_modifier = { modifier = CAUC_rus_instructed years = 5 } } title:c_derbent = { set_variable = { name = CAUC_derbent_guards_choice value = 2 } }scope:CAUC_rus_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 10 years = 10 } } add_learning_lifestyle_xp = 75 trigger_event = { id = CAUC.0102 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0101.c title:c_derbent = { remove_county_modifier = CAUC_rus_protected remove_county_modifier = CAUC_rus_instructed remove_county_modifier = CAUC_rus_dismissed add_county_modifier = { modifier = CAUC_rus_dismissed years = 5 } } title:c_derbent = { set_variable = { name = CAUC_derbent_guards_choice value = 3 } }scope:CAUC_rus_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -30 years = 10 } } add_piety = 50 trigger_event = { id = CAUC.0102 days = 45 } ai_chance = { base = 50 } }
 }
 
-CAUC.0102 = {
- type = character_event
- title = CAUC.0102.t
- desc = CAUC.0102.desc
- theme = stewardship
- left_portrait = { character = root }
- trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent faith = { religion = religion:islam_religion } }
-option = { name = CAUC.0102.a trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_derbent = { change_county_control = 8 } remove_character_flag = CAUC_derbent_guards_active ai_chance = { base = 50 } }
-option = { name = CAUC.0102.b  title:c_derbent = { change_county_control = -5 } remove_character_flag = CAUC_derbent_guards_active ai_chance = { base = 50 } }
+CAUC.0102 = { type = character_event title = CAUC.0102.t desc = CAUC.0102.desc theme = diplomacy
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_rus_speaker }
+ trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent  }
+ immediate = { CAUC_rus_speaker_effect = yes  }
+ option = { name = CAUC.0102.a trigger = { gold >= 25 } remove_short_term_gold = 25 scope:CAUC_rus_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } remove_character_flag = CAUC_derbent_guards_active if = { limit = { scope:CAUC_rus_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_rus_speaker } ai_chance = { base = 50 } }
+ option = { name = CAUC.0102.b scope:CAUC_rus_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -10 years = 10 } } remove_character_flag = CAUC_derbent_guards_active if = { limit = { scope:CAUC_rus_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_rus_speaker } ai_chance = { base = 50 } }
 }
 
-CAUC.0110 = {
- type = character_event
- title = CAUC.0110.t
- desc = CAUC.0110.desc
- theme = learning
- left_portrait = { character = root }
+CAUC.0110 = { type = character_event title = CAUC.0110.t desc = CAUC.0110.desc theme = learning
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_abbot_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori faith = { religion = religion:christianity_religion } }
-option = { name = CAUC.0110.a  title:c_lori = { remove_county_modifier = CAUC_lori_autonomy remove_county_modifier = CAUC_lori_rapprochement remove_county_modifier = CAUC_lori_guarantees }title:c_lori = { add_county_modifier = { modifier = CAUC_lori_autonomy years = 5 } }title:c_lori = { set_variable = { name = CAUC_lori_council_choice value = 1 } } add_piety = 50 trigger_event = { id = CAUC.0111 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0110.b  title:c_lori = { remove_county_modifier = CAUC_lori_autonomy remove_county_modifier = CAUC_lori_rapprochement remove_county_modifier = CAUC_lori_guarantees }title:c_lori = { add_county_modifier = { modifier = CAUC_lori_rapprochement years = 5 } }title:c_lori = { set_variable = { name = CAUC_lori_council_choice value = 2 } } add_learning_lifestyle_xp = 100 trigger_event = { id = CAUC.0111 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0110.c trigger = { gold >= 25 } title:c_lori = { remove_county_modifier = CAUC_lori_autonomy remove_county_modifier = CAUC_lori_rapprochement remove_county_modifier = CAUC_lori_guarantees }title:c_lori = { add_county_modifier = { modifier = CAUC_lori_guarantees years = 5 } }title:c_lori = { set_variable = { name = CAUC_lori_council_choice value = 3 } } remove_short_term_gold = 25 trigger_event = { id = CAUC.0111 days = 60 } ai_chance = { base = 50 } }
+ immediate = { CAUC_abbot_speaker_effect = yes CAUC_envoy_speaker_effect = yes }
+ option = { name = CAUC.0110.a title:c_lori = { set_variable = { name = CAUC_lori_council_choice value = 1 } } add_courtier = scope:CAUC_abbot_speaker scope:CAUC_abbot_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } trigger_event = { id = CAUC.0111 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0110.b title:c_lori = { set_variable = { name = CAUC_lori_council_choice value = 2 } } add_courtier = scope:CAUC_envoy_speaker scope:CAUC_envoy_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } trigger_event = { id = CAUC.0111 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0110.c trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_lori = { set_variable = { name = CAUC_lori_council_choice value = 3 } } scope:CAUC_abbot_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 15 years = 10 } } scope:CAUC_envoy_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 15 years = 10 } } trigger_event = { id = CAUC.0111 days = 45 } ai_chance = { base = 50 } }
 }
 
-CAUC.0111 = {
- type = character_event
- title = CAUC.0111.t
- desc = CAUC.0111.desc
- theme = learning
- left_portrait = { character = root }
+CAUC.0111 = { type = character_event title = CAUC.0111.t desc = CAUC.0111.desc theme = learning
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_abbot_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori faith = { religion = religion:christianity_religion } }
-option = { name = CAUC.0111.a trigger = { gold >= 20 } remove_short_term_gold = 20 add_learning_lifestyle_xp = 75 trigger_event = { id = CAUC.0112 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0111.b  add_prestige = -25 trigger_event = { id = CAUC.0112 days = 60 } ai_chance = { base = 50 } }
+ immediate = { CAUC_abbot_speaker_effect = yes CAUC_envoy_speaker_effect = yes }
+ option = { name = CAUC.0111.a trigger = { gold >= 20 } remove_short_term_gold = 20 add_learning_skill = 1 scope:CAUC_envoy_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 20 years = 10 } } trigger_event = { id = CAUC.0112 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0111.b title:c_lori = { set_variable = { name = CAUC_lori_council_choice value = 1 } } scope:CAUC_abbot_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 20 years = 10 } } scope:CAUC_envoy_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -10 years = 10 } } trigger_event = { id = CAUC.0112 days = 45 } ai_chance = { base = 50 } }
 }
 
-CAUC.0112 = {
- type = character_event
- title = CAUC.0112.t
- desc = CAUC.0112.desc
- theme = learning
- left_portrait = { character = root }
+CAUC.0112 = { type = character_event title = CAUC.0112.t desc = CAUC.0112.desc theme = learning
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_abbot_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori faith = { religion = religion:christianity_religion } }
-option = { name = CAUC.0112.a trigger = { gold >= 15 } remove_short_term_gold = 15 add_learning_lifestyle_xp = 100 remove_character_flag = CAUC_lori_council_active ai_chance = { base = 50 } }
-option = { name = CAUC.0112.b  add_piety = 25 remove_character_flag = CAUC_lori_council_active ai_chance = { base = 50 } }
+ immediate = { CAUC_abbot_speaker_effect = yes if = { limit = { title:c_lori = { var:CAUC_lori_council_choice = 1 } } title:c_lori = { remove_county_modifier = CAUC_lori_autonomy remove_county_modifier = CAUC_lori_rapprochement remove_county_modifier = CAUC_lori_guarantees add_county_modifier = { modifier = CAUC_lori_autonomy years = 5 } } title:c_lori = { set_variable = { name = CAUC_lori_council_choice value = 1 } } } if = { limit = { title:c_lori = { var:CAUC_lori_council_choice = 2 } } title:c_lori = { remove_county_modifier = CAUC_lori_autonomy remove_county_modifier = CAUC_lori_rapprochement remove_county_modifier = CAUC_lori_guarantees add_county_modifier = { modifier = CAUC_lori_rapprochement years = 5 } } title:c_lori = { set_variable = { name = CAUC_lori_council_choice value = 2 } } } if = { limit = { title:c_lori = { var:CAUC_lori_council_choice = 3 } } title:c_lori = { remove_county_modifier = CAUC_lori_autonomy remove_county_modifier = CAUC_lori_rapprochement remove_county_modifier = CAUC_lori_guarantees add_county_modifier = { modifier = CAUC_lori_guarantees years = 5 } } title:c_lori = { set_variable = { name = CAUC_lori_council_choice value = 3 } } } }
+ option = { name = CAUC.0112.a trigger = { gold >= 30 } remove_short_term_gold = 30 create_artifact = { name = CAUC_lori_book description = CAUC_lori_book_desc type = book visuals = book template = general_unique_template wealth = 25 quality = 25 modifier = CAUC_scholarly_book_modifier creator = scope:CAUC_abbot_speaker } remove_character_flag = CAUC_lori_council_active if = { limit = { scope:CAUC_abbot_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_abbot_speaker } if = { limit = { scope:CAUC_envoy_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_envoy_speaker } ai_chance = { base = 50 } }
+ option = { name = CAUC.0112.b add_courtier = scope:CAUC_abbot_speaker scope:CAUC_abbot_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 30 years = 10 } } remove_character_flag = CAUC_lori_council_active if = { limit = { scope:CAUC_abbot_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_abbot_speaker } if = { limit = { scope:CAUC_envoy_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_envoy_speaker } ai_chance = { base = 50 } }
 }
 
-CAUC.0120 = {
- type = character_event
- title = CAUC.0120.t
- desc = CAUC.0120.desc
- theme = diplomacy
- left_portrait = { character = root }
- trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_hayk OR = { faith = { religion = religion:christianity_religion } faith = { religion = religion:islam_religion } } }
- immediate = { if = { limit = { title:c_hayk = { var:CAUC_ani_sanctuary_use = 1 } } custom_tooltip = CAUC_ani_church_use } else = { custom_tooltip = CAUC_ani_mosque_use } }
-option = { name = CAUC.0120.a trigger = { gold >= 50 faith = { religion = religion:christianity_religion } } title:c_hayk = { remove_county_modifier = CAUC_ani_church_restored remove_county_modifier = CAUC_ani_mosque_endowed remove_county_modifier = CAUC_ani_existing_use }title:c_hayk = { add_county_modifier = { modifier = CAUC_ani_church_restored years = 5 } }title:c_hayk = { set_variable = { name = CAUC_ani_sanctuary_use value = 1 } } remove_short_term_gold = 50 add_piety = 50 trigger_event = { id = CAUC.0121 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0120.b trigger = { gold >= 50 faith = { religion = religion:islam_religion } } title:c_hayk = { remove_county_modifier = CAUC_ani_church_restored remove_county_modifier = CAUC_ani_mosque_endowed remove_county_modifier = CAUC_ani_existing_use }title:c_hayk = { add_county_modifier = { modifier = CAUC_ani_mosque_endowed years = 5 } }title:c_hayk = { set_variable = { name = CAUC_ani_sanctuary_use value = 2 } } remove_short_term_gold = 50 add_piety = 50 trigger_event = { id = CAUC.0121 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0120.c  title:c_hayk = { remove_county_modifier = CAUC_ani_church_restored remove_county_modifier = CAUC_ani_mosque_endowed remove_county_modifier = CAUC_ani_existing_use }title:c_hayk = { add_county_modifier = { modifier = CAUC_ani_existing_use years = 5 } }if = { limit = { title:c_hayk = { var:CAUC_ani_sanctuary_use = 1 } } custom_tooltip = CAUC_ani_church_use } else = { custom_tooltip = CAUC_ani_mosque_use } add_piety = -25 trigger_event = { id = CAUC.0121 days = 60 } ai_chance = { base = 50 } }
-}
-
-CAUC.0121 = {
- type = character_event
- title = CAUC.0121.t
- desc = CAUC.0121.desc
- theme = stewardship
- left_portrait = { character = root }
+CAUC.0120 = { type = character_event title = CAUC.0120.t desc = CAUC.0120.desc theme = stewardship
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_warden_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_hayk  }
-option = { name = CAUC.0121.a trigger = { gold >= 20 } remove_short_term_gold = 20 title:c_hayk = { change_county_control = 5 } trigger_event = { id = CAUC.0122 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0121.b  title:c_hayk = { change_county_control = -3 } trigger_event = { id = CAUC.0122 days = 60 } ai_chance = { base = 50 } }
+ immediate = { CAUC_warden_speaker_effect = yes CAUC_imam_speaker_effect = yes }
+ option = { name = CAUC.0120.a trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_hayk = { set_variable = { name = CAUC_ani_sanctuary_use value = 1 } } title:c_hayk = { set_variable = { name = CAUC_ani_sanctuary_choice value = 1 } } scope:CAUC_warden_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 30 years = 10 } } scope:CAUC_imam_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -25 years = 10 } } trigger_event = { id = CAUC.0121 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0120.b trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_hayk = { set_variable = { name = CAUC_ani_sanctuary_use value = 2 } } title:c_hayk = { set_variable = { name = CAUC_ani_sanctuary_choice value = 2 } } scope:CAUC_imam_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 30 years = 10 } } scope:CAUC_warden_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -25 years = 10 } } trigger_event = { id = CAUC.0121 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0120.c title:c_hayk = { set_variable = { name = CAUC_ani_sanctuary_choice value = 3 } } scope:CAUC_warden_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 10 years = 10 } } scope:CAUC_imam_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 10 years = 10 } } trigger_event = { id = CAUC.0121 days = 45 } ai_chance = { base = 50 } }
 }
 
-CAUC.0122 = {
- type = character_event
- title = CAUC.0122.t
- desc = CAUC.0122.desc
- theme = diplomacy
- left_portrait = { character = root }
+CAUC.0121 = { type = character_event title = CAUC.0121.t desc = CAUC.0121.desc theme = diplomacy
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_warden_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_hayk  }
-option = { name = CAUC.0122.a trigger = { gold >= 25 } remove_short_term_gold = 25 add_prestige = 50 title:c_hayk = { change_county_control = 5 } remove_character_flag = CAUC_ani_sanctuary_active ai_chance = { base = 50 } }
-option = { name = CAUC.0122.b  add_prestige = 15 remove_character_flag = CAUC_ani_sanctuary_active ai_chance = { base = 50 } }
+ immediate = { CAUC_warden_speaker_effect = yes CAUC_imam_speaker_effect = yes }
+ option = { name = CAUC.0121.a add_courtier = scope:CAUC_warden_speaker add_courtier = scope:CAUC_imam_speaker scope:CAUC_warden_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 15 years = 10 } } scope:CAUC_imam_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 15 years = 10 } } trigger_event = { id = CAUC.0122 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0121.b trigger = { gold >= 20 } remove_short_term_gold = 20 title:c_hayk = { change_county_control = 8 } trigger_event = { id = CAUC.0122 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0121.c title:c_hayk = { change_county_control = -5 } trigger_event = { id = CAUC.0122 days = 45 } ai_chance = { base = 50 } }
 }
 
-CAUC.0130 = {
- type = character_event
- title = CAUC.0130.t
- desc = CAUC.0130.desc
- theme = diplomacy
- left_portrait = { character = root }
- trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_maghas  }
-option = { name = CAUC.0130.a trigger = { gold >= 25 } title:c_maghas = { remove_county_modifier = CAUC_alan_mission_supported remove_county_modifier = CAUC_alan_old_rites_protected remove_county_modifier = CAUC_alan_mission_dismissed }title:c_maghas = { add_county_modifier = { modifier = CAUC_alan_mission_supported years = 5 } }title:c_maghas = { set_variable = { name = CAUC_alan_mission_choice value = 1 } } remove_short_term_gold = 25 add_learning_lifestyle_xp = 100 trigger_event = { id = CAUC.0131 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0130.b  title:c_maghas = { remove_county_modifier = CAUC_alan_mission_supported remove_county_modifier = CAUC_alan_old_rites_protected remove_county_modifier = CAUC_alan_mission_dismissed }title:c_maghas = { add_county_modifier = { modifier = CAUC_alan_old_rites_protected years = 5 } }title:c_maghas = { set_variable = { name = CAUC_alan_mission_choice value = 2 } } add_prestige = 25 trigger_event = { id = CAUC.0131 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0130.c  title:c_maghas = { remove_county_modifier = CAUC_alan_mission_supported remove_county_modifier = CAUC_alan_old_rites_protected remove_county_modifier = CAUC_alan_mission_dismissed }title:c_maghas = { add_county_modifier = { modifier = CAUC_alan_mission_dismissed years = 5 } }title:c_maghas = { set_variable = { name = CAUC_alan_mission_choice value = 3 } } add_prestige = -25 trigger_event = { id = CAUC.0131 days = 60 } ai_chance = { base = 50 } }
+CAUC.0122 = { type = character_event title = CAUC.0122.t desc = CAUC.0122.desc theme = diplomacy
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_warden_speaker }
+ trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_hayk  }
+ immediate = { CAUC_warden_speaker_effect = yes CAUC_imam_speaker_effect = yes if = { limit = { title:c_hayk = { var:CAUC_ani_sanctuary_choice = 1 } } title:c_hayk = { remove_county_modifier = CAUC_ani_church_restored remove_county_modifier = CAUC_ani_mosque_endowed remove_county_modifier = CAUC_ani_existing_use add_county_modifier = { modifier = CAUC_ani_church_restored years = 5 } } title:c_hayk = { set_variable = { name = CAUC_ani_sanctuary_choice value = 1 } } } if = { limit = { title:c_hayk = { var:CAUC_ani_sanctuary_choice = 2 } } title:c_hayk = { remove_county_modifier = CAUC_ani_church_restored remove_county_modifier = CAUC_ani_mosque_endowed remove_county_modifier = CAUC_ani_existing_use add_county_modifier = { modifier = CAUC_ani_mosque_endowed years = 5 } } title:c_hayk = { set_variable = { name = CAUC_ani_sanctuary_choice value = 2 } } } if = { limit = { title:c_hayk = { var:CAUC_ani_sanctuary_choice = 3 } } title:c_hayk = { remove_county_modifier = CAUC_ani_church_restored remove_county_modifier = CAUC_ani_mosque_endowed remove_county_modifier = CAUC_ani_existing_use add_county_modifier = { modifier = CAUC_ani_existing_use years = 5 } } title:c_hayk = { set_variable = { name = CAUC_ani_sanctuary_choice value = 3 } } } }
+ option = { name = CAUC.0122.a trigger = { gold >= 25 } remove_short_term_gold = 25 scope:CAUC_warden_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } scope:CAUC_imam_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } title:c_hayk = { change_county_control = 8 } remove_character_flag = CAUC_ani_sanctuary_active if = { limit = { scope:CAUC_warden_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_warden_speaker } if = { limit = { scope:CAUC_imam_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_imam_speaker } ai_chance = { base = 50 } }
+ option = { name = CAUC.0122.b add_courtier = scope:CAUC_warden_speaker add_courtier = scope:CAUC_imam_speaker remove_character_flag = CAUC_ani_sanctuary_active if = { limit = { scope:CAUC_warden_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_warden_speaker } if = { limit = { scope:CAUC_imam_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_imam_speaker } ai_chance = { base = 50 } }
 }
 
-CAUC.0131 = {
- type = character_event
- title = CAUC.0131.t
- desc = CAUC.0131.desc
- theme = stewardship
- left_portrait = { character = root }
+CAUC.0130 = { type = character_event title = CAUC.0130.t desc = CAUC.0130.desc theme = diplomacy
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_missionary_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_maghas  }
-option = { name = CAUC.0131.a trigger = { gold >= 20 } remove_short_term_gold = 20 title:c_maghas = { change_county_control = 6 } trigger_event = { id = CAUC.0132 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0131.b  title:c_maghas = { change_county_control = -4 } trigger_event = { id = CAUC.0132 days = 60 } ai_chance = { base = 50 } }
+ immediate = { CAUC_missionary_speaker_effect = yes CAUC_elder_speaker_effect = yes }
+ option = { name = CAUC.0130.a trigger = { gold >= 25 } remove_short_term_gold = 25 add_courtier = scope:CAUC_missionary_speaker scope:CAUC_missionary_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 30 years = 10 } } scope:CAUC_elder_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -20 years = 10 } } title:c_maghas = { set_variable = { name = CAUC_alan_mission_choice value = 1 } } trigger_event = { id = CAUC.0131 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0130.b add_courtier = scope:CAUC_missionary_speaker add_courtier = scope:CAUC_elder_speaker scope:CAUC_elder_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 20 years = 10 } } title:c_maghas = { set_variable = { name = CAUC_alan_mission_choice value = 2 } } trigger_event = { id = CAUC.0131 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0130.c add_courtier = scope:CAUC_elder_speaker spawn_army = { name = CAUC_alan_event_army men_at_arms = { type = light_horsemen stacks = 2 } location = root.capital_province inheritable = no war_keep_on_attacker_victory = yes } scope:CAUC_elder_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 30 years = 10 } } scope:CAUC_missionary_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -30 years = 10 } } title:c_maghas = { set_variable = { name = CAUC_alan_mission_choice value = 3 } } trigger_event = { id = CAUC.0131 days = 45 } ai_chance = { base = 50 } }
 }
 
-CAUC.0132 = {
- type = character_event
- title = CAUC.0132.t
- desc = CAUC.0132.desc
- theme = learning
- left_portrait = { character = root }
+CAUC.0131 = { type = character_event title = CAUC.0131.t desc = CAUC.0131.desc theme = diplomacy
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_elder_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_maghas  }
-option = { name = CAUC.0132.a trigger = { gold >= 15 } remove_short_term_gold = 15 add_learning_lifestyle_xp = 75 remove_character_flag = CAUC_alan_mission_active ai_chance = { base = 50 } }
-option = { name = CAUC.0132.b  add_prestige = 15 remove_character_flag = CAUC_alan_mission_active ai_chance = { base = 50 } }
+ immediate = { CAUC_elder_speaker_effect = yes CAUC_missionary_speaker_effect = yes }
+ option = { name = CAUC.0131.a trigger = { gold >= 20 } remove_short_term_gold = 20 scope:CAUC_elder_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } scope:CAUC_missionary_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 10 years = 10 } } title:c_maghas = { change_county_control = 8 } trigger_event = { id = CAUC.0132 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0131.b title:c_maghas = { set_variable = { name = CAUC_alan_mission_choice value = 2 } } scope:CAUC_elder_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 20 years = 10 } } scope:CAUC_missionary_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -20 years = 10 } } trigger_event = { id = CAUC.0132 days = 45 } ai_chance = { base = 50 } }
+ option = { name = CAUC.0131.c scope:CAUC_elder_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -25 years = 10 } } title:c_maghas = { change_county_control = -8 } trigger_event = { id = CAUC.0132 days = 45 } ai_chance = { base = 50 } }
+}
+
+CAUC.0132 = { type = character_event title = CAUC.0132.t desc = CAUC.0132.desc theme = diplomacy
+ left_portrait = { character = root } right_portrait = { character = scope:CAUC_missionary_speaker }
+ trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_maghas  }
+ immediate = { CAUC_missionary_speaker_effect = yes CAUC_elder_speaker_effect = yes if = { limit = { title:c_maghas = { var:CAUC_alan_mission_choice = 1 } } title:c_maghas = { remove_county_modifier = CAUC_alan_mission_supported remove_county_modifier = CAUC_alan_old_rites_protected remove_county_modifier = CAUC_alan_mission_dismissed add_county_modifier = { modifier = CAUC_alan_mission_supported years = 5 } } title:c_maghas = { set_variable = { name = CAUC_alan_mission_choice value = 1 } } } if = { limit = { title:c_maghas = { var:CAUC_alan_mission_choice = 2 } } title:c_maghas = { remove_county_modifier = CAUC_alan_mission_supported remove_county_modifier = CAUC_alan_old_rites_protected remove_county_modifier = CAUC_alan_mission_dismissed add_county_modifier = { modifier = CAUC_alan_old_rites_protected years = 5 } } title:c_maghas = { set_variable = { name = CAUC_alan_mission_choice value = 2 } } } if = { limit = { title:c_maghas = { var:CAUC_alan_mission_choice = 3 } } title:c_maghas = { remove_county_modifier = CAUC_alan_mission_supported remove_county_modifier = CAUC_alan_old_rites_protected remove_county_modifier = CAUC_alan_mission_dismissed add_county_modifier = { modifier = CAUC_alan_mission_dismissed years = 5 } } title:c_maghas = { set_variable = { name = CAUC_alan_mission_choice value = 3 } } } }
+ option = { name = CAUC.0132.a trigger = { NOT = { faith = faith:orthodox } } set_character_faith = faith:orthodox scope:CAUC_missionary_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 50 years = 10 } } scope:CAUC_elder_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -20 years = 10 } } remove_character_flag = CAUC_alan_mission_active if = { limit = { scope:CAUC_missionary_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_missionary_speaker } if = { limit = { scope:CAUC_elder_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_elder_speaker } ai_chance = { base = 50 } }
+ option = { name = CAUC.0132.b add_courtier = scope:CAUC_missionary_speaker add_learning_skill = 1 remove_character_flag = CAUC_alan_mission_active if = { limit = { scope:CAUC_missionary_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_missionary_speaker } if = { limit = { scope:CAUC_elder_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_elder_speaker } ai_chance = { base = 50 } }
+ option = { name = CAUC.0132.c add_courtier = scope:CAUC_elder_speaker add_martial_lifestyle_xp = 150 scope:CAUC_elder_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } remove_character_flag = CAUC_alan_mission_active if = { limit = { scope:CAUC_missionary_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_missionary_speaker } if = { limit = { scope:CAUC_elder_speaker = { NOT = { is_courtier_of = root } } } remove_courtier_or_guest = scope:CAUC_elder_speaker } ai_chance = { base = 50 } }
 }
 
 CAUC.0140 = {
@@ -146,12 +113,11 @@ CAUC.0140 = {
 
  right_portrait = { character = scope:CAUC_tondrakian_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_apahunik faith = { religion = religion:christianity_religion } }
- immediate = { CAUC_tondrakian_recover_speaker_effect = yes  }
+ immediate = { CAUC_tondrakian_recover_speaker_effect = yes CAUC_tondrakian_witness_effect = yes }
 option = { name = CAUC.0140.a  title:c_apahunik = { set_variable = { name = CAUC_tondrakian_inquiry_choice value = 1 } } add_piety = -25 trigger_event = { id = CAUC.0141 days = 30 } ai_chance = { base = 50 } }
 option = { name = CAUC.0140.b  title:c_apahunik = { set_variable = { name = CAUC_tondrakian_inquiry_choice value = 2 } } add_piety = 25 trigger_event = { id = CAUC.0141 days = 30 } ai_chance = { base = 50 } }
 option = { name = CAUC.0140.c trigger = { gold >= 20 } title:c_apahunik = { set_variable = { name = CAUC_tondrakian_inquiry_choice value = 3 } } remove_short_term_gold = 20 add_learning_lifestyle_xp = 50 trigger_event = { id = CAUC.0141 days = 30 } ai_chance = { base = 50 } }
 }
-
 CAUC.0141 = {
  type = character_event
  title = CAUC.0141.t
@@ -159,13 +125,12 @@ CAUC.0141 = {
  theme = learning
  left_portrait = { character = root }
 
- right_portrait = { character = scope:CAUC_tondrakian_speaker }
+ right_portrait = { character = scope:CAUC_representative_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_apahunik faith = { religion = religion:christianity_religion } }
- immediate = { CAUC_tondrakian_recover_speaker_effect = yes  }
-option = { name = CAUC.0141.a  add_learning_lifestyle_xp = 75 add_piety = -25 title:c_apahunik = { set_variable = { name = CAUC_tondrakian_equal_hearing value = 1 } } trigger_event = { id = CAUC.0142 days = 60 } ai_chance = { base = 50 } }
+ immediate = { CAUC_tondrakian_recover_speaker_effect = yes CAUC_tondrakian_witness_effect = yes }
+option = { name = CAUC.0141.a  add_courtier = scope:CAUC_representative_speaker scope:CAUC_representative_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 35 years = 10 } } add_learning_lifestyle_xp = 75 add_piety = -25 title:c_apahunik = { set_variable = { name = CAUC_tondrakian_equal_hearing value = 1 } } trigger_event = { id = CAUC.0142 days = 60 } ai_chance = { base = 50 } }
 option = { name = CAUC.0141.b  add_piety = 25 title:c_apahunik = { set_variable = { name = CAUC_tondrakian_equal_hearing value = 0 } } trigger_event = { id = CAUC.0142 days = 60 } ai_chance = { base = 50 } }
 }
-
 CAUC.0142 = {
  type = character_event
  title = CAUC.0142.t
@@ -175,12 +140,11 @@ CAUC.0142 = {
 
  right_portrait = { character = scope:CAUC_tondrakian_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_apahunik faith = { religion = religion:christianity_religion } }
- immediate = { CAUC_tondrakian_recover_speaker_effect = yes  }
-option = { name = CAUC.0142.a trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_apahunik = { change_county_control = 5 } trigger_event = { id = CAUC.0143 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0142.b trigger = { gold >= 10 } remove_short_term_gold = 10 add_prestige = -15 trigger_event = { id = CAUC.0143 days = 60 } ai_chance = { base = 50 } }
+ immediate = { CAUC_tondrakian_recover_speaker_effect = yes CAUC_tondrakian_witness_effect = yes }
+option = { name = CAUC.0142.a trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_apahunik = { change_county_control = 5 set_variable = { name = CAUC_tondrakian_land_survey value = 1 } } trigger_event = { id = CAUC.0143 days = 60 } ai_chance = { base = 50 } }
+option = { name = CAUC.0142.b trigger = { gold >= 10 } remove_short_term_gold = 10 scope:CAUC_representative_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } trigger_event = { id = CAUC.0143 days = 60 } ai_chance = { base = 50 } }
 option = { name = CAUC.0142.c  title:c_apahunik = { change_county_control = -4 } trigger_event = { id = CAUC.0143 days = 60 } ai_chance = { base = 50 } }
 }
-
 CAUC.0143 = {
  type = character_event
  title = CAUC.0143.t
@@ -190,12 +154,11 @@ CAUC.0143 = {
 
  right_portrait = { character = scope:CAUC_tondrakian_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_apahunik faith = { religion = religion:christianity_religion } }
- immediate = { CAUC_tondrakian_recover_speaker_effect = yes  }
-option = { name = CAUC.0143.a  title:c_apahunik = { remove_county_modifier = CAUC_tondrakian_refuge remove_county_modifier = CAUC_tondrakian_suppressed remove_county_modifier = CAUC_tondrakian_assembly }title:c_apahunik = { add_county_modifier = { modifier = CAUC_tondrakian_refuge years = 5 } }title:c_apahunik = { set_variable = { name = CAUC_tondrakian_inquiry_choice value = 4 } } add_piety = -100 trigger_event = { id = CAUC.0144 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0143.b  title:c_apahunik = { remove_county_modifier = CAUC_tondrakian_refuge remove_county_modifier = CAUC_tondrakian_suppressed remove_county_modifier = CAUC_tondrakian_assembly }title:c_apahunik = { add_county_modifier = { modifier = CAUC_tondrakian_suppressed years = 5 } }title:c_apahunik = { set_variable = { name = CAUC_tondrakian_inquiry_choice value = 5 } } add_piety = 100 title:c_apahunik = { change_county_control = -8 } trigger_event = { id = CAUC.0144 days = 60 } ai_chance = { base = 50 } }
-option = { name = CAUC.0143.c trigger = { faith = faith:armenian_apostolic piety >= 500 } add_piety = -500 set_character_rite = rite:CAUC_tondrakian_rite title:c_apahunik = { set_county_rite = rite:CAUC_tondrakian_rite } title:c_apahunik = { remove_county_modifier = CAUC_tondrakian_refuge remove_county_modifier = CAUC_tondrakian_suppressed remove_county_modifier = CAUC_tondrakian_assembly }title:c_apahunik = { add_county_modifier = { modifier = CAUC_tondrakian_assembly years = 5 } }title:c_apahunik = { set_variable = { name = CAUC_tondrakian_inquiry_choice value = 6 } } trigger_event = { id = CAUC.0144 days = 60 } ai_chance = { base = 50 } }
+ immediate = { CAUC_tondrakian_recover_speaker_effect = yes CAUC_tondrakian_witness_effect = yes }
+option = { name = CAUC.0143.a  title:c_apahunik = { remove_county_modifier = CAUC_tondrakian_refuge remove_county_modifier = CAUC_tondrakian_suppressed remove_county_modifier = CAUC_tondrakian_assembly }title:c_apahunik = { add_county_modifier = { modifier = CAUC_tondrakian_refuge years = 5 } }title:c_apahunik = { set_variable = { name = CAUC_tondrakian_inquiry_choice value = 4 } } add_courtier = scope:CAUC_tondrakian_speaker scope:CAUC_tondrakian_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 35 years = 10 } } add_piety = -100 trigger_event = { id = CAUC.0144 days = 60 } ai_chance = { base = 50 } }
+option = { name = CAUC.0143.b  title:c_apahunik = { remove_county_modifier = CAUC_tondrakian_refuge remove_county_modifier = CAUC_tondrakian_suppressed remove_county_modifier = CAUC_tondrakian_assembly }title:c_apahunik = { add_county_modifier = { modifier = CAUC_tondrakian_suppressed years = 5 } }title:c_apahunik = { set_variable = { name = CAUC_tondrakian_inquiry_choice value = 5 } } imprison = { target = scope:CAUC_tondrakian_speaker type = dungeon } scope:CAUC_representative_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = -50 years = 10 } } add_piety = 100 title:c_apahunik = { change_county_control = -8 } trigger_event = { id = CAUC.0144 days = 60 } ai_chance = { base = 50 } }
+option = { name = CAUC.0143.c trigger = { faith = faith:armenian_apostolic piety >= 500 } add_courtier = scope:CAUC_tondrakian_speaker add_courtier = scope:CAUC_representative_speaker add_piety = -500 set_character_rite = rite:CAUC_tondrakian_rite title:c_apahunik = { set_county_rite = rite:CAUC_tondrakian_rite } title:c_apahunik = { remove_county_modifier = CAUC_tondrakian_refuge remove_county_modifier = CAUC_tondrakian_suppressed remove_county_modifier = CAUC_tondrakian_assembly }title:c_apahunik = { add_county_modifier = { modifier = CAUC_tondrakian_assembly years = 5 } }title:c_apahunik = { set_variable = { name = CAUC_tondrakian_inquiry_choice value = 6 } } trigger_event = { id = CAUC.0144 days = 60 } ai_chance = { base = 50 } }
 }
-
 CAUC.0144 = {
  type = character_event
  title = CAUC.0144.t
@@ -205,8 +168,26 @@ CAUC.0144 = {
 
  right_portrait = { character = scope:CAUC_tondrakian_speaker }
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_apahunik faith = { religion = religion:christianity_religion } }
- immediate = { CAUC_tondrakian_recover_speaker_effect = yes  }
+ immediate = { CAUC_tondrakian_recover_speaker_effect = yes CAUC_tondrakian_witness_effect = yes }
 option = { name = CAUC.0144.a trigger = { exists = rite:CAUC_tondrakian_rite rite = rite:CAUC_tondrakian_rite title:c_apahunik = { var:CAUC_tondrakian_inquiry_choice = 6 } } add_learning_lifestyle_xp = 100 remove_character_flag = CAUC_tondrakian_inquiry_active ai_chance = { base = 50 } }
-option = { name = CAUC.0144.b trigger = { gold >= 15 } remove_short_term_gold = 15 add_learning_lifestyle_xp = 75 remove_character_flag = CAUC_tondrakian_inquiry_active ai_chance = { base = 50 } }
+option = { name = CAUC.0144.b trigger = { gold >= 15 NOT = { title:c_apahunik = { var:CAUC_tondrakian_inquiry_choice = 5 } } } remove_short_term_gold = 15 create_artifact = { name = CAUC_tondrakian_book description = CAUC_tondrakian_book_desc type = book visuals = book template = general_unique_template wealth = 25 quality = 25 modifier = CAUC_scholarly_book_modifier creator = scope:CAUC_representative_speaker } remove_character_flag = CAUC_tondrakian_inquiry_active ai_chance = { base = 50 } }
 option = { name = CAUC.0144.c  add_prestige = 15 remove_character_flag = CAUC_tondrakian_inquiry_active ai_chance = { base = 50 } }
+}
+CAUC.0149 = { hidden = yes trigger = { NOT = { has_global_variable = CAUC_tondrakian_outbreak_announced } } immediate = {
+ set_global_variable = { name = CAUC_tondrakian_outbreak_announced value = yes }
+ CAUC_tondrakian_prepare_inquiry_effect = yes
+ if = { limit = { game_start_date = 867.1.1 }
+  every_player = { trigger_event = { id = CAUC.0150 days = 1 } }
+  if = { limit = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_apahunik faith = { religion = religion:christianity_religion } NOT = { has_character_flag = CAUC_tondrakian_inquiry_active } }
+   add_character_flag = { flag = CAUC_tondrakian_inquiry_active years = 1 }
+   trigger_event = { id = CAUC.0140 days = 14 }
+  }
+ } }
+}
+CAUC.0150 = { type = character_event title = CAUC.0150.t desc = CAUC.0150.desc theme = learning
+ right_portrait = { character = scope:CAUC_tondrakian_speaker }
+ trigger = { exists = global_var:CAUC_tondrakian_founder }
+ immediate = { global_var:CAUC_tondrakian_founder = { save_scope_as = CAUC_tondrakian_speaker } }
+ option = { name = CAUC.0150.a }
+ option = { name = CAUC.0150.b trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no faith = faith:armenian_apostolic piety >= 500 capital_province = { geographical_region = CAUC_transcaucasia_region } } add_piety = -500 set_character_rite = rite:CAUC_tondrakian_rite }
 }

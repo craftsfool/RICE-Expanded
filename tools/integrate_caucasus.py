@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Embed authored Caucasus content in RICE; build complete compatibility presets."""
-import argparse,json,os,shutil,sys,zipfile
+"""Embed authored Caucasus content in RICE; build one self-contained optional-mod package."""
+import argparse,json,os,shutil,sys,zipfile,subprocess,tempfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 SOURCE=ROOT/'authoring/caucasus_flavor_pack'
@@ -8,8 +8,8 @@ sys.path.insert(0,str(SOURCE/'tools'))
 from ck3_script import entries,registry,canonical,write
 from import_ce import localization,CULTURES
 VISUALS={'ethnicities','coa_gfx','building_gfx','clothing_gfx','unit_gfx','house_coa_frame','house_coa_mask_offset','house_coa_mask_scale'}
-PROFILE_DEPS={'base':[],'epe':['Ethnicities and Portraits Expanded'],'ce-epe':['Ethnicities and Portraits Expanded','Culture Expanded']}
-VERSION='1.20.0-beta-1-expanded.3.2-caucasus-alpha'
+PROFILE_DEPS={'unified':[]}
+VERSION='1.20.0-beta-1-expanded.3.3-unified-caucasus-alpha'
 
 def replace_record(text,key,raw):
  for k,b,a,z in entries(text):
@@ -19,20 +19,22 @@ def replace_record(text,key,raw):
 def main():
  ap=argparse.ArgumentParser()
  ap.add_argument('--game',type=Path,required=True)
+ ap.add_argument('--ce',type=Path,help='Installed CE source snapshot for authoring; not a runtime dependency.')
  ap.add_argument('--embed',action='store_true')
  ap.add_argument('--profile',choices=list(PROFILE_DEPS))
  ap.add_argument('--output',type=Path,default=ROOT.parent/'caucasus-built-in')
  ap.add_argument('--zip',action='store_true')
  a=ap.parse_args()
  if a.embed:
+  if not a.ce:raise SystemExit('--embed requires --ce as an authoring source; the resulting mod does not require CE.')
   for folder in ['common','events','map_data','localization','gfx']:
    for p in (SOURCE/folder).rglob('*'):
     if p.is_file():
      q=ROOT/'RICE'/p.relative_to(SOURCE);q.parent.mkdir(parents=True,exist_ok=True)
      if q.exists():q.unlink()
      shutil.copy2(p,q)
-  # Preserve CE gameplay. Use installed vanilla appearance until the EPE preset
-  # replaces these fields with the exact source CE definitions.
+  # Preserve CE gameplay. Use installed vanilla appearance; optional EPE replaces its native asset
+  # database without creating a hard dependency.
   original=registry([SOURCE],'common/culture/cultures');vanilla=registry([a.game],'common/culture/cultures')
   donors={'circassian':'georgian','udi':'armenian','dagestani':'georgian','abkhaz':'georgian','lazi':'georgian','ce_svan':'georgian','tat':'daylamite','alan':'alan'}
   converted={}
@@ -66,34 +68,32 @@ def main():
    fallbacks[lang]=missing
   (ROOT/'reports/caucasus-localization-fallbacks.json').write_text(json.dumps({'translation_status':'Caucasus text complete in English, Simplified Chinese and French; other languages retain explicit English fallbacks and native vanilla terms.','completed_languages':['english','simp_chinese','french'],'languages':fallbacks},ensure_ascii=False,indent=2)+'\n')
   manifest=json.loads((SOURCE/'research/ce-import-manifest.json').read_text())
-  manifest['integration']='Built into RICE Expanded. Base uses vanilla visual fallbacks; EPE and CE+EPE install presets embed compatibility and exact CE appearance definitions.'
+  manifest['integration']='Built into RICE Expanded. One self-contained directory uses vanilla appearance fallbacks with optional CE/EPE integration.'
   for name in ['ce-import-manifest.json','authored-content.json','vanilla-terminology.json','art-validation.json','religious-content.json','tondrakian-tenet-validation.json','tondrakian-art-validation.json','tondrakian-founder-sources.json']:
    target=ROOT/'reports'/('caucasus-'+name)
    if name=='ce-import-manifest.json':target.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
    else:shutil.copy2(SOURCE/'research'/name,target)
   for p in [ROOT/'RICE/descriptor.mod',ROOT/'RICE.mod']:
    s=p.read_text();import re;s=re.sub(r'version="[^"]+"','version="'+VERSION+'"',s,count=1);write(p,s,False)
-  print('Embedded Caucasus scripts, localization, vanilla visual fallbacks and artwork in RICE.')
+  with tempfile.TemporaryDirectory(prefix='rice-unified-') as staging:
+   built=Path(staging)/'RICE'
+   subprocess.run([sys.executable,str(ROOT/'tools/build_unified_compat.py'),'--game',str(a.game),'--ce',str(a.ce),'--rice-source',str(ROOT/'RICE'),'--output',str(built)],check=True)
+   for p in built.rglob('*'):
+    if p.is_file():
+     q=ROOT/'RICE'/p.relative_to(built)
+     if q.exists() and q.read_bytes()==p.read_bytes():continue
+     q.parent.mkdir(parents=True,exist_ok=True)
+     if q.exists():q.unlink()
+     shutil.copy2(p,q)
+  print('Embedded self-contained Caucasus gameplay and unified optional-mod compatibility in RICE.')
  if a.profile:
   target=a.output/a.profile;mod=target/'RICE'
   if mod.exists():raise SystemExit('Output already exists; choose a fresh output directory.')
-  # Hard-linked unchanged assets keep three build trees small. Overwrites unlink
+  # Hard-linked unchanged assets keep the complete package staging tree small. Overwrites unlink
   # their destinations first and never mutate shared source files.
   shutil.copytree(ROOT/'RICE',mod,copy_function=os.link,ignore=shutil.ignore_patterns('.DS_Store','__pycache__'))
-  layers=[]
-  if a.profile!='base':layers=[ROOT/'RICE-EPE-Compatch']
-  if a.profile=='ce-epe':layers.append(ROOT/'RICE+CE Compatch for 1.19')
-  if a.profile!='base':layers.append(SOURCE)
-  if a.profile=='ce-epe':layers.append(ROOT/'authoring/caucasus_flavor_pack_ce_compat')
-  for layer in layers:
-   for folder in ['common','events','map_data','localization','gfx']:
-    for p in (layer/folder).rglob('*'):
-     if p.is_file():
-      q=mod/p.relative_to(layer);q.parent.mkdir(parents=True,exist_ok=True)
-      if q.exists():q.unlink()
-      shutil.copy2(p,q)
+  layers=[]  # One self-contained tree; optional mods never select another overlay.
   d=(ROOT/'RICE/descriptor.mod').read_text()
-  d+='dependencies={ '+' '.join('"'+x+'"' for x in PROFILE_DEPS[a.profile])+' }\n'
   (mod/'descriptor.mod').unlink();write(mod/'descriptor.mod',d,False)
   write(target/'RICE.mod',d+'path="mod/RICE"\n',False)
   for filename in ['CAUCASUS-Expanded.md','CHANGELOG-Expanded.md']:

@@ -1,0 +1,116 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+crimean_gothic = {
+
+	color = { 0.625 0.43 0.625 }
+
+	created = 500.1.1 
+	parents = { gothic }
+	
+	history_loc_override = crimean_gothic_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_east_germanic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_loyal_soldiers
+		tradition_hit_and_run
+	}
+	
+	name_list = name_list_crimean_gothic
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_16
+	
+	
+	
+	ethnicities = { # Copied from Norse
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+
+}
+
+syriac = {
+
+	color = { 167 97 28 }
+	created = 300.1.1
+	parents = { roman } #+Aramean
+	
+	history_loc_override = syriac_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_poetry
+		tradition_dryland_dwellers
+		tradition_loyal_soldiers
+		tradition_city_keepers
+
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx } 
+	house_coa_frame = house_frame_22
+	house_coa_mask_offset = { 0.0 0.11 }
+	house_coa_mask_scale = { 0.85 0.85 }
+
+	ethnicities = {
+		100 = mediterranean
+	}
+
+}
+
+mandaic = {
+
+	color = assyrian
+	created = 100.1.1
+	parents = { syriac }
+	
+	history_loc_override = mandaic_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_faith_bound
+		tradition_staunch_traditionalists
+
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+	house_coa_frame = house_frame_15
+	house_coa_mask_offset = { 0.0 -0.03 }
+	house_coa_mask_scale = { 0.95 0.95 }	
+
+	ethnicities = {
+		100 = arab
+	}
+
+}

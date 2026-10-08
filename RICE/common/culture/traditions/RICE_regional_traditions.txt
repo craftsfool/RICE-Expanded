@@ -1,10 +1,115 @@
-﻿#######################
-# CULTURAL TRADITIONS #
-#######################
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
 
-######################
-# MAA Traditions 	 #
-######################
+
+
+tradition_african_agriculture = {
+	category = regional
+
+	layers = {
+		0 = steward
+		1 = mena
+		4 = RICE_peasant_farmers.dds
+	}
+
+	is_shown = {
+		# OR = {
+		# 	this = culture:african_roman
+		# 	any_parent_culture_or_above = {
+		# 		this = culture:african_roman
+		# 	}
+		# }
+		has_cultural_pillar = heritage_berber
+	}
+
+
+	can_pick = {
+		NOT = { has_cultural_tradition = tradition_dryland_dwellers }
+		has_cultural_pillar = heritage_berber
+		custom_description = {
+			text = culture_in_dryland_desc
+			any_culture_county = {
+				any_county_province = {
+					terrain = drylands
+				}
+			}
+		}
+	}
+
+	parameters = {
+		plantations_building_bonuses = yes
+		unlock_tfe_cheaper_qanats = yes
+	}
+	character_modifier = {
+		drylands_travel_danger = drylands_medium_danger_reduction
+	}
+	county_modifier = {
+		drylands_development_growth_factor = 0.15
+	}
+	province_modifier = {
+		drylands_tax_mult = 0.2
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = culture_not_bellicose
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						any_culture_county = {
+							percent >= 0.3
+							any_county_province = {
+								terrain = drylands
+								terrain = desert
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = dry_percentage_desc
+				}
+			}
+
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.2
+							culture = scope:character.culture
+							any_county_province = {
+								OR = {
+									terrain = drylands
+									terrain = desert
+								}
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+	}
+}
 
 tradition_RICE_siberian_survivalists = {
 	category = regional
@@ -14,7 +119,7 @@ tradition_RICE_siberian_survivalists = {
 		1 = mena
 		4 = forest.dds
 	}
-	
+
 	is_shown = {
 		OR = {
 			has_cultural_pillar = heritage_siberian
@@ -27,7 +132,7 @@ tradition_RICE_siberian_survivalists = {
 			has_cultural_pillar = heritage_ugro_permian
 		}
 	}
-	
+
 	parameters = {
 		unlock_RICE_siberian_hunters = yes
 		winter_soldier_trait_more_common = yes
@@ -38,7 +143,7 @@ tradition_RICE_siberian_survivalists = {
 	character_modifier = {
 		health = 0.25
 		taiga_travel_danger = taiga_low_danger_reduction
-	}	
+	}
 
 	cost = {
 		prestige = {
@@ -47,14 +152,13 @@ tradition_RICE_siberian_survivalists = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = { value = 100 }
 }
-
 
 tradition_RICE_swahili_contacts = {
 	category = regional
@@ -64,14 +168,14 @@ tradition_RICE_swahili_contacts = {
 		1 = mena
 		4 = ship.dds
 	}
-	
+
 	is_shown = {
 		has_cultural_pillar = heritage_bantu
 	}
 	can_pick = {
 		has_cultural_pillar = heritage_bantu
 	}
-	
+
 	parameters = {
 		unlock_RICE_swahili_sailors = yes
 		wanderers_gain_extra_economic_skills = yes
@@ -83,7 +187,7 @@ tradition_RICE_swahili_contacts = {
 		diplomacy = 1
 		diplomatic_range_mult = 0.1
 		sea_travel_danger = low_sea_danger_reduction
-	}	
+	}
 
 	cost = {
 		prestige = {
@@ -92,17 +196,13 @@ tradition_RICE_swahili_contacts = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = { value = 100 }
 }
-
-######################
-# Regional Traditions #
-######################
 
 tradition_RICE_ubiquity_of_poetry = {
 	category = regional
@@ -112,7 +212,7 @@ tradition_RICE_ubiquity_of_poetry = {
 		1 = mena
 		4 = RICE_socotra.dds #speech.dds
 	}
-	
+
 	is_shown = {
 		any_culture_county = {
 			title_province = {
@@ -133,7 +233,7 @@ tradition_RICE_ubiquity_of_poetry = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		poet_trait_more_common = yes
 		unlock_RICE_decision_poetry_contest = yes
@@ -147,7 +247,7 @@ tradition_RICE_ubiquity_of_poetry = {
 	character_modifier = {
 		#different_culture_opinion = 10
 		#different_faith_opinion = 10
-		owned_personal_scheme_success_chance_add = 5	
+		owned_personal_scheme_success_chance_add = 5
 		owned_legend_spread_mult = 0.05
 	}
 
@@ -198,13 +298,12 @@ tradition_RICE_ubiquity_of_poetry = {
 					desc = rulers_with_poet_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	ai_will_do = { value = 50 }
 }
-
 
 tradition_RICE_xianbei_scions = {
 	category = regional
@@ -214,7 +313,7 @@ tradition_RICE_xianbei_scions = {
 		1 = asian
 		4 = crown.dds
 	}
-	
+
 	is_shown = {
 		OR = {
 			this = culture:tuyuhun
@@ -239,7 +338,7 @@ tradition_RICE_xianbei_scions = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		unlock_rice_decision_nadun_festival = yes
 		unlock_rice_decision_restore_tuyuhun_kingdom = yes
@@ -249,7 +348,7 @@ tradition_RICE_xianbei_scions = {
 
 	character_modifier = {
 		different_culture_opinion = 10
-	}	
+	}
 
 	cost = {
 		prestige = {
@@ -270,15 +369,12 @@ tradition_RICE_xianbei_scions = {
 					desc = not_courtly_communal_or_spiritual_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	ai_will_do = { value = 50 }
 }
-
-
-
 
 tradition_RICE_white_huns = {
 	category = regional
@@ -288,7 +384,7 @@ tradition_RICE_white_huns = {
 		1 = mena
 		4 = soldiers2.dds
 	}
-	
+
 	is_shown = {
 		NOT = { has_global_variable = RICE_game_started_on_TFE_start_date }
 		OR = {
@@ -298,7 +394,7 @@ tradition_RICE_white_huns = {
 			}
 			scope:character = {
 				# Zunbils were Hephthalite remnants
-				religion = religion:zunism_religion	
+				religion = religion:zunism_religion
 			}
 		}
 	}
@@ -310,22 +406,22 @@ tradition_RICE_white_huns = {
 			}
 			scope:character = {
 				# Zunbils were Hephthalite remnants
-				religion = religion:zunism_religion	
+				religion = religion:zunism_religion
 			}
 		}
 	}
-	
+
 	parameters = {
 		unlock_rice_decision_hephthalite_empire = yes
 		culture_can_raid_over_land_even_if_feudal = yes
-		republican_vassals_pay_more = yes		
+		republican_vassals_pay_more = yes
 		unlock_RICE_pamir_tribesmen = yes
 	}
 
 	character_modifier = {
 		tribal_government_vassal_opinion = 5
 		monthly_county_control_decline_factor = -0.25
-	}	
+	}
 
 	cost = {
 		prestige = {
@@ -347,15 +443,12 @@ tradition_RICE_white_huns = {
 					desc = not_bellicose_stoic_or_communal_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	ai_will_do = { value = 50 }
 }
-
-
-
 
 tradition_RICE_children_of_the_nile = {
 	category = regional
@@ -365,7 +458,7 @@ tradition_RICE_children_of_the_nile = {
 		1 = mediterranean
 		4 = RICE_nile.dds
 	}
-	
+
 	is_shown = {
 		any_culture_county = {
 			#count >= 4
@@ -385,7 +478,7 @@ tradition_RICE_children_of_the_nile = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		unlock_rice_decision_nile_flood_results = yes
 		unlock_rice_decision_build_nilometers = yes
@@ -420,14 +513,12 @@ tradition_RICE_children_of_the_nile = {
 					desc = not_bureaucratic_spiritual_or_communal_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 	ai_will_do = { value = 100 }
 }
-
-
 
 tradition_RICE_silk_road = {
 	category = regional
@@ -437,7 +528,7 @@ tradition_RICE_silk_road = {
 		1 = mena
 		4 = RICE_silk.dds
 	}
-	
+
 	is_shown = {
 		any_culture_county = {
 			title_province = {
@@ -453,7 +544,7 @@ tradition_RICE_silk_road = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		city_buildings_more_powerful = yes
 		unlock_rice_silk_road_dynasty_legacy = yes
@@ -470,7 +561,7 @@ tradition_RICE_silk_road = {
 		different_faith_opinion = 5
 		character_travel_speed_mult = 0.05
 		character_travel_safety_mult = 0.05
-	}	
+	}
 
 	cost = {
 		prestige = {
@@ -479,17 +570,13 @@ tradition_RICE_silk_road = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = { value = 100 }
 }
-
-
-
-
 
 tradition_RICE_beyond_the_reach_of_eagles = {
 	category = regional
@@ -499,7 +586,7 @@ tradition_RICE_beyond_the_reach_of_eagles = {
 		1 = mena
 		4 = RICE_beyond_the_reach_of_eagles.dds
 	}
-	
+
 	is_shown = {
 		any_culture_county = {
 			title_province = {
@@ -515,7 +602,7 @@ tradition_RICE_beyond_the_reach_of_eagles = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		unlimited_chinir_festival = yes
 		cheaper_pamir_watchtower_decision = yes
@@ -529,11 +616,11 @@ tradition_RICE_beyond_the_reach_of_eagles = {
 	character_modifier = {
 		monthly_county_control_decline_factor = -0.2
 		vassal_opinion = -5
-		defender_advantage = 2	
+		defender_advantage = 2
 		mountains_travel_danger = mountains_low_danger_reduction
-		desert_mountains_travel_danger = desert_mountains_low_danger_reduction	
+		desert_mountains_travel_danger = desert_mountains_low_danger_reduction
 		ai_honor = 10
-	}	
+	}
 
 	cost = {
 		prestige = {
@@ -542,17 +629,13 @@ tradition_RICE_beyond_the_reach_of_eagles = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
 
 	ai_will_do = { value = 25 }
 }
-
-
-
-
 
 tradition_RICE_galician_portuguese_poetry = {
 	category = regional
@@ -592,7 +675,7 @@ tradition_RICE_galician_portuguese_poetry = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		characters_are_better_court_poets = yes
 		unlock_cantiga_decisions = yes
@@ -603,8 +686,8 @@ tradition_RICE_galician_portuguese_poetry = {
 	character_modifier = {
 		diplomacy_per_piety_level = 1
 		monthly_learning_lifestyle_xp_gain_mult = 0.05
-	}	
-	
+	}
+
 	cost = {
 		prestige = {
 			add = {
@@ -624,11 +707,11 @@ tradition_RICE_galician_portuguese_poetry = {
 					desc = not_spiritual_or_courtly_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 100
 		if = {
@@ -639,10 +722,6 @@ tradition_RICE_galician_portuguese_poetry = {
 		}
 	}
 }
-
-
-
-
 
 tradition_RICE_kala_settlements = {
 	category = regional
@@ -668,22 +747,22 @@ tradition_RICE_kala_settlements = {
 			has_cultural_pillar = heritage_turkic
 		}
 	}
-	
+
 	parameters = {
 		unlock_rice_kala_decision = yes
 	}
 
 	character_modifier = {
 		defender_advantage = 4
-	}	
+	}
 
 	county_modifier = {
 		castle_holding_build_speed = -0.2
 		castle_holding_build_gold_cost = -0.2
 		castle_holding_holding_build_gold_cost = -0.2
-		castle_holding_holding_build_speed = -0.2		
+		castle_holding_holding_build_speed = -0.2
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -691,7 +770,7 @@ tradition_RICE_kala_settlements = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -705,11 +784,11 @@ tradition_RICE_kala_settlements = {
 					desc = not_courtly_communal_or_stoic_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 50
 	}
@@ -741,7 +820,7 @@ tradition_RICE_akhtarvenik = {
 			}
 		}
 	}
-	
+
 	#parameters = {
 
 	#}
@@ -753,15 +832,15 @@ tradition_RICE_akhtarvenik = {
 		monthly_stewardship_lifestyle_xp_gain_mult = 0.05
 		monthly_learning_lifestyle_xp_gain_mult = 0.05
 		character_travel_speed_mult = 0.05
-	}	
+	}
 
 	# county_modifier = {
 	# 	castle_holding_build_speed = -0.2
 	# 	castle_holding_build_gold_cost = -0.2
 	# 	castle_holding_holding_build_gold_cost = -0.2
-	# 	castle_holding_holding_build_speed = -0.2		
+	# 	castle_holding_holding_build_speed = -0.2
 	# }
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -769,7 +848,7 @@ tradition_RICE_akhtarvenik = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -783,11 +862,11 @@ tradition_RICE_akhtarvenik = {
 					desc = not_bureaucratic_spiritual_or_communal_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 50
 	}
@@ -803,11 +882,11 @@ tradition_RICE_khuzi = {
 	}
 
 	is_shown = {
-		NOT = {	
+		NOT = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions
 				target = flag:RICE_khuzestan_khuzi_dignity_restored
-			}		
+			}
 		}
 		OR = {
 			this = culture:elamite
@@ -825,7 +904,7 @@ tradition_RICE_khuzi = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		khuzi_mechanic_1 = yes
 		khuzi_mechanic_2 = yes
@@ -837,11 +916,11 @@ tradition_RICE_khuzi = {
 		learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 		#vassal_opinion = -10
 		#domain_limit = -1
-	}	
+	}
 
 	# county_modifier = {
 	# }
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -849,7 +928,7 @@ tradition_RICE_khuzi = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -862,11 +941,11 @@ tradition_RICE_khuzi = {
 					desc = not_stoic_or_communal_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 0
 	}
@@ -903,7 +982,7 @@ tradition_RICE_khuzi_elevated_elymaean = {
 			}
 		}
 	}
-	
+
 	#parameters = {
 
 	#}
@@ -916,12 +995,12 @@ tradition_RICE_khuzi_elevated_elymaean = {
 		archers_toughness_mult = 0.05
 		archer_cavalry_damage_mult = 0.1
 		archer_cavalry_toughness_mult = 0.05
-	}	
+	}
 
 	county_modifier = {
 		defender_holding_advantage = 3
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -943,11 +1022,11 @@ tradition_RICE_khuzi_elevated_elymaean = {
 					desc = not_bellicose_stoic_or_communal_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 100
 	}
@@ -984,7 +1063,7 @@ tradition_RICE_khuzi_elevated_community = {
 			}
 		}
 	}
-	
+
 	#parameters = {
 
 	#}
@@ -995,11 +1074,11 @@ tradition_RICE_khuzi_elevated_community = {
 		learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 		county_opinion_add = 5
 		courtier_and_guest_opinion = 5
-	}	
+	}
 
 	# county_modifier = {
 	# }
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -1021,11 +1100,11 @@ tradition_RICE_khuzi_elevated_community = {
 					desc = not_courtly_communal_or_stoic_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 100
 	}
@@ -1062,7 +1141,7 @@ tradition_RICE_khuzi_elevated_traders = {
 			}
 		}
 	}
-	
+
 	#parameters = {
 
 	#}
@@ -1074,11 +1153,11 @@ tradition_RICE_khuzi_elevated_traders = {
 		#diplomatic_range_mult = 0.1
 		domain_tax_mult = 0.1
 		character_travel_speed_mult = 0.1
-	}	
+	}
 
 	# county_modifier = {
 	# }
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -1100,18 +1179,15 @@ tradition_RICE_khuzi_elevated_traders = {
 					desc = not_courtly_communal_or_stoic_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 100
 	}
 }
-
-
-
 
 tradition_RICE_northmen = {
 	category = regional
@@ -1130,7 +1206,7 @@ tradition_RICE_northmen = {
 			}
 		}
 		# No longer available after Historia Normannorum is done
-		NOT = { 
+		NOT = {
 			has_global_variable = RICE_normandy_historia_normannorum_done
 		}
 		# GLOBAL VARIABLE TO REMOVE
@@ -1146,7 +1222,7 @@ tradition_RICE_northmen = {
 		# GLOBAL VARIABLE TO REMOVE
 	}
 
-	
+
 	partners = {
 		# Concubinage
 		number_of_spouses = 1
@@ -1170,12 +1246,12 @@ tradition_RICE_northmen = {
 		liege_opinion = -10
 		#rf_abrahamic_opinion = -10
 		#rf_pagan_opinion = -10
-	}	
+	}
 
-	county_modifier = {	
+	county_modifier = {
 		monthly_county_control_decline_factor = -0.2
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -1183,7 +1259,7 @@ tradition_RICE_northmen = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -1197,17 +1273,15 @@ tradition_RICE_northmen = {
 					desc = not_bellicose_stoic_or_courtly_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 100
 	}
 }
-
-
 
 tradition_RICE_adventurers_and_aristocrats = {
 	category = regional
@@ -1249,7 +1323,7 @@ tradition_RICE_adventurers_and_aristocrats = {
 	culture_modifier = {
 		cultural_acceptance_gain_mult = 0.15
 	}
-	
+
 	parameters = {
 		rice_norman_adventurers = yes
 		culture_can_raid_at_sea_even_if_feudal = yes
@@ -1266,11 +1340,11 @@ tradition_RICE_adventurers_and_aristocrats = {
 		diplomatic_range_mult = 0.1
 		learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 		#character_travel_safety_mult = 0.05
-	}	
+	}
 
-	#county_modifier = {	
+	#county_modifier = {
 	#}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -1278,7 +1352,7 @@ tradition_RICE_adventurers_and_aristocrats = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -1292,16 +1366,15 @@ tradition_RICE_adventurers_and_aristocrats = {
 					desc = not_bureaucratic_spiritual_or_courtly_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 100
 	}
 }
-
 
 tradition_RICE_adventurers_and_aristocrats_military = {
 	category = regional
@@ -1339,7 +1412,7 @@ tradition_RICE_adventurers_and_aristocrats_military = {
 	culture_modifier = {
 		cultural_acceptance_gain_mult = 0.15
 	}
-	
+
 	parameters = {
 		rice_norman_adventurers = yes
 		#wanderers_gain_extra_combat_skills = yes
@@ -1353,7 +1426,7 @@ tradition_RICE_adventurers_and_aristocrats_military = {
 		diplomatic_range_mult = 0.1
 		learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 		#character_travel_safety_mult = 0.05
-	}	
+	}
 
 	county_modifier = {
 		castle_holding_holding_build_speed = -0.05
@@ -1361,7 +1434,7 @@ tradition_RICE_adventurers_and_aristocrats_military = {
 		castle_holding_build_speed = -0.05
 		castle_holding_build_gold_cost = -0.05
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -1369,7 +1442,7 @@ tradition_RICE_adventurers_and_aristocrats_military = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -1383,16 +1456,15 @@ tradition_RICE_adventurers_and_aristocrats_military = {
 					desc = not_bureaucratic_spiritual_or_courtly_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 100
 	}
 }
-
 
 tradition_RICE_adventurers_and_aristocrats_culture = {
 	category = regional
@@ -1430,7 +1502,7 @@ tradition_RICE_adventurers_and_aristocrats_culture = {
 	culture_modifier = {
 		cultural_acceptance_gain_mult = 0.15
 	}
-	
+
 	parameters = {
 		rice_norman_adventurers = yes
 		wanderers_gain_extra_economic_skills = yes
@@ -1443,13 +1515,13 @@ tradition_RICE_adventurers_and_aristocrats_culture = {
 		diplomatic_range_mult = 0.1
 		learn_language_scheme_phase_duration_add = medium_scheme_phase_duration_bonus_value
 		#character_travel_safety_mult = 0.05
-	}	
+	}
 
 	county_modifier = {
 		city_holding_build_speed = -0.1
 		city_holding_build_gold_cost = -0.1
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -1457,7 +1529,7 @@ tradition_RICE_adventurers_and_aristocrats_culture = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -1471,16 +1543,15 @@ tradition_RICE_adventurers_and_aristocrats_culture = {
 					desc = not_bureaucratic_spiritual_or_courtly_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 100
 	}
 }
-
 
 tradition_RICE_munya_estates = {
 	category = regional
@@ -1522,7 +1593,7 @@ tradition_RICE_munya_estates = {
 			any_parent_culture = {
 				has_cultural_tradition = tradition_RICE_munya_estates
 			}
-		}	
+		}
 		OR = {
 			custom_tooltip = {
 				text = RICE_culture_in_iberia_desc
@@ -1548,7 +1619,7 @@ tradition_RICE_munya_estates = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		unlock_rice_munya_activity = yes
 		unlock_rice_munya_activity_cost = yes
@@ -1561,13 +1632,13 @@ tradition_RICE_munya_estates = {
 	# }
 
 	character_modifier = {
-		stress_loss_per_prestige_level = 0.03		
-	}	
+		stress_loss_per_prestige_level = 0.03
+	}
 
 	county_modifier = {
 		development_growth_factor = 0.05
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -1575,7 +1646,7 @@ tradition_RICE_munya_estates = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -1589,11 +1660,11 @@ tradition_RICE_munya_estates = {
 					desc = not_bureaucratic_courtly_or_egalitarian_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 75
 		if = {
@@ -1617,8 +1688,6 @@ tradition_RICE_munya_estates = {
 		}
 	}
 }
-
-
 
 tradition_RICE_wendish_confederations = {
 	category = regional
@@ -1697,9 +1766,6 @@ tradition_RICE_wendish_confederations = {
 
 	ai_will_do = { value = 100 }
 }
-
-
-
 
 tradition_RICE_judicati = {
 	category = regional
@@ -1976,7 +2042,7 @@ tradition_RICE_judicati_north_african = {
 		opinion_of_female_rulers = 10
 		#direct_vassal_opinion = 10
 		stewardship = 1
-		diplomatic_range_mult = 0.05		
+		diplomatic_range_mult = 0.05
 	}
 
 	county_modifier = {
@@ -2088,126 +2154,10 @@ tradition_RICE_judicati_none = {
 	ai_will_do = { value = 100 }
 }
 
-
-
-# Adapted from Fallen Eagle
-# Original tradition was added by Shatzi
-# Africagrarian
-tradition_african_agriculture = {
-	category = regional
-
-	layers = { 
-		0 = steward
-		1 = mena
-		4 = RICE_peasant_farmers.dds
-	}
-
-	is_shown = {
-		# OR = {
-		# 	this = culture:african_roman
-		# 	any_parent_culture_or_above = {
-		# 		this = culture:african_roman
-		# 	}
-		# }
-		has_cultural_pillar = heritage_berber
-	}
-
-	
-	can_pick = {
-		NOT = { has_cultural_tradition = tradition_dryland_dwellers }
-		has_cultural_pillar = heritage_berber
-		custom_description = {
-			text = culture_in_dryland_desc
-			any_culture_county = {
-				any_county_province = {
-					terrain = drylands
-				}
-			}
-		}
-	}
-	
-	parameters = {
-		plantations_building_bonuses = yes
-		unlock_tfe_cheaper_qanats = yes
-	}
-	character_modifier = {
-		drylands_travel_danger = drylands_medium_danger_reduction
-	}
-	county_modifier = {
-		drylands_development_growth_factor = 0.15
-	}
-	province_modifier = {
-		drylands_tax_mult = 0.2
-	}
-	
-	cost = {
-		prestige = {
-			add = {
-				value = tradition_base_cost
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-			}
-			if = {
-				limit = {
-					culture_pillar:ethos_bellicose = { is_in_list = traits }
-				}
-				add = {
-					value = tradition_incompatible_ethos_penalty
-					desc = culture_not_bellicose
-				}
-			}
-			if = {
-				limit = {
-					NOT = {
-						any_culture_county = {
-							percent >= 0.3
-							any_county_province = {
-								terrain = drylands
-								terrain = desert
-							}
-						}
-					}
-				}
-				add = {
-					value = tradition_unfulfilled_criteria_penalty
-					desc = dry_percentage_desc
-				}
-			}
-			
-			multiply = tradition_replacement_cost_if_relevant
-		}
-	}
-	
-	ai_will_do = {
-		value = 100
-		if = {
-			limit = {
-				NOT = {
-					scope:character = {
-						any_sub_realm_county = {
-							percent >= 0.2
-							culture = scope:character.culture
-							any_county_province = {
-								OR = {
-									terrain = drylands
-									terrain = desert
-								}
-							}
-						}
-					}
-				}
-			}
-			multiply = 0
-		}
-	}
-}
-
-# Based on an idea by Soraya
-# Named either Marignal Tribalism or Makhazen and Siba
 tradition_RICE_berber_marignal_tribalism = {
 	category = regional
 
-	layers = { 
+	layers = {
 		0 = intrigue
 		1 = mena
 		4 = RICE_mideast_items.dds
@@ -2229,7 +2179,7 @@ tradition_RICE_berber_marignal_tribalism = {
 		}
 	}
 
-	
+
 	can_pick = {
 		has_cultural_pillar = heritage_berber
 		OR = {
@@ -2245,7 +2195,7 @@ tradition_RICE_berber_marignal_tribalism = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		culture_can_raid_over_land_even_if_feudal = yes
 		harder_to_hybridize = yes
@@ -2269,7 +2219,7 @@ tradition_RICE_berber_marignal_tribalism = {
 		mountains_supply_limit_mult = 0.25
 		desert_mountains_supply_limit_mult = 0.25
     }
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -2307,11 +2257,11 @@ tradition_RICE_berber_marignal_tribalism = {
 			# 		desc = dry_percentage_desc
 			# 	}
 			# }
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 100
 		if = {
@@ -2349,8 +2299,6 @@ tradition_RICE_berber_marignal_tribalism = {
 	}
 }
 
-
-
 tradition_RICE_image_of_china = {
 	category = regional
 
@@ -2379,7 +2327,7 @@ tradition_RICE_image_of_china = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		unlock_rice_maa_iron_forest = yes
 	}
@@ -2391,15 +2339,15 @@ tradition_RICE_image_of_china = {
 		different_faith_opinion = 10
 		minority_different_faith_opinion = 10
 		minority_different_culture_opinion = 10
-	}	
+	}
 
 	# county_modifier = {
 	# 	castle_holding_build_speed = -0.2
 	# 	castle_holding_build_gold_cost = -0.2
 	# 	castle_holding_holding_build_gold_cost = -0.2
-	# 	castle_holding_holding_build_speed = -0.2		
+	# 	castle_holding_holding_build_speed = -0.2
 	# }
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -2407,7 +2355,7 @@ tradition_RICE_image_of_china = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			# Ethos requirements.
 			if = {
 				limit = {
@@ -2422,20 +2370,15 @@ tradition_RICE_image_of_china = {
 					desc = not_bureaucratic_courtly_or_egalitarian_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 300
 	}
 }
-
-
-
-
-
 
 tradition_RICE_zhangzhung_stonework = {
 	category = regional
@@ -2463,7 +2406,7 @@ tradition_RICE_zhangzhung_stonework = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		#piety_gain_on_building_complete_in_mountains = yes
 		prestige_gain_on_building_complete_in_mountains = yes
@@ -2482,14 +2425,14 @@ tradition_RICE_zhangzhung_stonework = {
 	# 	# hills_attrition_mult = -0.25
 	# 	# mountains_attrition_mult = -0.25
 	# 	# desert_mountains_attrition_mult = -0.25
-	# }	
+	# }
 
 	county_modifier = {
 		hills_development_growth_factor = 0.1
 		mountains_development_growth_factor = 0.1
 		desert_mountains_development_growth_factor = 0.1
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -2511,17 +2454,16 @@ tradition_RICE_zhangzhung_stonework = {
 					desc = not_communal_spiritual_or_stoic_desc
 				}
 			}
-			
-			
+
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 25
 	}
 }
-
 
 tradition_RICE_changthang_nomads = {
 	category = regional
@@ -2539,7 +2481,7 @@ tradition_RICE_changthang_nomads = {
 	can_pick = {
 		has_cultural_pillar = heritage_tibetan
 	}
-	
+
 	parameters = {
 		#unlock_rice_piety_when_traveling_for_activity = yes
 		unlock_rice_maa_drokpa_horsemen = yes
@@ -2565,14 +2507,14 @@ tradition_RICE_changthang_nomads = {
 		ai_war_cooldown = -0.1
 
 
-	}	
+	}
 
-	province_modifier = {		
+	province_modifier = {
 		hills_travel_danger = 10
 		mountains_travel_danger = 10
 		desert_mountains_travel_danger = 10
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -2594,19 +2536,16 @@ tradition_RICE_changthang_nomads = {
 					desc = not_communal_spiritual_or_stoic_desc
 				}
 			}
-			
-			
+
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 25
 	}
 }
-
-
-
 
 tradition_RICE_gandharan_art = {
 	category = regional
@@ -2642,13 +2581,13 @@ tradition_RICE_gandharan_art = {
 		monthly_court_grandeur_change_add = 0.1
 		court_grandeur_baseline_add = 5
 		diplomatic_range_mult = 0.1
-	}	
+	}
 
 	# province_modifier = {
 	# 	build_gold_cost = -0.03
 	# }
 
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -2670,20 +2609,17 @@ tradition_RICE_gandharan_art = {
 					desc = not_communal_spiritual_or_stoic_desc
 				}
 			}
-			
-			
+
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 25
 	}
 }
 
-
-
-# Borrowed and adapted from Baptism of Rus
 tradition_brus_river_lifeblood = {
 	category = regional
 
@@ -2692,7 +2628,7 @@ tradition_brus_river_lifeblood = {
 		1 = western
 		4 = brus_ship_city.dds
 	}
-	
+
 	is_shown = {
 		has_cultural_pillar = heritage_east_slavic
 		NOR = {
@@ -2700,7 +2636,7 @@ tradition_brus_river_lifeblood = {
 			culture_tradition:tradition_maritime_mercantilism = { is_in_list = traits }
 		}
 	}
-	
+
 	can_pick = {
 		has_cultural_pillar = heritage_east_slavic
 	}
@@ -2716,12 +2652,12 @@ tradition_brus_river_lifeblood = {
 		rice_portage_decision_bonus = yes
 		rice_volga_dnieper_merchant_spawn_bonus = yes
 	}
-	
+
 	character_modifier = {
 		diplomatic_range_mult = 0.10
 		#development_growth_factor = 0.10
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -2744,18 +2680,15 @@ tradition_brus_river_lifeblood = {
 					desc = river_percentage_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 0
 	}
 }
-
-
-
 
 tradition_RICE_scribes_of_the_steppe = {
 	category = regional
@@ -2765,7 +2698,7 @@ tradition_RICE_scribes_of_the_steppe = {
 		1 = asian
 		4 = RICE_scribe_materials.dds
 	}
-	
+
 	is_shown = {
 		OR = {
 			this = culture:uyghur
@@ -2795,11 +2728,11 @@ tradition_RICE_scribes_of_the_steppe = {
 		# 	}
 		# }
 	}
-	
+
 	parameters = {
 		unlock_rice_better_local_pilgrimage_memorialization_prestige = yes
 	}
-	
+
 	character_modifier = {
 		#diplomacy_per_prestige_level = 1
 		#learning_per_prestige_level = 1
@@ -2809,7 +2742,7 @@ tradition_RICE_scribes_of_the_steppe = {
 		different_culture_opinion = 10
 		different_faith_opinion = 10
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -2831,18 +2764,15 @@ tradition_RICE_scribes_of_the_steppe = {
 					desc = not_bureaucratic_courtly_or_egalitarian_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 0
 	}
 }
-
-
-
 
 tradition_RICE_royal_physicians = {
 	category = regional
@@ -2852,7 +2782,7 @@ tradition_RICE_royal_physicians = {
 		1 = mena
 		4 = RICE_medicine.dds
 	}
-	
+
 	# is_shown = {
 	# 	OR = {
 	# 		this = culture:assyrian
@@ -2869,20 +2799,20 @@ tradition_RICE_royal_physicians = {
 	# 		}
 	# 	}
 	# }
-	
+
 	parameters = {
 		better_disease_resistance = yes
 		unlock_voluntary_laampdom = yes
 		wanderers_learn_languages = yes
 	}
-	
+
 	character_modifier = {
 		diplomacy = 1
 		stewardship = 1
 		learning = 1
 		monthly_lifestyle_xp_gain_mult = 0.1
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -2904,17 +2834,15 @@ tradition_RICE_royal_physicians = {
 					desc = not_bureaucratic_courtly_or_egalitarian_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 0
 	}
 }
-
-
 
 tradition_RICE_cattle_economy = {
 	category = regional
@@ -2924,14 +2852,14 @@ tradition_RICE_cattle_economy = {
 		1 = mena
 		4 = RICE_cow.dds # Temp
 	}
-	
+
 	is_shown = {
 		#has_cultural_pillar = heritage_east_african
 	}
 	can_pick = {
 		#has_cultural_pillar = heritage_east_african
 	}
-	
+
 	parameters = {
 		#unlock_rice_nilotic_raiders = yes
 		#unlock_rice_nilotic_sacrifice_activity = yes
@@ -2940,7 +2868,7 @@ tradition_RICE_cattle_economy = {
 		unlock_rice_cattle_raid_intent = yes
 		#unlock_rice_cattle_economy_interactions = yes
 	}
-	
+
 	character_modifier = {
 		#defender_advantage = 5
 		movement_speed = 0.1
@@ -2958,7 +2886,7 @@ tradition_RICE_cattle_economy = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -2972,7 +2900,7 @@ tradition_RICE_cattle_economy = {
 					desc = not_bellicose_stoic_or_communal_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
@@ -2987,12 +2915,12 @@ tradition_RICE_rainforest_ritualists = {
 		1 = indian
 		4 = RICE_medicine.dds
 	}
-	
+
 	is_shown = {
 		#NOT = { has_cultural_tradition = tradition_RICE_tropical_purveyors }
 		OR = {
 			scope:character = {
-				religion = religion:aslian_religion 
+				religion = religion:aslian_religion
 			}
 			this = culture:senoi
 			any_parent_culture_or_above = {
@@ -3008,7 +2936,7 @@ tradition_RICE_rainforest_ritualists = {
 		NOT = { has_cultural_tradition = tradition_RICE_tropical_purveyors }
 		OR = {
 			scope:character = {
-				religion = religion:aslian_religion 
+				religion = religion:aslian_religion
 			}
 			this = culture:senoi
 			any_parent_culture_or_above = {
@@ -3020,7 +2948,7 @@ tradition_RICE_rainforest_ritualists = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		#adultery_always_accepted = yes
 		#pensive_trait_more_common = yes
@@ -3029,7 +2957,7 @@ tradition_RICE_rainforest_ritualists = {
 		unlock_rice_southeast_asian_trade_tropical_goods_interaction = yes
 		unlock_rice_aslian_blood_decision = yes
 	}
-	
+
 	character_modifier = {
 		dread_baseline_add = 5
 		owned_personal_scheme_success_chance_add = 5
@@ -3042,8 +2970,8 @@ tradition_RICE_rainforest_ritualists = {
 	county_modifier = {
 		jungle_provisions_use_mult = -0.5
 		forest_provisions_use_mult = -0.5
-		jungle_barter_goods_mult = 0.15		
-		forest_barter_goods_mult = 0.15		
+		jungle_barter_goods_mult = 0.15
+		forest_barter_goods_mult = 0.15
 	}
 
 	cost = {
@@ -3094,7 +3022,7 @@ tradition_RICE_rainforest_ritualists = {
 					desc = inspired_by_culture_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
@@ -3109,7 +3037,7 @@ tradition_RICE_tropical_purveyors = {
 		1 = indian
 		4 = RICE_luxury_goods.dds
 	}
-	
+
 	is_shown = {
 		#NOT = { has_cultural_tradition = tradition_RICE_rainforest_ritualists }
 		any_culture_county = {
@@ -3126,12 +3054,12 @@ tradition_RICE_tropical_purveyors = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		unlock_rice_southeast_asian_gather_tropical_goods_interaction = yes
 		unlock_rice_southeast_asian_trade_tropical_goods_interaction = yes
 	}
-	
+
 	character_modifier = {
 		negate_stewardship_penalty_add = 2
 		jungle_travel_danger = jungle_medium_danger_reduction
@@ -3140,8 +3068,8 @@ tradition_RICE_tropical_purveyors = {
 	county_modifier = {
 		jungle_provisions_use_mult = -0.5
 		forest_provisions_use_mult = -0.5
-		jungle_barter_goods_mult = 0.15		
-		forest_barter_goods_mult = 0.15		
+		jungle_barter_goods_mult = 0.15
+		forest_barter_goods_mult = 0.15
 	}
 
 	cost = {
@@ -3151,7 +3079,7 @@ tradition_RICE_tropical_purveyors = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -3192,7 +3120,7 @@ tradition_RICE_tropical_purveyors = {
 					desc = inspired_by_culture_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
@@ -3207,14 +3135,14 @@ tradition_RICE_fear_of_spirits = {
 		1 = indian
 		4 = RICE_shamanism.dds
 	}
-	
+
 	is_shown = {
 
 	}
 	can_pick = {
 
 	}
-	
+
 	character_modifier = {
 		#intrigue_per_piety_level = 1
 		capital_additional_fort_level = 1
@@ -3223,7 +3151,7 @@ tradition_RICE_fear_of_spirits = {
 	}
 
 	county_modifier = {
-		church_holding_build_speed = -0.1	
+		church_holding_build_speed = -0.1
 	}
 
 	province_modifier = {
@@ -3238,7 +3166,7 @@ tradition_RICE_fear_of_spirits = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -3252,7 +3180,7 @@ tradition_RICE_fear_of_spirits = {
 					desc = not_communal_spiritual_or_stoic_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
@@ -3267,7 +3195,7 @@ tradition_RICE_sea_nomads = {
 		1 = indian
 		4 = RICE_ocean.dds
 	}
-	
+
 	is_shown = {
 		#roa_is_active = no # Replaced with Migratory in ROA
 		any_culture_county = {
@@ -3276,7 +3204,7 @@ tradition_RICE_sea_nomads = {
 			}
 		}
 	}
-	
+
 	can_pick = {
 		NOT = { has_cultural_tradition = tradition_migratory } # Sea Nomads is an "upgraded" version of Migratory
 		any_culture_county = {
@@ -3325,7 +3253,7 @@ tradition_RICE_sea_nomads = {
 		development_growth_factor = -0.25
 		monthly_county_control_decline_factor = 0.25
 	}
-	character_modifier = {	
+	character_modifier = {
 		coastal_advantage = 2
 		levy_size = 0.10
 		movement_speed = 0.1
@@ -3334,7 +3262,7 @@ tradition_RICE_sea_nomads = {
 	}
 
 	# county_modifier = {
-	# 	#church_holding_build_speed = -0.1	
+	# 	#church_holding_build_speed = -0.1
 	# }
 
 	# province_modifier = {
@@ -3348,7 +3276,7 @@ tradition_RICE_sea_nomads = {
 				desc = BASE
 				format = "BASE_VALUE_FORMAT"
 			}
-			
+
 			if = {
 				limit = {
 					NOR = {
@@ -3362,7 +3290,7 @@ tradition_RICE_sea_nomads = {
 					desc = not_communal_spiritual_or_stoic_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
@@ -3377,15 +3305,15 @@ tradition_RICE_brehon_law = {
 		1 = western
 		4 = RICE_celtic_harp.dds
 	}
-	
+
 	is_shown = {
 		has_cultural_pillar = heritage_goidelic
 	}
-	
+
 	can_pick = {
 		has_cultural_pillar = heritage_goidelic
 	}
-	
+
 	partners = {
 		number_of_spouses = 4
 	}
@@ -3400,12 +3328,12 @@ tradition_RICE_brehon_law = {
 		unlock_rice_butter_interaction = yes
 		unlock_rice_bog_butter_bonus_prestige = yes
 	}
-	
+
 	character_modifier = {
 		monthly_prestige_gain_per_legitimacy_level_add = 0.1
 		monthly_piety_gain_per_legitimacy_level_add = 0.1
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -3426,17 +3354,15 @@ tradition_RICE_brehon_law = {
 					desc = not_bureaucratic_spiritual_or_courtly_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 0
 	}
 }
-
-
 
 tradition_RICE_sorcerous_corsairs = {
 	category = regional
@@ -3446,7 +3372,7 @@ tradition_RICE_sorcerous_corsairs = {
 		1 = indian
 		4 = RICE_medieval_ship.dds
 	}
-	
+
 	is_shown = {
 		OR = {
 			this = culture:south_arabian
@@ -3463,21 +3389,21 @@ tradition_RICE_sorcerous_corsairs = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		#unlock_rice_moon_sacrifice_decision = yes
 		unlock_rice_insular_sorcery_decision = yes
 		unlock_rice_enables_pirate_options_by_default = yes
 		culture_can_raid_at_sea_even_if_feudal = yes
 	}
-	
+
 	character_modifier = {
 		dread_baseline_add = 5
 		coastal_advantage = 2
 		knight_effectiveness_per_intrigue = 0.01
 		men_at_arms_maintenance_per_dread_mult = -0.002
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -3498,11 +3424,11 @@ tradition_RICE_sorcerous_corsairs = {
 					desc = not_bureaucratic_spiritual_or_courtly_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 0
 	}
@@ -3516,7 +3442,7 @@ tradition_RICE_honorable_marauders = {
 		1 = mena
 		4 = RICE_mideast_items.dds
 	}
-	
+
 	is_shown = {
 		OR = {
 			this = culture:beja
@@ -3533,7 +3459,7 @@ tradition_RICE_honorable_marauders = {
 			}
 		}
 	}
-	
+
 	parameters = {
 		just_trait_more_common = yes
 		just_trait_gives_bonuses = yes
@@ -3551,7 +3477,7 @@ tradition_RICE_honorable_marauders = {
 		stationed_maa_pursuit_mult = 0.1
 		stationed_maa_screen_mult = 0.1
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -3572,11 +3498,11 @@ tradition_RICE_honorable_marauders = {
 					desc = not_bureaucratic_spiritual_or_courtly_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 0
 	}
@@ -3590,7 +3516,7 @@ tradition_RICE_toloka = {
 		1 = western
 		4 = RICE_peasant_farmers.dds
 	}
-	
+
 	is_shown = {
 		OR = {
 			has_cultural_pillar = heritage_east_slavic
@@ -3609,7 +3535,7 @@ tradition_RICE_toloka = {
 			has_cultural_pillar = heritage_balto_finnic
 		}
 	}
-	
+
 	parameters = {
 		generous_trait_more_common = yes
 		#diligent_trait_more_common = yes
@@ -3622,10 +3548,10 @@ tradition_RICE_toloka = {
 	}
 
 	county_modifier = {
-		build_speed = -0.1	
+		build_speed = -0.1
 		build_gold_cost = -0.05
 	}
-	
+
 	cost = {
 		prestige = {
 			add = {
@@ -3646,11 +3572,11 @@ tradition_RICE_toloka = {
 					desc = not_bureaucratic_spiritual_or_courtly_desc
 				}
 			}
-			
+
 			multiply = tradition_replacement_cost_if_relevant
 		}
 	}
-	
+
 	ai_will_do = {
 		value = 0
 	}

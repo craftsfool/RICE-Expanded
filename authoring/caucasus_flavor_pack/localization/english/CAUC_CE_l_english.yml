@@ -75,7 +75,7 @@
  CAUC_CE.0025.a:0 "Let our neighbors recognize the new crown."
  CAUC_CE.0025.desc:0 "For generations, rulers from beyond these mountains have contested the lands between the Black Sea and the Caspian. I have united the heartlands of Transcaucasia under my rule. My successors will inherit an empire with its own crown and obligations, as well as the attention of the powers on our borders."
  CAUC_CE.0025.t:0 "An Empire of its Own"
- CAUC_establish_transcaucasia_decision:0 "Establish Transcaucasia"
+ CAUC_establish_transcaucasia_decision:0 "Establish the Transcaucasian Empire"
  CAUC_establish_transcaucasia_decision_confirm:0 "Establish the imperial crown"
  CAUC_establish_transcaucasia_decision_desc:0 "I control the heartlands of Transcaucasia and can establish an imperial crown of my own. My realm will claim a place beside the empires whose rulers have contested these lands. The new crown will bring obligations to my successors and rivals at our borders."
  CAUC_establish_transcaucasia_decision_tooltip:0 "Transcaucasia becomes a [de_jure|E] [empire|E]"

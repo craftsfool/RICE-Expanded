@@ -1,1 +1,1 @@
-﻿CAUC_ce_present_trigger = { always = no }
+﻿CAUC_ce_present_trigger = { CE_is_loaded = yes }

@@ -210,6 +210,6 @@ def main():
   for k,b,start,end in reversed(entries(s)):
    if k=='k_shirvan':s=s[:start]+'# k_shirvan is supplied by the Caucasus package.\n'+s[end:];changed=True
   if changed:write(adapter/'common/landed_titles'/filename,s)
- write(adapter/'common/scripted_triggers/CAUC_compatibility_triggers.txt','CAUC_ce_present_trigger = { always = yes }')
+ write(adapter/'common/scripted_triggers/CAUC_compatibility_triggers.txt','CAUC_ce_present_trigger = { CE_is_loaded = yes }')
  print(json.dumps({'cultures':len(CULTURES),'imported_entries':len(manifest),'english_keys':len(selected),'historical_character_changes':len(history)},indent=2))
 if __name__=='__main__':main()

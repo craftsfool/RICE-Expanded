@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build in-place RICE update ZIPs against expanded.1; no extra mod registration."""
+"""One unified update against expanded.1; retired preset scripts are masked."""
 import argparse,hashlib,json,subprocess,zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -7,38 +7,47 @@ def main():
  ap=argparse.ArgumentParser();ap.add_argument('--builds',type=Path,required=True);ap.add_argument('--baseline',default='8b2b5193');a=ap.parse_args()
  raw=subprocess.check_output(['git','ls-tree','-rz',a.baseline,'RICE'],cwd=ROOT);old={}
  for line in raw.split(b'\0'):
-  if not line:continue
-  meta,name=line.split(b'\t',1);old[name.decode()[len('RICE/'):]]=meta.split()[-1].decode()
- candidates={'descriptor.mod'}
- # Include tracked runtime repairs outside authored Caucasus/compatibility
- # layers, such as a DDS header fix in an existing RICE asset.
- changed=subprocess.check_output(['git','diff','--name-only',a.baseline,'--','RICE'],cwd=ROOT).decode().splitlines()
- candidates.update(name[len('RICE/'):] for name in changed if name.startswith('RICE/'))
- for layer in [ROOT/'authoring/caucasus_flavor_pack',ROOT/'RICE-EPE-Compatch',ROOT/'RICE+CE Compatch for 1.19',ROOT/'authoring/caucasus_flavor_pack_ce_compat']:
-  for folder in ['common','events','map_data','localization','gfx']:
-   candidates.update(p.relative_to(layer).as_posix() for p in (layer/folder).rglob('*') if p.is_file())
- candidates.update(p.relative_to(ROOT/'RICE').as_posix() for p in (ROOT/'RICE/localization').rglob('CAUC_english_fallback_*.yml'))
- manifest=[]
- for profile in ['base','epe','ce-epe']:
-  target=a.builds/profile;delta=[]
-  for rel in sorted(candidates):
-   p=target/'RICE'/rel
-   if not p.is_file():continue
-   data=p.read_bytes();sha=hashlib.sha1(('blob '+str(len(data))+'\0').encode()+data).hexdigest()
-   if sha!=old.get(rel):delta.append(rel)
-  archive=a.builds/('RICE-Expanded-'+profile+'-Caucasus-Built-In-Update.zip')
-  with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
-   for rel in delta:z.write(target/'RICE'/rel,'RICE/'+rel)
-   z.write(target/'RICE.mod','RICE.mod');z.write(ROOT/'CAUCASUS-Expanded.md','CAUCASUS-Expanded.md')
-   z.write(ROOT/'CHANGELOG-Expanded.md','CHANGELOG-Expanded.md')
-   for p in (target/'reports').glob('*.json'):z.write(p,'reports/'+p.name)
-   z.writestr('UPDATE-INSTRUCTIONS.txt','Requires an existing RICE Expanded expanded.1, expanded.2 or expanded.3 installation. Extract over its RICE folder. Caucasus gameplay and compatibility are built into RICE itself. Select one preset, load RICE Expanded after its required base mods, and disable old separate compatibility mods. Caucasus localization is complete in English, Simplified Chinese and French; five other languages retain fallbacks. This update includes five religious stories and the Tondrakian rite. It replaces the native tenet definitions file only to extend name/description selection for that rite, preserving native mechanics from the recorded 1.20 source. expanded.3.2 includes the Socotra legacy DDS header repair and replaces invalid negative add_gold effects with native remove_short_term_gold. These are confirmed resource/script repairs, not a verified fix for every startup crash. Keep a backup.\n')
-  with zipfile.ZipFile(archive) as z:
-   assert z.testzip() is None
-   assert sorted(n for n in z.namelist() if n.endswith('.mod'))==['RICE.mod','RICE/descriptor.mod']
-   for rel in delta:assert z.read('RICE/'+rel)==(target/'RICE'/rel).read_bytes()
-  manifest.append({'profile':profile,'name':archive.name,'bytes':archive.stat().st_size,'changed_files':len(delta),'sha256':hashlib.sha256(archive.read_bytes()).hexdigest()})
- (a.builds/'updates.json').write_text(json.dumps(manifest,indent=2)+'\n')
- (a.builds/'SHA256SUMS-updates.txt').write_text(''.join(r['sha256']+'  '+r['name']+'\n' for r in manifest))
- print(json.dumps(manifest));return 0
-if __name__=='__main__':raise SystemExit(main())
+  if line:
+   meta,name=line.split(b'\t',1);old[name.decode()[len('RICE/'):]]=meta.split()[-1].decode()
+ target=a.builds/'unified';mod=target/'RICE';delta=[]
+ for p in sorted(mod.rglob('*')):
+  if not p.is_file():continue
+  rel=p.relative_to(mod).as_posix();data=p.read_bytes()
+  sha=hashlib.sha1(('blob '+str(len(data))+'\0').encode()+data).hexdigest()
+  if sha!=old.get(rel):delta.append(rel)
+ # Legacy overlays cannot keep defining superseded objects after an update.
+ retired=set()
+ for layer in [ROOT/'RICE-EPE-Compatch',ROOT/'RICE+CE Compatch for 1.19',ROOT/'authoring/caucasus_flavor_pack_ce_compat']:
+  for folder in ['common','events','map_data','localization']:
+   retired.update(p.relative_to(layer).as_posix() for p in (layer/folder).rglob('*') if p.is_file() and not (mod/p.relative_to(layer)).exists() and p.suffix in ('.txt','.yml'))
+ archive=a.builds/'RICE-Expanded-Unified-1.20-expanded.3.3-Update.zip'
+ with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
+  for rel in delta:z.write(mod/rel,'RICE/'+rel)
+  # Removing a retired file is different from masking a file supplied by CE.
+  # Empty title files would suppress CE's legitimate database on an update.
+  z.writestr('RETIRED-FILES.txt',''.join(rel+'\n' for rel in sorted(retired)))
+  z.writestr('finish-unified-update.py',"""from pathlib import Path
+import argparse,shutil
+p=argparse.ArgumentParser();p.add_argument('--mod-dir',type=Path,default=Path(__file__).resolve().parent/'RICE');a=p.parse_args()
+root=a.mod_dir.resolve()
+if 'RICE Expanded' not in (root/'descriptor.mod').read_text():raise SystemExit('Choose an existing RICE Expanded directory.')
+backup=root.parent/'RICE-Unified-3.3-Retired-Backup'
+for line in (Path(__file__).resolve().parent/'RETIRED-FILES.txt').read_text().splitlines():
+ rel=Path(line)
+ if rel.is_absolute() or '..' in rel.parts:raise SystemExit('Invalid retired-file path.')
+ target=root/rel
+ if target.exists():
+  saved=backup/rel;saved.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(target,saved);target.unlink();print('Backed up and removed:',rel)
+print('Unified update cleanup complete. CE and EPE source mods are unchanged.')
+""")
+  for name in ['RICE.mod','CAUCASUS-Expanded.md','CHANGELOG-Expanded.md']:z.write(target/name,name)
+  for p in (target/'reports').glob('*.json'):z.write(p,'reports/'+p.name)
+  z.writestr('UPDATE-INSTRUCTIONS.txt','This is an update for an existing RICE Expanded expanded.1–expanded.3.2 installation. Extract over the same RICE folder. Remove RICE/common/landed_titles/00_decisions_expanded_titles.txt from the old RICE installation if present; do not remove it from the CE mod. Alternatively run finish-unified-update.py with Python 3 and --mod-dir pointing to the updated RICE Expanded directory; the retired file is backed up before removal. CE and EPE are optional. Disable old separate RICE compatibility patches and load Expanded after culture/portrait/map mods. The Full archive is available for fresh installations. Starting culture assignments require a new campaign. Native reference and script-state checks only; no engine run. Keep a backup.\n')
+ with zipfile.ZipFile(archive) as z:
+  assert z.testzip() is None
+  for rel in delta:assert z.read('RICE/'+rel)==(mod/rel).read_bytes()
+ row={'profile':'unified','filename':archive.name,'bytes':archive.stat().st_size,'changed_files':len(delta),'retired_files_to_remove':sorted(retired),'sha256':hashlib.sha256(archive.read_bytes()).hexdigest()}
+ (a.builds/'updates.json').write_text(json.dumps([row],indent=2)+'\n')
+ with (a.builds/'SHA256SUMS.txt').open('a') as f:f.write(row['sha256']+'  '+row['filename']+'\n')
+ print(json.dumps(row),flush=True)
+if __name__=='__main__':main()

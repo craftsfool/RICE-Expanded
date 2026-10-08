@@ -1,0 +1,1444 @@
+{
+  "profiles": {
+    "alone": {
+      "errors": [],
+      "warnings": [
+        {
+          "missing_pillar": "heritage_levantine",
+          "files": [
+            "common/scripted_effects/RICE_yazd_effects.txt",
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_on_oq",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_tatar",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kipchak",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_south_semitic",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kemetic",
+          "files": [
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        }
+      ],
+      "culture_controls": [
+        {
+          "culture": "bedouin",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        }
+      ],
+      "regional_positive_cultures": 114,
+      "startup_county_assignments": {
+        "CAUC_CE_setup_867_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_tmutarakan": "circassian",
+          "c_zichia": "circassian",
+          "c_shaki": "udi",
+          "c_aran": "udi",
+          "c_hereti": "georgian",
+          "c_tbilisi": "georgian",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_sebasteia": "armenian",
+          "c_zela": "armenian",
+          "c_colonea": "armenian"
+        },
+        "CAUC_CE_setup_1066_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "udi",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_marash": "armenian",
+          "c_antiocheia": "armenian",
+          "c_sebasteia": "armenian"
+        },
+        "CAUC_CE_setup_1178_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "tat",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_marash": "armenian",
+          "c_sebasteia": "armenian"
+        }
+      },
+      "ce_present": false,
+      "standalone_startup_enabled": true,
+      "standalone_empire_decision_enabled": true,
+      "pillars": 355,
+      "regions": 1184
+    },
+    "epe": {
+      "errors": [],
+      "warnings": [
+        {
+          "missing_pillar": "heritage_levantine",
+          "files": [
+            "common/scripted_effects/RICE_yazd_effects.txt",
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_on_oq",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_tatar",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kipchak",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_south_semitic",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kemetic",
+          "files": [
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        }
+      ],
+      "culture_controls": [
+        {
+          "culture": "bedouin",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        }
+      ],
+      "regional_positive_cultures": 114,
+      "startup_county_assignments": {
+        "CAUC_CE_setup_867_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_tmutarakan": "circassian",
+          "c_zichia": "circassian",
+          "c_shaki": "udi",
+          "c_aran": "udi",
+          "c_hereti": "georgian",
+          "c_tbilisi": "georgian",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_sebasteia": "armenian",
+          "c_zela": "armenian",
+          "c_colonea": "armenian"
+        },
+        "CAUC_CE_setup_1066_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "udi",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_marash": "armenian",
+          "c_antiocheia": "armenian",
+          "c_sebasteia": "armenian"
+        },
+        "CAUC_CE_setup_1178_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "tat",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_marash": "armenian",
+          "c_sebasteia": "armenian"
+        }
+      },
+      "ce_present": false,
+      "standalone_startup_enabled": true,
+      "standalone_empire_decision_enabled": true,
+      "pillars": 355,
+      "regions": 1184
+    },
+    "ce": {
+      "errors": [],
+      "warnings": [
+        {
+          "missing_pillar": "heritage_levantine",
+          "files": [
+            "common/scripted_effects/RICE_yazd_effects.txt",
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_on_oq",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_tatar",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kipchak",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_south_semitic",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kemetic",
+          "files": [
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        }
+      ],
+      "culture_controls": [
+        {
+          "culture": "bedouin",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        }
+      ],
+      "regional_positive_cultures": 114,
+      "startup_county_assignments": {
+        "CAUC_CE_setup_867_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_tmutarakan": "circassian",
+          "c_zichia": "circassian",
+          "c_shaki": "udi",
+          "c_aran": "udi",
+          "c_hereti": "georgian",
+          "c_tbilisi": "georgian",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_sebasteia": "armenian",
+          "c_zela": "armenian",
+          "c_colonea": "armenian"
+        },
+        "CAUC_CE_setup_1066_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "udi",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_marash": "armenian",
+          "c_antiocheia": "armenian",
+          "c_sebasteia": "armenian"
+        },
+        "CAUC_CE_setup_1178_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "tat",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_marash": "armenian",
+          "c_sebasteia": "armenian"
+        }
+      },
+      "ce_present": true,
+      "standalone_startup_enabled": false,
+      "standalone_empire_decision_enabled": false,
+      "pillars": 367,
+      "regions": 1184
+    },
+    "ce-epe": {
+      "errors": [],
+      "warnings": [
+        {
+          "missing_pillar": "heritage_levantine",
+          "files": [
+            "common/scripted_effects/RICE_yazd_effects.txt",
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_on_oq",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_tatar",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kipchak",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_south_semitic",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kemetic",
+          "files": [
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        }
+      ],
+      "culture_controls": [
+        {
+          "culture": "bedouin",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        }
+      ],
+      "regional_positive_cultures": 114,
+      "startup_county_assignments": {
+        "CAUC_CE_setup_867_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_tmutarakan": "circassian",
+          "c_zichia": "circassian",
+          "c_shaki": "udi",
+          "c_aran": "udi",
+          "c_hereti": "georgian",
+          "c_tbilisi": "georgian",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_sebasteia": "armenian",
+          "c_zela": "armenian",
+          "c_colonea": "armenian"
+        },
+        "CAUC_CE_setup_1066_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "udi",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_marash": "armenian",
+          "c_antiocheia": "armenian",
+          "c_sebasteia": "armenian"
+        },
+        "CAUC_CE_setup_1178_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "tat",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_marash": "armenian",
+          "c_sebasteia": "armenian"
+        }
+      },
+      "ce_present": true,
+      "standalone_startup_enabled": false,
+      "standalone_empire_decision_enabled": false,
+      "pillars": 367,
+      "regions": 1184
+    },
+    "epe-extra-mods": {
+      "errors": [],
+      "warnings": [
+        {
+          "missing_pillar": "heritage_levantine",
+          "files": [
+            "common/scripted_effects/RICE_yazd_effects.txt",
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_on_oq",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_tatar",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kipchak",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_south_semitic",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kemetic",
+          "files": [
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        }
+      ],
+      "culture_controls": [
+        {
+          "culture": "bedouin",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        }
+      ],
+      "regional_positive_cultures": 114,
+      "startup_county_assignments": {
+        "CAUC_CE_setup_867_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_tmutarakan": "circassian",
+          "c_zichia": "circassian",
+          "c_shaki": "udi",
+          "c_aran": "udi",
+          "c_hereti": "georgian",
+          "c_tbilisi": "georgian",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_sebasteia": "armenian",
+          "c_zela": "armenian",
+          "c_colonea": "armenian"
+        },
+        "CAUC_CE_setup_1066_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "udi",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_marash": "armenian",
+          "c_antiocheia": "armenian",
+          "c_sebasteia": "armenian"
+        },
+        "CAUC_CE_setup_1178_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "tat",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_marash": "armenian",
+          "c_sebasteia": "armenian"
+        }
+      },
+      "ce_present": false,
+      "standalone_startup_enabled": true,
+      "standalone_empire_decision_enabled": true,
+      "pillars": 359,
+      "regions": 1175
+    },
+    "ce-epe-extra-mods": {
+      "errors": [],
+      "warnings": [
+        {
+          "missing_pillar": "heritage_levantine",
+          "files": [
+            "common/scripted_effects/RICE_yazd_effects.txt",
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_on_oq",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_tatar",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kipchak",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_south_semitic",
+          "files": [
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        },
+        {
+          "missing_pillar": "heritage_kemetic",
+          "files": [
+            "events/RICE_sus_events.txt",
+            "events/RICE_tarim_basin_events.txt"
+          ]
+        }
+      ],
+      "culture_controls": [
+        {
+          "culture": "bedouin",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "bedouin",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "daylamite",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "armenian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "georgian",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "french",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_is_native_american_culture_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_culture_has_oceanic_and_austronesian_heritage_pillar_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_betel_nuts_trigger",
+          "allowed": false
+        },
+        {
+          "culture": "greek",
+          "gate": "RICE_enjoys_kava_trigger",
+          "allowed": false
+        }
+      ],
+      "regional_positive_cultures": 114,
+      "startup_county_assignments": {
+        "CAUC_CE_setup_867_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_tmutarakan": "circassian",
+          "c_zichia": "circassian",
+          "c_shaki": "udi",
+          "c_aran": "udi",
+          "c_hereti": "georgian",
+          "c_tbilisi": "georgian",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_sebasteia": "armenian",
+          "c_zela": "armenian",
+          "c_colonea": "armenian"
+        },
+        "CAUC_CE_setup_1066_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "udi",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_satala": "armenian",
+          "c_marash": "armenian",
+          "c_antiocheia": "armenian",
+          "c_sebasteia": "armenian"
+        },
+        "CAUC_CE_setup_1178_effect": {
+          "c_abkhazia": "abkhaz",
+          "c_odishi": "lazi",
+          "c_acampse": "lazi",
+          "c_zichia": "circassian",
+          "c_tmutarakan": "circassian",
+          "c_aran": "tat",
+          "c_hereti": "udi",
+          "c_derbent": "dagestani",
+          "c_samander": "dagestani",
+          "c_samiran": "dagestani",
+          "c_svaneti": "ce_svan",
+          "c_shirvan": "tat",
+          "c_shaki": "tat",
+          "c_ablastha": "armenian",
+          "c_azysia": "armenian",
+          "c_lycandus": "armenian",
+          "c_marash": "armenian",
+          "c_sebasteia": "armenian"
+        }
+      },
+      "ce_present": true,
+      "standalone_startup_enabled": false,
+      "standalone_empire_decision_enabled": false,
+      "pillars": 371,
+      "regions": 1175
+    }
+  },
+  "same_directory": "RICE",
+  "game_launched": false,
+  "limitations": [
+    "Static file overlays and a limited culture-condition model; not engine execution.",
+    "Six existing optional ROA/TFE pillar references remain behind their integration guards."
+  ]
+}

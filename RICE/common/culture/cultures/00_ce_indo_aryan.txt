@@ -1,0 +1,167 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+makrani = {
+ # Meds / Medhs / Meids
+	color = { 0.88 0.33 0.12 }
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_isolationist
+		tradition_fishermen
+		tradition_desert_nomads
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+	}
+	
+	name_list = name_list_baloch
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	house_coa_frame = house_frame_17
+	
+	ethnicities = {
+		100 = indian
+	}
+
+}
+
+jat = {
+ # Pastoralists of Lower Sindh ## credits to soraya
+	color = { 1.0 0.6 0.0 }
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_pastoralists # This was their main occupation in the first half of CK3's time period.
+		tradition_dryland_dwellers # Jats were considered skilled dromedary-men, and were involved in a camel trade that spanned the Eastern Islamic World.
+		tradition_warrior_culture # Jats served as mercenaries and had a reputation for being rebellious and hard to conquer.
+		tradition_practiced_pirates # They were known to raid settlements and caravans. This culture also represent Meds, who ran pirate operations from Basra to Dwarka. 
+	}
+
+	name_list = name_list_jat
+
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	house_coa_frame = house_frame_17
+	
+	ethnicities = {
+		100 = indian
+	}
+
+}
+
+kaikani = {
+ # Jat culture of Kaikan/ al-Qiqan
+	color = { 0.87 0.32 0.11 }
+	
+	created = 866.1.1
+	parents = { jat }
+	
+	history_loc_override = kaikanian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_mountain_homes
+		tradition_warrior_culture 
+		tradition_pastoralists
+		tradition_qiqaniyya
+	}
+	
+	name_list = name_list_jat
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	house_coa_frame = house_frame_17
+	
+	ethnicities = {
+		100 = indian
+	}
+
+}
+
+zutt = {
+ # Jat culture of Iraq
+	color = { 65 82 173 }
+	
+	created = 866.1.1
+	parents = { jat }
+	
+	history_loc_override = zutt_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_wetlanders
+		tradition_swords_for_hire
+		tradition_warrior_culture 
+		tradition_qiqaniyya
+	}
+	
+	name_list = name_list_jat
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	house_coa_frame = house_frame_17
+	
+	ethnicities = {
+		100 = indian
+	}
+
+}
+
+multani = {
+ 
+	color = { 198 58 61 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_indo_aryan
+	language = language_vrachada
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_caravaneers
+		tradition_religion_blending
+		tradition_charitable
+		tradition_esteemed_hospitality
+	}
+	
+	name_list = name_list_punjabi
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	house_coa_frame = house_frame_17
+	
+	ethnicities = {
+		100 = indian
+	}
+
+}

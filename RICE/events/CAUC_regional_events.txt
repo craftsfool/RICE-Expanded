@@ -10,8 +10,10 @@ CAUC.0001 = {
  option = { name = CAUC.0001.a title:c_derbent = { remove_county_modifier = CAUC_pass_trade } title:c_derbent = { remove_county_modifier = CAUC_pass_guard } title:c_derbent = { remove_county_modifier = CAUC_pass_compact } title:c_derbent = { add_county_modifier = { modifier = CAUC_pass_trade years = 5 } } ai_chance = { base = 50 } }
  option = { name = CAUC.0001.b title:c_derbent = { remove_county_modifier = CAUC_pass_trade } title:c_derbent = { remove_county_modifier = CAUC_pass_guard } title:c_derbent = { remove_county_modifier = CAUC_pass_compact } title:c_derbent = { add_county_modifier = { modifier = CAUC_pass_guard years = 5 } } ai_chance = { base = 50 } }
  option = { name = CAUC.0001.c title:c_derbent = { remove_county_modifier = CAUC_pass_trade } title:c_derbent = { remove_county_modifier = CAUC_pass_guard } title:c_derbent = { remove_county_modifier = CAUC_pass_compact } title:c_derbent = { add_county_modifier = { modifier = CAUC_pass_compact years = 5 } } ai_chance = { base = 50 } }
+immediate = { CAUC_overseer_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_overseer_speaker }
+ option = { name = CAUC.0001.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } title:c_derbent = { remove_county_modifier = CAUC_pass_trade remove_county_modifier = CAUC_pass_guard remove_county_modifier = CAUC_pass_compact add_county_modifier = { modifier = CAUC_pass_compact years = 5 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0002 = {
  type = character_event
@@ -23,8 +25,10 @@ CAUC.0002 = {
  option = { name = CAUC.0002.a add_piety = 100 ai_chance = { base = 50 } }
  option = { name = CAUC.0002.b add_learning_lifestyle_xp = 150 ai_chance = { base = 50 } }
  option = { name = CAUC.0002.c title:c_lori = { change_county_control = 5 } ai_chance = { base = 50 } }
+immediate = { CAUC_scholar_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_scholar_speaker }
+ option = { name = CAUC.0002.d trigger = { gold >= 30 } remove_short_term_gold = 30 create_artifact = { name = CAUC_lori_book description = CAUC_lori_book_desc type = book visuals = book template = general_unique_template wealth = 25 quality = 25 modifier = CAUC_scholarly_book_modifier creator = scope:CAUC_scholar_speaker } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0003 = {
  type = character_event
@@ -36,8 +40,10 @@ CAUC.0003 = {
  option = { name = CAUC.0003.a title:c_svaneti = { change_county_control = 5 } ai_chance = { base = 50 } }
  option = { name = CAUC.0003.b trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_masons years = 3 } } ai_chance = { base = 50 } }
  option = { name = CAUC.0003.c add_prestige = 75 ai_chance = { base = 50 } }
+immediate = { CAUC_mason_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_mason_speaker }
+ option = { name = CAUC.0003.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0004 = {
  type = character_event
@@ -48,8 +54,10 @@ CAUC.0004 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_odishi title:c_odishi = { has_county_modifier = CAUC_gelati_learning } }
  option = { name = CAUC.0004.a add_learning_lifestyle_xp = 200 ai_chance = { base = 50 } }
  option = { name = CAUC.0004.b add_prestige = 100 ai_chance = { base = 50 } }
+immediate = { CAUC_scholar_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_scholar_speaker }
+ option = { name = CAUC.0004.d trigger = { gold >= 30 } remove_short_term_gold = 30 create_artifact = { name = CAUC_gelati_book description = CAUC_gelati_book_desc type = book visuals = book template = general_unique_template wealth = 25 quality = 25 modifier = CAUC_scholarly_book_modifier creator = scope:CAUC_scholar_speaker } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0010 = {
  type = character_event
@@ -60,8 +68,10 @@ CAUC.0010 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no }
  option = { name = CAUC.0010.a trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_derbent = { change_county_control = 2 } ai_chance = { base = 50 } }
  option = { name = CAUC.0010.b title:c_derbent = { change_county_control = -3 } ai_chance = { base = 50 } }
+immediate = { CAUC_overseer_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_overseer_speaker }
+ option = { name = CAUC.0010.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0011 = {
  type = character_event
@@ -72,8 +82,10 @@ CAUC.0011 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no title:c_derbent = { has_county_modifier = CAUC_pass_trade } }
  option = { name = CAUC.0011.a add_gold = 20 title:c_derbent = { change_county_control = -2 } ai_chance = { base = 50 } }
  option = { name = CAUC.0011.b add_prestige = 25 ai_chance = { base = 50 } }
+immediate = { CAUC_overseer_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_overseer_speaker }
+ option = { name = CAUC.0011.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0012 = {
  type = character_event
@@ -84,8 +96,10 @@ CAUC.0012 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no title:c_derbent = { has_county_modifier = CAUC_pass_guard } }
  option = { name = CAUC.0012.a trigger = { gold >= 20 } remove_short_term_gold = 20 title:c_derbent = { change_county_control = 3 } ai_chance = { base = 50 } }
  option = { name = CAUC.0012.b title:c_derbent = { change_county_control = -2 } ai_chance = { base = 50 } }
+immediate = { CAUC_overseer_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_overseer_speaker }
+ option = { name = CAUC.0012.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0013 = {
  type = character_event
@@ -96,8 +110,10 @@ CAUC.0013 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no title:c_derbent = { has_county_modifier = CAUC_pass_compact } }
  option = { name = CAUC.0013.a add_stress = 10 title:c_derbent = { change_county_control = 3 } ai_chance = { base = 50 } }
  option = { name = CAUC.0013.b trigger = { gold >= 20 } remove_short_term_gold = 20 ai_chance = { base = 50 } }
+immediate = { CAUC_overseer_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_overseer_speaker }
+ option = { name = CAUC.0013.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0014 = {
  type = character_event
@@ -108,8 +124,10 @@ CAUC.0014 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no }
  option = { name = CAUC.0014.a trigger = { gold >= 15 } remove_short_term_gold = 15 add_prestige = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0014.b add_gold = 5 ai_chance = { base = 50 } }
+immediate = { CAUC_overseer_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_overseer_speaker }
+ option = { name = CAUC.0014.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0015 = {
  type = character_event
@@ -120,8 +138,10 @@ CAUC.0015 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_derbent title:c_derbent = { has_county_modifier = CAUC_pass_restored } is_at_war = no }
  option = { name = CAUC.0015.a trigger = { gold >= 40 } remove_short_term_gold = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0015.b title:c_derbent = { add_county_modifier = { modifier = CAUC_pass_obstructed years = 2 } } ai_chance = { base = 50 } }
+immediate = { CAUC_overseer_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_overseer_speaker }
+ option = { name = CAUC.0015.d trigger = { NOT = { scope:CAUC_overseer_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_overseer_speaker scope:CAUC_overseer_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0020 = {
  type = character_event
@@ -132,8 +152,10 @@ CAUC.0020 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori title:c_lori = { has_county_modifier = CAUC_lori_learning } faith = { religion = religion:christianity_religion } is_at_war = no }
  option = { name = CAUC.0020.a trigger = { gold >= 20 } remove_short_term_gold = 20 add_piety = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0020.b add_learning_lifestyle_xp = 50 ai_chance = { base = 50 } }
+immediate = { CAUC_scholar_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_scholar_speaker }
+ option = { name = CAUC.0020.d trigger = { gold >= 30 } remove_short_term_gold = 30 create_artifact = { name = CAUC_lori_book description = CAUC_lori_book_desc type = book visuals = book template = general_unique_template wealth = 25 quality = 25 modifier = CAUC_scholarly_book_modifier creator = scope:CAUC_scholar_speaker } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0021 = {
  type = character_event
@@ -144,8 +166,10 @@ CAUC.0021 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori title:c_lori = { has_county_modifier = CAUC_lori_learning } faith = { religion = religion:christianity_religion } is_at_war = no }
  option = { name = CAUC.0021.a trigger = { gold >= 25 } remove_short_term_gold = 25 add_learning_lifestyle_xp = 100 ai_chance = { base = 50 } }
  option = { name = CAUC.0021.b add_piety = 20 ai_chance = { base = 50 } }
+immediate = { CAUC_scholar_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_scholar_speaker }
+ option = { name = CAUC.0021.d trigger = { gold >= 30 } remove_short_term_gold = 30 create_artifact = { name = CAUC_lori_book description = CAUC_lori_book_desc type = book visuals = book template = general_unique_template wealth = 25 quality = 25 modifier = CAUC_scholarly_book_modifier creator = scope:CAUC_scholar_speaker } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0022 = {
  type = character_event
@@ -156,8 +180,10 @@ CAUC.0022 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori title:c_lori = { has_county_modifier = CAUC_lori_learning } faith = { religion = religion:christianity_religion } is_at_war = no }
  option = { name = CAUC.0022.a add_stress = 10 add_learning_lifestyle_xp = 100 ai_chance = { base = 50 } }
  option = { name = CAUC.0022.b add_piety = 25 ai_chance = { base = 50 } }
+immediate = { CAUC_scholar_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_scholar_speaker }
+ option = { name = CAUC.0022.d trigger = { gold >= 30 } remove_short_term_gold = 30 create_artifact = { name = CAUC_lori_book description = CAUC_lori_book_desc type = book visuals = book template = general_unique_template wealth = 25 quality = 25 modifier = CAUC_scholarly_book_modifier creator = scope:CAUC_scholar_speaker } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0023 = {
  type = character_event
@@ -168,8 +194,10 @@ CAUC.0023 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori title:c_lori = { has_county_modifier = CAUC_lori_learning } faith = { religion = religion:christianity_religion } is_at_war = no }
  option = { name = CAUC.0023.a add_piety = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0023.b add_prestige = 40 ai_chance = { base = 50 } }
+immediate = { CAUC_scholar_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_scholar_speaker }
+ option = { name = CAUC.0023.d trigger = { gold >= 30 } remove_short_term_gold = 30 create_artifact = { name = CAUC_lori_book description = CAUC_lori_book_desc type = book visuals = book template = general_unique_template wealth = 25 quality = 25 modifier = CAUC_scholarly_book_modifier creator = scope:CAUC_scholar_speaker } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0024 = {
  type = character_event
@@ -180,8 +208,10 @@ CAUC.0024 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori title:c_lori = { has_county_modifier = CAUC_lori_learning } faith = { religion = religion:christianity_religion } is_at_war = no }
  option = { name = CAUC.0024.a trigger = { gold >= 30 } remove_short_term_gold = 30 add_piety = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0024.b title:c_lori = { change_county_control = -2 } ai_chance = { base = 50 } }
+immediate = { CAUC_scholar_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_scholar_speaker }
+ option = { name = CAUC.0024.d trigger = { gold >= 30 } remove_short_term_gold = 30 create_artifact = { name = CAUC_lori_book description = CAUC_lori_book_desc type = book visuals = book template = general_unique_template wealth = 25 quality = 25 modifier = CAUC_scholarly_book_modifier creator = scope:CAUC_scholar_speaker } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0025 = {
  type = character_event
@@ -192,8 +222,10 @@ CAUC.0025 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_lori title:c_lori = { has_county_modifier = CAUC_lori_learning } faith = { religion = religion:christianity_religion } is_at_war = no }
  option = { name = CAUC.0025.a add_stress = 10 add_learning_lifestyle_xp = 125 ai_chance = { base = 50 } }
  option = { name = CAUC.0025.b add_prestige = 40 ai_chance = { base = 50 } }
+immediate = { CAUC_scholar_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_scholar_speaker }
+ option = { name = CAUC.0025.d trigger = { gold >= 30 } remove_short_term_gold = 30 create_artifact = { name = CAUC_lori_book description = CAUC_lori_book_desc type = book visuals = book template = general_unique_template wealth = 25 quality = 25 modifier = CAUC_scholarly_book_modifier creator = scope:CAUC_scholar_speaker } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0030 = {
  type = character_event
@@ -204,8 +236,10 @@ CAUC.0030 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
  option = { name = CAUC.0030.a add_stress = 10 title:c_svaneti = { change_county_control = 3 } ai_chance = { base = 50 } }
  option = { name = CAUC.0030.b trigger = { gold >= 20 } remove_short_term_gold = 20 ai_chance = { base = 50 } }
+immediate = { CAUC_mason_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_mason_speaker }
+ option = { name = CAUC.0030.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0031 = {
  type = character_event
@@ -216,8 +250,10 @@ CAUC.0031 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
  option = { name = CAUC.0031.a trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_masons years = 2 } } ai_chance = { base = 50 } }
  option = { name = CAUC.0031.b add_prestige = 20 ai_chance = { base = 50 } }
+immediate = { CAUC_mason_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_mason_speaker }
+ option = { name = CAUC.0031.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0032 = {
  type = character_event
@@ -228,8 +264,10 @@ CAUC.0032 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
  option = { name = CAUC.0032.a title:c_svaneti = { change_county_control = 2 } ai_chance = { base = 50 } }
  option = { name = CAUC.0032.b trigger = { gold >= 20 } remove_short_term_gold = 20 title:c_svaneti = { add_county_modifier = { modifier = CAUC_svan_masons years = 2 } } ai_chance = { base = 50 } }
+immediate = { CAUC_mason_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_mason_speaker }
+ option = { name = CAUC.0032.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0033 = {
  type = character_event
@@ -240,8 +278,10 @@ CAUC.0033 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
  option = { name = CAUC.0033.a add_stress = 10 title:c_svaneti = { change_county_control = 4 } ai_chance = { base = 50 } }
  option = { name = CAUC.0033.b trigger = { gold >= 15 } remove_short_term_gold = 15 add_prestige = 25 ai_chance = { base = 50 } }
+immediate = { CAUC_mason_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_mason_speaker }
+ option = { name = CAUC.0033.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0034 = {
  type = character_event
@@ -252,8 +292,10 @@ CAUC.0034 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
  option = { name = CAUC.0034.a trigger = { gold >= 15 } remove_short_term_gold = 15 add_prestige = 40 ai_chance = { base = 50 } }
  option = { name = CAUC.0034.b title:c_svaneti = { change_county_control = -2 } ai_chance = { base = 50 } }
+immediate = { CAUC_mason_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_mason_speaker }
+ option = { name = CAUC.0034.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }
-
 
 CAUC.0035 = {
  type = character_event
@@ -264,4 +306,7 @@ CAUC.0035 = {
  trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_svaneti title:c_svaneti = { has_county_modifier = CAUC_svan_towers } is_at_war = no }
  option = { name = CAUC.0035.a trigger = { gold >= 25 } remove_short_term_gold = 25 title:c_svaneti = { change_county_control = 3 } ai_chance = { base = 50 } }
  option = { name = CAUC.0035.b add_prestige = 15 ai_chance = { base = 50 } }
+immediate = { CAUC_mason_speaker_effect = yes }
+right_portrait = { character = scope:CAUC_mason_speaker }
+ option = { name = CAUC.0035.d trigger = { NOT = { scope:CAUC_mason_speaker = { is_courtier_of = root } } } add_courtier = scope:CAUC_mason_speaker scope:CAUC_mason_speaker = { add_opinion = { modifier = friendliness_opinion target = root opinion = 25 years = 10 } } ai_chance = { base = 30 } }
 }

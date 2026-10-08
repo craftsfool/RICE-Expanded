@@ -6,7 +6,7 @@
  confirm_text = CAUC_derbent_guards_decision_confirm
  ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
  cooldown = { years = 10 }
- is_shown = { is_landed = yes has_title = title:c_derbent faith = { religion = religion:islam_religion } current_date < 1200.1.1 }
+ is_shown = { is_landed = yes has_title = title:c_derbent current_date < 1200.1.1 }
  is_valid = { NOT = { has_character_flag = CAUC_derbent_guards_active } NOT = { title:c_derbent = { has_county_modifier = CAUC_rus_protected } } NOT = { title:c_derbent = { has_county_modifier = CAUC_rus_instructed } } NOT = { title:c_derbent = { has_county_modifier = CAUC_rus_dismissed } } }
  is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
  cost = { gold = 75 }

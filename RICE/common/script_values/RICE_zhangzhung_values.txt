@@ -1,5 +1,10 @@
-﻿
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
 RICE_losar_gift_amount = 50
+
+
 
 RICE_bon_deity_decision_cost = {
 	value = massive_piety_value
@@ -11,6 +16,8 @@ RICE_bon_deity_decision_cost = {
 		multiply = 0
 	}
 }
+
+
 
 RICE_himalayan_salt_expedition_success_chance = {
 	value = 25
@@ -132,15 +139,21 @@ RICE_himalayan_salt_expedition_success_chance = {
 	min = 10
 }
 
+
+
 RICE_himalayan_salt_expedition_success_chance_small_piety_boost_value = {
 	value = RICE_himalayan_salt_expedition_success_chance
 	add = 5
 }
 
+
+
 RICE_himalayan_salt_expedition_success_chance_large_piety_boost_value = {
 	value = RICE_himalayan_salt_expedition_success_chance
 	add = 10
 }
+
+
 
 
 RICE_himalayan_salt_expedition_min_gold_gain_value = {
@@ -179,6 +192,8 @@ RICE_himalayan_salt_expedition_min_gold_gain_value = {
 	}
 }
 
+
+
 RICE_himalayan_salt_expedition_max_gold_gain_value = {
 	value = 0
 	if = {
@@ -209,6 +224,8 @@ RICE_himalayan_salt_expedition_max_gold_gain_value = {
 	}
 }
 
+
+
 RICE_himalayan_salt_expedition_max_gold_display_value = {
 	value = 200
 	if = {
@@ -220,6 +237,8 @@ RICE_himalayan_salt_expedition_max_gold_display_value = {
 		multiply = 1.25
 	}
 }
+
+
 
 
 RICE_himalayan_salt_decision_cost_value = {
@@ -234,9 +253,13 @@ RICE_himalayan_salt_decision_cost_value = {
 	}
 }
 
+
+
 RICE_himalayan_salt_expedition_min_prestige_gain_value = {
 	value = 1
 }
+
+
 
 RICE_himalayan_salt_expedition_max_prestige_gain_value = {
 	value = minor_prestige_gain
@@ -254,14 +277,20 @@ RICE_himalayan_salt_expedition_max_prestige_gain_value = {
 	}
 }
 
+
+
 RICE_himalayan_salt_expedition_max_prestige_display_value = {
 	value = minor_prestige_gain
 	multiply = 1.5
 }
 
+
+
 RICE_zhangzhung_kinnaur_flower_festival_dynasty_prestige_gain = {
 	value = minor_dynasty_prestige_value
 }
+
+
 
 RICE_zhangzhung_kinnaur_flower_festival_oracle_chance_low = {
 	value = 20
@@ -273,6 +302,8 @@ RICE_zhangzhung_kinnaur_flower_festival_oracle_chance_low = {
 	}
 }
 
+
+
 RICE_zhangzhung_kinnaur_flower_festival_oracle_chance_medium = {
 	value = 40
 	if = {
@@ -282,6 +313,8 @@ RICE_zhangzhung_kinnaur_flower_festival_oracle_chance_medium = {
 		add = 10
 	}
 }
+
+
 
 RICE_zhangzhung_kinnaur_flower_festival_oracle_chance_high = {
 	value = 60
@@ -297,21 +330,31 @@ RICE_zhangzhung_kinnaur_flower_festival_oracle_chance_high = {
 # 	value = 25
 # }
 
+
+
 RICE_yearly_minor_terma_min_piety = {
 	value = 1
 }
+
+
 
 RICE_yearly_minor_terma_max_piety = {
 	value = minor_piety_gain
 }
 
+
+
 RICE_yearly_minor_terma_min_prestige = {
 	value = 1
 }
 
+
+
 RICE_yearly_minor_terma_max_prestige = {
 	value = minor_prestige_gain
 }
+
+
 
 RICE_yearly_terma_chance = {
 	value = 10 # 99 # 5
@@ -376,6 +419,8 @@ RICE_yearly_terma_chance = {
 	}
 	max = 35 # 99 # 25
 }
+
+
 
 RICE_yearly_terma_self_chance = {
 	value = 15 # 99 # 5
@@ -447,6 +492,8 @@ RICE_yearly_terma_self_chance = {
 	max = 35 # 99 # 25
 }
 
+
+
 RICE_yearly_minor_terma_chance = {
 	value = 20 # 99 # 25
 	every_courtier = {
@@ -505,6 +552,8 @@ RICE_yearly_minor_terma_chance = {
 	max = 50 # 99 # 50
 }
 
+
+
 RICE_yearly_minor_terma_self_chance = {
 	value = 20 # 99 # 20
 	# if = {
@@ -559,12 +608,25 @@ RICE_yearly_minor_terma_self_chance = {
 }
 
 
+
+
 RICE_glacier_marriage_base_piety_small = 100
-RICE_glacier_marriage_base_prestige_small = 100
+
+
+RICE_glacier_marriage_base_prestige_small = 50
+
+
 RICE_glacier_marriage_base_piety_medium = 200
-RICE_glacier_marriage_base_prestige_medium = 200
+
+
+RICE_glacier_marriage_base_prestige_medium = 100
+
+
 RICE_glacier_marriage_base_piety_large = 300
-RICE_glacier_marriage_base_prestige_large = 300
+
+
+RICE_glacier_marriage_base_prestige_large = 200
+
 
 
 
@@ -583,19 +645,21 @@ RICE_buddhist_deity_decision_cost = {
 }
 
 
-RICE_glacier_marriage_base_piety_small = 100
-RICE_glacier_marriage_base_prestige_small = 50
-RICE_glacier_marriage_base_piety_medium = 200
-RICE_glacier_marriage_base_prestige_medium = 100
-RICE_glacier_marriage_base_piety_large = 300
-RICE_glacier_marriage_base_prestige_large = 200
 
 
 RICE_zhangzhung_kinnaur_flower_festival_base_piety_small = 50
+
+
 RICE_zhangzhung_kinnaur_flower_festival_base_prestige_small = 50
+
+
 RICE_zhangzhung_kinnaur_flower_festival_base_piety_medium = 100
+
+
 RICE_zhangzhung_kinnaur_flower_festival_base_prestige_medium = 100
+
+
 RICE_zhangzhung_kinnaur_flower_festival_base_piety_large = 200
+
+
 RICE_zhangzhung_kinnaur_flower_festival_base_prestige_large = 200
-
-

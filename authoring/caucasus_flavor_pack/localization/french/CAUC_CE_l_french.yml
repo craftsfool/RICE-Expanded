@@ -75,7 +75,7 @@
  CAUC_CE.0025.a:0 "Que nos voisins reconnaissent cette nouvelle couronne."
  CAUC_CE.0025.desc:0 "Depuis des générations, des souverains venus d’au-delà de ces montagnes se disputent les terres entre la mer Noire et la Caspienne. J’ai réuni le cœur de la Transcaucasie sous mon autorité. Mes successeurs hériteront d’un empire avec sa propre couronne et ses obligations, sous le regard attentif des puissances qui bordent nos frontières."
  CAUC_CE.0025.t:0 "Un empire à nous"
- CAUC_establish_transcaucasia_decision:0 "Établir la Transcaucasie"
+ CAUC_establish_transcaucasia_decision:0 "Fonder l’Empire transcaucasien"
  CAUC_establish_transcaucasia_decision_confirm:0 "Établir la couronne impériale"
  CAUC_establish_transcaucasia_decision_desc:0 "Je contrôle le cœur de la Transcaucasie et peux établir ma propre couronne impériale. Mon pays revendiquera sa place aux côtés des empires dont les souverains se sont disputé ces terres. La nouvelle couronne apportera des obligations à mes successeurs et des rivaux à nos frontières."
  CAUC_establish_transcaucasia_decision_tooltip:0 "La Transcaucasie devient un [empire|E] [de_jure|E]"

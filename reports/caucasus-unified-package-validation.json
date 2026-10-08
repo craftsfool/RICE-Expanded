@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "profiles": {
+    "unified_standalone": {
+      "errors": [],
+      "layers": [
+        "game",
+        "RICE"
+      ],
+      "cultures_checked": 8,
+      "character_corrections_checked": 65,
+      "english_keys": 878
+    },
+    "unified_ce_overlay": {
+      "errors": [],
+      "layers": [
+        "game",
+        "2507209632",
+        "2829397295",
+        "RICE"
+      ],
+      "cultures_checked": 8,
+      "character_corrections_checked": 65,
+      "english_keys": 878
+    }
+  },
+  "counts": {
+    "decisions": 11,
+    "events": 42,
+    "imported_cultures": 8,
+    "english_keys": 878
+  },
+  "behavior_checks": [
+    "each passage choice leaves one county policy",
+    "policy effects target county scope",
+    "review cost is charged once",
+    "10-year repair/5-year policy expiry",
+    "Gelati threshold: 1106-01-01",
+    "all paid annual options gate their costs"
+  ],
+  "limitations": [
+    "No CK3 process was started. This validates file overlays, references, selected source preservation and a script-subset behavior model, not engine scopes or UI rendering.",
+    "The unified package is self-contained and uses native appearance fallbacks; CE/EPE are optional. Legacy preset checks remain available for old releases.",
+    "CE compatibility overlay is for the fingerprinted local CE source; unrelated CE 1.20 issues remain outside this pack.",
+    "Exact historical distribution corrections follow CE and are optional; copying does not independently authenticate CE historical claims."
+  ]
+}

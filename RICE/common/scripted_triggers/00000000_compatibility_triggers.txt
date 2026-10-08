@@ -30,3 +30,5 @@ ME_is_loaded = {
 }
 
 
+
+CE_is_loaded = { always = no }

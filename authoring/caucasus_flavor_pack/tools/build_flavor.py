@@ -135,7 +135,7 @@ CAUC_regional_yearly_pulse = {
  for n in [x[0] for x in E+S+T]:pulse+='  10 = CAUC.'+n+'\n'
  pulse+=' }\n}\n'
  write(ROOT/'common/on_action/CAUC_on_actions.txt',pulse)
- write(ROOT/'common/scripted_triggers/CAUC_compatibility_triggers.txt','CAUC_ce_present_trigger = { always = no }')
+ write(ROOT/'common/scripted_triggers/CAUC_compatibility_triggers.txt','CAUC_ce_present_trigger = { CE_is_loaded = yes }')
  write(ROOT/'common/game_rules/CAUC_game_rules.txt','''CAUC_ce_setup = {
  categories = { RICE setup flavor }
  default = CAUC_ce_setup_on

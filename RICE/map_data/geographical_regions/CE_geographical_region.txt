@@ -1,0 +1,2297 @@
+﻿# Culture Expanded geography used by built-in compatibility.
+# Geographical regions
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+custom_core_franconia = {
+	duchies = {
+		#k_east_francia
+		d_east_franconia d_west_franconia d_hesse d_thuringia
+	}
+}
+
+custom_core_swabia = {
+	duchies = {
+		#k_swabia
+		d_currezia d_alsace d_swabia d_augsburg
+	}
+}
+
+custom_core_portucale = {
+	duchies = {
+		#k_portugal original borders
+		d_porto
+	}
+}
+
+custom_grand_saxony = {
+	duchies = {
+		#Saxony
+		d_anhalt d_angria d_westfalen d_ostfalen d_meissen d_lausitz d_holstein 
+	}
+}
+
+custom_saxony = {
+	duchies = {
+		#Saxony
+		d_anhalt d_angria d_westfalen d_ostfalen d_holstein 
+	}
+}
+
+ce_custom_wendia_germania = {
+	duchies = {
+		#Silesia-Lausitz
+		d_lower_silesia
+		
+		#Brandenburg-Neumark
+		d_ostmark
+		
+		#Mecklenburg-Pommerania
+		d_nordmark
+	}
+	counties = {
+		#Silesia-Lausitz
+		c_brzeg c_nysa c_opava
+		
+		#Saxony-Thuringia
+		c_juterbog c_lobdaburg c_orlamunde c_mersenburg c_dessau c_vogtland c_naumburg c_wolkenstein c_osterland c_dresden c_meissen c_brene c_wittenberg
+		
+		#Brandenburg-Neumark
+		c_magdeburg c_stendal c_lubusz c_soldin c_landsberg
+		
+		#Mecklenburg-Pommerania
+		c_lubeck c_stettin c_kolobrzeg c_cammin c_miastko c_slupsk
+	}
+}
+
+ce_strathclyde = {
+	duchies = {
+		d_galloway
+	}
+	counties = {
+		c_lanarkshire c_cumberland c_westmorland
+	}
+}
+
+ce_northern_britain = {
+	duchies = {
+		d_galloway d_lothian d_northumberland d_lancaster
+	}
+	counties = {
+		c_north_riding c_west_riding c_east_riding c_nottinghamshire
+	}
+}
+
+ce_custom_wendia = {
+	duchies = {
+		#Wendia
+		d_meissen d_lausitz d_ostmark d_nordmark
+		
+	}
+	counties = {
+		#Wendia
+		c_soldin c_lubusz c_mersenburg c_dessau c_magdeburg c_stendal c_dannenberg c_lubeck c_lobdaburg
+		
+	}
+}
+
+ce_custom_estphalia_saxonia = {
+	counties = {
+		c_stendal c_dannenberg c_lubeck
+		
+	}
+}
+
+ce_custom_pomoria = {
+	duchies = {
+		#Mecklenburg-Pommerania
+		d_nordmark
+	}
+	counties = {
+		#Mecklenburg-Pommerania
+		c_stettin c_kolobrzeg c_cammin c_miastko c_slupsk
+	}
+}
+
+ce_custom_margravia = {
+	duchies = {
+		#Brandenburg-Neumark
+		d_ostmark
+	}
+	counties = {
+		#Brandenburg-Neumark
+		c_magdeburg c_lubusz c_soldin c_landsberg
+	}
+}
+
+ce_custom_upper_saxonia = {
+	counties = {
+		#Saxony-Thuringia
+		c_juterbog c_lobdaburg c_orlamunde c_mersenburg c_dessau c_vogtland c_naumburg c_wolkenstein c_osterland c_dresden c_meissen c_brene c_wittenberg
+	}
+}
+
+ce_custom_german_silesia = {
+	duchies = {
+		#Silesia-Lausitz
+		d_lower_silesia
+	}
+	counties = {
+		#Silesia-Lausitz
+		c_brzeg c_nysa c_opava
+	}
+}
+
+custom_avaria = { 
+	duchies = { 
+		#Hungary (Pannonia)
+		d_visegrad d_somogy d_nyitra d_ungvar d_transcarpathia d_transylvania d_bihar d_temes d_bacs d_gyor d_syrmia
+		#Dacia
+		d_transylvanian_alps d_muntenia d_oltenia 
+		#Moldavia
+		d_bukovina d_moldova d_bugeac
+		# k_pontic_steppe
+		d_yedisan d_levedia d_don_valley d_crimea
+		#k_bavaria (Avar Controlled)
+		d_osterreich d_steyermark d_krain
+		# Avar Bohemia
+		d_bohemia d_moravia 
+		#Avar Croatia
+		d_slavonia d_lower_bosna
+	}
+}
+
+custom_yemen = {
+	duchies = {
+		d_sanaa d_jawf-al-yamani d_taizz d_hadramawt d_mahra d_socotra
+	}
+}
+
+custom_persian_gulf = {
+	duchies = {
+		d_oman d_bahrain d_al-hasa 
+	}
+}
+
+custom_persian_caucasus = {
+	duchies = {
+		#Iberia
+		d_tao-klarjeti d_georgia
+		#Armenia
+		d_mesopotamia d_vaspurakan d_greater_armenia
+	}
+}
+
+custom_egypt = {
+	duchies = {
+		d_alexandria d_delta d_cairo d_al-said d_sinai
+	}
+}
+
+special_seljuk_empire_start_region = {
+	duchies = {
+		d_merv d_nasa d_herat d_nishapur d_gurgan d_ghur
+	}
+}
+
+special_seljuk_empire_cb_extent = {
+	duchies = {
+		d_opsikion d_ephese d_thracesia d_optimatoi d_bucellaria d_cilicia d_cibyrrhaeot d_anatolia d_cappadocia d_charsianon d_paphlagonia d_armeniac d_sebasteia d_chaldia d_mesopotamia d_vaspurakan d_greater_armenia d_tao-klarjeti d_abkhazia d_georgia d_isfahan	d_kirman d_yazd d_rayy d_hamadan d_fars d_hormuz d_khuzestan d_kermanshah d_nishapur d_merv d_ghur d_herat d_balkh d_nasa d_kohestan d_daylam d_tabaristan d_gurgan d_azerbaijan d_shirvan d_makran d_jabal_kufs d_sistan d_kabul d_zabulistan d_samarra d_wasit d_kufa d_basra	d_baghdad d_diyarrabia d_diyarmudar d_diyarbakr d_euphrates d_kurdistan
+	}
+}
+
+special_seljuk_empire_borderlands = {
+	duchies = {
+		d_diyarrabia d_diyarmudar d_euphrates d_daylam d_tabaristan d_gurgan d_azerbaijan d_samarra d_kurdistan d_wasit d_kufa d_basra d_baghdad d_isfahan d_kirman d_yazd d_rayy d_hamadan d_fars d_hormuz d_khuzestan d_kermanshah 
+	}
+}
+
+wendish_empire = {
+	# Wendish Lands
+	duchies = {
+		d_mazovia d_upper_silesia d_lower_silesia d_lesser_poland d_wielkopolska d_kuyavia d_livonia d_prussia d_masuria d_grodno d_pinsk d_minsk d_polotsk d_smolensk d_lithuanians d_courland d_latgalians d_samogitia d_pommerania d_nordmark d_pomerelia d_ostmark
+	}
+}
+
+custom_samos_empire = {
+	duchies = {
+		d_nyitra d_moravia d_osterreich d_meissen d_lausitz d_steyermark d_upper_silesia d_gyor d_somogy d_bohemia 
+	}
+	counties = {
+		c_esztergom c_komarom c_szekesfehervar
+	}
+}
+
+custom_aquitaine_full = {
+	duchies = {
+		d_languedoc d_toulouse d_auvergne d_armagnac d_gascogne d_aquitaine d_poitou d_bourbon d_barcelona
+	}
+}
+
+custom_aquitaine = {
+	duchies = {
+		d_languedoc d_toulouse d_auvergne d_armagnac d_gascogne d_aquitaine d_poitou d_bourbon
+	}
+}
+
+custom_frisia01 = {
+	duchies = {
+		d_holland d_frisia d_utrecht d_gelre
+	}
+}
+
+ce_custom_illyria = {
+	duchies = {
+		# Croatia
+		d_dalmatia d_croatia d_slavonia d_lower_bosna d_bosna d_usora d_ragusa d_istria
+		# Slovenia
+		d_krain
+		# Serbia
+		d_syrmia d_macva d_rashka d_duklja d_vidin
+		#Pannonia
+		d_somogy d_gyor d_steyermark d_carinthia
+	}
+	counties = {
+		#Visegrad
+		c_szekesfehervar c_esztergom c_komarom c_visegrad
+	}
+}
+
+ce_custom_royal_croatia = {
+	duchies = {
+		d_istria d_croatia d_dalmatia d_lower_bosna d_bosna d_usora d_ragusa d_slavonia d_syrmia
+	}
+}
+
+ce_custom_royal_serbia = {
+	duchies = {
+		d_syrmia d_macva d_vidin d_rashka d_duklja d_ragusa
+	}
+	counties = {
+		c_vhrbosna c_rama c_usora c_soli c_pomoravlje c_naissus c_zelengora c_zachlumia
+	}
+}
+
+ce_custom_bosnia = {
+	duchies = {
+		d_lower_bosna d_bosna d_usora
+	}
+}
+
+ce_custom_serbo_croatia = {
+	duchies = {
+		# Crotia
+		d_slavonia d_croatia d_lower_bosna d_bosna d_usora d_dalmatia d_ragusa
+		# Serbia
+		d_duklja d_rashka d_macva d_syrmia
+	}
+}
+
+ce_custom_transdanubia = {
+	duchies = {
+		# Transdanubia
+		d_somogy d_gyor
+	}
+	counties = {
+		#Visegrad
+		c_szekesfehervar c_esztergom c_komarom 
+	}
+}
+
+ce_custom_roman_pannonia = {
+	duchies = {
+		# Transdanubia
+		d_somogy d_gyor
+		#Slavonia
+		d_slavonia d_syrmia
+	}
+	counties = {
+		#Visegrad
+		c_szekesfehervar c_esztergom c_komarom 
+		#Slavonia
+		c_vrbas c_vodica
+	}
+}
+
+ce_custom_england = {
+	duchies = {
+		# England
+		d_somerset d_gloucester d_canterbury d_bedford d_norfolk d_hereford d_lancaster d_york
+	}
+}
+
+ce_custom_poland = {
+	duchies = {
+		# Poland Minus Pomoria
+		d_wielkopolska d_kuyavia d_mazovia d_lesser_poland d_cherven_cities d_lower_silesia d_upper_silesia
+	}
+	counties = {
+		#Opava
+		c_opava
+	}
+}
+
+ce_special_russian_culture_region = {
+	duchies = {
+		# Poland-Volhynia
+		d_kuyavia d_lesser_poland d_mazovia d_cherven_cities d_volhynia d_halych d_upper_silesia d_lower_silesia d_wielkopolska
+		# Baltics
+		d_masuria d_prussia d_lithuanians d_samogitia d_courland d_latgalians d_livonia d_esthonia
+		# Moldavia
+		d_bukovina d_moldova d_bugeac
+		# Ruthenia
+		d_kiev d_turov d_pereyaslavl d_chernigov d_karachev d_novosil
+		# White Ruthenia
+		d_pinsk d_grodno d_minsk d_smolensk d_polotsk
+		# Novgorod
+		d_novgorod d_luki d_vepsia
+		# Vladimir
+		d_ryazan d_opolye d_nizhny_novgorod d_voronezh d_khopyor
+		# Zaporizhia
+		d_yedisan d_levedia d_crimea d_don_valley d_azov
+	}
+}
+
+ce_custom_wallachia = {
+	duchies = {
+		# Wallachia
+		d_transylvanian_alps d_muntenia d_oltenia 
+	}
+}
+
+ce_custom_moldavia = {
+	duchies = {
+		#Moldavia
+		d_bukovina d_moldova d_bugeac
+	}
+}
+
+ce_custom_toledo = {
+	provinces = { 
+		1919
+	}
+}
+
+ce_custom_damascus = {
+	provinces = { 
+		5924
+	}
+}
+
+ce_nile_river = {
+	duchies = {
+		# Egypt
+		d_delta d_cairo d_al-said
+		# Nubia
+		d_nobatia
+	}
+	counties = {
+		c_sai c_dongola c_meroe c_shamir c_kurgus c_atbara c_abwab c_alodia c_ushara
+	}
+}
+
+ce_dzukija = {
+	provinces = { 
+		166 162 160 155 154 153
+	}
+}
+
+ce_byzantine_frontier = {
+	duchies = {
+		# 867 to 1066 Border
+		d_cilicia d_sebasteia d_chaldia d_mesopotamia d_antioch d_edessa d_diyarbakr d_vaspurakan d_greater_armenia
+	}
+}
+
+ce_southern_andalusia = {
+	duchies = {
+		# Southern Andalusia
+		d_sevilla d_cordoba d_granada
+	}
+}
+
+ce_northern_iberia = {
+	duchies = {
+		# Christian Iberia
+		d_galicia d_porto d_leon d_asturias d_cantabria d_castilla d_viscaya d_navarra
+	}
+}
+
+ce_island_of_sicily = {
+	duchies = {
+		# Island of Sicily
+		d_sicily
+	}
+}
+
+ce_khwarazm_region = {
+	duchies = {
+		# Chorasmia
+		d_khorezm d_uzboy
+	}
+}
+
+custom_transcaucasia = {
+	duchies = {
+		#Georgia
+		d_tao-klarjeti d_georgia d_abkhazia
+		#Armenia
+		d_mesopotamia d_vaspurakan d_greater_armenia
+		#Shirvan
+		d_shirvan
+	}
+}
+
+ce_pengwern = {
+	counties = {
+		c_maldwyn c_sir_faesyfed c_shropshire c_hereford c_worcestershire
+	}	
+}
+
+ce_talish = {
+	counties = {
+		c_talish c_ardabil c_mugan
+	}	
+}
+
+### Cultural Regions - Used for conversion in a way that permits an easier degree of compatibility ###
+
+ce_anglish_867_northumbrian_region = {
+	counties = {
+		c_west_riding c_east_riding c_lancashire c_north_riding c_durham c_northumberland c_teviotdale c_dunbar c_lothian c_linlithgowshire c_cheshire
+	}	
+}
+
+ce_anglish_867_mercian_region = {
+	counties = {
+		c_buckinghamshire c_oxfordshire c_gloucestershire c_hereford c_northamptonshire c_warwickshire c_worcestershire c_hertfordshire c_lincolnshire c_nottinghamshire c_derby c_staffordshire c_leicestershire
+	}	
+}
+
+ce_anglish_867_east_anglian_region = {
+	counties = {
+		c_suffolk c_norfolk
+	}	
+}
+
+ce_anglish_867_east_saxon_region = {
+	counties = {
+		c_essex c_middlesex
+	}	
+}
+
+ce_anglish_867_west_saxon_region = {
+	counties = {
+		c_dorset c_somerset c_wiltshire c_hampton c_berkshire c_isle_of_wight c_surrey
+	}	
+}
+
+ce_anglish_867_south_saxon_region = {
+	counties = {
+		c_sussex
+	}	
+}
+
+ce_anglish_867_kentish_region = {
+	counties = {
+		c_kent
+	}	
+}
+
+ce_arpitan_1066_arpitan_ce_region = {
+	counties = {
+		c_besancon c_dole c_bresse c_lyon c_forez c_geneva c_aosta c_savoie c_viennois c_neuchatel
+	}	
+}
+
+ce_balkans_867_vlach_region = {
+	counties = {
+		c_hunyad c_feher c_fogaras c_barcasag c_szekelyfold c_torda c_neamnt c_suceava c_rhodopes
+	}	
+}
+
+ce_balkans_867_bavarian_region = {
+	counties = {
+		c_pitten
+	}	
+}
+
+ce_balkans_867_blatno_slavic_region = {
+	counties = {
+		c_tolna c_szekesfehervar c_somogy c_veszprem c_visegrad c_baranya
+	}	
+}
+
+ce_balkans_867_dudlebian_region = {
+	counties = {
+		c_vas c_kolon
+	}	
+}
+
+ce_balkans_867_nitravan_region = {
+	counties = {
+		c_poszony c_nyitra c_komarom c_esztergom c_hont c_zolyom c_bars c_trenscen c_lipto c_orava c_gemer
+	}	
+}
+
+ce_balkans_867_abotrite_region = {
+	counties = {
+		c_krasso c_keve c_szerem c_bacs
+	}	
+}
+
+ce_balkans_867_severian_region = {
+	counties = {
+		c_severin
+	}	
+}
+
+ce_balkans_867_slavonian_region = {
+	counties = {
+		c_zagorje c_vukovar c_pozega c_zagreb c_vodica c_vrbas
+	}	
+}
+
+ce_balkans_867_branichian_region = {
+	counties = {
+		c_branicevo c_beograd
+	}	
+}
+
+ce_balkans_867_neretljanian_region = {
+	counties = {
+		c_pagania
+	}	
+}
+
+ce_balkans_867_zachlumian_region = {
+	counties = {
+		c_zachlumia c_zelengora
+	}	
+}
+
+ce_balkans_867_doclean_region = {
+	counties = {
+		c_pomorje c_duklja
+	}	
+}
+
+ce_balkans_867_travunian_region = {
+	counties = {
+		c_travunia
+	}	
+}
+
+ce_balkans_867_avar_region = {
+	counties = {
+		c_hewes
+	}	
+}
+
+ce_balkans_867_carantanian_region = {
+	counties = {
+		c_sopron c_gyor
+	}	
+}
+
+ce_balkans_867_croatian_region = {
+	counties = {
+		c_zavrsje c_donjikraji c_pset
+	}	
+}
+
+ce_balkans_867_serbian_region = {
+	counties = {
+		c_rama c_vhrbosna
+	}	
+}
+
+ce_balkans_867_bulgarian_region = {
+	counties = {
+		c_braila c_buzau c_calarasi c_bucuresti c_giurgiu c_burgas c_beroe c_philippopolis
+	}	
+}
+
+ce_balkans_867_belocroat_region = {
+	counties = {
+		c_saris c_abauj c_zemplen c_ungvar c_bereg c_marmaros c_halych c_spis c_borsod
+	}	
+}
+
+ce_balkans_1066_nitravan_region = {
+	counties = {
+		c_poszony c_nyitra c_hont c_zolyom c_bars c_trenscen c_lipto c_orava c_gemer c_borsod c_abauj c_spis
+	}	
+}
+
+ce_balkans_1066_slovien_region = {
+	counties = {
+		c_znojmo c_prerov c_olomouc c_brno c_jihlava
+	}	
+}
+
+ce_balkans_1066_croatian_region = {
+	counties = {
+		c_vodica c_pset c_vrbas c_zavrsje c_donjikraji c_pagania
+	}	
+}
+
+ce_balkans_1066_serbian_region = {
+	counties = {
+		c_vhrbosna c_soli c_rama c_usora c_branicevo
+	}	
+}
+
+ce_balkans_1066_vlach_region = {
+	counties = {
+		c_hunyad c_feher c_fogaras c_barcasag c_avlonas c_aetolia c_thessaliotis c_thessalia c_neopatras c_rhodopes c_suceava c_dorohoi c_iasi c_krasso
+	}	
+}
+
+ce_balkans_1066_bulgarian_region = {
+	counties = {
+		c_philippopolis c_vidin
+	}	
+}
+
+ce_balkans_1066_pecheneg_region = {
+	counties = {
+		c_cetatea_alba c_chilia c_lapusna c_orhei c_soroca c_tigheci
+	}	
+}
+
+ce_balkans_1066_slavonian_region = {
+	counties = {
+		c_zagorje c_vukovar c_pozega c_zagreb c_vrbas c_szerem c_keve
+	}	
+}
+
+ce_balkans_1066_belocroat_region = {
+	counties = {
+		c_saris c_zemplen c_ungvar c_bereg c_marmaros
+	}	
+}
+
+ce_balkans_1066_mogyer_region = {
+	counties = {
+		c_keve
+	}	
+}
+
+ce_baltic_867_livonian_region = {
+	counties = {
+		c_vidzeme c_talava c_vanemane
+	}	
+}
+
+ce_baltic_867_curonian_region = {
+	counties = {
+		c_grobin c_palanga c_memel
+	}	
+}
+
+ce_baltic_867_galindian_region = {
+	counties = {
+		c_allenstein c_osterode
+	}	
+}
+
+ce_baltic_867_goliad_region = {
+	counties = {
+		c_mozhaysk
+	}	
+}
+
+ce_baltic_867_zemgalian_region = {
+	counties = {
+		c_zemigalians
+	}	
+}
+
+ce_baltic_867_selonian_region = {
+	counties = {
+		c_selpils
+	}	
+}
+
+ce_baltic_867_latgalian_region = {
+	counties = {
+		c_kokenois
+	}	
+}
+
+ce_baltic_867_sudovian_region = {
+	counties = {
+		c_yatvyagi c_angerburg c_lomzynska c_volkovysk
+	}	
+}
+
+ce_baltic_867_ingrian_region = {
+	counties = {
+		c_vodi
+	}	
+}
+
+ce_baltic_1066_livonian_region = {
+	counties = {
+		c_vidzeme c_vanemane
+	}	
+}
+
+ce_baltic_1066_curonian_region = {
+	counties = {
+		c_grobin c_palanga c_memel
+	}	
+}
+
+ce_baltic_1066_latgalian_region = {
+	counties = {
+		c_talava c_kokenois
+	}	
+}
+
+ce_baltic_1066_galindian_region = {
+	counties = {
+		c_allenstein c_osterode
+	}	
+}
+
+ce_baltic_1066_goliad_region = {
+	counties = {
+		c_mozhaysk
+	}	
+}
+
+ce_baltic_1066_zemgalian_region = {
+	counties = {
+		c_zemigalians
+	}	
+}
+
+ce_baltic_1066_sudovian_region = {
+	counties = {
+		c_yatvyagi c_angerburg c_lomzynska c_volkovysk
+	}	
+}
+
+ce_baltic_1066_ingrian_region = {
+	counties = {
+		c_vodi
+	}	
+}
+
+ce_britain_867_pictish_region = {
+	counties = {
+		c_moray c_atholl c_strathearn
+	}	
+}
+
+ce_britain_867_cumbrian_region = {
+	counties = {
+		c_westmorland c_linlithgowshire
+	}	
+}
+
+ce_britain_867_welsh_region = {
+	counties = {
+		c_hereford c_shropshire
+	}	
+}
+
+ce_britain_867_wylish_region = {
+	counties = {
+		c_huntingdonshire c_cambridgeshire c_bedford
+	}	
+}
+
+ce_britain_1066_welsh_region = {
+	counties = {
+		c_hereford
+	}	
+}
+
+ce_britain_1066_wylish_region = {
+	counties = {
+		c_huntingdonshire
+	}	
+}
+
+ce_britain_1066_anglo_saxon_region = {
+	counties = {
+		c_devon
+	}	
+}
+
+ce_burman_867_pyu_region = {
+	counties = {
+		c_minbu c_sriksetra c_magwe c_toungoo c_yamethin c_kyaukse c_ava c_sagaing c_madaya c_takon
+	}	
+}
+
+ce_burman_867_rakhine_region = {
+	counties = {
+		c_sandoway c_vaisali c_ramu c_thabeik_taung
+	}	
+}
+
+ce_burman_867_meitei_region = {
+	counties = {
+		c_hanlan c_kale c_manipur
+	}	
+}
+
+ce_burman_1066_pyu_region = {
+	counties = {
+		c_minbu c_sriksetra c_magwe c_takon
+	}	
+}
+
+ce_burman_1066_rakhine_region = {
+	counties = {
+		c_sandoway c_vaisali c_ramu c_thabeik_taung
+	}	
+}
+
+ce_burman_1066_meitei_region = {
+	counties = {
+		c_hanlan c_kale c_manipur
+	}	
+}
+
+ce_byzantine_867_abkhaz_region = {
+	counties = {
+		c_abkhazia
+	}	
+}
+
+ce_byzantine_867_lazi_region = {
+	counties = {
+		c_odishi c_acampse
+	}	
+}
+
+ce_byzantine_867_crimean_gothic_region = {
+	counties = {
+		c_kerch
+	}	
+}
+
+ce_byzantine_867_circassian_region = {
+	counties = {
+		c_tmutarakan c_zichia
+	}	
+}
+
+ce_byzantine_867_vlach_region = {
+	counties = {
+		c_metzovo c_thessaliotis c_thessalia c_avlonas c_antipatreia
+	}	
+}
+
+ce_byzantine_867_greek_region = {
+	counties = {
+		c_dyrrachion
+	}	
+}
+
+ce_byzantine_867_udi_region = {
+	counties = {
+		c_shaki c_aran
+	}	
+}
+
+ce_byzantine_867_georgian_region = {
+	counties = {
+		c_hereti c_tbilisi
+	}	
+}
+
+ce_byzantine_867_dagestani_region = {
+	counties = {
+		c_derbent c_samander c_samiran
+	}	
+}
+
+ce_byzantine_867_ce_svan_region = {
+	counties = {
+		c_svaneti
+	}	
+}
+
+ce_byzantine_1066_abkhaz_region = {
+	counties = {
+		c_abkhazia
+	}	
+}
+
+ce_byzantine_1066_lazi_region = {
+	counties = {
+		c_odishi c_acampse
+	}	
+}
+
+ce_byzantine_1066_circassian_region = {
+	counties = {
+		c_zichia c_tmutarakan
+	}	
+}
+
+ce_byzantine_1066_crimean_gothic_region = {
+	counties = {
+		c_kerch
+	}	
+}
+
+ce_byzantine_1066_vlach_region = {
+	counties = {
+		c_metzovo
+	}	
+}
+
+ce_byzantine_1066_udi_region = {
+	counties = {
+		c_aran c_hereti
+	}	
+}
+
+ce_byzantine_1066_dagestani_region = {
+	counties = {
+		c_derbent c_samander c_samiran
+	}	
+}
+
+ce_byzantine_1066_persian_region = {
+	counties = {
+		c_shaki
+	}	
+}
+
+ce_byzantine_1066_ce_svan_region = {
+	counties = {
+		c_svaneti
+	}	
+}
+
+ce_coptic_867_ce_copt_region = {
+	counties = {
+		c_alexandria c_fayyum c_giza c_al-buhaira c_bahnasa c_ushmun c_asyut c_qus c_kharga c_dakhla c_aswan c_siwa c_al-gharbiya c_damietta
+	}	
+}
+
+ce_coptic_1066_ce_copt_region = {
+	counties = {
+		c_alexandria c_fayyum c_giza c_al-buhaira c_asyut c_qus c_aswan
+	}	
+}
+
+ce_frisians_exist_867_frisian_region = {
+	counties = {
+		c_westfriesland c_dokkum c_ostfriesland c_frisia c_holland c_zeeland
+	}	
+}
+
+ce_frisians_exist_867_dutch_region = {
+	counties = {
+		c_lille c_hainaut c_guines c_maastricht c_liege c_aachen c_cleves c_zutphen c_dortmund 
+	}	
+}
+
+ce_frisians_exist_867_saxon_region = {
+	counties = {
+		c_oversticht c_groningen
+	}	
+}
+
+ce_frisians_exist_1066_frisian_region = {
+	counties = {
+		c_westfriesland c_dokkum c_ostfriesland c_frisia
+	}	
+}
+
+ce_frisians_exist_1066_dutch_region = {
+	counties = {
+		c_lille c_hainaut c_guines c_maastricht c_liege c_cleves c_zutphen c_dortmund c_aachen
+	}	
+}
+
+ce_frisians_exist_1066_saxon_region = {
+	counties = {
+		c_oversticht c_groningen
+	}	
+}
+
+ce_east_africa_867_1066_harla_region = {
+	counties = {
+		c_dakkar c_fafan c_harar c_hargaya c_gidaya
+	}	
+}
+
+ce_east_africa_867_1066_somali_region = {
+	counties = {
+		c_zaila c_berbera c_luuq c_makhir c_mait c_busaso c_nugaal c_ras_hafun c_barbacadle c_mudug c_mareeg c_hiraab c_mogadishu c_baydhabo c_jilib c_jubba c_gode c_qalaafe c_ganale
+	}	
+}
+
+ce_east_africa_867_1066_argobba_region = {
+	counties = {
+		c_awssa c_sitti c_gabal c_ifat
+	}	
+}
+
+ce_east_africa_867_1066_welayta_region = {
+	counties = {
+		c_berta c_damot c_innarya c_wellega c_kaffa c_welamo c_gamo c_burji
+	}	
+}
+
+ce_east_africa_867_agaw_region = {
+	counties = {
+		c_gafat c_semien c_wolqayt c_dembiya c_agaw_meder
+	}	
+}
+
+ce_east_africa_867_ethiopian_region = {
+	counties = {
+		c_gojjam c_showa c_waj c_angot c_begemder
+	}	
+}
+
+ce_east_africa_867_1066_sidama_region = {
+	counties = {
+		c_dara c_hadya c_waj c_sharka c_arusi c_dawaro c_bali
+	}	
+}
+
+ce_east_africa_867_tigray_region = {
+	counties = {
+		c_intarta c_lasta c_tigre c_serae
+	}	
+}
+
+ce_east_africa_867_afar_region = {
+	counties = {
+		c_bur c_hayq
+	}	
+}
+
+ce_east_africa_867_yemeni_region = {
+	counties = {
+		c_dahlak
+	}	
+}
+
+ce_east_africa_867_beja_region = {
+	counties = {
+		c_massawa
+	}	
+}
+
+ce_east_africa_867_guan_region = {
+	counties = {
+		c_adanse c_kumasi c_aowin c_wassa c_fante 
+	}	
+}
+
+ce_east_africa_867_kru_region = {
+	counties = {
+		c_boubo 
+	}	
+}
+
+ce_east_africa_867_1066_oromo_region = {
+	counties = {
+		c_marsabit c_lag_dera c_sidamo c_el_waak c_fudalhi
+	}	
+}
+
+ce_east_africa_1066_yemeni_region = {
+	counties = {
+		c_dahlak c_massawa
+	}	
+}
+
+ce_east_africa_1066_tigray_region = {
+	counties = {
+		c_intarta c_tigre c_serae
+	}	
+}
+
+ce_east_africa_1066_afar_region = {
+	counties = {
+		c_bur
+	}	
+}
+
+ce_east_africa_1066_agaw_region = {
+	counties = {
+		c_gafat c_semien c_wolqayt c_dembiya c_agaw_meder c_lasta
+	}	
+}
+
+ce_east_africa_1066_ethiopian_region = {
+	counties = {
+		c_gojjam c_showa c_waj c_angot c_begemder c_hayq
+	}	
+}
+
+ce_east_iranian_867_khotanese_region = {
+	counties = {
+		c_khotan c_karghalik c_cherchen c_keriya c_yarkand c_kashgar c_terek_pass
+	}	
+}
+
+ce_east_iranian_1066_khotanese_region = {
+	counties = {
+		c_khotan c_keriya c_kashgar 
+	}	
+}
+
+ce_east_iranian_1066_sogdian_region = {
+	counties = {
+		c_taraz c_dabusiya c_zarafshan c_rasht c_oshrusana
+	}	
+}
+
+ce_east_slavic_867_polyan_region = {
+	counties = {
+		c_kiev c_chornobyl c_korsun c_zhytomyr c_zvyahel
+	}	
+}
+
+ce_east_slavic_867_volhynian_region = {
+	counties = {
+		c_volodymyr c_peresopnytsia c_lviv c_zaslavl
+	}	
+}
+
+ce_east_slavic_867_tiverian_region = {
+	counties = {
+		c_terebovl c_cetatea_alba c_barlad c_lapusna c_chilia c_tigheci c_galati c_ushytsia c_hotin c_soroca c_orhei c_dorohoi c_iasi
+	}	
+}
+
+ce_east_slavic_867_drevlian_region = {
+	counties = {
+		c_pinsk c_novogrudok c_berestye c_dorohychyn c_turov c_korosten c_dubrovytsia
+	}	
+}
+
+ce_east_slavic_867_dregovich_region = {
+	counties = {
+		c_kletsk c_minsk c_orsha c_slutsk
+	}	
+}
+
+ce_east_slavic_867_poloch_region = {
+	counties = {
+		c_vitebsk c_lukoml c_polotsk
+	}	
+}
+
+ce_east_slavic_867_ilmenian_region = {
+	counties = {
+		c_sebezh c_pskov c_luki c_rusa c_novgorod c_valdai c_bezichi c_tikhvin
+	}	
+}
+
+ce_east_slavic_867_severian_region = {
+	counties = {
+		c_chernigov c_pereyaslavl c_voin c_hradyzk c_romen c_novgorod_seversky c_putyvl c_kursk
+	}	
+}
+
+ce_east_slavic_867_krivich_region = {
+	counties = {
+		c_toropets c_gnezdovo
+	}	
+}
+
+ce_east_slavic_867_vyatichi_region = {
+	counties = {
+		c_kozelsk c_karachev c_smolensk c_roslavl c_starodub c_sevsk c_babruysk
+	}	
+}
+
+ce_east_slavic_1066_mordvin_region = {
+	counties = {
+		c_oskol
+	}	
+}
+
+ce_east_slavic_1066_cuman_region = {
+	counties = {
+		c_atyrau
+	}	
+}
+
+ce_east_slavic_1066_kimek_region = {
+	counties = {
+		c_orenburg
+	}	
+}
+
+ce_east_slavic_1066_pecheneg_region = {
+	counties = {
+		c_calarasi
+	}	
+}
+
+ce_east_slavic_1066_torkil_region = {
+	counties = {
+		c_uman c_cherkassy c_kherson c_dnipro c_oleshye c_khortytsia c_kazanskaya c_bakhmut c_samar
+	}	
+}
+
+ce_himyarite_867_himyarite_region = {
+	counties = {
+		c_zabid c_taizz c_mandab c_tihamat-al-yamani
+	}	
+}
+
+ce_himyarite_1066_himyarite_region = {
+	counties = {
+		c_tihamat-al-yamani
+	}	
+}
+
+ce_iberia_867_asturleonese_region = {
+	counties = {
+		c_asturias_de_santillana c_amaya
+	}	
+}
+
+ce_iberia_867_navarro_aragonese_region = {
+	counties = {
+		c_huesca c_fraga c_zaragoza c_tudela c_najera
+	}	
+}
+
+ce_iberia_867_mozarab_region = {
+	counties = {
+		c_alcaniz c_albarracin c_calatayud c_teruel c_molina c_cuenca c_madrid c_toledo c_castellon c_cuellar c_olmedo c_avila c_salamanca c_viseu c_aveiro c_coimbra c_castelo_branco c_plasencia c_valencia c_alarcon c_mora c_calatrava c_malagon c_almader c_merida c_caceres c_elvas c_alcacer_do_sal c_lisboa c_beja c_medellin c_burgos c_soria c_valladolid c_lleida c_tarragona c_iviza c_mallorca c_menorca
+	}	
+}
+
+ce_iberia_1066_aragonese_region = {
+	counties = {
+		c_zaragoza c_tudela
+	}	
+}
+
+ce_iberia_1066_mozarab_region = {
+	counties = {
+		c_molina c_calatayud c_alcaniz c_madrid c_toledo c_castelo_branco c_alarcon c_calatrava c_almader c_merida c_caceres c_malagon c_elvas c_mora c_cuenca c_castellon c_teruel c_albarracin c_menorca c_mallorca c_iviza c_tarragona
+	}	
+}
+
+ce_iranian_867_adhari_region = {
+	counties = {
+		c_tabriz c_maragha c_ardabil c_mugan c_talish
+	}	
+}
+
+ce_iranian_867_1066_mazandarani_region = {
+	counties = {
+		c_mazandaran c_ruyan c_baduspan
+	}	
+}
+
+ce_iranian_867_semnani_region = {
+	counties = {
+		c_damghan c_khuwar
+	}	
+}
+
+ce_iranian_867_turkish_region = {
+	counties = {
+		c_uzboy
+	}	
+}
+
+ce_iranian_867_tat_region = {
+	counties = {
+		c_shirvan
+	}	
+}
+
+ce_iranian_867_baloch_region = {
+	counties = {
+		c_bampur c_panjgur
+	}	
+}
+
+ce_iranian_867_persian_region = {
+	counties = {
+		c_bam c_kirman
+	}	
+}
+
+ce_iranian_867_jat_region = {
+	counties = {
+		c_kiz c_khawr c_debul c_ranikot c_sonda c_kutch c_panjgur
+	}	
+}
+
+ce_iranian_867_kaikani_region = {
+	counties = {
+		c_turan c_sibi
+	}	
+}
+
+ce_iranian_867_tajik_region = {
+	counties = {
+		c_gurgan c_dihistan c_nih c_sabzevar c_farah c_zaranj c_darmashan c_ghur c_upper_ghur c_rudbar c_bost
+	}	
+}
+
+ce_iranian_867_afghan_region = {
+	counties = {
+		c_zabulistan
+	}	
+}
+
+ce_iranian_867_tokhari_region = {
+	counties = {
+		c_east-tokharestan c_west-tokharestan
+	}	
+}
+
+ce_iranian_1066_tajik_region = {
+	counties = {
+		c_gurgan c_east-tokharestan c_west-tokharestan c_damghan c_nih c_sabzevar c_farah c_zaranj c_darmashan c_ghur c_upper_ghur c_rudbar c_bost 
+	}	
+}
+
+ce_iranian_1066_semnani_region = {
+	counties = {
+		c_khuwar
+	}	
+}
+
+ce_iranian_1066_gilani_region = {
+	counties = {
+		c_gilan c_talish
+	}	
+}
+
+ce_iranian_1066_persian_region = {
+	counties = {
+		c_lar c_istakhr c_darabjerd
+	}	
+}
+
+ce_iranian_1066_tat_region = {
+	counties = {
+		c_shirvan c_shaki
+	}	
+}
+
+ce_iranian_1066_adhari_region = {
+	counties = {
+		c_tabriz c_maragha c_ardabil c_mugan
+	}	
+}
+
+ce_iranian_1066_khwarezmian_region = {
+	counties = {
+		c_gurganj c_kurdar c_kath
+	}	
+}
+
+ce_iranian_1066_jat_region = {
+	counties = {
+		c_kiz c_khawr c_debul c_ranikot c_sonda c_kutch c_uch
+	}	
+}
+
+ce_iranian_1066_kaikani_region = {
+	counties = {
+		c_turan c_sibi
+	}	
+}
+
+ce_venetian_867_1066_venetian_ce_region = {
+	counties = {
+		c_venezia c_veneto
+	}	
+}
+
+ce_venetian_867_1066_cisalpine_region = {
+	counties = {
+		c_casentino c_ravenna
+	}	
+}
+
+ce_venetian_867_dalmatian_ce_region = {
+	counties = {
+		c_cherso c_zadar c_cetina c_ragusa c_pula
+	}	
+}
+
+ce_venetian_1066_dalmatian_ce_region = {
+	counties = {
+		c_cherso c_ragusa c_pula
+	}
+}
+
+ce_venetian_1066_croatian_ce_region = {
+	counties = {
+		c_zadar c_cetina
+	}	
+}
+
+ce_italia_867_italian_region = {
+	counties = {
+		c_orvieto c_spoleto c_abruzzi c_teramo
+	}	
+}
+
+ce_italia_867_african_roman_region = {
+	counties = {
+		c_tunis c_satfura c_annaba c_constantine c_tanas c_orania c_tangiers c_gharb c_malta
+	}	
+}
+
+ce_italia_1066_italian_region = {
+	counties = {
+		c_spoleto c_teramo c_abruzzi c_bastia
+	}	
+}
+
+ce_italia_1066_greek_region = {
+	counties = {
+		c_reggio_calabria c_messina
+	}	
+}
+
+ce_italia_1066_sicilian_region = {
+	counties = {
+		c_camarda
+	}	
+}
+
+ce_italia_1066_african_roman_region = {
+	counties = {
+		c_satfura
+	}	
+}
+
+ce_afri_1066_maghrebi_region = {
+	counties = {
+		c_tunis
+	}	
+}
+
+ce_mid_east_867_assyrian_region = {
+	counties = {
+		c_mosul c_nasibin c_tall_basma c_upper_khabur c_mayyafariqin c_sinjar c_khabur c_ninive c_amida
+	}	
+}
+
+ce_mid_east_867_syriac_region = {
+	counties = {
+		c_raqqa c_beirut c_homs c_harran c_tripoli c_edessa c_samosata c_shayzar c_aintab c_marash c_baalbek c_dausar c_qinnasrin
+	}	
+}
+
+ce_mid_east_867_kurdish_region = {
+	counties = {
+		c_hakkari c_saimara
+	}	
+}
+
+ce_mid_east_867_persian_region = {
+	counties = {
+		c_istakhr c_darabjerd c_dinawar c_lar
+	}	
+}
+
+ce_mid_east_867_armenian_region = {
+	counties = {
+		c_ablastha c_azysia c_lycandus c_satala c_sebasteia c_zela c_colonea
+	}	
+}
+
+ce_mid_east_867_bedouin_region = {
+	counties = {
+		c_juwair c_qaryatan c_palmyra c_sukhna c_hauran c_kerak c_waqisa c_qadisiya
+	}	
+}
+
+ce_mid_east_867_levantine_region = {
+	counties = {
+		c_kufa c_ubulla
+	}	
+}
+
+ce_mid_east_867_greek_region = {
+	counties = {
+		c_tall_hamid
+	}	
+}
+
+ce_mid_east_867_1066_mandaic_region = {
+	counties = {
+		c_wasit c_tib
+	}	
+}
+
+ce_mid_east_1066_persian_region = {
+	counties = {
+		c_dinawar
+	}	
+}
+
+ce_mid_east_1066_armenian_region = {
+	counties = {
+		c_ablastha c_azysia c_lycandus c_satala c_marash c_antiocheia
+	}	
+}
+
+ce_mid_east_1066_assyrian_region = {
+	counties = {
+		c_ninive c_mosul c_nasibin c_sinjar c_khabur c_upper_khabur
+	}	
+}
+
+ce_mid_east_1066_syriac_region = {
+	counties = {
+		c_aintab c_amida c_baalbek c_edessa c_samosata c_tripoli c_qinnasrin c_dausar c_shayzar c_harran
+	}	
+}
+
+ce_mid_east_1066_bedouin_region = {
+	counties = {
+		c_waqisa c_hauran c_juwair c_sukhna c_palmyra c_qaryatan c_al-haditha c_hadithat-ana c_rahba c_qadisiya
+	}	
+}
+
+ce_mid_east_1066_levantine_region = {
+	counties = {
+		c_kufa
+	}	
+}
+
+ce_pamiri_867_1066_pamiri_region = {
+	counties = {
+		c_badakhshan c_munjan c_wakhan c_shughnan c_karran
+	}	
+}
+
+ce_mahri_867_south_arabian_region = {
+	counties = {
+		c_socotra
+	}	
+}
+
+ce_mahri_867_mahri_region = {
+	counties = {
+		c_al-asa c_dhofar c_mahra c_duqm
+	}	
+}
+
+ce_mahri_1066_south_arabian_region = {
+	counties = {
+		c_socotra
+	}	
+}
+
+ce_mahri_1066_mahri_region = {
+	counties = {
+		c_al-asa c_dhofar c_mahra c_duqm
+	}	
+}
+
+ce_north_germanic_867_jute_region = {
+	counties = {
+		c_ringkobing c_viborg c_aalborg c_aarhus c_vorbasse c_slesvig c_ribe
+	}	
+}
+
+ce_north_germanic_867_dane_region = {
+	counties = {
+		c_fyn c_sjaelland c_lolland_falster c_skane c_blekinge c_bornholm c_halland
+	}	
+}
+
+ce_north_germanic_867_geat_region = {
+	counties = {
+		c_oland c_more c_varend c_finnveden c_njudung c_sevede c_kinda c_ostergotland c_narke c_skara c_vastergotland c_dal c_nordmark
+	}	
+}
+
+ce_north_germanic_867_got_region = {
+	counties = {
+		c_gutland
+	}	
+}
+
+ce_north_germanic_867_svear_region = {
+	counties = {
+		c_sodermannaland c_vastmanland c_varmland c_upland c_gastrikland c_dalabergslagen c_dalarna c_halsingland c_medelpad c_angermanland c_aland
+	}	
+}
+
+ce_north_germanic_867_sami_region = {
+	counties = {
+		c_harjadalen c_morarna c_helgum c_jamtfir
+	}	
+}
+
+ce_north_germanic_867_norse_region = {
+	counties = {
+		c_caithness
+	}	
+}
+
+ce_north_germanic_1066_geat_region = {
+	counties = {
+		c_oland c_more c_varend c_finnveden c_njudung c_sevede c_kinda c_ostergotland c_narke c_skara c_vastergotland c_dal c_nordmark
+	}	
+}
+
+ce_north_germanic_1066_got_region = {
+	counties = {
+		c_gutland
+	}	
+}
+
+ce_north_germanic_1066_svear_region = {
+	counties = {
+		c_sodermannaland c_vastmanland c_varmland c_upland c_gastrikland c_dalabergslagen c_dalarna c_halsingland c_medelpad c_angermanland c_aland
+	}	
+}
+
+ce_punjab_867_gandhari_region = {
+	counties = {
+		c_bannu c_udabhanda c_purushapura c_nandana
+	}	
+}
+
+ce_punjab_1066_gandhari_region = {
+	counties = {
+		c_bannu c_udabhanda c_purushapura c_nandana
+	}	
+}
+
+ce_punjab_867_multani_region = {
+	counties = {
+		c_uch c_karur c_multan c_karor c_kafirkot
+	}	
+}
+
+ce_punjab_1066_multani_region = {
+	counties = {
+		c_karur c_multan c_karor c_kafirkot
+	}	
+}
+
+ce_siberia_867_buryat_region = {
+	counties = {
+		c_chikoy c_selenga c_tunka c_ulan_ude
+	}	
+}
+
+ce_siberia_867_evenk_region = {
+	counties = {
+		c_bargajan c_bratsk c_chuya c_gatsuurgazar c_kada c_karabaigal c_kotera c_muya c_okangara c_vitim
+	}	
+}
+
+ce_siberia_867_karelian_region = {
+	counties = {
+		c_olavinlinna c_povenets
+	}	
+}
+
+ce_siberia_867_laktan_region = {
+	counties = {
+		c_kachu c_kolyvan c_kuchuk c_kulunda c_sartlan c_ubins
+	}	
+}
+
+ce_siberia_867_mansi_region = {
+	counties = {
+		c_kartauzh c_kharam-vosh c_koshuki c_laia c_neramkary c_pelym c_sosva c_tabary c_tselym_dalyn c_tyumen
+	}	
+}
+
+ce_siberia_867_sami_region = {
+	counties = {
+		c_kainuu c_kholmogory c_koutajoki c_mustasaari c_oulu c_pedersore c_pielinen c_viena
+	}	
+}
+
+ce_siberia_867_samoyed_region = {
+	counties = {
+		c_anja c_azas c_barnaul c_biia c_igaran c_jerjul c_julym c_karauda c_kiia c_konda_ob c_kropot c_mana c_monkh_saridag c_narim c_ob c_shityy c_sochur c_tapsa c_tomsk c_torema c_vasyugan
+	}	
+}
+
+ce_siberia_867_tavastian_region = {
+	counties = {
+		c_sysma c_tavasts
+	}	
+}
+
+ce_siberia_867_uriankhai_region = {
+	counties = {
+		c_arzhan
+	}	
+}
+
+ce_siberia_867_vepsian_region = {
+	counties = {
+		c_onega_BJA c_pudozh
+	}	
+}
+
+ce_siberia_867_yakut_region = {
+	counties = {
+		c_baigaluuls c_ilga c_lena c_olkhon c_ryty c_uulynkhol
+	}	
+}
+
+ce_siberia_867_yeniseian_region = {
+	counties = {
+		c_chuna c_kansk c_krasnoyarsk c_kymyl_tey c_shishina c_tagul c_tulun c_yenisei
+	}	
+}
+
+ce_siberia_1066_buryat_region = {
+	counties = {
+		c_selenga c_tunka
+	}	
+}
+
+ce_siberia_1066_evenk_region = {
+	counties = {
+		c_bratsk c_gatsuurgazar c_karabaigal c_kotera c_vitim
+	}	
+}
+
+ce_siberia_1066_karelian_region = {
+	counties = {
+		c_olavinlinna c_povenets
+	}	
+}
+
+ce_siberia_1066_kirghiz_region = {
+	counties = {
+		c_semey
+	}	
+}
+
+ce_siberia_1066_laktan_region = {
+	counties = {
+		c_kachu c_kolyvan c_kuchuk c_kulunda c_sartlan c_ubins
+	}	
+}
+
+ce_siberia_1066_mansi_region = {
+	counties = {
+		c_kartauzh c_kharam-vosh c_koshuki c_laia c_neramkary c_pelym c_sosva c_tabary c_tselym_dalyn c_tyumen
+	}	
+}
+
+ce_siberia_1066_mari_region = {
+	counties = {
+		c_yoshkar-ola
+	}	
+}
+
+ce_siberia_1066_oirat_region = {
+	counties = {
+		c_arzhan c_azas c_tapsa
+	}	
+}
+
+ce_siberia_1066_sami_region = {
+	counties = {
+		c_kainuu c_kholmogory c_koutajoki c_mustasaari c_oulu c_pedersore
+	}	
+}
+
+ce_siberia_1066_samoyed_region = {
+	counties = {
+		c_barnaul c_biia c_igaran c_kiia c_konda_ob c_kropot c_mana c_monkh_saridag c_narim c_ob c_shityy c_sochur c_tomsk c_torema c_vasyugan
+	}	
+}
+
+ce_siberia_1066_tavastian_region = {
+	counties = {
+		c_pielinen c_sysma c_tavasts
+	}	
+}
+
+ce_siberia_1066_uriankhai_region = {
+	counties = {
+		c_karauda
+	}	
+}
+
+ce_siberia_1066_vepsian_region = {
+	counties = {
+		c_onega_BJA c_pudozh
+	}	
+}
+
+ce_siberia_1066_yakut_region = {
+	counties = {
+		c_baigaluuls c_chuya c_lena c_olkhon c_ryty c_uulynkhol
+	}	
+}
+
+ce_siberia_1066_yeniseian_region = {
+	counties = {
+		c_chuna c_kansk c_krasnoyarsk c_shishina c_tagul c_yenisei
+	}	
+}
+
+ce_cumania_867_basmyl_region = {
+	counties = {
+		c_agairik c_chuguchak c_emil c_kokpekty c_narym_DZU c_torangy_kul
+	}	
+}
+
+ce_cumania_867_naiman_region = {
+	counties = {
+		c_boro_burgasu c_kara_asirgan
+	}	
+}
+
+ce_cumania_867_uyghur_region = {
+	counties = {
+		c_balgun c_qinggil
+	}	
+}
+
+ce_cumania_1066_cuman_region = {
+	counties = {
+		c_aralkizil
+	}	
+}
+
+ce_cumania_1066_karluk_region = {
+	counties = {
+		c_taraz
+	}	
+}
+
+ce_west_africa_867_kurumba_region = {
+	counties = {
+		c_upper_gurma c_gondo c_kurumba c_bandiagara
+	}	
+}
+
+ce_west_africa_867_lilse_region = {
+	counties = {
+		c_lobi
+	}	
+}
+
+ce_west_africa_867_tuareg_region = {
+	counties = {
+		c_arawan c_djanet c_tessalit c_tadmekka c_air c_takkeda
+	}	
+}
+
+ce_west_africa_867_gur_region = {
+	counties = {
+		c_worodugu c_loropeni c_boron c_leraba c_kong c_wa c_ilo c_gurma c_biun c_kuisugu c_dendi c_pendjari
+	}	
+}
+
+ce_west_africa_867_guan_region = {
+	counties = {
+		c_afram c_kwahu-akyem c_nanumba c_dagomba c_gonja
+	}	
+}
+
+ce_west_africa_867_kru_region = {
+	counties = {
+		c_attie c_dabou c_dibri c_nzi
+	}	
+}
+
+ce_west_africa_867_beja_region = {
+	counties = {
+		c_allaqi
+	}	
+}
+
+ce_west_africa_867_yoruba_region = {
+	counties = {
+		c_kyadya c_ifonyin
+	}	
+}
+
+ce_west_africa_867_baatonu_region = {
+	counties = {
+		c_nikki c_bussa c_ilesa c_djugu
+	}	
+}
+
+ce_west_africa_867_zarma_region = {
+	counties = {
+		c_kurmina c_kouga c_tirakka
+	}	
+}
+
+ce_west_africa_867_konkomba_region = {
+	counties = {
+		c_daboya c_po c_mamprusi
+	}	
+}
+
+ce_west_africa_867_sorko_region = {
+	counties = {
+		c_dyamare
+	}	
+}
+
+ce_west_africa_867_gaw_region = {
+	counties = {
+		c_zarma
+	}	
+}
+
+ce_west_africa_867_senufo_region = {
+	counties = {
+		c_worodugu c_boron c_leraba c_nyene
+	}	
+}
+
+ce_west_africa_867_kulango_region = {
+	counties = {
+		c_wa c_loropeni c_kong
+	}	
+}
+
+ce_west_africa_867_ewe_region = {
+	counties = {
+		c_todo c_savalu c_sokode c_abomey c_ewe
+	}	
+}
+
+ce_west_africa_867_serer_region = {
+	counties = {
+		c_jowol c_silla c_galam
+	}	
+}
+
+ce_west_africa_867_sao_region = {
+	counties = {
+		c_fellata c_yau c_kagha
+	}	
+}
+
+ce_west_africa_867_zaghawa_region = {
+	counties = {
+		c_fitri c_ghazzal c_kadam c_wadai c_dar_sila
+	}	
+}
+
+ce_west_africa_867_kibsi_region = {
+	counties = {
+		c_wagadugu c_yatenga c_seno
+	}	
+}
+
+ce_west_africa_867_akpoto_region = {
+	counties = {
+		c_igala c_kwararafa c_keffi c_opanda
+	}	
+}
+
+ce_west_africa_867_ijaw_region = {
+	counties = {
+		c_ijaw
+	}	
+}
+
+ce_west_africa_867_jukun_region = {
+	counties = {
+		c_fika
+	}	
+}
+
+ce_west_africa_1066_kurumba_region = {
+	counties = {
+		c_upper_gurma c_gondo c_kurumba c_bandiagara
+	}	
+}
+
+ce_west_africa_1066_lilse_region = {
+	counties = {
+		c_lobi
+	}	
+}
+
+ce_west_africa_1066_tuareg_region = {
+	counties = {
+		c_arawan c_djanet c_tessalit c_tadmekka c_air c_takkeda
+	}	
+}
+
+ce_west_africa_1066_gur_region = {
+	counties = {
+		c_worodugu c_loropeni c_boron c_leraba c_kong c_wa c_ilo c_gurma c_biun c_kuisugu c_dendi c_pendjari
+	}	
+}
+
+ce_west_africa_1066_guan_region = {
+	counties = {
+		c_afram c_kwahu-akyem c_nanumba c_dagomba c_gonja
+	}	
+}
+
+ce_west_africa_1066_kru_region = {
+	counties = {
+		c_attie c_dabou c_dibri c_nzi
+	}	
+}
+
+ce_west_africa_1066_beja_region = {
+	counties = {
+		c_allaqi
+	}	
+}
+
+ce_west_africa_1066_yoruba_region = {
+	counties = {
+		c_kyadya c_ifonyin
+	}	
+}
+
+ce_west_africa_1066_baatonu_region = {
+	counties = {
+		c_nikki c_bussa c_ilesa c_djugu
+	}	
+}
+
+ce_west_africa_1066_zarma_region = {
+	counties = {
+		c_kurmina c_kouga c_tirakka
+	}	
+}
+
+ce_west_africa_1066_konkomba_region = {
+	counties = {
+		c_daboya c_po c_mamprusi
+	}	
+}
+
+ce_west_africa_1066_sorko_region = {
+	counties = {
+		c_dyamare
+	}	
+}
+
+ce_west_africa_1066_gaw_region = {
+	counties = {
+		c_zarma
+	}	
+}
+
+ce_west_africa_1066_senufo_region = {
+	counties = {
+		c_worodugu c_boron c_leraba c_nyene
+	}	
+}
+
+ce_west_africa_1066_kulango_region = {
+	counties = {
+		c_wa c_loropeni c_kong
+	}	
+}
+
+ce_west_africa_1066_ewe_region = {
+	counties = {
+		c_todo c_savalu c_sokode c_abomey c_ewe
+	}	
+}
+
+ce_west_africa_1066_serer_region = {
+	counties = {
+		c_jowol c_silla c_galam
+	}	
+}
+
+ce_west_africa_1066_sao_region = {
+	counties = {
+		c_fellata c_yau c_kagha
+	}	
+}
+
+ce_west_africa_1066_zaghawa_region = {
+	counties = {
+		c_fitri c_ghazzal c_kadam c_wadai c_dar_sila
+	}	
+}
+
+ce_west_africa_1066_kibsi_region = {
+	counties = {
+		c_wagadugu c_yatenga c_seno
+	}	
+}
+
+ce_west_africa_1066_akpoto_region = {
+	counties = {
+		c_igala c_kwararafa c_keffi c_opanda
+	}	
+}
+
+ce_west_africa_1066_ijaw_region = {
+	counties = {
+		c_ijaw
+	}	
+}
+
+ce_west_africa_1066_jukun_region = {
+	counties = {
+		c_fika c_kwararafa
+	}	
+}
+
+ce_west_europe_867_franconian_region = {
+	counties = {
+		c_luxembourg
+	}	
+}
+
+ce_west_europe_867_french_region = {
+	counties = {
+		c_rennes c_metz c_nantes
+	}	
+}
+
+ce_west_europe_867_basque_region = {
+	counties = {
+		c_bearn c_labourd
+	}	
+}
+
+ce_west_europe_1066_french_region = {
+	counties = {
+		c_rennes c_nantes
+	}	
+}
+
+ce_west_slavic_867_obotrite_region = {
+	counties = {
+		c_lubeck c_mecklenburg c_dannenberg
+	}	
+}
+
+ce_west_slavic_867_thuringian_region = {
+	counties = {
+		c_orlamunde c_schmalkalden c_gleichenstein
+	}	
+}
+
+ce_west_slavic_867_saxon_region = {
+	counties = {
+		c_gottingen
+	}	
+}
+
+ce_west_slavic_867_sorbian_region = {
+	counties = {
+		c_dessau c_wittenberg c_juterbog c_spreewald c_naumburg c_gorlitz c_cottbus c_brene c_meissen c_dresden c_wolkenstein c_vogtland c_mersenburg c_lobdaburg c_osterland c_magdeburg c_naumberg c_lubusz
+	}	
+}
+
+ce_west_slavic_867_czech_region = {
+	counties = {
+		c_hohenburg
+	}	
+}
+
+ce_west_slavic_867_pommeranian_region = {
+	counties = {
+		c_torun
+	}	
+}
+
+ce_west_slavic_867_silesian_region = {
+	counties = {
+		c_schweibus c_grunberg c_sprottau c_przemkow c_breslau c_legnica c_miliez c_brzeg c_nysa c_opole c_opava c_bethen c_ratibor c_cieszyn
+	}	
+}
+
+ce_west_slavic_867_vistulan_region = {
+	counties = {
+		c_krakowska c_sacz c_sandomierska c_radomska
+	}	
+}
+
+ce_west_slavic_867_lendian_region = {
+	counties = {
+		c_tarnowska c_cherven c_belz c_peremyshl c_lubelska
+	}	
+}
+
+ce_west_slavic_867_masovian_region = {
+	counties = {
+		c_stezycka c_czerska c_gostyninska c_plocka c_zakroczymska
+	}	
+}
+
+ce_west_slavic_867_sudovian_region = {
+	counties = {
+		c_lomzynska
+	}	
+}
+
+ce_west_slavic_1066_franconian_region = {
+	counties = {
+		c_lobdaburg c_orlamunde c_mansfeld
+	}	
+}
+
+ce_west_slavic_1066_ranian_region = {
+	counties = {
+		c_rugen
+	}	
+}
+
+ce_west_slavic_1066_saxon_region = {
+	counties = {
+		c_gottingen c_magdeburg
+	}	
+}
+
+ce_west_slavic_1066_lutician_region = {
+	counties = {
+		c_werle c_stendal c_prenzlau c_ruppin c_havelberg c_brandenburg c_berlin
+	}	
+}
+
+ce_west_slavic_1066_pommeranian_region = {
+	counties = {
+		c_wolgast c_torun
+	}	
+}
+
+ce_west_slavic_1066_obotrite_region = {
+	counties = {
+		c_mecklenburg c_lubeck c_rostock c_dannenberg
+	}	
+}
+
+ce_west_slavic_1066_sorbian_region = {
+	counties = {
+		c_vogtland c_dessau c_wittenberg c_juterbog c_spreewald c_naumburg c_gorlitz c_cottbus c_brene c_meissen c_dresden c_wolkenstein c_mersenburg c_osterland c_naumberg
+	}	
+}
+
+ce_west_slavic_1066_polish_region = {
+	counties = {
+		c_opava
+	}	
+}

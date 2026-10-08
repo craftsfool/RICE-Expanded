@@ -1,0 +1,278 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+sudovian = {
+
+	color = { 190 190 130 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_baltic
+	language = language_pruthenic_baltic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_swords_for_hire
+		tradition_forest_wardens
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_lithuanian
+	
+	coa_gfx = { baltic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 1.0 1.0 }
+	
+	ethnicities = {
+		80 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		3 = caucasian_northern_brown_hair
+		2 = caucasian_northern_dark_hair
+	}
+
+}
+
+curonian = {
+
+	color = { 173 173 150 }
+	
+	ethos = ethos_communal
+	heritage = heritage_baltic
+	language = language_pruthenic_baltic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_practiced_pirates
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_seafaring
+	}
+	
+	name_list = name_list_prussian
+	
+	coa_gfx = { baltic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 1.0 1.0 }
+	
+	ethnicities = {
+		80 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		3 = caucasian_northern_brown_hair
+		2 = caucasian_northern_dark_hair
+	}
+
+}
+
+zemgalian = {
+
+	color = { 0.63 0.63 0.3 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_baltic
+	language = language_baltic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hit_and_run
+		tradition_forest_wardens
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_latgalian
+	
+	coa_gfx = { baltic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 1.0 1.0 }
+	
+	ethnicities = {
+		80 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		3 = caucasian_northern_brown_hair
+		2 = caucasian_northern_dark_hair
+	}
+
+}
+
+selonian = {
+
+	color = { 0.6 0.6 0.2 }
+	
+	ethos = ethos_communal
+	heritage = heritage_baltic
+	language = language_baltic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_sacred_groves
+		tradition_xenophilic
+		tradition_forest_wardens
+	}
+	
+	name_list = name_list_latgalian
+	
+	coa_gfx = { baltic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 1.0 1.0 }
+	
+	ethnicities = {
+		80 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		3 = caucasian_northern_brown_hair
+		2 = caucasian_northern_dark_hair
+	}
+
+}
+
+galindian = {
+
+	color = { 165 165 100 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_baltic
+	language = language_pruthenic_baltic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_forest_folk
+		tradition_quarrelsome
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_prussian
+	
+	coa_gfx = { baltic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 1.0 1.0 }
+	
+	ethnicities = {
+		80 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		3 = caucasian_northern_brown_hair
+		2 = caucasian_northern_dark_hair
+	}
+
+}
+
+livonian = {
+
+	color = { 0.4 0.8 0.8 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_balto_finnic
+	language = language_livonian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_stalwart_defenders
+		tradition_forest_wardens
+		tradition_fishermen
+	}
+	
+	name_list = name_list_estonian
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 1.0 1.0 }
+
+	ethnicities = {
+		33 = circumpolar_dark_hair
+		33 = circumpolar_brown_hair
+		33 = circumpolar_blonde_hair
+	}
+
+}
+
+ingrian = {
+
+	color = { 0.45 0.85 0.85 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_balto_finnic
+	language = language_ingrian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_stalwart_defenders
+		tradition_fishermen
+	}
+	
+	name_list = name_list_estonian
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 1.0 1.0 }
+
+	ethnicities = {
+		33 = circumpolar_dark_hair
+		33 = circumpolar_brown_hair
+		33 = circumpolar_blonde_hair
+	}
+
+}
+
+tavastian = {
+
+	color = { 0.32 0.65 0.75 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_balto_finnic
+	language = language_finnish
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_forest_wardens
+		tradition_isolationist
+	}
+	
+	name_list = name_list_finnish
+	
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 1.0 1.0 }
+	
+	ethnicities = {
+		33 = circumpolar_dark_hair
+		33 = circumpolar_brown_hair
+		33 = circumpolar_blonde_hair
+	}
+
+}

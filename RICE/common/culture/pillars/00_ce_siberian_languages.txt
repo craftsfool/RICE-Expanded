@@ -1,0 +1,483 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+language_samoyed = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_samoyed
+		}
+	}
+	parameters = {
+		language_branch_samoyedic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_samoyed }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_samoyedic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = samoyed
+}
+
+language_khanty = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_khanty
+		}
+	}
+	parameters = {
+		language_branch_ugric = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_khanty }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_ugric }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = khanty
+}
+
+language_mansi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mansi
+		}
+	}
+	parameters = {
+		language_branch_ugric = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mansi }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_ugric }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = mansi
+}
+
+language_mordvin = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mordvin
+		}
+	}
+	parameters = {
+		language_branch_volga_finnic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mordvin }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_volga_finnic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = mordvin
+}
+
+language_muroma = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_muroma
+		}
+	}
+	parameters = {
+		language_branch_volga_finnic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_muroma }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_volga_finnic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = muroma
+}
+
+language_meshchera = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_meshchera
+		}
+	}
+	parameters = {
+		language_branch_volga_finnic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_meshchera }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_volga_finnic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = meshchera
+}
+
+language_mari = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mari
+		}
+	}
+	parameters = {
+		language_branch_volga_finnic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mari }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_volga_finnic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = mari
+}
+
+language_komi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_komi
+		}
+	}
+	parameters = {
+		language_branch_permic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_komi }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_permic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = komi
+}
+
+language_udmurt = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_udmurt
+		}
+	}
+	parameters = {
+		language_branch_permic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_udmurt }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_permic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = udmurt
+}
+
+language_finnish = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_finnish
+		}
+	}
+	parameters = {
+		language_branch_finno_saamic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_finnish }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_finno_saamic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = finnish
+}
+
+language_estonian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_estonian
+		}
+	}
+	parameters = {
+		language_branch_finno_saamic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_estonian }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_finno_saamic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = estonian
+}
+
+language_ingrian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ingrian
+		}
+	}
+	parameters = {
+		language_branch_finno_saamic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ingrian }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_finno_saamic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = ingrian
+}
+
+language_livonian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_livonian
+		}
+	}
+	parameters = {
+		language_branch_finno_saamic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_livonian }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_finno_saamic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = livonian
+}
+
+language_karelian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_karelian
+		}
+	}
+	parameters = {
+		language_branch_finno_saamic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_karelian }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_finno_saamic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = karelian
+}
+
+language_vepsian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_vepsian
+		}
+	}
+	parameters = {
+		language_branch_finno_saamic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_vepsian }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_finno_saamic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = vepsian
+}
+
+language_merya = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_merya
+		}
+	}
+	parameters = {
+		language_branch_finno_saamic = yes
+		language_family_uralic = yes 		
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_merya }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_finno_saamic }
+			multiply = same_language_branch_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_uralic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	color = merya
+}

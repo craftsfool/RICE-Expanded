@@ -878,50 +878,11 @@ can_potentially_call_ally = {
 # Is this character allowed to hybridize their culture with the target culture?
 # root: Character
 # scope:culture: The culture they want to hybridize with
-can_hybridize_culture = {
-    can_hybridize_culture_trigger = {
-        CULTURE = scope:culture
-        CHARACTER = root
-    }
 
-custom_description = {
-        text = must_not_be_under_culture_head_tradition
-        NAND = {
-            culture = { has_cultural_parameter = monolithic_culture_feature }
-            root = {
-                OR = {
-                    any_liege_or_above = { this = root.culture.culture_head }
-                    any_liege_or_above = { this = root.culture.culture_head.liege }
-                }
-            }
-        }
-    }
-}
 
 # Is this character allowed to diverge their culture?
 # root: Character
-can_diverge_culture = {
-    culture = { culture_age >= culture_divergence_cooldown }
-    custom_description = {
-        text = culture_present_in_realm_for_divergence
-        any_sub_realm_county = {
-            culture = root.culture
-        }
-    }
 
-custom_description = {
-        text = must_not_be_under_culture_head_tradition
-        NAND = {
-            culture = { has_cultural_parameter = monolithic_culture_feature }
-            root = {
-                OR = {
-                    any_liege_or_above = { this = root.culture.culture_head }
-                    any_liege_or_above = { this = root.culture.culture_head.liege }
-                }
-            }
-        }
-    }
-}
 
 # Is this character allowed to add a tradition to their culture?
 # root: Character

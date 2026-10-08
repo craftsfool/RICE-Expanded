@@ -1,0 +1,70 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+meitei = {
+
+	color = { 126 110 150 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_meitei
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+
+	name_list = name_list_burmese
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { malay_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_18
+	
+	traditions = {
+		tradition_burman_royal_army
+		tradition_festivities
+		tradition_highland_warriors
+
+	}
+
+	ethnicities = {
+		91 = asian_malay
+		9 = indian
+	}
+
+}
+
+rakhine = {
+
+	color = { 0.55 0.58 0.34 }
+
+	# parents = { burmese }
+
+	# created = 1000.1.1
+	
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_burmese
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	
+	name_list = name_list_burmese
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { malay_clothing_gfx southeast_asian_clothing_gfx }
+	unit_gfx = { southeast_asian_unit_gfx indian_unit_gfx }
+	house_coa_frame = house_frame_18
+	
+	traditions = {
+		tradition_burman_royal_army
+		tradition_fishermen
+		tradition_religion_blending
+	}
+
+	ethnicities = {
+		91 = asian_malay
+		9 = indian
+	}
+
+}

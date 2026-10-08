@@ -1,47 +1,47 @@
-# RICE Expanded：高加索 Alpha（英／简中／法语，内置）
+# RICE Expanded：高加索与统一兼容包
 
-高加索内容直接内置在 `RICE/`，包括八个 CE 文化定义、相关文化依赖、既有历史人物文化修正、十一个决议、40 个事件、通基拉德分支礼制及原创美术。原创内容为十个决议、39 个事件，另有迁入的 CE 决议与事件。高加索全部 838 条本地化键已提供英文、简中和法语；其他五种语言保留英文回退和原版已有术语。简中 Derbent 固定为 **杰尔宾特**。此翻译范围是高加索内容，并不表示整个 RICE 的各语言翻译均已完整。
+expanded.3.3 只提供一个完整的 **RICE Expanded Unified**。它可以单独启用；CE、EPE、CFP、VIET 和其他已核对模组均为可选项。高加索内容、文化依赖和兼容处理直接内置于 `RICE/`，不需要额外的高加索包或 RICE＋CE／RICE＋EPE 补丁。请停用旧的独立 RICE 补丁，并将 Expanded 排在文化、人物外观和地图模组之后。完整包不需要安装旧版本；采用完整的新版 RICE 目录替换旧目录。小更新包才需要已有 Expanded，覆盖后须移除更新说明列出的旧预设文件，或运行随附的备份清理脚本。
 
-## 安装包与兼容
+这是针对 CK3 1.20.* 的社区 Alpha。RICE 原作者为 cybrxkhan，craftsfool 负责此次整合发布，使用 Codex 协助制作。原 README 保持不变。
 
-| 安装包 | 需要的其他模组 | 内置内容 |
-| --- | --- | --- |
-| Base | 无 | RICE Expanded + 高加索；外观采用原版回退 |
-| EPE | EPE | 主包 + RICE/EPE 兼容 + CE 原始高加索外观字段 |
-| CE–EPE | CE、EPE | 主包 + RICE/EPE、RICE/CE 兼容 + 高加索 CE 去重与初始化处理 |
+## 文化、地图与建国
 
-完整包只安装一个 `RICE/` 和 `RICE.mod`。在线的 `Built-In-Update` ZIP 是原位更新包，需要先安装 expanded.1 基础包，再解压覆盖同一个 RICE 目录。根据使用的模组选一个包；加载其他基础模组后，再加载 **RICE Expanded (Community 1.20 Beta)**。不用启用独立高加索包或独立兼容补丁。CE–EPE 包与当前本地 CE/EPE 组合对应，CE 本体和 EPE 本体仍需启用。
+内置 CE 的 Circassian、Udi、Dagestani、Abkhaz、Laz、Svan、Tat、Alan 八个文化及相关姓名、传统、语言、传承依赖。人物外观使用可独立加载的原版资源；EPE 可以同时启用，统一包不依赖 EPE 的独有资产名称。
 
-兼容预设在构建时合入主目录，避免不同加载组合的整文件覆盖互相干扰。旧独立补丁目录保留作兼容构建来源与旧版维护，不作为本次整合包的额外加载项。`authoring/` 是制作素材与可复现工具，不是可启用的独立模组。
+默认游戏规则在新开局应用 CE 的高加索分布：867、1066、1178 共 59 条县级操作，以及 23 位既有人物的 65 条文化操作。启用 CE 时交给 CE 自己初始化；未启用 CE 时 Expanded 自行完成。可在游戏规则中关闭文化分布调整。此项在开始战役时执行，**不会把旧存档已经建立的文化分布重新改写，也不保证开局选择界面的预览地图变化**。
 
-## 内容与来源
+CE 的外高加索帝国决议与事件已内置。未启用 CE 时可用“建立外高加索帝国”；启用 CE 时保留 CE 原决议。它要求首都位于外高加索区域，独立、非部落、国王或更低级别的统治者完整控制相应地区并满足声望、资金等条件，不会对世界各地的角色开放。建立帝国时才调整法理归属。亚美尼亚本来就是原版 RICE 胭脂虫产区，本次没有缩小其地区条件。
 
-- CE 文化：Circassian、Udi、Dagestani、Abkhaz、Laz、Svan、Tat、Alan。玩法字段取自已安装 CE；EPE 预设保留完整源外观字段。Base 只替换外观为原版回退，不改变文化玩法。
-- 867、1066、1178 的相关 CE 初始化：23 位既有角色，跨开局共 65 条角色操作；59 条县级操作。可以用游戏规则关闭独立 CE 初始化；CE–EPE 包由 CE 自己初始化。
-- 地方玩法：杰尔宾特通道修缮与政策复核、洛里教学与抄写、斯瓦内蒂塔楼社区、1106 年后库塔伊西周边学术赞助。年事件涉及修缮、商旅、书籍与社区分担。
-- 新增五条宗教故事，共五个决议、17 个事件：杰尔宾特罗斯近卫争端（1200 年前，穆斯林统治者）、洛里教会争论（1100 年后，基督徒）、阿尼圣所归属（1064 年后，基督徒或穆斯林）、阿兰传教反弹（1200 年前）、通基拉德派调查与处置（1100 年前，基督徒）。决议均需成年、未入狱、和平且直接持有目标县。
-- 每条故事有不同处置、后续费用与地方反应，最终政策持续五年，决议冷却十年。延迟事件重新检查目标县归属；流程锁一年后自动到期。阿尼按原版 `c_hayk`／`b_ani` 定位，圣所用途单独保存，不把一座建筑改作教堂或清真寺等同于全县改宗。
-- 通基拉德派使用 1.20 原生礼制机制，母体为原版亚美尼亚使徒教会。三条核心教义为反圣像、公有财产、造反有理，支持男女平等、男女俗人神职和男女私通获准。调查开始时按原版历史异端模板生成斯姆巴特·扎雷哈万齐，由他本人创建并改奉礼制。文化为亚美尼亚；Zarehavantsi 是籍贯称号，宗族未获明确证实，故不虚构贵族谱系。亚美尼亚使徒教会统治者可花费 500 虔诚加入，使自身与直接持有的阿帕胡尼克县改奉礼制。创立者去世后，复兴调查由在世追随者出面；描述保留首次创立者的可点击姓名、地点与年份。礼制创建后可通过原版宗教机制继续传播。图标为透明红色碎裂亚美尼亚十字架。
-- “造反有理”是原版 `tenet_unrelenting_faith` 的特殊名称。主包覆盖原版 `00_tenet_types.txt`，仅增加新礼制的名称与描述选择条件，所有 71 条原版教义的机械效果保持一致。将来原版更新该文件时需重新同步；其他模组若覆盖同一文件，则需要合并。生成器和原版文件指纹已保存。
-- CE 外高加索建国决议与确认事件已迁入；使用 CE 时保留其原始决议并隐藏迁入副本。独立模式在建国时才调整法理归属。
-- 杰尔宾特决议使用原创工具生成横幅（1100×440、DXT1、完整 mip 层）；其余使用原版美术。新礼制图标为 100×100、DXT5，保留透明通道。人物外观由原版或所选 EPE 组合提供。
+兼容文件保留所借用 CE 文件中的其他记录，并补齐依赖，避免整文件覆盖删除对象。鄂温克文化和姓名表与北太平洋地图扩展使用相同的文件名，消除双重注册。所有源文件指纹与外观回退记录保存在 `reports/`。六个原有 ROA／TFE 可选传承引用仍在对应的兼容条件之后；不把可选引用警告伪装成完整引擎验证。
 
-CE 来源为 Workshop 2829397295（本地版本 1.19.0.6），EPE 为 2507209632（本地版本 1.20.0.3）。感谢 Culture Expanded、EPE、cybrxkhan 与 RICE 贡献者。逐项来源和文件指纹见 `reports/caucasus-ce-import-manifest.json`，内容说明、美术来源和可复现工具保留在 `authoring/caucasus_flavor_pack/`。新增译文与故事属于 Expanded 制作，不归为原版、CE 或原汉化作者的作品。未复制无关的虚构巴尔干人物。
+## 人物与故事
 
-## 验证范围
+- **杰尔宾特罗斯近卫**：当地领主接见信奉斯拉夫真理教、属于东斯拉夫传承的罗斯队长，军事 26、勇武 32。勇敢、侠义与满级剑术经验使原版护卫称职度达到 91；即使有原版宫廷政治的 −10 惩罚，仍达到极佳的 80 门槛。可以聘他为贴身护卫并获得 500 名事件兵，或只雇用 500 名战士。职位已满或原版职位不可用时，不会撤换现任护卫。宗教争端改变队长对领主的态度；部队合同与队长的宗教待遇分开处理。
+- **洛里教会争论**：亚美尼亚院长与正教使者当面争论译文和教会自主权。玩家能延请其中的学者、接受语言教导、撤回有争议的措辞，最后保存一本实际的《洛里论辩录》宝物，或留下教师。前面的立场决定最终协议。
+- **阿尼圣所归属**：基督徒管理人与穆斯林代表携钥匙、契据和修缮要求登场。裁决保存建筑用途，两位代表可以留在宫廷；安置迁出的会众影响人物态度和地方秩序。不会因改变一座建筑的用途而强制全县改宗。
+- **阿兰传教与反弹**：正教传教士和阿兰长老争论土地与誓约。可延请教师、接纳地方长老或获得 100 名轻骑兵。界桩纠纷记住先前的拨地；结尾可选择亲自受洗，或保留自身信仰。不会自动转换整个阿兰地区。
+- **通德拉基派**：867 新开局安排在约一年后创建礼制并向玩家公布消息，另有年度全局补偿，防止原领主死亡或失去阿帕胡尼克导致漏触发。1066／1178 开局立即创建，进入游戏后可在亚美尼亚使徒教会的礼制列表中查看。所在地领主可以听取五阶段调查；消息中的亚美尼亚使徒教会玩家，若首都位于外高加索并有足够虔诚，也可以加入。女代表能进入宫廷发言；庇护会留下讲道者，镇压会实际囚禁他，加入会改变玩家及调查所在地的礼制。见证可以保存为书册宝物。
 
-只进行后台脚本和纹理文件检查，不启动游戏，不操作桌面、鼠标或键盘。检查三种预设的实际文件组合、文化与礼制重复注册、依赖引用、三语文本与变量标记、费用、政策互斥、失地后的事件中止、礼制创建与重复加入，以及 DDS 完整性。脚本模拟不等于引擎执行；界面裁切、引擎作用域、人物外观和长期平衡尚未实机验证，本次仍为 Alpha 预发布。
+斯姆巴特·扎雷哈万齐按原版历史异端模板生成，由他本人创建并改奉通德拉基礼制。文化为亚美尼亚；Zarehavantsi 是籍贯称号，宗族未获明确证实，故不虚构贵族谱系。模板人生时间随游戏触发年安排，不声称历史人物实际活到了后期剧本。首次创立者、地点、年份的引用永久保留；其死亡后由追随者继续出场，描述中的姓名仍可打开原人物。
 
-历史题材参考：[杰尔宾特](https://whc.unesco.org/en/list/1070)、[哈格帕特与萨纳欣](https://whc.unesco.org/en/list/777/)、[上斯瓦涅季](https://whc.unesco.org/en/list/709)、[格拉蒂](https://whc.unesco.org/en/list/710)。具体事件对话、纠纷和数值效果属于游戏创作。
+通德拉基派仍是亚美尼亚使徒教会的分支礼制，而非额外创建的独立信仰。核心教义为反圣像、公有财产、造反有理，男女平等、男女神职以及男女私通获准。造反有理使用原版不屈信仰的机制与特殊名称；仅扩展名称／描述选择，97 条原版教义的机械效果不变。其他模组若整文件修改 `00_tenet_types.txt`，仍需同步合并。
 
-宗教故事的具体史料与年代争议见 `plans/Caucasus-Religious-Content-Plan.md`：杰尔宾特取材于 989—990 年近卫争端，洛里取材于 1170 年代合一谈判，阿尼参考 1064／1124 年建筑用途变化，阿兰参考马苏第记载的 932 年教士驱逐。除通基拉德派首次出现时生成历史人物模板外，其他史实人物只在背景说明中出现。斯姆巴特模板随事件触发年生成人生时间，遵循原版历史异端的处理方式，不声称他实际活到了1066等开局。通基拉德派材料多来自其反对者，指定三教义和男女平等属于本次游戏建模；阿兰地方旧俗没有套用近现代奥塞梯神谱。
+原有 22 个地方场景也有反复出现的监工、学者或工匠，并可留下实际人物或书册。地方修缮、机构与最终协议仍以县级修正记录，但不再让宗教故事每一步只增删临时数值。25 个新增修正全部引用实际存在的原版图标，通过 `positive`／`negative` 后缀显示绿／红图标与名称；混合效果中的负值仍按原版显示。
 
-# Caucasus: Passes and Sanctuaries — built into RICE Expanded
+## 本地化、美术与验证
 
-The alpha is embedded in RICE, with eight CE culture definitions, relevant source dependencies and character corrections, eleven decisions, forty events, a Tondrakian branch rite, an original Derbent banner and a fractured Armenian-cross icon. All 838 Caucasus localization keys are available in English, Simplified Chinese and French. Select one installation preset: Base, EPE, or CE–EPE. Compatibility is baked into its single RICE directory. The online Built-In-Update ZIPs update an existing expanded.1 or expanded.2 installation in place. Load RICE Expanded after its required base mods and disable old separate compatibility mods.
+高加索全部 **878** 条制作内容提供英／简中／法语，Derbent 中文使用“杰尔宾特”，其余五种语言保留明确的英文回退。另借用的 CE 依赖标签使用可取得的 CE 或原版译文，其缺失翻译保留英文并单独记录；这不表示整个 CE 或 RICE 已完成中法翻译。
 
-The Base preset retains CE gameplay with vanilla appearance fallbacks. EPE presets preserve the exact copied CE appearance fields. CE–EPE preserves CE's original startup setup and empire decision, suppressing duplicate copies. Five other languages retain English fallbacks and native vanilla terms. Complete translations apply to Caucasus content, not every entry in RICE.
+杰尔宾特决议使用原创横幅；通德拉基图标为透明红色碎裂亚美尼亚十字架。其他场景、修正与书册使用原版资源。
 
-Five new optional chains concern Derbent’s Rus guards, Lori’s church debate, Ani’s cathedral, missionary resistance in Alania, and a five-stage Tondrakian inquiry. The Tondrakian rite belongs to the vanilla Armenian Apostolic faith and has Aniconism, Communal Possessions, Righteous Rebellion, gender equality, clergy of either gender and accepted adultery for both sexes. It uses the native Unrelenting Faith tenet mechanics with a rite-specific vanilla label. The native tenet file is overlaid only to extend this label selection; other mods replacing that file need a merged version. Smbat Zarehavantsi is generated once from an Armenian historical-character template and creates the rite in his own character scope. His geographic designation is retained without fabricating a noble dynasty. An Armenian Apostolic ruler can then join for 500 Piety, converting that ruler and Apahunik. Later inquiries use a living follower if Smbat has died. The description follows the native generic format and keeps the original linked founder, place and year. The template lifespan follows the outbreak year, as in native historical-heresy spawning; it does not assert historical survival into later bookmarks. Ani’s sanctuary use persists independently of county faith. Policies last five years, decisions have ten-year cooldowns, and delayed stages recheck direct ownership.
+检查包括六种实际文件组合：独立、EPE、CE、CE＋EPE，以及带 CFP、VIET、北太平洋地图、Cultural Armies、Cadet Branch 和 CFP＋EPE 补丁的两组。582 条宗教故事路径、开局时间安排、人物保存与恢复、护卫称职度、500 名事件兵、费用、地区限制、文化依赖、三语变量标记和 1,994 个 DDS 均在后台检查。**未启动游戏，未接管桌面；脚本模型不等于实际引擎执行，界面渲染和长期平衡仍需实机观察。**
 
-Static validation only; no game or desktop control was used. This does not confirm engine execution, rendered interfaces or campaign balance. Source records, historical references, exact artwork prompt and validation reports are included in the repository.
+CE 来源为本地 Workshop 2829397295（1.19.0.6），EPE 为 2507209632（1.20.0.3）。感谢 Culture Expanded、EPE、RICE 作者和贡献者。具体史料、年代争议及人物来源见 `plans/Caucasus-Religious-Content-Plan.md` 与 `authoring/caucasus_flavor_pack/research/`；事件对话、地方纠纷与数值属于游戏创作。
+
+# English installation note
+
+Use the single **Unified** full package. RICE Expanded is self-contained; CE, EPE and the checked optional mods are not required. Load it after culture, portrait and map mods; disable old separate RICE compatibility patches. Start a new campaign to obtain the migrated Caucasus starting cultures. Existing saves retain their established distribution.
+
+The character-led stories provide a Rus captain and exactly 500 event soldiers, court teachers, actual manuscripts, Ani’s competing religious representatives, Alan riders and an optional personal baptism. The Tondrakian outbreak is scheduled around one year into an 867 campaign with a succession fallback. Later starts initialize the branch immediately; it appears among the Armenian Apostolic rites, rather than as a duplicate independent faith. All 878 authored Caucasus keys have English, Chinese and French text. Additional CE dependency labels may use English fallbacks.
+
+Validation is static and scripted. The game and desktop were not controlled. This community alpha does not claim universal mod compatibility or verified engine rendering.

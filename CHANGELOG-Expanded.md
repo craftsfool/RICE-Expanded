@@ -1,3 +1,17 @@
+# RICE Expanded — expanded.3.3: one self-contained package and character-led stories
+
+2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease
+
+- 合并为一个无外部模组依赖的 Unified 完整包；CE／EPE 为可选项。补齐共同文化支柱与传递依赖，实际检测 CE 是否启用，恢复独立开局的高加索文化分布和外高加索帝国决议。修复与北太平洋地图的鄂温克文化／姓名表重复定义。
+- 为全部 25 个高加索修正配置有效的原版正／负图标，恢复绿／红名称。重写四条宗教争端，强化通德拉基五阶段调查，并让 22 个地方场景出现持续保存的实际人物与书册结果。
+- 罗斯招募出现斯拉夫真理教、东斯拉夫传承、军事 26／勇武 32 的队长；按原版机制可达极佳护卫称职度。选择聘为护卫或只雇战团，两者均获得 500 名事件兵，不替换满额职位。
+- 洛里可延请教师与制作论辩书册；阿尼代表可入廷并安置迁出会众；阿兰可招募 100 名骑兵，个人洗礼为明确选项。通德拉基的女代表、讲道者和囚禁／庇护均为实际人物效果。
+- 867 开局约一年后公布通德拉基兴起，年度全局补偿防止领主死亡漏触发；1066／1178 立即创建分支礼制。保持原创立者在死亡后的姓名、地点与年份链接。
+- 878 个高加索制作内容键提供英／简中／法语；额外 CE 依赖标签保留可取得的源译文，缺失翻译明确使用英文回退。修复重复构建误清空标签的问题。
+- 六种模组组合的脚本文件检查，以及 582 条宗教分支、时间安排、人物恢复、原版称职度和资源检查通过；只进行后台检验，未启动游戏。没有将静态通过表述为完整组合的崩溃已获实机解决。
+
+A single self-contained Unified package replaces the three installation presets. Optional CE/EPE detection, starting culture assignments, the imported empire decision and North Pacific Evenk collisions are repaired. Caucasus modifiers now use native green/red icons. Stories introduce persistent actors, Rus event soldiers and an Excellent bodyguard, court teachers, manuscripts, sanctuary representatives, Alan riders and an optional baptism. The Tondrakian rite is scheduled around year one in 867 and initialized immediately for later starts. Validation remains static and scripted; no game or desktop control was used.
+
 # RICE Expanded — expanded.3.2: native gold effects
 
 2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease

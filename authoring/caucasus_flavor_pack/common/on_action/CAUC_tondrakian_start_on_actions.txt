@@ -1,0 +1,19 @@
+﻿on_game_start_after_lobby = { on_actions = { CAUC_tondrakian_start } }
+CAUC_tondrakian_start = {
+ effect = {
+  if = { limit = { NOT = { has_global_variable = CAUC_tondrakian_scheduled } }
+   set_global_variable = { name = CAUC_tondrakian_scheduled value = yes }
+   title:c_apahunik.holder = {
+    if = { limit = { game_start_date = 867.1.1 }
+     trigger_event = { id = CAUC.0149 days = 365 }
+    }
+    else = { CAUC_tondrakian_prepare_inquiry_effect = yes }
+   }
+  }
+ }
+}
+yearly_global_pulse = { on_actions = { CAUC_tondrakian_guaranteed_outbreak } }
+CAUC_tondrakian_guaranteed_outbreak = {
+ trigger = { game_start_date = 867.1.1 current_date >= 868.1.1 NOT = { has_global_variable = CAUC_tondrakian_outbreak_announced } }
+ effect = { title:c_apahunik.holder = { trigger_event = { id = CAUC.0149 days = 1 } } }
+}

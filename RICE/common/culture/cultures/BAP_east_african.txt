@@ -1,0 +1,100 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+tigray = {
+ #Habasha
+	color = hsv { 0.1 0.5 0.8 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_east_african
+	language = language_ethiopic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_amharic_highlanders
+		tradition_family_entrepreneurship
+		tradition_city_keepers
+	}
+	
+	name_list = name_list_ethiopian
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_19
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+	
+	ethnicities = {
+		100 = east_african
+	}
+
+}
+
+agaw = {
+
+	color = { 0.8 0.3 0.3 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_east_african
+	language = language_cushitic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_zealous_people
+		tradition_amharic_highlanders
+		tradition_fervent_temple_builders
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_ethiopian
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_19
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+	
+	ethnicities = {
+		100 = east_african
+	}
+
+}
+
+argobba = {
+
+	color = hsv { 0.7 0.8 0.6 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_east_african #migrants to the horn but ethiopic origins
+	language = language_ethiopic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_horn_mountain_skirmishing
+		tradition_hill_dwellers
+		tradition_religion_blending
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_argobba
+	
+	coa_gfx = { east_african_coa_gfx } 
+	#coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	house_coa_frame = house_frame_19
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+	
+	ethnicities = {
+		100 = east_african
+	}
+
+}

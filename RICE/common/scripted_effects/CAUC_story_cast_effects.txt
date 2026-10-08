@@ -1,0 +1,136 @@
+﻿# Cast is stored on the ruler and recovered at every delayed stage, including after reload.
+CAUC_rus_speaker_effect = {
+ if = { limit = { has_variable = CAUC_rus_speaker var:CAUC_rus_speaker = { is_alive = yes } }
+  var:CAUC_rus_speaker = { save_scope_as = CAUC_rus_speaker }
+ } else = {
+  create_character = { age = 30 dynasty = none gender_female_chance = 0 random_traits = no
+   location = root.capital_province culture = culture:russian faith = faith:slavic_pagan
+   trait = education_martial_4 trait = brave trait = gallant trait = lifestyle_blademaster martial = 26 prowess = 32 diplomacy = 12 learning = 8 save_scope_as = CAUC_rus_speaker
+  }
+  add_visiting_courtier = scope:CAUC_rus_speaker
+  scope:CAUC_rus_speaker = { add_trait_xp = { trait = lifestyle_blademaster value = 100 } }
+  set_variable = { name = CAUC_rus_speaker value = scope:CAUC_rus_speaker }
+ }
+}
+CAUC_abbot_speaker_effect = {
+ if = { limit = { has_variable = CAUC_abbot_speaker var:CAUC_abbot_speaker = { is_alive = yes } }
+  var:CAUC_abbot_speaker = { save_scope_as = CAUC_abbot_speaker }
+ } else = {
+  create_character = { age = 40 dynasty = none gender_female_chance = 0 random_traits = no
+   location = root.capital_province culture = culture:armenian faith = faith:armenian_apostolic
+   trait = education_learning_4 trait = theologian trait = zealous trait = humble learning = 24 diplomacy = 13 save_scope_as = CAUC_abbot_speaker
+  }
+  add_visiting_courtier = scope:CAUC_abbot_speaker
+  set_variable = { name = CAUC_abbot_speaker value = scope:CAUC_abbot_speaker }
+ }
+}
+CAUC_envoy_speaker_effect = {
+ if = { limit = { has_variable = CAUC_envoy_speaker var:CAUC_envoy_speaker = { is_alive = yes } }
+  var:CAUC_envoy_speaker = { save_scope_as = CAUC_envoy_speaker }
+ } else = {
+  create_character = { age = 40 dynasty = none gender_female_chance = 0 random_traits = no
+   location = root.capital_province culture = culture:greek faith = faith:orthodox
+   trait = education_learning_4 trait = scholar trait = patient learning = 22 diplomacy = 16 save_scope_as = CAUC_envoy_speaker
+  }
+  add_visiting_courtier = scope:CAUC_envoy_speaker
+  set_variable = { name = CAUC_envoy_speaker value = scope:CAUC_envoy_speaker }
+ }
+}
+CAUC_warden_speaker_effect = {
+ if = { limit = { has_variable = CAUC_warden_speaker var:CAUC_warden_speaker = { is_alive = yes } }
+  var:CAUC_warden_speaker = { save_scope_as = CAUC_warden_speaker }
+ } else = {
+  create_character = { age = 40 dynasty = none gender_female_chance = 0 random_traits = no
+   location = root.capital_province culture = culture:armenian faith = faith:armenian_apostolic
+   trait = education_learning_3 trait = diligent trait = humble learning = 17 stewardship = 15 save_scope_as = CAUC_warden_speaker
+  }
+  add_visiting_courtier = scope:CAUC_warden_speaker
+  set_variable = { name = CAUC_warden_speaker value = scope:CAUC_warden_speaker }
+ }
+}
+CAUC_imam_speaker_effect = {
+ if = { limit = { has_variable = CAUC_imam_speaker var:CAUC_imam_speaker = { is_alive = yes } }
+  var:CAUC_imam_speaker = { save_scope_as = CAUC_imam_speaker }
+ } else = {
+  create_character = { age = 40 dynasty = none gender_female_chance = 0 random_traits = no
+   location = root.capital_province culture = culture:armenian faith = faith:sunni
+   trait = education_learning_3 trait = zealous trait = patient learning = 18 diplomacy = 14 save_scope_as = CAUC_imam_speaker
+  }
+  add_visiting_courtier = scope:CAUC_imam_speaker
+  set_variable = { name = CAUC_imam_speaker value = scope:CAUC_imam_speaker }
+ }
+}
+CAUC_missionary_speaker_effect = {
+ if = { limit = { has_variable = CAUC_missionary_speaker var:CAUC_missionary_speaker = { is_alive = yes } }
+  var:CAUC_missionary_speaker = { save_scope_as = CAUC_missionary_speaker }
+ } else = {
+  create_character = { age = 40 dynasty = none gender_female_chance = 0 random_traits = no
+   location = root.capital_province culture = culture:greek faith = faith:orthodox
+   trait = education_learning_4 trait = theologian trait = zealous learning = 23 diplomacy = 14 save_scope_as = CAUC_missionary_speaker
+  }
+  add_visiting_courtier = scope:CAUC_missionary_speaker
+  set_variable = { name = CAUC_missionary_speaker value = scope:CAUC_missionary_speaker }
+ }
+}
+CAUC_elder_speaker_effect = {
+ if = { limit = { has_variable = CAUC_elder_speaker var:CAUC_elder_speaker = { is_alive = yes } }
+  var:CAUC_elder_speaker = { save_scope_as = CAUC_elder_speaker }
+ } else = {
+  create_character = { age = 40 dynasty = none gender_female_chance = 0 random_traits = no
+   location = root.capital_province culture = culture:alan faith = root.faith
+   trait = education_diplomacy_3 trait = stubborn trait = brave diplomacy = 18 martial = 16 prowess = 20 save_scope_as = CAUC_elder_speaker
+  }
+  add_visiting_courtier = scope:CAUC_elder_speaker
+  set_variable = { name = CAUC_elder_speaker value = scope:CAUC_elder_speaker }
+ }
+}
+CAUC_representative_speaker_effect = {
+ if = { limit = { has_variable = CAUC_representative_speaker var:CAUC_representative_speaker = { is_alive = yes } }
+  var:CAUC_representative_speaker = { save_scope_as = CAUC_representative_speaker }
+ } else = {
+  create_character = { age = 40 dynasty = none gender_female_chance = 100 random_traits = no
+   location = root.capital_province culture = culture:armenian faith = faith:armenian_apostolic
+   trait = education_learning_3 trait = brave trait = compassionate learning = 17 diplomacy = 17 save_scope_as = CAUC_representative_speaker
+  }
+  add_visiting_courtier = scope:CAUC_representative_speaker
+  set_variable = { name = CAUC_representative_speaker value = scope:CAUC_representative_speaker }
+ }
+}
+CAUC_tondrakian_speaker_effect = { CAUC_tondrakian_recover_speaker_effect = yes }
+CAUC_tondrakian_witness_effect = { CAUC_representative_speaker_effect = yes scope:CAUC_representative_speaker = { set_character_rite = rite:CAUC_tondrakian_rite } }
+CAUC_overseer_speaker_effect = {
+ if = { limit = { has_variable = CAUC_overseer_speaker var:CAUC_overseer_speaker = { is_alive = yes } }
+  var:CAUC_overseer_speaker = { save_scope_as = CAUC_overseer_speaker }
+ } else = {
+  create_character = { age = 40 dynasty = none gender_female_chance = 0 random_traits = no
+   location = root.capital_province culture = root.culture faith = root.faith
+   trait = education_stewardship_3 trait = diligent stewardship = 20 martial = 14 save_scope_as = CAUC_overseer_speaker
+  }
+  add_visiting_courtier = scope:CAUC_overseer_speaker
+  set_variable = { name = CAUC_overseer_speaker value = scope:CAUC_overseer_speaker }
+ }
+}
+CAUC_scholar_speaker_effect = {
+ if = { limit = { has_variable = CAUC_scholar_speaker var:CAUC_scholar_speaker = { is_alive = yes } }
+  var:CAUC_scholar_speaker = { save_scope_as = CAUC_scholar_speaker }
+ } else = {
+  create_character = { age = 40 dynasty = none gender_female_chance = 0 random_traits = no
+   location = root.capital_province culture = root.culture faith = root.faith
+   trait = education_learning_4 trait = scholar trait = patient learning = 24 diplomacy = 13 save_scope_as = CAUC_scholar_speaker
+  }
+  add_visiting_courtier = scope:CAUC_scholar_speaker
+  set_variable = { name = CAUC_scholar_speaker value = scope:CAUC_scholar_speaker }
+ }
+}
+CAUC_mason_speaker_effect = {
+ if = { limit = { has_variable = CAUC_mason_speaker var:CAUC_mason_speaker = { is_alive = yes } }
+  var:CAUC_mason_speaker = { save_scope_as = CAUC_mason_speaker }
+ } else = {
+  create_character = { age = 35 dynasty = none gender_female_chance = 0 random_traits = no
+   location = root.capital_province culture = culture:ce_svan faith = root.faith
+   trait = education_stewardship_3 trait = diligent trait = brave stewardship = 21 prowess = 16 martial = 14 save_scope_as = CAUC_mason_speaker
+  }
+  add_visiting_courtier = scope:CAUC_mason_speaker
+  set_variable = { name = CAUC_mason_speaker value = scope:CAUC_mason_speaker }
+ }
+}

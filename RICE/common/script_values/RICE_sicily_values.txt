@@ -1,9 +1,5 @@
-﻿# Base cost values
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
 
-@RICE_high_maint_mult = 3
-@RICE_sicily_archers_recruitment_cost = 55
-@RICE_sicily_archers_low_maint_cost = 0.2
-@RICE_sicily_archers_high_maint_cost = @[RICE_sicily_archers_low_maint_cost * RICE_high_maint_mult]
 
 
 RICE_sicily_latin_stronghold_appearance_value = {
@@ -118,6 +114,8 @@ RICE_sicily_latin_stronghold_appearance_value = {
 	max = 40
 }
 
+
+
 RICE_sicily_greek_stronghold_appearance_value = {
 	value = 10
 	# If the Greek ruler isn't both religiously or culturally relevant, decrease chances
@@ -225,6 +223,8 @@ RICE_sicily_greek_stronghold_appearance_value = {
 	min = 1
 	max = 40
 }
+
+
 
 RICE_sicily_arabic_stronghold_appearance_value = {
 	value = 10
@@ -334,6 +334,8 @@ RICE_sicily_arabic_stronghold_appearance_value = {
 	min = 1
 	max = 40
 }
+
+
 
 RICE_sicily_latin_stronghold_appearance_cb_value = {
 	value = 0
@@ -458,6 +460,8 @@ RICE_sicily_latin_stronghold_appearance_cb_value = {
 	max = 40
 }
 
+
+
 RICE_sicily_greek_stronghold_appearance_cb_value = {
 	value = 0
 
@@ -578,6 +582,8 @@ RICE_sicily_greek_stronghold_appearance_cb_value = {
 	min = 1
 	max = 40
 }
+
+
 
 RICE_sicily_arabic_stronghold_appearance_cb_value = {
 	value = 0
@@ -703,6 +709,8 @@ RICE_sicily_arabic_stronghold_appearance_cb_value = {
 	max = 40
 }
 
+
+
 RICE_sicily_latin_stronghold_removal_value = {
 	value = 0
 
@@ -801,6 +809,8 @@ RICE_sicily_latin_stronghold_removal_value = {
 	min = 1
 	max = 40
 }
+
+
 
 RICE_sicily_greek_stronghold_removal_value = {
 	value = 0
@@ -902,6 +912,8 @@ RICE_sicily_greek_stronghold_removal_value = {
 	max = 40
 }
 
+
+
 RICE_sicily_arabic_stronghold_removal_value = {
 	value = 0
 
@@ -1001,6 +1013,8 @@ RICE_sicily_arabic_stronghold_removal_value = {
 	min = 1
 	max = 40
 }
+
+
 
 RICE_sicily_latin_dominance_global_value = {
 	value = 0
@@ -1152,6 +1166,8 @@ RICE_sicily_latin_dominance_global_value = {
 
 
 
+
+
 RICE_sicily_greek_dominance_global_value = {
 	value = 0
 	struggle:RICE_sicily_struggle ?= {
@@ -1283,6 +1299,8 @@ RICE_sicily_greek_dominance_global_value = {
 		}		
 	}
 }
+
+
 
 
 
@@ -1420,9 +1438,17 @@ RICE_sicily_arabic_dominance_global_value = {
 
 
 
+
+
 RICE_sicily_bowmen_recruitment_cost = @[RICE_sicily_archers_recruitment_cost * 1.1]
+
+
 RICE_sicily_bowmen_low_maint_cost = @[RICE_sicily_archers_low_maint_cost * 1.1]
+
+
 RICE_sicily_bowmen_high_maint_cost = @[RICE_sicily_archers_high_maint_cost * 1.1]
+
+
 
 RICE_sicily_signore_trait_xp_gain_minor = {
 	value = 4
@@ -1436,6 +1462,8 @@ RICE_sicily_signore_trait_xp_gain_minor = {
 	}
 }
 
+
+
 RICE_sicily_signore_trait_xp_gain_medium = {
 	value = 8
 	if = {
@@ -1448,6 +1476,8 @@ RICE_sicily_signore_trait_xp_gain_medium = {
 	}
 }
 
+
+
 RICE_sicily_signore_trait_xp_gain_major = {
 	value = 12
 	if = {
@@ -1459,6 +1489,8 @@ RICE_sicily_signore_trait_xp_gain_major = {
 		multiply = 2
 	}
 }
+
+
 
 RICE_sicily_resource_gain_per_sicilian_county = {
 	value = 0
@@ -1474,6 +1506,8 @@ RICE_sicily_resource_gain_per_sicilian_county = {
 	}
 }
 
+
+
 RICE_sicily_resource_gain_per_insular_sicilian_county = {
 	value = 0
 	# Every county in insular Sicily
@@ -1487,6 +1521,8 @@ RICE_sicily_resource_gain_per_insular_sicilian_county = {
 		add = 50
 	}
 }
+
+
 
 RICE_sicily_frontier_decision_skill_requirement = {
 	value = 0
@@ -1507,6 +1543,8 @@ RICE_sicily_frontier_decision_skill_requirement = {
 		add = mediocre_skill_rating
 	}
 }
+
+
 
 
 
@@ -1540,6 +1578,8 @@ RICE_sicily_north_african_famine_disappearance_base_chance = {
 
 }
 
+
+
 RICE_sicily_north_african_famine_disappearance_real_chance = {
 	value = 35
 	if = {
@@ -1570,6 +1610,8 @@ RICE_sicily_north_african_famine_disappearance_real_chance = {
 }
 
 
+
+
 RICE_sicily_virgil_activity_prestige_chance = {
 	value = 0
 	add = {
@@ -1579,6 +1621,8 @@ RICE_sicily_virgil_activity_prestige_chance = {
 	min = 1
 }
 
+
+
 RICE_sicily_virgil_activity_piety_chance = {
 	value = 0
 	add = {
@@ -1587,6 +1631,8 @@ RICE_sicily_virgil_activity_piety_chance = {
 	}
 	min = 1
 }
+
+
 
 RICE_sicily_salerno_medical_extra_chance = {
 	value = 0
@@ -1680,6 +1726,8 @@ RICE_sicily_salerno_medical_extra_chance = {
 
 
 
+
+
 RICE_sicily_fortify_stronghold_knight_spawn_chance = {
 	value = 0
 
@@ -1700,8 +1748,14 @@ RICE_sicily_fortify_stronghold_knight_spawn_chance = {
 }
 
 
+
+
 RICE_sicily_stronghold_bargain_min_base_value = 100
+
+
 RICE_sicily_stronghold_bargain_min_bottom_value = 50
+
+
 
 RICE_sicily_stronghold_bargain_min_value = {
 	value = RICE_sicily_stronghold_bargain_min_base_value
@@ -1848,8 +1902,14 @@ RICE_sicily_stronghold_bargain_min_value = {
 }
 
 
+
+
 RICE_sicily_stronghold_bargain_max_base_value = 200
+
+
 RICE_sicily_stronghold_bargain_max_top_value = 300
+
+
 
 RICE_sicily_stronghold_bargain_max_value = {
 	value = RICE_sicily_stronghold_bargain_max_base_value
@@ -1998,6 +2058,8 @@ RICE_sicily_stronghold_bargain_max_value = {
 
 
 
+
+
 RICE_sicily_art_science_scholar_chance = {
 	value = 0
 	add = {
@@ -2012,6 +2074,8 @@ RICE_sicily_art_science_scholar_chance = {
 	min = 1
 	max = 25
 }
+
+
 
 
 RICE_sicily_virgil_decision_bad_result_chance = {
@@ -2133,10 +2197,18 @@ RICE_sicily_virgil_decision_bad_result_chance = {
 
 
 
+
+
 RICE_sicily_crossroads_ending_development_level_lower = medium_development_level
+
+
 RICE_sicily_crossroads_ending_development_level_higher = good_development_level
 
+
+
 RICE_sicily_pavia_development_level = 30
+
+
 
 
 RICE_sicily_foothold_cb_ai_targeting_value = {
@@ -2186,6 +2258,8 @@ RICE_sicily_foothold_cb_ai_targeting_value = {
 		}
 	}
 }
+
+
 
 RICE_sicily_frontier_administration_value = {
 	value = medium_gold_value
@@ -2242,6 +2316,8 @@ RICE_sicily_frontier_administration_value = {
 }
 
 
+
+
 RICE_sicily_send_grain_cost_value = {
 	value = minor_gold_value
 	if = {
@@ -2272,6 +2348,8 @@ RICE_sicily_send_grain_cost_value = {
 		multiply = 0.8
 	}
 }
+
+
 
 
 RICE_sicily_send_prestige_gain_value = {
@@ -2305,6 +2383,8 @@ RICE_sicily_send_prestige_gain_value = {
 	}
 }
 
+
+
 RICE_sicily_medical_salerno_decision_cost = {
 	value = minor_gold_value
 	if = {
@@ -2316,6 +2396,8 @@ RICE_sicily_medical_salerno_decision_cost = {
 		multiply = 0.75
 	}
 }
+
+
 
 
 RICE_sicily_bureauratic_records_chance = {
@@ -2347,6 +2429,8 @@ RICE_sicily_bureauratic_records_chance = {
 
 
 
+
+
 RICE_almadraba_cost = {
 	value = 40
 	# Every county you own in the Western Mediterranean
@@ -2364,6 +2448,8 @@ RICE_almadraba_cost = {
 	max = 150
 
 }
+
+
 
 RICE_sicily_andreas_aspiration_achieved_gold_value = {
 	value = medium_gold_value

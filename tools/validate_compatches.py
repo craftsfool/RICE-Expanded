@@ -35,6 +35,11 @@ def entries(source):
             raise ValueError(f'Expected assignment near {ts[i].group()!r}')
         key = ts[i].group()
         j = i + 2
+        color_constructor = (ts[j].group() in ('hsv', 'hsv360', 'rgb')
+                             and j + 1 < len(ts) and ts[j + 1].group() == '{')
+        rhs_start = ts[j].start()
+        if color_constructor:
+            j += 1
         if ts[j].group() == '{':
             depth = 1
             j += 1
@@ -48,6 +53,8 @@ def entries(source):
             if depth:
                 raise ValueError(f'Unclosed block: {key}')
             body = source[body_start:ts[j - 1].start()]
+            if color_constructor:
+                body = source[rhs_start:ts[j - 1].end()]
         else:
             body = ts[j].group()
             j += 1

@@ -72,9 +72,9 @@
     }
   ],
   "decisions": 5,
-  "events": 17,
+  "events": 19,
   "county_modifiers": 15,
-  "translated_keys_per_language": 139,
+  "translated_keys_per_language": 201,
   "complete_languages": [
     "english",
     "simp_chinese",

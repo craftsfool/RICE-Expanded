@@ -1704,5 +1704,5 @@
   ],
   "new_caucasus_character_records": 0,
   "note": "CE history/characters contains only unrelated fictional Balkans/Pannonia records. Existing Caucasus character corrections are imported from CE startup effects. CCU metadata and referenced scalar values are preserved; global CCU GUI and acceptance overhaul are not imported.",
-  "integration": "Built into RICE Expanded. Base uses vanilla visual fallbacks; EPE and CE+EPE install presets embed compatibility and exact CE appearance definitions."
+  "integration": "Built into a single self-contained RICE Expanded package; CE/EPE optional, native appearance fallbacks and dynamic CE startup detection."
 }

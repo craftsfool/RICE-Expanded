@@ -15,7 +15,7 @@
  }
  faith = armenian_apostolic
  # A branch of the vanilla Armenian Apostolic faith, founded through the chain.
- # Avoid inventing bookmark populations or creating it before a ruler adopts it.
+ # Created by the dated 867 outbreak or immediately on a later start; no forced bookmark population conversion.
  create = no
  convert = yes
  icon = CAUC_tondrakian

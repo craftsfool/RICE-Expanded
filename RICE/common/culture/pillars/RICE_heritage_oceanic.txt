@@ -1,6 +1,4 @@
-﻿
-# Now listed in Alphabetical Order for easier navigation
-# Some are from After the End and Rajas of Asia
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
 
 
 
@@ -14,7 +12,6 @@ heritage_andino = {
 	audio_parameter = sea
 }
 
-
 heritage_indigenous_colombian = {
 	type = heritage
 	is_shown = {
@@ -24,7 +21,6 @@ heritage_indigenous_colombian = {
 	}
 	audio_parameter = sea
 }
-
 
 heritage_mapuche = {
 	type = heritage
@@ -36,27 +32,6 @@ heritage_mapuche = {
 	audio_parameter = sea
 }
 
-heritage_melanesian = {
-	type = heritage
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_melanesian
-		}
-	}
-	audio_parameter = sea
-}
-
-heritage_micronesian = {
-	type = heritage
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_micronesian
-		}
-	}
-	audio_parameter = sea
-}
-
-# Localized as Miwatj
 heritage_arnhem_land = {
 	type = heritage
 	is_shown = {
@@ -67,27 +42,6 @@ heritage_arnhem_land = {
 	audio_parameter = sea
 }
 
-heritage_papuan = {
-	type = heritage
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_papuan
-		}
-	}
-	audio_parameter = sea
-}
-
-heritage_polynesian = {
-	type = heritage
-	is_shown = {
-		heritage_is_shown_trigger = {
-			HERITAGE = heritage_polynesian
-		}
-	}
-	audio_parameter = sea
-}
-
-# Localized as Zenadth Kes
 heritage_kaurareg = {
 	type = heritage
 	is_shown = {

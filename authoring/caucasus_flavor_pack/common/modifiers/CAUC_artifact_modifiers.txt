@@ -1,0 +1,1 @@
+﻿CAUC_scholarly_book_modifier = { icon = learning_positive learning = 1 }

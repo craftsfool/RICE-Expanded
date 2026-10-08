@@ -1,0 +1,85 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+mozarab = {
+
+	color = { 0.86 0.62 0.28 }
+
+	parents = { visigothic }
+
+	created = 770.1.1
+	
+	history_loc_override = mozarab_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_poetry
+		tradition_family_entrepreneurship
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_xenophilic
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_andalusian
+
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx } 
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_christian_clothing_gfx western_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx }
+
+	ethnicities = {
+		100 = mediterranean
+	}
+
+}
+
+iqritis = {
+
+	color = { 0.45 0.65 0.15 }
+
+	parents = { andalusian }
+
+	created = 824.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_practiced_pirates
+		tradition_talent_acquisition
+		tradition_seafaring
+		tradition_stalwart_defenders
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_andalusian
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iberian_muslim_unit_gfx }
+	
+	ethnicities = {
+		50 = arab
+		50 = mediterranean
+	}
+
+}

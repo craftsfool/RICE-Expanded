@@ -1,0 +1,37 @@
+﻿# Unified filename also replaces the North Pacific Map Expansion duplicate.
+evenk = { # Covers several Tungustic groups, including the Evenks proper, Even, Oroqen, Solon, etc. - historical range was as far as Lake Baikal
+
+	color = { 0.72 0.91 0.99 }
+	
+	ethos = ethos_communal
+	heritage = heritage_siberian
+	language = language_tungusic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		#tradition_RICE_siberian_survivalists
+		tradition_pastoralists
+		tradition_sacred_hunts
+	}
+
+	dlc_tradition = {
+		trait = tradition_mpo_northern_tribes
+		requires_dlc_flag = khans_of_the_steppe
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_evenk
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	house_coa_frame = house_frame_04
+	
+	ethnicities = {
+		25 = asian_mongol
+		25 = asian_manchu_korean
+		25 = circumpolar_dark_hair
+		25 = circumpolar_brown_hair
+	}
+}

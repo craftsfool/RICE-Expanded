@@ -1,4 +1,7 @@
-﻿
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
 RICE_oceania_kava_drink_bonus_chance = {
 	value = 0
 	if = {
@@ -11,6 +14,8 @@ RICE_oceania_kava_drink_bonus_chance = {
 	min = 1
 	max = 25	
 }
+
+
 
 RICE_oceania_betel_nuts_addict_chance = {
 	value = 0
@@ -25,33 +30,47 @@ RICE_oceania_betel_nuts_addict_chance = {
 	max = 20	
 }
 
+
+
 RICE_oceania_meeting_houses_cost_small = {
 	value = medium_gold_value
 	multiply = 0.5
 }
 
+
+
 RICE_oceania_meeting_houses_cost_medium = {
 	value = medium_gold_value
 }
+
+
 
 RICE_oceania_meeting_houses_cost_large = {
 	value = medium_gold_value
 	multiply = 2
 }
 
+
+
 RICE_oceania_meeting_houses_prestige_small = {
 	value = minor_prestige_gain
 	multiply = 0.75
 }
 
+
+
 RICE_oceania_meeting_houses_prestige_medium = {
 	value = minor_prestige_gain
 }
+
+
 
 RICE_oceania_meeting_houses_prestige_large = {
 	value = minor_prestige_gain
 	multiply = 1.5
 }
+
+
 
 RICE_oceania_meeting_houses_legitimacy_small = {
 	value = minor_legitimacy_gain	
@@ -66,6 +85,8 @@ RICE_oceania_meeting_houses_legitimacy_small = {
 	}
 }
 
+
+
 RICE_oceania_meeting_houses_legitimacy_medium = {
 	value = minor_legitimacy_gain
 	if = {
@@ -75,6 +96,8 @@ RICE_oceania_meeting_houses_legitimacy_medium = {
 		multiply = 1.25
 	}
 }
+
+
 
 RICE_oceania_meeting_houses_legitimacy_large = {
 	value = minor_legitimacy_gain
@@ -88,6 +111,8 @@ RICE_oceania_meeting_houses_legitimacy_large = {
 		multiply = 1.5
 	}
 }
+
+
 
 
 RICE_oceania_biak_pirates_demand_cost = {
@@ -135,6 +160,8 @@ RICE_oceania_biak_pirates_demand_cost = {
 	max = 200
 }
 
+
+
 RICE_oceania_biak_settlement_additional_cost_small = {
 	value = medium_gold_value
 	multiply = {
@@ -180,10 +207,14 @@ RICE_oceania_biak_settlement_additional_cost_small = {
 	max = 150
 }
 
+
+
 RICE_oceania_biak_settlement_additional_cost_large = {
 	value = RICE_oceania_biak_settlement_additional_cost_small
 	multiply = 1.5
 }
+
+
 
 
 
@@ -415,6 +446,8 @@ RICE_oceania_stone_money_success_chance = {
 # 	max = 100
 # }
 
+
+
 RICE_oceania_stone_money_min_gold_gain_value = {
 	value = minor_gold_value
 	if = {
@@ -432,34 +465,6 @@ RICE_oceania_stone_money_min_gold_gain_value = {
 	min = 50
 }
 
-RICE_oceania_stone_money_max_gold_gain_value = {
-	value = medium_gold_value
-	if = {
-		limit = {
-			has_character_flag = RICE_oceania_stone_money_success_large_boost
-		}
-		add = 100
-	}
-	else_if = {
-		limit = {
-			has_character_flag = RICE_oceania_stone_money_success_small_boost
-		}
-		add = 50
-	}
-	min = 100
-}
-
-RICE_oceania_stone_money_max_gold_small = {
-	value = 50
-}
-
-RICE_oceania_stone_money_max_gold_medium = {
-	value = 100
-}
-
-RICE_oceania_stone_money_max_gold_large = {
-	value = 200
-}
 
 
 RICE_oceania_stone_money_max_gold_gain_value = {
@@ -481,14 +486,39 @@ RICE_oceania_stone_money_max_gold_gain_value = {
 	}
 }
 
+
+
+RICE_oceania_stone_money_max_gold_small = {
+	value = 50
+}
+
+
+
+RICE_oceania_stone_money_max_gold_medium = {
+	value = 100
+}
+
+
+
+RICE_oceania_stone_money_max_gold_large = {
+	value = 200
+}
+
+
+
+
 RICE_oceania_stone_money_max_gold_gain_display_value = {
 	value = 300
 }
 
 
+
+
 RICE_oceania_stone_money_min_prestige_gain_value = {
 	value = 25
 }
+
+
 
 RICE_oceania_stone_money_max_prestige_gain_value = {
 	value = medium_prestige_gain
@@ -513,7 +543,12 @@ RICE_oceania_stone_money_max_prestige_gain_value = {
 	min = 26
 }
 
-RICE_oceania_stone_money_small_trait_xp_gain_value = 5
-RICE_oceania_stone_money_medium_trait_xp_gain_value = 10
-RICE_oceania_stone_money_large_trait_xp_gain_value = 15
 
+
+RICE_oceania_stone_money_small_trait_xp_gain_value = 5
+
+
+RICE_oceania_stone_money_medium_trait_xp_gain_value = 10
+
+
+RICE_oceania_stone_money_large_trait_xp_gain_value = 15

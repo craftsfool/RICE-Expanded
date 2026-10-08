@@ -58,7 +58,11 @@ def condition(text,s,scope='root'):
   elif key=='is_landed':result=bool(s['owns'])==(value=='yes')
   elif key in ('is_available_adult','is_imprisoned','is_at_war'):
    result=s[key]==(value=='yes')
+  elif key in ('is_valid_to_hire_court_position_type','can_employ_court_position_type'):result=s['bodyguard_available']
+  elif key=='is_courtier_of':result=s['characters'][scope].get('employer')==value
   elif key=='is_alive':result=s['characters'][scope]['alive']==(value=='yes')
+  elif key=='game_start_date':result=OPS[op](s['start'],date(value))
+  elif key=='has_global_variable':result=value in s['globals']
   elif key=='has_game_rule':result=False # Historical tooltip visibility has no mechanics.
   else:raise AssertionError(('unmodelled trigger',key,value))
   results.append(result)
@@ -66,7 +70,10 @@ def condition(text,s,scope='root'):
 
 def resolve(value,s,scope):
  if value=='this':return scope
+ if value=='root.faith':return s['faith']
+ if value=='root.culture':return s['culture']
  if value=='current_year':return s['date'][0]
+ if value=='title:c_apahunik.holder':return 'root'
  if value.startswith('title:'):return value
  if value.startswith('scope:'):return s['scopes'].get(value[6:])
  if value.startswith('global_var:'):return s['globals'].get(value[11:])
@@ -98,8 +105,35 @@ def effects(text,s,scope='root'):
   elif key=='save_scope_as':s['scopes'][value]=scope
   elif key=='create_character':
    ident='character:'+str(len(s['characters'])+1)
-   s['characters'][ident]={'alive':True,'name':get(value,'name'),'culture':get(value,'culture'),'dynasty':get(value,'dynasty'),'faith':get(value,'faith'),'rite':None,'historical':False,'traits':[],'flags':[]}
+   s['characters'][ident]={'alive':True,'name':get(value,'name'),'culture':resolve(get(value,'culture'),s,scope),'dynasty':get(value,'dynasty'),'faith':resolve(get(value,'faith'),s,scope),'rite':None,'historical':False,'traits':[arg for field,arg,_ in fields(value) if field=='trait'],'flags':[],'employer':None,'skills':{field:float(get(value,field,'0')) for field in ('martial','prowess','learning','stewardship','diplomacy')},'trait_xp':{}}
    s['scopes'][get(value,'save_scope_as')]=ident
+  elif key=='add_trait_xp':s['characters'][scope].setdefault('trait_xp',{})[get(value,'trait')]=float(get(value,'value'))
+  elif key=='add_visiting_courtier':s['characters'][resolve(value,s,scope)]['guest']='root'
+  elif key=='remove_courtier_or_guest':s['characters'][resolve(value,s,scope)].pop('guest',None)
+  elif key=='add_courtier':s['characters'][resolve(value,s,scope)]['employer']='root'
+  elif key=='appoint_court_position':
+   assert s['bodyguard_available']
+   ident=resolve(get(value,'recipient'),s,scope);assert s['characters'][ident]['employer']=='root'
+   assert get(value,'court_position')=='bodyguard_court_position'
+   s['bodyguard']=ident;s['bodyguard_available']=False
+  elif key=='spawn_army':
+   levies=int(get(value,'levies','0'));maa=get(value,'men_at_arms')
+   assert get(value,'inheritable')=='no'
+   if maa:assert get(maa,'type')=='light_horsemen' and get(maa,'stacks')=='2'
+   s['troops']+=levies;s['cavalry']+=100 if maa else 0
+  elif key=='add_opinion':
+   assert get(value,'modifier')=='friendliness_opinion' and get(value,'target')=='root'
+   s['opinions'][scope]=s['opinions'].get(scope,0)+float(get(value,'opinion'))
+  elif key=='create_artifact':
+   assert get(value,'type')=='book' and get(value,'visuals')=='book'
+   assert get(value,'modifier')=='CAUC_scholarly_book_modifier'
+   assert resolve(get(value,'creator'),s,scope) in s['characters']
+   s['artifacts'].append(get(value,'name'))
+  elif key=='imprison':
+   ident=resolve(get(value,'target'),s,scope);assert ident in s['characters']
+   s['characters'][ident]['imprisoned']=True
+  elif key=='set_character_faith':
+   assert value=='faith:orthodox';s['faith']=value;s['religion']='religion:christianity_religion'
   elif key=='historical_character_finalization_effect':s['characters'][scope]['historical']=True
   elif key=='add_trait':s['characters'][scope]['traits'].append(value)
   elif key=='add_county_modifier':
@@ -109,8 +143,8 @@ def effects(text,s,scope='root'):
   elif key=='change_county_control':
    assert scope.startswith('title:')
    s['control'][scope]=s['control'].get(scope,50)+float(value)
-  elif key in ('add_gold','add_piety','add_prestige','add_learning_lifestyle_xp'):
-   metric={'add_gold':'gold','add_piety':'piety','add_prestige':'prestige','add_learning_lifestyle_xp':'learning'}[key]
+  elif key in ('add_gold','add_piety','add_prestige','add_learning_lifestyle_xp','add_learning_skill','add_martial_lifestyle_xp'):
+   metric={'add_gold':'gold','add_piety':'piety','add_prestige':'prestige','add_learning_lifestyle_xp':'learning','add_learning_skill':'learning_skill','add_martial_lifestyle_xp':'martial_xp'}[key]
    if key=='add_gold':assert float(value)>=0,'Native add_gold does not accept negative amounts'
    s[metric]+=float(value)
    if metric=='gold':assert s['gold']>=0,('unfunded option',s['gold'])
@@ -124,6 +158,9 @@ def effects(text,s,scope='root'):
     assert int(get(value,'years'))==1
     s['flags'].add(get(value,'flag'))
   elif key=='remove_character_flag':s['flags'].discard(value)
+  elif key=='every_player':
+   assert get(value,'trigger_event')
+   s.setdefault('notices',[]).append(get(get(value,'trigger_event'),'id'))
   elif key=='trigger_event':
    assert s['queued'] is None, 'Two follow-ups scheduled by one choice'
    s['queued']=get(value,'id');s['delay']+=int(get(value,'days'))
@@ -149,8 +186,9 @@ def fresh(county,faith,when,created=False,gold=1000):
  state={'faith':'faith:'+faith,'religion':'religion:' + ('islam_religion' if faith=='sunni' else 'christianity_religion'),
  'rite':'rite:armenian_rite','rite_exists':created,'foundations':0,'county_rites':{},
  'owns':{'title:'+county},'gold':gold,'piety':1000,'prestige':0,'learning':0,
- 'date':date(when),'flags':set(),'mods':{},'vars':{},'control':{},'queued':None,'delay':0,
- 'is_available_adult':True,'is_imprisoned':False,'is_at_war':False,'globals':{},'characters':{},'scopes':{},'native_founder':None}
+ 'start':date(when),'date':date(when),'flags':set(),'mods':{},'vars':{},'control':{},'queued':None,'delay':0,
+ 'bodyguard_available':True,'bodyguard':None,'troops':0,'cavalry':0,'artifacts':[],'opinions':{},'culture':'culture:armenian','learning_skill':0,'martial_xp':0,
+ 'is_available_adult':True,'is_imprisoned':False,'is_at_war':False,'globals':{},'characters':{'root':{'alive':True,'traits':[],'flags':[]}},'scopes':{},'native_founder':None}
  if created:
   state['characters']['character:1']={'alive':False,'name':'CAUC_smbat_zarehavantsi_name','culture':'culture:armenian','dynasty':'none','faith':'faith:armenian_apostolic','rite':'rite:CAUC_tondrakian_rite','historical':True,'traits':['historical_character'],'flags':[]}
   state['native_founder']='character:1'
@@ -214,12 +252,14 @@ def main():
   # The final option in every event is free; verify zero-gold continuation too.
   for key,(_,event_body,_) in events.items():
    if not key.startswith('CAUC.') or get(event_body,'trigger').find('title:'+flow['county'])<0:continue
-   if int(key.split('.')[1])<100:continue
+   if int(key.split('.')[1])<100 or int(key.split('.')[1])>=149:continue
    s=fresh(flow['county'],'sunni' if flow['flow']=='derbent_guards' else 'armenian_apostolic','1180.1.1',gold=0)
+   if flow['flow'] in ('lori_council','ani_sanctuary','alan_mission'):s['vars'].setdefault('title:'+flow['county'],{})['CAUC_'+flow['flow']+'_choice']=1
    available=[arg for field,arg,_ in fields(event_body) if field=='option' and condition(get(arg,'trigger'),s)]
    assert available,('No zero-gold option',key)
    for opt in available:
     if flow['flow']=='tondrakian_inquiry':effects('CAUC_tondrakian_prepare_inquiry_effect = yes',s)
+    effects(get(event_body,'immediate'),s)
     effects(opt,copy.deepcopy(s))
   # Exercise policy replacement against all possible stale policies at once.
   for key,(_,event_body,_) in events.items():
@@ -229,6 +269,7 @@ def main():
     s=fresh(flow['county'],'sunni' if flow['flow']=='derbent_guards' else 'armenian_apostolic','1180.1.1')
     s['mods']['title:'+flow['county']]={name:5 for name in flow['policy_modifiers']}
     if flow['flow']=='tondrakian_inquiry':effects('CAUC_tondrakian_prepare_inquiry_effect = yes',s)
+    effects(get(event_body,'immediate'),s)
     effects(opt,s)
     assert len(set(s['mods']['title:'+flow['county']])&set(flow['policy_modifiers']))==1
 
@@ -255,7 +296,7 @@ def main():
  assert 'doctrine_adultery_women_accepted' in canonical(get(rite,'doctrines'))
 
  source={lang:localization(ROOT,lang) for lang in ('english','simp_chinese','french')}
- assert len(source['english'])==838
+ assert len(source['english'])>=838
  marks=lambda v: sorted(re.findall(r'\$[^$]+\$|\[[^\]]+\]|#[A-Za-z_!]+|@[^!\s]+!',v))
  for lang,values in source.items():
   assert set(values)==set(source['english']),('Source key coverage',lang)

@@ -14,7 +14,7 @@ def main():
  for k in ('game','rice','epe','ce'):ap.add_argument('--'+k,type=Path,required=True)
  ap.add_argument('--expanded',type=Path)
  ap.add_argument('--mod',type=Path)
- ap.add_argument('--profile',choices=['base','epe','ce-epe'])
+ ap.add_argument('--profile',choices=['base','epe','ce-epe','unified'])
  ap.add_argument('--publisher-id',help='Validate an installed publisher descriptor with this retained Workshop ID and its absolute local path')
  ap.add_argument('--rice-epe-patch',type=Path)
  ap.add_argument('--rice-ce-patch',type=Path)
@@ -60,9 +60,9 @@ def main():
  bases=[(a.profile or 'local_modified',a.rice)]
  if a.expanded and not a.mod:bases.append(('expanded',a.expanded))
  for name,rice in bases:
-  for with_ce in ([a.profile=='ce-epe'] if a.mod else [False,True]):
+  for with_ce in ([False,True] if a.profile=='unified' else ([a.profile=='ce-epe'] if a.mod else [False,True])):
    layers=[a.game,rice,a.epe]+([a.ce] if with_ce else [])+([a.rice_epe_patch] if a.rice_epe_patch else [])+([a.rice_ce_patch] if with_ce and a.rice_ce_patch else [])+[ROOT]+([adapter] if with_ce else [])
-   if a.mod:layers=[a.game]+([a.epe] if a.profile!='base' else [])+([a.ce] if with_ce else [])+[ROOT]
+   if a.mod:layers=[a.game]+([a.epe] if a.profile not in ('base','unified') or with_ce else [])+([a.ce] if with_ce else [])+[ROOT]
    regs={cat:registry(layers,cat) for cat in categories};pe=[]
    # Unlike a last-value dictionary, this counts duplicate keys in every
    # effective file after filenames are overlaid.
@@ -149,7 +149,7 @@ def main():
    ce_cultures=registry([a.ce],'common/culture/cultures')
    for key in CULTURES:
     actual=regs['common/culture/cultures'][key][1];expected=ce_cultures[key][1]
-    if a.profile=='base':
+    if a.profile in ('base','unified'):
      def gameplay(body):return [(k,canonical(v)) for k,v,_,_ in entries(body) if k not in VISUALS]
      same=gameplay(actual)==gameplay(expected)
     else:same=canonical(actual)==canonical(expected)
@@ -161,7 +161,7 @@ def main():
  # Concrete behavior checks in a small interpreter for this pack's effect subset.
  behavior=check_behavior()
  errors+=behavior
- report={'errors':errors,'profiles':profiles,'counts':{'decisions':sum(k.startswith('CAUC') for k in registry([ROOT],'common/decisions')),'events':sum(k.startswith('CAUC.') or k.startswith('CAUC_CE.') for k in registry([ROOT],'events')),'imported_cultures':len(CULTURES),'english_keys':len(localization(AUTHOR,'english'))},'behavior_checks':['each passage choice leaves one county policy','policy effects target county scope','review cost is charged once','10-year repair/5-year policy expiry','Gelati threshold: 1106-01-01','all paid annual options gate their costs'],'limitations':['No CK3 process was started. This validates file overlays, references, selected source preservation and a script-subset behavior model, not engine scopes or UI rendering.','Built into RICE Expanded; Base has vanilla visual fallbacks. EPE presets require EPE; CE-EPE also requires CE. Compatibility files are embedded, with no external compatibility mod required.','CE compatibility overlay is for the fingerprinted local CE source; unrelated CE 1.20 issues remain outside this pack.','Exact historical distribution corrections follow CE and are optional; copying does not independently authenticate CE historical claims.']}
+ report={'errors':errors,'profiles':profiles,'counts':{'decisions':sum(k.startswith('CAUC') for k in registry([ROOT],'common/decisions')),'events':sum(k.startswith('CAUC.') or k.startswith('CAUC_CE.') for k in registry([ROOT],'events')),'imported_cultures':len(CULTURES),'english_keys':len(localization(AUTHOR,'english'))},'behavior_checks':['each passage choice leaves one county policy','policy effects target county scope','review cost is charged once','10-year repair/5-year policy expiry','Gelati threshold: 1106-01-01','all paid annual options gate their costs'],'limitations':['No CK3 process was started. This validates file overlays, references, selected source preservation and a script-subset behavior model, not engine scopes or UI rendering.','The unified package is self-contained and uses native appearance fallbacks; CE/EPE are optional. Legacy preset checks remain available for old releases.','CE compatibility overlay is for the fingerprinted local CE source; unrelated CE 1.20 issues remain outside this pack.','Exact historical distribution corrections follow CE and are optional; copying does not independently authenticate CE historical claims.']}
  a.output.parent.mkdir(parents=True,exist_ok=True)
  a.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  count=len(errors)+sum(len(p['errors']) for p in profiles.values())

@@ -1,0 +1,502 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+parthian = {
+
+	color = { 0.82 0.72 0.74 }
+	
+	created = 650.1.1
+	parents = { old_persian }
+	
+	history_loc_override = parthian_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_parthian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_culture_blending
+		tradition_horse_breeder
+		tradition_hit_and_run
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_enlightened_magnates
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_poetry
+	}
+
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+
+}
+
+semnani = {
+
+	color = { 0.15 0.65 0.85 }
+	
+	parents = { parthian }
+	created = 600.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_caspian_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hit_and_run
+		tradition_esteemed_hospitality
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_enlightened_magnates
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_poetry
+	}
+
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+
+}
+
+adhari = {
+
+	color = { 0.3 0.375 0.675 }
+	
+	created = 650.1.1
+	parents = { old_persian }
+	
+	history_loc_override = adhari_history_loc
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_iranian
+	language = language_caspian_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_castle_keepers
+		tradition_hill_dwellers
+		tradition_loyal_soldiers
+		tradition_futuwaa
+	}
+
+	#FP3 Tradition
+	dlc_tradition = {
+		trait = tradition_fp3_beacon_of_learning
+		requires_dlc_flag = legacy_of_persia
+	}
+
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+	
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+
+}
+
+mazandarani = {
+
+	color = { 0.1 0.40 0.5 }
+	
+	created = 650.1.1
+	parents = { old_persian }
+	
+	history_loc_override = mazanderani_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_iranian
+	language = language_caspian_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_tabari_isolation
+		tradition_forest_folk
+	}
+
+	# FP3 traditions
+	#dlc_tradition = {
+	#	trait = tradition_fp3_pragmatic_creed
+	#	requires_dlc_flag = legacy_of_persia
+	#	fallback = tradition_futuwaa
+	#}
+
+	dlc_tradition = {
+		trait = tradition_fp3_enlightened_magnates
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_poetry
+	}
+
+	name_list = name_list_mazanderani
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+
+}
+
+taleshi = {
+
+	color = { 0.12 0.41 0.68 }
+	
+	created = 1000.1.1
+	parents = { old_persian }
+	
+	history_loc_override = taleshi_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_caspian_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_caucasian_wolves
+		tradition_pastoralists
+		tradition_mystical_ancestors
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_pragmatic_creed
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_futuwaa
+	}
+
+	name_list = name_list_daylamite
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+
+}
+
+gilani = {
+
+	color = { 0 0.45 0.75 }
+	
+	created = 1000.1.1
+	parents = { old_persian }
+	
+	history_loc_override = gilakian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_caspian_iranian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_zealous_people
+		tradition_tabari_isolation
+		tradition_pastoralists
+	}
+
+	# FP3 traditions
+	#dlc_tradition = {
+	#	trait = tradition_fp3_pragmatic_creed
+	#	requires_dlc_flag = legacy_of_persia
+	#	fallback = tradition_futuwaa
+	#}
+
+	name_list = name_list_daylamite
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+
+}
+
+huna = {
+
+	#Indo-Huna Tribes representing remnant Alchon Huns, Kidarites, in India
+	color = {
+		0.772
+		0.549
+		0.662
+	}
+	parents = {
+		saka
+	}
+	created = 670.1.1	# Represents their partial assimilation into the Indian sub-continents traditions and culture.
+	history_loc_override = huna_history_loc
+	ethos = ethos_bellicose
+	heritage = heritage_tocharian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_religion_blending
+		#tradition_horse_lords
+		tradition_xenophilic
+		tradition_religious_patronage
+	}
+	
+	dlc_tradition = {
+		trait = tradition_devoted_horsemanship
+		requires_dlc_flag = khans_of_the_steppe
+	}
+	
+	name_list = name_list_hephthalite
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+
+	ethnicities = {
+		32 = arab
+		45 = turkic
+		23 = turkic_west
+	}
+
+}
+
+bactrian = {
+
+	color = { 0.63 0.42 0.42 }
+	
+	# parents = { old_persian }
+	# created = 10.1.1
+	
+	history_loc_override = bactrian_history_loc
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_iranian
+	language = language_bactrian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_religion_blending
+		tradition_xenophilic
+		tradition_city_keepers
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_sogdian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+	
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+
+}
+
+tokhari = {
+
+	color = { 0.34 0.35 0.651 }
+	
+	parents = { bactrian hephthalite }
+	created = 665.1.1
+	
+	history_loc_override = tokhari_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_bactrian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_religion_blending
+		tradition_xenophilic
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
+	}
+	
+	name_list = name_list_sogdian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+	
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+
+}
+
+khotanese = {
+
+	color = { 0.55 0.35 0.28 }
+
+	parents = { tocharian saka }
+	created = 250.1.1
+	
+	history_loc_override = khotanese_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_tocharian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_caravaneers
+		tradition_religious_patronage
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+	
+	name_list = name_list_saka
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		100 = turkic
+	}
+
+}
+
+old_persian = {
+
+	color = {
+		0.84
+		0.76
+		0.78
+	}
+	ethos = ethos_bureaucratic
+	heritage = heritage_iranian
+	language = language_parthian
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_philosopher_culture
+		tradition_gardening
+	}
+
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_enlightened_magnates
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_poetry
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_irrigation_experts
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_dryland_dwellers
+	}
+
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	house_coa_frame = house_frame_12
+	house_coa_mask_offset = { 0.0 -0.04 }
+	house_coa_mask_scale = { 0.95 0.95 }
+
+	ethnicities = {
+		44 = arab
+		28 = mediterranean
+		28 = turkic_west
+	}
+
+}

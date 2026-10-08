@@ -1,0 +1,493 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+blatno_slavic = {
+
+	color = { 0.3 0.6 0.4 }
+	
+	parents = { avar pannonian_romance }
+
+	created = 700.1.1
+	
+	history_loc_override = blatno_slavic_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic	#The Danube marks the frontier between the West and South Slavs; Carantanians aren't West Slavs, not by historical standards; really, west and south slavs didnt exist until the Hungarian migration per se
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_pastoralists
+		tradition_esteemed_hospitality
+		tradition_forest_fighters
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { turkic_clothing_gfx mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	house_coa_frame = house_frame_14
+	
+	
+	
+	ethnicities = {
+		100 = turkic_west
+	}
+
+}
+
+dudlebian = {
+
+	color = { 0.20 0.46 0.52 }
+	
+	parents = { czech }
+
+	created = 600.1.1
+	
+	history_loc_override = dudlebian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_pastoralists
+		tradition_hard_working
+		tradition_life_is_just_a_joke
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { west_slavic_clothing_gfx western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_21
+	house_coa_mask_offset = { 0.0 0.0 }
+	house_coa_mask_scale = { 1.0 1.0 }
+	
+	ethnicities = {
+		45 = slavic_blond
+		5 = slavic_ginger
+		35 = slavic_brown_hair
+		15 = slavic_dark_hair
+	}
+
+}
+
+blatnohrader = {
+
+	color = { 119 119 119 }
+	
+	parents = { franconian blatno_slavic }
+
+	created = 840.1.1
+	
+	history_loc_override = blatnohrader_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_central_germanic
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_chanson_de_geste
+		tradition_poetry
+		tradition_culture_blending
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { german_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	house_coa_frame = house_frame_25
+	house_coa_mask_offset = { 0.0 0.025 }
+	house_coa_mask_scale = { 0.95 0.95 }
+	
+	ethnicities = {
+		25 = caucasian_blond
+		15 = caucasian_ginger
+		35 = caucasian_brown_hair
+		25 = caucasian_dark_hair
+	}
+
+}
+
+slavonian = {
+
+	color = { 0.28 0.52 0.5 }
+	
+	created = 800.1.1
+	parents = { croatian } #gameplay reaons
+	
+	history_loc_override = slavonian_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_stalwart_defenders
+		tradition_martial_admiration
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}
+
+neretljanian = {
+
+	color = { 0.39 0.26 0.26 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_fishermen
+		tradition_practiced_pirates
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}
+
+abotrite = {
+
+	color = { 0.22 0.44 0.5 }
+	
+	created = 700.1.1
+	parents = { obotrite }
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_stalwart_defenders
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}
+
+branichian = {
+
+	color = { 0.34 0.044 0.04 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_isolationist
+		tradition_martial_admiration
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}
+
+doclean = {
+
+	color = {  0.30 0.04 0.00 }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_maritime_mercantilism
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}
+
+travunian = {
+
+	color = {  0.39 0.041 0.03 }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_mountaineer_ruralism
+		tradition_esteemed_hospitality
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}
+
+zachlumian = {
+
+	color = {  0.5 0.3 0.3 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_mountaineer_ruralism
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}
+
+pannonian = {
+
+	color = { 0.32 0.55 0.64 }
+	
+	parents = { blatnohrader }
+	created = 865.1.1
+	
+	history_loc_override = pannonian_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_south_slavic
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_pastoralists
+		tradition_esteemed_hospitality
+		tradition_poetry
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}
+
+illyrian_slavic = {
+
+	color = { 0.32 0.42 0.60 }
+	
+	parents = { croatian serbian }
+
+	created = 1102.1.1
+	
+	history_loc_override = illyrian_slavic_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_south_slavic
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_mountaineer_ruralism
+		tradition_hard_working
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}
+
+yugoslavian = {
+
+	color = { 0.35 0.45 0.70 }
+	
+	created = 1830.1.1
+	parents = { illyrian_slavic bulgarian }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_south_slavic
+	language = language_slavonic	
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_martial_admiration
+		tradition_hard_working
+		tradition_stand_and_fight
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_croatian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}
+
+berzite = {
+
+	color = { 0.6 0.4 0.4 }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_hussar
+		tradition_martial_admiration
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_bulgarian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	house_coa_frame = house_frame_02
+	house_coa_mask_offset = { 0.0 0.055 }
+	house_coa_mask_scale = { 0.9 0.9 }
+	
+	ethnicities = {
+		100 = mediterranean_byzantine
+	}
+
+}

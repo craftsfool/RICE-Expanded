@@ -1,0 +1,189 @@
+﻿# RICE Expanded unified built-in compatibility; CE/EPE are optional.
+
+
+
+language_khazar = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_khazar
+		}
+	}
+	parameters = {
+		language_branch_oghuric = yes
+		language_family_turkic = yes 
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_khazar }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_oghuric }
+			multiply = same_language_branch_choice_factor
+			}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_turkic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	
+	color = khazar
+}
+
+language_bolghar = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_bolghar
+		}
+	}
+	parameters = {
+		language_branch_oghuric = yes
+		language_family_turkic = yes 
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_bolghar }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_oghuric }
+			multiply = same_language_branch_choice_factor
+			}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_turkic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	
+	color = bolghar
+}
+
+language_oghuz = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_oghuz
+		}
+	}
+	parameters = {
+		language_branch_shaz_turkic = yes
+		language_family_turkic = yes 
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_oghuz }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_shaz_turkic }
+			multiply = same_language_branch_choice_factor
+			}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_turkic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	
+	color = turkish
+}
+
+language_kipchak = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kipchak
+		}
+	}
+	parameters = {
+		language_branch_shaz_turkic = yes
+		language_family_turkic = yes 
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kipchak }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_shaz_turkic }
+			multiply = same_language_branch_choice_factor
+			}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_turkic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	
+	color = cuman
+}
+
+language_karluk = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_karluk
+		}
+	}
+	parameters = {
+		language_branch_shaz_turkic = yes
+		language_family_turkic = yes 
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_karluk }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_shaz_turkic }
+			multiply = same_language_branch_choice_factor
+			}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_turkic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	
+	color = karluk
+}
+
+language_siberian_turkic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_siberian_turkic
+		}
+	}
+	parameters = {
+		language_branch_shaz_turkic = yes
+		language_family_turkic = yes 
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_siberian_turkic }
+			multiply = same_language_choice_factor
+		}
+		else_if = {
+			limit = { has_cultural_parameter = language_branch_shaz_turkic }
+			multiply = same_language_branch_choice_factor
+			}
+		else_if = {
+			limit = { has_cultural_parameter = language_family_turkic }
+			multiply = same_language_family_choice_factor
+		}
+	}
+	
+	
+	color = uyghur
+}

@@ -6,6 +6,7 @@ installed vanilla game directory to resolve faith/rite and localization referenc
 """
 import argparse, collections, json, re, subprocess
 from pathlib import Path
+from validate_dds import audit as audit_dds
 ROOT=Path(__file__).resolve().parents[1]
 TOKEN=re.compile(r'"(?:\\.|[^"\\])*"|#[^\n]*|[{}]|[^\s{}#"]+')
 ENTRY=re.compile(r'^\s*([^\s:#]+):\d*\s+"(.*)"\s*(?:#.*)?$')
@@ -48,6 +49,8 @@ def registry(root,kind):
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--game',type=Path);ap.add_argument('--output',type=Path,default=ROOT/'reports/static-validation.json');args=ap.parse_args()
  errors=[];warnings=[];mod=ROOT/'RICE'
+ dds=audit_dds(mod)
+ errors.extend({'dds': item} for item in dds['errors'])
  for p in mod.rglob('*'):
   if p.suffix not in ('.txt','.gui'):continue
   try:blocks(p.read_text(encoding='utf-8-sig'))
@@ -99,7 +102,7 @@ def main():
   languages[language]={'keys':len(values),'missing_keys':len(missing),'malformed_entries':len(bad),'unresolved_references':len(unresolved)}
  baseline=subprocess.check_output(['git','show','f2aa2c7ae50294407f0aca7f154dfdbd2dc28d46:README.md'],cwd=ROOT)
  if (ROOT/'README.md').read_bytes()!=baseline:errors.append({'README':'changed from starting fork'})
- report={'errors':errors,'warnings':warnings,'languages':languages,'registries':{k:len(v) for k,v in registries.items()},'limitations':['Structural checks do not validate every engine function, scope, or gameplay path.']}
+ report={'errors':errors,'warnings':warnings,'languages':languages,'dds':dds,'registries':{k:len(v) for k,v in registries.items()},'limitations':['Structural checks do not validate every engine function, scope, or gameplay path.']}
  args.output.parent.mkdir(parents=True,exist_ok=True);args.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps({'errors':len(errors),'warnings':len(warnings),'languages':languages,'registries':report['registries']},ensure_ascii=False,indent=2));return bool(errors)
 if __name__=='__main__':raise SystemExit(main())

@@ -1,3 +1,13 @@
+# RICE Expanded — expanded.3.1: DDS resource repair
+
+2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease
+
+- 修复索科特拉印度洋家族传承图标错误的 DDS mipmap 数：128×128 图标实际包含八级数据，却声明了九级。只修正文件头，所有像素数据保持不变。
+- 增加 DDS 文件头、mipmap 级数及数据长度检查；全套 1,994 个纹理通过检查。更新包工具现在也纳入制作目录之外的既有 RICE 文件修复。
+- 此修复针对日志中确认的资源错误。Expanded 的提示框动画崩溃与原版 RICE 的决议控件崩溃是不同调用栈；不声称仅凭静态检查已解决启动崩溃。
+
+Corrected an invalid mip count in the existing Socotra dynasty-legacy icon without changing its pixels. DDS integrity checks cover all 1,994 textures. This fixes a logged resource error; the reported startup crash is not yet confirmed resolved.
+
 # RICE Expanded — expanded.3: Caucasus translations and religious stories
 
 2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease

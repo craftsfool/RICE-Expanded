@@ -10,6 +10,10 @@ def main():
   if not line:continue
   meta,name=line.split(b'\t',1);old[name.decode()[len('RICE/'):]]=meta.split()[-1].decode()
  candidates={'descriptor.mod'}
+ # Include tracked runtime repairs outside authored Caucasus/compatibility
+ # layers, such as a DDS header fix in an existing RICE asset.
+ changed=subprocess.check_output(['git','diff','--name-only',a.baseline,'--','RICE'],cwd=ROOT).decode().splitlines()
+ candidates.update(name[len('RICE/'):] for name in changed if name.startswith('RICE/'))
  for layer in [ROOT/'authoring/caucasus_flavor_pack',ROOT/'RICE-EPE-Compatch',ROOT/'RICE+CE Compatch for 1.19',ROOT/'authoring/caucasus_flavor_pack_ce_compat']:
   for folder in ['common','events','map_data','localization','gfx']:
    candidates.update(p.relative_to(layer).as_posix() for p in (layer/folder).rglob('*') if p.is_file())
@@ -26,8 +30,9 @@ def main():
   with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
    for rel in delta:z.write(target/'RICE'/rel,'RICE/'+rel)
    z.write(target/'RICE.mod','RICE.mod');z.write(ROOT/'CAUCASUS-Expanded.md','CAUCASUS-Expanded.md')
+   z.write(ROOT/'CHANGELOG-Expanded.md','CHANGELOG-Expanded.md')
    for p in (target/'reports').glob('*.json'):z.write(p,'reports/'+p.name)
-   z.writestr('UPDATE-INSTRUCTIONS.txt','Requires an existing RICE Expanded expanded.1 or expanded.2 installation. Extract over its RICE folder. Caucasus gameplay and compatibility are built into RICE itself. Select one preset, load RICE Expanded after its required base mods, and disable old separate compatibility mods. Caucasus localization is complete in English, Simplified Chinese and French; five other languages retain fallbacks. This update adds five religious stories and the Tondrakian rite. It replaces the native tenet definitions file only to extend name/description selection for that rite, preserving native mechanics from the recorded 1.20 source. Keep a backup.\n')
+   z.writestr('UPDATE-INSTRUCTIONS.txt','Requires an existing RICE Expanded expanded.1, expanded.2 or expanded.3 installation. Extract over its RICE folder. Caucasus gameplay and compatibility are built into RICE itself. Select one preset, load RICE Expanded after its required base mods, and disable old separate compatibility mods. Caucasus localization is complete in English, Simplified Chinese and French; five other languages retain fallbacks. This update includes five religious stories and the Tondrakian rite. It replaces the native tenet definitions file only to extend name/description selection for that rite, preserving native mechanics from the recorded 1.20 source. expanded.3.1 corrects an invalid mip count in the Socotra legacy icon; this is a confirmed resource repair, not a verified startup-crash fix. Keep a backup.\n')
   with zipfile.ZipFile(archive) as z:
    assert z.testzip() is None
    assert sorted(n for n in z.namelist() if n.endswith('.mod'))==['RICE.mod','RICE/descriptor.mod']

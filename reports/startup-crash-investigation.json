@@ -1,0 +1,44 @@
+{
+  "game_version": "1.20.0.4",
+  "expanded_run": {
+    "crash": "ck3_20261008_131936",
+    "frames": [
+      "free_tiny_botch",
+      "SPdxGuiAnimationState::operator=",
+      "CPdxAnimationRuntimeState::RemoveDeferredAnimations",
+      "CPdxGuiContext::CreateDefaultTooltipWidget",
+      "CPdxGuiContext::PostLoadAssets"
+    ],
+    "stage": "Startup; no played game or Caucasus event execution observed in this trace.",
+    "cause": "Not yet isolated. A heap error surfaced while clearing tooltip animations."
+  },
+  "original_rice_control": {
+    "crash": "ck3_20261008_132157",
+    "frames": [
+      "SDecisionCustomWidget::Read",
+      "CGameDatabase<CDecisionTypeDatabase,CDecisionType>::InitFromAllFiles"
+    ],
+    "duplicate_widgets": [
+      "RICE_sri_lanka_support_monastery",
+      "RICE_sri_lanka_persecute_monastery",
+      "RICE_north_atlantic_support_greenland",
+      "RICE_north_atlantic_support_vinland",
+      "RICE_north_atlantic_explore_americas"
+    ],
+    "note": "Different failure stack; this control does not exonerate Expanded or identify its tooltip crash. These duplicates are already corrected in Expanded."
+  },
+  "confirmed_shared_resource_defect": "Socotra legacy icon declares 9 mips for a complete 8-level 128x128 RGBA payload; repaired in Expanded, pixels unchanged. Original Workshop control preserved.",
+  "requested_next_control": {
+    "mods_in_order": [
+      "Ethnicities and Portraits Expanded",
+      "Culture Expanded",
+      "RICE Expanded (Community 1.20 Beta)"
+    ],
+    "disable": "Other mods and old standalone RICE-EPE patch",
+    "execution": "User performs startup; agent does not launch the game."
+  },
+  "limitations": [
+    "No game, UI, mouse or keyboard controlled by the agent.",
+    "Static validity and the DDS correction do not demonstrate that the tooltip crash is resolved."
+  ]
+}

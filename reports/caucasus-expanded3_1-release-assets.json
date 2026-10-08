@@ -1,0 +1,29 @@
+{
+  "version": "1.20.0-beta-1-expanded.3.1-caucasus-alpha",
+  "assets": [
+    {
+      "profile": "base",
+      "name": "RICE-Expanded-base-Caucasus-Built-In-Update.zip",
+      "bytes": 500292,
+      "changed_files": 60,
+      "sha256": "896c191444e6c8fe2d78c20446bc4e5233a8af1b6d037ccf803389d972e46ce4",
+      "repaired_asset_in_archive": true
+    },
+    {
+      "profile": "epe",
+      "name": "RICE-Expanded-epe-Caucasus-Built-In-Update.zip",
+      "bytes": 1058756,
+      "changed_files": 274,
+      "sha256": "aa978b84170e41c6603b7211a040e7fb48c7f5ff112855602abcbb19e8a7b420",
+      "repaired_asset_in_archive": true
+    },
+    {
+      "profile": "ce-epe",
+      "name": "RICE-Expanded-ce-epe-Caucasus-Built-In-Update.zip",
+      "bytes": 1122856,
+      "changed_files": 312,
+      "sha256": "6b310fa74616257067816c17ef205ad152e22bf2df57428343b14241824bf4fa",
+      "repaired_asset_in_archive": true
+    }
+  ]
+}

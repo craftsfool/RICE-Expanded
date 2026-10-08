@@ -104,6 +104,13 @@
       "unresolved_references": 0
     }
   },
+  "dds": {
+    "checked": 1994,
+    "errors": [],
+    "limitations": [
+      "Header and payload checks do not validate GPU decoding or engine behavior."
+    ]
+  },
   "registries": {
     "faith_types": 103,
     "rite_types": 107,

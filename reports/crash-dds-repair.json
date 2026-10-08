@@ -1,0 +1,10 @@
+{
+  "file": "gfx/interface/icons/dynasty/RICE_socotra_indian_ocean_legacy_track.dds",
+  "defect": "128 x 128 RGBA texture declares 9 mip levels; existing payload contains all 8 valid levels, ending at 1 x 1.",
+  "repair": "Correct mip count from 9 to 8 at DDS header byte offset 28; pixel payload and remaining header unchanged.",
+  "before_sha256": "9625492d7156cac2621b56a1cbff3d1045af97af27128d649f29dd067b31c407",
+  "after_sha256": "b36c7ff5739fc776b9c0719e2db1e913c188930bb6b9e91a0ce6e17d84f38501",
+  "original_workshop_asset_unchanged": true,
+  "backup": "/Users/gaomingxuan/Documents/RICE-Expanded-work/backups/crash-investigation-20261008",
+  "runtime_crash_causality": "Unconfirmed. Expanded crash is in default tooltip animation cleanup; original RICE control crash is in decision-widget parsing."
+}

@@ -13,6 +13,6 @@ CAUC_transcaucasia_region = {
 # Broadcast area, separate from the CE empire's southern de-jure requirement.
 # Includes the northern Caucasus and its western/eastern foothills.
 CAUC_caucasus_broadcast_region = {
- regions = { CAUC_transcaucasia_region }
- duchies = { d_alania d_ciscaucasia d_azov d_khazaria d_azerbaijan }
+ regions = { dlc_mpo_steppe_caucasus_expansion }
+ duchies = { d_alania d_ciscaucasia d_azov d_khazaria }
 }

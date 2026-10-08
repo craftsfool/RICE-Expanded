@@ -74,7 +74,7 @@
   "decisions": 5,
   "events": 24,
   "county_modifiers": 15,
-  "translated_keys_per_language": 210,
+  "translated_keys_per_language": 212,
   "complete_languages": [
     "english",
     "simp_chinese",
@@ -92,18 +92,22 @@
   "founder_reference_persists_after_death": true,
   "tenets": [
     "tenet_aniconism",
-    "tenet_communal_possessions",
-    "tenet_unrelenting_faith"
+    "tenet_communal_possessions"
   ],
+  "conditional_third_tenet": {
+    "requires_dlc_flag": "by_god_alone",
+    "with_dlc": "tenet_miaphysitism",
+    "without_dlc": "tenet_asceticism"
+  },
   "doctrines": [
     "doctrine_gender_equal",
     "doctrine_clerical_gender_either",
     "doctrine_adultery_men_accepted",
     "doctrine_adultery_women_accepted",
-    "doctrine_no_head",
-    "doctrine_theocracy_lay_clergy",
+    "doctrine_spiritual_head",
+    "doctrine_theocracy_temporal",
+    "doctrine_clerical_succession_spiritual_fixed_appointment",
     "doctrine_clerical_marriage_allowed",
-    "doctrine_monasticism_absent",
-    "doctrine_no_anointment"
+    "doctrine_monasticism_accepted"
   ]
 }

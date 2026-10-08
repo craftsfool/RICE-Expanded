@@ -255,7 +255,6 @@ def overhaul(events,decisions,modifiers,flows,loc):
  write(ROOT/'common/on_action/CAUC_tondrakian_start_on_actions.txt','''on_game_start_after_lobby = { on_actions = { CAUC_tondrakian_start } }
 CAUC_tondrakian_start = {
  effect = {
-  CAUC_tondrakian_restore_parent_effect = yes
   if = { limit = { exists = rite:CAUC_tondrakian_rite has_global_variable = CAUC_tondrakian_outbreak_announced }
    CAUC_tondrakian_seed_counties_effect = yes
    if = { limit = { NOT = { has_global_variable = CAUC_tondrakian_public_sequel_initialized } exists = global_var:CAUC_tondrakian_founder }
@@ -285,13 +284,6 @@ yearly_global_pulse = { on_actions = { CAUC_tondrakian_guaranteed_outbreak } }
 CAUC_tondrakian_guaranteed_outbreak = {
  trigger = { game_start_date = 867.1.1 current_date >= 868.1.1 NOT = { has_global_variable = CAUC_tondrakian_outbreak_announced } }
  effect = { title:c_apahunik.holder = { trigger_event = { id = CAUC.0149 days = 1 } } }
-}
-# High divergence can detach a rite into a new faith in 1.20. Only this authored
-# historical rite is retained under Armenia; other rites/faiths stay untouched.
-on_faith_created = { on_actions = { CAUC_tondrakian_keep_parent } }
-CAUC_tondrakian_keep_parent = {
- trigger = { exists = rite:CAUC_tondrakian_rite rite:CAUC_tondrakian_rite = { faith = root } NOT = { this = faith:armenian_apostolic } }
- effect = { CAUC_tondrakian_restore_parent_effect = yes }
 }
 ''')
  L('CAUC_derbent_guards_decision_tooltip','Meet a Slavic Rus captain and recruit 500 event troops. Hire him as an Excellent bodyguard if a position is available, or retain only the company.','接见一名斯拉夫信仰的罗斯队长，招募500名事件兵。若有空缺，可聘为极佳称职度的贴身护卫；也可只雇用战团。','Rencontrer un capitaine rus’ slave et recruter 500 soldats. Un poste libre permet d’en faire un excellent garde du corps ; sinon, seule la compagnie est engagée.')

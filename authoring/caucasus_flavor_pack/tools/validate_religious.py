@@ -324,16 +324,18 @@ def main():
  # Native mechanics and doctrine references, including absence of faith duplication.
  native=registry([args.game],'common/religion/tenet_types')
  actual=registry([args.game,mod],'common/religion/tenet_types')
+ assert set(native)<=set(actual)
  for key,(p,body,_) in native.items():
-  amended=actual[key][1]
-  if key=='tenet_unrelenting_faith':
-   mechanical=lambda b:[(k,canonical(v)) for k,v,_ in fields(b) if k not in ('name','desc')]
-   assert mechanical(body)==mechanical(amended)
-   assert amended.count('desc = tenet_unrelenting_faith_zandik_')==body.count('desc = tenet_unrelenting_faith_zandik_')+2
-  else:assert canonical(body)==canonical(amended),('Changed native tenet',key)
+  assert canonical(body)==canonical(actual[key][1]),('Changed native tenet',key)
  rite=registry([mod],'common/religion/rite_types')['CAUC_tondrakian_rite'][1]
  assert get(rite,'faith')=='armenian_apostolic' and get(rite,'create')=='no'
- assert canonical(get(rite,'tenets'))==['tenet_aniconism','tenet_communal_possessions','tenet_unrelenting_faith']
+ assert canonical(get(rite,'tenets'))==['tenet_aniconism','tenet_communal_possessions']
+ pair=get(rite,'tenet_selection_pair')
+ assert get(pair,'requires_dlc_flag')=='by_god_alone'
+ assert get(pair,'tenet')=='tenet_miaphysitism' and get(pair,'fallback_tenet')=='tenet_asceticism'
+ native_armenian=registry([args.game],'common/religion/rite_types')['armenian_rite'][1]
+ assert canonical(pair) in [canonical(value) for name,value,_ in fields(native_armenian) if name=='tenet_selection_pair']
+ assert not (mod/'common/religion/tenet_types/00_tenet_types.txt').exists()
  doctrines=registry([args.game],'common/religion/doctrine_types')
  # Doctrine definitions are nested in groups; compare against actual native tokens.
  doctrine_text=' '.join(p.read_text(encoding='utf-8-sig') for p in (args.game/'common/religion/doctrine_types').glob('*.txt'))
@@ -342,6 +344,11 @@ def main():
  assert 'doctrine_clerical_gender_either' in canonical(get(rite,'doctrines'))
  assert 'doctrine_adultery_men_accepted' in canonical(get(rite,'doctrines'))
  assert 'doctrine_adultery_women_accepted' in canonical(get(rite,'doctrines'))
+ for name in ('doctrine_spiritual_head','doctrine_theocracy_temporal','doctrine_clerical_succession_spiritual_fixed_appointment','doctrine_monasticism_accepted'):
+  assert name in canonical(get(rite,'doctrines')),name
+ for folder in ('common/on_action','common/scripted_effects'):
+  for path in (mod/folder).glob('CAUC_tondrakian*.txt'):
+   assert 'set_parent_faith' not in path.read_text(encoding='utf-8-sig'),path
 
  source={lang:localization(ROOT,lang) for lang in ('english','simp_chinese','french')}
  assert len(source['english'])>=838

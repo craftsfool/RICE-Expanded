@@ -1,3 +1,14 @@
+# RICE Expanded — expanded.3.6: Tondrakian rite loop and Caucasus names
+
+2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease
+
+- 删除创建信仰后和读取存档时自动重设通德拉基礼仪母信仰的脚本，避免1.20因差异度达到100而反复拆分出相同的独立信仰。
+- 第三核心信条改为与原版亚美尼亚宗徒礼仪一致的米亚菲西特主义；无对应DLC时同步采用原版的禁欲主义回退。保留反圣像、公有财产、男女平等和男女私通获准；神职改为神权制、终身教会指认，并允许修道生活。
+- 移除整文件覆盖原版97个信条的旧文件，减少与其他模组的冲突。补齐南高加索和高加索两个地区名的英、简中、法文及其他语言英文回退。
+- 脚本检查通过582条事件路径、8组广播地域对照和9项礼仪流程检查。未启动游戏；实际引擎差异度与旧档已生成的空信仰仍需实机确认。旧档中的空信仰属于存档数据，本次不强行删除。
+
+Removes the reparenting hook that repeatedly created duplicate Tondrakian faiths in CK3 1.20. The rite now shares the Armenian Miaphysite tenet, spiritual head, theocratic clergy and accepted monasticism, while retaining the requested equality and adultery doctrines. The native tenet override is removed, and Caucasus region names are localized. Script checks pass; engine behavior and old-save cleanup are not claimed as verified.
+
 # RICE Expanded — expanded.3.5: Tondrakian rite and Caucasian broadcasts
 
 2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease

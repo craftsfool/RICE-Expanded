@@ -19,6 +19,9 @@ def main():
   for child in canonical(get(body,'regions')):result.update(duchies(child))
   return result
  area=duchies('CAUC_caucasus_broadcast_region')
+ native_south=duchies('dlc_mpo_steppe_caucasus_expansion')
+ assert native_south-duchies('CAUC_transcaucasia_region')=={'d_azerbaijan'}
+ assert area==native_south|{'d_alania','d_ciscaucasia','d_azov','d_khazaria'}
  assert {'d_alania','d_ciscaucasia','d_azov','d_khazaria','d_shirvan','d_abkhazia','d_georgia','d_greater_armenia'}<=area
  titles=registry([a.game],'common/landed_titles') # Nested titles checked against native tokens.
  native_titles=' '.join(p.read_text(encoding='utf-8-sig') for p in (a.game/'common/landed_titles').glob('*.txt'))
@@ -65,7 +68,7 @@ def main():
  s['county_rites']['title:c_apahunik']='rite:armenian_rite';before=copy.deepcopy(s['county_rites']);effects('CAUC_tondrakian_seed_counties_effect = yes',s);assert s['county_rites']==before
  suppressed=fresh('c_apahunik','armenian_apostolic','868.1.1',created=True);suppressed['vars']['title:c_apahunik']={'CAUC_tondrakian_inquiry_choice':5};effects('CAUC_tondrakian_seed_counties_effect = yes',suppressed);assert not suppressed['county_rites']
  old=fresh('c_apahunik','armenian_apostolic','868.1.1',created=True);old['globals'].update(CAUC_tondrakian_scheduled=True,CAUC_tondrakian_outbreak_announced=True);old['rite_parent']='faith:detached_tondrakian';founder=old['native_founder'];effects(get(actions['CAUC_tondrakian_start'][1],'effect'),old)
- assert old['rite_parent']=='faith:armenian_apostolic' and old['native_founder']==founder and old['foundations']==0 and old['county_rites']
+ assert old['rite_parent']=='faith:detached_tondrakian' and old['native_founder']==founder and old['foundations']==0 and old['county_rites']
  # Cross-denomination acceptance converts matching old-faith domain counties.
  convert=fresh('c_apahunik','orthodox','868.1.1',created=True);convert['counties']['title:c_apahunik']['faith']='faith:orthodox';effects('CAUC_tondrakian_join_effect = yes',convert);assert convert['faith']=='faith:armenian_apostolic' and convert['rite']=='rite:CAUC_tondrakian_rite' and convert['county_rites']['title:c_apahunik']==convert['rite']
  # Each actual investigation stage forwards its saved stage to regional rulers.
@@ -84,9 +87,12 @@ def main():
  # On-action registrations are additive; registry() keeps only the last same-key
  # declaration, so inspect this registration rather than an unrelated RICE one.
  registrations={k:v for k,v,_,_ in entries((mod/'common/on_action/CAUC_tondrakian_start_on_actions.txt').read_text(encoding='utf-8-sig'))}
- assert 'CAUC_tondrakian_keep_parent' in get(registrations['on_faith_created'],'on_actions')
- assert 'include_derived = no' in scripted['CAUC_tondrakian_restore_parent_effect'][1]
- report={'errors':[],'scope':'Native source references and bounded script models only; no engine, UI or calculated divergence verification','region_duchies':sorted(area),'broadcast_cases':cases,'ai_join_weights':{'ordinary':base,'armenian_crown_vassal':base*factor,'decline':100},'checks':['Native rite notification scopes resolve','Native domain and court conversion helpers exist','County seed, neighbor exclusions and no forced player conversion','Old-save reparenting retains original founder','No repeated seed after deliberate reconversion or suppression','Cross-denomination acceptance stays in Armenian parent faith','All four follow-up stages broadcast to regional rulers','Public sequel survives an ineligible local host; an actual investigation takes over','Only the authored rite is repaired; derived rites are excluded']}
+ assert 'on_faith_created' not in registrations
+ assert 'CAUC_tondrakian_restore_parent_effect' not in scripted
+ for folder in ('common/on_action','common/scripted_effects'):
+  for path in (mod/folder).glob('CAUC_tondrakian*.txt'):
+   assert 'set_parent_faith' not in path.read_text(encoding='utf-8-sig'),path
+ report={'errors':[],'scope':'Native source references and bounded script models only; no engine, UI or calculated divergence verification','region_duchies':sorted(area),'broadcast_cases':cases,'ai_join_weights':{'ordinary':base,'armenian_crown_vassal':base*factor,'decline':100},'checks':['Native rite notification scopes resolve','Native domain and court conversion helpers exist','County seed, neighbor exclusions and no forced player conversion','Old-save startup never reparents a detached rite','No repeated seed after deliberate reconversion or suppression','Cross-denomination acceptance stays in Armenian parent faith','All four follow-up stages broadcast to regional rulers','Public sequel survives an ineligible local host; an actual investigation takes over','No automatic on_faith_created reparent hook or set_parent_faith call']}
  a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'errors':[],'checks':len(report['checks']),'broadcast_cases':len(cases),'ai_join_weights':report['ai_join_weights']}))
 
 if __name__=='__main__':main()

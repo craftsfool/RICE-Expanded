@@ -56,56 +56,56 @@
   ],
   "languages": {
     "english": {
-      "keys": 60521,
+      "keys": 63250,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "simp_chinese": {
-      "keys": 60530,
+      "keys": 63259,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "french": {
-      "keys": 60523,
+      "keys": 63252,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "german": {
-      "keys": 60550,
+      "keys": 63279,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "spanish": {
-      "keys": 61598,
+      "keys": 64327,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "russian": {
-      "keys": 60521,
+      "keys": 63250,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "polish": {
-      "keys": 60521,
+      "keys": 63250,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "japanese": {
-      "keys": 60521,
+      "keys": 63250,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     }
   },
   "dds": {
-    "checked": 1994,
+    "checked": 2014,
     "errors": [],
     "limitations": [
       "Header and payload checks do not validate GPU decoding or engine behavior."

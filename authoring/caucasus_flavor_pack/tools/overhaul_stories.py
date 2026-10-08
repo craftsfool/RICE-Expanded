@@ -190,7 +190,7 @@ def overhaul(events,decisions,modifiers,flows,loc):
     raw=raw.replace('add_piety = -100',recruit('tondrakian')+' '+opinion('tondrakian',35)+' add_piety = -100')
     # A suppression imprisons the living speaker, not a fabricated off-screen mob.
     raw=raw.replace('add_piety = 100','imprison = { target = scope:CAUC_tondrakian_speaker type = dungeon } '+opinion('representative',-50)+' add_piety = 100')
-    raw=raw.replace('add_piety = -500',recruit('tondrakian')+' '+recruit('representative')+' add_piety = -500')
+    raw=raw.replace('CAUC_tondrakian_join_effect = yes',recruit('tondrakian')+' '+recruit('representative')+' CAUC_tondrakian_join_effect = yes')
    if number==144:
     raw=raw.replace('remove_short_term_gold = 15 add_learning_lifestyle_xp = 75','remove_short_term_gold = 15 '+book('CAUC_tondrakian_book','representative'))
     # Do not offer a celebratory charter to a ruler whose previous verdict was suppression.
@@ -214,27 +214,62 @@ def overhaul(events,decisions,modifiers,flows,loc):
  L('CAUC.0150.b','I will join this Armenian rite.','我将加入这一亚美尼亚礼制。','Je rejoindrai ce rite arménien.')
  L('CAUC.0150.a','Word of these assemblies will spread.','这些聚会的消息会传开。','La nouvelle de ces assemblées se répandra.')
  events.append('''CAUC.0149 = { hidden = yes trigger = { NOT = { has_global_variable = CAUC_tondrakian_outbreak_announced } } immediate = {
- set_global_variable = { name = CAUC_tondrakian_outbreak_announced value = yes }
  CAUC_tondrakian_prepare_inquiry_effect = yes
+ CAUC_tondrakian_seed_counties_effect = yes
+ set_global_variable = { name = CAUC_tondrakian_outbreak_announced value = yes }
  if = { limit = { game_start_date = 867.1.1 }
-  every_player = { trigger_event = { id = CAUC.0150 days = 1 } }
+  CAUC_tondrakian_notification_scopes_effect = yes
+  every_player = {
+   if = { limit = { faith = faith:armenian_apostolic }
+    trigger_event = { id = faith_creation.1021 days = 1 }
+    trigger_event = { id = CAUC.0150 days = 8 }
+   }
+   else = { trigger_event = { id = CAUC.0150 days = 1 } }
+  }
+  title:c_apahunik = {
+   every_neighboring_county = {
+    limit = { rite = rite:CAUC_tondrakian_rite holder.is_ai = yes holder.faith = faith:armenian_apostolic }
+    holder = {
+     if = { limit = { NOT = { has_character_flag = CAUC_tondrakian_invited } }
+      add_character_flag = { flag = CAUC_tondrakian_invited years = 1 }
+      trigger_event = { id = CAUC.0150 days = 30 }
+     }
+    }
+   }
+  }
   if = { limit = { is_landed = yes is_available_adult = yes is_imprisoned = no has_title = title:c_apahunik faith = { religion = religion:christianity_religion } NOT = { has_character_flag = CAUC_tondrakian_inquiry_active } }
    add_character_flag = { flag = CAUC_tondrakian_inquiry_active years = 1 }
    trigger_event = { id = CAUC.0140 days = 14 }
   }
  } }
 }''')
- events.append('''CAUC.0150 = { type = character_event title = CAUC.0150.t desc = CAUC.0150.desc theme = learning
+ events.append('''CAUC.0150 = { type = character_event title = CAUC.0150.t desc = CAUC.0150.desc theme = faith
+ widget = { gui = "event_window_widget_rite_founder" container = "custom_widgets_container" }
  right_portrait = { character = scope:CAUC_tondrakian_speaker }
  trigger = { exists = global_var:CAUC_tondrakian_founder }
- immediate = { global_var:CAUC_tondrakian_founder = { save_scope_as = CAUC_tondrakian_speaker } }
+ immediate = { CAUC_tondrakian_notification_scopes_effect = yes global_var:CAUC_tondrakian_founder = { save_scope_as = CAUC_tondrakian_speaker } }
  option = { name = CAUC.0150.a }
- option = { name = CAUC.0150.b trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no faith = faith:armenian_apostolic piety >= 500 capital_province = { geographical_region = CAUC_transcaucasia_region } } add_piety = -500 set_character_rite = rite:CAUC_tondrakian_rite }
+ option = { name = CAUC.0150.b trigger = { is_landed = yes is_available_adult = yes is_imprisoned = no faith = faith:armenian_apostolic NOT = { rite = rite:CAUC_tondrakian_rite } piety >= 500 capital_province = { geographical_region = CAUC_transcaucasia_region } } add_piety = -500 CAUC_tondrakian_join_effect = yes }
 }''')
  # The hidden scheduler is an additive on-action; no random pulse or paid decision.
  write(ROOT/'common/on_action/CAUC_tondrakian_start_on_actions.txt','''on_game_start_after_lobby = { on_actions = { CAUC_tondrakian_start } }
 CAUC_tondrakian_start = {
  effect = {
+  CAUC_tondrakian_restore_parent_effect = yes
+  if = { limit = { exists = rite:CAUC_tondrakian_rite has_global_variable = CAUC_tondrakian_outbreak_announced }
+   CAUC_tondrakian_seed_counties_effect = yes
+   if = { limit = { NOT = { has_global_variable = CAUC_tondrakian_public_sequel_initialized } exists = global_var:CAUC_tondrakian_founder }
+    set_global_variable = { name = CAUC_tondrakian_public_sequel_initialized value = yes }
+    CAUC_tondrakian_notification_scopes_effect = yes
+    every_player = {
+     if = { limit = { faith = faith:armenian_apostolic }
+      trigger_event = { id = faith_creation.1021 days = 1 }
+     }
+    }
+    save_scope_value_as = { name = CAUC_tondrakian_news_stage value = 144 }
+    CAUC_tondrakian_broadcast_followup_effect = yes
+   }
+  }
   if = { limit = { NOT = { has_global_variable = CAUC_tondrakian_scheduled } }
    set_global_variable = { name = CAUC_tondrakian_scheduled value = yes }
    title:c_apahunik.holder = {
@@ -250,6 +285,13 @@ yearly_global_pulse = { on_actions = { CAUC_tondrakian_guaranteed_outbreak } }
 CAUC_tondrakian_guaranteed_outbreak = {
  trigger = { game_start_date = 867.1.1 current_date >= 868.1.1 NOT = { has_global_variable = CAUC_tondrakian_outbreak_announced } }
  effect = { title:c_apahunik.holder = { trigger_event = { id = CAUC.0149 days = 1 } } }
+}
+# High divergence can detach a rite into a new faith in 1.20. Only this authored
+# historical rite is retained under Armenia; other rites/faiths stay untouched.
+on_faith_created = { on_actions = { CAUC_tondrakian_keep_parent } }
+CAUC_tondrakian_keep_parent = {
+ trigger = { exists = rite:CAUC_tondrakian_rite rite:CAUC_tondrakian_rite = { faith = root } NOT = { this = faith:armenian_apostolic } }
+ effect = { CAUC_tondrakian_restore_parent_effect = yes }
 }
 ''')
  L('CAUC_derbent_guards_decision_tooltip','Meet a Slavic Rus captain and recruit 500 event troops. Hire him as an Excellent bodyguard if a position is available, or retain only the company.','接见一名斯拉夫信仰的罗斯队长，招募500名事件兵。若有空缺，可聘为极佳称职度的贴身护卫；也可只雇用战团。','Rencontrer un capitaine rus’ slave et recruter 500 soldats. Un poste libre permet d’en faire un excellent garde du corps ; sinon, seule la compagnie est engagée.')
@@ -296,6 +338,7 @@ CAUC_tondrakian_guaranteed_outbreak = {
  # Add proper native icons to all existing regional bonuses and penalties too.
  p=ROOT/'common/modifiers/CAUC_regional_modifiers.txt';text=base['common/modifiers/CAUC_regional_modifiers.txt'];out=[]
  for key,body,a,z in entries(text):
+  body=body.replace('fort_level = 0.25','fort_level = 1')
   icon='economy_negative' if key=='CAUC_pass_obstructed' else ('martial_positive' if 'fort_level' in body else ('economy_positive' if 'tax_mult' in body else 'county_modifier_development_positive'))
   out.append(key+' = { icon = '+icon+' '+body+' }')
  write(p,'\n\n'.join(out))

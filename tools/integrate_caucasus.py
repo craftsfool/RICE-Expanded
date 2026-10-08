@@ -9,7 +9,7 @@ from ck3_script import entries,registry,canonical,write
 from import_ce import localization,CULTURES
 VISUALS={'ethnicities','coa_gfx','building_gfx','clothing_gfx','unit_gfx','house_coa_frame','house_coa_mask_offset','house_coa_mask_scale'}
 PROFILE_DEPS={'unified':[]}
-VERSION='1.20.0-beta-1-expanded.3.4-unified-caucasus-alpha'
+VERSION='1.20.0-beta-1-expanded.3.5-unified-caucasus-alpha'
 
 def replace_record(text,key,raw):
  for k,b,a,z in entries(text):

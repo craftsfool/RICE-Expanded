@@ -37,7 +37,88 @@ CAUC_tondrakian_prepare_inquiry_effect = {
    add_character_flag = ai_will_not_convert
   }
  }
+ CAUC_tondrakian_restore_parent_effect = yes
  CAUC_tondrakian_select_speaker_effect = yes
+}
+
+# A typed rite must remain a branch of the Armenian faith, never its main rite.
+# Use the native reparenting effect, including for earlier Expanded saves.
+CAUC_tondrakian_restore_parent_effect = {
+ if = {
+  limit = { exists = rite:CAUC_tondrakian_rite }
+  rite:CAUC_tondrakian_rite = {
+   if = {
+    limit = { faith != faith:armenian_apostolic }
+    set_parent_faith = { target = faith:armenian_apostolic main = no include_derived = no }
+   }
+  }
+ }
+}
+
+# Native C3 geographic seed, without C3's later creation of a separate faith.
+# Once only: reloads must not undo a ruler's subsequent suppression/conversion.
+CAUC_tondrakian_seed_counties_effect = {
+ if = {
+  limit = { exists = rite:CAUC_tondrakian_rite NOT = { has_global_variable = CAUC_tondrakian_counties_seeded } }
+  title:c_apahunik = {
+   if = {
+    limit = { faith = faith:armenian_apostolic NOT = { has_variable = CAUC_tondrakian_inquiry_choice var:CAUC_tondrakian_inquiry_choice = 5 } }
+    set_county_rite = rite:CAUC_tondrakian_rite
+    every_neighboring_county = {
+     limit = { faith = faith:armenian_apostolic holder.faith = faith:armenian_apostolic }
+     set_county_rite = rite:CAUC_tondrakian_rite
+    }
+   }
+  }
+  rite:CAUC_tondrakian_rite = {
+   set_variable = { name = pam_rite_grace_period value = yes days = rite_growth_grace_period_days }
+   set_variable = { name = pam_rite_founding_window value = yes years = 1 }
+  }
+  set_global_variable = { name = CAUC_tondrakian_counties_seeded value = yes }
+ }
+}
+
+# Required saved scopes are identical to faith_creation.1020/1021. The native
+# 1020 dispatcher is player-only, so dispatch 1021 for this historical AI founder.
+CAUC_tondrakian_notification_scopes_effect = {
+ global_var:CAUC_tondrakian_founder = { save_scope_as = founder }
+ faith:armenian_apostolic = {
+  save_scope_as = old_faith
+  main_rite = { save_scope_as = source_rite }
+ }
+ rite:CAUC_tondrakian_rite = { save_scope_as = new_rite }
+ rite_growth_resolve_differences_effect = yes
+}
+
+# Native conversion includes matching domain counties, courtiers, conversion
+# consequences and the ten-year anti-reconversion flag. It keeps parent faith.
+CAUC_tondrakian_join_effect = {
+ CAUC_tondrakian_restore_parent_effect = yes
+ # A Christian of another denomination first joins the Armenian parent faith.
+ # Convert only domain counties/courtiers sharing that former faith.
+ if = {
+  limit = { faith != faith:armenian_apostolic }
+  faith = { save_scope_as = CAUC_before_join_faith }
+  set_character_faith_with_conversion = faith:armenian_apostolic
+  every_held_title = {
+   limit = { tier = tier_county faith = scope:CAUC_before_join_faith }
+   set_county_rite = rite:CAUC_tondrakian_rite
+  }
+  pam_convert_court_to_faith_effect = { OLD_FAITH = scope:CAUC_before_join_faith FAITH = faith:armenian_apostolic }
+ }
+ CAUC_tondrakian_notification_scopes_effect = yes
+ pam_heresy_convert_ruler_to_new_rite_effect = yes
+ CAUC_tondrakian_restore_parent_effect = yes
+}
+
+# The host continues the investigation; every other Christian ruler governing
+# northern or southern Caucasian land receives the testimony and final verdict.
+CAUC_tondrakian_broadcast_followup_effect = {
+ title:c_apahunik.holder = { save_scope_as = CAUC_tondrakian_host }
+ every_ruler = {
+  limit = { CAUC_tondrakian_broadcast_recipient_trigger = yes NOT = { this = scope:CAUC_tondrakian_host } }
+  trigger_event = { id = CAUC.0151 days = 3 }
+ }
 }
 
 CAUC_tondrakian_select_speaker_effect = {

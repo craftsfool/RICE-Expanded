@@ -237,7 +237,7 @@
       "standalone_startup_enabled": true,
       "standalone_empire_decision_enabled": true,
       "pillars": 355,
-      "regions": 1184
+      "regions": 1185
     },
     "epe": {
       "errors": [],
@@ -476,7 +476,7 @@
       "standalone_startup_enabled": true,
       "standalone_empire_decision_enabled": true,
       "pillars": 355,
-      "regions": 1184
+      "regions": 1185
     },
     "ce": {
       "errors": [],
@@ -715,7 +715,7 @@
       "standalone_startup_enabled": false,
       "standalone_empire_decision_enabled": false,
       "pillars": 367,
-      "regions": 1184
+      "regions": 1185
     },
     "ce-epe": {
       "errors": [],
@@ -954,7 +954,7 @@
       "standalone_startup_enabled": false,
       "standalone_empire_decision_enabled": false,
       "pillars": 367,
-      "regions": 1184
+      "regions": 1185
     },
     "epe-extra-mods": {
       "errors": [],
@@ -1193,7 +1193,7 @@
       "standalone_startup_enabled": true,
       "standalone_empire_decision_enabled": true,
       "pillars": 359,
-      "regions": 1175
+      "regions": 1176
     },
     "ce-epe-extra-mods": {
       "errors": [],
@@ -1432,7 +1432,7 @@
       "standalone_startup_enabled": false,
       "standalone_empire_decision_enabled": false,
       "pillars": 371,
-      "regions": 1175
+      "regions": 1176
     }
   },
   "same_directory": "RICE",

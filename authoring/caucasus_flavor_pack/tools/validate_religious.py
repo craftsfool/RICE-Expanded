@@ -31,7 +31,7 @@ def condition(text,s,scope='root'):
   if key in ('NOT','AND','OR'):
    bits=[condition(value[a:z],s,scope) for _,_,a,z in entries(value)]
    result=not all(bits) if key=='NOT' else (all(bits) if key=='AND' else any(bits))
-  elif key.startswith(('title:','global_var:','var:','scope:')) and '=' in value or key=='root':
+  elif key.startswith(('title:','global_var:','var:','scope:','rite:','faith:')) and '=' in value or key=='root':
    if key.startswith(('global_var:','var:','scope:')):
     ident=resolve(key,s,scope)
     result=ident is not None and condition(value,s,ident)
@@ -39,8 +39,15 @@ def condition(text,s,scope='root'):
   elif key=='faith' and '=' in value:
    result=condition(value,s,'faith')
   elif key=='religion':result=s['religion']==value
-  elif key=='faith':result=s['faith']==value
-  elif key=='rite':result=s['rite_exists'] and s['rite']==value
+  elif key=='faith':
+   actual=s['rite_parent'] if scope=='rite:CAUC_tondrakian_rite' else s['counties'].get(scope,{}).get('faith',s['characters'].get(scope,{}).get('faith',s['faith']))
+   result=OPS[op](actual,resolve(value,s,scope))
+  elif key=='holder.faith':result=s['counties'][scope]['holder_faith']==value
+  elif key=='holder.is_ai':result=s['counties'][scope]['holder_ai']==(value=='yes')
+  elif key=='tier':result=value=='tier_county' and scope.startswith('title:')
+  elif key=='rite':
+   actual=s['county_rites'].get(scope,s['counties'].get(scope,{}).get('rite',s['rite']))
+   result=s['rite_exists'] and OPS[op](actual,value)
   elif key=='exists':
    if value=='rite:CAUC_tondrakian_rite':result=s['rite_exists']
    elif value.startswith(('global_var:','scope:','var:')):result=resolve(value,s,scope) is not None
@@ -74,7 +81,8 @@ def resolve(value,s,scope):
  if value=='root.culture':return s['culture']
  if value=='current_year':return s['date'][0]
  if value=='title:c_apahunik.holder':return 'root'
- if value.startswith('title:'):return value
+ if value=='faith:armenian_apostolic.main_rite':return 'rite:armenian_rite'
+ if value.startswith(('title:','faith:','rite:')):return value
  if value.startswith('scope:'):return s['scopes'].get(value[6:])
  if value.startswith('global_var:'):return s['globals'].get(value[11:])
  if value.startswith('var:'):return s['vars'].get(scope,{}).get(value[4:])
@@ -86,7 +94,7 @@ def effects(text,s,scope='root'):
  for key,value,_ in fields(text):
   if key in SCRIPTED:
    assert value=='yes';effects(SCRIPTED[key][1],s,scope)
-  elif key.startswith(('title:','scope:','global_var:','var:')) or key=='root':
+  elif key.startswith(('title:','scope:','global_var:','var:','faith:','rite:')) or key=='root':
    target=resolve(key,s,scope) if key!='root' else 'root'
    assert target is not None,('Missing effect scope',key)
    effects(value,s,target)
@@ -103,6 +111,38 @@ def effects(text,s,scope='root'):
    else:s['vars'].setdefault(scope,{})[get(value,'name')]=resolve(get(value,'value'),s,scope)
   elif key=='set_global_variable':s['globals'][get(value,'name')]=resolve(get(value,'value'),s,scope)
   elif key=='save_scope_as':s['scopes'][value]=scope
+  elif key=='save_scope_value_as':s['scopes'][get(value,'name')]=resolve(get(value,'value'),s,scope)
+  elif key=='every_ruler':
+   assert get(value,'trigger_event'), 'Broadcast must schedule a recipient event'
+   s.setdefault('broadcasts',[]).append({'event':get(get(value,'trigger_event'),'id'),'limit':get(value,'limit'),'stage':s['scopes'].get('CAUC_tondrakian_news_stage')})
+  elif key=='faith':effects(value,s,s['faith'])
+  elif key=='set_character_faith_with_conversion':
+   assert value=='faith:armenian_apostolic';s['faith']=value
+  elif key=='every_held_title':
+   body=' '.join(value[a:z] for name,arg,a,z in entries(value) if name!='limit')
+   for county in s['owns']:
+    if condition(get(value,'limit'),s,county):effects(body,s,county)
+  elif key=='pam_convert_court_to_faith_effect':
+   assert get(value,'FAITH')=='faith:armenian_apostolic' and resolve(get(value,'OLD_FAITH'),s,scope)
+   s['native_calls'].append(key)
+  elif key=='main_rite':effects(value,s,'rite:armenian_rite')
+  elif key=='set_parent_faith':
+   assert scope=='rite:CAUC_tondrakian_rite' and get(value,'main')=='no' and get(value,'include_derived')=='no'
+   s['rite_parent']=get(value,'target')
+  elif key=='rite_growth_resolve_differences_effect':
+   assert s['scopes']['new_rite']=='rite:CAUC_tondrakian_rite' and s['scopes']['source_rite']=='rite:armenian_rite'
+   s['native_calls'].append(key) # Native UI-selection effect; not an engine simulation.
+  elif key=='pam_heresy_convert_ruler_to_new_rite_effect':
+   assert s['scopes']['new_rite']=='rite:CAUC_tondrakian_rite' and s['scopes']['source_rite']=='rite:armenian_rite'
+   assert s['faith']=='faith:armenian_apostolic'
+   s['native_calls'].append(key);s['rite']='rite:CAUC_tondrakian_rite'
+   for county in s['owns']:
+    if s['county_rites'].get(county,s['counties'].get(county,{}).get('rite','rite:armenian_rite'))=='rite:armenian_rite':s['county_rites'][county]=s['rite']
+  elif key=='every_neighboring_county':
+   assert scope=='title:c_apahunik'
+   body=' '.join(value[a:z] for name,arg,a,z in entries(value) if name!='limit')
+   for county in s['neighbors']:
+    if condition(get(value,'limit'),s,county):effects(body,s,county)
   elif key=='create_character':
    ident='character:'+str(len(s['characters'])+1)
    s['characters'][ident]={'alive':True,'name':get(value,'name'),'culture':resolve(get(value,'culture'),s,scope),'dynasty':get(value,'dynasty'),'faith':resolve(get(value,'faith'),s,scope),'rite':None,'historical':False,'traits':[arg for field,arg,_ in fields(value) if field=='trait'],'flags':[],'employer':None,'skills':{field:float(get(value,field,'0')) for field in ('martial','prowess','learning','stewardship','diplomacy')},'trait_xp':{}}
@@ -159,9 +199,12 @@ def effects(text,s,scope='root'):
     s['flags'].add(get(value,'flag'))
   elif key=='remove_character_flag':s['flags'].discard(value)
   elif key=='every_player':
-   assert get(value,'trigger_event')
-   s.setdefault('notices',[]).append(get(get(value,'trigger_event'),'id'))
+   effects(value,s,'player')
   elif key=='trigger_event':
+   if scope.startswith('faith:'):
+    s.setdefault('faith_events',[]).append({'event':get(value,'id'),'days':int(get(value,'days'))});continue
+   if scope=='player':
+    s.setdefault('notices',[]).append(get(value,'id'));continue
    assert s['queued'] is None, 'Two follow-ups scheduled by one choice'
    s['queued']=get(value,'id');s['delay']+=int(get(value,'days'))
   elif key=='create_rite_from_type':
@@ -171,24 +214,29 @@ def effects(text,s,scope='root'):
    assert s['characters'][scope]['culture']=='culture:armenian'
    assert s['characters'][scope]['dynasty']=='none'
    assert s['characters'][scope]['name']=='CAUC_smbat_zarehavantsi_name'
-   s['rite_exists']=True;s['foundations']+=1;s['native_founder']=scope
+   s['rite_exists']=True;s['foundations']+=1;s['native_founder']=scope;s['rite_parent']='faith:armenian_apostolic'
+   s['scopes'][get(value,'save_scope_as')]='rite:CAUC_tondrakian_rite'
    s['characters'][scope]['rite']='rite:CAUC_tondrakian_rite'
   elif key=='set_character_rite':
    assert s['rite_exists']
    if scope=='root':s['rite']=value
    else:s['characters'][scope]['rite']=value
   elif key=='set_county_rite':
-   assert s['rite_exists'] and scope in s['owns']
+   assert s['rite_exists'] and (scope in s['owns'] or scope in s['counties'])
    s['county_rites'][scope]=value
   else:raise AssertionError(('unmodelled effect',key,value))
 
 def fresh(county,faith,when,created=False,gold=1000):
  state={'faith':'faith:'+faith,'religion':'religion:' + ('islam_religion' if faith=='sunni' else 'christianity_religion'),
- 'rite':'rite:armenian_rite','rite_exists':created,'foundations':0,'county_rites':{},
+ 'rite':'rite:armenian_rite','rite_exists':created,'foundations':0,'county_rites':{},'rite_parent':'faith:armenian_apostolic','native_calls':[],
  'owns':{'title:'+county},'gold':gold,'piety':1000,'prestige':0,'learning':0,
  'start':date(when),'date':date(when),'flags':set(),'mods':{},'vars':{},'control':{},'queued':None,'delay':0,
  'bodyguard_available':True,'bodyguard':None,'troops':0,'cavalry':0,'artifacts':[],'opinions':{},'culture':'culture:armenian','learning_skill':0,'martial_xp':0,
  'is_available_adult':True,'is_imprisoned':False,'is_at_war':False,'globals':{},'characters':{'root':{'alive':True,'traits':[],'flags':[]}},'scopes':{},'native_founder':None}
+ state['neighbors']=['title:c_bagrevand','title:c_orthodox_neighbor','title:c_foreign_holder']
+ state['counties']={key:{'faith':'faith:armenian_apostolic','rite':'rite:armenian_rite','holder_faith':'faith:armenian_apostolic','holder_ai':False} for key in ['title:c_apahunik']+state['neighbors']}
+ state['counties']['title:c_orthodox_neighbor']['faith']='faith:orthodox'
+ state['counties']['title:c_foreign_holder']['holder_faith']='faith:sunni'
  if created:
   state['characters']['character:1']={'alive':False,'name':'CAUC_smbat_zarehavantsi_name','culture':'culture:armenian','dynasty':'none','faith':'faith:armenian_apostolic','rite':'rite:CAUC_tondrakian_rite','historical':True,'traits':['historical_character'],'flags':[]}
   state['native_founder']='character:1'

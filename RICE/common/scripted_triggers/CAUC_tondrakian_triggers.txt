@@ -1,0 +1,23 @@
+﻿# Character scope. No denomination, culture, rank or personal Apahunik claim.
+CAUC_tondrakian_broadcast_recipient_trigger = {
+ is_landed = yes
+ faith = { religion = religion:christianity_religion }
+ OR = {
+  capital_province = { geographical_region = CAUC_caucasus_broadcast_region }
+  any_held_title = {
+   tier = tier_county
+   title_province = { geographical_region = CAUC_caucasus_broadcast_region }
+  }
+ }
+}
+
+# A king of Armenian culture, or the holder of either Armenian kingdom title.
+CAUC_tondrakian_armenian_crown_vassal_trigger = {
+ any_liege_or_above = {
+  OR = {
+   has_title = title:k_armenia
+   has_title = title:k_armenian_principality
+   AND = { highest_held_title_tier = tier_kingdom culture = culture:armenian }
+  }
+ }
+}

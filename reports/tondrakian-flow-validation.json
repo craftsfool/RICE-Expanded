@@ -1,0 +1,98 @@
+{
+  "errors": [],
+  "scope": "Native source references and bounded script models only; no engine, UI or calculated divergence verification",
+  "region_duchies": [
+    "d_abkhazia",
+    "d_alania",
+    "d_azerbaijan",
+    "d_azov",
+    "d_ciscaucasia",
+    "d_georgia",
+    "d_greater_armenia",
+    "d_khazaria",
+    "d_mesopotamia",
+    "d_shirvan",
+    "d_tao-klarjeti",
+    "d_vaspurakan"
+  ],
+  "broadcast_cases": [
+    {
+      "religion": "religion:christianity_religion",
+      "capital": "d_alania",
+      "lands": [
+        "d_alania"
+      ],
+      "receives_followups": true
+    },
+    {
+      "religion": "religion:christianity_religion",
+      "capital": "d_ciscaucasia",
+      "lands": [
+        "d_ciscaucasia"
+      ],
+      "receives_followups": true
+    },
+    {
+      "religion": "religion:christianity_religion",
+      "capital": "d_abkhazia",
+      "lands": [
+        "d_abkhazia"
+      ],
+      "receives_followups": true
+    },
+    {
+      "religion": "religion:christianity_religion",
+      "capital": "d_greater_armenia",
+      "lands": [
+        "d_greater_armenia"
+      ],
+      "receives_followups": true
+    },
+    {
+      "religion": "religion:christianity_religion",
+      "capital": "d_latium",
+      "lands": [
+        "d_shirvan"
+      ],
+      "receives_followups": true
+    },
+    {
+      "religion": "religion:christianity_religion",
+      "capital": "d_latium",
+      "lands": [
+        "d_latium"
+      ],
+      "receives_followups": false
+    },
+    {
+      "religion": "religion:islam_religion",
+      "capital": "d_shirvan",
+      "lands": [
+        "d_shirvan"
+      ],
+      "receives_followups": false
+    },
+    {
+      "religion": "religion:christianity_religion",
+      "capital": "d_alania",
+      "lands": [],
+      "receives_followups": false
+    }
+  ],
+  "ai_join_weights": {
+    "ordinary": 5.0,
+    "armenian_crown_vassal": 40.0,
+    "decline": 100
+  },
+  "checks": [
+    "Native rite notification scopes resolve",
+    "Native domain and court conversion helpers exist",
+    "County seed, neighbor exclusions and no forced player conversion",
+    "Old-save reparenting retains original founder",
+    "No repeated seed after deliberate reconversion or suppression",
+    "Cross-denomination acceptance stays in Armenian parent faith",
+    "All four follow-up stages broadcast to regional rulers",
+    "Public sequel survives an ineligible local host; an actual investigation takes over",
+    "Only the authored rite is repaired; derived rites are excluded"
+  ]
+}

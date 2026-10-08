@@ -4,9 +4,41 @@
   "scenarios": [
     {
       "flow": "derbent_guards",
+      "faith": "armenian_apostolic",
+      "existing_rite": false,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "derbent_guards",
+      "faith": "armenian_apostolic",
+      "existing_rite": true,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "derbent_guards",
+      "faith": "catholic",
+      "existing_rite": false,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "derbent_guards",
+      "faith": "catholic",
+      "existing_rite": true,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "derbent_guards",
       "faith": "sunni",
       "existing_rite": false,
-      "completed_paths": 6,
+      "completed_paths": 12,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -14,14 +46,6 @@
       "flow": "derbent_guards",
       "faith": "sunni",
       "existing_rite": true,
-      "completed_paths": 6,
-      "founding_paths": 0,
-      "adopting_paths": 0
-    },
-    {
-      "flow": "lori_council",
-      "faith": "catholic",
-      "existing_rite": false,
       "completed_paths": 12,
       "founding_paths": 0,
       "adopting_paths": 0
@@ -29,6 +53,14 @@
     {
       "flow": "lori_council",
       "faith": "catholic",
+      "existing_rite": false,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "lori_council",
+      "faith": "catholic",
       "existing_rite": true,
       "completed_paths": 12,
       "founding_paths": 0,
@@ -38,7 +70,7 @@
       "flow": "ani_sanctuary",
       "faith": "armenian_apostolic",
       "existing_rite": false,
-      "completed_paths": 8,
+      "completed_paths": 18,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -46,7 +78,7 @@
       "flow": "ani_sanctuary",
       "faith": "armenian_apostolic",
       "existing_rite": true,
-      "completed_paths": 8,
+      "completed_paths": 18,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -54,7 +86,7 @@
       "flow": "ani_sanctuary",
       "faith": "catholic",
       "existing_rite": false,
-      "completed_paths": 8,
+      "completed_paths": 18,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -62,7 +94,7 @@
       "flow": "ani_sanctuary",
       "faith": "catholic",
       "existing_rite": true,
-      "completed_paths": 8,
+      "completed_paths": 18,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -70,7 +102,7 @@
       "flow": "ani_sanctuary",
       "faith": "sunni",
       "existing_rite": false,
-      "completed_paths": 8,
+      "completed_paths": 18,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -78,7 +110,7 @@
       "flow": "ani_sanctuary",
       "faith": "sunni",
       "existing_rite": true,
-      "completed_paths": 8,
+      "completed_paths": 18,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -86,7 +118,7 @@
       "flow": "alan_mission",
       "faith": "armenian_apostolic",
       "existing_rite": false,
-      "completed_paths": 12,
+      "completed_paths": 27,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -94,7 +126,7 @@
       "flow": "alan_mission",
       "faith": "armenian_apostolic",
       "existing_rite": true,
-      "completed_paths": 12,
+      "completed_paths": 27,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -102,7 +134,7 @@
       "flow": "alan_mission",
       "faith": "catholic",
       "existing_rite": false,
-      "completed_paths": 12,
+      "completed_paths": 27,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -110,7 +142,7 @@
       "flow": "alan_mission",
       "faith": "catholic",
       "existing_rite": true,
-      "completed_paths": 12,
+      "completed_paths": 27,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -118,7 +150,7 @@
       "flow": "alan_mission",
       "faith": "sunni",
       "existing_rite": false,
-      "completed_paths": 12,
+      "completed_paths": 27,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -126,7 +158,7 @@
       "flow": "alan_mission",
       "faith": "sunni",
       "existing_rite": true,
-      "completed_paths": 12,
+      "completed_paths": 27,
       "founding_paths": 0,
       "adopting_paths": 0
     },
@@ -134,22 +166,22 @@
       "flow": "tondrakian_inquiry",
       "faith": "armenian_apostolic",
       "existing_rite": false,
-      "completed_paths": 126,
-      "founding_paths": 126,
+      "completed_paths": 108,
+      "founding_paths": 108,
       "adopting_paths": 54
     },
     {
       "flow": "tondrakian_inquiry",
       "faith": "armenian_apostolic",
       "existing_rite": true,
-      "completed_paths": 126,
+      "completed_paths": 108,
       "founding_paths": 0,
       "adopting_paths": 54
     }
   ],
-  "completed_paths": 408,
+  "completed_paths": 582,
   "native_tenets_preserved": 97,
-  "localization_keys_per_language": 838,
+  "localization_keys_per_language": 887,
   "languages": [
     "english",
     "simp_chinese",

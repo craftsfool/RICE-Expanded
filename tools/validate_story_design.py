@@ -58,7 +58,10 @@ def main():
    state['date']=date('868.1.1');state['queued']=None
    assert condition(get(events['CAUC.0149'][1],'trigger'),state)
    effects(get(events['CAUC.0149'][1],'immediate'),state)
-   assert state['rite_exists'] and state['foundations']==1 and state['notices']==['CAUC.0150']
+   assert state['rite_exists'] and state['foundations']==1
+   assert state['notices']==(['faith_creation.1021','CAUC.0150'] if state['faith']=='faith:armenian_apostolic' else ['CAUC.0150'])
+   assert state['county_rites']=={'title:c_apahunik':'rite:CAUC_tondrakian_rite','title:c_bagrevand':'rite:CAUC_tondrakian_rite'}
+   assert state['rite']=='rite:armenian_rite','Outbreak must not force-convert the player'
    assert not condition(get(events['CAUC.0149'][1],'trigger'),state),'Duplicate public outbreak'
    # Original ruler dies: the annual global hook instead targets the current holder.
    succession=fresh('c_apahunik','sunni',when);effects(start,succession);succession['queued']=None;succession['delay']=0;succession['date']=date('868.1.1')

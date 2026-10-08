@@ -20,11 +20,11 @@ CE 的外高加索帝国决议与事件已内置。未启用 CE 时可用“建�
 - **洛里教会争论**：亚美尼亚院长与正教使者当面争论译文和教会自主权。玩家能延请其中的学者、接受语言教导、撤回有争议的措辞，最后保存一本实际的《洛里论辩录》宝物，或留下教师。前面的立场决定最终协议。
 - **阿尼圣所归属**：基督徒管理人与穆斯林代表携钥匙、契据和修缮要求登场。裁决保存建筑用途，两位代表可以留在宫廷；安置迁出的会众影响人物态度和地方秩序。不会因改变一座建筑的用途而强制全县改宗。
 - **阿兰传教与反弹**：正教传教士和阿兰长老争论土地与誓约。可延请教师、接纳地方长老或获得 100 名轻骑兵。界桩纠纷记住先前的拨地；结尾可选择亲自受洗，或保留自身信仰。不会自动转换整个阿兰地区。
-- **通德拉基派**：867 新开局安排在约一年后创建礼制并向玩家公布消息，另有年度全局补偿，防止原领主死亡或失去阿帕胡尼克导致漏触发。1066／1178 开局立即创建，进入游戏后可在亚美尼亚使徒教会的礼制列表中查看。所在地领主可以听取五阶段调查；消息中的亚美尼亚使徒教会玩家，若首都位于外高加索并有足够虔诚，也可以加入。女代表能进入宫廷发言；庇护会留下讲道者，镇压会实际囚禁他，加入会改变玩家及调查所在地的礼制。见证可以保存为书册宝物。
+- **通德拉基派（expanded.3.5）**：867 开局约一年后由斯姆巴特创建礼仪，并调用原版 `faith_creation.1021` 新礼仪通知。阿帕胡尼克及信仰、领主均符合条件的邻县改奉礼仪；玩家不会被强制改信。南、北高加索的所有基督教统治者都能收到后续证词与处置消息，不再要求持有阿帕胡尼克、属于亚美尼亚宗徒教会或支付500虔诚。加入使用原版领主、领地和宫廷改信效果；其他基督教教派的加入者先改入亚美尼亚母信仰。亚美尼亚国王旗下封臣的加入权重为普通领主的8倍。发源地无人能主持调查时仍有地区消息链；实际调查开始后，由调查结果接管广播。1066／1178 开局立即生成礼仪。旧档会修复母信仰归属、补回漏掉的发源地改信并补发当前争端消息；已镇压或自行再次改信的地区不会反复被改回。
 
 斯姆巴特·扎雷哈万齐按原版历史异端模板生成，由他本人创建并改奉通德拉基礼制。文化为亚美尼亚；Zarehavantsi 是籍贯称号，宗族未获明确证实，故不虚构贵族谱系。模板人生时间随游戏触发年安排，不声称历史人物实际活到了后期剧本。首次创立者、地点、年份的引用永久保留；其死亡后由追随者继续出场，描述中的姓名仍可打开原人物。
 
-通德拉基派仍是亚美尼亚使徒教会的分支礼制，而非额外创建的独立信仰。核心教义为反圣像、公有财产、造反有理，男女平等、男女神职以及男女私通获准。造反有理使用原版不屈信仰的机制与特殊名称；仅扩展名称／描述选择，97 条原版教义的机械效果不变。其他模组若整文件修改 `00_tenet_types.txt`，仍需同步合并。
+通德拉基礼仪归于亚美尼亚宗徒教会；expanded.3.5修复使用原版重设母信仰效果，并针对1.20的高差异度独立信仰创建规则保留这一历史分支。核心教义为反圣像、公有财产、造反有理，男女平等、男女神职以及男女私通获准。造反有理使用原版不屈信仰的机制与特殊名称；仅扩展名称／描述选择，97 条原版教义的机械效果不变。其他模组若整文件修改 `00_tenet_types.txt`，仍需同步合并。
 
 原有 22 个地方场景也有反复出现的监工、学者或工匠，并可留下实际人物或书册。地方修缮、机构与最终协议仍以县级修正记录，但不再让宗教故事每一步只增删临时数值。25 个新增修正全部引用实际存在的原版图标，通过 `positive`／`negative` 后缀显示绿／红图标与名称；混合效果中的负值仍按原版显示。
 
@@ -45,3 +45,5 @@ Use the single **Unified** full package. RICE Expanded is self-contained; CE, EP
 The character-led stories provide a Rus captain and exactly 500 event soldiers, court teachers, actual manuscripts, Ani’s competing religious representatives, Alan riders and an optional personal baptism. The Tondrakian outbreak is scheduled around one year into an 867 campaign with a succession fallback. Later starts initialize the branch immediately; it appears among the Armenian Apostolic rites, rather than as a duplicate independent faith. All 878 authored Caucasus keys have English, Chinese and French text. Additional CE dependency labels may use English fallbacks.
 
 Validation is static and scripted. The game and desktop were not controlled. This community alpha does not claim universal mod compatibility or verified engine rendering.
+
+expanded.3.5修复另有8组广播地域对照与旧档／县级改信／原版通知作用域检查。检查只覆盖脚本与静态资源，没有验证本次改动在引擎中的执行或界面呈现。

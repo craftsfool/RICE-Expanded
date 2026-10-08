@@ -1,3 +1,17 @@
+# RICE Expanded — expanded.3.5: Tondrakian rite and Caucasian broadcasts
+
+2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease
+
+- 修复通德拉基礼仪的原版流程缺口：为历史AI创始人准备正确作用域，调用原版 `faith_creation.1021` 新礼仪通知；加入使用原版领主、宫廷和领地改信效果。
+- 针对1.20高差异度礼仪转成独立信仰的规则，使用原版重设母信仰效果保留亚美尼亚宗徒教会分支，只处理通德拉基礼仪，不移动其衍生礼仪或其他信仰。
+- 868年发源地阿帕胡尼克及信仰与领主均符合条件的邻县改奉礼仪；不强制玩家改信。旧档补回漏掉的改信，已镇压及之后自行改信的地区不会被反复改回。
+- 证词、土地争议、教会禁令与处置结果传给南、北高加索所有基督教统治者，不再要求亲自持有阿帕胡尼克或属于同一教派。发源地领主无法主持调查时仍有地区消息链；实际调查接管后停止背景广播。
+- 亚美尼亚国王旗下封臣的加入权重由5提高到40；保持拒绝选项。其他基督教派可以自愿加入亚美尼亚母信仰和通德拉基礼仪。移除加入的额外500虔诚门槛。
+- 新增消息完成英文、简体中文和法文；其他语言补足明确的英文回退。修复重新生成内容时恢复0.25堡垒等级的制作脚本回归。
+- 检验：582条宗教故事路径、8组地域对照、9项礼仪流程检查、6种实际模组文件组合均通过。结构、编码、三语及其他语言回退检查为0错误；保留原有可选整合引用警告。本次未启动游戏，未验证引擎执行或界面呈现。
+
+Connects the historical founder to the native rite-creation notification and conversion helpers, seeds Apahunik and eligible neighbors, retains the Armenian parent faith, broadens follow-up broadcasts to Christian rulers across both sides of the Caucasus, and increases adoption weights for vassals of Armenian kings. English, Simplified Chinese and French are complete. Static and bounded-model checks pass; engine behavior and rendering remain unverified. The update applies to Unified expanded.3.4.
+
 # RICE Expanded — expanded.3.4: nonzero fort bonuses and runtime repairs
 
 2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease

@@ -1,0 +1,29 @@
+[
+  {
+    "profile": "base",
+    "changed_from_expanded2": 29,
+    "omitted_changes": [],
+    "clears_old_chinese_french_fallbacks": true,
+    "both_adultery_doctrines_in_archive": true,
+    "historical_founder_in_archive": true,
+    "sha256": "67ebcb1daaee2cdb94c0410641691437da0ef9b5c7702db7460f5c61d9289b45"
+  },
+  {
+    "profile": "epe",
+    "changed_from_expanded2": 29,
+    "omitted_changes": [],
+    "clears_old_chinese_french_fallbacks": true,
+    "both_adultery_doctrines_in_archive": true,
+    "historical_founder_in_archive": true,
+    "sha256": "da681421b4a3bd383e803b17c1d8c78f279445c8e2aa649397ace6b64130c3b3"
+  },
+  {
+    "profile": "ce-epe",
+    "changed_from_expanded2": 29,
+    "omitted_changes": [],
+    "clears_old_chinese_french_fallbacks": true,
+    "both_adultery_doctrines_in_archive": true,
+    "historical_founder_in_archive": true,
+    "sha256": "368a22bf844ec4ea3675f12848496095ea03a2912a8c94481f2fd6858bddecc4"
+  }
+]

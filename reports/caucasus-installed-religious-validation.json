@@ -1,0 +1,185 @@
+{
+  "errors": [],
+  "scope": "Static model and assets only; no engine or UI execution",
+  "scenarios": [
+    {
+      "flow": "derbent_guards",
+      "faith": "sunni",
+      "existing_rite": false,
+      "completed_paths": 6,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "derbent_guards",
+      "faith": "sunni",
+      "existing_rite": true,
+      "completed_paths": 6,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "lori_council",
+      "faith": "catholic",
+      "existing_rite": false,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "lori_council",
+      "faith": "catholic",
+      "existing_rite": true,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "ani_sanctuary",
+      "faith": "armenian_apostolic",
+      "existing_rite": false,
+      "completed_paths": 8,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "ani_sanctuary",
+      "faith": "armenian_apostolic",
+      "existing_rite": true,
+      "completed_paths": 8,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "ani_sanctuary",
+      "faith": "catholic",
+      "existing_rite": false,
+      "completed_paths": 8,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "ani_sanctuary",
+      "faith": "catholic",
+      "existing_rite": true,
+      "completed_paths": 8,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "ani_sanctuary",
+      "faith": "sunni",
+      "existing_rite": false,
+      "completed_paths": 8,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "ani_sanctuary",
+      "faith": "sunni",
+      "existing_rite": true,
+      "completed_paths": 8,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "alan_mission",
+      "faith": "armenian_apostolic",
+      "existing_rite": false,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "alan_mission",
+      "faith": "armenian_apostolic",
+      "existing_rite": true,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "alan_mission",
+      "faith": "catholic",
+      "existing_rite": false,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "alan_mission",
+      "faith": "catholic",
+      "existing_rite": true,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "alan_mission",
+      "faith": "sunni",
+      "existing_rite": false,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "alan_mission",
+      "faith": "sunni",
+      "existing_rite": true,
+      "completed_paths": 12,
+      "founding_paths": 0,
+      "adopting_paths": 0
+    },
+    {
+      "flow": "tondrakian_inquiry",
+      "faith": "armenian_apostolic",
+      "existing_rite": false,
+      "completed_paths": 126,
+      "founding_paths": 126,
+      "adopting_paths": 54
+    },
+    {
+      "flow": "tondrakian_inquiry",
+      "faith": "armenian_apostolic",
+      "existing_rite": true,
+      "completed_paths": 126,
+      "founding_paths": 0,
+      "adopting_paths": 54
+    }
+  ],
+  "completed_paths": 408,
+  "native_tenets_preserved": 97,
+  "localization_keys_per_language": 838,
+  "languages": [
+    "english",
+    "simp_chinese",
+    "french"
+  ],
+  "icon": {
+    "size": [
+      100,
+      100
+    ],
+    "mode": "RGBA",
+    "alpha": [
+      0,
+      255
+    ],
+    "sha256": "e773851b4ab2c8ec751dde9a62e654987eb7a86311f412c914474c4a135f67ee"
+  },
+  "checks": [
+    "Ownership loss blocks every delayed stage",
+    "Every stage has an option at zero gold",
+    "Paid branches cannot overspend gold",
+    "No simultaneous policies even with stale modifiers",
+    "No duplicate rite foundation; existing rite is reused",
+    "Named Armenian historical founder creates and adopts the rite; ruler and Apahunik may join; Ani never converts its county",
+    "Ten-year decision cooldown and one-year timed active lock",
+    "All native tenet mechanics unchanged",
+    "English/French/Chinese source and installed text match, including interpolation markers",
+    "Founder is Armenian, complete name is retained and no noble dynasty is fabricated",
+    "Founder death and serialization preserve the original character, place and year references",
+    "Living follower replaces a dead speaker without recreating or replacing the founder",
+    "Native generic tenet sentence and tooltip-enabled GetFullName used in all three foundation descriptions"
+  ]
+}

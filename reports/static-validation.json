@@ -56,49 +56,49 @@
   ],
   "languages": {
     "english": {
-      "keys": 60369,
+      "keys": 60521,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "simp_chinese": {
-      "keys": 60378,
+      "keys": 60530,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "french": {
-      "keys": 60371,
+      "keys": 60523,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "german": {
-      "keys": 60398,
+      "keys": 60550,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "spanish": {
-      "keys": 61446,
+      "keys": 61598,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "russian": {
-      "keys": 60369,
+      "keys": 60521,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "polish": {
-      "keys": 60369,
+      "keys": 60521,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
     },
     "japanese": {
-      "keys": 60369,
+      "keys": 60521,
       "missing_keys": 0,
       "malformed_entries": 0,
       "unresolved_references": 0
@@ -106,7 +106,7 @@
   },
   "registries": {
     "faith_types": 103,
-    "rite_types": 106,
+    "rite_types": 107,
     "religion_types": 44
   },
   "limitations": [

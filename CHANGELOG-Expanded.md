@@ -1,3 +1,16 @@
+# RICE Expanded — expanded.3: Caucasus translations and religious stories
+
+2026-10-08 · CK3 1.20.* · 社区预发布 / Community prerelease
+
+- 完成高加索既有内容的简中和法语译文，并补齐两条 CE 文化条件、CE 原始建国决议的本地化别名。高加索共 838 个键提供英／简中／法语；旧中法英文回退文件被清空，以支持原位更新。
+- 新增杰尔宾特近卫争端、洛里教会争论、阿尼圣所归属、阿兰传教反弹和通基拉德派五条故事：五个决议、17 个事件、15 个五年地方修正。包含付费选项、后续反应、互斥政策、十年冷却和失地后的事件中止。
+- 通基拉德礼制为原版亚美尼亚使徒教会分支，使用反圣像、公有财产、造反有理三条原版教义，支持男女平等、男女俗人神职及男女私通获准。红色碎裂亚美尼亚十字架图标为工具生成，透明 DXT5。
+- 按原版历史异端首次创立逻辑生成斯姆巴特·扎雷哈万齐，由他创建礼制并出场于事件。描述使用原版通用格式与教义句子，永久保存首次创立者姓名链接、地点与年份；死亡后由追随者接续讲道。
+- “造反有理”采用原版不屈信仰教义的特殊名称；仅修改原版名称／描述选择，71 条教义的机械效果不变。阿尼记录建筑用途而不改变全县信仰；通基拉德加入仅影响统治者与阿帕胡尼克。
+- 内容和兼容层继续内置在 RICE Expanded，提供 Base、EPE、CE–EPE 三种原位更新包；仅进行后台静态与脚本检查，未启动游戏。
+
+Completed Simplified Chinese and French translations for all Caucasus content, with English retained and five other languages using explicit fallbacks. Added five religious story chains with seventeen events and fifteen policies. The Tondrakian branch of the vanilla Armenian Apostolic faith uses native Aniconism, Communal Possessions and Righteous Rebellion mechanics, equal gender doctrines, accepted male and female adultery, and a generated fractured-cross icon. Compatibility remains built into RICE. Validation is static and scripted; the game was not launched.
+
 # RICE Expanded — expanded.2: Caucasus English Alpha
 
 2026-10-07 · CK3 1.20.* · 社区预发布 / Community prerelease

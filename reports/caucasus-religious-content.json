@@ -1,0 +1,109 @@
+{
+  "flows": [
+    {
+      "flow": "derbent_guards",
+      "decision": "CAUC_derbent_guards_decision",
+      "county": "c_derbent",
+      "start_event": "CAUC.0100",
+      "cost": 75,
+      "policy_modifiers": [
+        "CAUC_rus_protected",
+        "CAUC_rus_instructed",
+        "CAUC_rus_dismissed"
+      ],
+      "cooldown_years": 10,
+      "active_flag_expires_years": 1
+    },
+    {
+      "flow": "lori_council",
+      "decision": "CAUC_lori_council_decision",
+      "county": "c_lori",
+      "start_event": "CAUC.0110",
+      "cost": 25,
+      "policy_modifiers": [
+        "CAUC_lori_autonomy",
+        "CAUC_lori_rapprochement",
+        "CAUC_lori_guarantees"
+      ],
+      "cooldown_years": 10,
+      "active_flag_expires_years": 1
+    },
+    {
+      "flow": "ani_sanctuary",
+      "decision": "CAUC_ani_sanctuary_decision",
+      "county": "c_hayk",
+      "start_event": "CAUC.0120",
+      "cost": 25,
+      "policy_modifiers": [
+        "CAUC_ani_church_restored",
+        "CAUC_ani_mosque_endowed",
+        "CAUC_ani_existing_use"
+      ],
+      "cooldown_years": 10,
+      "active_flag_expires_years": 1
+    },
+    {
+      "flow": "alan_mission",
+      "decision": "CAUC_alan_mission_decision",
+      "county": "c_maghas",
+      "start_event": "CAUC.0130",
+      "cost": 25,
+      "policy_modifiers": [
+        "CAUC_alan_mission_supported",
+        "CAUC_alan_old_rites_protected",
+        "CAUC_alan_mission_dismissed"
+      ],
+      "cooldown_years": 10,
+      "active_flag_expires_years": 1
+    },
+    {
+      "flow": "tondrakian_inquiry",
+      "decision": "CAUC_tondrakian_inquiry_decision",
+      "county": "c_apahunik",
+      "start_event": "CAUC.0140",
+      "cost": 25,
+      "policy_modifiers": [
+        "CAUC_tondrakian_refuge",
+        "CAUC_tondrakian_suppressed",
+        "CAUC_tondrakian_assembly"
+      ],
+      "cooldown_years": 10,
+      "active_flag_expires_years": 1
+    }
+  ],
+  "decisions": 5,
+  "events": 17,
+  "county_modifiers": 15,
+  "translated_keys_per_language": 139,
+  "complete_languages": [
+    "english",
+    "simp_chinese",
+    "french"
+  ],
+  "new_rite": "CAUC_tondrakian_rite",
+  "parent_faith": "armenian_apostolic",
+  "uses_native_rite_effects": true,
+  "icon": "gfx/interface/icons/faith/CAUC_tondrakian.dds",
+  "mass_realm_conversion": false,
+  "founder_generation": "Native-style historical-character template; lifespan adapted to outbreak year",
+  "founder": "Smbat Zarehavantsi",
+  "founder_culture": "armenian",
+  "founder_dynasty": "none; Zarehavantsi is geographic, hereditary lineage unattested",
+  "founder_reference_persists_after_death": true,
+  "tenets": [
+    "tenet_aniconism",
+    "tenet_communal_possessions",
+    "tenet_unrelenting_faith"
+  ],
+  "doctrines": [
+    "doctrine_gender_equal",
+    "doctrine_clerical_gender_either",
+    "doctrine_adultery_men_accepted",
+    "doctrine_adultery_women_accepted",
+    "doctrine_no_head",
+    "doctrine_theocracy_lay_clergy",
+    "doctrine_clerical_marriage_allowed",
+    "doctrine_monasticism_absent",
+    "doctrine_no_anointment"
+  ]
+}

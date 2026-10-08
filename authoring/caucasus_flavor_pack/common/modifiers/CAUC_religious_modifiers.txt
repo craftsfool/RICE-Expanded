@@ -1,0 +1,29 @@
+﻿CAUC_rus_protected = { levy_size = 0.10 county_opinion_add = -10 }
+
+CAUC_rus_instructed = { levy_size = 0.05 tax_mult = -0.03 }
+
+CAUC_rus_dismissed = { levy_size = -0.05 county_opinion_add = 8 }
+
+CAUC_lori_autonomy = { county_opinion_add = 10 tax_mult = -0.03 }
+
+CAUC_lori_rapprochement = { development_growth_factor = 0.08 county_opinion_add = -5 }
+
+CAUC_lori_guarantees = { county_opinion_add = 5 development_growth_factor = 0.03 }
+
+CAUC_ani_church_restored = { county_opinion_add = -5 development_growth_factor = 0.05 }
+
+CAUC_ani_mosque_endowed = { county_opinion_add = -5 tax_mult = 0.05 }
+
+CAUC_ani_existing_use = { county_opinion_add = 8 tax_mult = -0.03 }
+
+CAUC_alan_mission_supported = { development_growth_factor = 0.08 county_opinion_add = -8 }
+
+CAUC_alan_old_rites_protected = { county_opinion_add = 8 development_growth_factor = 0.03 }
+
+CAUC_alan_mission_dismissed = { county_opinion_add = 12 development_growth_factor = -0.05 }
+
+CAUC_tondrakian_refuge = { county_opinion_add = 5 tax_mult = -0.08 }
+
+CAUC_tondrakian_suppressed = { county_opinion_add = -12 tax_mult = 0.05 }
+
+CAUC_tondrakian_assembly = { county_opinion_add = 10 tax_mult = -0.08 levy_size = 0.05 }

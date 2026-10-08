@@ -27,7 +27,7 @@ def main():
    for rel in delta:z.write(target/'RICE'/rel,'RICE/'+rel)
    z.write(target/'RICE.mod','RICE.mod');z.write(ROOT/'CAUCASUS-Expanded.md','CAUCASUS-Expanded.md')
    for p in (target/'reports').glob('*.json'):z.write(p,'reports/'+p.name)
-   z.writestr('UPDATE-INSTRUCTIONS.txt','Requires the existing RICE Expanded expanded.1 installation. Extract over its RICE folder. This merges compatibility into RICE itself. Select one preset, load RICE Expanded after its required base mods, and disable old separate compatibility mods. Keep a backup.\n')
+   z.writestr('UPDATE-INSTRUCTIONS.txt','Requires an existing RICE Expanded expanded.1 or expanded.2 installation. Extract over its RICE folder. Caucasus gameplay and compatibility are built into RICE itself. Select one preset, load RICE Expanded after its required base mods, and disable old separate compatibility mods. Caucasus localization is complete in English, Simplified Chinese and French; five other languages retain fallbacks. This update adds five religious stories and the Tondrakian rite. It replaces the native tenet definitions file only to extend name/description selection for that rite, preserving native mechanics from the recorded 1.20 source. Keep a backup.\n')
   with zipfile.ZipFile(archive) as z:
    assert z.testzip() is None
    assert sorted(n for n in z.namelist() if n.endswith('.mod'))==['RICE.mod','RICE/descriptor.mod']

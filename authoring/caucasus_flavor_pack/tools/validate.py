@@ -15,6 +15,7 @@ def main():
  ap.add_argument('--expanded',type=Path)
  ap.add_argument('--mod',type=Path)
  ap.add_argument('--profile',choices=['base','epe','ce-epe'])
+ ap.add_argument('--publisher-id',help='Validate an installed publisher descriptor with this retained Workshop ID and its absolute local path')
  ap.add_argument('--rice-epe-patch',type=Path)
  ap.add_argument('--rice-ce-patch',type=Path)
  ap.add_argument('--output',type=Path,default=ROOT/'research/static-validation.json')
@@ -44,9 +45,15 @@ def main():
     if m[2].count('[')!=m[2].count(']'):errors.append({'localization_brackets':m[1]})
   if not (root/'descriptor.mod').exists():continue
   desc=(root/'descriptor.mod').read_text()
-  if 'remote_file_id' in desc:errors.append({'workshop_id_in_descriptor':root.name})
   external=(root.parent/(root.name+'.mod')).read_text()
-  if 'path="mod/'+root.name+'"' not in external:errors.append({'descriptor_path':root.name})
+  if a.publisher_id and a.mod:
+   for label,text in [('internal',desc),('external',external)]:
+    if re.findall(r'remote_file_id="([^"]+)"',text)!=[a.publisher_id]:errors.append({'publisher_workshop_id':label})
+   match=re.search(r'path="([^"]+)"',external)
+   if not match or Path(match[1]).resolve()!=root.resolve():errors.append({'publisher_descriptor_path':root.name})
+  else:
+   if 'remote_file_id' in desc:errors.append({'workshop_id_in_descriptor':root.name})
+   if 'path="mod/'+root.name+'"' not in external:errors.append({'descriptor_path':root.name})
  profiles={}
  categories=['common/culture/cultures','common/culture/pillars','common/culture/name_lists','common/culture/traditions','common/ethnicities','common/script_values','common/scripted_effects','common/scripted_triggers','common/scripted_rules','common/modifiers','common/opinion_modifiers','common/game_concepts','common/event_themes','events']
  copies=[i for i in manifest['entries'] if i['category'] in categories and i['category'] not in ('events','common/scripted_effects')]

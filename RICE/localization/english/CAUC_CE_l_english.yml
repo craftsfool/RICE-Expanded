@@ -538,3 +538,6 @@
  udi:0 "Udi"
  udi_collective_noun:0 "Udis"
  udi_prefix:0 "Udi"
+
+ must_not_be_under_culture_head_tradition:0 "You must not be subject to your culture head or to their liege."
+ must_have_duchy_or_better_to_hybridize:0 "You must hold a duchy or a higher-ranking title to create a hybrid culture."

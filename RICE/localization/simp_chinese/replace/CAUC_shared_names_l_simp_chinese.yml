@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+ # Shared personal-name keys also occur in RICE's existing name lists.
+ # Keep the Caucasus transliterations consistent in the final merged registry.
+ Maia:0 "玛雅"
+ Nali:0 "娜莉"
+ Nart:0 "纳尔特"

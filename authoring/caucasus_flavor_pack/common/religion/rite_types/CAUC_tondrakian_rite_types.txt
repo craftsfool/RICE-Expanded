@@ -1,0 +1,40 @@
+CAUC_tondrakian_rite = {
+ name = CAUC_tondrakian_rite
+ desc = {
+  first_valid = {
+   triggered_desc = {
+    trigger = {
+     exists = global_var:CAUC_tondrakian_founder
+     exists = global_var:CAUC_tondrakian_origin
+     exists = global_var:CAUC_tondrakian_founding_year
+    }
+    desc = CAUC_tondrakian_rite_founded_desc
+   }
+   desc = CAUC_tondrakian_rite_desc
+  }
+ }
+ faith = armenian_apostolic
+ # A branch of the vanilla Armenian Apostolic faith, founded through the chain.
+ # Avoid inventing bookmark populations or creating it before a ruler adopts it.
+ create = no
+ convert = yes
+ icon = CAUC_tondrakian
+ color = { 0.65 0.14 0.16 }
+ cultures = { armenian }
+ tenets = {
+  tenet_aniconism
+  tenet_communal_possessions
+  tenet_unrelenting_faith
+ }
+ doctrines = {
+  doctrine_gender_equal
+  doctrine_clerical_gender_either
+  doctrine_adultery_men_accepted
+  doctrine_adultery_women_accepted
+  doctrine_no_head
+  doctrine_theocracy_lay_clergy
+  doctrine_clerical_marriage_allowed
+  doctrine_monasticism_absent
+  doctrine_no_anointment
+ }
+}

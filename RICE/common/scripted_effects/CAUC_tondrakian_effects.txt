@@ -1,0 +1,85 @@
+﻿# Follows the native 1.20 historical-heresy pattern: named founder once,
+# creation in the founder's character scope, anonymous speakers for resurgences.
+# Zarehavantsi is a geographic designation, not an attested hereditary dynasty.
+CAUC_tondrakian_prepare_inquiry_effect = {
+ if = {
+  limit = { NOT = { exists = rite:CAUC_tondrakian_rite } }
+  create_character = {
+   age = 40
+   name = CAUC_smbat_zarehavantsi_name
+   dynasty = none
+   gender_female_chance = 0
+   random_traits = no
+   location = title:c_apahunik.title_province
+   culture = culture:armenian
+   faith = faith:armenian_apostolic
+   trait = education_learning_4
+   trait = zealous
+   trait = brave
+   trait = theologian
+   diplomacy = 12
+   martial = 5
+   stewardship = 10
+   intrigue = 6
+   learning = 20
+   prowess = 5
+   save_scope_as = CAUC_tondrakian_speaker
+  }
+  scope:CAUC_tondrakian_speaker = {
+   save_scope_as = historical_character
+   historical_character_finalization_effect = yes
+   set_variable = CAUC_smbat_zarehavantsi
+   set_global_variable = { name = CAUC_tondrakian_founder value = this }
+   set_global_variable = { name = CAUC_tondrakian_origin value = title:c_apahunik }
+   set_global_variable = { name = CAUC_tondrakian_founding_year value = current_year }
+   create_rite_from_type = { type = CAUC_tondrakian_rite save_scope_as = new_rite convert = yes }
+   add_trait = heresiarch
+   add_character_flag = ai_will_not_convert
+  }
+ }
+ CAUC_tondrakian_select_speaker_effect = yes
+}
+
+CAUC_tondrakian_select_speaker_effect = {
+ if = {
+  limit = {
+   exists = global_var:CAUC_tondrakian_founder
+   global_var:CAUC_tondrakian_founder = { is_alive = yes }
+  }
+  global_var:CAUC_tondrakian_founder = { save_scope_as = CAUC_tondrakian_speaker }
+ }
+ else = {
+  create_character = {
+   age = 35
+   dynasty = none
+   gender_female_chance = 50
+   random_traits = no
+   location = title:c_apahunik.title_province
+   culture = culture:armenian
+   faith = faith:armenian_apostolic
+   trait = education_learning_3
+   trait = zealous
+   trait = humble
+   learning = 14
+   save_scope_as = CAUC_tondrakian_speaker
+  }
+  scope:CAUC_tondrakian_speaker = {
+   set_character_rite = rite:CAUC_tondrakian_rite
+   add_character_flag = ai_will_not_convert
+  }
+ }
+ set_variable = { name = CAUC_tondrakian_inquiry_speaker value = scope:CAUC_tondrakian_speaker }
+}
+
+# Restore the speaker after a save/reload or switch to a living follower if the
+# current speaker died. The permanent founder reference is never overwritten.
+CAUC_tondrakian_recover_speaker_effect = {
+ if = {
+  limit = {
+   has_variable = CAUC_tondrakian_inquiry_speaker
+   var:CAUC_tondrakian_inquiry_speaker = { is_alive = yes }
+  }
+  var:CAUC_tondrakian_inquiry_speaker = { save_scope_as = CAUC_tondrakian_speaker }
+ }
+ else = { CAUC_tondrakian_select_speaker_effect = yes }
+}

@@ -1,0 +1,40 @@
+{
+  "pattern": "Native historical-heresy first founder / later anonymous resurgence",
+  "native_sources": [
+    {
+      "path": "/Users/gaomingxuan/Library/Application Support/Steam/steamapps/common/Crusader Kings III/game/common/scripted_effects/pam_heresy_historical_founder_effects.txt",
+      "sha256": "daf695953fa077d3ff955f793cbd1b33f3fa63454df116d7e55adeb2c4697dde"
+    },
+    {
+      "path": "/Users/gaomingxuan/Library/Application Support/Steam/steamapps/common/Crusader Kings III/game/common/scripted_effects/pam_heresy_shared_effects.txt",
+      "sha256": "f6905cc0c6804b8e93df0180b3abbc67332e4c6fa234a7213bc917f137bcf46e"
+    },
+    {
+      "path": "/Users/gaomingxuan/Library/Application Support/Steam/steamapps/common/Crusader Kings III/game/events/dlc/pam/heresy/pam_heresy_historical_events.txt",
+      "sha256": "88cb4109e92e6bff23580afd678a09c6793935115207ea0dcdb9e886349f9882"
+    },
+    {
+      "path": "/Users/gaomingxuan/Library/Application Support/Steam/steamapps/common/Crusader Kings III/game/common/scripted_effects/00_religion_effects.txt",
+      "sha256": "5bf6b0df3316f72f711507c310a349d508a3b83aef99373ea6440de20e4e4931"
+    },
+    {
+      "path": "/Users/gaomingxuan/Library/Application Support/Steam/steamapps/common/Crusader Kings III/game/localization/english/religion/rites_l_english.yml",
+      "sha256": "e08f6f4f11b939d7709e93505bc58107636af705573782e5a05bbe1a65f55414"
+    },
+    {
+      "path": "/Users/gaomingxuan/Library/Application Support/Steam/steamapps/common/Crusader Kings III/game/common/customizable_localization/00_rite_desc_custom_loc.txt",
+      "sha256": "12c54be35ba633539eddcc7a7f8fcf79ea4caac8dc004f057e478d071e4347d3"
+    }
+  ],
+  "creation_effect": "create_rite_from_type in the founder character scope, convert=yes",
+  "character_finalization": "historical_character_finalization_effect",
+  "native_founder_link": "rite_founder",
+  "name": "Smbat Zarehavantsi",
+  "culture": "armenian",
+  "dynasty": "none; no hereditary lineage asserted; Zarehavantsi indicates Zarehavan origin",
+  "chronology": "Historical activity often placed in early ninth century; c.835 execution in Dadoyan. As in native outbreak templates, the spawned character age is adapted to the outbreak date, not a claim about his historical survival.",
+  "foundation_description": "Native generic format (name, linked founder, place, year, parent faith) and GetGenericRiteTenetSentence; permanent typed references prevent movement, death or resurgence from rewriting the founder record.",
+  "historical_source": "https://api.nla.am/server/api/core/bitstreams/160788bc-91ea-44d5-b3fe-237ce70d286c/content",
+  "historical_source_pages": "90-91",
+  "persistence_checks": "Script model includes founder death and reference serialization; rendered clicks and engine save-load remain untested."
+}

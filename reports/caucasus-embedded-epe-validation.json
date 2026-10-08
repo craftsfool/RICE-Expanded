@@ -1,0 +1,36 @@
+{
+  "errors": [],
+  "profiles": {
+    "epe_standalone": {
+      "errors": [],
+      "layers": [
+        "game",
+        "2507209632",
+        "RICE"
+      ],
+      "cultures_checked": 8,
+      "character_corrections_checked": 65,
+      "english_keys": 838
+    }
+  },
+  "counts": {
+    "decisions": 11,
+    "events": 40,
+    "imported_cultures": 8,
+    "english_keys": 838
+  },
+  "behavior_checks": [
+    "each passage choice leaves one county policy",
+    "policy effects target county scope",
+    "review cost is charged once",
+    "10-year repair/5-year policy expiry",
+    "Gelati threshold: 1106-01-01",
+    "all paid annual options gate their costs"
+  ],
+  "limitations": [
+    "No CK3 process was started. This validates file overlays, references, selected source preservation and a script-subset behavior model, not engine scopes or UI rendering.",
+    "Built into RICE Expanded; Base has vanilla visual fallbacks. EPE presets require EPE; CE-EPE also requires CE. Compatibility files are embedded, with no external compatibility mod required.",
+    "CE compatibility overlay is for the fingerprinted local CE source; unrelated CE 1.20 issues remain outside this pack.",
+    "Exact historical distribution corrections follow CE and are optional; copying does not independently authenticate CE historical claims."
+  ]
+}

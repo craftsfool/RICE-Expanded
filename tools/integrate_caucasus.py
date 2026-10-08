@@ -9,7 +9,7 @@ from ck3_script import entries,registry,canonical,write
 from import_ce import localization,CULTURES
 VISUALS={'ethnicities','coa_gfx','building_gfx','clothing_gfx','unit_gfx','house_coa_frame','house_coa_mask_offset','house_coa_mask_scale'}
 PROFILE_DEPS={'base':[],'epe':['Ethnicities and Portraits Expanded'],'ce-epe':['Ethnicities and Portraits Expanded','Culture Expanded']}
-VERSION='1.20.0-beta-1-expanded.2-caucasus-alpha'
+VERSION='1.20.0-beta-1-expanded.3-caucasus-alpha'
 
 def replace_record(text,key,raw):
  for k,b,a,z in entries(text):
@@ -54,8 +54,8 @@ def main():
   write(p,text)
   p=ROOT/'RICE/common/culture/cultures/00_iranian.txt'
   write(p,replace_record((a.game/'common/culture/cultures/00_iranian.txt').read_text(encoding='utf-8-sig'),'alan',converted['alan']))
-  # English-first fallback coverage is explicit; existing translations and
-  # native vanilla place/culture terms are kept, rather than machine translated.
+  # Authored translations take precedence. Keep old fallback filenames even
+  # when empty so in-place updates replace the previously shipped English text.
   en=localization(ROOT/'RICE','english');fallbacks={}
   for lang in ['simp_chinese','french','german','spanish','russian','polish','japanese']:
    fallback_path=ROOT/'RICE/localization'/lang/('CAUC_english_fallback_l_'+lang+'.yml')
@@ -64,10 +64,10 @@ def main():
    missing=sorted(set(en)-set(have))
    write(ROOT/'RICE/localization'/lang/('CAUC_english_fallback_l_'+lang+'.yml'),'l_'+lang+':\n'+'\n'.join(' '+k+':0 "'+v.get(k,en[k])+'"' for k in missing))
    fallbacks[lang]=missing
-  (ROOT/'reports/caucasus-localization-fallbacks.json').write_text(json.dumps({'translation_status':'English gameplay complete; other languages have explicit English fallbacks and vanilla terms, not completed translations.','languages':fallbacks},ensure_ascii=False,indent=2)+'\n')
+  (ROOT/'reports/caucasus-localization-fallbacks.json').write_text(json.dumps({'translation_status':'Caucasus text complete in English, Simplified Chinese and French; other languages retain explicit English fallbacks and native vanilla terms.','completed_languages':['english','simp_chinese','french'],'languages':fallbacks},ensure_ascii=False,indent=2)+'\n')
   manifest=json.loads((SOURCE/'research/ce-import-manifest.json').read_text())
   manifest['integration']='Built into RICE Expanded. Base uses vanilla visual fallbacks; EPE and CE+EPE install presets embed compatibility and exact CE appearance definitions.'
-  for name in ['ce-import-manifest.json','authored-content.json','vanilla-terminology.json','art-validation.json']:
+  for name in ['ce-import-manifest.json','authored-content.json','vanilla-terminology.json','art-validation.json','religious-content.json','tondrakian-tenet-validation.json','tondrakian-art-validation.json','tondrakian-founder-sources.json']:
    target=ROOT/'reports'/('caucasus-'+name)
    if name=='ce-import-manifest.json':target.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
    else:shutil.copy2(SOURCE/'research'/name,target)

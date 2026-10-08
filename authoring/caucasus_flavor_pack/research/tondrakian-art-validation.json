@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "edit",
+  "reference": "installed vanilla christianity_armenian_cross_03 (reference not redistributed)",
+  "prompt": "Preserve Armenian trefoil cross silhouette and medieval metallic relief; muted oxblood red and copper; two or three fractures with transparent gaps through central join and lower stem; transparent background; no extra objects or text.",
+  "source": "art/source/CAUC_tondrakian_generated.png",
+  "preview": "art/previews/CAUC_tondrakian_icon.png",
+  "texture": "gfx/interface/icons/faith/CAUC_tondrakian.dds",
+  "size": [
+    100,
+    100
+  ],
+  "format": "DXT5",
+  "alpha_range": [
+    0,
+    255
+  ],
+  "sha256": "e773851b4ab2c8ec751dde9a62e654987eb7a86311f412c914474c4a135f67ee"
+}

@@ -1,0 +1,12 @@
+{
+  "source": "/Users/gaomingxuan/Library/Application Support/Steam/steamapps/common/Crusader Kings III/game/common/religion/tenet_types/00_tenet_types.txt",
+  "source_sha256": "d9e18a077d81f18f030d795ef45cb4aa5b7db246007043d5b0fe401baaf88abd",
+  "modified_tenet": "tenet_unrelenting_faith",
+  "changed_fields": [
+    "name",
+    "desc"
+  ],
+  "native_mechanics_unchanged": true,
+  "other_native_tenets_unchanged": true,
+  "native_tenet_count": 71
+}

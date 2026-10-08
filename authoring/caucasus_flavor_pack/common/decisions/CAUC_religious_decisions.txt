@@ -1,0 +1,84 @@
+﻿CAUC_derbent_guards_decision = {
+ picture = { reference = "gfx/interface/illustrations/decisions/CAUC_derbent_pass.dds" }
+ decision_group_type = RICE_regional
+ desc = CAUC_derbent_guards_decision_desc
+ selection_tooltip = CAUC_derbent_guards_decision_tooltip
+ confirm_text = CAUC_derbent_guards_decision_confirm
+ ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
+ cooldown = { years = 10 }
+ is_shown = { is_landed = yes has_title = title:c_derbent faith = { religion = religion:islam_religion } current_date < 1200.1.1 }
+ is_valid = { NOT = { has_character_flag = CAUC_derbent_guards_active } NOT = { title:c_derbent = { has_county_modifier = CAUC_rus_protected } } NOT = { title:c_derbent = { has_county_modifier = CAUC_rus_instructed } } NOT = { title:c_derbent = { has_county_modifier = CAUC_rus_dismissed } } }
+ is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
+ cost = { gold = 75 }
+ effect = { add_character_flag = { flag = CAUC_derbent_guards_active years = 1 }  if = { limit = { has_game_rule = RICE_historical_context_on } custom_tooltip = CAUC_derbent_guards_decision_context } trigger_event = { id = CAUC.0100 days = 1 } }
+ ai_potential = { short_term_gold >= 225 }
+ ai_will_do = { base = 10 }
+}
+
+CAUC_lori_council_decision = {
+ picture = { reference = "gfx/interface/illustrations/decisions/decision_castle_view.dds" }
+ decision_group_type = RICE_regional
+ desc = CAUC_lori_council_decision_desc
+ selection_tooltip = CAUC_lori_council_decision_tooltip
+ confirm_text = CAUC_lori_council_decision_confirm
+ ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
+ cooldown = { years = 10 }
+ is_shown = { is_landed = yes has_title = title:c_lori faith = { religion = religion:christianity_religion } current_date >= 1100.1.1 }
+ is_valid = { NOT = { has_character_flag = CAUC_lori_council_active } NOT = { title:c_lori = { has_county_modifier = CAUC_lori_autonomy } } NOT = { title:c_lori = { has_county_modifier = CAUC_lori_rapprochement } } NOT = { title:c_lori = { has_county_modifier = CAUC_lori_guarantees } } }
+ is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
+ cost = { gold = 25 }
+ effect = { add_character_flag = { flag = CAUC_lori_council_active years = 1 }  if = { limit = { has_game_rule = RICE_historical_context_on } custom_tooltip = CAUC_lori_council_decision_context } trigger_event = { id = CAUC.0110 days = 1 } }
+ ai_potential = { short_term_gold >= 75 }
+ ai_will_do = { base = 10 }
+}
+
+CAUC_ani_sanctuary_decision = {
+ picture = { reference = "gfx/interface/illustrations/decisions/decision_castle_view.dds" }
+ decision_group_type = RICE_regional
+ desc = CAUC_ani_sanctuary_decision_desc
+ selection_tooltip = CAUC_ani_sanctuary_decision_tooltip
+ confirm_text = CAUC_ani_sanctuary_decision_confirm
+ ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
+ cooldown = { years = 10 }
+ is_shown = { is_landed = yes has_title = title:c_hayk OR = { faith = { religion = religion:christianity_religion } faith = { religion = religion:islam_religion } } current_date >= 1064.1.1 }
+ is_valid = { NOT = { has_character_flag = CAUC_ani_sanctuary_active } NOT = { title:c_hayk = { has_county_modifier = CAUC_ani_church_restored } } NOT = { title:c_hayk = { has_county_modifier = CAUC_ani_mosque_endowed } } NOT = { title:c_hayk = { has_county_modifier = CAUC_ani_existing_use } } }
+ is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
+ cost = { gold = 25 }
+ effect = { add_character_flag = { flag = CAUC_ani_sanctuary_active years = 1 } title:c_hayk = { if = { limit = { NOT = { has_variable = CAUC_ani_sanctuary_use } } if = { limit = { root = { current_date >= 1064.1.1 current_date < 1124.1.1 } } set_variable = { name = CAUC_ani_sanctuary_use value = 2 } } else = { set_variable = { name = CAUC_ani_sanctuary_use value = 1 } } } } if = { limit = { has_game_rule = RICE_historical_context_on } custom_tooltip = CAUC_ani_sanctuary_decision_context } trigger_event = { id = CAUC.0120 days = 1 } }
+ ai_potential = { short_term_gold >= 75 }
+ ai_will_do = { base = 10 }
+}
+
+CAUC_alan_mission_decision = {
+ picture = { reference = "gfx/interface/illustrations/decisions/decision_castle_view.dds" }
+ decision_group_type = RICE_regional
+ desc = CAUC_alan_mission_decision_desc
+ selection_tooltip = CAUC_alan_mission_decision_tooltip
+ confirm_text = CAUC_alan_mission_decision_confirm
+ ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
+ cooldown = { years = 10 }
+ is_shown = { is_landed = yes has_title = title:c_maghas current_date < 1200.1.1 }
+ is_valid = { NOT = { has_character_flag = CAUC_alan_mission_active } NOT = { title:c_maghas = { has_county_modifier = CAUC_alan_mission_supported } } NOT = { title:c_maghas = { has_county_modifier = CAUC_alan_old_rites_protected } } NOT = { title:c_maghas = { has_county_modifier = CAUC_alan_mission_dismissed } } }
+ is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
+ cost = { gold = 25 }
+ effect = { add_character_flag = { flag = CAUC_alan_mission_active years = 1 }  if = { limit = { has_game_rule = RICE_historical_context_on } custom_tooltip = CAUC_alan_mission_decision_context } trigger_event = { id = CAUC.0130 days = 1 } }
+ ai_potential = { short_term_gold >= 75 }
+ ai_will_do = { base = 10 }
+}
+
+CAUC_tondrakian_inquiry_decision = {
+ picture = { reference = "gfx/interface/illustrations/decisions/decision_castle_view.dds" }
+ decision_group_type = RICE_regional
+ desc = CAUC_tondrakian_inquiry_decision_desc
+ selection_tooltip = CAUC_tondrakian_inquiry_decision_tooltip
+ confirm_text = CAUC_tondrakian_inquiry_decision_confirm
+ ai_check_interval_by_tier = { barony = 0 county = 48 duchy = 48 kingdom = 64 empire = 64 hegemony = 64 }
+ cooldown = { years = 10 }
+ is_shown = { is_landed = yes has_title = title:c_apahunik faith = { religion = religion:christianity_religion } current_date < 1100.1.1 }
+ is_valid = { NOT = { has_character_flag = CAUC_tondrakian_inquiry_active } NOT = { title:c_apahunik = { has_county_modifier = CAUC_tondrakian_refuge } } NOT = { title:c_apahunik = { has_county_modifier = CAUC_tondrakian_suppressed } } NOT = { title:c_apahunik = { has_county_modifier = CAUC_tondrakian_assembly } } }
+ is_valid_showing_failures_only = { is_available_adult = yes is_imprisoned = no is_at_war = no }
+ cost = { gold = 25 }
+ effect = { add_character_flag = { flag = CAUC_tondrakian_inquiry_active years = 1 } CAUC_tondrakian_prepare_inquiry_effect = yes if = { limit = { has_game_rule = RICE_historical_context_on } custom_tooltip = CAUC_tondrakian_inquiry_decision_context } trigger_event = { id = CAUC.0140 days = 1 } }
+ ai_potential = { short_term_gold >= 75 }
+ ai_will_do = { base = 10 }
+}

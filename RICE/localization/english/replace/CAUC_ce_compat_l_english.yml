@@ -1,0 +1,13 @@
+﻿l_english:
+# Original CE identifiers use the same localized Caucasus text in the embedded CE preset.
+ DE_decision_event.0025.a:0 "$CAUC_CE.0025.a$"
+ DE_decision_event.0025.desc:0 "$CAUC_CE.0025.desc$"
+ DE_decision_event.0025.t:0 "$CAUC_CE.0025.t$"
+ de_imperial_pretender_opinions:0 "$CAUC_imperial_pretender$"
+ e_transcaucasia:0 "$e_CAUC_transcaucasia$"
+ e_transcaucasia_adj:0 "$e_CAUC_transcaucasia_adj$"
+ establish_transcaucasia_decision:0 "$CAUC_establish_transcaucasia_decision$"
+ establish_transcaucasia_decision_confirm:0 "$CAUC_establish_transcaucasia_decision_confirm$"
+ establish_transcaucasia_decision_desc:0 "$CAUC_establish_transcaucasia_decision_desc$"
+ establish_transcaucasia_decision_tooltip:0 "$CAUC_establish_transcaucasia_decision_tooltip$"
+ establish_transcaucasia_trigger:0 "$CAUC_establish_transcaucasia_trigger$"
